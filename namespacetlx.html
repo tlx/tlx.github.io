@@ -202,6 +202,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a1d9badf37d1c25afa12bd26e59f1598b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1d9badf37d1c25afa12bd26e59f1598b">erase_all</a> (const std::string &amp;str, const std::string &amp;drop)</td></tr>
 <tr class="memdesc:a1d9badf37d1c25afa12bd26e59f1598b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all occurrences of the given characters, return copy of string.  <a href="#a1d9badf37d1c25afa12bd26e59f1598b">More...</a><br/></td></tr>
 <tr class="separator:a1d9badf37d1c25afa12bd26e59f1598b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab562960c36651ded93c09da49c82a2cd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab562960c36651ded93c09da49c82a2cd">format_si_units</a> (uint64_t number, int precision)</td></tr>
+<tr class="memdesc:ab562960c36651ded93c09da49c82a2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format number as something like 1 TB.  <a href="#ab562960c36651ded93c09da49c82a2cd">More...</a><br/></td></tr>
+<tr class="separator:ab562960c36651ded93c09da49c82a2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acce90a4e027f6e52ef1598392d39568f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#acce90a4e027f6e52ef1598392d39568f">format_iec_units</a> (uint64_t number, int precision)</td></tr>
+<tr class="memdesc:acce90a4e027f6e52ef1598392d39568f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format number as something like 1 TiB.  <a href="#acce90a4e027f6e52ef1598392d39568f">More...</a><br/></td></tr>
+<tr class="separator:acce90a4e027f6e52ef1598392d39568f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1745dfeabacc1acb2d27abbcf553f844"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1745dfeabacc1acb2d27abbcf553f844">hexdump</a> (const void *const data, size_t size)</td></tr>
 <tr class="memdesc:a1745dfeabacc1acb2d27abbcf553f844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string as a sequence of uppercase hexadecimal pairs.  <a href="#a1745dfeabacc1acb2d27abbcf553f844">More...</a><br/></td></tr>
 <tr class="separator:a1745dfeabacc1acb2d27abbcf553f844"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,6 +271,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a2e35ca12bd4564ba470e3bf4f6a91798"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a2e35ca12bd4564ba470e3bf4f6a91798">join</a> (const std::string &amp;glue, const Container &amp;parts)</td></tr>
 <tr class="memdesc:a2e35ca12bd4564ba470e3bf4f6a91798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a Container of strings by some glue string between each pair from the sequence.  <a href="#a2e35ca12bd4564ba470e3bf4f6a91798">More...</a><br/></td></tr>
 <tr class="separator:a2e35ca12bd4564ba470e3bf4f6a91798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05df4ec244bd2d205d7b3a703f7a1849"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a05df4ec244bd2d205d7b3a703f7a1849">parse_si_iec_units</a> (const char *str, uint64_t *out_size, char default_unit=0)</td></tr>
+<tr class="memdesc:a05df4ec244bd2d205d7b3a703f7a1849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a string like "343KB" or "44 GiB" into the corresponding size in bytes.  <a href="#a05df4ec244bd2d205d7b3a703f7a1849">More...</a><br/></td></tr>
+<tr class="separator:a05df4ec244bd2d205d7b3a703f7a1849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3af33ea198b337b54631777267f9f03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ad3af33ea198b337b54631777267f9f03">parse_si_iec_units</a> (const std::string &amp;str, uint64_t *out_size, char default_unit=0)</td></tr>
+<tr class="memdesc:ad3af33ea198b337b54631777267f9f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a string like "343KB" or "44 GiB" into the corresponding size in bytes.  <a href="#ad3af33ea198b337b54631777267f9f03">More...</a><br/></td></tr>
+<tr class="separator:ad3af33ea198b337b54631777267f9f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5bfd5af4ef681e5431a9dcc9b2f69fe"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe">replace_first</a> (std::string *str, const std::string &amp;needle, const std::string &amp;instead)</td></tr>
 <tr class="memdesc:ab5bfd5af4ef681e5431a9dcc9b2f69fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace only the first occurrence of needle in str.  <a href="#ab5bfd5af4ef681e5431a9dcc9b2f69fe">More...</a><br/></td></tr>
 <tr class="separator:ab5bfd5af4ef681e5431a9dcc9b2f69fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1148,6 +1160,70 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="acce90a4e027f6e52ef1598392d39568f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::format_iec_units </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>number</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>precision</em> = <code>3</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Format number as something like 1 TiB. </p>
+<p>Format a byte size using IEC (Ki, Mi, Gi, Ti) suffixes (powers of two).</p>
+<p>Returns "123 Ki" or similar. </p>
+
+<p>Definition at line <a class="el" href="format__si__iec__units_8cpp_source.html#l00038">38</a> of file <a class="el" href="format__si__iec__units_8cpp_source.html">format_si_iec_units.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab562960c36651ded93c09da49c82a2cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::format_si_units </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>number</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>precision</em> = <code>3</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Format number as something like 1 TB. </p>
+<p>Format a byte size using SI (K, M, G, T) suffixes (powers of ten).</p>
+<p>Returns "123 M" or similar. </p>
+
+<p>Definition at line <a class="el" href="format__si__iec__units_8cpp_source.html#l00019">19</a> of file <a class="el" href="format__si__iec__units_8cpp_source.html">format_si_iec_units.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a1745dfeabacc1acb2d27abbcf553f844"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1876,6 +1952,80 @@ template&lt;typename A &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>string of read bytes </dd></dl>
 
 <p>Definition at line <a class="el" href="hexdump_8cpp_source.html#l00131">131</a> of file <a class="el" href="hexdump_8cpp_source.html">hexdump.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a05df4ec244bd2d205d7b3a703f7a1849"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::parse_si_iec_units </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>out_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>default_unit</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parse a string like "343KB" or "44 GiB" into the corresponding size in bytes. </p>
+<p>Returns the number of bytes and sets ok = true if the string could be parsed correctly. If no units indicator is given, use def_unit in k/m/g/t/p (powers of ten) or in K/M/G/T/P (power of two). </p>
+
+<p>Definition at line <a class="el" href="parse__si__iec__units_8cpp_source.html#l00017">17</a> of file <a class="el" href="parse__si__iec__units_8cpp_source.html">parse_si_iec_units.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad3af33ea198b337b54631777267f9f03"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::parse_si_iec_units </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>out_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>default_unit</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parse a string like "343KB" or "44 GiB" into the corresponding size in bytes. </p>
+<p>Returns the number of bytes and sets ok = true if the string could be parsed correctly. If no units indicator is given, use def_unit in k/m/g/t/p (powers of ten) or in K/M/G/T/P (power of two). </p>
+
+<p>Definition at line <a class="el" href="parse__si__iec__units_8cpp_source.html#l00088">88</a> of file <a class="el" href="parse__si__iec__units_8cpp_source.html">parse_si_iec_units.cpp</a>.</p>
 
 </div>
 </div>
@@ -4132,7 +4282,7 @@ template&lt;typename A &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Mon Feb 20 2017 20:57:10 for tlx by
+    <li class="footer">Generated on Mon Feb 20 2017 22:36:50 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
