@@ -15,5 +15,7 @@ var dir_45a7f11e1a4af18f182d54b603484851 =
     [ "to_upper.cpp", "to__upper_8cpp.html", "to__upper_8cpp" ],
     [ "to_upper.hpp", "to__upper_8hpp.html", "to__upper_8hpp" ],
     [ "trim.cpp", "trim_8cpp.html", "trim_8cpp" ],
-    [ "trim.hpp", "trim_8hpp.html", "trim_8hpp" ]
+    [ "trim.hpp", "trim_8hpp.html", "trim_8hpp" ],
+    [ "word_wrap.cpp", "word__wrap_8cpp.html", "word__wrap_8cpp" ],
+    [ "word_wrap.hpp", "word__wrap_8hpp.html", "word__wrap_8hpp" ]
 ];

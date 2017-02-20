@@ -334,6 +334,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac21eb3ad7a12fc40ddf705915556656c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ac21eb3ad7a12fc40ddf705915556656c">trim_left</a> (const std::string &amp;str, const std::string &amp;drop)</td></tr>
 <tr class="memdesc:ac21eb3ad7a12fc40ddf705915556656c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trims the given string only on the left.  <a href="#ac21eb3ad7a12fc40ddf705915556656c">More...</a><br/></td></tr>
 <tr class="separator:ac21eb3ad7a12fc40ddf705915556656c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab22e05055aa827de79236f0cb53354d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#aab22e05055aa827de79236f0cb53354d">word_wrap</a> (const std::string &amp;str, unsigned int wrap=80)</td></tr>
+<tr class="memdesc:aab22e05055aa827de79236f0cb53354d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to wrap a string to 80 columns without split words.  <a href="#aab22e05055aa827de79236f0cb53354d">More...</a><br/></td></tr>
+<tr class="separator:aab22e05055aa827de79236f0cb53354d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ac81eee6726695191b838c71cfab87775"></a>
@@ -2779,13 +2782,44 @@ template&lt;typename A &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aab22e05055aa827de79236f0cb53354d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::word_wrap </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>wrap</em> = <code>80</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Try to wrap a string to 80 columns without split words. </p>
+<p>All newlines are kept, new newline characters are inserted only at spaces, hence, words are never split. If words longer than 80 columns occur they are NOT broken. </p>
+
+<p>Definition at line <a class="el" href="word__wrap_8cpp_source.html#l00017">17</a> of file <a class="el" href="word__wrap_8cpp_source.html">word_wrap.cpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Mon Feb 20 2017 17:18:54 for tlx by
+    <li class="footer">Generated on Mon Feb 20 2017 18:38:01 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
