@@ -240,6 +240,31 @@ Functions</h2></td></tr>
 <tr class="memitem:a0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a0b2f444830d8f7b1b0eaf93b5f514bf7">hexdump_lc_type</a> (const Type &amp;t)</td></tr>
 <tr class="memdesc:a0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) item as a sequence of lowercase hexadecimal pairs.  <a href="#a0b2f444830d8f7b1b0eaf93b5f514bf7">More...</a><br/></td></tr>
 <tr class="separator:a0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e0803e79d9afd1da9bf6c70599031ee"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1e0803e79d9afd1da9bf6c70599031ee">join</a> (char glue, const std::vector&lt; std::string &gt; &amp;parts)</td></tr>
+<tr class="memdesc:a1e0803e79d9afd1da9bf6c70599031ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a vector of strings by some glue character between each pair from the sequence.  <a href="#a1e0803e79d9afd1da9bf6c70599031ee">More...</a><br/></td></tr>
+<tr class="separator:a1e0803e79d9afd1da9bf6c70599031ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51e95b9812cee008cbdbcb30cc73531c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a51e95b9812cee008cbdbcb30cc73531c">join</a> (const char *glue, const std::vector&lt; std::string &gt; &amp;parts)</td></tr>
+<tr class="memdesc:a51e95b9812cee008cbdbcb30cc73531c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a vector of strings by some glue string between each pair from the sequence.  <a href="#a51e95b9812cee008cbdbcb30cc73531c">More...</a><br/></td></tr>
+<tr class="separator:a51e95b9812cee008cbdbcb30cc73531c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a754a19d10bba45d654c79cfec23d37"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a6a754a19d10bba45d654c79cfec23d37">join</a> (const std::string &amp;glue, const std::vector&lt; std::string &gt; &amp;parts)</td></tr>
+<tr class="memdesc:a6a754a19d10bba45d654c79cfec23d37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a vector of strings by some glue string between each pair from the sequence.  <a href="#a6a754a19d10bba45d654c79cfec23d37">More...</a><br/></td></tr>
+<tr class="separator:a6a754a19d10bba45d654c79cfec23d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af0448079469f224ea8905c34dc1868"><td class="memTemplParams" colspan="2">template&lt;typename Glue , typename Iterator &gt; </td></tr>
+<tr class="memitem:a1af0448079469f224ea8905c34dc1868"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1af0448079469f224ea8905c34dc1868">join</a> (Glue glue, Iterator first, Iterator last)</td></tr>
+<tr class="memdesc:a1af0448079469f224ea8905c34dc1868"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a sequence of strings by some glue string between each pair from the sequence.  <a href="#a1af0448079469f224ea8905c34dc1868">More...</a><br/></td></tr>
+<tr class="separator:a1af0448079469f224ea8905c34dc1868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a96227b0edd6c65800124ba1dac82cf"><td class="memTemplParams" colspan="2">template&lt;typename Container &gt; </td></tr>
+<tr class="memitem:a4a96227b0edd6c65800124ba1dac82cf"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a4a96227b0edd6c65800124ba1dac82cf">join</a> (char glue, const Container &amp;parts)</td></tr>
+<tr class="memdesc:a4a96227b0edd6c65800124ba1dac82cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a Container of strings by some glue character between each pair from the sequence.  <a href="#a4a96227b0edd6c65800124ba1dac82cf">More...</a><br/></td></tr>
+<tr class="separator:a4a96227b0edd6c65800124ba1dac82cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affea57c0c1e61aa8c9bc50e1ec2f9fe2"><td class="memTemplParams" colspan="2">template&lt;typename Container &gt; </td></tr>
+<tr class="memitem:affea57c0c1e61aa8c9bc50e1ec2f9fe2"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#affea57c0c1e61aa8c9bc50e1ec2f9fe2">join</a> (const char *glue, const Container &amp;parts)</td></tr>
+<tr class="memdesc:affea57c0c1e61aa8c9bc50e1ec2f9fe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a Container of strings by some glue string between each pair from the sequence.  <a href="#affea57c0c1e61aa8c9bc50e1ec2f9fe2">More...</a><br/></td></tr>
+<tr class="separator:affea57c0c1e61aa8c9bc50e1ec2f9fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e35ca12bd4564ba470e3bf4f6a91798"><td class="memTemplParams" colspan="2">template&lt;typename Container &gt; </td></tr>
+<tr class="memitem:a2e35ca12bd4564ba470e3bf4f6a91798"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a2e35ca12bd4564ba470e3bf4f6a91798">join</a> (const std::string &amp;glue, const Container &amp;parts)</td></tr>
+<tr class="memdesc:a2e35ca12bd4564ba470e3bf4f6a91798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a Container of strings by some glue string between each pair from the sequence.  <a href="#a2e35ca12bd4564ba470e3bf4f6a91798">More...</a><br/></td></tr>
+<tr class="separator:a2e35ca12bd4564ba470e3bf4f6a91798"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5bfd5af4ef681e5431a9dcc9b2f69fe"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe">replace_first</a> (std::string *str, const std::string &amp;needle, const std::string &amp;instead)</td></tr>
 <tr class="memdesc:ab5bfd5af4ef681e5431a9dcc9b2f69fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace only the first occurrence of needle in str.  <a href="#ab5bfd5af4ef681e5431a9dcc9b2f69fe">More...</a><br/></td></tr>
 <tr class="separator:ab5bfd5af4ef681e5431a9dcc9b2f69fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,6 +313,44 @@ Functions</h2></td></tr>
 <tr class="memitem:aac4636c5529e88f38fa2322cdb5cd735"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#aac4636c5529e88f38fa2322cdb5cd735">replace_all</a> (const std::string &amp;str, const char *needle, const char *instead)</td></tr>
 <tr class="memdesc:aac4636c5529e88f38fa2322cdb5cd735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace all occurrences of needle in str.  <a href="#aac4636c5529e88f38fa2322cdb5cd735">More...</a><br/></td></tr>
 <tr class="separator:aac4636c5529e88f38fa2322cdb5cd735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3800f082eca7b380e4191684ff7cfade"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a3800f082eca7b380e4191684ff7cfade">split</a> (char sep, const std::string &amp;str, std::string::size_type limit=std::string::npos)</td></tr>
+<tr class="memdesc:a3800f082eca7b380e4191684ff7cfade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator character into distinct substrings.  <a href="#a3800f082eca7b380e4191684ff7cfade">More...</a><br/></td></tr>
+<tr class="separator:a3800f082eca7b380e4191684ff7cfade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15bde434fa34b9e603a1c053ac7f173a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a15bde434fa34b9e603a1c053ac7f173a">split</a> (const char *sep, const std::string &amp;str, std::string::size_type limit=std::string::npos)</td></tr>
+<tr class="memdesc:a15bde434fa34b9e603a1c053ac7f173a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator string into distinct substrings.  <a href="#a15bde434fa34b9e603a1c053ac7f173a">More...</a><br/></td></tr>
+<tr class="separator:a15bde434fa34b9e603a1c053ac7f173a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad14d975dfb31444851d8f5198fc0865c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ad14d975dfb31444851d8f5198fc0865c">split</a> (const std::string &amp;sep, const std::string &amp;str, std::string::size_type limit=std::string::npos)</td></tr>
+<tr class="memdesc:ad14d975dfb31444851d8f5198fc0865c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator string into distinct substrings.  <a href="#ad14d975dfb31444851d8f5198fc0865c">More...</a><br/></td></tr>
+<tr class="separator:ad14d975dfb31444851d8f5198fc0865c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555f3c9768d7c087c8f29208fe14e41c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a555f3c9768d7c087c8f29208fe14e41c">split</a> (char sep, const std::string &amp;str, std::string::size_type min_fields, std::string::size_type limit)</td></tr>
+<tr class="memdesc:a555f3c9768d7c087c8f29208fe14e41c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator character into distinct substrings.  <a href="#a555f3c9768d7c087c8f29208fe14e41c">More...</a><br/></td></tr>
+<tr class="separator:a555f3c9768d7c087c8f29208fe14e41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab399920b2f8a655e20dc10436ea5cf79"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab399920b2f8a655e20dc10436ea5cf79">split</a> (const char *sep, const std::string &amp;str, std::string::size_type min_fields, std::string::size_type limit)</td></tr>
+<tr class="memdesc:ab399920b2f8a655e20dc10436ea5cf79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator string into distinct substrings.  <a href="#ab399920b2f8a655e20dc10436ea5cf79">More...</a><br/></td></tr>
+<tr class="separator:ab399920b2f8a655e20dc10436ea5cf79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33b86a8d73bdc55660409d7c7f54a77"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ad33b86a8d73bdc55660409d7c7f54a77">split</a> (const std::string &amp;sep, const std::string &amp;str, std::string::size_type min_fields, std::string::size_type limit)</td></tr>
+<tr class="memdesc:ad33b86a8d73bdc55660409d7c7f54a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator string into distinct substrings.  <a href="#ad33b86a8d73bdc55660409d7c7f54a77">More...</a><br/></td></tr>
+<tr class="separator:ad33b86a8d73bdc55660409d7c7f54a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae43e0a4decab660095dbf98fa6151f16"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ae43e0a4decab660095dbf98fa6151f16">split</a> (std::vector&lt; std::string &gt; *into, char sep, const std::string &amp;str, std::string::size_type limit=std::string::npos)</td></tr>
+<tr class="memdesc:ae43e0a4decab660095dbf98fa6151f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator character into distinct substrings.  <a href="#ae43e0a4decab660095dbf98fa6151f16">More...</a><br/></td></tr>
+<tr class="separator:ae43e0a4decab660095dbf98fa6151f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae88597e53210df27ef4d5db668a02fa7"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ae88597e53210df27ef4d5db668a02fa7">split</a> (std::vector&lt; std::string &gt; *into, const char *sep, size_t sep_size, const std::string &amp;str, std::string::size_type limit)</td></tr>
+<tr class="separator:ae88597e53210df27ef4d5db668a02fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb9b9c50ad82ec43bbf672f4b4caa4b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#aecb9b9c50ad82ec43bbf672f4b4caa4b">split</a> (std::vector&lt; std::string &gt; *into, const char *sep, const std::string &amp;str, std::string::size_type limit=std::string::npos)</td></tr>
+<tr class="memdesc:aecb9b9c50ad82ec43bbf672f4b4caa4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator string into distinct substrings.  <a href="#aecb9b9c50ad82ec43bbf672f4b4caa4b">More...</a><br/></td></tr>
+<tr class="separator:aecb9b9c50ad82ec43bbf672f4b4caa4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ce983b04c074ca5138564e431d4a7b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a48ce983b04c074ca5138564e431d4a7b">split</a> (std::vector&lt; std::string &gt; *into, const std::string &amp;sep, const std::string &amp;str, std::string::size_type limit=std::string::npos)</td></tr>
+<tr class="memdesc:a48ce983b04c074ca5138564e431d4a7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator string into distinct substrings.  <a href="#a48ce983b04c074ca5138564e431d4a7b">More...</a><br/></td></tr>
+<tr class="separator:a48ce983b04c074ca5138564e431d4a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a9fa6574cdc019fa938fb003b12e49"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ac0a9fa6574cdc019fa938fb003b12e49">split</a> (std::vector&lt; std::string &gt; *into, char sep, const std::string &amp;str, std::string::size_type min_fields, std::string::size_type limit)</td></tr>
+<tr class="memdesc:ac0a9fa6574cdc019fa938fb003b12e49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator character into distinct substrings.  <a href="#ac0a9fa6574cdc019fa938fb003b12e49">More...</a><br/></td></tr>
+<tr class="separator:ac0a9fa6574cdc019fa938fb003b12e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757c5e0dddc69fceec20b6782477c98f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a757c5e0dddc69fceec20b6782477c98f">split</a> (std::vector&lt; std::string &gt; *into, const char *sep, const std::string &amp;str, std::string::size_type min_fields, std::string::size_type limit)</td></tr>
+<tr class="memdesc:a757c5e0dddc69fceec20b6782477c98f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator string into distinct substrings.  <a href="#a757c5e0dddc69fceec20b6782477c98f">More...</a><br/></td></tr>
+<tr class="separator:a757c5e0dddc69fceec20b6782477c98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf4c1cb8940c98d9bc913f2b5bd087e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a3cf4c1cb8940c98d9bc913f2b5bd087e">split</a> (std::vector&lt; std::string &gt; *into, const std::string &amp;sep, const std::string &amp;str, std::string::size_type min_fields, std::string::size_type limit)</td></tr>
+<tr class="memdesc:a3cf4c1cb8940c98d9bc913f2b5bd087e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator string into distinct substrings.  <a href="#a3cf4c1cb8940c98d9bc913f2b5bd087e">More...</a><br/></td></tr>
+<tr class="separator:a3cf4c1cb8940c98d9bc913f2b5bd087e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab50650708407ad9fd1dbc6fedc945678"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab50650708407ad9fd1dbc6fedc945678">starts_with</a> (const std::string &amp;str, const std::string &amp;match)</td></tr>
 <tr class="memdesc:ab50650708407ad9fd1dbc6fedc945678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given match string is located at the start of this string.  <a href="#ab50650708407ad9fd1dbc6fedc945678">More...</a><br/></td></tr>
 <tr class="separator:ab50650708407ad9fd1dbc6fedc945678"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1420,6 +1483,320 @@ template&lt;typename Type &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a1e0803e79d9afd1da9bf6c70599031ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::join </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>glue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Join a vector of strings by some glue character between each pair from the sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">glue</td><td>character for glue </td></tr>
+    <tr><td class="paramname">parts</td><td>the vector of strings to join </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string constructed from the vector with the glue between two strings </dd></dl>
+
+<p>Definition at line <a class="el" href="join_8cpp_source.html#l00016">16</a> of file <a class="el" href="join_8cpp_source.html">join.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a51e95b9812cee008cbdbcb30cc73531c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::join </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>glue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Join a vector of strings by some glue string between each pair from the sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">glue</td><td>string to glue </td></tr>
+    <tr><td class="paramname">parts</td><td>the vector of strings to join </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string constructed from the vector with the glue between two strings </dd></dl>
+
+<p>Definition at line <a class="el" href="join_8cpp_source.html#l00020">20</a> of file <a class="el" href="join_8cpp_source.html">join.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6a754a19d10bba45d654c79cfec23d37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::join </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>glue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>parts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Join a vector of strings by some glue string between each pair from the sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">glue</td><td>string to glue </td></tr>
+    <tr><td class="paramname">parts</td><td>the vector of strings to join </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string constructed from the vector with the glue between two strings </dd></dl>
+
+<p>Definition at line <a class="el" href="join_8cpp_source.html#l00024">24</a> of file <a class="el" href="join_8cpp_source.html">join.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1af0448079469f224ea8905c34dc1868"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Glue , typename Iterator &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string tlx::join </td>
+          <td>(</td>
+          <td class="paramtype">Glue&#160;</td>
+          <td class="paramname"><em>glue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Iterator&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Iterator&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Join a sequence of strings by some glue string between each pair from the sequence. </p>
+<p>The sequence in given as a range between two iterators.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">glue</td><td>string to glue </td></tr>
+    <tr><td class="paramname">first</td><td>the beginning iterator of the range to join </td></tr>
+    <tr><td class="paramname">last</td><td>the ending iterator of the range to join </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string constructed from the range with the glue between two strings. </dd></dl>
+
+<p>Definition at line <a class="el" href="join__generic_8hpp_source.html#l00030">30</a> of file <a class="el" href="join__generic_8hpp_source.html">join_generic.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4a96227b0edd6c65800124ba1dac82cf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Container &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string tlx::join </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>glue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Container &amp;&#160;</td>
+          <td class="paramname"><em>parts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Join a Container of strings by some glue character between each pair from the sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">glue</td><td>character for glue </td></tr>
+    <tr><td class="paramname">parts</td><td>the vector of strings to join </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string constructed from the vector with the glue between two strings </dd></dl>
+
+<p>Definition at line <a class="el" href="join__generic_8hpp_source.html#l00057">57</a> of file <a class="el" href="join__generic_8hpp_source.html">join_generic.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="affea57c0c1e61aa8c9bc50e1ec2f9fe2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Container &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string tlx::join </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>glue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Container &amp;&#160;</td>
+          <td class="paramname"><em>parts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Join a Container of strings by some glue string between each pair from the sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">glue</td><td>string to glue </td></tr>
+    <tr><td class="paramname">parts</td><td>the vector of strings to join </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string constructed from the vector with the glue between two strings </dd></dl>
+
+<p>Definition at line <a class="el" href="join__generic_8hpp_source.html#l00071">71</a> of file <a class="el" href="join__generic_8hpp_source.html">join_generic.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2e35ca12bd4564ba470e3bf4f6a91798"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Container &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string tlx::join </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>glue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Container &amp;&#160;</td>
+          <td class="paramname"><em>parts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Join a Container of strings by some glue string between each pair from the sequence. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">glue</td><td>string to glue </td></tr>
+    <tr><td class="paramname">parts</td><td>the vector of strings to join </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string constructed from the vector with the glue between two strings </dd></dl>
+
+<p>Definition at line <a class="el" href="join__generic_8hpp_source.html#l00085">85</a> of file <a class="el" href="join__generic_8hpp_source.html">join_generic.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae38d352a065543cf324f52a58bd2b026"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2235,6 +2612,696 @@ template&lt;typename A &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>copy of string possibly with replacement </dd></dl>
 
 <p>Definition at line <a class="el" href="replace_8cpp_source.html#l00105">105</a> of file <a class="el" href="replace_8cpp_source.html">replace.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3800f082eca7b380e4191684ff7cfade"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em> = <code>std::string::npos</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator character into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sep</td><td>separator character </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00020">20</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a15bde434fa34b9e603a1c053ac7f173a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em> = <code>std::string::npos</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator string into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sep</td><td>separator string </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00028">28</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad14d975dfb31444851d8f5198fc0865c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em> = <code>std::string::npos</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator string into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sep</td><td>separator string </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00036">36</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a555f3c9768d7c087c8f29208fe14e41c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>min_fields</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator character into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings. Returns a vector of strings with at least min_fields and at most limit_fields, empty fields are added if needed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sep</td><td>separator character </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">min</td><td>minimum number of parts returned </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00047">47</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab399920b2f8a655e20dc10436ea5cf79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>min_fields</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator string into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings. Returns a vector of strings with at least min_fields and at most limit_fields, empty fields are added if needed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sep</td><td>separator string </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">min</td><td>minimum number of parts returned </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00056">56</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad33b86a8d73bdc55660409d7c7f54a77"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>min_fields</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator string into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings. Returns a vector of strings with at least min_fields and at most limit_fields, empty fields are added if needed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sep</td><td>separator string </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">min</td><td>minimum number of parts returned </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00065">65</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae43e0a4decab660095dbf98fa6151f16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; &amp; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>into</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em> = <code>std::string::npos</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator character into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">into</td><td>destination std::vector </td></tr>
+    <tr><td class="paramname">sep</td><td>separator character </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00077">77</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae88597e53210df27ef4d5db668a02fa7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::vector&lt;std::string&gt;&amp; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>into</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>sep_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00107">107</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aecb9b9c50ad82ec43bbf672f4b4caa4b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; &amp; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>into</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em> = <code>std::string::npos</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator string into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">into</td><td>destination std::vector </td></tr>
+    <tr><td class="paramname">sep</td><td>separator string </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00147">147</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a48ce983b04c074ca5138564e431d4a7b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; &amp; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>into</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em> = <code>std::string::npos</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator string into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">into</td><td>destination std::vector </td></tr>
+    <tr><td class="paramname">sep</td><td>separator string </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00155">155</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac0a9fa6574cdc019fa938fb003b12e49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; &amp; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>into</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>min_fields</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator character into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings. Returns a vector of strings with at least min_fields and at most limit_fields, empty fields are added if needed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">into</td><td>destination std::vector </td></tr>
+    <tr><td class="paramname">sep</td><td>separator character </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">min</td><td>minimum number of parts returned </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00166">166</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a757c5e0dddc69fceec20b6782477c98f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; &amp; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>into</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>min_fields</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator string into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings. Returns a vector of strings with at least min_fields and at most limit_fields, empty fields are added if needed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">into</td><td>destination std::vector </td></tr>
+    <tr><td class="paramname">sep</td><td>separator string </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">min</td><td>minimum number of parts returned </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00179">179</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3cf4c1cb8940c98d9bc913f2b5bd087e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; &amp; tlx::split </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>into</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>min_fields</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string at each separator string into distinct substrings. </p>
+<p>Multiple consecutive separators are considered individually and will result in empty split substrings. Returns a vector of strings with at least min_fields and at most limit_fields, empty fields are added if needed.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">into</td><td>destination std::vector </td></tr>
+    <tr><td class="paramname">sep</td><td>separator string </td></tr>
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">min</td><td>minimum number of parts returned </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split_8cpp_source.html#l00192">192</a> of file <a class="el" href="split_8cpp_source.html">split.cpp</a>.</p>
 
 </div>
 </div>
@@ -3065,7 +4132,7 @@ template&lt;typename A &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Mon Feb 20 2017 19:25:40 for tlx by
+    <li class="footer">Generated on Mon Feb 20 2017 20:57:10 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

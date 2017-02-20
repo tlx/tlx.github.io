@@ -2,3 +2,21 @@ warning: ignoring unsupported tag `SOURCE_TOOLTIPS        =' at line 928, file D
 warning: ignoring unsupported tag `MATHJAX_CODEFILE       =' at line 1438, file Doxyfile
 warning: ignoring unsupported tag `GENERATE_DOCBOOK       =' at line 1574, file Doxyfile
 warning: ignoring unsupported tag `EXTERNAL_PAGES         =' at line 1721, file Doxyfile
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:68: warning: argument 'min' of command @param is not found in the argument list of tlx::split(char sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit)
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:68: warning: The following parameters of tlx::split(char sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit) are not documented:
+  parameter 'min_fields'
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:84: warning: argument 'min' of command @param is not found in the argument list of tlx::split(const char *sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit)
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:84: warning: The following parameters of tlx::split(const char *sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit) are not documented:
+  parameter 'min_fields'
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:100: warning: argument 'min' of command @param is not found in the argument list of tlx::split(const std::string &sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit)
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:100: warning: The following parameters of tlx::split(const std::string &sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit) are not documented:
+  parameter 'min_fields'
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:170: warning: argument 'min' of command @param is not found in the argument list of tlx::split(std::vector< std::string > *into, char sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit)
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:170: warning: The following parameters of tlx::split(std::vector< std::string > *into, char sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit) are not documented:
+  parameter 'min_fields'
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:188: warning: argument 'min' of command @param is not found in the argument list of tlx::split(std::vector< std::string > *into, const char *sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit)
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:188: warning: The following parameters of tlx::split(std::vector< std::string > *into, const char *sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit) are not documented:
+  parameter 'min_fields'
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:206: warning: argument 'min' of command @param is not found in the argument list of tlx::split(std::vector< std::string > *into, const std::string &sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit)
+/home/travis/build/tlx/tlx/tlx/string/split.hpp:206: warning: The following parameters of tlx::split(std::vector< std::string > *into, const std::string &sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit) are not documented:
+  parameter 'min_fields'
