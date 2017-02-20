@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>tlx: tlx/string/starts_with.cpp File Reference</title>
+<title>tlx: tlx/string/to_lower.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -89,7 +89,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('starts__with_8cpp.html','');});
+$(document).ready(function(){initNavTree('to__lower_8hpp.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -111,13 +111,12 @@ $(document).ready(function(){initNavTree('starts__with_8cpp.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">starts_with.cpp File Reference</div>  </div>
+<div class="title">to_lower.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="starts__with_8hpp_source.html">tlx/string/starts_with.hpp</a>&gt;</code><br/>
-<code>#include &lt;algorithm&gt;</code><br/>
+<div class="textblock"><code>#include &lt;string&gt;</code><br/>
 </div>
-<p><a href="starts__with_8cpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="to__lower_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -126,25 +125,19 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab50650708407ad9fd1dbc6fedc945678"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab50650708407ad9fd1dbc6fedc945678">tlx::starts_with</a> (const std::string &amp;str, const std::string &amp;match)</td></tr>
-<tr class="memdesc:ab50650708407ad9fd1dbc6fedc945678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given match string is located at the start of this string.  <a href="#ab50650708407ad9fd1dbc6fedc945678">More...</a><br/></td></tr>
-<tr class="separator:ab50650708407ad9fd1dbc6fedc945678"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1409976857d6b184bd2ce6df6b367d6e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1409976857d6b184bd2ce6df6b367d6e">tlx::starts_with</a> (const std::string &amp;str, const char *match)</td></tr>
-<tr class="memdesc:a1409976857d6b184bd2ce6df6b367d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given match string is located at the start of this string.  <a href="#a1409976857d6b184bd2ce6df6b367d6e">More...</a><br/></td></tr>
-<tr class="separator:a1409976857d6b184bd2ce6df6b367d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4b33a83741bd5977c7769a4be7e43d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab4b33a83741bd5977c7769a4be7e43d0">tlx::starts_with_icase</a> (const std::string &amp;str, const std::string &amp;match)</td></tr>
-<tr class="memdesc:ab4b33a83741bd5977c7769a4be7e43d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given match string is located at the start of this string.  <a href="#ab4b33a83741bd5977c7769a4be7e43d0">More...</a><br/></td></tr>
-<tr class="separator:ab4b33a83741bd5977c7769a4be7e43d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27633767ce2c4dc221acd4a331ec5c47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a27633767ce2c4dc221acd4a331ec5c47">tlx::starts_with_icase</a> (const std::string &amp;str, const char *match)</td></tr>
-<tr class="memdesc:a27633767ce2c4dc221acd4a331ec5c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given match string is located at the start of this string.  <a href="#a27633767ce2c4dc221acd4a331ec5c47">More...</a><br/></td></tr>
-<tr class="separator:a27633767ce2c4dc221acd4a331ec5c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b550eadfca772df3e1c2ce3a581b02"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a26b550eadfca772df3e1c2ce3a581b02">tlx::to_lower</a> (std::string *str)</td></tr>
+<tr class="memdesc:a26b550eadfca772df3e1c2ce3a581b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms the given string to lowercase and returns a reference to it.  <a href="#a26b550eadfca772df3e1c2ce3a581b02">More...</a><br/></td></tr>
+<tr class="separator:a26b550eadfca772df3e1c2ce3a581b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5053e892d19dd4fe230e19928287b89"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ad5053e892d19dd4fe230e19928287b89">tlx::to_lower</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:ad5053e892d19dd4fe230e19928287b89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the given string converted to lowercase.  <a href="#ad5053e892d19dd4fe230e19928287b89">More...</a><br/></td></tr>
+<tr class="separator:ad5053e892d19dd4fe230e19928287b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_45a7f11e1a4af18f182d54b603484851.html">string</a></li><li class="navelem"><a class="el" href="starts__with_8cpp.html">starts_with.cpp</a></li>
+    <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_45a7f11e1a4af18f182d54b603484851.html">string</a></li><li class="navelem"><a class="el" href="to__lower_8hpp.html">to_lower.hpp</a></li>
     <li class="footer">Generated on Mon Feb 20 2017 17:13:44 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>

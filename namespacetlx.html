@@ -282,6 +282,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a27633767ce2c4dc221acd4a331ec5c47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a27633767ce2c4dc221acd4a331ec5c47">starts_with_icase</a> (const std::string &amp;str, const char *match)</td></tr>
 <tr class="memdesc:a27633767ce2c4dc221acd4a331ec5c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given match string is located at the start of this string.  <a href="#a27633767ce2c4dc221acd4a331ec5c47">More...</a><br/></td></tr>
 <tr class="separator:a27633767ce2c4dc221acd4a331ec5c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a787d0150be5764f89d1975a81c7fa497"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a787d0150be5764f89d1975a81c7fa497">to_lower</a> (char ch)</td></tr>
+<tr class="separator:a787d0150be5764f89d1975a81c7fa497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b550eadfca772df3e1c2ce3a581b02"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a26b550eadfca772df3e1c2ce3a581b02">to_lower</a> (std::string *str)</td></tr>
+<tr class="memdesc:a26b550eadfca772df3e1c2ce3a581b02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms the given string to lowercase and returns a reference to it.  <a href="#a26b550eadfca772df3e1c2ce3a581b02">More...</a><br/></td></tr>
+<tr class="separator:a26b550eadfca772df3e1c2ce3a581b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5053e892d19dd4fe230e19928287b89"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ad5053e892d19dd4fe230e19928287b89">to_lower</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:ad5053e892d19dd4fe230e19928287b89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the given string converted to lowercase.  <a href="#ad5053e892d19dd4fe230e19928287b89">More...</a><br/></td></tr>
+<tr class="separator:ad5053e892d19dd4fe230e19928287b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6f82d485f189390810595e3bd7b3af1"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ac6f82d485f189390810595e3bd7b3af1">to_upper</a> (char ch)</td></tr>
+<tr class="separator:ac6f82d485f189390810595e3bd7b3af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a742b71bfffe387035f604bad0d1ff4aa"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a742b71bfffe387035f604bad0d1ff4aa">to_upper</a> (std::string *str)</td></tr>
+<tr class="memdesc:a742b71bfffe387035f604bad0d1ff4aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms the given string to uppercase and returns a reference to it.  <a href="#a742b71bfffe387035f604bad0d1ff4aa">More...</a><br/></td></tr>
+<tr class="separator:a742b71bfffe387035f604bad0d1ff4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54387562dddddd389df250cdb15ade00"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a54387562dddddd389df250cdb15ade00">to_upper</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:a54387562dddddd389df250cdb15ade00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a copy of the given string converted to uppercase.  <a href="#a54387562dddddd389df250cdb15ade00">More...</a><br/></td></tr>
+<tr class="separator:a54387562dddddd389df250cdb15ade00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc70026a4a1d57a74c7125f959245719"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#afc70026a4a1d57a74c7125f959245719">trim</a> (std::string *str, const char *drop=&quot; \r\n\t&quot;)</td></tr>
 <tr class="memdesc:afc70026a4a1d57a74c7125f959245719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trims the given string in-place on the left and right.  <a href="#afc70026a4a1d57a74c7125f959245719">More...</a><br/></td></tr>
 <tr class="separator:afc70026a4a1d57a74c7125f959245719"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2135,6 +2151,166 @@ template&lt;typename A &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a787d0150be5764f89d1975a81c7fa497"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static char tlx::to_lower </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="to__lower_8cpp_source.html#l00017">17</a> of file <a class="el" href="to__lower_8cpp_source.html">to_lower.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a26b550eadfca772df3e1c2ce3a581b02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string &amp; tlx::to_lower </td>
+          <td>(</td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transforms the given string to lowercase and returns a reference to it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string to process </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>reference to the modified string </dd></dl>
+
+<p>Definition at line <a class="el" href="to__lower_8cpp_source.html#l00023">23</a> of file <a class="el" href="to__lower_8cpp_source.html">to_lower.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad5053e892d19dd4fe230e19928287b89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::to_lower </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a copy of the given string converted to lowercase. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string to process </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>new string lowercased </dd></dl>
+
+<p>Definition at line <a class="el" href="to__lower_8cpp_source.html#l00029">29</a> of file <a class="el" href="to__lower_8cpp_source.html">to_lower.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6f82d485f189390810595e3bd7b3af1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static char tlx::to_upper </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="to__upper_8cpp_source.html#l00017">17</a> of file <a class="el" href="to__upper_8cpp_source.html">to_upper.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a742b71bfffe387035f604bad0d1ff4aa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string &amp; tlx::to_upper </td>
+          <td>(</td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transforms the given string to uppercase and returns a reference to it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string to process </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>reference to the modified string </dd></dl>
+
+<p>Definition at line <a class="el" href="to__upper_8cpp_source.html#l00023">23</a> of file <a class="el" href="to__upper_8cpp_source.html">to_upper.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a54387562dddddd389df250cdb15ade00"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::to_upper </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a copy of the given string converted to uppercase. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string to process </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>new string uppercased </dd></dl>
+
+<p>Definition at line <a class="el" href="to__upper_8cpp_source.html#l00029">29</a> of file <a class="el" href="to__upper_8cpp_source.html">to_upper.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="afc70026a4a1d57a74c7125f959245719"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2609,7 +2785,7 @@ template&lt;typename A &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Mon Feb 20 2017 10:23:17 for tlx by
+    <li class="footer">Generated on Mon Feb 20 2017 17:13:45 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

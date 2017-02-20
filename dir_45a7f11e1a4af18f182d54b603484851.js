@@ -10,6 +10,10 @@ var dir_45a7f11e1a4af18f182d54b603484851 =
     [ "replace.hpp", "replace_8hpp.html", "replace_8hpp" ],
     [ "starts_with.cpp", "starts__with_8cpp.html", "starts__with_8cpp" ],
     [ "starts_with.hpp", "starts__with_8hpp.html", "starts__with_8hpp" ],
+    [ "to_lower.cpp", "to__lower_8cpp.html", "to__lower_8cpp" ],
+    [ "to_lower.hpp", "to__lower_8hpp.html", "to__lower_8hpp" ],
+    [ "to_upper.cpp", "to__upper_8cpp.html", "to__upper_8cpp" ],
+    [ "to_upper.hpp", "to__upper_8hpp.html", "to__upper_8hpp" ],
     [ "trim.cpp", "trim_8cpp.html", "trim_8cpp" ],
     [ "trim.hpp", "trim_8hpp.html", "trim_8hpp" ]
 ];
