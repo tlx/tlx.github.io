@@ -1,6 +1,8 @@
 var dir_8b4d4685f7eaf29e53aad23645930303 =
 [
     [ "define", "dir_a24f6cc0d1b9a31e7adf9b47ab4358cd.html", "dir_a24f6cc0d1b9a31e7adf9b47ab4358cd" ],
+    [ "math", "dir_e09772e06e87bbb5d2c69a5ed712ca42.html", "dir_e09772e06e87bbb5d2c69a5ed712ca42" ],
+    [ "meta", "dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html", "dir_8ac7dfc841f33a5da7c5dfc5610caf4f" ],
     [ "string", "dir_45a7f11e1a4af18f182d54b603484851.html", "dir_45a7f11e1a4af18f182d54b603484851" ],
     [ "cmdline_parser.cpp", "cmdline__parser_8cpp.html", [
       [ "Argument", "structtlx_1_1CmdlineParser_1_1Argument.html", "structtlx_1_1CmdlineParser_1_1Argument" ],
@@ -22,6 +24,8 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "delegate.hpp", "delegate_8hpp.html", "delegate_8hpp" ],
     [ "die.cpp", "die_8cpp.html", "die_8cpp" ],
     [ "die.hpp", "die_8hpp.html", "die_8hpp" ],
+    [ "math.hpp", "math_8hpp.html", null ],
+    [ "meta.hpp", "meta_8hpp.html", null ],
     [ "string.hpp", "string_8hpp.html", null ],
     [ "unused.hpp", "unused_8hpp.html", "unused_8hpp" ]
 ];
