@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ilog2_2ecpp',['ilog2.cpp',['../ilog2_8cpp.html',1,'']]],
-  ['ilog2_2ehpp',['ilog2.hpp',['../ilog2_8hpp.html',1,'']]]
+  ['integer_5flog2_2ecpp',['integer_log2.cpp',['../integer__log2_8cpp.html',1,'']]],
+  ['integer_5flog2_2ehpp',['integer_log2.hpp',['../integer__log2_8hpp.html',1,'']]]
 ];
