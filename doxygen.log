@@ -20,3 +20,6 @@ warning: ignoring unsupported tag `EXTERNAL_PAGES         =' at line 1721, file 
 /home/travis/build/tlx/tlx/tlx/string/split.hpp:206: warning: argument 'min' of command @param is not found in the argument list of tlx::split(std::vector< std::string > *into, const std::string &sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit)
 /home/travis/build/tlx/tlx/tlx/string/split.hpp:206: warning: The following parameters of tlx::split(std::vector< std::string > *into, const std::string &sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit) are not documented:
   parameter 'min_fields'
+/home/travis/build/tlx/tlx/tlx/cmdline_parser.hpp:28: warning: included file tests/cmdline_parser_example.cpp is not found. Check your EXAMPLE_PATH
+/home/travis/build/tlx/tlx/tlx/cmdline_parser.hpp:28: warning: block marked with [example] for \snippet should appear twice in file tests/cmdline_parser_example.cpp, found it 0 times
+
