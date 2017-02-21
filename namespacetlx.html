@@ -127,6 +127,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides reference counting abilities for use with <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>.  <a href="classtlx_1_1ReferenceCounter.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Delegate.html">Delegate</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html">Delegate&lt; R(A...), Allocator &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a faster replacement than std::function.  <a href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -137,6 +142,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a334d6d6f00442d92b91966a109d693d5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a334d6d6f00442d92b91966a109d693d5">reference_counter</a> = <a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a></td></tr>
 <tr class="memdesc:a334d6d6f00442d92b91966a109d693d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">make alias due to <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>'s similarity with std::shared_ptr&lt;T&gt;  <a href="#a334d6d6f00442d92b91966a109d693d5">More...</a><br/></td></tr>
 <tr class="separator:a334d6d6f00442d92b91966a109d693d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c9c28df66ae41fedb3f537210097362"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Allocator  = std::allocator&lt;void&gt;&gt; </td></tr>
+<tr class="memitem:a2c9c28df66ae41fedb3f537210097362"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a2c9c28df66ae41fedb3f537210097362">delegate</a> = <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt; T, Allocator &gt;</td></tr>
+<tr class="memdesc:a2c9c28df66ae41fedb3f537210097362"><td class="mdescLeft">&#160;</td><td class="mdescRight">make template alias due to similarity with std::function  <a href="#a2c9c28df66ae41fedb3f537210097362">More...</a><br/></td></tr>
+<tr class="separator:a2c9c28df66ae41fedb3f537210097362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -152,6 +161,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a447e57b368c4ce87381d12d5cf1d8b12"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a447e57b368c4ce87381d12d5cf1d8b12">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a>&lt; A &gt; &amp;c)</td></tr>
 <tr class="memdesc:a447e57b368c4ce87381d12d5cf1d8b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">print pointer  <a href="#a447e57b368c4ce87381d12d5cf1d8b12">More...</a><br/></td></tr>
 <tr class="separator:a447e57b368c4ce87381d12d5cf1d8b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184a6d51738969d70693ff4ab40e40db"><td class="memTemplParams" colspan="2">template&lt;class C , typename R , typename... A&gt; </td></tr>
+<tr class="memitem:a184a6d51738969d70693ff4ab40e40db"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt; R(A...)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a184a6d51738969d70693ff4ab40e40db">make_delegate</a> (C *const object_ptr, R(C::*const method_ptr)(A...)) noexcept</td></tr>
+<tr class="memdesc:a184a6d51738969d70693ff4ab40e40db"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor for wrapping a class::method with object pointer.  <a href="#a184a6d51738969d70693ff4ab40e40db">More...</a><br/></td></tr>
+<tr class="separator:a184a6d51738969d70693ff4ab40e40db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57918f5ef70c7012d7373018cbdbf70a"><td class="memTemplParams" colspan="2">template&lt;class C , typename R , typename... A&gt; </td></tr>
+<tr class="memitem:a57918f5ef70c7012d7373018cbdbf70a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt; R(A...)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a57918f5ef70c7012d7373018cbdbf70a">make_delegate</a> (C &amp;object_ptr, R(C::*const method_ptr)(A...)) noexcept</td></tr>
+<tr class="memdesc:a57918f5ef70c7012d7373018cbdbf70a"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor for wrapping a class::method with object reference.  <a href="#a57918f5ef70c7012d7373018cbdbf70a">More...</a><br/></td></tr>
+<tr class="separator:a57918f5ef70c7012d7373018cbdbf70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55da7149bb636b8edbdee7b286cb9775"><td class="memTemplParams" colspan="2">template&lt;class C , typename R , typename... A&gt; </td></tr>
+<tr class="memitem:a55da7149bb636b8edbdee7b286cb9775"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt; R(A...)&gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a55da7149bb636b8edbdee7b286cb9775">make_delegate</a> (C const &amp;object_ptr, R(C::*const method_ptr)(A...) const) noexcept</td></tr>
+<tr class="memdesc:a55da7149bb636b8edbdee7b286cb9775"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor for wrapping a const class::method with object reference.  <a href="#a55da7149bb636b8edbdee7b286cb9775">More...</a><br/></td></tr>
+<tr class="separator:a55da7149bb636b8edbdee7b286cb9775"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4189021baeabfe5b52ca34be6d94499b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b">die_with_message</a> (const std::string &amp;msg)</td></tr>
 <tr class="memdesc:a4189021baeabfe5b52ca34be6d94499b"><td class="mdescLeft">&#160;</td><td class="mdescRight">die with message - either throw an exception or die via abort()  <a href="#a4189021baeabfe5b52ca34be6d94499b">More...</a><br/></td></tr>
 <tr class="separator:a4189021baeabfe5b52ca34be6d94499b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -467,6 +488,24 @@ template&lt;typename Type &gt; </div>
 <p>make alias due to similarity with std::shared_ptr&lt;T&gt; </p>
 
 <p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00240">240</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2c9c28df66ae41fedb3f537210097362"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename Allocator  = std::allocator&lt;void&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacetlx.html#a2c9c28df66ae41fedb3f537210097362">tlx::delegate</a> = typedef <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt;T, Allocator&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>make template alias due to similarity with std::function </p>
+
+<p>Definition at line <a class="el" href="delegate_8hpp_source.html#l00427">427</a> of file <a class="el" href="delegate_8hpp_source.html">delegate.hpp</a>.</p>
 
 </div>
 </div>
@@ -1988,6 +2027,127 @@ template&lt;typename Type , typename... Args&gt; </div>
 <p>method analogous to std::make_shared and std::make_unique. </p>
 
 <p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00244">244</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a184a6d51738969d70693ff4ab40e40db"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C , typename R , typename... A&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt; R(A...)&gt; tlx::make_delegate </td>
+          <td>(</td>
+          <td class="paramtype">C *const&#160;</td>
+          <td class="paramname"><em>object_ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">R(C::*)(A...)&#160;</td>
+          <td class="paramname"><em>method_ptr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructor for wrapping a class::method with object pointer. </p>
+<p>constructor for wrapping a const class::method with object pointer. </p>
+
+<p>Definition at line <a class="el" href="delegate_8hpp_source.html#l00432">432</a> of file <a class="el" href="delegate_8hpp_source.html">delegate.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a57918f5ef70c7012d7373018cbdbf70a"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C , typename R , typename... A&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt;R(A ...)&gt; tlx::make_delegate </td>
+          <td>(</td>
+          <td class="paramtype">C &amp;&#160;</td>
+          <td class="paramname"><em>object_ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">R(C::*)(A...)&#160;</td>
+          <td class="paramname"><em>method_ptr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructor for wrapping a class::method with object reference. </p>
+
+<p>Definition at line <a class="el" href="delegate_8hpp_source.html#l00448">448</a> of file <a class="el" href="delegate_8hpp_source.html">delegate.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a55da7149bb636b8edbdee7b286cb9775"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C , typename R , typename... A&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt;R(A ...)&gt; tlx::make_delegate </td>
+          <td>(</td>
+          <td class="paramtype">C const &amp;&#160;</td>
+          <td class="paramname"><em>object_ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">R(C::*)(A...) const&#160;</td>
+          <td class="paramname"><em>method_ptr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructor for wrapping a const class::method with object reference. </p>
+
+<p>Definition at line <a class="el" href="delegate_8hpp_source.html#l00456">456</a> of file <a class="el" href="delegate_8hpp_source.html">delegate.hpp</a>.</p>
 
 </div>
 </div>
@@ -4398,7 +4558,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Tue Feb 21 2017 12:59:50 for tlx by
+    <li class="footer">Generated on Tue Feb 21 2017 17:00:21 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

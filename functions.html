@@ -75,6 +75,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -92,8 +93,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_c"><span>c</span></a></li>
       <li><a href="#index_d"><span>d</span></a></li>
       <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_f"><span>f</span></a></li>
       <li><a href="#index_g"><span>g</span></a></li>
       <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_m"><span>m</span></a></li>
       <li><a href="#index_o"><span>o</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
       <li><a href="#index_r"><span>r</span></a></li>
@@ -136,8 +139,20 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
-<li>CountingPtr
-: <a class="el" href="classtlx_1_1CountingPtr.html#a616ca2272ad86cb31707f59561c34901">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+<li>Caller
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#afd830c57eb7fcb8e956e0f34a2235678">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+<li>caller_
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a315107e2bb3923c5e4b31856e50b99b7">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+<li>const_method_caller()
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a967110ddb3671edab8cf528bf014238f">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+<li>ConstMemberPair
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a02cc3609906ae8bd3d0647f71c4378f6">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+<li>CountingPtr()
+: <a class="el" href="classtlx_1_1CountingPtr.html#ad61f66e321bdb6f2903720697f5c5077">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
 </li>
 </ul>
 
@@ -146,6 +161,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>dec_reference()
 : <a class="el" href="classtlx_1_1CountingPtr.html#a397b9f2c6be8d8cb9ba79b4714d0d375">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
 , <a class="el" href="classtlx_1_1ReferenceCounter.html#a4a831cc4501218ed9284e71fbc58f40c">tlx::ReferenceCounter</a>
+</li>
+<li>Delegate()
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#aa509b042b8d9f6a7da6345ed4a5025b5">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+<li>Deleter
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a19f2979021b55071588f357a82df61ac">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
 </li>
 </ul>
 
@@ -156,6 +177,19 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>empty()
 : <a class="el" href="classtlx_1_1CountingPtr.html#a37a293d6d4ce7ea3325fc0f7981fc644">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>function_caller()
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a239cd275f278dc392129db477502ce27">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+<li>function_ptr_caller()
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a9ca5de1e22f421e58669f40fa7ae543a">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+<li>functor_caller()
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a20c102498dfb8b61191cec8d3841fd85">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
 </li>
 </ul>
 
@@ -175,15 +209,34 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </ul>
 
 
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>make()
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a053789813b2961c8443f7fbd5a9233ec">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+<li>MemberPair
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#aa96fc6ba0b5875ebeb387c0cb1c7591a">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+<li>method_caller()
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ae2378b938c7d9a74f789b9db2a971458">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+</ul>
+
+
 <h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
+<li>object_ptr_
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a0aae1265719c7a0dceaea1ac2ca3e709">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
 <li>operator bool()
 : <a class="el" href="classtlx_1_1CountingPtr.html#aa6495e4c04c668e8637736140a0cb5e8">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+, <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a80342ab2c1f5ce8c822b1d54c5b8081d">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
 </li>
 <li>operator!=()
 : <a class="el" href="classtlx_1_1CountingPtr.html#abb19c0c14e7738068a8066c3bd22ea04">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+, <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a9ab667d492bdd5c02c4e56d120a49346">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
 </li>
 <li>operator()()
 : <a class="el" href="classtlx_1_1CountingPtrDefaultDeleter.html#a449101c9da98b090d10f91e916df5b83">tlx::CountingPtrDefaultDeleter</a>
+, <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a9f823769e50aa2ce2f441cd9fe54c7a7">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
 </li>
 <li>operator*()
 : <a class="el" href="classtlx_1_1CountingPtr.html#a259154e55e969771db38116eae358d25">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
@@ -191,13 +244,22 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>operator-&gt;()
 : <a class="el" href="classtlx_1_1CountingPtr.html#a053cb896e1d764a8de00bdda8436cd6b">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
 </li>
+<li>operator&lt;()
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a4acfaa9b40f3345317cd8db01aa43938">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
 <li>operator=()
-: <a class="el" href="classtlx_1_1CountingPtr.html#a84c1704e366762392e7d28b44b46c92c">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+: <a class="el" href="classtlx_1_1CountingPtr.html#a93e9b4f46aa775d851a4060cc7506e49">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
 , <a class="el" href="classtlx_1_1ReferenceCounter.html#af0dadf881251a8fc5072b681b1b7263f">tlx::ReferenceCounter</a>
+, <a class="el" href="classtlx_1_1CountingPtr.html#a84c1704e366762392e7d28b44b46c92c">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+, <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a46981203896741c954e49f33c4c81312">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
 , <a class="el" href="classtlx_1_1CountingPtr.html#a1e15d80894eaf27fa6a1234bedad29cc">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+, <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#aedb02babb1c48d1427c6e4d557c747e5">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+, <a class="el" href="classtlx_1_1CountingPtr.html#a7410c17230bc106eef3330f1ef1ca794">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
 </li>
 <li>operator==()
-: <a class="el" href="classtlx_1_1CountingPtr.html#a2d9c7dc86ee985e38d1043d4e25d7de5">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a23b9b8ef289dcf21aa1c712b6b75ec86">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+, <a class="el" href="classtlx_1_1CountingPtr.html#a2d9c7dc86ee985e38d1043d4e25d7de5">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+, <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a7db8b3daa69634cac3bd6553033ec725">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
 </li>
 </ul>
 
@@ -220,14 +282,25 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="classtlx_1_1ReferenceCounter.html#abfdfd7491d7315fcec140f50bc2ccad6">tlx::ReferenceCounter</a>
 </li>
 <li>reset()
-: <a class="el" href="classtlx_1_1CountingPtr.html#a62e0b2ea70b036a82c4cfe63a11ceb0f">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a5331f78f7a6f13d5bb626a0439728165">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+, <a class="el" href="classtlx_1_1CountingPtr.html#a62e0b2ea70b036a82c4cfe63a11ceb0f">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+</li>
+<li>reset_caller()
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a925d6d0cf2d292b88052cc6f953b526e">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>store_
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a926c0efd4aefa9c441b803cedf3897b0">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
+<li>store_deleter()
+: <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a51cef16f8fed35c859816921d47f6745">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
+</li>
 <li>swap()
 : <a class="el" href="classtlx_1_1CountingPtr.html#abe853399ccb3db2d7d4020af05217b48">tlx::CountingPtr&lt; Type, Deleter &gt;</a>
+, <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a766dd3c8ee601e09fc48702df2e40e15">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
 </li>
 </ul>
 
@@ -263,7 +336,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Feb 21 2017 12:59:50 for tlx by
+    <li class="footer">Generated on Tue Feb 21 2017 17:00:21 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
