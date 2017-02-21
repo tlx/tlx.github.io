@@ -1,6 +1,7 @@
 var searchData=
 [
   ['dec_5freference',['dec_reference',['../classtlx_1_1CountingPtr.html#a397b9f2c6be8d8cb9ba79b4714d0d375',1,'tlx::CountingPtr::dec_reference()'],['../classtlx_1_1ReferenceCounter.html#a4a831cc4501218ed9284e71fbc58f40c',1,'tlx::ReferenceCounter::dec_reference()']]],
+  ['define_2ehpp',['define.hpp',['../define_8hpp.html',1,'']]],
   ['die',['die',['../die_8hpp.html#ab6acaec854169756098dfd26138a1a0e',1,'die.hpp']]],
   ['die_2ecpp',['die.cpp',['../die_8cpp.html',1,'']]],
   ['die_2ehpp',['die.hpp',['../die_8hpp.html',1,'']]],
