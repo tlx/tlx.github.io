@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('counting__ptr_8hpp.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">counting_ptr.hpp File Reference</div>  </div>
@@ -132,14 +133,24 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html">tlx::CountingPtr&lt; Type, Deleter &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">High-performance smart pointer used as a wrapping reference counting pointer.  <a href="classtlx_1_1CountingPtr.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html">tlx::ReferenceCount</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides reference counting abilities for use with <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>.  <a href="classtlx_1_1ReferenceCount.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html">tlx::ReferenceCounter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides reference counting abilities for use with <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>.  <a href="classtlx_1_1ReferenceCounter.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacetlx"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html">tlx</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a04bc5251c951eb916e531c15ff43c8c2"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:a04bc5251c951eb916e531c15ff43c8c2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a04bc5251c951eb916e531c15ff43c8c2">tlx::counting_ptr</a> = CountingPtr&lt; Type &gt;</td></tr>
+<tr class="memdesc:a04bc5251c951eb916e531c15ff43c8c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">make alias due to similarity with std::shared_ptr&lt;T&gt;  <a href="#a04bc5251c951eb916e531c15ff43c8c2">More...</a><br/></td></tr>
+<tr class="separator:a04bc5251c951eb916e531c15ff43c8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334d6d6f00442d92b91966a109d693d5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a334d6d6f00442d92b91966a109d693d5">tlx::reference_counter</a> = ReferenceCounter</td></tr>
+<tr class="memdesc:a334d6d6f00442d92b91966a109d693d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">make alias due to <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>'s similarity with std::shared_ptr&lt;T&gt;  <a href="#a334d6d6f00442d92b91966a109d693d5">More...</a><br/></td></tr>
+<tr class="separator:a334d6d6f00442d92b91966a109d693d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -162,7 +173,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="counting__ptr_8hpp.html">counting_ptr.hpp</a></li>
-    <li class="footer">Generated on Mon Feb 20 2017 22:36:50 for tlx by
+    <li class="footer">Generated on Tue Feb 21 2017 10:10:26 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

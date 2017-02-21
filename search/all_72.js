@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['reference_5fcount',['reference_count',['../classtlx_1_1ReferenceCount.html#a4d1339f536447f63007488072f23592d',1,'tlx::ReferenceCount']]],
-  ['reference_5fcount_5f',['reference_count_',['../classtlx_1_1ReferenceCount.html#a7954c0347a193ad2cd9a33048977973c',1,'tlx::ReferenceCount']]],
-  ['referencecount',['ReferenceCount',['../classtlx_1_1ReferenceCount.html',1,'tlx']]],
-  ['referencecount',['ReferenceCount',['../classtlx_1_1ReferenceCount.html#a81ceee5ddfbed0512cbf6b4750300825',1,'tlx::ReferenceCount::ReferenceCount() noexcept'],['../classtlx_1_1ReferenceCount.html#aac6b2af0c2ccc1af71595a67316fb71e',1,'tlx::ReferenceCount::ReferenceCount(const ReferenceCount &amp;) noexcept']]],
+  ['reference_5fcount',['reference_count',['../classtlx_1_1ReferenceCounter.html#a100d965efb730f2953d8465418ee3e03',1,'tlx::ReferenceCounter']]],
+  ['reference_5fcount_5f',['reference_count_',['../classtlx_1_1ReferenceCounter.html#aa9ca58eee2f59d8ef5eccc8353b8483c',1,'tlx::ReferenceCounter']]],
+  ['reference_5fcounter',['reference_counter',['../namespacetlx.html#a334d6d6f00442d92b91966a109d693d5',1,'tlx']]],
+  ['referencecounter',['ReferenceCounter',['../classtlx_1_1ReferenceCounter.html',1,'tlx']]],
+  ['referencecounter',['ReferenceCounter',['../classtlx_1_1ReferenceCounter.html#a33fea89391b58d3d84520f8c5e3d796a',1,'tlx::ReferenceCounter::ReferenceCounter() noexcept'],['../classtlx_1_1ReferenceCounter.html#abfdfd7491d7315fcec140f50bc2ccad6',1,'tlx::ReferenceCounter::ReferenceCounter(const ReferenceCounter &amp;) noexcept']]],
   ['replace_2ecpp',['replace.cpp',['../replace_8cpp.html',1,'']]],
   ['replace_2ehpp',['replace.hpp',['../replace_8hpp.html',1,'']]],
   ['replace_5fall',['replace_all',['../namespacetlx.html#adf6441c2f401beebca1b130d5c0ede68',1,'tlx::replace_all(std::string *str, const std::string &amp;needle, const std::string &amp;instead)'],['../namespacetlx.html#ac8073d342fc47ecdf76ad838e735aa57',1,'tlx::replace_all(std::string *str, const std::string &amp;needle, const char *instead)'],['../namespacetlx.html#a5b68830fd24a84d6b89c50a878f6d66a',1,'tlx::replace_all(std::string *str, const char *needle, const std::string &amp;instead)'],['../namespacetlx.html#a7c3a6fe09220e86f19f3451cee1e1e21',1,'tlx::replace_all(std::string *str, const char *needle, const char *instead)'],['../namespacetlx.html#ab9321abff9790139f91aa5f318d3674f',1,'tlx::replace_all(const std::string &amp;str, const std::string &amp;needle, const std::string &amp;instead)'],['../namespacetlx.html#a658c2a3f84c00c1654269b57aa18100c',1,'tlx::replace_all(const std::string &amp;str, const std::string &amp;needle, const char *instead)'],['../namespacetlx.html#a377bdd21108edc0fda5a7bda408742a9',1,'tlx::replace_all(const std::string &amp;str, const char *needle, const std::string &amp;instead)'],['../namespacetlx.html#aac4636c5529e88f38fa2322cdb5cd735',1,'tlx::replace_all(const std::string &amp;str, const char *needle, const char *instead)']]],

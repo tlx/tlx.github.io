@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('namespacetlx.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">tlx Namespace Reference</div>  </div>
@@ -123,9 +124,19 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">High-performance smart pointer used as a wrapping reference counting pointer.  <a href="classtlx_1_1CountingPtr.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html">ReferenceCount</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides reference counting abilities for use with <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>.  <a href="classtlx_1_1ReferenceCount.html#details">More...</a><br/></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides reference counting abilities for use with <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>.  <a href="classtlx_1_1ReferenceCounter.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a04bc5251c951eb916e531c15ff43c8c2"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:a04bc5251c951eb916e531c15ff43c8c2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a04bc5251c951eb916e531c15ff43c8c2">counting_ptr</a> = <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a>&lt; Type &gt;</td></tr>
+<tr class="memdesc:a04bc5251c951eb916e531c15ff43c8c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">make alias due to similarity with std::shared_ptr&lt;T&gt;  <a href="#a04bc5251c951eb916e531c15ff43c8c2">More...</a><br/></td></tr>
+<tr class="separator:a04bc5251c951eb916e531c15ff43c8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334d6d6f00442d92b91966a109d693d5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a334d6d6f00442d92b91966a109d693d5">reference_counter</a> = <a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a></td></tr>
+<tr class="memdesc:a334d6d6f00442d92b91966a109d693d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">make alias due to <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>'s similarity with std::shared_ptr&lt;T&gt;  <a href="#a334d6d6f00442d92b91966a109d693d5">More...</a><br/></td></tr>
+<tr class="separator:a334d6d6f00442d92b91966a109d693d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -431,6 +442,41 @@ Functions</h2></td></tr>
 <tr class="memdesc:aab22e05055aa827de79236f0cb53354d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to wrap a string to 80 columns without split words.  <a href="#aab22e05055aa827de79236f0cb53354d">More...</a><br/></td></tr>
 <tr class="separator:aab22e05055aa827de79236f0cb53354d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a04bc5251c951eb916e531c15ff43c8c2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacetlx.html#a04bc5251c951eb916e531c15ff43c8c2">tlx::counting_ptr</a> = typedef <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a>&lt;Type&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>make alias due to similarity with std::shared_ptr&lt;T&gt; </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00240">240</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a334d6d6f00442d92b91966a109d693d5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacetlx.html#a334d6d6f00442d92b91966a109d693d5">tlx::reference_counter</a> = typedef <a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>make alias due to <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>'s similarity with std::shared_ptr&lt;T&gt; </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00320">320</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ac81eee6726695191b838c71cfab87775"></a>
 <div class="memitem">
@@ -1487,7 +1533,7 @@ template&lt;typename Type &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>string of hexadecimal pairs </dd></dl>
 
-<p>Definition at line <a class="el" href="hexdump_8hpp_source.html#l00104">104</a> of file <a class="el" href="hexdump_8hpp_source.html">hexdump.hpp</a>.</p>
+<p>Definition at line <a class="el" href="hexdump_8hpp_source.html#l00106">106</a> of file <a class="el" href="hexdump_8hpp_source.html">hexdump.hpp</a>.</p>
 
 </div>
 </div>
@@ -1555,7 +1601,7 @@ template&lt;typename Type &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>string of hexadecimal pairs </dd></dl>
 
-<p>Definition at line <a class="el" href="hexdump_8hpp_source.html#l00046">46</a> of file <a class="el" href="hexdump_8hpp_source.html">hexdump.hpp</a>.</p>
+<p>Definition at line <a class="el" href="hexdump_8hpp_source.html#l00048">48</a> of file <a class="el" href="hexdump_8hpp_source.html">hexdump.hpp</a>.</p>
 
 </div>
 </div>
@@ -1891,7 +1937,7 @@ template&lt;typename Type , typename... Args&gt; </div>
 
 <p>method analogous to std::make_shared and std::make_unique. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00240">240</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00244">244</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -1923,7 +1969,7 @@ template&lt;typename A &gt; </div>
 
 <p>print pointer </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00253">253</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00257">257</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -3613,7 +3659,7 @@ template&lt;typename A &gt; </div>
 
 <p>swap enclosed object with another counting pointer (no reference counts need change) </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00247">247</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00251">251</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -4282,7 +4328,7 @@ template&lt;typename A &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Mon Feb 20 2017 22:36:50 for tlx by
+    <li class="footer">Generated on Tue Feb 21 2017 10:10:26 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

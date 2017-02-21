@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['referencecount',['ReferenceCount',['../classtlx_1_1ReferenceCount.html',1,'tlx']]]
+  ['referencecounter',['ReferenceCounter',['../classtlx_1_1ReferenceCounter.html',1,'tlx']]]
 ];

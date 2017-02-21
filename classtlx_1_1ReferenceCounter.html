@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>tlx: tlx::ReferenceCount Class Reference</title>
+<title>tlx: tlx::ReferenceCounter Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -90,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('classtlx_1_1ReferenceCount.html','');});
+$(document).ready(function(){initNavTree('classtlx_1_1ReferenceCounter.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -111,56 +111,56 @@ $(document).ready(function(){initNavTree('classtlx_1_1ReferenceCount.html','');}
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="classtlx_1_1ReferenceCount-members.html">List of all members</a>  </div>
+<a href="classtlx_1_1ReferenceCounter-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">tlx::ReferenceCount Class Reference</div>  </div>
+<div class="title">tlx::ReferenceCounter Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>Provides reference counting abilities for use with <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>.  
- <a href="classtlx_1_1ReferenceCount.html#details">More...</a></p>
+ <a href="classtlx_1_1ReferenceCounter.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a81ceee5ddfbed0512cbf6b4750300825"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html#a81ceee5ddfbed0512cbf6b4750300825">ReferenceCount</a> () noexcept</td></tr>
-<tr class="memdesc:a81ceee5ddfbed0512cbf6b4750300825"><td class="mdescLeft">&#160;</td><td class="mdescRight">new objects have zero reference count  <a href="#a81ceee5ddfbed0512cbf6b4750300825">More...</a><br/></td></tr>
-<tr class="separator:a81ceee5ddfbed0512cbf6b4750300825"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac6b2af0c2ccc1af71595a67316fb71e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html#aac6b2af0c2ccc1af71595a67316fb71e">ReferenceCount</a> (const <a class="el" href="classtlx_1_1ReferenceCount.html">ReferenceCount</a> &amp;) noexcept</td></tr>
-<tr class="memdesc:aac6b2af0c2ccc1af71595a67316fb71e"><td class="mdescLeft">&#160;</td><td class="mdescRight">coping still creates a new object with zero reference count  <a href="#aac6b2af0c2ccc1af71595a67316fb71e">More...</a><br/></td></tr>
-<tr class="separator:aac6b2af0c2ccc1af71595a67316fb71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5612b3ee08b75291612ae7b2325c295"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1ReferenceCount.html">ReferenceCount</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html#ad5612b3ee08b75291612ae7b2325c295">operator=</a> (const <a class="el" href="classtlx_1_1ReferenceCount.html">ReferenceCount</a> &amp;) noexcept</td></tr>
-<tr class="memdesc:ad5612b3ee08b75291612ae7b2325c295"><td class="mdescLeft">&#160;</td><td class="mdescRight">assignment operator, leaves pointers unchanged  <a href="#ad5612b3ee08b75291612ae7b2325c295">More...</a><br/></td></tr>
-<tr class="separator:ad5612b3ee08b75291612ae7b2325c295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27ad18f56fb4ff7fcd5e3a43cef2cfa5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html#a27ad18f56fb4ff7fcd5e3a43cef2cfa5">~ReferenceCount</a> ()</td></tr>
-<tr class="separator:a27ad18f56fb4ff7fcd5e3a43cef2cfa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a24b64332a3961907f5b36c9ca12871"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html#a1a24b64332a3961907f5b36c9ca12871">inc_reference</a> () const noexcept</td></tr>
-<tr class="memdesc:a1a24b64332a3961907f5b36c9ca12871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call whenever setting a pointer to the object.  <a href="#a1a24b64332a3961907f5b36c9ca12871">More...</a><br/></td></tr>
-<tr class="separator:a1a24b64332a3961907f5b36c9ca12871"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8650bd6f404a2901549385b6bf2bef3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html#af8650bd6f404a2901549385b6bf2bef3">dec_reference</a> () const noexcept</td></tr>
-<tr class="memdesc:af8650bd6f404a2901549385b6bf2bef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call whenever resetting (i.e.  <a href="#af8650bd6f404a2901549385b6bf2bef3">More...</a><br/></td></tr>
-<tr class="separator:af8650bd6f404a2901549385b6bf2bef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae19ce94078c172fb361b46720951c535"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html#ae19ce94078c172fb361b46720951c535">unique</a> () const noexcept</td></tr>
-<tr class="memdesc:ae19ce94078c172fb361b46720951c535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test if the <a class="el" href="classtlx_1_1ReferenceCount.html" title="Provides reference counting abilities for use with CountingPtr.">ReferenceCount</a> is referenced by only one <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>.  <a href="#ae19ce94078c172fb361b46720951c535">More...</a><br/></td></tr>
-<tr class="separator:ae19ce94078c172fb361b46720951c535"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d1339f536447f63007488072f23592d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html#a4d1339f536447f63007488072f23592d">reference_count</a> () const noexcept</td></tr>
-<tr class="memdesc:a4d1339f536447f63007488072f23592d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of references to this object (for debugging)  <a href="#a4d1339f536447f63007488072f23592d">More...</a><br/></td></tr>
-<tr class="separator:a4d1339f536447f63007488072f23592d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33fea89391b58d3d84520f8c5e3d796a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html#a33fea89391b58d3d84520f8c5e3d796a">ReferenceCounter</a> () noexcept</td></tr>
+<tr class="memdesc:a33fea89391b58d3d84520f8c5e3d796a"><td class="mdescLeft">&#160;</td><td class="mdescRight">new objects have zero reference count  <a href="#a33fea89391b58d3d84520f8c5e3d796a">More...</a><br/></td></tr>
+<tr class="separator:a33fea89391b58d3d84520f8c5e3d796a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfdfd7491d7315fcec140f50bc2ccad6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html#abfdfd7491d7315fcec140f50bc2ccad6">ReferenceCounter</a> (const <a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a> &amp;) noexcept</td></tr>
+<tr class="memdesc:abfdfd7491d7315fcec140f50bc2ccad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">coping still creates a new object with zero reference count  <a href="#abfdfd7491d7315fcec140f50bc2ccad6">More...</a><br/></td></tr>
+<tr class="separator:abfdfd7491d7315fcec140f50bc2ccad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0dadf881251a8fc5072b681b1b7263f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html#af0dadf881251a8fc5072b681b1b7263f">operator=</a> (const <a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a> &amp;) noexcept</td></tr>
+<tr class="memdesc:af0dadf881251a8fc5072b681b1b7263f"><td class="mdescLeft">&#160;</td><td class="mdescRight">assignment operator, leaves pointers unchanged  <a href="#af0dadf881251a8fc5072b681b1b7263f">More...</a><br/></td></tr>
+<tr class="separator:af0dadf881251a8fc5072b681b1b7263f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47eb045a6a424128e5f83704ed41864b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html#a47eb045a6a424128e5f83704ed41864b">~ReferenceCounter</a> ()</td></tr>
+<tr class="separator:a47eb045a6a424128e5f83704ed41864b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac6d440b77f6f95eadae71cbb97a7b76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html#aac6d440b77f6f95eadae71cbb97a7b76">inc_reference</a> () const noexcept</td></tr>
+<tr class="memdesc:aac6d440b77f6f95eadae71cbb97a7b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call whenever setting a pointer to the object.  <a href="#aac6d440b77f6f95eadae71cbb97a7b76">More...</a><br/></td></tr>
+<tr class="separator:aac6d440b77f6f95eadae71cbb97a7b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a831cc4501218ed9284e71fbc58f40c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html#a4a831cc4501218ed9284e71fbc58f40c">dec_reference</a> () const noexcept</td></tr>
+<tr class="memdesc:a4a831cc4501218ed9284e71fbc58f40c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call whenever resetting (i.e.  <a href="#a4a831cc4501218ed9284e71fbc58f40c">More...</a><br/></td></tr>
+<tr class="separator:a4a831cc4501218ed9284e71fbc58f40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aaf4376428bf1f6752e75e9fd2932b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html#a0aaf4376428bf1f6752e75e9fd2932b9">unique</a> () const noexcept</td></tr>
+<tr class="memdesc:a0aaf4376428bf1f6752e75e9fd2932b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test if the <a class="el" href="classtlx_1_1ReferenceCounter.html" title="Provides reference counting abilities for use with CountingPtr.">ReferenceCounter</a> is referenced by only one <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>.  <a href="#a0aaf4376428bf1f6752e75e9fd2932b9">More...</a><br/></td></tr>
+<tr class="separator:a0aaf4376428bf1f6752e75e9fd2932b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a100d965efb730f2953d8465418ee3e03"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html#a100d965efb730f2953d8465418ee3e03">reference_count</a> () const noexcept</td></tr>
+<tr class="memdesc:a100d965efb730f2953d8465418ee3e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of references to this object (for debugging)  <a href="#a100d965efb730f2953d8465418ee3e03">More...</a><br/></td></tr>
+<tr class="separator:a100d965efb730f2953d8465418ee3e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a7954c0347a193ad2cd9a33048977973c"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCount.html#a7954c0347a193ad2cd9a33048977973c">reference_count_</a></td></tr>
-<tr class="memdesc:a7954c0347a193ad2cd9a33048977973c"><td class="mdescLeft">&#160;</td><td class="mdescRight">the reference count is kept mutable for CountingPtr&lt;const Type&gt; to change the reference count.  <a href="#a7954c0347a193ad2cd9a33048977973c">More...</a><br/></td></tr>
-<tr class="separator:a7954c0347a193ad2cd9a33048977973c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ca58eee2f59d8ef5eccc8353b8483c"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ReferenceCounter.html#aa9ca58eee2f59d8ef5eccc8353b8483c">reference_count_</a></td></tr>
+<tr class="memdesc:aa9ca58eee2f59d8ef5eccc8353b8483c"><td class="mdescLeft">&#160;</td><td class="mdescRight">the reference count is kept mutable for CountingPtr&lt;const Type&gt; to change the reference count.  <a href="#aa9ca58eee2f59d8ef5eccc8353b8483c">More...</a><br/></td></tr>
+<tr class="separator:aa9ca58eee2f59d8ef5eccc8353b8483c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides reference counting abilities for use with <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>. </p>
 <p>Use as superclass of the actual object, this adds a reference_count_ value. Then either use <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a> as pointer to manage references and deletion, or just do normal new and delete. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00264">264</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00268">268</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a81ceee5ddfbed0512cbf6b4750300825"></a>
+<a class="anchor" id="a33fea89391b58d3d84520f8c5e3d796a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -168,7 +168,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">tlx::ReferenceCount::ReferenceCount </td>
+          <td class="memname">tlx::ReferenceCounter::ReferenceCounter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -183,11 +183,11 @@ Private Attributes</h2></td></tr>
 
 <p>new objects have zero reference count </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00273">273</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00277">277</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aac6b2af0c2ccc1af71595a67316fb71e"></a>
+<a class="anchor" id="abfdfd7491d7315fcec140f50bc2ccad6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -195,9 +195,9 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">tlx::ReferenceCount::ReferenceCount </td>
+          <td class="memname">tlx::ReferenceCounter::ReferenceCounter </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1ReferenceCount.html">ReferenceCount</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -211,11 +211,11 @@ Private Attributes</h2></td></tr>
 
 <p>coping still creates a new object with zero reference count </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00277">277</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00281">281</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a27ad18f56fb4ff7fcd5e3a43cef2cfa5"></a>
+<a class="anchor" id="a47eb045a6a424128e5f83704ed41864b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -223,7 +223,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">tlx::ReferenceCount::~ReferenceCount </td>
+          <td class="memname">tlx::ReferenceCounter::~ReferenceCounter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -236,12 +236,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00286">286</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00290">290</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="af8650bd6f404a2901549385b6bf2bef3"></a>
+<a class="anchor" id="a4a831cc4501218ed9284e71fbc58f40c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -249,7 +249,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool tlx::ReferenceCount::dec_reference </td>
+          <td class="memname">bool tlx::ReferenceCounter::dec_reference </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -263,14 +263,14 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Call whenever resetting (i.e. </p>
-<p>overwriting) a pointer to the object. IMPORTANT: In case of self-assignment, call AFTER <a class="el" href="classtlx_1_1ReferenceCount.html#a1a24b64332a3961907f5b36c9ca12871" title="Call whenever setting a pointer to the object.">inc_reference()</a>.</p>
+<p>overwriting) a pointer to the object. IMPORTANT: In case of self-assignment, call AFTER <a class="el" href="classtlx_1_1ReferenceCounter.html#aac6d440b77f6f95eadae71cbb97a7b76" title="Call whenever setting a pointer to the object.">inc_reference()</a>.</p>
 <dl class="section return"><dt>Returns</dt><dd>if the object has to be deleted (i.e. if it's reference count dropped to zero) </dd></dl>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00301">301</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00305">305</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1a24b64332a3961907f5b36c9ca12871"></a>
+<a class="anchor" id="aac6d440b77f6f95eadae71cbb97a7b76"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -278,7 +278,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void tlx::ReferenceCount::inc_reference </td>
+          <td class="memname">void tlx::ReferenceCounter::inc_reference </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -293,11 +293,11 @@ Private Attributes</h2></td></tr>
 
 <p>Call whenever setting a pointer to the object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00291">291</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00295">295</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad5612b3ee08b75291612ae7b2325c295"></a>
+<a class="anchor" id="af0dadf881251a8fc5072b681b1b7263f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -305,9 +305,9 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1ReferenceCount.html">ReferenceCount</a>&amp; tlx::ReferenceCount::operator= </td>
+          <td class="memname"><a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a>&amp; tlx::ReferenceCounter::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1ReferenceCount.html">ReferenceCount</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -321,11 +321,11 @@ Private Attributes</h2></td></tr>
 
 <p>assignment operator, leaves pointers unchanged </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00281">281</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00285">285</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4d1339f536447f63007488072f23592d"></a>
+<a class="anchor" id="a100d965efb730f2953d8465418ee3e03"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -333,7 +333,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t tlx::ReferenceCount::reference_count </td>
+          <td class="memname">size_t tlx::ReferenceCounter::reference_count </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -348,11 +348,11 @@ Private Attributes</h2></td></tr>
 
 <p>Return the number of references to this object (for debugging) </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00311">311</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00315">315</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae19ce94078c172fb361b46720951c535"></a>
+<a class="anchor" id="a0aaf4376428bf1f6752e75e9fd2932b9"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -360,7 +360,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool tlx::ReferenceCount::unique </td>
+          <td class="memname">bool tlx::ReferenceCounter::unique </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -373,14 +373,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Test if the <a class="el" href="classtlx_1_1ReferenceCount.html" title="Provides reference counting abilities for use with CountingPtr.">ReferenceCount</a> is referenced by only one <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>. </p>
+<p>Test if the <a class="el" href="classtlx_1_1ReferenceCounter.html" title="Provides reference counting abilities for use with CountingPtr.">ReferenceCounter</a> is referenced by only one <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00307">307</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00311">311</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a7954c0347a193ad2cd9a33048977973c"></a>
+<a class="anchor" id="aa9ca58eee2f59d8ef5eccc8353b8483c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -388,7 +388,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;size_t&gt; tlx::ReferenceCount::reference_count_</td>
+          <td class="memname">std::atomic&lt;size_t&gt; tlx::ReferenceCounter::reference_count_</td>
         </tr>
       </table>
   </td>
@@ -400,7 +400,7 @@ Private Attributes</h2></td></tr>
 
 <p>the reference count is kept mutable for CountingPtr&lt;const Type&gt; to change the reference count. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00269">269</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00273">273</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -412,8 +412,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1ReferenceCount.html">ReferenceCount</a></li>
-    <li class="footer">Generated on Mon Feb 20 2017 22:36:50 for tlx by
+    <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a></li>
+    <li class="footer">Generated on Tue Feb 21 2017 10:10:26 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
