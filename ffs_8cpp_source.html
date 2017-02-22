@@ -121,7 +121,7 @@ $(document).ready(function(){initNavTree('ffs_8cpp_source.html','');});
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * All rights reserved. Published under the Boost Software License, Version 1.0</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> ******************************************************************************/</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="round__to__power__of__two_8hpp.html">tlx/math/round_to_power_of_two.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="ffs_8hpp.html">tlx/math/ffs.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">namespace </span>tlx {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"></span></div>
@@ -152,10 +152,10 @@ $(document).ready(function(){initNavTree('ffs_8cpp_source.html','');});
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> __builtin_ffsl(x);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">unsigned</span> <a class="code" href="namespacetlx.html#ac861b900d44fa2248a602d4b8ced1eaf" title="find first set bit in integer, or zero if none are set.">ffs</a>(<span class="keywordtype">long</span> <span class="keywordtype">long</span> x) {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> __builtin_ffsl(x);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> __builtin_ffsll(x);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">unsigned</span> <a class="code" href="namespacetlx.html#ac861b900d44fa2248a602d4b8ced1eaf" title="find first set bit in integer, or zero if none are set.">ffs</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> x) {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">return</span> __builtin_ffsl(x);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">return</span> __builtin_ffsll(x);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#else</span></div>
@@ -190,7 +190,7 @@ $(document).ready(function(){initNavTree('ffs_8cpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_e09772e06e87bbb5d2c69a5ed712ca42.html">math</a></li><li class="navelem"><a class="el" href="ffs_8cpp.html">ffs.cpp</a></li>
-    <li class="footer">Generated on Wed Feb 22 2017 06:46:58 for tlx by
+    <li class="footer">Generated on Wed Feb 22 2017 07:12:56 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
