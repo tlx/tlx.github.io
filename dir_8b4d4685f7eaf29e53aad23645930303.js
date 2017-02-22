@@ -26,6 +26,7 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "die.hpp", "die_8hpp.html", "die_8hpp" ],
     [ "math.hpp", "math_8hpp.html", null ],
     [ "meta.hpp", "meta_8hpp.html", null ],
+    [ "simple_vector.hpp", "simple__vector_8hpp.html", "simple__vector_8hpp" ],
     [ "string.hpp", "string_8hpp.html", null ],
     [ "unused.hpp", "unused_8hpp.html", "unused_8hpp" ]
 ];

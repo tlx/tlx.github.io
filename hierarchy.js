@@ -27,6 +27,7 @@ var hierarchy =
     [ "tlx::Log2Floor< 0 >", "classtlx_1_1Log2Floor_3_010_01_4.html", null ],
     [ "tlx::Log2Floor< 1 >", "classtlx_1_1Log2Floor_3_011_01_4.html", null ],
     [ "tlx::ReferenceCounter", "classtlx_1_1ReferenceCounter.html", null ],
+    [ "tlx::SimpleVector< ValueType >", "classtlx_1_1SimpleVector.html", null ],
     [ "true_type", null, [
       [ "tlx::Delegate< R(A...), Allocator >::IsConstMemberPair< ConstMemberPair< C > >", "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsConstMemberPair_3_01ConstMemberPair_3_01C_01_4_01_4.html", null ],
       [ "tlx::Delegate< R(A...), Allocator >::IsMemberPair< MemberPair< C > >", "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsMemberPair_3_01MemberPair_3_01C_01_4_01_4.html", null ]

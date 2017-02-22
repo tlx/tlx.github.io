@@ -147,6 +147,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Log2_3_010_01_4.html">Log2&lt; 0 &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simpler non-growing vector without initialization.  <a href="classtlx_1_1SimpleVector.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -161,6 +164,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a2c9c28df66ae41fedb3f537210097362"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a2c9c28df66ae41fedb3f537210097362">delegate</a> = <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt; T, Allocator &gt;</td></tr>
 <tr class="memdesc:a2c9c28df66ae41fedb3f537210097362"><td class="mdescLeft">&#160;</td><td class="mdescRight">make template alias due to similarity with std::function  <a href="#a2c9c28df66ae41fedb3f537210097362">More...</a><br/></td></tr>
 <tr class="separator:a2c9c28df66ae41fedb3f537210097362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45001dd9f4f6324d2cf0b2aebd079f16"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a45001dd9f4f6324d2cf0b2aebd079f16"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a45001dd9f4f6324d2cf0b2aebd079f16">simple_vector</a> = <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; T &gt;</td></tr>
+<tr class="memdesc:a45001dd9f4f6324d2cf0b2aebd079f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">make template alias due to similarity with std::vector  <a href="#a45001dd9f4f6324d2cf0b2aebd079f16">More...</a><br/></td></tr>
+<tr class="separator:a45001dd9f4f6324d2cf0b2aebd079f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -658,6 +665,24 @@ template&lt;typename T , typename Allocator  = std::allocator&lt;void&gt;&gt; </
 <p>make alias due to <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr</a>'s similarity with std::shared_ptr&lt;T&gt; </p>
 
 <p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00320">320</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a45001dd9f4f6324d2cf0b2aebd079f16"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacetlx.html#a45001dd9f4f6324d2cf0b2aebd079f16">tlx::simple_vector</a> = typedef <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt;T&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>make template alias due to similarity with std::vector </p>
+
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00169">169</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
@@ -5528,7 +5553,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Wed Feb 22 2017 07:12:56 for tlx by
+    <li class="footer">Generated on Wed Feb 22 2017 07:58:48 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
