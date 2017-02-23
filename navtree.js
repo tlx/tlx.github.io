@@ -6,7 +6,9 @@ var NAVTREE =
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ]
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
     [ "Classes", null, [
@@ -35,8 +37,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classtlx_1_1LoserTreePointerBase.html#a3b6746b4d3f53391ac2fb74d9c377d70",
-"hexdump_8cpp_source.html",
+"classtlx_1_1LoserTreePointerBase.html#acc533e42cbca806def25c1be231d9f55",
+"hexdump_8hpp.html#a3bec662b890f0da83582e7df6e3c55bf",
 "structtlx_1_1CmdlineParser_1_1ArgumentDouble.html"
 ];
 

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['reference',['reference',['../classtlx_1_1SimpleVector.html#af4f30d03756e02159f89ca131d3646a8',1,'tlx::SimpleVector']]],
+  ['reference',['reference',['../classtlx_1_1SimpleVector.html#a9fdd837a2b37a801aaf7fd4c0b8a3251',1,'tlx::SimpleVector']]],
   ['reference_5fcount',['reference_count',['../classtlx_1_1ReferenceCounter.html#a100d965efb730f2953d8465418ee3e03',1,'tlx::ReferenceCounter']]],
   ['reference_5fcount_5f',['reference_count_',['../classtlx_1_1ReferenceCounter.html#aa9ca58eee2f59d8ef5eccc8353b8483c',1,'tlx::ReferenceCounter']]],
   ['reference_5fcounter',['reference_counter',['../namespacetlx.html#a334d6d6f00442d92b91966a109d693d5',1,'tlx']]],
@@ -14,7 +14,7 @@ var searchData=
   ['required_5f',['required_',['../structtlx_1_1CmdlineParser_1_1Argument.html#a40b5f9620c1aa043987d9d5fb0bba399',1,'tlx::CmdlineParser::Argument']]],
   ['reset',['reset',['../classtlx_1_1CountingPtr.html#a62e0b2ea70b036a82c4cfe63a11ceb0f',1,'tlx::CountingPtr::reset()'],['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a5331f78f7a6f13d5bb626a0439728165',1,'tlx::Delegate&lt; R(A...), Allocator &gt;::reset()']]],
   ['reset_5fcaller',['reset_caller',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a925d6d0cf2d292b88052cc6f953b526e',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
-  ['resize',['resize',['../classtlx_1_1SimpleVector.html#ab30c44dbcaf1233fc67c44235f805c59',1,'tlx::SimpleVector']]],
+  ['resize',['resize',['../classtlx_1_1SimpleVector.html#adcbb7adb8244f1ca7626b0b770424249',1,'tlx::SimpleVector']]],
   ['round_5fdown_5fto_5fpower_5fof_5ftwo',['round_down_to_power_of_two',['../namespacetlx.html#a92ce4619242b36fd76f3b221ad9e0339',1,'tlx::round_down_to_power_of_two(int i)'],['../namespacetlx.html#a140d25c6b9c0222690efc97f8ad1a824',1,'tlx::round_down_to_power_of_two(unsigned int i)'],['../namespacetlx.html#a6dbfd1aed990afcb9984118d3ee59530',1,'tlx::round_down_to_power_of_two(long i)'],['../namespacetlx.html#a73d5d20f1d750595eb706751194589e1',1,'tlx::round_down_to_power_of_two(unsigned long i)'],['../namespacetlx.html#a65ad6167d69150c4d17040c640c18f40',1,'tlx::round_down_to_power_of_two(long long i)'],['../namespacetlx.html#a6738c012851741f46a8f189e99b3069e',1,'tlx::round_down_to_power_of_two(unsigned long long i)']]],
   ['round_5fto_5fpower_5fof_5ftwo_2ecpp',['round_to_power_of_two.cpp',['../round__to__power__of__two_8cpp.html',1,'']]],
   ['round_5fto_5fpower_5fof_5ftwo_2ehpp',['round_to_power_of_two.hpp',['../round__to__power__of__two_8hpp.html',1,'']]],

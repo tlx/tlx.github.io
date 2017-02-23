@@ -53,8 +53,6 @@ var NAVTREEINDEX3 =
 "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html":[1,0,0,15,0],
 "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html#a3ae429071a00b85ed743bd744496f26f":[1,0,0,15,0,0],
 "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html#a9b82162256f2d6d40ff0efac6a75c640":[1,0,0,15,0,1],
-"structtlx_1_1LoserTreeTraits.html":[1,0,0,18],
-"structtlx_1_1LoserTreeTraits.html#ad0684206ca19b33641a3af1ce13d209b":[1,0,0,18,0],
 "to__lower_8cpp.html":[2,0,0,3,25],
 "to__lower_8cpp.html#a26b550eadfca772df3e1c2ce3a581b02":[2,0,0,3,25,1],
 "to__lower_8cpp.html#a517528748ca179557fe52d4e962e7859":[2,0,0,3,25,0],

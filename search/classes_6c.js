@@ -22,5 +22,5 @@ var searchData=
   ['losertreepointerunguarded',['LoserTreePointerUnguarded',['../classtlx_1_1LoserTreePointerUnguarded.html',1,'tlx']]],
   ['losertreepointerunguarded_3c_20true_2c_20valuetype_2c_20comparator_20_3e',['LoserTreePointerUnguarded&lt; true, ValueType, Comparator &gt;',['../classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html',1,'tlx']]],
   ['losertreepointerunguardedbase',['LoserTreePointerUnguardedBase',['../classtlx_1_1LoserTreePointerUnguardedBase.html',1,'tlx']]],
-  ['losertreetraits',['LoserTreeTraits',['../structtlx_1_1LoserTreeTraits.html',1,'tlx']]]
+  ['losertreetraits',['LoserTreeTraits',['../classtlx_1_1LoserTreeTraits.html',1,'tlx']]]
 ];

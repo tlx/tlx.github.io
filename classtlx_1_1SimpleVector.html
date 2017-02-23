@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>tlx: tlx::SimpleVector&lt; ValueType &gt; Class Template Reference</title>
+<title>tlx: tlx::SimpleVector&lt; ValueType, Mode &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('classtlx_1_1SimpleVector.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -113,9 +113,10 @@ $(document).ready(function(){initNavTree('classtlx_1_1SimpleVector.html','');});
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="classtlx_1_1SimpleVector-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">tlx::SimpleVector&lt; ValueType &gt; Class Template Reference</div>  </div>
+<div class="title">tlx::SimpleVector&lt; ValueType, Mode &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -126,143 +127,182 @@ $(document).ready(function(){initNavTree('classtlx_1_1SimpleVector.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a1b9e28e6433ab6ef79e50e3ee3bb5b05"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> = ValueType</td></tr>
-<tr class="separator:a1b9e28e6433ab6ef79e50e3ee3bb5b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01ade628c15683de2aa8a2629c1bde8c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a> = size_t</td></tr>
-<tr class="separator:a01ade628c15683de2aa8a2629c1bde8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c5faedaf132a35b8b50969611c5ea77"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a4c5faedaf132a35b8b50969611c5ea77">iterator</a> = <a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> *</td></tr>
-<tr class="separator:a4c5faedaf132a35b8b50969611c5ea77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bb5e2e2e405c9b357c71a109946bf10"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a> = const <a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> *</td></tr>
-<tr class="separator:a1bb5e2e2e405c9b357c71a109946bf10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4f30d03756e02159f89ca131d3646a8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#af4f30d03756e02159f89ca131d3646a8">reference</a> = <a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> &amp;</td></tr>
-<tr class="separator:af4f30d03756e02159f89ca131d3646a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a483de983beb321e98d60680377cb94"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a6a483de983beb321e98d60680377cb94">const_reference</a> = const <a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> &amp;</td></tr>
-<tr class="separator:a6a483de983beb321e98d60680377cb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29140177379aa2f3e3f8fbdf175380f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> = ValueType</td></tr>
+<tr class="separator:a29140177379aa2f3e3f8fbdf175380f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90efdbd8979317a311b26da05d240b54"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a> = size_t</td></tr>
+<tr class="separator:a90efdbd8979317a311b26da05d240b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b53e87cfdc7e73dca5cf7deedf8376"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a92b53e87cfdc7e73dca5cf7deedf8376">iterator</a> = <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> *</td></tr>
+<tr class="separator:a92b53e87cfdc7e73dca5cf7deedf8376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18b8e8b2c867a7510922a571b8143262"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a> = const <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> *</td></tr>
+<tr class="separator:a18b8e8b2c867a7510922a571b8143262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fdd837a2b37a801aaf7fd4c0b8a3251"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a9fdd837a2b37a801aaf7fd4c0b8a3251">reference</a> = <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> &amp;</td></tr>
+<tr class="separator:a9fdd837a2b37a801aaf7fd4c0b8a3251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42441759f230e5e5457d75593fe59d63"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a42441759f230e5e5457d75593fe59d63">const_reference</a> = const <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> &amp;</td></tr>
+<tr class="separator:a42441759f230e5e5457d75593fe59d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0c385e9eb53ec1b6d72a3d957e0e19f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a0c385e9eb53ec1b6d72a3d957e0e19f2">SimpleVector</a> ()</td></tr>
-<tr class="memdesc:a0c385e9eb53ec1b6d72a3d957e0e19f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate empty simple vector  <a href="#a0c385e9eb53ec1b6d72a3d957e0e19f2">More...</a><br/></td></tr>
-<tr class="separator:a0c385e9eb53ec1b6d72a3d957e0e19f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad83a8c0650dd1016fd0c7f838ac0d825"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ad83a8c0650dd1016fd0c7f838ac0d825">SimpleVector</a> (const <a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a> &amp;sz)</td></tr>
-<tr class="memdesc:ad83a8c0650dd1016fd0c7f838ac0d825"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate vector's memory  <a href="#ad83a8c0650dd1016fd0c7f838ac0d825">More...</a><br/></td></tr>
-<tr class="separator:ad83a8c0650dd1016fd0c7f838ac0d825"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac46470061c14025d7d6a721c6cc905c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ac46470061c14025d7d6a721c6cc905c2">SimpleVector</a> (const <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;)=delete</td></tr>
-<tr class="memdesc:ac46470061c14025d7d6a721c6cc905c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-copyable: delete copy-constructor  <a href="#ac46470061c14025d7d6a721c6cc905c2">More...</a><br/></td></tr>
-<tr class="separator:ac46470061c14025d7d6a721c6cc905c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ecd5f5cb69dd5c7c7752837a83d0f73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a6ecd5f5cb69dd5c7c7752837a83d0f73">operator=</a> (const <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;)=delete</td></tr>
-<tr class="memdesc:a6ecd5f5cb69dd5c7c7752837a83d0f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-copyable: delete assignment operator  <a href="#a6ecd5f5cb69dd5c7c7752837a83d0f73">More...</a><br/></td></tr>
-<tr class="separator:a6ecd5f5cb69dd5c7c7752837a83d0f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b44a6663588d95c77fea53579ff5874"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a0b44a6663588d95c77fea53579ff5874">SimpleVector</a> (<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;&amp;v) noexcept</td></tr>
-<tr class="memdesc:a0b44a6663588d95c77fea53579ff5874"><td class="mdescLeft">&#160;</td><td class="mdescRight">move-constructor  <a href="#a0b44a6663588d95c77fea53579ff5874">More...</a><br/></td></tr>
-<tr class="separator:a0b44a6663588d95c77fea53579ff5874"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac50c41220b96ed18f11174ed5a9e71de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ac50c41220b96ed18f11174ed5a9e71de">operator=</a> (<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;&amp;v) noexcept</td></tr>
-<tr class="memdesc:ac50c41220b96ed18f11174ed5a9e71de"><td class="mdescLeft">&#160;</td><td class="mdescRight">move-assignment  <a href="#ac50c41220b96ed18f11174ed5a9e71de">More...</a><br/></td></tr>
-<tr class="separator:ac50c41220b96ed18f11174ed5a9e71de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98249b8118e38343153664006913281a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a98249b8118e38343153664006913281a">swap</a> (<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;obj) noexcept</td></tr>
-<tr class="memdesc:a98249b8118e38343153664006913281a"><td class="mdescLeft">&#160;</td><td class="mdescRight">swap vector with another one  <a href="#a98249b8118e38343153664006913281a">More...</a><br/></td></tr>
-<tr class="separator:a98249b8118e38343153664006913281a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07879c31b44cabad8ac55bb6d6a1b2bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a07879c31b44cabad8ac55bb6d6a1b2bd">~SimpleVector</a> ()</td></tr>
-<tr class="memdesc:a07879c31b44cabad8ac55bb6d6a1b2bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete vector  <a href="#a07879c31b44cabad8ac55bb6d6a1b2bd">More...</a><br/></td></tr>
-<tr class="separator:a07879c31b44cabad8ac55bb6d6a1b2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a563f20065486d5dacf8638c6afe5edb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a4c5faedaf132a35b8b50969611c5ea77">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a563f20065486d5dacf8638c6afe5edb6">data</a> () noexcept</td></tr>
-<tr class="memdesc:a563f20065486d5dacf8638c6afe5edb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">return iterator to beginning of vector  <a href="#a563f20065486d5dacf8638c6afe5edb6">More...</a><br/></td></tr>
-<tr class="separator:a563f20065486d5dacf8638c6afe5edb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae23b9f05d42229439d70f1d0664378aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ae23b9f05d42229439d70f1d0664378aa">data</a> () const noexcept</td></tr>
-<tr class="memdesc:ae23b9f05d42229439d70f1d0664378aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">return iterator to beginning of vector  <a href="#ae23b9f05d42229439d70f1d0664378aa">More...</a><br/></td></tr>
-<tr class="separator:ae23b9f05d42229439d70f1d0664378aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bb276f8a2608ae8a80f46b4a0b0c3a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a6bb276f8a2608ae8a80f46b4a0b0c3a4">size</a> () const noexcept</td></tr>
-<tr class="memdesc:a6bb276f8a2608ae8a80f46b4a0b0c3a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return number of items in vector  <a href="#a6bb276f8a2608ae8a80f46b4a0b0c3a4">More...</a><br/></td></tr>
-<tr class="separator:a6bb276f8a2608ae8a80f46b4a0b0c3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4983e82a236982285fe9d20ee0f5bb7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a4c5faedaf132a35b8b50969611c5ea77">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a4983e82a236982285fe9d20ee0f5bb7d">begin</a> () noexcept</td></tr>
-<tr class="memdesc:a4983e82a236982285fe9d20ee0f5bb7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return mutable iterator to first element  <a href="#a4983e82a236982285fe9d20ee0f5bb7d">More...</a><br/></td></tr>
-<tr class="separator:a4983e82a236982285fe9d20ee0f5bb7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a568ea44fc70cd94a5dfbc07baa5e2283"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a568ea44fc70cd94a5dfbc07baa5e2283">begin</a> () const noexcept</td></tr>
-<tr class="memdesc:a568ea44fc70cd94a5dfbc07baa5e2283"><td class="mdescLeft">&#160;</td><td class="mdescRight">return constant iterator to first element  <a href="#a568ea44fc70cd94a5dfbc07baa5e2283">More...</a><br/></td></tr>
-<tr class="separator:a568ea44fc70cd94a5dfbc07baa5e2283"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a28a43deba27df3831fc73d59d652db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a2a28a43deba27df3831fc73d59d652db">cbegin</a> () const noexcept</td></tr>
-<tr class="memdesc:a2a28a43deba27df3831fc73d59d652db"><td class="mdescLeft">&#160;</td><td class="mdescRight">return constant iterator to first element  <a href="#a2a28a43deba27df3831fc73d59d652db">More...</a><br/></td></tr>
-<tr class="separator:a2a28a43deba27df3831fc73d59d652db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e61ebb2f367a2e014c149a3a766de22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a4c5faedaf132a35b8b50969611c5ea77">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a5e61ebb2f367a2e014c149a3a766de22">end</a> () noexcept</td></tr>
-<tr class="memdesc:a5e61ebb2f367a2e014c149a3a766de22"><td class="mdescLeft">&#160;</td><td class="mdescRight">return mutable iterator beyond last element  <a href="#a5e61ebb2f367a2e014c149a3a766de22">More...</a><br/></td></tr>
-<tr class="separator:a5e61ebb2f367a2e014c149a3a766de22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4f592853b73b5eaae41ecc6f496a6f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#aa4f592853b73b5eaae41ecc6f496a6f5">end</a> () const noexcept</td></tr>
-<tr class="memdesc:aa4f592853b73b5eaae41ecc6f496a6f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">return constant iterator beyond last element  <a href="#aa4f592853b73b5eaae41ecc6f496a6f5">More...</a><br/></td></tr>
-<tr class="separator:aa4f592853b73b5eaae41ecc6f496a6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5635f107995dad6b0f5daf3c04694ac1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a5635f107995dad6b0f5daf3c04694ac1">cend</a> () const noexcept</td></tr>
-<tr class="memdesc:a5635f107995dad6b0f5daf3c04694ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">return constant iterator beyond last element  <a href="#a5635f107995dad6b0f5daf3c04694ac1">More...</a><br/></td></tr>
-<tr class="separator:a5635f107995dad6b0f5daf3c04694ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52c50f187be5bb52320cbae313fd8a97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#af4f30d03756e02159f89ca131d3646a8">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a52c50f187be5bb52320cbae313fd8a97">operator[]</a> (<a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a> i) noexcept</td></tr>
-<tr class="memdesc:a52c50f187be5bb52320cbae313fd8a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the i-th position of the vector  <a href="#a52c50f187be5bb52320cbae313fd8a97">More...</a><br/></td></tr>
-<tr class="separator:a52c50f187be5bb52320cbae313fd8a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9a242158e7e3405b859f38bdf00f677"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a6a483de983beb321e98d60680377cb94">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ad9a242158e7e3405b859f38bdf00f677">operator[]</a> (<a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a> i) const noexcept</td></tr>
-<tr class="memdesc:ad9a242158e7e3405b859f38bdf00f677"><td class="mdescLeft">&#160;</td><td class="mdescRight">return constant reference to the i-th position of the vector  <a href="#ad9a242158e7e3405b859f38bdf00f677">More...</a><br/></td></tr>
-<tr class="separator:ad9a242158e7e3405b859f38bdf00f677"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab30c44dbcaf1233fc67c44235f805c59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ab30c44dbcaf1233fc67c44235f805c59">resize</a> (<a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a> new_size)</td></tr>
-<tr class="memdesc:ab30c44dbcaf1233fc67c44235f805c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">resize the array to contain exactly new_size items  <a href="#ab30c44dbcaf1233fc67c44235f805c59">More...</a><br/></td></tr>
-<tr class="separator:ab30c44dbcaf1233fc67c44235f805c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed675dde09e3264b6a131df45e8286a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#aed675dde09e3264b6a131df45e8286a0">fill</a> (const <a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> &amp;v=<a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a>()) noexcept</td></tr>
-<tr class="memdesc:aed675dde09e3264b6a131df45e8286a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zero the whole array content.  <a href="#aed675dde09e3264b6a131df45e8286a0">More...</a><br/></td></tr>
-<tr class="separator:aed675dde09e3264b6a131df45e8286a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd94ee1609231cbeed2b8f4241ab1074"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#acd94ee1609231cbeed2b8f4241ab1074">SimpleVector</a> ()</td></tr>
+<tr class="memdesc:acd94ee1609231cbeed2b8f4241ab1074"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate empty simple vector  <a href="#acd94ee1609231cbeed2b8f4241ab1074">More...</a><br/></td></tr>
+<tr class="separator:acd94ee1609231cbeed2b8f4241ab1074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a733f7ffbea5b7fc6dd0e68f409c81254"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a733f7ffbea5b7fc6dd0e68f409c81254">SimpleVector</a> (const <a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a> &amp;sz)</td></tr>
+<tr class="memdesc:a733f7ffbea5b7fc6dd0e68f409c81254"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate vector's memory  <a href="#a733f7ffbea5b7fc6dd0e68f409c81254">More...</a><br/></td></tr>
+<tr class="separator:a733f7ffbea5b7fc6dd0e68f409c81254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab13f06abc61e6f794ccb21130f9b037"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#aab13f06abc61e6f794ccb21130f9b037">SimpleVector</a> (const <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;)=delete</td></tr>
+<tr class="memdesc:aab13f06abc61e6f794ccb21130f9b037"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-copyable: delete copy-constructor  <a href="#aab13f06abc61e6f794ccb21130f9b037">More...</a><br/></td></tr>
+<tr class="separator:aab13f06abc61e6f794ccb21130f9b037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab906f240a60592ff1159764e286bc73a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ab906f240a60592ff1159764e286bc73a">operator=</a> (const <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;)=delete</td></tr>
+<tr class="memdesc:ab906f240a60592ff1159764e286bc73a"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-copyable: delete assignment operator  <a href="#ab906f240a60592ff1159764e286bc73a">More...</a><br/></td></tr>
+<tr class="separator:ab906f240a60592ff1159764e286bc73a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c4f661bed51712d987fd17966bfecb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a4c4f661bed51712d987fd17966bfecb3">SimpleVector</a> (<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;&amp;v) noexcept</td></tr>
+<tr class="memdesc:a4c4f661bed51712d987fd17966bfecb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">move-constructor  <a href="#a4c4f661bed51712d987fd17966bfecb3">More...</a><br/></td></tr>
+<tr class="separator:a4c4f661bed51712d987fd17966bfecb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3bd00a2a6e94f88327f43a69057efb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ac3bd00a2a6e94f88327f43a69057efb9">operator=</a> (<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;&amp;v) noexcept</td></tr>
+<tr class="memdesc:ac3bd00a2a6e94f88327f43a69057efb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">move-assignment  <a href="#ac3bd00a2a6e94f88327f43a69057efb9">More...</a><br/></td></tr>
+<tr class="separator:ac3bd00a2a6e94f88327f43a69057efb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70450cb464b52781a0804f07d6258831"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a70450cb464b52781a0804f07d6258831">swap</a> (<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> &amp;obj) noexcept</td></tr>
+<tr class="memdesc:a70450cb464b52781a0804f07d6258831"><td class="mdescLeft">&#160;</td><td class="mdescRight">swap vector with another one  <a href="#a70450cb464b52781a0804f07d6258831">More...</a><br/></td></tr>
+<tr class="separator:a70450cb464b52781a0804f07d6258831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad524cd2eca8f0257f19cb20e2b5365ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ad524cd2eca8f0257f19cb20e2b5365ec">~SimpleVector</a> ()</td></tr>
+<tr class="memdesc:ad524cd2eca8f0257f19cb20e2b5365ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete vector  <a href="#ad524cd2eca8f0257f19cb20e2b5365ec">More...</a><br/></td></tr>
+<tr class="separator:ad524cd2eca8f0257f19cb20e2b5365ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b17911a965d4b5ce3efa779ee013c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a92b53e87cfdc7e73dca5cf7deedf8376">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ac0b17911a965d4b5ce3efa779ee013c7">data</a> () noexcept</td></tr>
+<tr class="memdesc:ac0b17911a965d4b5ce3efa779ee013c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">return iterator to beginning of vector  <a href="#ac0b17911a965d4b5ce3efa779ee013c7">More...</a><br/></td></tr>
+<tr class="separator:ac0b17911a965d4b5ce3efa779ee013c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a949a7e212e7ef0c85e344f6fcf943211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a949a7e212e7ef0c85e344f6fcf943211">data</a> () const noexcept</td></tr>
+<tr class="memdesc:a949a7e212e7ef0c85e344f6fcf943211"><td class="mdescLeft">&#160;</td><td class="mdescRight">return iterator to beginning of vector  <a href="#a949a7e212e7ef0c85e344f6fcf943211">More...</a><br/></td></tr>
+<tr class="separator:a949a7e212e7ef0c85e344f6fcf943211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db032ea48a9a453e351f208f0c8feda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a2db032ea48a9a453e351f208f0c8feda">size</a> () const noexcept</td></tr>
+<tr class="memdesc:a2db032ea48a9a453e351f208f0c8feda"><td class="mdescLeft">&#160;</td><td class="mdescRight">return number of items in vector  <a href="#a2db032ea48a9a453e351f208f0c8feda">More...</a><br/></td></tr>
+<tr class="separator:a2db032ea48a9a453e351f208f0c8feda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac88e121be7c81e672bb54c41aa37ff8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a92b53e87cfdc7e73dca5cf7deedf8376">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#aac88e121be7c81e672bb54c41aa37ff8">begin</a> () noexcept</td></tr>
+<tr class="memdesc:aac88e121be7c81e672bb54c41aa37ff8"><td class="mdescLeft">&#160;</td><td class="mdescRight">return mutable iterator to first element  <a href="#aac88e121be7c81e672bb54c41aa37ff8">More...</a><br/></td></tr>
+<tr class="separator:aac88e121be7c81e672bb54c41aa37ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34a550f0370003f3328b4d9ff45f6e4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a34a550f0370003f3328b4d9ff45f6e4e">begin</a> () const noexcept</td></tr>
+<tr class="memdesc:a34a550f0370003f3328b4d9ff45f6e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return constant iterator to first element  <a href="#a34a550f0370003f3328b4d9ff45f6e4e">More...</a><br/></td></tr>
+<tr class="separator:a34a550f0370003f3328b4d9ff45f6e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cabcd845ae2141ba126ab0a0cef71db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a5cabcd845ae2141ba126ab0a0cef71db">cbegin</a> () const noexcept</td></tr>
+<tr class="memdesc:a5cabcd845ae2141ba126ab0a0cef71db"><td class="mdescLeft">&#160;</td><td class="mdescRight">return constant iterator to first element  <a href="#a5cabcd845ae2141ba126ab0a0cef71db">More...</a><br/></td></tr>
+<tr class="separator:a5cabcd845ae2141ba126ab0a0cef71db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12d82ee7132d84ef91586ab76d5837f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a92b53e87cfdc7e73dca5cf7deedf8376">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ad12d82ee7132d84ef91586ab76d5837f">end</a> () noexcept</td></tr>
+<tr class="memdesc:ad12d82ee7132d84ef91586ab76d5837f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return mutable iterator beyond last element  <a href="#ad12d82ee7132d84ef91586ab76d5837f">More...</a><br/></td></tr>
+<tr class="separator:ad12d82ee7132d84ef91586ab76d5837f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10dec9925b80858d13b6fb811640d4be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a10dec9925b80858d13b6fb811640d4be">end</a> () const noexcept</td></tr>
+<tr class="memdesc:a10dec9925b80858d13b6fb811640d4be"><td class="mdescLeft">&#160;</td><td class="mdescRight">return constant iterator beyond last element  <a href="#a10dec9925b80858d13b6fb811640d4be">More...</a><br/></td></tr>
+<tr class="separator:a10dec9925b80858d13b6fb811640d4be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8579972abcd4b7d8c1a9aeba9979fb58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a8579972abcd4b7d8c1a9aeba9979fb58">cend</a> () const noexcept</td></tr>
+<tr class="memdesc:a8579972abcd4b7d8c1a9aeba9979fb58"><td class="mdescLeft">&#160;</td><td class="mdescRight">return constant iterator beyond last element  <a href="#a8579972abcd4b7d8c1a9aeba9979fb58">More...</a><br/></td></tr>
+<tr class="separator:a8579972abcd4b7d8c1a9aeba9979fb58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362e7094da62c3e8b4898f88e2c3c295"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a9fdd837a2b37a801aaf7fd4c0b8a3251">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a362e7094da62c3e8b4898f88e2c3c295">operator[]</a> (<a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a> i) noexcept</td></tr>
+<tr class="memdesc:a362e7094da62c3e8b4898f88e2c3c295"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the i-th position of the vector  <a href="#a362e7094da62c3e8b4898f88e2c3c295">More...</a><br/></td></tr>
+<tr class="separator:a362e7094da62c3e8b4898f88e2c3c295"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a1605f2770b0b7502aee112d392e90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a42441759f230e5e5457d75593fe59d63">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a01a1605f2770b0b7502aee112d392e90">operator[]</a> (<a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a> i) const noexcept</td></tr>
+<tr class="memdesc:a01a1605f2770b0b7502aee112d392e90"><td class="mdescLeft">&#160;</td><td class="mdescRight">return constant reference to the i-th position of the vector  <a href="#a01a1605f2770b0b7502aee112d392e90">More...</a><br/></td></tr>
+<tr class="separator:a01a1605f2770b0b7502aee112d392e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcbb7adb8244f1ca7626b0b770424249"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#adcbb7adb8244f1ca7626b0b770424249">resize</a> (<a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a> new_size)</td></tr>
+<tr class="memdesc:adcbb7adb8244f1ca7626b0b770424249"><td class="mdescLeft">&#160;</td><td class="mdescRight">resize the array to contain exactly new_size items  <a href="#adcbb7adb8244f1ca7626b0b770424249">More...</a><br/></td></tr>
+<tr class="separator:adcbb7adb8244f1ca7626b0b770424249"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea45ebabe039719e18dfc6c0e9f26d3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#aea45ebabe039719e18dfc6c0e9f26d3c">fill</a> (const <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> &amp;v=<a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a>()) noexcept</td></tr>
+<tr class="memdesc:aea45ebabe039719e18dfc6c0e9f26d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zero the whole array content.  <a href="#aea45ebabe039719e18dfc6c0e9f26d3c">More...</a><br/></td></tr>
+<tr class="separator:aea45ebabe039719e18dfc6c0e9f26d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a343b2bda5049f77fd8150b326667e9a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a343b2bda5049f77fd8150b326667e9a1">size_</a></td></tr>
-<tr class="memdesc:a343b2bda5049f77fd8150b326667e9a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of allocated memory  <a href="#a343b2bda5049f77fd8150b326667e9a1">More...</a><br/></td></tr>
-<tr class="separator:a343b2bda5049f77fd8150b326667e9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84fd65f999ad67444b280e0e5d8bafd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a84fd65f999ad67444b280e0e5d8bafd9">array_</a></td></tr>
-<tr class="memdesc:a84fd65f999ad67444b280e0e5d8bafd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to allocated memory area  <a href="#a84fd65f999ad67444b280e0e5d8bafd9">More...</a><br/></td></tr>
-<tr class="separator:a84fd65f999ad67444b280e0e5d8bafd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b58f1810c9e0b626e084700e89e0f9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a8b58f1810c9e0b626e084700e89e0f9d">size_</a></td></tr>
+<tr class="memdesc:a8b58f1810c9e0b626e084700e89e0f9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of allocated memory  <a href="#a8b58f1810c9e0b626e084700e89e0f9d">More...</a><br/></td></tr>
+<tr class="separator:a8b58f1810c9e0b626e084700e89e0f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a607fef876a92dcf1cd260567e0d0ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a1a607fef876a92dcf1cd260567e0d0ae">array_</a></td></tr>
+<tr class="memdesc:a1a607fef876a92dcf1cd260567e0d0ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to allocated memory area  <a href="#a1a607fef876a92dcf1cd260567e0d0ae">More...</a><br/></td></tr>
+<tr class="separator:a1a607fef876a92dcf1cd260567e0d0ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:ac846f23ceb3df9c355eadd42129be872"><td class="memItemLeft" align="right" valign="top">static ValueType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#ac846f23ceb3df9c355eadd42129be872">create_array</a> (size_t <a class="el" href="classtlx_1_1SimpleVector.html#a2db032ea48a9a453e351f208f0c8feda">size</a>)</td></tr>
+<tr class="separator:ac846f23ceb3df9c355eadd42129be872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6421fffa0bed5ea2df5785c138af1cfa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html#a6421fffa0bed5ea2df5785c138af1cfa">destroy_array</a> (ValueType *array, size_t <a class="el" href="classtlx_1_1SimpleVector.html#a2db032ea48a9a453e351f208f0c8feda">size</a>)</td></tr>
+<tr class="separator:a6421fffa0bed5ea2df5785c138af1cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename ValueType&gt;<br/>
-class tlx::SimpleVector&lt; ValueType &gt;</h3>
+<div class="textblock"><h3>template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt;<br/>
+class tlx::SimpleVector&lt; ValueType, Mode &gt;</h3>
 
 <p>Simpler non-growing vector without initialization. </p>
 <p><a class="el" href="classtlx_1_1SimpleVector.html" title="Simpler non-growing vector without initialization.">SimpleVector</a> can be used a replacement for std::vector when only a non-growing array of simple types is needed. The advantages of <a class="el" href="classtlx_1_1SimpleVector.html" title="Simpler non-growing vector without initialization.">SimpleVector</a> are that it does not initilize memory for POD types (-&gt; faster), while normal structs are supported as well if default-contractible. The simple pointer types allow faster compilation and is less error prone to copying and other problems. </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00034">34</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00046">46</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a1bb5e2e2e405c9b357c71a109946bf10"></a>
+<a class="anchor" id="a18b8e8b2c867a7510922a571b8143262"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a> =  const <a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> *</td>
+          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a> =  const <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> *</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00051">51</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00063">63</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6a483de983beb321e98d60680377cb94"></a>
+<a class="anchor" id="a42441759f230e5e5457d75593fe59d63"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a6a483de983beb321e98d60680377cb94">const_reference</a> =  const <a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> &amp;</td>
+          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a42441759f230e5e5457d75593fe59d63">const_reference</a> =  const <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> &amp;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00053">53</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00065">65</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4c5faedaf132a35b8b50969611c5ea77"></a>
+<a class="anchor" id="a92b53e87cfdc7e73dca5cf7deedf8376"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a4c5faedaf132a35b8b50969611c5ea77">iterator</a> =  <a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> *</td>
+          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a92b53e87cfdc7e73dca5cf7deedf8376">iterator</a> =  <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> *</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00062">62</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9fdd837a2b37a801aaf7fd4c0b8a3251"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a9fdd837a2b37a801aaf7fd4c0b8a3251">reference</a> =  <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> &amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00064">64</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a90efdbd8979317a311b26da05d240b54"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a> =  size_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -271,66 +311,34 @@ template&lt;typename ValueType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="af4f30d03756e02159f89ca131d3646a8"></a>
+<a class="anchor" id="a29140177379aa2f3e3f8fbdf175380f5"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#af4f30d03756e02159f89ca131d3646a8">reference</a> =  <a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> &amp;</td>
+          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> =  ValueType</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00052">52</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a01ade628c15683de2aa8a2629c1bde8c"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a> =  size_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00038">38</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1b9e28e6433ab6ef79e50e3ee3bb5b05"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::<a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> =  ValueType</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00037">37</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00049">49</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a0c385e9eb53ec1b6d72a3d957e0e19f2"></a>
+<a class="anchor" id="acd94ee1609231cbeed2b8f4241ab1074"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -345,23 +353,23 @@ template&lt;typename ValueType &gt; </div>
 
 <p>allocate empty simple vector </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00057">57</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00069">69</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad83a8c0650dd1016fd0c7f838ac0d825"></a>
+<a class="anchor" id="a733f7ffbea5b7fc6dd0e68f409c81254"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a> &amp;&#160;</td>
           <td class="paramname"><em>sz</em></td><td>)</td>
           <td></td>
         </tr>
@@ -375,23 +383,23 @@ template&lt;typename ValueType &gt; </div>
 
 <p>allocate vector's memory </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00062">62</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00074">74</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac46470061c14025d7d6a721c6cc905c2"></a>
+<a class="anchor" id="aab13f06abc61e6f794ccb21130f9b037"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; ValueType, Mode &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -407,19 +415,19 @@ template&lt;typename ValueType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a0b44a6663588d95c77fea53579ff5874"></a>
+<a class="anchor" id="a4c4f661bed51712d987fd17966bfecb3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; ValueType &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; ValueType, Mode &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
           <td></td>
         </tr>
@@ -433,21 +441,21 @@ template&lt;typename ValueType &gt; </div>
 
 <p>move-constructor </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00074">74</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00086">86</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a07879c31b44cabad8ac55bb6d6a1b2bd"></a>
+<a class="anchor" id="ad524cd2eca8f0257f19cb20e2b5365ec"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::~<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::~<a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -462,22 +470,22 @@ template&lt;typename ValueType &gt; </div>
 
 <p>delete vector </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00094">94</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00106">106</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a4983e82a236982285fe9d20ee0f5bb7d"></a>
+<a class="anchor" id="aac88e121be7c81e672bb54c41aa37ff8"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a4c5faedaf132a35b8b50969611c5ea77">iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::begin </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a92b53e87cfdc7e73dca5cf7deedf8376">iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -492,21 +500,21 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return mutable iterator to first element </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00112">112</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00124">124</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a568ea44fc70cd94a5dfbc07baa5e2283"></a>
+<a class="anchor" id="a34a550f0370003f3328b4d9ff45f6e4e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::begin </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -521,21 +529,21 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return constant iterator to first element </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00116">116</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00128">128</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2a28a43deba27df3831fc73d59d652db"></a>
+<a class="anchor" id="a5cabcd845ae2141ba126ab0a0cef71db"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::cbegin </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::cbegin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -550,21 +558,21 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return constant iterator to first element </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00120">120</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00132">132</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5635f107995dad6b0f5daf3c04694ac1"></a>
+<a class="anchor" id="a8579972abcd4b7d8c1a9aeba9979fb58"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::cend </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::cend </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -579,21 +587,49 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return constant iterator beyond last element </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00133">133</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00145">145</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a563f20065486d5dacf8638c6afe5edb6"></a>
+<a class="anchor" id="ac846f23ceb3df9c355eadd42129be872"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a4c5faedaf132a35b8b50969611c5ea77">iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::data </td>
+          <td class="memname">static ValueType* <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::create_array </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00179">179</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac0b17911a965d4b5ce3efa779ee013c7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a92b53e87cfdc7e73dca5cf7deedf8376">iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::data </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -608,21 +644,21 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return iterator to beginning of vector </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00099">99</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00111">111</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ae23b9f05d42229439d70f1d0664378aa"></a>
+<a class="anchor" id="a949a7e212e7ef0c85e344f6fcf943211"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::data </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::data </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -637,21 +673,59 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return iterator to beginning of vector </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00103">103</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00115">115</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5e61ebb2f367a2e014c149a3a766de22"></a>
+<a class="anchor" id="a6421fffa0bed5ea2df5785c138af1cfa"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a4c5faedaf132a35b8b50969611c5ea77">iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::end </td>
+          <td class="memname">static void <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::destroy_array </td>
+          <td>(</td>
+          <td class="paramtype">ValueType *&#160;</td>
+          <td class="paramname"><em>array</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00193">193</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad12d82ee7132d84ef91586ab76d5837f"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a92b53e87cfdc7e73dca5cf7deedf8376">iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -666,21 +740,21 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return mutable iterator beyond last element </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00125">125</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00137">137</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa4f592853b73b5eaae41ecc6f496a6f5"></a>
+<a class="anchor" id="a10dec9925b80858d13b6fb811640d4be"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a1bb5e2e2e405c9b357c71a109946bf10">const_iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::end </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a18b8e8b2c867a7510922a571b8143262">const_iterator</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -695,24 +769,24 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return constant iterator beyond last element </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00129">129</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00141">141</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aed675dde09e3264b6a131df45e8286a0"></a>
+<a class="anchor" id="aea45ebabe039719e18dfc6c0e9f26d3c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::fill </td>
+          <td class="memname">void <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::fill </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>v</em> = <code><a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a>()</code></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em> = <code><a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a>()</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -725,23 +799,23 @@ template&lt;typename ValueType &gt; </div>
 
 <p>Zero the whole array content. </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00162">162</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00174">174</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6ecd5f5cb69dd5c7c7752837a83d0f73"></a>
+<a class="anchor" id="ab906f240a60592ff1159764e286bc73a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&amp; <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::operator= </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&amp; <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; ValueType, Mode &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -757,19 +831,19 @@ template&lt;typename ValueType &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ac50c41220b96ed18f11174ed5a9e71de"></a>
+<a class="anchor" id="ac3bd00a2a6e94f88327f43a69057efb9"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&amp; <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::operator= </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&amp; <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; ValueType &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; ValueType, Mode &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
           <td></td>
         </tr>
@@ -783,23 +857,23 @@ template&lt;typename ValueType &gt; </div>
 
 <p>move-assignment </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00079">79</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00091">91</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a52c50f187be5bb52320cbae313fd8a97"></a>
+<a class="anchor" id="a362e7094da62c3e8b4898f88e2c3c295"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#af4f30d03756e02159f89ca131d3646a8">reference</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::operator[] </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a9fdd837a2b37a801aaf7fd4c0b8a3251">reference</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::operator[] </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a>&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
           <td></td>
         </tr>
@@ -813,23 +887,23 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return the i-th position of the vector </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00138">138</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00150">150</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad9a242158e7e3405b859f38bdf00f677"></a>
+<a class="anchor" id="a01a1605f2770b0b7502aee112d392e90"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a6a483de983beb321e98d60680377cb94">const_reference</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::operator[] </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a42441759f230e5e5457d75593fe59d63">const_reference</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::operator[] </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a>&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -843,23 +917,23 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return constant reference to the i-th position of the vector </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00142">142</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00154">154</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab30c44dbcaf1233fc67c44235f805c59"></a>
+<a class="anchor" id="adcbb7adb8244f1ca7626b0b770424249"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::resize </td>
+          <td class="memname">void <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::resize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a>&#160;</td>
           <td class="paramname"><em>new_size</em></td><td>)</td>
           <td></td>
         </tr>
@@ -873,21 +947,21 @@ template&lt;typename ValueType &gt; </div>
 
 <p>resize the array to contain exactly new_size items </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00147">147</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00159">159</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6bb276f8a2608ae8a80f46b4a0b0c3a4"></a>
+<a class="anchor" id="a2db032ea48a9a453e351f208f0c8feda"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::size </td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -902,23 +976,23 @@ template&lt;typename ValueType &gt; </div>
 
 <p>return number of items in vector </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00107">107</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00119">119</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a98249b8118e38343153664006913281a"></a>
+<a class="anchor" id="a70450cb464b52781a0804f07d6258831"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::swap </td>
+          <td class="memname">void <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::swap </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; ValueType, Mode &gt; &amp;&#160;</td>
           <td class="paramname"><em>obj</em></td><td>)</td>
           <td></td>
         </tr>
@@ -932,22 +1006,22 @@ template&lt;typename ValueType &gt; </div>
 
 <p>swap vector with another one </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00088">88</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00100">100</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a84fd65f999ad67444b280e0e5d8bafd9"></a>
+<a class="anchor" id="a1a607fef876a92dcf1cd260567e0d0ae"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a1b9e28e6433ab6ef79e50e3ee3bb5b05">value_type</a>* <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::array_</td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">value_type</a>* <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::array_</td>
         </tr>
       </table>
   </td>
@@ -959,21 +1033,21 @@ template&lt;typename ValueType &gt; </div>
 
 <p>pointer to allocated memory area </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00045">45</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00057">57</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a343b2bda5049f77fd8150b326667e9a1"></a>
+<a class="anchor" id="a8b58f1810c9e0b626e084700e89e0f9d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType &gt; </div>
+template&lt;typename ValueType, SimpleVectorMode Mode = SimpleVectorMode::Normal&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a01ade628c15683de2aa8a2629c1bde8c">size_type</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType &gt;::size_</td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">size_type</a> <a class="el" href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a>&lt; ValueType, Mode &gt;::size_</td>
         </tr>
       </table>
   </td>
@@ -985,7 +1059,7 @@ template&lt;typename ValueType &gt; </div>
 
 <p>size of allocated memory </p>
 
-<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00042">42</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
+<p>Definition at line <a class="el" href="simple__vector_8hpp_source.html#l00054">54</a> of file <a class="el" href="simple__vector_8hpp_source.html">simple_vector.hpp</a>.</p>
 
 </div>
 </div>
@@ -998,7 +1072,7 @@ template&lt;typename ValueType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a></li>
-    <li class="footer">Generated on Thu Feb 23 2017 18:41:22 for tlx by
+    <li class="footer">Generated on Thu Feb 23 2017 19:30:03 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
