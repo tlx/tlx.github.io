@@ -7,5 +7,6 @@ var searchData=
   ['max_5ftype_5fname_5f',['max_type_name_',['../classtlx_1_1CmdlineParser.html#a4884c32dedc07a9529c756acffd2c4ff',1,'tlx::CmdlineParser']]],
   ['memberpair',['MemberPair',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#aa96fc6ba0b5875ebeb387c0cb1c7591a',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
   ['meta_2ehpp',['meta.hpp',['../meta_8hpp.html',1,'']]],
-  ['method_5fcaller',['method_caller',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ae2378b938c7d9a74f789b9db2a971458',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]]
+  ['method_5fcaller',['method_caller',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ae2378b938c7d9a74f789b9db2a971458',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
+  ['min_5fsource',['min_source',['../classtlx_1_1LoserTreeCopyBase.html#a4a98439e1e5f793397fdaa4bbd00d4a1',1,'tlx::LoserTreeCopyBase::min_source()'],['../classtlx_1_1LoserTreePointerBase.html#a557c576c286914df956301d45daa9751',1,'tlx::LoserTreePointerBase::min_source()'],['../classtlx_1_1LoserTreeCopyUnguardedBase.html#acb14c6336a92b4e7b46bab4866751bf7',1,'tlx::LoserTreeCopyUnguardedBase::min_source()'],['../classtlx_1_1LoserTreePointerUnguardedBase.html#aaacc0a8332c487060811d247e65a15b7',1,'tlx::LoserTreePointerUnguardedBase::min_source()']]]
 ];
