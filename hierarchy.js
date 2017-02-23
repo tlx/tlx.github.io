@@ -49,10 +49,12 @@ var hierarchy =
     [ "tlx::LoserTreeTraits< Stable, ValueType, Comparator, Enable >", "classtlx_1_1LoserTreeTraits.html", null ],
     [ "tlx::ReferenceCounter", "classtlx_1_1ReferenceCounter.html", null ],
     [ "tlx::SimpleVector< ValueType, Mode >", "classtlx_1_1SimpleVector.html", null ],
+    [ "tlx::SimpleVector< std::thread >", "classtlx_1_1SimpleVector.html", null ],
     [ "tlx::SimpleVector< tlx::LoserTreeCopyBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
     [ "tlx::SimpleVector< tlx::LoserTreeCopyUnguardedBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
     [ "tlx::SimpleVector< tlx::LoserTreePointerBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
     [ "tlx::SimpleVector< tlx::LoserTreePointerUnguardedBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
+    [ "tlx::ThreadPool", "classtlx_1_1ThreadPool.html", null ],
     [ "true_type", null, [
       [ "tlx::Delegate< R(A...), Allocator >::IsConstMemberPair< ConstMemberPair< C > >", "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsConstMemberPair_3_01ConstMemberPair_3_01C_01_4_01_4.html", null ],
       [ "tlx::Delegate< R(A...), Allocator >::IsMemberPair< MemberPair< C > >", "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsMemberPair_3_01MemberPair_3_01C_01_4_01_4.html", null ]

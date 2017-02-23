@@ -22,5 +22,7 @@ var searchData=
   ['die_5funequal_5fcompare',['die_unequal_compare',['../namespacetlx.html#a717a659d0a374923911729663882bb4b',1,'tlx::die_unequal_compare(TypeA a, TypeB b)'],['../namespacetlx.html#a7b1550ff16b4ba586596da7f1f471abc',1,'tlx::die_unequal_compare(float a, float b)'],['../namespacetlx.html#abe8b35ade280b3f91e8139002674d827',1,'tlx::die_unequal_compare(double a, double b)']]],
   ['die_5funless',['die_unless',['../die_8hpp.html#a63798a2675296e09260478493bf3829b',1,'die.hpp']]],
   ['die_5fwith_5fmessage',['die_with_message',['../namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b',1,'tlx::die_with_message(const std::string &amp;msg)'],['../namespacetlx.html#a4ea5cbffd44f2ec0ce8ed33a4a61f6a0',1,'tlx::die_with_message(const char *msg, const char *file, size_t line)'],['../namespacetlx.html#a649f5837f3dd844a036e9a56534f4bec',1,'tlx::die_with_message(const std::string &amp;msg, const char *file, size_t line)']]],
-  ['die_5fwith_5fsstream',['die_with_sstream',['../die_8hpp.html#a17ac1fcc957b3ac3414677c0058b1bad',1,'die.hpp']]]
+  ['die_5fwith_5fsstream',['die_with_sstream',['../die_8hpp.html#a17ac1fcc957b3ac3414677c0058b1bad',1,'die.hpp']]],
+  ['done',['done',['../classtlx_1_1ThreadPool.html#a956cf2c2069dccfef517dbb8b8958322',1,'tlx::ThreadPool']]],
+  ['done_5f',['done_',['../classtlx_1_1ThreadPool.html#a2318d7d7b55d5c110edcbef7d381cc5f',1,'tlx::ThreadPool']]]
 ];

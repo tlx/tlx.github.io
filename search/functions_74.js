@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['terminate',['terminate',['../classtlx_1_1ThreadPool.html#ab9bac7fd4bb8994a635ba13cf7aafa44',1,'tlx::ThreadPool']]],
+  ['thread',['thread',['../classtlx_1_1ThreadPool.html#a4b18cc0bea0f7c9858189f6c9c153ed5',1,'tlx::ThreadPool']]],
+  ['threadpool',['ThreadPool',['../classtlx_1_1ThreadPool.html#ae2fd08e8c6b4554ffbf344aaac70b790',1,'tlx::ThreadPool::ThreadPool(size_t num_threads=std::thread::hardware_concurrency())'],['../classtlx_1_1ThreadPool.html#a567d6183bd24e73c05f0e8ecda137686',1,'tlx::ThreadPool::ThreadPool(const ThreadPool &amp;)=delete']]],
   ['to_5flower',['to_lower',['../namespacetlx.html#a517528748ca179557fe52d4e962e7859',1,'tlx::to_lower(char ch)'],['../namespacetlx.html#a26b550eadfca772df3e1c2ce3a581b02',1,'tlx::to_lower(std::string *str)'],['../namespacetlx.html#ad5053e892d19dd4fe230e19928287b89',1,'tlx::to_lower(const std::string &amp;str)']]],
   ['to_5fupper',['to_upper',['../namespacetlx.html#aef29005ad36974008f9c0a364878b855',1,'tlx::to_upper(char ch)'],['../namespacetlx.html#a742b71bfffe387035f604bad0d1ff4aa',1,'tlx::to_upper(std::string *str)'],['../namespacetlx.html#a54387562dddddd389df250cdb15ade00',1,'tlx::to_upper(const std::string &amp;str)']]],
   ['trim',['trim',['../namespacetlx.html#afc70026a4a1d57a74c7125f959245719',1,'tlx::trim(std::string *str, const char *drop=&quot; \r\n\t&quot;)'],['../namespacetlx.html#a3d1eecb0fadc2a1fddf598c7263ea4a9',1,'tlx::trim(std::string *str, const std::string &amp;drop)'],['../namespacetlx.html#a793ce30c7b3cff3a6111b41b07e883e1',1,'tlx::trim(const std::string &amp;str, const char *drop=&quot; \r\n\t&quot;)'],['../namespacetlx.html#a32962b0cd33bfbad1b8b9f84d71171fc',1,'tlx::trim(const std::string &amp;str, const std::string &amp;drop)']]],

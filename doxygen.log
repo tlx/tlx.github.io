@@ -2,6 +2,9 @@ warning: ignoring unsupported tag `SOURCE_TOOLTIPS        =' at line 928, file D
 warning: ignoring unsupported tag `MATHJAX_CODEFILE       =' at line 1438, file Doxyfile
 warning: ignoring unsupported tag `GENERATE_DOCBOOK       =' at line 1574, file Doxyfile
 warning: ignoring unsupported tag `EXTERNAL_PAGES         =' at line 1721, file Doxyfile
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:27: warning: unable to resolve reference to `Enqueue' for \ref command
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:27: warning: unable to resolve reference to `Enqueue' for \ref command
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:27: warning: unable to resolve reference to `Enqueue' for \ref command
 /home/travis/build/tlx/tlx/tlx/string/split.hpp:68: warning: argument 'min' of command @param is not found in the argument list of tlx::split(char sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit)
 /home/travis/build/tlx/tlx/tlx/string/split.hpp:68: warning: The following parameters of tlx::split(char sep, const std::string &str, std::string::size_type min_fields, std::string::size_type limit) are not documented:
   parameter 'min_fields'
@@ -23,3 +26,12 @@ warning: ignoring unsupported tag `EXTERNAL_PAGES         =' at line 1721, file 
 /home/travis/build/tlx/tlx/tlx/cmdline_parser.hpp:28: warning: included file tests/cmdline_parser_example.cpp is not found. Check your EXAMPLE_PATH
 /home/travis/build/tlx/tlx/tlx/cmdline_parser.hpp:28: warning: block marked with [example] for \snippet should appear twice in file tests/cmdline_parser_example.cpp, found it 0 times
 
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:27: warning: unable to resolve reference to `Enqueue' for \ref command
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:27: warning: unable to resolve reference to `Enqueue' for \ref command
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:66: warning: unable to resolve reference to `ConcurrentQueue' for \ref command
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:67: warning: unable to resolve reference to `ConcurrentBoundedQueue' for \ref command
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:73: warning: unable to resolve reference to `ConcurrentQueue' for \ref command
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:74: warning: unable to resolve reference to `ConcurrentBoundedQueue' for \ref command
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:74: warning: Unsupported xml/html tag <T> found
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:27: warning: unable to resolve reference to `Enqueue' for \ref command
+/home/travis/build/tlx/tlx/tlx/thread_pool.hpp:27: warning: unable to resolve reference to `Enqueue' for \ref command
