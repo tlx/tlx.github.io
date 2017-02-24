@@ -1,9 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"string_8hpp.html":[2,0,0,15],
-"string_8hpp_source.html":[2,0,0,15],
-"structtlx_1_1CmdlineParser_1_1Argument.html":[1,0,0,0,0],
-"structtlx_1_1CmdlineParser_1_1Argument.html#a12a1a4a1ec42c1f5bbee2964cb0cee43":[1,0,0,0,0,12],
 "structtlx_1_1CmdlineParser_1_1Argument.html#a17ef8db88b743e1ae8d3ab4c25213bc4":[1,0,0,0,0,11],
 "structtlx_1_1CmdlineParser_1_1Argument.html#a2a5dab51efbfcb7242082d1707c81284":[1,0,0,0,0,0],
 "structtlx_1_1CmdlineParser_1_1Argument.html#a2de5bc4bd94e21a48df75ab44174c3ff":[1,0,0,0,0,9],

@@ -7,7 +7,6 @@ var classtlx_1_1LoserTreeCopyBase =
     [ "init_winner", "classtlx_1_1LoserTreeCopyBase.html#a33ecd16cb4dc13e16eb4c1595df85387", null ],
     [ "insert_start", "classtlx_1_1LoserTreeCopyBase.html#afb38bd58af16326da323321908ed9dd1", null ],
     [ "min_source", "classtlx_1_1LoserTreeCopyBase.html#a4a98439e1e5f793397fdaa4bbd00d4a1", null ],
-    [ "print", "classtlx_1_1LoserTreeCopyBase.html#abed1187fb015496e29d30796053f057d", null ],
     [ "cmp_", "classtlx_1_1LoserTreeCopyBase.html#a7ffc7373bb999ca0df84bed4ac33f219", null ],
     [ "first_insert_", "classtlx_1_1LoserTreeCopyBase.html#a5c5279ae491a9071d076cb267254c97c", null ],
     [ "ik_", "classtlx_1_1LoserTreeCopyBase.html#abd5d8d6810375dd451436937ac0dd279", null ],
