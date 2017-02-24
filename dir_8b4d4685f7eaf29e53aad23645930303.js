@@ -10,6 +10,7 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
       [ "ArgumentInt", "structtlx_1_1CmdlineParser_1_1ArgumentInt.html", "structtlx_1_1CmdlineParser_1_1ArgumentInt" ],
       [ "ArgumentUnsigned", "structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html", "structtlx_1_1CmdlineParser_1_1ArgumentUnsigned" ],
       [ "ArgumentSizeT", "structtlx_1_1CmdlineParser_1_1ArgumentSizeT.html", "structtlx_1_1CmdlineParser_1_1ArgumentSizeT" ],
+      [ "ArgumentFloat", "structtlx_1_1CmdlineParser_1_1ArgumentFloat.html", "structtlx_1_1CmdlineParser_1_1ArgumentFloat" ],
       [ "ArgumentDouble", "structtlx_1_1CmdlineParser_1_1ArgumentDouble.html", "structtlx_1_1CmdlineParser_1_1ArgumentDouble" ],
       [ "ArgumentBytes32", "structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html", "structtlx_1_1CmdlineParser_1_1ArgumentBytes32" ],
       [ "ArgumentBytes64", "structtlx_1_1CmdlineParser_1_1ArgumentBytes64.html", "structtlx_1_1CmdlineParser_1_1ArgumentBytes64" ],

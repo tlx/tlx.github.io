@@ -5,6 +5,7 @@ var hierarchy =
       [ "tlx::CmdlineParser::ArgumentBytes32", "structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html", null ],
       [ "tlx::CmdlineParser::ArgumentBytes64", "structtlx_1_1CmdlineParser_1_1ArgumentBytes64.html", null ],
       [ "tlx::CmdlineParser::ArgumentDouble", "structtlx_1_1CmdlineParser_1_1ArgumentDouble.html", null ],
+      [ "tlx::CmdlineParser::ArgumentFloat", "structtlx_1_1CmdlineParser_1_1ArgumentFloat.html", null ],
       [ "tlx::CmdlineParser::ArgumentInt", "structtlx_1_1CmdlineParser_1_1ArgumentInt.html", null ],
       [ "tlx::CmdlineParser::ArgumentSizeT", "structtlx_1_1CmdlineParser_1_1ArgumentSizeT.html", null ],
       [ "tlx::CmdlineParser::ArgumentString", "structtlx_1_1CmdlineParser_1_1ArgumentString.html", null ],
