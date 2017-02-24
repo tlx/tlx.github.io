@@ -21,6 +21,8 @@ var hierarchy =
       [ "tlx::Delegate< R(A...), Allocator >::IsConstMemberPair< typename >", "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsConstMemberPair.html", null ],
       [ "tlx::Delegate< R(A...), Allocator >::IsMemberPair< typename >", "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsMemberPair.html", null ]
     ] ],
+    [ "tlx::If< Flag, TypeTrue, TypeFalse >", "structtlx_1_1If.html", null ],
+    [ "tlx::If< false, TypeTrue, TypeFalse >", "structtlx_1_1If_3_01false_00_01TypeTrue_00_01TypeFalse_01_4.html", null ],
     [ "tlx::Log2< Input >", "classtlx_1_1Log2.html", null ],
     [ "tlx::Log2< 0 >", "classtlx_1_1Log2_3_010_01_4.html", null ],
     [ "tlx::Log2< 1 >", "classtlx_1_1Log2_3_011_01_4.html", null ],

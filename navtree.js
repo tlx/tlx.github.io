@@ -39,7 +39,7 @@ var NAVTREEINDEX =
 "annotated.html",
 "classtlx_1_1LoserTreePointerBase.html#a3b6746b4d3f53391ac2fb74d9c377d70",
 "functions_func_0x6f.html",
-"structtlx_1_1CmdlineParser_1_1Argument.html#a17ef8db88b743e1ae8d3ab4c25213bc4"
+"structtlx_1_1CmdlineParser_1_1Argument.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

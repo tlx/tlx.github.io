@@ -227,7 +227,7 @@ Private Attributes</h2></td></tr>
 <li>ConcurrentQueue</li>
 <li>ConcurrentBoundedQueue.</li>
 </ul>
-<p>If the Intel Thread Building Blocks are available, then these use their lock-free implementations, which are very fast, but do busy-waiting for items. Otherwise, compatible replacements are used.</p>
+<p><a class="el" href="structtlx_1_1If.html" title="If template metaprogramming statement.">If</a> the Intel Thread Building Blocks are available, then these use their lock-free implementations, which are very fast, but do busy-waiting for items. Otherwise, compatible replacements are used.</p>
 <p>The ConcurrentQueue has no busy-waiting pop(), only a try_pop() method. This should be preferred! The ConcurrentBoundedQueue&lt;T&gt; has a blocking pop(), but it probably does busy-waiting. </p>
 
 <p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00079">79</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
@@ -746,7 +746,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a></li>
-    <li class="footer">Generated on Fri Feb 24 2017 21:17:34 for tlx by
+    <li class="footer">Generated on Fri Feb 24 2017 21:42:10 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -41,6 +41,8 @@ var NAVTREEINDEX2 =
 "hexdump_8hpp.html#ae43ee9db15046fbe68445eaec4e5c163":[2,0,0,3,13,9],
 "hexdump_8hpp_source.html":[2,0,0,3,13],
 "hierarchy.html":[1,2],
+"if_8hpp.html":[2,0,0,2,0],
+"if_8hpp_source.html":[2,0,0,2,0],
 "index.html":[],
 "integer__log2_8cpp.html":[2,0,0,1,2],
 "integer__log2_8cpp.html#a030c7f4d9609d7b10128cfb9e51c3875":[2,0,0,1,2,3],
@@ -108,8 +110,8 @@ var NAVTREEINDEX2 =
 "likely_8hpp.html#a106afbc6d1f1fe01b3a4614eebf55113":[2,0,0,0,4,1],
 "likely_8hpp.html#a2c4b5b038e88004e67c779cf9afcecc7":[2,0,0,0,4,0],
 "likely_8hpp_source.html":[2,0,0,0,4],
-"log2_8hpp.html":[2,0,0,2,0],
-"log2_8hpp_source.html":[2,0,0,2,0],
+"log2_8hpp.html":[2,0,0,2,1],
+"log2_8hpp_source.html":[2,0,0,2,1],
 "loser__tree_8hpp.html":[2,0,0,11],
 "loser__tree_8hpp_source.html":[2,0,0,11],
 "math_8hpp.html":[2,0,0,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "starts__with_8hpp.html#ab50650708407ad9fd1dbc6fedc945678":[2,0,0,3,24,0],
 "starts__with_8hpp_source.html":[2,0,0,3,24],
 "string_8hpp.html":[2,0,0,15],
-"string_8hpp_source.html":[2,0,0,15],
-"structtlx_1_1CmdlineParser_1_1Argument.html":[1,0,0,0,0],
-"structtlx_1_1CmdlineParser_1_1Argument.html#a12a1a4a1ec42c1f5bbee2964cb0cee43":[1,0,0,0,0,12]
+"string_8hpp_source.html":[2,0,0,15]
 };

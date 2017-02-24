@@ -19,6 +19,8 @@ var namespacetlx =
     [ "LoserTreePointerUnguarded", "classtlx_1_1LoserTreePointerUnguarded.html", "classtlx_1_1LoserTreePointerUnguarded" ],
     [ "LoserTreePointerUnguarded< true, ValueType, Comparator >", "classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html", "classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4" ],
     [ "LoserTreeTraits", "classtlx_1_1LoserTreeTraits.html", "classtlx_1_1LoserTreeTraits" ],
+    [ "If", "structtlx_1_1If.html", "structtlx_1_1If" ],
+    [ "If< false, TypeTrue, TypeFalse >", "structtlx_1_1If_3_01false_00_01TypeTrue_00_01TypeFalse_01_4.html", "structtlx_1_1If_3_01false_00_01TypeTrue_00_01TypeFalse_01_4" ],
     [ "Log2Floor", "classtlx_1_1Log2Floor.html", "classtlx_1_1Log2Floor" ],
     [ "Log2Floor< 1 >", "classtlx_1_1Log2Floor_3_011_01_4.html", "classtlx_1_1Log2Floor_3_011_01_4" ],
     [ "Log2Floor< 0 >", "classtlx_1_1Log2Floor_3_010_01_4.html", "classtlx_1_1Log2Floor_3_010_01_4" ],

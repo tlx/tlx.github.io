@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['if',['If',['../structtlx_1_1If.html',1,'tlx']]],
+  ['if_2ehpp',['if.hpp',['../if_8hpp.html',1,'']]],
+  ['if_3c_20false_2c_20typetrue_2c_20typefalse_20_3e',['If&lt; false, TypeTrue, TypeFalse &gt;',['../structtlx_1_1If_3_01false_00_01TypeTrue_00_01TypeFalse_01_4.html',1,'tlx']]],
   ['ik_5f',['ik_',['../classtlx_1_1LoserTreeCopyBase.html#abd5d8d6810375dd451436937ac0dd279',1,'tlx::LoserTreeCopyBase::ik_()'],['../classtlx_1_1LoserTreePointerBase.html#a2ad6fbf2e7221a45c3810a51a94b9a7b',1,'tlx::LoserTreePointerBase::ik_()'],['../classtlx_1_1LoserTreeCopyUnguardedBase.html#a56953101afc8fb3ec7202993a5912115',1,'tlx::LoserTreeCopyUnguardedBase::ik_()'],['../classtlx_1_1LoserTreePointerUnguardedBase.html#a3d04b5a6c2608be3d6cb8cdbce634f86',1,'tlx::LoserTreePointerUnguardedBase::ik_()']]],
   ['inc_5freference',['inc_reference',['../classtlx_1_1CountingPtr.html#abe09ac47900f427b056e611849dc14ea',1,'tlx::CountingPtr::inc_reference()'],['../classtlx_1_1ReferenceCounter.html#aac6d440b77f6f95eadae71cbb97a7b76',1,'tlx::ReferenceCounter::inc_reference()']]],
   ['init',['init',['../classtlx_1_1LoserTreeCopyBase.html#a52477fa4cef60b2c9438e49de9bf3c2d',1,'tlx::LoserTreeCopyBase::init()'],['../classtlx_1_1LoserTreePointerBase.html#a3b6746b4d3f53391ac2fb74d9c377d70',1,'tlx::LoserTreePointerBase::init()'],['../classtlx_1_1LoserTreeCopyUnguardedBase.html#abbc513dc6201aad1e7abea94032893d0',1,'tlx::LoserTreeCopyUnguardedBase::init()'],['../classtlx_1_1LoserTreePointerUnguardedBase.html#aa271da4bd313ccde51bd34c664d8b3b1',1,'tlx::LoserTreePointerUnguardedBase::init()']]],
