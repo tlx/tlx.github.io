@@ -46,6 +46,9 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     ] ],
     [ "math.hpp", "math_8hpp.html", null ],
     [ "meta.hpp", "meta_8hpp.html", null ],
+    [ "ring_buffer.hpp", "ring__buffer_8hpp.html", [
+      [ "RingBuffer", "classtlx_1_1RingBuffer.html", "classtlx_1_1RingBuffer" ]
+    ] ],
     [ "simple_vector.hpp", "simple__vector_8hpp.html", "simple__vector_8hpp" ],
     [ "string.hpp", "string_8hpp.html", null ],
     [ "thread_pool.cpp", "thread__pool_8cpp.html", null ],

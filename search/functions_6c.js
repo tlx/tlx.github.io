@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['load',['load',['../classtlx_1_1RingBuffer.html#aebcfec00102552ffc6c49bfae7ed0bf5',1,'tlx::RingBuffer']]],
   ['loop_5funtil_5fempty',['loop_until_empty',['../classtlx_1_1ThreadPool.html#a8db532f0d4e7b98070bfe9bdd3f0b544',1,'tlx::ThreadPool']]],
   ['loop_5funtil_5fterminate',['loop_until_terminate',['../classtlx_1_1ThreadPool.html#a55a45a768654601584ed4c9761b880b1',1,'tlx::ThreadPool']]],
   ['losertreecopy',['LoserTreeCopy',['../classtlx_1_1LoserTreeCopy.html#a969b67dac10c9ca7f2f2324baff5a814',1,'tlx::LoserTreeCopy::LoserTreeCopy()'],['../classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html#ab2f27525d2b231371b85a22faccd5171',1,'tlx::LoserTreeCopy&lt; true, ValueType, Comparator &gt;::LoserTreeCopy()']]],

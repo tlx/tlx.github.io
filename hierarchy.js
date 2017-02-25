@@ -51,6 +51,7 @@ var hierarchy =
     ] ],
     [ "tlx::LoserTreeTraits< Stable, ValueType, Comparator, Enable >", "classtlx_1_1LoserTreeTraits.html", null ],
     [ "tlx::ReferenceCounter", "classtlx_1_1ReferenceCounter.html", null ],
+    [ "tlx::RingBuffer< Type, Allocator >", "classtlx_1_1RingBuffer.html", null ],
     [ "tlx::SimpleVector< ValueType, Mode >", "classtlx_1_1SimpleVector.html", null ],
     [ "tlx::SimpleVector< std::thread >", "classtlx_1_1SimpleVector.html", null ],
     [ "tlx::SimpleVector< tlx::LoserTreeCopyBase::Loser >", "classtlx_1_1SimpleVector.html", null ],

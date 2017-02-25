@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['empty',['empty',['../classtlx_1_1CountingPtr.html#a37a293d6d4ce7ea3325fc0f7981fc644',1,'tlx::CountingPtr']]],
+  ['emplace_5fback',['emplace_back',['../classtlx_1_1RingBuffer.html#ab91143482aa82fd577461f4daa518948',1,'tlx::RingBuffer']]],
+  ['emplace_5ffront',['emplace_front',['../classtlx_1_1RingBuffer.html#ac2345ca06d18c2cd0df52bc43a002ab0',1,'tlx::RingBuffer']]],
+  ['empty',['empty',['../classtlx_1_1CountingPtr.html#a37a293d6d4ce7ea3325fc0f7981fc644',1,'tlx::CountingPtr::empty()'],['../classtlx_1_1RingBuffer.html#aaf67c8f5fd0346b0372df046ad2d346a',1,'tlx::RingBuffer::empty()']]],
   ['end',['end',['../classtlx_1_1SimpleVector.html#ad12d82ee7132d84ef91586ab76d5837f',1,'tlx::SimpleVector::end() noexcept'],['../classtlx_1_1SimpleVector.html#a10dec9925b80858d13b6fb811640d4be',1,'tlx::SimpleVector::end() const noexcept']]],
   ['ends_5fwith',['ends_with',['../namespacetlx.html#a6733a80c87e8184aa2dfda13f27db213',1,'tlx::ends_with(const std::string &amp;str, const std::string &amp;match)'],['../namespacetlx.html#a9b9b803169617726fdcd5067e6077c35',1,'tlx::ends_with(const std::string &amp;str, const char *match)']]],
   ['ends_5fwith_5ficase',['ends_with_icase',['../namespacetlx.html#ad6d016f374292dbdce16a2cf92167132',1,'tlx::ends_with_icase(const std::string &amp;str, const std::string &amp;match)'],['../namespacetlx.html#a9ee97aa9588a7f1009590df7f7d23da6',1,'tlx::ends_with_icase(const std::string &amp;str, const char *match)']]],
