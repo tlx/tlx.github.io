@@ -10,7 +10,7 @@ var classtlx_1_1RingBuffer =
     [ "size_type", "classtlx_1_1RingBuffer.html#aed52ab918d97b171e129502f5af6bb0a", null ],
     [ "value_type", "classtlx_1_1RingBuffer.html#a89b566f30368c2dad7a6c9e88da564fa", null ],
     [ "RingBuffer", "classtlx_1_1RingBuffer.html#a2f6027c8b8b2c172dd82fcad47a352a8", null ],
-    [ "RingBuffer", "classtlx_1_1RingBuffer.html#acff2adf6af3979dfc07afbe0381760cd", null ],
+    [ "RingBuffer", "classtlx_1_1RingBuffer.html#adda1aeb3524cdd1c2a9de6adea5fd2a8", null ],
     [ "RingBuffer", "classtlx_1_1RingBuffer.html#a49ff2a2e195103117b78992898354747", null ],
     [ "RingBuffer", "classtlx_1_1RingBuffer.html#a163aa9d113c6dea264db22b0fecb038a", null ],
     [ "~RingBuffer", "classtlx_1_1RingBuffer.html#a8107bd80c4234fe0c7869bddb35a4028", null ],
