@@ -165,6 +165,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a461ec54df31d14f074266e55280a1c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8107bd80c4234fe0c7869bddb35a4028"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a8107bd80c4234fe0c7869bddb35a4028">~RingBuffer</a> ()</td></tr>
 <tr class="separator:a8107bd80c4234fe0c7869bddb35a4028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac870ae6cb35d2db01dfdde7809da15f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#ac870ae6cb35d2db01dfdde7809da15f6">allocate</a> (size_t <a class="el" href="classtlx_1_1RingBuffer.html#a8a392919bb580819675e2373a31a6663">max_size</a>)</td></tr>
+<tr class="memdesc:ac870ae6cb35d2db01dfdde7809da15f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate buffer  <a href="#ac870ae6cb35d2db01dfdde7809da15f6">More...</a><br/></td></tr>
+<tr class="separator:ac870ae6cb35d2db01dfdde7809da15f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c9aff789326f03e5bae0d9d0ab44160"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a5c9aff789326f03e5bae0d9d0ab44160">deallocate</a> ()</td></tr>
+<tr class="memdesc:a5c9aff789326f03e5bae0d9d0ab44160"><td class="mdescLeft">&#160;</td><td class="mdescRight">deallocate buffer  <a href="#a5c9aff789326f03e5bae0d9d0ab44160">More...</a><br/></td></tr>
+<tr class="separator:a5c9aff789326f03e5bae0d9d0ab44160"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Modifiers</div></td></tr>
 <tr class="memitem:af18b6e4d4d5fa8edd099ac08bbdc6531"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#af18b6e4d4d5fa8edd099ac08bbdc6531">push_back</a> (const <a class="el" href="classtlx_1_1RingBuffer.html#a89b566f30368c2dad7a6c9e88da564fa">value_type</a> &amp;t)</td></tr>
 <tr class="memdesc:af18b6e4d4d5fa8edd099ac08bbdc6531"><td class="mdescLeft">&#160;</td><td class="mdescRight">add element at the end  <a href="#af18b6e4d4d5fa8edd099ac08bbdc6531">More...</a><br/></td></tr>
@@ -195,25 +201,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af317b455b1821974b61d2d552aa3301d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#af317b455b1821974b61d2d552aa3301d">clear</a> ()</td></tr>
 <tr class="memdesc:af317b455b1821974b61d2d552aa3301d"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset buffer contents  <a href="#af317b455b1821974b61d2d552aa3301d">More...</a><br/></td></tr>
 <tr class="separator:af317b455b1821974b61d2d552aa3301d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d73ef8181e34592a513d98a7d5fab0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#ad7d73ef8181e34592a513d98a7d5fab0">copy_to</a> (std::vector&lt; <a class="el" href="classtlx_1_1RingBuffer.html#a89b566f30368c2dad7a6c9e88da564fa">value_type</a> &gt; *out) const </td></tr>
+<tr class="memdesc:ad7d73ef8181e34592a513d98a7d5fab0"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy all element into the vector  <a href="#ad7d73ef8181e34592a513d98a7d5fab0">More...</a><br/></td></tr>
+<tr class="separator:ad7d73ef8181e34592a513d98a7d5fab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a154a3fe6932e4b30581ec700deccf575"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a154a3fe6932e4b30581ec700deccf575">move_to</a> (std::vector&lt; <a class="el" href="classtlx_1_1RingBuffer.html#a89b566f30368c2dad7a6c9e88da564fa">value_type</a> &gt; *out)</td></tr>
+<tr class="memdesc:a154a3fe6932e4b30581ec700deccf575"><td class="mdescLeft">&#160;</td><td class="mdescRight">move all element from the <a class="el" href="classtlx_1_1RingBuffer.html" title="A ring (circular) buffer of static (non-growing) size.">RingBuffer</a> into the vector  <a href="#a154a3fe6932e4b30581ec700deccf575">More...</a><br/></td></tr>
+<tr class="separator:a154a3fe6932e4b30581ec700deccf575"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Element access</div></td></tr>
-<tr class="memitem:a83a8218db47fab87aa43c3e67e3cac29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ad2eec3ba5db69361683853d6775299a7">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a83a8218db47fab87aa43c3e67e3cac29">operator[]</a> (<a class="el" href="classtlx_1_1RingBuffer.html#aed52ab918d97b171e129502f5af6bb0a">size_type</a> i)</td></tr>
-<tr class="memdesc:a83a8218db47fab87aa43c3e67e3cac29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the i-th element.  <a href="#a83a8218db47fab87aa43c3e67e3cac29">More...</a><br/></td></tr>
-<tr class="separator:a83a8218db47fab87aa43c3e67e3cac29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0d476b73a8a739fabd042961b2fefd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ae015d72924bf2c40b51ab02c274d2e1d">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#ac0d476b73a8a739fabd042961b2fefd2">operator[]</a> (<a class="el" href="classtlx_1_1RingBuffer.html#aed52ab918d97b171e129502f5af6bb0a">size_type</a> i) const </td></tr>
-<tr class="memdesc:ac0d476b73a8a739fabd042961b2fefd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the i-th element.  <a href="#ac0d476b73a8a739fabd042961b2fefd2">More...</a><br/></td></tr>
-<tr class="separator:ac0d476b73a8a739fabd042961b2fefd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6b3d0677307ec73293a4a200624bd9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ad2eec3ba5db69361683853d6775299a7">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#ac6b3d0677307ec73293a4a200624bd9a">front</a> ()</td></tr>
-<tr class="memdesc:ac6b3d0677307ec73293a4a200624bd9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the first element.  <a href="#ac6b3d0677307ec73293a4a200624bd9a">More...</a><br/></td></tr>
-<tr class="separator:ac6b3d0677307ec73293a4a200624bd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69aabded667d1e1a86bc0f83b8d59870"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ae015d72924bf2c40b51ab02c274d2e1d">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a69aabded667d1e1a86bc0f83b8d59870">front</a> () const </td></tr>
-<tr class="memdesc:a69aabded667d1e1a86bc0f83b8d59870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the first element.  <a href="#a69aabded667d1e1a86bc0f83b8d59870">More...</a><br/></td></tr>
-<tr class="separator:a69aabded667d1e1a86bc0f83b8d59870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7803aac88146db6ba5d8e2f0b27876aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ad2eec3ba5db69361683853d6775299a7">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a7803aac88146db6ba5d8e2f0b27876aa">back</a> ()</td></tr>
-<tr class="memdesc:a7803aac88146db6ba5d8e2f0b27876aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the last element.  <a href="#a7803aac88146db6ba5d8e2f0b27876aa">More...</a><br/></td></tr>
-<tr class="separator:a7803aac88146db6ba5d8e2f0b27876aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a0f62ee99d994597cf4cbd343dfc634"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ae015d72924bf2c40b51ab02c274d2e1d">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a8a0f62ee99d994597cf4cbd343dfc634">back</a> () const </td></tr>
-<tr class="memdesc:a8a0f62ee99d994597cf4cbd343dfc634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the last element.  <a href="#a8a0f62ee99d994597cf4cbd343dfc634">More...</a><br/></td></tr>
-<tr class="separator:a8a0f62ee99d994597cf4cbd343dfc634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d8ad22665a199eb0c2f27f3ddcbd1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ad2eec3ba5db69361683853d6775299a7">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#ad7d8ad22665a199eb0c2f27f3ddcbd1d">operator[]</a> (<a class="el" href="classtlx_1_1RingBuffer.html#aed52ab918d97b171e129502f5af6bb0a">size_type</a> i) noexcept</td></tr>
+<tr class="memdesc:ad7d8ad22665a199eb0c2f27f3ddcbd1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the i-th element.  <a href="#ad7d8ad22665a199eb0c2f27f3ddcbd1d">More...</a><br/></td></tr>
+<tr class="separator:ad7d8ad22665a199eb0c2f27f3ddcbd1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03062dabb124b64f7d3749c630378ef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ae015d72924bf2c40b51ab02c274d2e1d">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a03062dabb124b64f7d3749c630378ef3">operator[]</a> (<a class="el" href="classtlx_1_1RingBuffer.html#aed52ab918d97b171e129502f5af6bb0a">size_type</a> i) const noexcept</td></tr>
+<tr class="memdesc:a03062dabb124b64f7d3749c630378ef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the i-th element.  <a href="#a03062dabb124b64f7d3749c630378ef3">More...</a><br/></td></tr>
+<tr class="separator:a03062dabb124b64f7d3749c630378ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e17d37713a2bac2cb1245170188b91d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ad2eec3ba5db69361683853d6775299a7">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a8e17d37713a2bac2cb1245170188b91d">front</a> () noexcept</td></tr>
+<tr class="memdesc:a8e17d37713a2bac2cb1245170188b91d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the first element.  <a href="#a8e17d37713a2bac2cb1245170188b91d">More...</a><br/></td></tr>
+<tr class="separator:a8e17d37713a2bac2cb1245170188b91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a345955833c2e523eddd76ce56bc98b1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ae015d72924bf2c40b51ab02c274d2e1d">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a345955833c2e523eddd76ce56bc98b1f">front</a> () const noexcept</td></tr>
+<tr class="memdesc:a345955833c2e523eddd76ce56bc98b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the first element.  <a href="#a345955833c2e523eddd76ce56bc98b1f">More...</a><br/></td></tr>
+<tr class="separator:a345955833c2e523eddd76ce56bc98b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85469023a79a668328e49665c325abd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ad2eec3ba5db69361683853d6775299a7">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a85469023a79a668328e49665c325abd1">back</a> () noexcept</td></tr>
+<tr class="memdesc:a85469023a79a668328e49665c325abd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the last element.  <a href="#a85469023a79a668328e49665c325abd1">More...</a><br/></td></tr>
+<tr class="separator:a85469023a79a668328e49665c325abd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc379479cc0314842b88afd88c2d2b08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#ae015d72924bf2c40b51ab02c274d2e1d">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#adc379479cc0314842b88afd88c2d2b08">back</a> () const noexcept</td></tr>
+<tr class="memdesc:adc379479cc0314842b88afd88c2d2b08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the last element.  <a href="#adc379479cc0314842b88afd88c2d2b08">More...</a><br/></td></tr>
+<tr class="separator:adc379479cc0314842b88afd88c2d2b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Capacity</div></td></tr>
 <tr class="memitem:aaa2a4a6a9a95e52fa4417119e2dbaa67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#aed52ab918d97b171e129502f5af6bb0a">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67">size</a> () const noexcept</td></tr>
 <tr class="memdesc:aaa2a4a6a9a95e52fa4417119e2dbaa67"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the number of items in the buffer  <a href="#aaa2a4a6a9a95e52fa4417119e2dbaa67">More...</a><br/></td></tr>
@@ -266,7 +278,7 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
 <p>A ring (circular) buffer of static (non-growing) size. </p>
 <p>Due to many modulo operations with capacity_, the capacity is rounded up to the next power of two, even for powers of two! This is because otherwise <a class="el" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67" title="return the number of items in the buffer">size()</a> == end - begin == 0 after filling the ring buffer, and adding another size_ member requires more book-keeping. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00031">31</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00032">32</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a349c816853572afe9f78fa9d45c8f0e3"></a>
 <div class="memitem">
@@ -280,7 +292,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00037">37</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00038">38</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -296,7 +308,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00035">35</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00036">36</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -312,7 +324,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00042">42</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00043">43</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -328,7 +340,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00040">40</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00041">41</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -344,7 +356,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00045">45</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00046">46</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -360,7 +372,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00041">41</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00042">42</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -376,7 +388,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00039">39</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00040">40</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -392,7 +404,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00044">44</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00045">45</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -408,7 +420,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00034">34</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00035">35</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -437,7 +449,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00052">52</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00053">53</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -475,7 +487,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00058">58</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00057">57</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -505,7 +517,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>copy-constructor: create new ring buffer </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00067">67</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00065">65</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -535,7 +547,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>move-constructor: move buffer </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00105">105</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00103">103</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -562,12 +574,42 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00136">136</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00134">134</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a7803aac88146db6ba5d8e2f0b27876aa"></a>
+<a class="anchor" id="ac870ae6cb35d2db01dfdde7809da15f6"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classtlx_1_1RingBuffer.html">tlx::RingBuffer</a>&lt; Type, Allocator &gt;::allocate </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>max_size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>allocate buffer </p>
+
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00140">140</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85469023a79a668328e49665c325abd1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -585,18 +627,18 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Returns a reference to the last element. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00240">240</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00270">270</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8a0f62ee99d994597cf4cbd343dfc634"></a>
+<a class="anchor" id="adc379479cc0314842b88afd88c2d2b08"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -614,14 +656,14 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Returns a reference to the last element. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00245">245</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00275">275</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -650,7 +692,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>return actual capacity of the ring buffer. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00266">266</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00296">296</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -679,7 +721,66 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>reset buffer contents </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00207">207</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00223">223</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7d73ef8181e34592a513d98a7d5fab0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classtlx_1_1RingBuffer.html">tlx::RingBuffer</a>&lt; Type, Allocator &gt;::copy_to </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classtlx_1_1RingBuffer.html#a89b566f30368c2dad7a6c9e88da564fa">value_type</a> &gt; *&#160;</td>
+          <td class="paramname"><em>out</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>copy all element into the vector </p>
+
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00229">229</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5c9aff789326f03e5bae0d9d0ab44160"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classtlx_1_1RingBuffer.html">tlx::RingBuffer</a>&lt; Type, Allocator &gt;::deallocate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>deallocate buffer </p>
+
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00149">149</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -711,7 +812,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>emplace element at the end </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00161">161</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00177">177</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -743,7 +844,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>emplace element at the beginning </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00185">185</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00201">201</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -772,11 +873,11 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>returns true if no items are in the buffer </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00271">271</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00301">301</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac6b3d0677307ec73293a4a200624bd9a"></a>
+<a class="anchor" id="a8e17d37713a2bac2cb1245170188b91d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -794,18 +895,18 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Returns a reference to the first element. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00229">229</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00259">259</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a69aabded667d1e1a86bc0f83b8d59870"></a>
+<a class="anchor" id="a345955833c2e523eddd76ce56bc98b1f"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -823,14 +924,14 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Returns a reference to the first element. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00234">234</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00264">264</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -860,7 +961,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00288">288</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00318">318</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -889,7 +990,37 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>return the maximum number of items in the buffer. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00261">261</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00291">291</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a154a3fe6932e4b30581ec700deccf575"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classtlx_1_1RingBuffer.html">tlx::RingBuffer</a>&lt; Type, Allocator &gt;::move_to </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classtlx_1_1RingBuffer.html#a89b566f30368c2dad7a6c9e88da564fa">value_type</a> &gt; *&#160;</td>
+          <td class="paramname"><em>out</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>move all element from the <a class="el" href="classtlx_1_1RingBuffer.html" title="A ring (circular) buffer of static (non-growing) size.">RingBuffer</a> into the vector </p>
+
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00235">235</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -919,7 +1050,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>copyable: create new ring buffer </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00081">81</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00079">79</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -949,11 +1080,11 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>move-assignment operator: default </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00118">118</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00116">116</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a83a8218db47fab87aa43c3e67e3cac29"></a>
+<a class="anchor" id="ad7d8ad22665a199eb0c2f27f3ddcbd1d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -972,18 +1103,18 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Returns a reference to the i-th element. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00218">218</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00248">248</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac0d476b73a8a739fabd042961b2fefd2"></a>
+<a class="anchor" id="a03062dabb124b64f7d3749c630378ef3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1002,14 +1133,14 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Returns a reference to the i-th element. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00223">223</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00253">253</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1169,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>remove element at the end </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00200">200</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00216">216</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1067,7 +1198,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>remove element at the beginning </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00193">193</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00209">209</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1097,7 +1228,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>add element at the end </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00145">145</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00161">161</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1127,7 +1258,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>add element at the end </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00152">152</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00168">168</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1157,7 +1288,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>add element at the beginning </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00169">169</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00185">185</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1187,7 +1318,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>add element at the beginning </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00176">176</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00192">192</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1217,7 +1348,7 @@ template&lt;class Archive &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00281">281</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00311">311</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1246,7 +1377,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>return the number of items in the buffer </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00256">256</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00286">286</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1273,7 +1404,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>used allocator </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00320">320</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00350">350</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1299,7 +1430,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>iterator at current begin of ring buffer </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00333">333</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00363">363</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1326,7 +1457,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 <p>capacity of data buffer. </p>
 <p>rounded up from max_size_ to next unequal power of two. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00324">324</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00354">354</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1352,7 +1483,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>the circular buffer of static size. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00330">330</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00360">360</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1378,7 +1509,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>iterator at current begin of ring buffer </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00336">336</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00366">366</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1404,7 +1535,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 
 <p>one-bits mask for calculating modulo of capacity using AND-mask. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00327">327</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00357">357</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1431,7 +1562,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 <p>target max_size of circular buffer prescribed by the user. </p>
 <p>Never equal to the data_.size(), which is rounded up to a power of two. </p>
 
-<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00317">317</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="ring__buffer_8hpp_source.html#l00347">347</a> of file <a class="el" href="ring__buffer_8hpp_source.html">ring_buffer.hpp</a>.</p>
 
 </div>
 </div>
@@ -1444,7 +1575,7 @@ template&lt;typename Type , class Allocator  = std::allocator&lt;Type&gt;&gt; </
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1RingBuffer.html">RingBuffer</a></li>
-    <li class="footer">Generated on Sat Feb 25 2017 09:53:44 for tlx by
+    <li class="footer">Generated on Sat Feb 25 2017 13:20:23 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

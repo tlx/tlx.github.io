@@ -1,5 +1,9 @@
 var NAVTREEINDEX3 =
 {
+"round__to__power__of__two_8hpp_source.html":[2,0,0,1,7],
+"simple__vector_8hpp.html":[2,0,0,15],
+"simple__vector_8hpp.html#a45001dd9f4f6324d2cf0b2aebd079f16":[2,0,0,15,1],
+"simple__vector_8hpp.html#aefb995468109a3061e9564adc91c3365":[2,0,0,15,2],
 "simple__vector_8hpp.html#aefb995468109a3061e9564adc91c3365a60008b87abd54104caffab5779ea7244":[2,0,0,15,2,2],
 "simple__vector_8hpp.html#aefb995468109a3061e9564adc91c3365a960b44c579bc2f6818d2daaf9e4c16f0":[2,0,0,15,2,0],
 "simple__vector_8hpp.html#aefb995468109a3061e9564adc91c3365a96726bf24e630d03d0f4e5715e9fd097":[2,0,0,15,2,1],

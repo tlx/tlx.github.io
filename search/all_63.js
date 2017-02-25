@@ -20,6 +20,7 @@ var searchData=
   ['const_5fpointer',['const_pointer',['../classtlx_1_1RingBuffer.html#a56ab922cd86100a98286241eee1c26b9',1,'tlx::RingBuffer']]],
   ['const_5freference',['const_reference',['../classtlx_1_1RingBuffer.html#ae015d72924bf2c40b51ab02c274d2e1d',1,'tlx::RingBuffer::const_reference()'],['../classtlx_1_1SimpleVector.html#a42441759f230e5e5457d75593fe59d63',1,'tlx::SimpleVector::const_reference()']]],
   ['constmemberpair',['ConstMemberPair',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a02cc3609906ae8bd3d0647f71c4378f6',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
+  ['copy_5fto',['copy_to',['../classtlx_1_1RingBuffer.html#ad7d73ef8181e34592a513d98a7d5fab0',1,'tlx::RingBuffer']]],
   ['counting_5fptr',['counting_ptr',['../namespacetlx.html#a04bc5251c951eb916e531c15ff43c8c2',1,'tlx']]],
   ['counting_5fptr_2ehpp',['counting_ptr.hpp',['../counting__ptr_8hpp.html',1,'']]],
   ['countingptr',['CountingPtr',['../classtlx_1_1CountingPtr.html',1,'tlx']]],
