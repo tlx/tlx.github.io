@@ -172,7 +172,7 @@ $(document).ready(function(){initNavTree('ring__buffer_8hpp_source.html','');});
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                        <span class="keyword">const</span> Allocator&amp; alloc = <a class="code" href="classtlx_1_1RingBuffer.html#ae90fcf9501624326c98fa5eadc277ee7">allocator_type</a>())</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        : <a class="code" href="classtlx_1_1RingBuffer.html#a0ff611b5b7efa212725de18553f7599e" title="target max_size of circular buffer prescribed by the user.">max_size_</a>(max_size),</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;          <a class="code" href="classtlx_1_1RingBuffer.html#a5ba130d318a93f050b34d56a1381df75" title="used allocator">alloc_</a>(alloc),</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;          <a class="code" href="classtlx_1_1RingBuffer.html#a91eefb8864ff724dca645315314a84d3" title="capacity of data buffer.">capacity_</a>(<a class="code" href="namespacetlx.html#aece38332dbd324d658d87d90c9a5bf6a" title="does what it says: round up to next power of two">round_up_to_power_of_two</a>(max_size + 1)),</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;          <a class="code" href="classtlx_1_1RingBuffer.html#a91eefb8864ff724dca645315314a84d3" title="capacity of data buffer.">capacity_</a>(<a class="code" href="namespacetlx.html#aece38332dbd324d658d87d90c9a5bf6a" title="does what it says: round up to next power of two">round_up_to_power_of_two</a>(<a class="code" href="classtlx_1_1RingBuffer.html#a0ff611b5b7efa212725de18553f7599e" title="target max_size of circular buffer prescribed by the user.">max_size_</a> + 1)),</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;          <a class="code" href="classtlx_1_1RingBuffer.html#a1c5dee367c701f3047fca3fe25b4a42a" title="one-bits mask for calculating modulo of capacity using AND-mask.">mask_</a>(<a class="code" href="classtlx_1_1RingBuffer.html#a91eefb8864ff724dca645315314a84d3" title="capacity of data buffer.">capacity_</a> - 1),</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;          <a class="code" href="classtlx_1_1RingBuffer.html#aa7effc81c46a4d0ed9668a98ec5af028" title="the circular buffer of static size.">data_</a>(<a class="code" href="classtlx_1_1RingBuffer.html#a5ba130d318a93f050b34d56a1381df75" title="used allocator">alloc_</a>.allocate(<a class="code" href="classtlx_1_1RingBuffer.html#a91eefb8864ff724dca645315314a84d3" title="capacity of data buffer.">capacity_</a>)) { }</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment"></span></div>
@@ -392,9 +392,9 @@ $(document).ready(function(){initNavTree('ring__buffer_8hpp_source.html','');});
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> Archive&gt;</div>
 <div class="line"><a name="l00281"></a><span class="lineno"><a class="code" href="classtlx_1_1RingBuffer.html#a8a5a63865f188f73c180125a053ad0cb">  281</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtlx_1_1RingBuffer.html#a8a5a63865f188f73c180125a053ad0cb">save</a>(Archive&amp; ar)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        uint32_t <a class="code" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67" title="return the number of items in the buffer">size</a> = this-&gt;<a class="code" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67" title="return the number of items in the buffer">size</a>();</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        ar(<a class="code" href="classtlx_1_1RingBuffer.html#a0ff611b5b7efa212725de18553f7599e" title="target max_size of circular buffer prescribed by the user.">max_size_</a>, size);</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67" title="return the number of items in the buffer">size</a>; ++i) ar(<span class="keyword">operator</span> [] (i));</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        uint32_t ar_size = <a class="code" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67" title="return the number of items in the buffer">size</a>();</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        ar(<a class="code" href="classtlx_1_1RingBuffer.html#a0ff611b5b7efa212725de18553f7599e" title="target max_size of circular buffer prescribed by the user.">max_size_</a>, ar_size);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; ar_size; ++i) ar(<span class="keyword">operator</span> [] (i));</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    }</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> Archive&gt;</div>
@@ -413,10 +413,10 @@ $(document).ready(function(){initNavTree('ring__buffer_8hpp_source.html','');});
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <a class="code" href="classtlx_1_1RingBuffer.html#ac4b1c811e3663b7cf9ee2fdca2e7b1c5" title="iterator at current begin of ring buffer">begin_</a> = <a class="code" href="classtlx_1_1RingBuffer.html#abd03c2976940d5013df9414df8b2497b" title="iterator at current begin of ring buffer">end_</a> = 0;</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        <span class="comment">// load items</span></div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        uint32_t <a class="code" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67" title="return the number of items in the buffer">size</a>;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        ar(size);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        uint32_t ar_size;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        ar(ar_size);</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67" title="return the number of items in the buffer">size</a>; ++i) {</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; ar_size; ++i) {</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            <a class="code" href="classtlx_1_1RingBuffer.html#af18b6e4d4d5fa8edd099ac08bbdc6531" title="add element at the end">push_back</a>(Type());</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            ar(<a class="code" href="classtlx_1_1RingBuffer.html#a7803aac88146db6ba5d8e2f0b27876aa" title="Returns a reference to the last element.">back</a>());</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        }</div>
@@ -460,7 +460,7 @@ $(document).ready(function(){initNavTree('ring__buffer_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="ring__buffer_8hpp.html">ring_buffer.hpp</a></li>
-    <li class="footer">Generated on Sat Feb 25 2017 09:40:25 for tlx by
+    <li class="footer">Generated on Sat Feb 25 2017 09:47:52 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
