@@ -4,5 +4,6 @@ var searchData=
   ['key',['key',['../structtlx_1_1LoserTreeCopyBase_1_1Loser.html#afcf9a8f0b6db7b20453000c036497c12',1,'tlx::LoserTreeCopyBase::Loser::key()'],['../structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html#a7b171d4596cc6974b52c48f0408da022',1,'tlx::LoserTreeCopyUnguardedBase::Loser::key()']]],
   ['key_5f',['key_',['../structtlx_1_1CmdlineParser_1_1Argument.html#a2de5bc4bd94e21a48df75ab44174c3ff',1,'tlx::CmdlineParser::Argument']]],
   ['keyp',['keyp',['../structtlx_1_1LoserTreePointerBase_1_1Loser.html#adcf27f29f11d85cd1417933b813d4cb9',1,'tlx::LoserTreePointerBase::Loser::keyp()'],['../structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html#a3ae429071a00b85ed743bd744496f26f',1,'tlx::LoserTreePointerUnguardedBase::Loser::keyp()']]],
-  ['keytype_5f',['keytype_',['../structtlx_1_1CmdlineParser_1_1Argument.html#a899b6b10b9512de364f51a6373aa98d5',1,'tlx::CmdlineParser::Argument']]]
+  ['keytype_5f',['keytype_',['../structtlx_1_1CmdlineParser_1_1Argument.html#a899b6b10b9512de364f51a6373aa98d5',1,'tlx::CmdlineParser::Argument']]],
+  ['keyvaluepair',['KeyValuePair',['../classtlx_1_1LruCacheMap.html#adc9f2083a3cffcaf121acbbd12f71597',1,'tlx::LruCacheMap']]]
 ];

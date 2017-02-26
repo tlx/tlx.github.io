@@ -9,7 +9,7 @@ var searchData=
   ['cbegin',['cbegin',['../classtlx_1_1SimpleVector.html#a5cabcd845ae2141ba126ab0a0cef71db',1,'tlx::SimpleVector']]],
   ['ceil',['ceil',['../classtlx_1_1Log2.html#a1d173024776901bc47a75d56cd19ce22a75db66707405b6b98194b11c7d62acfe',1,'tlx::Log2::ceil()'],['../classtlx_1_1Log2_3_011_01_4.html#a523c67420874a529c83c2731450b2884aef6652d9a2aebe1379fd315f323524ee',1,'tlx::Log2&lt; 1 &gt;::ceil()'],['../classtlx_1_1Log2_3_010_01_4.html#a43aff8ab61ed588d3e95fdfa2b30f407a405557d4a9f202029e82016dd654e91c',1,'tlx::Log2&lt; 0 &gt;::ceil()']]],
   ['cend',['cend',['../classtlx_1_1SimpleVector.html#a8579972abcd4b7d8c1a9aeba9979fb58',1,'tlx::SimpleVector']]],
-  ['clear',['clear',['../classtlx_1_1RingBuffer.html#af317b455b1821974b61d2d552aa3301d',1,'tlx::RingBuffer']]],
+  ['clear',['clear',['../classtlx_1_1LruCacheSet.html#a83215bca100e1b60167e2bf9500fcf48',1,'tlx::LruCacheSet::clear()'],['../classtlx_1_1LruCacheMap.html#a74825a183ffab928e6f62e57e9ff6e11',1,'tlx::LruCacheMap::clear()'],['../classtlx_1_1RingBuffer.html#af317b455b1821974b61d2d552aa3301d',1,'tlx::RingBuffer::clear()']]],
   ['cmdline_5fparser_2ecpp',['cmdline_parser.cpp',['../cmdline__parser_8cpp.html',1,'']]],
   ['cmdline_5fparser_2ehpp',['cmdline_parser.hpp',['../cmdline__parser_8hpp.html',1,'']]],
   ['cmdlineparser',['CmdlineParser',['../classtlx_1_1CmdlineParser.html#ab2ac47dc4baab2f7067b107cfd039d37',1,'tlx::CmdlineParser']]],

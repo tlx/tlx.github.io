@@ -38,8 +38,8 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classtlx_1_1LoserTreePointerBase.html#a3b6746b4d3f53391ac2fb74d9c377d70",
-"ffs_8hpp.html#a8fed4b94929c9332b72fcbbe6a192aa4",
-"round__to__power__of__two_8hpp_source.html"
+"erase__all_8cpp.html#a973d7810f87779109aa972c52bc42d2f",
+"replace_8hpp.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
