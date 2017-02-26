@@ -421,14 +421,14 @@ $(document).ready(function(){initNavTree('ring__buffer_8hpp_source.html','');});
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="comment">    //! \{</span></div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> Archive&gt;</div>
-<div class="line"><a name="l00311"></a><span class="lineno"><a class="code" href="classtlx_1_1RingBuffer.html#a8a5a63865f188f73c180125a053ad0cb">  311</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtlx_1_1RingBuffer.html#a8a5a63865f188f73c180125a053ad0cb">save</a>(Archive&amp; ar)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00311"></a><span class="lineno"><a class="code" href="classtlx_1_1RingBuffer.html#a8a5a63865f188f73c180125a053ad0cb">  311</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtlx_1_1RingBuffer.html#a8a5a63865f188f73c180125a053ad0cb">save</a>(Archive&amp; ar)<span class="keyword"> const </span>{ <span class="comment">// NOLINT</span></div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        uint32_t ar_size = <a class="code" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67" title="return the number of items in the buffer">size</a>();</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        ar(<a class="code" href="classtlx_1_1RingBuffer.html#a0ff611b5b7efa212725de18553f7599e" title="target max_size of circular buffer prescribed by the user.">max_size_</a>, ar_size);</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; ar_size; ++i) ar(<span class="keyword">operator</span> [] (i));</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    }</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;</div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> Archive&gt;</div>
-<div class="line"><a name="l00318"></a><span class="lineno"><a class="code" href="classtlx_1_1RingBuffer.html#aebcfec00102552ffc6c49bfae7ed0bf5">  318</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtlx_1_1RingBuffer.html#aebcfec00102552ffc6c49bfae7ed0bf5">load</a>(Archive&amp; ar) {</div>
+<div class="line"><a name="l00318"></a><span class="lineno"><a class="code" href="classtlx_1_1RingBuffer.html#aebcfec00102552ffc6c49bfae7ed0bf5">  318</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtlx_1_1RingBuffer.html#aebcfec00102552ffc6c49bfae7ed0bf5">load</a>(Archive&amp; ar) { <span class="comment">// NOLINT</span></div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        ar(<a class="code" href="classtlx_1_1RingBuffer.html#a0ff611b5b7efa212725de18553f7599e" title="target max_size of circular buffer prescribed by the user.">max_size_</a>);</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classtlx_1_1RingBuffer.html#aa7effc81c46a4d0ed9668a98ec5af028" title="the circular buffer of static size.">data_</a>) {</div>
@@ -490,7 +490,7 @@ $(document).ready(function(){initNavTree('ring__buffer_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="ring__buffer_8hpp.html">ring_buffer.hpp</a></li>
-    <li class="footer">Generated on Sun Feb 26 2017 20:48:56 for tlx by
+    <li class="footer">Generated on Sun Feb 26 2017 20:59:41 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
