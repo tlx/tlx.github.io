@@ -155,10 +155,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acb14c6336a92b4e7b46bab4866751bf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#acb14c6336a92b4e7b46bab4866751bf7">min_source</a> ()</td></tr>
 <tr class="memdesc:acb14c6336a92b4e7b46bab4866751bf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the index of the player with the smallest element.  <a href="#acb14c6336a92b4e7b46bab4866751bf7">More...</a><br/></td></tr>
 <tr class="separator:acb14c6336a92b4e7b46bab4866751bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7055eae1afdb29e9bd2b2a45d723c1e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#a7055eae1afdb29e9bd2b2a45d723c1e8">insert_start</a> (const ValueType &amp;key, <a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a> source)</td></tr>
-<tr class="separator:a7055eae1afdb29e9bd2b2a45d723c1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d9d4b95ddf74077ee3b46f921360a63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#a9d9d4b95ddf74077ee3b46f921360a63">init_winner</a> (<a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a> root)</td></tr>
-<tr class="separator:a9d9d4b95ddf74077ee3b46f921360a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67b96caa98ef45c02ca75feca050a38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#ab67b96caa98ef45c02ca75feca050a38">insert_start</a> (const ValueType *keyp, const <a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a> &amp;source, bool sup)</td></tr>
+<tr class="separator:ab67b96caa98ef45c02ca75feca050a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a877e3a14917714178f63e7b92ec000b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#a877e3a14917714178f63e7b92ec000b3">init_winner</a> (const <a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a> &amp;root)</td></tr>
+<tr class="separator:a877e3a14917714178f63e7b92ec000b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbc513dc6201aad1e7abea94032893d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#abbc513dc6201aad1e7abea94032893d0">init</a> ()</td></tr>
 <tr class="separator:abbc513dc6201aad1e7abea94032893d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -191,7 +191,7 @@ class tlx::LoserTreeCopyUnguardedBase&lt; ValueType, Comparator &gt;</h3>
 <p>This is a base class for the <a class="el" href="classtlx_1_1LoserTreeCopyUnguarded.html">LoserTreeCopyUnguarded</a>&lt;true&gt; and &lt;false&gt; classes.</p>
 <p>No guarding is done, therefore not a single input sequence must run empty. This is a very fast variant. </p>
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00470">470</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00510">510</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="af225f3e35c5b6498b3dc2a46e4658b41"></a>
 <div class="memitem">
@@ -207,7 +207,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 
 <p>size of counters and array indexes </p>
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00474">474</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00514">514</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -252,7 +252,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00498">498</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00538">538</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -280,11 +280,11 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00539">539</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00582">582</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9d9d4b95ddf74077ee3b46f921360a63"></a>
+<a class="anchor" id="a877e3a14917714178f63e7b92ec000b3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -296,7 +296,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
         <tr>
           <td class="memname"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a> <a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html">tlx::LoserTreeCopyUnguardedBase</a>&lt; ValueType, Comparator &gt;::init_winner </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a> &amp;&#160;</td>
           <td class="paramname"><em>root</em></td><td>)</td>
           <td></td>
         </tr>
@@ -308,11 +308,11 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00522">522</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00565">565</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7055eae1afdb29e9bd2b2a45d723c1e8"></a>
+<a class="anchor" id="ab67b96caa98ef45c02ca75feca050a38"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -324,14 +324,20 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
         <tr>
           <td class="memname">void <a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html">tlx::LoserTreeCopyUnguardedBase</a>&lt; ValueType, Comparator &gt;::insert_start </td>
           <td>(</td>
-          <td class="paramtype">const ValueType &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
+          <td class="paramtype">const ValueType *&#160;</td>
+          <td class="paramname"><em>keyp</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a>&#160;</td>
-          <td class="paramname"><em>source</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">Source</a> &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>sup</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -346,7 +352,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00515">515</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00555">555</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -375,7 +381,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 
 <p>return the index of the player with the smallest element. </p>
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00509">509</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00549">549</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -402,7 +408,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 
 <p>the comparator object </p>
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00495">495</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00535">535</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -428,7 +434,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 
 <p>number of nodes </p>
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00489">489</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00529">529</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -454,7 +460,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 
 <p>sentinel for invalid or finished Sources </p>
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00477">477</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00517">517</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -480,7 +486,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 
 <p>log_2(ik) next greater power of 2 </p>
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00491">491</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00531">531</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -506,7 +512,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 
 <p>array containing loser tree nodes </p>
 
-<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00493">493</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="loser__tree_8hpp_source.html#l00533">533</a> of file <a class="el" href="loser__tree_8hpp_source.html">loser_tree.hpp</a>.</p>
 
 </div>
 </div>
@@ -519,7 +525,7 @@ template&lt;typename ValueType , typename Comparator  = std::less&lt;ValueType&g
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html">LoserTreeCopyUnguardedBase</a></li>
-    <li class="footer">Generated on Sat Feb 25 2017 13:39:37 for tlx by
+    <li class="footer">Generated on Sun Feb 26 2017 09:53:41 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
