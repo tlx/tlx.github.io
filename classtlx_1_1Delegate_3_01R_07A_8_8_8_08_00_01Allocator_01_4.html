@@ -352,7 +352,7 @@ class tlx::Delegate&lt; R(A...), Allocator &gt;</h3>
 <li>an immediate class::method call (called via one indirection)</li>
 <li>a functor object (the whole object is copied into the <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>)</li>
 </ul>
-<p>All callable objects must have the signature ReturnType(Arguments ...). <a class="el" href="structtlx_1_1If.html" title="If template metaprogramming statement.">If</a> a callable has this signature, it can be bound to the <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>.</p>
+<p>All callable objects must have the signature ReturnType(Arguments ...). If a callable has this signature, it can be bound to the <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>.</p>
 <p>To implement all this the <a class="el" href="classtlx_1_1Delegate.html">Delegate</a> contains one pointer to a "caller stub" function, which depends on the contained object and can be an immediate function call, a pointer to the object associated with the callable, and a memory pointer (managed by shared_ptr) for holding larger callables that need to be copied.</p>
 <p>A functor object can be a lambda function with its capture, an internally wrapped mutable class::method class stored as pair&lt;object, method_ptr&gt;, or any other old-school functor object.</p>
 <p>Delegates can be constructed similar to std::function. </p>
@@ -1961,7 +1961,7 @@ template&lt;typename R , typename... A, typename Allocator &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html">Delegate< R(A...), Allocator ></a></li>
-    <li class="footer">Generated on Sun Feb 26 2017 20:59:41 for tlx by
+    <li class="footer">Generated on Tue Feb 28 2017 12:39:29 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

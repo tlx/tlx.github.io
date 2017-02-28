@@ -21,8 +21,6 @@ var namespacetlx =
     [ "LoserTreeTraits", "classtlx_1_1LoserTreeTraits.html", "classtlx_1_1LoserTreeTraits" ],
     [ "LruCacheSet", "classtlx_1_1LruCacheSet.html", "classtlx_1_1LruCacheSet" ],
     [ "LruCacheMap", "classtlx_1_1LruCacheMap.html", "classtlx_1_1LruCacheMap" ],
-    [ "If", "structtlx_1_1If.html", "structtlx_1_1If" ],
-    [ "If< false, TypeTrue, TypeFalse >", "structtlx_1_1If_3_01false_00_01TypeTrue_00_01TypeFalse_01_4.html", "structtlx_1_1If_3_01false_00_01TypeTrue_00_01TypeFalse_01_4" ],
     [ "Log2Floor", "classtlx_1_1Log2Floor.html", "classtlx_1_1Log2Floor" ],
     [ "Log2Floor< 1 >", "classtlx_1_1Log2Floor_3_011_01_4.html", "classtlx_1_1Log2Floor_3_011_01_4" ],
     [ "Log2Floor< 0 >", "classtlx_1_1Log2Floor_3_010_01_4.html", "classtlx_1_1Log2Floor_3_010_01_4" ],

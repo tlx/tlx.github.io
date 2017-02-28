@@ -73,8 +73,8 @@ var NAVTREEINDEX2 =
 "functions_0x77.html":[1,3,0,19],
 "functions_0x7e.html":[1,3,0,20],
 "functions_eval.html":[1,3,4],
-"functions_func.html":[1,3,1],
 "functions_func.html":[1,3,1,0],
+"functions_func.html":[1,3,1],
 "functions_func_0x62.html":[1,3,1,1],
 "functions_func_0x63.html":[1,3,1,2],
 "functions_func_0x64.html":[1,3,1,3],
@@ -125,8 +125,6 @@ var NAVTREEINDEX2 =
 "hexdump_8hpp.html#ae43ee9db15046fbe68445eaec4e5c163":[2,0,0,3,13,9],
 "hexdump_8hpp_source.html":[2,0,0,3,13],
 "hierarchy.html":[1,2],
-"if_8hpp.html":[2,0,0,2,0],
-"if_8hpp_source.html":[2,0,0,2,0],
 "index.html":[],
 "integer__log2_8cpp.html":[2,0,0,1,2],
 "integer__log2_8cpp.html#a030c7f4d9609d7b10128cfb9e51c3875":[2,0,0,1,2,3],
@@ -194,8 +192,8 @@ var NAVTREEINDEX2 =
 "likely_8hpp.html#a106afbc6d1f1fe01b3a4614eebf55113":[2,0,0,0,4,1],
 "likely_8hpp.html#a2c4b5b038e88004e67c779cf9afcecc7":[2,0,0,0,4,0],
 "likely_8hpp_source.html":[2,0,0,0,4],
-"log2_8hpp.html":[2,0,0,2,1],
-"log2_8hpp_source.html":[2,0,0,2,1],
+"log2_8hpp.html":[2,0,0,2,0],
+"log2_8hpp_source.html":[2,0,0,2,0],
 "loser__tree_8hpp.html":[2,0,0,11],
 "loser__tree_8hpp_source.html":[2,0,0,11],
 "lru__cache_8hpp.html":[2,0,0,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "replace_8hpp.html#a694e187e8049eb7dc29ff2b59c5f5566":[2,0,0,3,20,12],
 "replace_8hpp.html#a7c3a6fe09220e86f19f3451cee1e1e21":[2,0,0,3,20,3],
 "replace_8hpp.html#aa42af651055bba02cc39d2d2cfd5ddab":[2,0,0,3,20,10],
-"replace_8hpp.html#aac4636c5529e88f38fa2322cdb5cd735":[2,0,0,3,20,7]
+"replace_8hpp.html#aac4636c5529e88f38fa2322cdb5cd735":[2,0,0,3,20,7],
+"replace_8hpp.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe":[2,0,0,3,20,8],
+"replace_8hpp.html#ab9321abff9790139f91aa5f318d3674f":[2,0,0,3,20,4]
 };

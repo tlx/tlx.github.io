@@ -1,7 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"replace_8hpp.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe":[2,0,0,3,20,8],
-"replace_8hpp.html#ab9321abff9790139f91aa5f318d3674f":[2,0,0,3,20,4],
 "replace_8hpp.html#ac8073d342fc47ecdf76ad838e735aa57":[2,0,0,3,20,1],
 "replace_8hpp.html#acd35eea795e85b2a1435155d3e655f52":[2,0,0,3,20,14],
 "replace_8hpp.html#ad5d874ebb36fd5f67b57ed9181f94765":[2,0,0,3,20,9],
@@ -167,10 +165,6 @@ var NAVTREEINDEX3 =
 "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsConstMemberPair_3_01ConstMemberPair_3_01C_01_4_01_4.html":[1,0,0,5,1],
 "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsMemberPair.html":[1,0,0,5,2],
 "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsMemberPair_3_01MemberPair_3_01C_01_4_01_4.html":[1,0,0,5,3],
-"structtlx_1_1If.html":[1,0,0,21],
-"structtlx_1_1If.html#a6be23a8b01b3653916be4a49ade14583":[1,0,0,21,0],
-"structtlx_1_1If_3_01false_00_01TypeTrue_00_01TypeFalse_01_4.html":[1,0,0,22],
-"structtlx_1_1If_3_01false_00_01TypeTrue_00_01TypeFalse_01_4.html#af414b4b739b9ff5a8456f9e6715d9e61":[1,0,0,22,0],
 "structtlx_1_1LoserTreeCopyBase_1_1Loser.html":[1,0,0,6,0],
 "structtlx_1_1LoserTreeCopyBase_1_1Loser.html#a3805a526a6db8531af94182c9296dc1c":[1,0,0,6,0,2],
 "structtlx_1_1LoserTreeCopyBase_1_1Loser.html#a6edcd29bf43aceedf15fbdb183a3403d":[1,0,0,6,0,1],
