@@ -12,6 +12,8 @@ var hierarchy =
       [ "tlx::CmdlineParser::ArgumentStringlist", "structtlx_1_1CmdlineParser_1_1ArgumentStringlist.html", null ],
       [ "tlx::CmdlineParser::ArgumentUnsigned", "structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html", null ]
     ] ],
+    [ "tlx::detail::CallForRangeImpl< Index, Size, Functor >", "classtlx_1_1detail_1_1CallForRangeImpl.html", null ],
+    [ "tlx::detail::CallForRangeImpl< Index, 0, Functor >", "classtlx_1_1detail_1_1CallForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html", null ],
     [ "tlx::CmdlineParser", "classtlx_1_1CmdlineParser.html", null ],
     [ "tlx::CountingPtr< Type, Deleter >", "classtlx_1_1CountingPtr.html", null ],
     [ "tlx::CountingPtrDefaultDeleter", "classtlx_1_1CountingPtrDefaultDeleter.html", null ],
@@ -65,6 +67,7 @@ var hierarchy =
     [ "tlx::SimpleVector< tlx::LoserTreeCopyUnguardedBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
     [ "tlx::SimpleVector< tlx::LoserTreePointerBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
     [ "tlx::SimpleVector< tlx::LoserTreePointerUnguardedBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
+    [ "tlx::StaticIndex< Index >", "structtlx_1_1StaticIndex.html", null ],
     [ "tlx::ThreadPool", "classtlx_1_1ThreadPool.html", null ],
     [ "true_type", null, [
       [ "tlx::Delegate< R(A...), Allocator >::IsConstMemberPair< ConstMemberPair< C > >", "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsConstMemberPair_3_01ConstMemberPair_3_01C_01_4_01_4.html", null ],

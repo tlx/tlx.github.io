@@ -117,6 +117,12 @@ $(document).ready(function(){initNavTree('namespacetlx_1_1detail.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1detail_1_1CallForRangeImpl.html">CallForRangeImpl</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for call_for_range: general recursive case  <a href="classtlx_1_1detail_1_1CallForRangeImpl.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1detail_1_1CallForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html">CallForRangeImpl&lt; Index, 0, Functor &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for call_for_range: base case  <a href="classtlx_1_1detail_1_1CallForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1detail_1_1make__index__sequence__helper.html">make_index_sequence_helper</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html">make_index_sequence_helper&lt; 0, Indexes...&gt;</a></td></tr>
@@ -135,6 +141,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ab260f6c5433e64d9128c31a037c6f72c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#ab260f6c5433e64d9128c31a037c6f72c">call_foreach_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
 <tr class="memdesc:ab260f6c5433e64d9128c31a037c6f72c"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for call_foreach: general recursive case  <a href="#ab260f6c5433e64d9128c31a037c6f72c">More...</a><br/></td></tr>
 <tr class="separator:ab260f6c5433e64d9128c31a037c6f72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b987a149b4cb462d12092eaa81eb074"><td class="memTemplParams" colspan="2">template&lt;size_t Index, typename Functor , typename Arg &gt; </td></tr>
+<tr class="memitem:a6b987a149b4cb462d12092eaa81eb074"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a6b987a149b4cb462d12092eaa81eb074">call_foreach_with_index_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg)</td></tr>
+<tr class="memdesc:a6b987a149b4cb462d12092eaa81eb074"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for call_foreach_with_index: base case  <a href="#a6b987a149b4cb462d12092eaa81eb074">More...</a><br/></td></tr>
+<tr class="separator:a6b987a149b4cb462d12092eaa81eb074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17a39fc67bb095c789ca5e5418190350"><td class="memTemplParams" colspan="2">template&lt;size_t Index, typename Functor , typename Arg , typename... MoreArgs&gt; </td></tr>
+<tr class="memitem:a17a39fc67bb095c789ca5e5418190350"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a17a39fc67bb095c789ca5e5418190350">call_foreach_with_index_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
+<tr class="memdesc:a17a39fc67bb095c789ca5e5418190350"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for call_foreach_with_index: general recursive case  <a href="#a17a39fc67bb095c789ca5e5418190350">More...</a><br/></td></tr>
+<tr class="separator:a17a39fc67bb095c789ca5e5418190350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ad9746dc2ad8271c539cc24ca9f840dcd"></a>
@@ -243,13 +257,83 @@ template&lt;typename Functor , typename Arg , typename... MoreArgs&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a6b987a149b4cb462d12092eaa81eb074"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t Index, typename Functor , typename Arg &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void tlx::detail::call_foreach_with_index_impl </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Arg &amp;&amp;&#160;</td>
+          <td class="paramname"><em>arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for call_foreach_with_index: base case </p>
+
+<p>Definition at line <a class="el" href="call__foreach__with__index_8hpp_source.html#l00030">30</a> of file <a class="el" href="call__foreach__with__index_8hpp_source.html">call_foreach_with_index.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a17a39fc67bb095c789ca5e5418190350"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t Index, typename Functor , typename Arg , typename... MoreArgs&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void tlx::detail::call_foreach_with_index_impl </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Arg &amp;&amp;&#160;</td>
+          <td class="paramname"><em>arg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MoreArgs &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>rest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for call_foreach_with_index: general recursive case </p>
+
+<p>Definition at line <a class="el" href="call__foreach__with__index_8hpp_source.html#l00036">36</a> of file <a class="el" href="call__foreach__with__index_8hpp_source.html">call_foreach_with_index.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="namespacetlx_1_1detail.html">detail</a></li>
-    <li class="footer">Generated on Thu Mar 2 2017 15:41:23 for tlx by
+    <li class="footer">Generated on Thu Mar 2 2017 15:45:30 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

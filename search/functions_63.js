@@ -2,8 +2,12 @@ var searchData=
 [
   ['calc_5foption_5fmax',['calc_option_max',['../classtlx_1_1CmdlineParser.html#a7e4f8d90b1ca9467806de74f7be3a7c0',1,'tlx::CmdlineParser']]],
   ['calc_5fparam_5fmax',['calc_param_max',['../classtlx_1_1CmdlineParser.html#a18f041c0112ca3a72e19f26f9b2b010b',1,'tlx::CmdlineParser']]],
+  ['call',['call',['../classtlx_1_1detail_1_1CallForRangeImpl.html#a6cdc7428f5f5f4428b26c8b4a2723fc5',1,'tlx::detail::CallForRangeImpl::call()'],['../classtlx_1_1detail_1_1CallForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html#abc3a8f47a038e2302d6bed754fd76769',1,'tlx::detail::CallForRangeImpl&lt; Index, 0, Functor &gt;::call()']]],
+  ['call_5ffor_5frange',['call_for_range',['../namespacetlx.html#aabdeef74e74806d7a81fa708ce9828e2',1,'tlx::call_for_range(Functor &amp;&amp;f)'],['../namespacetlx.html#a2abdae3c630ff66ff635822c14f8c72a',1,'tlx::call_for_range(Functor &amp;&amp;f)']]],
   ['call_5fforeach',['call_foreach',['../namespacetlx.html#a754cf6d5c1cb28e539cbc996af91ecb5',1,'tlx']]],
   ['call_5fforeach_5fimpl',['call_foreach_impl',['../namespacetlx_1_1detail.html#a291543f51590e77d1bcf133018d112c6',1,'tlx::detail::call_foreach_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg)'],['../namespacetlx_1_1detail.html#ab260f6c5433e64d9128c31a037c6f72c',1,'tlx::detail::call_foreach_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)']]],
+  ['call_5fforeach_5fwith_5findex',['call_foreach_with_index',['../namespacetlx.html#a9a8854506459ec185c2bcbdd6fe6428b',1,'tlx']]],
+  ['call_5fforeach_5fwith_5findex_5fimpl',['call_foreach_with_index_impl',['../namespacetlx_1_1detail.html#a6b987a149b4cb462d12092eaa81eb074',1,'tlx::detail::call_foreach_with_index_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg)'],['../namespacetlx_1_1detail.html#a17a39fc67bb095c789ca5e5418190350',1,'tlx::detail::call_foreach_with_index_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)']]],
   ['capacity',['capacity',['../classtlx_1_1RingBuffer.html#acf60d1feeaa88258232eac9f8cce7d29',1,'tlx::RingBuffer']]],
   ['cbegin',['cbegin',['../classtlx_1_1SimpleVector.html#a5cabcd845ae2141ba126ab0a0cef71db',1,'tlx::SimpleVector']]],
   ['cend',['cend',['../classtlx_1_1SimpleVector.html#a8579972abcd4b7d8c1a9aeba9979fb58',1,'tlx::SimpleVector']]],

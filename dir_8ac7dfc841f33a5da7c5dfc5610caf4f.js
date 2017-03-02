@@ -1,7 +1,9 @@
 var dir_8ac7dfc841f33a5da7c5dfc5610caf4f =
 [
     [ "apply_tuple.hpp", "apply__tuple_8hpp.html", "apply__tuple_8hpp" ],
+    [ "call_for_range.hpp", "call__for__range_8hpp.html", "call__for__range_8hpp" ],
     [ "call_foreach.hpp", "call__foreach_8hpp.html", "call__foreach_8hpp" ],
+    [ "call_foreach_with_index.hpp", "call__foreach__with__index_8hpp.html", "call__foreach__with__index_8hpp" ],
     [ "index_sequence.hpp", "index__sequence_8hpp.html", [
       [ "index_sequence", "structtlx_1_1index__sequence.html", "structtlx_1_1index__sequence" ],
       [ "make_index_sequence_helper", "structtlx_1_1detail_1_1make__index__sequence__helper.html", "structtlx_1_1detail_1_1make__index__sequence__helper" ],
@@ -32,5 +34,8 @@ var dir_8ac7dfc841f33a5da7c5dfc5610caf4f =
       [ "Log2", "classtlx_1_1Log2.html", "classtlx_1_1Log2" ],
       [ "Log2< 1 >", "classtlx_1_1Log2_3_011_01_4.html", "classtlx_1_1Log2_3_011_01_4" ],
       [ "Log2< 0 >", "classtlx_1_1Log2_3_010_01_4.html", "classtlx_1_1Log2_3_010_01_4" ]
+    ] ],
+    [ "static_index.hpp", "static__index_8hpp.html", [
+      [ "StaticIndex", "structtlx_1_1StaticIndex.html", "structtlx_1_1StaticIndex" ]
     ] ]
 ];
