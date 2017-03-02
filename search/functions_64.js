@@ -8,5 +8,6 @@ var searchData=
   ['destroy_5farray',['destroy_array',['../classtlx_1_1SimpleVector.html#a6421fffa0bed5ea2df5785c138af1cfa',1,'tlx::SimpleVector']]],
   ['die_5funequal_5fcompare',['die_unequal_compare',['../namespacetlx.html#a717a659d0a374923911729663882bb4b',1,'tlx::die_unequal_compare(TypeA a, TypeB b)'],['../namespacetlx.html#a7b1550ff16b4ba586596da7f1f471abc',1,'tlx::die_unequal_compare(float a, float b)'],['../namespacetlx.html#abe8b35ade280b3f91e8139002674d827',1,'tlx::die_unequal_compare(double a, double b)']]],
   ['die_5fwith_5fmessage',['die_with_message',['../namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b',1,'tlx::die_with_message(const std::string &amp;msg)'],['../namespacetlx.html#a4ea5cbffd44f2ec0ce8ed33a4a61f6a0',1,'tlx::die_with_message(const char *msg, const char *file, size_t line)'],['../namespacetlx.html#a649f5837f3dd844a036e9a56534f4bec',1,'tlx::die_with_message(const std::string &amp;msg, const char *file, size_t line)']]],
+  ['div_5fceil',['div_ceil',['../namespacetlx.html#a9ebe91735235f8f835ea5fb02874e117',1,'tlx']]],
   ['done',['done',['../classtlx_1_1ThreadPool.html#a956cf2c2069dccfef517dbb8b8958322',1,'tlx::ThreadPool']]]
 ];
