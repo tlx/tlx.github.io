@@ -4,6 +4,7 @@ var dir_8ac7dfc841f33a5da7c5dfc5610caf4f =
     [ "call_for_range.hpp", "call__for__range_8hpp.html", "call__for__range_8hpp" ],
     [ "call_foreach.hpp", "call__foreach_8hpp.html", "call__foreach_8hpp" ],
     [ "call_foreach_with_index.hpp", "call__foreach__with__index_8hpp.html", "call__foreach__with__index_8hpp" ],
+    [ "has_member.hpp", "has__member_8hpp.html", "has__member_8hpp" ],
     [ "index_sequence.hpp", "index__sequence_8hpp.html", [
       [ "index_sequence", "structtlx_1_1index__sequence.html", "structtlx_1_1index__sequence" ],
       [ "make_index_sequence_helper", "structtlx_1_1detail_1_1make__index__sequence__helper.html", "structtlx_1_1detail_1_1make__index__sequence__helper" ],
@@ -37,5 +38,8 @@ var dir_8ac7dfc841f33a5da7c5dfc5610caf4f =
     ] ],
     [ "static_index.hpp", "static__index_8hpp.html", [
       [ "StaticIndex", "structtlx_1_1StaticIndex.html", "structtlx_1_1StaticIndex" ]
-    ] ]
+    ] ],
+    [ "vmap_for_range.hpp", "vmap__for__range_8hpp.html", "vmap__for__range_8hpp" ],
+    [ "vmap_foreach.hpp", "vmap__foreach_8hpp.html", "vmap__foreach_8hpp" ],
+    [ "vmap_foreach_with_index.hpp", "vmap__foreach__with__index_8hpp.html", "vmap__foreach__with__index_8hpp" ]
 ];

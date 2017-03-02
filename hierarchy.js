@@ -79,5 +79,7 @@ var hierarchy =
     ] ],
     [ "type", null, [
       [ "tlx::make_index_sequence< Size >", "structtlx_1_1make__index__sequence.html", null ]
-    ] ]
+    ] ],
+    [ "tlx::detail::VMapForRangeImpl< Index, Size, Functor >", "classtlx_1_1detail_1_1VMapForRangeImpl.html", null ],
+    [ "tlx::detail::VMapForRangeImpl< Index, 0, Functor >", "classtlx_1_1detail_1_1VMapForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html", null ]
 ];

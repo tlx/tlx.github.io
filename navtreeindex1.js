@@ -213,6 +213,10 @@ var NAVTREEINDEX1 =
 "classtlx_1_1detail_1_1CallForRangeImpl.html#a6cdc7428f5f5f4428b26c8b4a2723fc5":[1,0,0,0,0,0],
 "classtlx_1_1detail_1_1CallForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html":[1,0,0,0,1],
 "classtlx_1_1detail_1_1CallForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html#abc3a8f47a038e2302d6bed754fd76769":[1,0,0,0,1,0],
+"classtlx_1_1detail_1_1VMapForRangeImpl.html":[1,0,0,0,4],
+"classtlx_1_1detail_1_1VMapForRangeImpl.html#ada148c968b8548892aaa215c449febae":[1,0,0,0,4,0],
+"classtlx_1_1detail_1_1VMapForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html":[1,0,0,0,5],
+"classtlx_1_1detail_1_1VMapForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html#a9d4e85a3b91bfd11040095404018ac22":[1,0,0,0,5,0],
 "cmdline__parser_8cpp.html":[2,0,0,4],
 "cmdline__parser_8cpp_source.html":[2,0,0,4],
 "cmdline__parser_8hpp.html":[2,0,0,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "die_8cpp.html#a4189021baeabfe5b52ca34be6d94499b":[2,0,0,9,0],
 "die_8cpp.html#a4ea5cbffd44f2ec0ce8ed33a4a61f6a0":[2,0,0,9,1],
 "die_8cpp.html#a649f5837f3dd844a036e9a56534f4bec":[2,0,0,9,2],
-"die_8cpp_source.html":[2,0,0,9],
-"die_8hpp.html":[2,0,0,10],
-"die_8hpp.html#a104ef9af1dda7b166a22fea791aad044":[2,0,0,10,1],
-"die_8hpp.html#a17ac1fcc957b3ac3414677c0058b1bad":[2,0,0,10,5],
-"die_8hpp.html#a334b021076c0dff0e3964c6819774ceb":[2,0,0,10,3]
+"die_8cpp_source.html":[2,0,0,9]
 };

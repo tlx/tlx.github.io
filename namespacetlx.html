@@ -444,6 +444,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a9a8854506459ec185c2bcbdd6fe6428b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a9a8854506459ec185c2bcbdd6fe6428b">call_foreach_with_index</a> (Functor &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
 <tr class="memdesc:a9a8854506459ec185c2bcbdd6fe6428b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument together with its zero-based index.  <a href="#a9a8854506459ec185c2bcbdd6fe6428b">More...</a><br/></td></tr>
 <tr class="separator:a9a8854506459ec185c2bcbdd6fe6428b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a1c233e7ab713b8f8f77f7149f2bc4b"><td class="memTemplParams" colspan="2">template&lt;size_t Size, typename Functor &gt; </td></tr>
+<tr class="memitem:a4a1c233e7ab713b8f8f77f7149f2bc4b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a4a1c233e7ab713b8f8f77f7149f2bc4b">vmap_for_range</a> (Functor &amp;&amp;f)</td></tr>
+<tr class="memdesc:a4a1c233e7ab713b8f8f77f7149f2bc4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vmap a generic functor (like a generic lambda) for the integers [0,Size).  <a href="#a4a1c233e7ab713b8f8f77f7149f2bc4b">More...</a><br/></td></tr>
+<tr class="separator:a4a1c233e7ab713b8f8f77f7149f2bc4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36807642146dd614b63d26ed6bba9c19"><td class="memTemplParams" colspan="2">template&lt;size_t Begin, size_t End, typename Functor &gt; </td></tr>
+<tr class="memitem:a36807642146dd614b63d26ed6bba9c19"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a36807642146dd614b63d26ed6bba9c19">vmap_for_range</a> (Functor &amp;&amp;f)</td></tr>
+<tr class="memdesc:a36807642146dd614b63d26ed6bba9c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vmap a generic functor (like a generic lambda) for the integers [Begin,End).  <a href="#a36807642146dd614b63d26ed6bba9c19">More...</a><br/></td></tr>
+<tr class="separator:a36807642146dd614b63d26ed6bba9c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af379571cbffcf0273d0203ef53bca2b8"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename... Args&gt; </td></tr>
+<tr class="memitem:af379571cbffcf0273d0203ef53bca2b8"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#af379571cbffcf0273d0203ef53bca2b8">vmap_foreach</a> (Functor &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:af379571cbffcf0273d0203ef53bca2b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument.  <a href="#af379571cbffcf0273d0203ef53bca2b8">More...</a><br/></td></tr>
+<tr class="separator:af379571cbffcf0273d0203ef53bca2b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a5c01183e4cc91ffbec284e8bd9437e"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename... Args&gt; </td></tr>
+<tr class="memitem:a1a5c01183e4cc91ffbec284e8bd9437e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1a5c01183e4cc91ffbec284e8bd9437e">vmap_foreach_with_index</a> (Functor &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:a1a5c01183e4cc91ffbec284e8bd9437e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument together with its zero-based index.  <a href="#a1a5c01183e4cc91ffbec284e8bd9437e">More...</a><br/></td></tr>
+<tr class="separator:a1a5c01183e4cc91ffbec284e8bd9437e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2dd5bc7b975d74e87f79590c14d761f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab2dd5bc7b975d74e87f79590c14d761f">base64_encode</a> (const void *data, size_t size, size_t line_break=0)</td></tr>
 <tr class="memdesc:ab2dd5bc7b975d74e87f79590c14d761f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode the given binary data into base64 representation as described in RFC 2045 or RFC 3548.  <a href="#ab2dd5bc7b975d74e87f79590c14d761f">More...</a><br/></td></tr>
 <tr class="separator:ab2dd5bc7b975d74e87f79590c14d761f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6216,6 +6232,114 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a4a1c233e7ab713b8f8f77f7149f2bc4b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t Size, typename Functor &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::vmap_for_range </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vmap a generic functor (like a generic lambda) for the integers [0,Size). </p>
+
+<p>Definition at line <a class="el" href="vmap__for__range_8hpp_source.html#l00059">59</a> of file <a class="el" href="vmap__for__range_8hpp_source.html">vmap_for_range.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a36807642146dd614b63d26ed6bba9c19"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t Begin, size_t End, typename Functor &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::vmap_for_range </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vmap a generic functor (like a generic lambda) for the integers [Begin,End). </p>
+
+<p>Definition at line <a class="el" href="vmap__for__range_8hpp_source.html#l00066">66</a> of file <a class="el" href="vmap__for__range_8hpp_source.html">vmap_for_range.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af379571cbffcf0273d0203ef53bca2b8"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Functor , typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::vmap_foreach </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Call a generic functor (like a generic lambda) for each variadic template argument. </p>
+
+<p>Definition at line <a class="el" href="vmap__foreach_8hpp_source.html#l00048">48</a> of file <a class="el" href="vmap__foreach_8hpp_source.html">vmap_foreach.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1a5c01183e4cc91ffbec284e8bd9437e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Functor , typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::vmap_foreach_with_index </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Call a generic functor (like a generic lambda) for each variadic template argument together with its zero-based index. </p>
+
+<p>Definition at line <a class="el" href="vmap__foreach__with__index_8hpp_source.html#l00053">53</a> of file <a class="el" href="vmap__foreach__with__index_8hpp_source.html">vmap_foreach_with_index.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aab22e05055aa827de79236f0cb53354d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -6253,7 +6377,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Thu Mar 2 2017 15:45:30 for tlx by
+    <li class="footer">Generated on Thu Mar 2 2017 17:21:34 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
