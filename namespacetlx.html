@@ -492,6 +492,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a2a60953b25c41cbcf3063af3755c8d89"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a2a60953b25c41cbcf3063af3755c8d89">compare_icase</a> (const std::string &amp;a, const std::string &amp;b)</td></tr>
 <tr class="memdesc:a2a60953b25c41cbcf3063af3755c8d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns +1/0/-1 like strcmp(a, b) but without regard for letter case  <a href="#a2a60953b25c41cbcf3063af3755c8d89">More...</a><br/></td></tr>
 <tr class="separator:a2a60953b25c41cbcf3063af3755c8d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8724325030d7e986fe1983442d8210e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ad8724325030d7e986fe1983442d8210e">contains</a> (const std::string &amp;str, const std::string &amp;pattern)</td></tr>
+<tr class="memdesc:ad8724325030d7e986fe1983442d8210e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests of string contains pattern.  <a href="#ad8724325030d7e986fe1983442d8210e">More...</a><br/></td></tr>
+<tr class="separator:ad8724325030d7e986fe1983442d8210e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae716c88d7aef5010fdda97d290f445c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ae716c88d7aef5010fdda97d290f445c4">contains</a> (const std::string &amp;str, const char *pattern)</td></tr>
+<tr class="memdesc:ae716c88d7aef5010fdda97d290f445c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests of string contains pattern.  <a href="#ae716c88d7aef5010fdda97d290f445c4">More...</a><br/></td></tr>
+<tr class="separator:ae716c88d7aef5010fdda97d290f445c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2178da8d848044033213718b263a8241"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a2178da8d848044033213718b263a8241">contains</a> (const std::string &amp;str, const char ch)</td></tr>
+<tr class="memdesc:a2178da8d848044033213718b263a8241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests of string contains character.  <a href="#a2178da8d848044033213718b263a8241">More...</a><br/></td></tr>
+<tr class="separator:a2178da8d848044033213718b263a8241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aebcd1b9a6ce6667c8bbcab36aeaadb"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a7aebcd1b9a6ce6667c8bbcab36aeaadb">is_white</a> (char c)</td></tr>
 <tr class="separator:a7aebcd1b9a6ce6667c8bbcab36aeaadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a636174561338cc674626246574319f51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a636174561338cc674626246574319f51">contains_word</a> (const std::string &amp;str, const char *word)</td></tr>
@@ -644,6 +653,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ae3b710ccefae45bf1e1838bdc3785ce8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ae3b710ccefae45bf1e1838bdc3785ce8">less_icase</a> (const std::string &amp;a, const std::string &amp;b)</td></tr>
 <tr class="memdesc:ae3b710ccefae45bf1e1838bdc3785ce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a &lt; b without regard for letter case  <a href="#ae3b710ccefae45bf1e1838bdc3785ce8">More...</a><br/></td></tr>
 <tr class="separator:ae3b710ccefae45bf1e1838bdc3785ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fde10ed812d3e04d76c839583007973"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a5fde10ed812d3e04d76c839583007973">pad</a> (const std::string &amp;s, size_t len, char pad_char= ' ')</td></tr>
+<tr class="memdesc:a5fde10ed812d3e04d76c839583007973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Truncate or pad string to exactly len characters.  <a href="#a5fde10ed812d3e04d76c839583007973">More...</a><br/></td></tr>
+<tr class="separator:a5fde10ed812d3e04d76c839583007973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05df4ec244bd2d205d7b3a703f7a1849"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a05df4ec244bd2d205d7b3a703f7a1849">parse_si_iec_units</a> (const char *str, uint64_t *out_size, char default_unit=0)</td></tr>
 <tr class="memdesc:a05df4ec244bd2d205d7b3a703f7a1849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a string like "343KB" or "44 GiB" into the corresponding size in bytes.  <a href="#a05df4ec244bd2d205d7b3a703f7a1849">More...</a><br/></td></tr>
 <tr class="separator:a05df4ec244bd2d205d7b3a703f7a1849"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1407,6 +1419,96 @@ template&lt;typename Functor , typename... Args&gt; </div>
 <p>returns +1/0/-1 like strcmp(a, b) but without regard for letter case </p>
 
 <p>Definition at line <a class="el" href="compare__icase_8cpp_source.html#l00072">72</a> of file <a class="el" href="compare__icase_8cpp_source.html">compare_icase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad8724325030d7e986fe1983442d8210e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::contains </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pattern</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tests of string contains pattern. </p>
+
+<p>Definition at line <a class="el" href="contains_8cpp_source.html#l00015">15</a> of file <a class="el" href="contains_8cpp_source.html">contains.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae716c88d7aef5010fdda97d290f445c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::contains </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>pattern</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tests of string contains pattern. </p>
+
+<p>Definition at line <a class="el" href="contains_8cpp_source.html#l00019">19</a> of file <a class="el" href="contains_8cpp_source.html">contains.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2178da8d848044033213718b263a8241"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::contains </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>ch</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Tests of string contains character. </p>
+
+<p>Definition at line <a class="el" href="contains_8cpp_source.html#l00023">23</a> of file <a class="el" href="contains_8cpp_source.html">contains.cpp</a>.</p>
 
 </div>
 </div>
@@ -4034,6 +4136,42 @@ template&lt;typename A &gt; </div>
 <p>print pointer </p>
 
 <p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00257">257</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5fde10ed812d3e04d76c839583007973"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::pad </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>pad_char</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Truncate or pad string to exactly len characters. </p>
+
+<p>Definition at line <a class="el" href="pad_8cpp_source.html#l00015">15</a> of file <a class="el" href="pad_8cpp_source.html">pad.cpp</a>.</p>
 
 </div>
 </div>
@@ -6845,7 +6983,7 @@ template&lt;typename Functor , typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Thu Mar 2 2017 20:05:30 for tlx by
+    <li class="footer">Generated on Thu Mar 2 2017 20:37:54 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
