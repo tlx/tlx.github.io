@@ -143,11 +143,11 @@ $(document).ready(function(){initNavTree('die_8hpp_source.html','');});
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"></span><span class="keywordtype">void</span> <a class="code" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b" title="die with message - either throw an exception or die via abort()">die_with_message</a>(<span class="keyword">const</span> std::string&amp; msg, <span class="keyword">const</span> <span class="keywordtype">char</span>* file, <span class="keywordtype">size_t</span> line);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">//! Instead of abort(), throw the output the message via an exception.</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="die_8hpp.html#a17ac1fcc957b3ac3414677c0058b1bad">   33</a></span>&#160;<span class="comment"></span><span class="preprocessor">#define die_with_sstream(msg)                               \</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">    do {                                                    \</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">        std::ostringstream oss;                             \</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">        oss &lt;&lt; msg &lt;&lt; &quot; @ &quot; &lt;&lt; __FILE__ &lt;&lt; &#39;:&#39; &lt;&lt; __LINE__; \</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">        ::tlx::die_with_message(oss.str());                 \</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="die_8hpp.html#a17ac1fcc957b3ac3414677c0058b1bad">   33</a></span>&#160;<span class="comment"></span><span class="preprocessor">#define die_with_sstream(msg)                                 \</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">    do {                                                      \</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">        std::ostringstream oss__;                             \</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">        oss__ &lt;&lt; msg &lt;&lt; &quot; @ &quot; &lt;&lt; __FILE__ &lt;&lt; &#39;:&#39; &lt;&lt; __LINE__; \</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">        ::tlx::die_with_message(oss__.str());                 \</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">    } while (0)</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">//! Instead of abort(), throw the output the message via an exception.</span></div>
@@ -242,7 +242,7 @@ $(document).ready(function(){initNavTree('die_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="die_8hpp.html">die.hpp</a></li>
-    <li class="footer">Generated on Thu Mar 2 2017 08:31:56 for tlx by
+    <li class="footer">Generated on Thu Mar 2 2017 15:41:23 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

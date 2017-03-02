@@ -1,5 +1,6 @@
 var namespacetlx =
 [
+    [ "detail", "namespacetlx_1_1detail.html", "namespacetlx_1_1detail" ],
     [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
     [ "CountingPtrDefaultDeleter", "classtlx_1_1CountingPtrDefaultDeleter.html", "classtlx_1_1CountingPtrDefaultDeleter" ],
     [ "CountingPtr", "classtlx_1_1CountingPtr.html", "classtlx_1_1CountingPtr" ],
@@ -21,6 +22,16 @@ var namespacetlx =
     [ "LoserTreeTraits", "classtlx_1_1LoserTreeTraits.html", "classtlx_1_1LoserTreeTraits" ],
     [ "LruCacheSet", "classtlx_1_1LruCacheSet.html", "classtlx_1_1LruCacheSet" ],
     [ "LruCacheMap", "classtlx_1_1LruCacheMap.html", "classtlx_1_1LruCacheMap" ],
+    [ "index_sequence", "structtlx_1_1index__sequence.html", "structtlx_1_1index__sequence" ],
+    [ "make_index_sequence", "structtlx_1_1make__index__sequence.html", null ],
+    [ "is_std_array", "structtlx_1_1is__std__array.html", null ],
+    [ "is_std_array< std::array< T, N > >", "structtlx_1_1is__std__array_3_01std_1_1array_3_01T_00_01N_01_4_01_4.html", null ],
+    [ "is_std_pair", "structtlx_1_1is__std__pair.html", null ],
+    [ "is_std_pair< std::pair< S, T > >", "structtlx_1_1is__std__pair_3_01std_1_1pair_3_01S_00_01T_01_4_01_4.html", null ],
+    [ "is_std_tuple", "structtlx_1_1is__std__tuple.html", null ],
+    [ "is_std_tuple< std::tuple< Ts...> >", "structtlx_1_1is__std__tuple_3_01std_1_1tuple_3_01Ts_8_8_8_4_01_4.html", null ],
+    [ "is_std_vector", "structtlx_1_1is__std__vector.html", null ],
+    [ "is_std_vector< std::vector< T > >", "structtlx_1_1is__std__vector_3_01std_1_1vector_3_01T_01_4_01_4.html", null ],
     [ "Log2Floor", "classtlx_1_1Log2Floor.html", "classtlx_1_1Log2Floor" ],
     [ "Log2Floor< 1 >", "classtlx_1_1Log2Floor_3_011_01_4.html", "classtlx_1_1Log2Floor_3_011_01_4" ],
     [ "Log2Floor< 0 >", "classtlx_1_1Log2Floor_3_010_01_4.html", "classtlx_1_1Log2Floor_3_010_01_4" ],

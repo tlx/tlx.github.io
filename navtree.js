@@ -37,10 +37,10 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classtlx_1_1LoserTreePointerBase.html#a3b6746b4d3f53391ac2fb74d9c377d70",
-"ends__with_8hpp.html#a6733a80c87e8184aa2dfda13f27db213",
-"replace_8cpp.html#aa42af651055bba02cc39d2d2cfd5ddab",
-"trim_8hpp.html#a793ce30c7b3cff3a6111b41b07e883e1"
+"classtlx_1_1LoserTreePointer.html",
+"dir_a24f6cc0d1b9a31e7adf9b47ab4358cd.html",
+"namespacetlx.html",
+"to__lower_8cpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

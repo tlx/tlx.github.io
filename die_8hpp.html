@@ -341,10 +341,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                    \</div>
-<div class="line">        std::ostringstream oss;                             \</div>
-<div class="line">        oss &lt;&lt; msg &lt;&lt; <span class="stringliteral">&quot; @ &quot;</span> &lt;&lt; __FILE__ &lt;&lt; <span class="charliteral">&#39;:&#39;</span> &lt;&lt; __LINE__; <a class="code" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b" title="die with message - either throw an exception or die via abort()">\</a></div>
-<div class="line"><a class="code" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b" title="die with message - either throw an exception or die via abort()">        ::tlx::die_with_message</a>(oss.str());                 \</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                                      \</div>
+<div class="line">        std::ostringstream oss__;                             \</div>
+<div class="line">        oss__ &lt;&lt; msg &lt;&lt; <span class="stringliteral">&quot; @ &quot;</span> &lt;&lt; __FILE__ &lt;&lt; <span class="charliteral">&#39;:&#39;</span> &lt;&lt; __LINE__; <a class="code" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b" title="die with message - either throw an exception or die via abort()">\</a></div>
+<div class="line"><a class="code" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b" title="die with message - either throw an exception or die via abort()">        ::tlx::die_with_message</a>(oss__.str());                 \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 <p>Instead of abort(), throw the output the message via an exception. </p>
@@ -359,7 +359,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="die_8hpp.html">die.hpp</a></li>
-    <li class="footer">Generated on Thu Mar 2 2017 08:31:57 for tlx by
+    <li class="footer">Generated on Thu Mar 2 2017 15:41:23 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
