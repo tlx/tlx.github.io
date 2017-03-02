@@ -403,6 +403,14 @@ Functions</h2></td></tr>
 <tr class="memitem:acf60ffb92fd69bd1daf92ce2c30ce5d9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#acf60ffb92fd69bd1daf92ce2c30ce5d9">base64_decode</a> (const std::string &amp;str, bool strict=true)</td></tr>
 <tr class="memdesc:acf60ffb92fd69bd1daf92ce2c30ce5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a string in base64 representation as described in RFC 2045 or RFC 3548 and return the original data.  <a href="#acf60ffb92fd69bd1daf92ce2c30ce5d9">More...</a><br/></td></tr>
 <tr class="separator:acf60ffb92fd69bd1daf92ce2c30ce5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aebcd1b9a6ce6667c8bbcab36aeaadb"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a7aebcd1b9a6ce6667c8bbcab36aeaadb">is_white</a> (char c)</td></tr>
+<tr class="separator:a7aebcd1b9a6ce6667c8bbcab36aeaadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a636174561338cc674626246574319f51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a636174561338cc674626246574319f51">contains_word</a> (const std::string &amp;str, const char *word)</td></tr>
+<tr class="memdesc:a636174561338cc674626246574319f51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the given string for a whitespace-delimited word.  <a href="#a636174561338cc674626246574319f51">More...</a><br/></td></tr>
+<tr class="separator:a636174561338cc674626246574319f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cad09f50452d7a29b354e1689d7c2be"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a8cad09f50452d7a29b354e1689d7c2be">contains_word</a> (const std::string &amp;str, const std::string &amp;word)</td></tr>
+<tr class="memdesc:a8cad09f50452d7a29b354e1689d7c2be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the given string for a whitespace-delimited word.  <a href="#a8cad09f50452d7a29b354e1689d7c2be">More...</a><br/></td></tr>
+<tr class="separator:a8cad09f50452d7a29b354e1689d7c2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6733a80c87e8184aa2dfda13f27db213"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a6733a80c87e8184aa2dfda13f27db213">ends_with</a> (const std::string &amp;str, const std::string &amp;match)</td></tr>
 <tr class="memdesc:a6733a80c87e8184aa2dfda13f27db213"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given match string is located at the end of this string.  <a href="#a6733a80c87e8184aa2dfda13f27db213">More...</a><br/></td></tr>
 <tr class="separator:a6733a80c87e8184aa2dfda13f27db213"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -439,6 +447,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a2b37ed241994f71049ac60b552008aa1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a2b37ed241994f71049ac60b552008aa1">escape_uri</a> (const std::string &amp;src)</td></tr>
 <tr class="memdesc:a2b37ed241994f71049ac60b552008aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Escape a string into a URI-encoding.  <a href="#a2b37ed241994f71049ac60b552008aa1">More...</a><br/></td></tr>
 <tr class="separator:a2b37ed241994f71049ac60b552008aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536ac2439a4b7a17a0e089c443249e67"><td class="memTemplParams" colspan="2">template&lt;typename Separator1 , typename Separator2 &gt; </td></tr>
+<tr class="memitem:a536ac2439a4b7a17a0e089c443249e67"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a536ac2439a4b7a17a0e089c443249e67">extract_between_template</a> (const std::string &amp;str, const Separator1 &amp;sep1, size_t sep1_size, const Separator2 &amp;sep2)</td></tr>
+<tr class="separator:a536ac2439a4b7a17a0e089c443249e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede55d891bc7ef14c3487c92b9adbe2b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#aede55d891bc7ef14c3487c92b9adbe2b">extract_between</a> (const std::string &amp;str, const char *sep1, const char *sep2)</td></tr>
+<tr class="memdesc:aede55d891bc7ef14c3487c92b9adbe2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the string for given start and end separators and extract all characters between the both, if they are found.  <a href="#aede55d891bc7ef14c3487c92b9adbe2b">More...</a><br/></td></tr>
+<tr class="separator:aede55d891bc7ef14c3487c92b9adbe2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07a3de55eb7a37adb94f265716ab1269"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a07a3de55eb7a37adb94f265716ab1269">extract_between</a> (const std::string &amp;str, const char *sep1, const std::string &amp;sep2)</td></tr>
+<tr class="memdesc:a07a3de55eb7a37adb94f265716ab1269"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the string for given start and end separators and extract all characters between the both, if they are found.  <a href="#a07a3de55eb7a37adb94f265716ab1269">More...</a><br/></td></tr>
+<tr class="separator:a07a3de55eb7a37adb94f265716ab1269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af77b920cac51ad74d0100a4ae73992b8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#af77b920cac51ad74d0100a4ae73992b8">extract_between</a> (const std::string &amp;str, const std::string &amp;sep1, const char *sep2)</td></tr>
+<tr class="memdesc:af77b920cac51ad74d0100a4ae73992b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the string for given start and end separators and extract all characters between the both, if they are found.  <a href="#af77b920cac51ad74d0100a4ae73992b8">More...</a><br/></td></tr>
+<tr class="separator:af77b920cac51ad74d0100a4ae73992b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e62fde6d4c1881bed7cdec2ede5a080"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1e62fde6d4c1881bed7cdec2ede5a080">extract_between</a> (const std::string &amp;str, const std::string &amp;sep1, const std::string &amp;sep2)</td></tr>
+<tr class="memdesc:a1e62fde6d4c1881bed7cdec2ede5a080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the string for given start and end separators and extract all characters between the both, if they are found.  <a href="#a1e62fde6d4c1881bed7cdec2ede5a080">More...</a><br/></td></tr>
+<tr class="separator:a1e62fde6d4c1881bed7cdec2ede5a080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab562960c36651ded93c09da49c82a2cd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab562960c36651ded93c09da49c82a2cd">format_si_units</a> (uint64_t number, int precision)</td></tr>
 <tr class="memdesc:ab562960c36651ded93c09da49c82a2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format number as something like 1 TB.  <a href="#ab562960c36651ded93c09da49c82a2cd">More...</a><br/></td></tr>
 <tr class="separator:ab562960c36651ded93c09da49c82a2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -600,6 +623,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a3cf4c1cb8940c98d9bc913f2b5bd087e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a3cf4c1cb8940c98d9bc913f2b5bd087e">split</a> (std::vector&lt; std::string &gt; *into, const std::string &amp;sep, const std::string &amp;str, std::string::size_type min_fields, std::string::size_type limit)</td></tr>
 <tr class="memdesc:a3cf4c1cb8940c98d9bc913f2b5bd087e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator string into distinct substrings.  <a href="#a3cf4c1cb8940c98d9bc913f2b5bd087e">More...</a><br/></td></tr>
 <tr class="separator:a3cf4c1cb8940c98d9bc913f2b5bd087e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359648bf7e9bae0d45615233e24d2c12"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a359648bf7e9bae0d45615233e24d2c12">split_words</a> (const std::string &amp;str, std::string::size_type limit=std::string::npos)</td></tr>
+<tr class="memdesc:a359648bf7e9bae0d45615233e24d2c12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string by whitespaces into distinct words.  <a href="#a359648bf7e9bae0d45615233e24d2c12">More...</a><br/></td></tr>
+<tr class="separator:a359648bf7e9bae0d45615233e24d2c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab50650708407ad9fd1dbc6fedc945678"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab50650708407ad9fd1dbc6fedc945678">starts_with</a> (const std::string &amp;str, const std::string &amp;match)</td></tr>
 <tr class="memdesc:ab50650708407ad9fd1dbc6fedc945678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given match string is located at the start of this string.  <a href="#ab50650708407ad9fd1dbc6fedc945678">More...</a><br/></td></tr>
 <tr class="separator:ab50650708407ad9fd1dbc6fedc945678"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -666,6 +692,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac21eb3ad7a12fc40ddf705915556656c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ac21eb3ad7a12fc40ddf705915556656c">trim_left</a> (const std::string &amp;str, const std::string &amp;drop)</td></tr>
 <tr class="memdesc:ac21eb3ad7a12fc40ddf705915556656c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trims the given string only on the left.  <a href="#ac21eb3ad7a12fc40ddf705915556656c">More...</a><br/></td></tr>
 <tr class="separator:ac21eb3ad7a12fc40ddf705915556656c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec6be6417fecf489c677756087b8599"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a9ec6be6417fecf489c677756087b8599">union_words</a> (const std::string &amp;wordsA, const std::string &amp;wordsB)</td></tr>
+<tr class="memdesc:a9ec6be6417fecf489c677756087b8599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return union of two keyword sets.  <a href="#a9ec6be6417fecf489c677756087b8599">More...</a><br/></td></tr>
+<tr class="separator:a9ec6be6417fecf489c677756087b8599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab22e05055aa827de79236f0cb53354d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#aab22e05055aa827de79236f0cb53354d">word_wrap</a> (const std::string &amp;str, unsigned int wrap=80)</td></tr>
 <tr class="memdesc:aab22e05055aa827de79236f0cb53354d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to wrap a string to 80 columns without split words.  <a href="#aab22e05055aa827de79236f0cb53354d">More...</a><br/></td></tr>
 <tr class="separator:aab22e05055aa827de79236f0cb53354d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -941,6 +970,84 @@ template&lt;typename T &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>base64 encoded string </dd></dl>
 
 <p>Definition at line <a class="el" href="base64_8cpp_source.html#l00102">102</a> of file <a class="el" href="base64_8cpp_source.html">base64.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a636174561338cc674626246574319f51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::contains_word </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>word</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search the given string for a whitespace-delimited word. </p>
+<p>It works as if the str was <a class="el" href="namespacetlx.html#a359648bf7e9bae0d45615233e24d2c12" title="Split the given string by whitespaces into distinct words.">split_words()</a> and the resulting vector checked for a given word. However this function does not create a vector, it scans the string directly. Whitespace is space, tab, newline or carriage-return.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>whitespace-delimited string to check </td></tr>
+    <tr><td class="paramname">word</td><td>word to find </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the word was found </dd></dl>
+
+<p>Definition at line <a class="el" href="contains__word_8cpp_source.html#l00019">19</a> of file <a class="el" href="contains__word_8cpp_source.html">contains_word.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8cad09f50452d7a29b354e1689d7c2be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::contains_word </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>word</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search the given string for a whitespace-delimited word. </p>
+<p>It works as if the str was <a class="el" href="namespacetlx.html#a359648bf7e9bae0d45615233e24d2c12" title="Split the given string by whitespaces into distinct words.">split_words()</a> and the resulting vector checked for a given word. However this function does not create a vector, it scans the string directly. Whitespace is space, tab, newline or carriage-return.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>whitespace-delimited string to check </td></tr>
+    <tr><td class="paramname">word</td><td>word to find </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the word was found </dd></dl>
+
+<p>Definition at line <a class="el" href="contains__word_8cpp_source.html#l00055">55</a> of file <a class="el" href="contains__word_8cpp_source.html">contains_word.cpp</a>.</p>
 
 </div>
 </div>
@@ -1540,6 +1647,236 @@ template&lt;&gt; </div>
 <p>This maps all non A-Z0-9 characters to HH hex representation. </p>
 
 <p>Definition at line <a class="el" href="escape__uri_8cpp_source.html#l00015">15</a> of file <a class="el" href="escape__uri_8cpp_source.html">escape_uri.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aede55d891bc7ef14c3487c92b9adbe2b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::extract_between </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sep1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sep2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search the string for given start and end separators and extract all characters between the both, if they are found. </p>
+<p>Otherwise return an empty string.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string to search in </td></tr>
+    <tr><td class="paramname">sep1</td><td>start boundary </td></tr>
+    <tr><td class="paramname">sep2</td><td>end boundary </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="extract__between_8cpp_source.html#l00037">37</a> of file <a class="el" href="extract__between_8cpp_source.html">extract_between.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07a3de55eb7a37adb94f265716ab1269"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::extract_between </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sep1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sep2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search the string for given start and end separators and extract all characters between the both, if they are found. </p>
+<p>Otherwise return an empty string.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string to search in </td></tr>
+    <tr><td class="paramname">sep1</td><td>start boundary </td></tr>
+    <tr><td class="paramname">sep2</td><td>end boundary </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="extract__between_8cpp_source.html#l00042">42</a> of file <a class="el" href="extract__between_8cpp_source.html">extract_between.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af77b920cac51ad74d0100a4ae73992b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::extract_between </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sep1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>sep2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search the string for given start and end separators and extract all characters between the both, if they are found. </p>
+<p>Otherwise return an empty string.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string to search in </td></tr>
+    <tr><td class="paramname">sep1</td><td>start boundary </td></tr>
+    <tr><td class="paramname">sep2</td><td>end boundary </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="extract__between_8cpp_source.html#l00047">47</a> of file <a class="el" href="extract__between_8cpp_source.html">extract_between.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e62fde6d4c1881bed7cdec2ede5a080"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::extract_between </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sep1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>sep2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Search the string for given start and end separators and extract all characters between the both, if they are found. </p>
+<p>Otherwise return an empty string.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string to search in </td></tr>
+    <tr><td class="paramname">sep1</td><td>start boundary </td></tr>
+    <tr><td class="paramname">sep2</td><td>end boundary </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="extract__between_8cpp_source.html#l00052">52</a> of file <a class="el" href="extract__between_8cpp_source.html">extract_between.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a536ac2439a4b7a17a0e089c443249e67"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Separator1 , typename Separator2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string tlx::extract_between_template </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Separator1 &amp;&#160;</td>
+          <td class="paramname"><em>sep1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>sep1_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Separator2 &amp;&#160;</td>
+          <td class="paramname"><em>sep2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="extract__between_8cpp_source.html#l00019">19</a> of file <a class="el" href="extract__between_8cpp_source.html">extract_between.cpp</a>.</p>
 
 </div>
 </div>
@@ -2505,6 +2842,32 @@ template&lt;typename Integral &gt; </div>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="is__power__of__two_8cpp_source.html#l00016">16</a> of file <a class="el" href="is__power__of__two_8cpp_source.html">is_power_of_two.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7aebcd1b9a6ce6667c8bbcab36aeaadb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool tlx::is_white </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="contains__word_8cpp_source.html#l00015">15</a> of file <a class="el" href="contains__word_8cpp_source.html">contains_word.cpp</a>.</p>
 
 </div>
 </div>
@@ -4793,6 +5156,45 @@ template&lt;typename Integral &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a359648bf7e9bae0d45615233e24d2c12"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; tlx::split_words </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string::size_type&#160;</td>
+          <td class="paramname"><em>limit</em> = <code>std::string::npos</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split the given string by whitespaces into distinct words. </p>
+<p>Multiple consecutive whitespaces are considered as one split point. Whitespaces are space, tab, newline and carriage-return.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string to split </td></tr>
+    <tr><td class="paramname">limit</td><td>maximum number of parts returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector containing each split substring </dd></dl>
+
+<p>Definition at line <a class="el" href="split__words_8cpp_source.html#l00015">15</a> of file <a class="el" href="split__words_8cpp_source.html">split_words.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab50650708407ad9fd1dbc6fedc945678"></a>
 <div class="memitem">
 <div class="memproto">
@@ -5571,6 +5973,36 @@ template&lt;typename A &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a9ec6be6417fecf489c677756087b8599"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tlx::union_words </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>wordsA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>wordsB</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return union of two keyword sets. </p>
+
+<p>Definition at line <a class="el" href="union__words_8cpp_source.html#l00016">16</a> of file <a class="el" href="union__words_8cpp_source.html">union_words.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a19fd9f38f30a86b1836abdda71dbf158"></a>
 <div class="memitem">
 <div class="memproto">
@@ -5628,7 +6060,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Tue Feb 28 2017 12:39:29 for tlx by
+    <li class="footer">Generated on Thu Mar 2 2017 08:31:57 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

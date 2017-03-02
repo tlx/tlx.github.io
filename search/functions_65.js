@@ -12,5 +12,7 @@ var searchData=
   ['erase_5fif_5fexists',['erase_if_exists',['../classtlx_1_1LruCacheSet.html#adacbd829beb61054c8b73677fee36039',1,'tlx::LruCacheSet::erase_if_exists()'],['../classtlx_1_1LruCacheMap.html#a1480f1af34b67f72cdf66376441e3113',1,'tlx::LruCacheMap::erase_if_exists()']]],
   ['escape_5fhtml',['escape_html',['../namespacetlx.html#a431f26c247cf7f90bbe22c0c8e88721f',1,'tlx']]],
   ['escape_5furi',['escape_uri',['../namespacetlx.html#a2b37ed241994f71049ac60b552008aa1',1,'tlx']]],
-  ['exists',['exists',['../classtlx_1_1LruCacheSet.html#a5444974994b1f1df5f0d1cfedd8cbc97',1,'tlx::LruCacheSet::exists()'],['../classtlx_1_1LruCacheMap.html#afa063372e156088794a1e15767969496',1,'tlx::LruCacheMap::exists()']]]
+  ['exists',['exists',['../classtlx_1_1LruCacheSet.html#a5444974994b1f1df5f0d1cfedd8cbc97',1,'tlx::LruCacheSet::exists()'],['../classtlx_1_1LruCacheMap.html#afa063372e156088794a1e15767969496',1,'tlx::LruCacheMap::exists()']]],
+  ['extract_5fbetween',['extract_between',['../namespacetlx.html#aede55d891bc7ef14c3487c92b9adbe2b',1,'tlx::extract_between(const std::string &amp;str, const char *sep1, const char *sep2)'],['../namespacetlx.html#a07a3de55eb7a37adb94f265716ab1269',1,'tlx::extract_between(const std::string &amp;str, const char *sep1, const std::string &amp;sep2)'],['../namespacetlx.html#af77b920cac51ad74d0100a4ae73992b8',1,'tlx::extract_between(const std::string &amp;str, const std::string &amp;sep1, const char *sep2)'],['../namespacetlx.html#a1e62fde6d4c1881bed7cdec2ede5a080',1,'tlx::extract_between(const std::string &amp;str, const std::string &amp;sep1, const std::string &amp;sep2)']]],
+  ['extract_5fbetween_5ftemplate',['extract_between_template',['../namespacetlx.html#a536ac2439a4b7a17a0e089c443249e67',1,'tlx']]]
 ];

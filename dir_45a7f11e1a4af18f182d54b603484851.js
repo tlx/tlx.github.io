@@ -2,6 +2,8 @@ var dir_45a7f11e1a4af18f182d54b603484851 =
 [
     [ "base64.cpp", "base64_8cpp.html", "base64_8cpp" ],
     [ "base64.hpp", "base64_8hpp.html", "base64_8hpp" ],
+    [ "contains_word.cpp", "contains__word_8cpp.html", "contains__word_8cpp" ],
+    [ "contains_word.hpp", "contains__word_8hpp.html", "contains__word_8hpp" ],
     [ "ends_with.cpp", "ends__with_8cpp.html", "ends__with_8cpp" ],
     [ "ends_with.hpp", "ends__with_8hpp.html", "ends__with_8hpp" ],
     [ "erase_all.cpp", "erase__all_8cpp.html", "erase__all_8cpp" ],
@@ -10,6 +12,8 @@ var dir_45a7f11e1a4af18f182d54b603484851 =
     [ "escape_html.hpp", "escape__html_8hpp.html", "escape__html_8hpp" ],
     [ "escape_uri.cpp", "escape__uri_8cpp.html", "escape__uri_8cpp" ],
     [ "escape_uri.hpp", "escape__uri_8hpp.html", "escape__uri_8hpp" ],
+    [ "extract_between.cpp", "extract__between_8cpp.html", "extract__between_8cpp" ],
+    [ "extract_between.hpp", "extract__between_8hpp.html", "extract__between_8hpp" ],
     [ "format_si_iec_units.cpp", "format__si__iec__units_8cpp.html", "format__si__iec__units_8cpp" ],
     [ "format_si_iec_units.hpp", "format__si__iec__units_8hpp.html", "format__si__iec__units_8hpp" ],
     [ "hexdump.cpp", "hexdump_8cpp.html", "hexdump_8cpp" ],
@@ -23,6 +27,8 @@ var dir_45a7f11e1a4af18f182d54b603484851 =
     [ "replace.hpp", "replace_8hpp.html", "replace_8hpp" ],
     [ "split.cpp", "split_8cpp.html", "split_8cpp" ],
     [ "split.hpp", "split_8hpp.html", "split_8hpp" ],
+    [ "split_words.cpp", "split__words_8cpp.html", "split__words_8cpp" ],
+    [ "split_words.hpp", "split__words_8hpp.html", "split__words_8hpp" ],
     [ "starts_with.cpp", "starts__with_8cpp.html", "starts__with_8cpp" ],
     [ "starts_with.hpp", "starts__with_8hpp.html", "starts__with_8hpp" ],
     [ "to_lower.cpp", "to__lower_8cpp.html", "to__lower_8cpp" ],
@@ -31,6 +37,8 @@ var dir_45a7f11e1a4af18f182d54b603484851 =
     [ "to_upper.hpp", "to__upper_8hpp.html", "to__upper_8hpp" ],
     [ "trim.cpp", "trim_8cpp.html", "trim_8cpp" ],
     [ "trim.hpp", "trim_8hpp.html", "trim_8hpp" ],
+    [ "union_words.cpp", "union__words_8cpp.html", "union__words_8cpp" ],
+    [ "union_words.hpp", "union__words_8hpp.html", "union__words_8hpp" ],
     [ "word_wrap.cpp", "word__wrap_8cpp.html", "word__wrap_8cpp" ],
     [ "word_wrap.hpp", "word__wrap_8hpp.html", "word__wrap_8hpp" ]
 ];
