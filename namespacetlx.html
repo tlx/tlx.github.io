@@ -440,6 +440,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a754cf6d5c1cb28e539cbc996af91ecb5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a754cf6d5c1cb28e539cbc996af91ecb5">call_foreach</a> (Functor &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
 <tr class="memdesc:a754cf6d5c1cb28e539cbc996af91ecb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument.  <a href="#a754cf6d5c1cb28e539cbc996af91ecb5">More...</a><br/></td></tr>
 <tr class="separator:a754cf6d5c1cb28e539cbc996af91ecb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a592749f0b74d1c116893d4bc880343e3"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Tuple &gt; </td></tr>
+<tr class="memitem:a592749f0b74d1c116893d4bc880343e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a592749f0b74d1c116893d4bc880343e3">call_foreach_tuple</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t)</td></tr>
+<tr class="memdesc:a592749f0b74d1c116893d4bc880343e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) to each components of a tuple together with its zero-based index.  <a href="#a592749f0b74d1c116893d4bc880343e3">More...</a><br/></td></tr>
+<tr class="separator:a592749f0b74d1c116893d4bc880343e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83551ec4ad5da9352345f7178abeb056"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Tuple &gt; </td></tr>
+<tr class="memitem:a83551ec4ad5da9352345f7178abeb056"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a83551ec4ad5da9352345f7178abeb056">call_foreach_tuple_with_index</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t)</td></tr>
+<tr class="memdesc:a83551ec4ad5da9352345f7178abeb056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) to each components of a tuple together with its zero-based index.  <a href="#a83551ec4ad5da9352345f7178abeb056">More...</a><br/></td></tr>
+<tr class="separator:a83551ec4ad5da9352345f7178abeb056"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a8854506459ec185c2bcbdd6fe6428b"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename... Args&gt; </td></tr>
 <tr class="memitem:a9a8854506459ec185c2bcbdd6fe6428b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a9a8854506459ec185c2bcbdd6fe6428b">call_foreach_with_index</a> (Functor &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
 <tr class="memdesc:a9a8854506459ec185c2bcbdd6fe6428b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument together with its zero-based index.  <a href="#a9a8854506459ec185c2bcbdd6fe6428b">More...</a><br/></td></tr>
@@ -472,6 +480,18 @@ Functions</h2></td></tr>
 <tr class="memitem:acf60ffb92fd69bd1daf92ce2c30ce5d9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#acf60ffb92fd69bd1daf92ce2c30ce5d9">base64_decode</a> (const std::string &amp;str, bool strict=true)</td></tr>
 <tr class="memdesc:acf60ffb92fd69bd1daf92ce2c30ce5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode a string in base64 representation as described in RFC 2045 or RFC 3548 and return the original data.  <a href="#acf60ffb92fd69bd1daf92ce2c30ce5d9">More...</a><br/></td></tr>
 <tr class="separator:acf60ffb92fd69bd1daf92ce2c30ce5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a486913c9eb709bee76a0cd7d93756de7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a486913c9eb709bee76a0cd7d93756de7">compare_icase</a> (const char *a, const char *b)</td></tr>
+<tr class="memdesc:a486913c9eb709bee76a0cd7d93756de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns +1/0/-1 like strcmp(a, b) but without regard for letter case  <a href="#a486913c9eb709bee76a0cd7d93756de7">More...</a><br/></td></tr>
+<tr class="separator:a486913c9eb709bee76a0cd7d93756de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e669da7cb69574c3ff44a4b8c0d2d2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a7e669da7cb69574c3ff44a4b8c0d2d2d">compare_icase</a> (const char *a, const std::string &amp;b)</td></tr>
+<tr class="memdesc:a7e669da7cb69574c3ff44a4b8c0d2d2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns +1/0/-1 like strcmp(a, b) but without regard for letter case  <a href="#a7e669da7cb69574c3ff44a4b8c0d2d2d">More...</a><br/></td></tr>
+<tr class="separator:a7e669da7cb69574c3ff44a4b8c0d2d2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae3776db63cbe85af3108c8278f1797"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a6ae3776db63cbe85af3108c8278f1797">compare_icase</a> (const std::string &amp;a, const char *b)</td></tr>
+<tr class="memdesc:a6ae3776db63cbe85af3108c8278f1797"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns +1/0/-1 like strcmp(a, b) but without regard for letter case  <a href="#a6ae3776db63cbe85af3108c8278f1797">More...</a><br/></td></tr>
+<tr class="separator:a6ae3776db63cbe85af3108c8278f1797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a60953b25c41cbcf3063af3755c8d89"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a2a60953b25c41cbcf3063af3755c8d89">compare_icase</a> (const std::string &amp;a, const std::string &amp;b)</td></tr>
+<tr class="memdesc:a2a60953b25c41cbcf3063af3755c8d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns +1/0/-1 like strcmp(a, b) but without regard for letter case  <a href="#a2a60953b25c41cbcf3063af3755c8d89">More...</a><br/></td></tr>
+<tr class="separator:a2a60953b25c41cbcf3063af3755c8d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aebcd1b9a6ce6667c8bbcab36aeaadb"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a7aebcd1b9a6ce6667c8bbcab36aeaadb">is_white</a> (char c)</td></tr>
 <tr class="separator:a7aebcd1b9a6ce6667c8bbcab36aeaadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a636174561338cc674626246574319f51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a636174561338cc674626246574319f51">contains_word</a> (const std::string &amp;str, const char *word)</td></tr>
@@ -492,6 +512,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a9ee97aa9588a7f1009590df7f7d23da6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a9ee97aa9588a7f1009590df7f7d23da6">ends_with_icase</a> (const std::string &amp;str, const char *match)</td></tr>
 <tr class="memdesc:a9ee97aa9588a7f1009590df7f7d23da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given match string is located at the end of this string.  <a href="#a9ee97aa9588a7f1009590df7f7d23da6">More...</a><br/></td></tr>
 <tr class="separator:a9ee97aa9588a7f1009590df7f7d23da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3efff50dd5a42787dab2c0ee7570850"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#af3efff50dd5a42787dab2c0ee7570850">equal_icase</a> (const char *a, const char *b)</td></tr>
+<tr class="memdesc:af3efff50dd5a42787dab2c0ee7570850"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a == b without regard for letter case  <a href="#af3efff50dd5a42787dab2c0ee7570850">More...</a><br/></td></tr>
+<tr class="separator:af3efff50dd5a42787dab2c0ee7570850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a518a78bd2cd52b926e645b56bf110cec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a518a78bd2cd52b926e645b56bf110cec">equal_icase</a> (const char *a, const std::string &amp;b)</td></tr>
+<tr class="memdesc:a518a78bd2cd52b926e645b56bf110cec"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a == b without regard for letter case  <a href="#a518a78bd2cd52b926e645b56bf110cec">More...</a><br/></td></tr>
+<tr class="separator:a518a78bd2cd52b926e645b56bf110cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a330d5443500bd8cc5c782af5dedd6e3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a330d5443500bd8cc5c782af5dedd6e3d">equal_icase</a> (const std::string &amp;a, const char *b)</td></tr>
+<tr class="memdesc:a330d5443500bd8cc5c782af5dedd6e3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a == b without regard for letter case  <a href="#a330d5443500bd8cc5c782af5dedd6e3d">More...</a><br/></td></tr>
+<tr class="separator:a330d5443500bd8cc5c782af5dedd6e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf061126e1fd7ae64d3d59650bc7f51f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#acf061126e1fd7ae64d3d59650bc7f51f">equal_icase</a> (const std::string &amp;a, const std::string &amp;b)</td></tr>
+<tr class="memdesc:acf061126e1fd7ae64d3d59650bc7f51f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a == b without regard for letter case  <a href="#acf061126e1fd7ae64d3d59650bc7f51f">More...</a><br/></td></tr>
+<tr class="separator:acf061126e1fd7ae64d3d59650bc7f51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512e3d39d925ff7b375788af6e97c710"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a512e3d39d925ff7b375788af6e97c710">erase_all</a> (std::string *str, char drop= ' ')</td></tr>
 <tr class="memdesc:a512e3d39d925ff7b375788af6e97c710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all occurrences of the given character in-place.  <a href="#a512e3d39d925ff7b375788af6e97c710">More...</a><br/></td></tr>
 <tr class="separator:a512e3d39d925ff7b375788af6e97c710"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -600,6 +632,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a2e35ca12bd4564ba470e3bf4f6a91798"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a2e35ca12bd4564ba470e3bf4f6a91798">join</a> (const std::string &amp;glue, const Container &amp;parts)</td></tr>
 <tr class="memdesc:a2e35ca12bd4564ba470e3bf4f6a91798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a Container of strings by some glue string between each pair from the sequence.  <a href="#a2e35ca12bd4564ba470e3bf4f6a91798">More...</a><br/></td></tr>
 <tr class="separator:a2e35ca12bd4564ba470e3bf4f6a91798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a69ef70f3271d78ba48f36e9c3ce8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#aa6a69ef70f3271d78ba48f36e9c3ce8d">less_icase</a> (const char *a, const char *b)</td></tr>
+<tr class="memdesc:aa6a69ef70f3271d78ba48f36e9c3ce8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a &lt; b without regard for letter case  <a href="#aa6a69ef70f3271d78ba48f36e9c3ce8d">More...</a><br/></td></tr>
+<tr class="separator:aa6a69ef70f3271d78ba48f36e9c3ce8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f0d03bfa1f2fa2cf8f8f4211c1fea03"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a0f0d03bfa1f2fa2cf8f8f4211c1fea03">less_icase</a> (const char *a, const std::string &amp;b)</td></tr>
+<tr class="memdesc:a0f0d03bfa1f2fa2cf8f8f4211c1fea03"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a &lt; b without regard for letter case  <a href="#a0f0d03bfa1f2fa2cf8f8f4211c1fea03">More...</a><br/></td></tr>
+<tr class="separator:a0f0d03bfa1f2fa2cf8f8f4211c1fea03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab93f801299b061af29c7b9613fea4730"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab93f801299b061af29c7b9613fea4730">less_icase</a> (const std::string &amp;a, const char *b)</td></tr>
+<tr class="memdesc:ab93f801299b061af29c7b9613fea4730"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a &lt; b without regard for letter case  <a href="#ab93f801299b061af29c7b9613fea4730">More...</a><br/></td></tr>
+<tr class="separator:ab93f801299b061af29c7b9613fea4730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3b710ccefae45bf1e1838bdc3785ce8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ae3b710ccefae45bf1e1838bdc3785ce8">less_icase</a> (const std::string &amp;a, const std::string &amp;b)</td></tr>
+<tr class="memdesc:ae3b710ccefae45bf1e1838bdc3785ce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a &lt; b without regard for letter case  <a href="#ae3b710ccefae45bf1e1838bdc3785ce8">More...</a><br/></td></tr>
+<tr class="separator:ae3b710ccefae45bf1e1838bdc3785ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05df4ec244bd2d205d7b3a703f7a1849"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a05df4ec244bd2d205d7b3a703f7a1849">parse_si_iec_units</a> (const char *str, uint64_t *out_size, char default_unit=0)</td></tr>
 <tr class="memdesc:a05df4ec244bd2d205d7b3a703f7a1849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a string like "343KB" or "44 GiB" into the corresponding size in bytes.  <a href="#a05df4ec244bd2d205d7b3a703f7a1849">More...</a><br/></td></tr>
 <tr class="separator:a05df4ec244bd2d205d7b3a703f7a1849"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1150,6 +1194,70 @@ template&lt;typename Functor , typename... Args&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a592749f0b74d1c116893d4bc880343e3"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Functor , typename Tuple &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void tlx::call_foreach_tuple </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Tuple &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Call a generic functor (like a generic lambda) to each components of a tuple together with its zero-based index. </p>
+
+<p>Definition at line <a class="el" href="call__foreach__tuple_8hpp_source.html#l00042">42</a> of file <a class="el" href="call__foreach__tuple_8hpp_source.html">call_foreach_tuple.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a83551ec4ad5da9352345f7178abeb056"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Functor , typename Tuple &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void tlx::call_foreach_tuple_with_index </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Tuple &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Call a generic functor (like a generic lambda) to each components of a tuple together with its zero-based index. </p>
+
+<p>Definition at line <a class="el" href="call__foreach__tuple__with__index_8hpp_source.html#l00042">42</a> of file <a class="el" href="call__foreach__tuple__with__index_8hpp_source.html">call_foreach_tuple_with_index.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a9a8854506459ec185c2bcbdd6fe6428b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1179,6 +1287,126 @@ template&lt;typename Functor , typename... Args&gt; </div>
 <p>Call a generic functor (like a generic lambda) for each variadic template argument together with its zero-based index. </p>
 
 <p>Definition at line <a class="el" href="call__foreach__with__index_8hpp_source.html#l00047">47</a> of file <a class="el" href="call__foreach__with__index_8hpp_source.html">call_foreach_with_index.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a486913c9eb709bee76a0cd7d93756de7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tlx::compare_icase </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns +1/0/-1 like strcmp(a, b) but without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="compare__icase_8cpp_source.html#l00018">18</a> of file <a class="el" href="compare__icase_8cpp_source.html">compare_icase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7e669da7cb69574c3ff44a4b8c0d2d2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tlx::compare_icase </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns +1/0/-1 like strcmp(a, b) but without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="compare__icase_8cpp_source.html#l00035">35</a> of file <a class="el" href="compare__icase_8cpp_source.html">compare_icase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ae3776db63cbe85af3108c8278f1797"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tlx::compare_icase </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns +1/0/-1 like strcmp(a, b) but without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="compare__icase_8cpp_source.html#l00054">54</a> of file <a class="el" href="compare__icase_8cpp_source.html">compare_icase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2a60953b25c41cbcf3063af3755c8d89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int tlx::compare_icase </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns +1/0/-1 like strcmp(a, b) but without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="compare__icase_8cpp_source.html#l00072">72</a> of file <a class="el" href="compare__icase_8cpp_source.html">compare_icase.cpp</a>.</p>
 
 </div>
 </div>
@@ -1587,6 +1815,126 @@ template&lt;&gt; </div>
 <p>Compares the characters case-insensitively. </p>
 
 <p>Definition at line <a class="el" href="ends__with_8cpp_source.html#l00054">54</a> of file <a class="el" href="ends__with_8cpp_source.html">ends_with.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af3efff50dd5a42787dab2c0ee7570850"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::equal_icase </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if a == b without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="equal__icase_8cpp_source.html#l00018">18</a> of file <a class="el" href="equal__icase_8cpp_source.html">equal_icase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a518a78bd2cd52b926e645b56bf110cec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::equal_icase </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if a == b without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="equal__icase_8cpp_source.html#l00026">26</a> of file <a class="el" href="equal__icase_8cpp_source.html">equal_icase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a330d5443500bd8cc5c782af5dedd6e3d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::equal_icase </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if a == b without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="equal__icase_8cpp_source.html#l00035">35</a> of file <a class="el" href="equal__icase_8cpp_source.html">equal_icase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf061126e1fd7ae64d3d59650bc7f51f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::equal_icase </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if a == b without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="equal__icase_8cpp_source.html#l00044">44</a> of file <a class="el" href="equal__icase_8cpp_source.html">equal_icase.cpp</a>.</p>
 
 </div>
 </div>
@@ -3391,6 +3739,126 @@ template&lt;typename Container &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>string constructed from the vector with the glue between two strings </dd></dl>
 
 <p>Definition at line <a class="el" href="join__generic_8hpp_source.html#l00085">85</a> of file <a class="el" href="join__generic_8hpp_source.html">join_generic.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a69ef70f3271d78ba48f36e9c3ce8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::less_icase </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if a &lt; b without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="less__icase_8cpp_source.html#l00018">18</a> of file <a class="el" href="less__icase_8cpp_source.html">less_icase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f0d03bfa1f2fa2cf8f8f4211c1fea03"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::less_icase </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if a &lt; b without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="less__icase_8cpp_source.html#l00033">33</a> of file <a class="el" href="less__icase_8cpp_source.html">less_icase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab93f801299b061af29c7b9613fea4730"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::less_icase </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if a &lt; b without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="less__icase_8cpp_source.html#l00049">49</a> of file <a class="el" href="less__icase_8cpp_source.html">less_icase.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae3b710ccefae45bf1e1838bdc3785ce8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::less_icase </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns true if a &lt; b without regard for letter case </p>
+
+<p>Definition at line <a class="el" href="less__icase_8cpp_source.html#l00065">65</a> of file <a class="el" href="less__icase_8cpp_source.html">less_icase.cpp</a>.</p>
 
 </div>
 </div>
@@ -6377,7 +6845,7 @@ template&lt;typename Functor , typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Thu Mar 2 2017 17:46:31 for tlx by
+    <li class="footer">Generated on Thu Mar 2 2017 20:05:30 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

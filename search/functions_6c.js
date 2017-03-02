@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['less_5ficase',['less_icase',['../namespacetlx.html#aa6a69ef70f3271d78ba48f36e9c3ce8d',1,'tlx::less_icase(const char *a, const char *b)'],['../namespacetlx.html#a0f0d03bfa1f2fa2cf8f8f4211c1fea03',1,'tlx::less_icase(const char *a, const std::string &amp;b)'],['../namespacetlx.html#ab93f801299b061af29c7b9613fea4730',1,'tlx::less_icase(const std::string &amp;a, const char *b)'],['../namespacetlx.html#ae3b710ccefae45bf1e1838bdc3785ce8',1,'tlx::less_icase(const std::string &amp;a, const std::string &amp;b)']]],
   ['load',['load',['../classtlx_1_1RingBuffer.html#aebcfec00102552ffc6c49bfae7ed0bf5',1,'tlx::RingBuffer']]],
   ['loop_5funtil_5fempty',['loop_until_empty',['../classtlx_1_1ThreadPool.html#a8db532f0d4e7b98070bfe9bdd3f0b544',1,'tlx::ThreadPool']]],
   ['loop_5funtil_5fterminate',['loop_until_terminate',['../classtlx_1_1ThreadPool.html#a55a45a768654601584ed4c9761b880b1',1,'tlx::ThreadPool']]],

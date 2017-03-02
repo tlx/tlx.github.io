@@ -3,6 +3,8 @@ var dir_8ac7dfc841f33a5da7c5dfc5610caf4f =
     [ "apply_tuple.hpp", "apply__tuple_8hpp.html", "apply__tuple_8hpp" ],
     [ "call_for_range.hpp", "call__for__range_8hpp.html", "call__for__range_8hpp" ],
     [ "call_foreach.hpp", "call__foreach_8hpp.html", "call__foreach_8hpp" ],
+    [ "call_foreach_tuple.hpp", "call__foreach__tuple_8hpp.html", "call__foreach__tuple_8hpp" ],
+    [ "call_foreach_tuple_with_index.hpp", "call__foreach__tuple__with__index_8hpp.html", "call__foreach__tuple__with__index_8hpp" ],
     [ "call_foreach_with_index.hpp", "call__foreach__with__index_8hpp.html", "call__foreach__with__index_8hpp" ],
     [ "has_member.hpp", "has__member_8hpp.html", "has__member_8hpp" ],
     [ "index_sequence.hpp", "index__sequence_8hpp.html", [

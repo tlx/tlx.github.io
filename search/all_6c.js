@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['less_5ficase',['less_icase',['../namespacetlx.html#aa6a69ef70f3271d78ba48f36e9c3ce8d',1,'tlx::less_icase(const char *a, const char *b)'],['../namespacetlx.html#a0f0d03bfa1f2fa2cf8f8f4211c1fea03',1,'tlx::less_icase(const char *a, const std::string &amp;b)'],['../namespacetlx.html#ab93f801299b061af29c7b9613fea4730',1,'tlx::less_icase(const std::string &amp;a, const char *b)'],['../namespacetlx.html#ae3b710ccefae45bf1e1838bdc3785ce8',1,'tlx::less_icase(const std::string &amp;a, const std::string &amp;b)']]],
+  ['less_5ficase_2ecpp',['less_icase.cpp',['../less__icase_8cpp.html',1,'']]],
+  ['less_5ficase_2ehpp',['less_icase.hpp',['../less__icase_8hpp.html',1,'']]],
   ['likely_2ehpp',['likely.hpp',['../likely_8hpp.html',1,'']]],
   ['line_5fwrap_5f',['line_wrap_',['../classtlx_1_1CmdlineParser.html#ae329d619f18d3ef91a68b2c9b1998144',1,'tlx::CmdlineParser']]],
   ['list',['List',['../classtlx_1_1LruCacheSet.html#a92d1a3d2f52184b0e745cb7f8a60cda0',1,'tlx::LruCacheSet::List()'],['../classtlx_1_1LruCacheMap.html#af74cf61e5f35a6cfeefa635276d9b83a',1,'tlx::LruCacheMap::List()']]],
@@ -32,11 +35,11 @@ var searchData=
   ['losertreecopyunguarded_3c_20true_2c_20valuetype_2c_20comparator_20_3e',['LoserTreeCopyUnguarded&lt; true, ValueType, Comparator &gt;',['../classtlx_1_1LoserTreeCopyUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html',1,'tlx']]],
   ['losertreecopyunguardedbase',['LoserTreeCopyUnguardedBase',['../classtlx_1_1LoserTreeCopyUnguardedBase.html',1,'tlx']]],
   ['losertreecopyunguardedbase',['LoserTreeCopyUnguardedBase',['../classtlx_1_1LoserTreeCopyUnguardedBase.html#aaa70ed354c44c2e972d6903a94aacf5b',1,'tlx::LoserTreeCopyUnguardedBase']]],
-  ['losertreepointer',['LoserTreePointer',['../classtlx_1_1LoserTreePointer.html',1,'tlx']]],
   ['losertreepointer',['LoserTreePointer',['../classtlx_1_1LoserTreePointer.html#adf1a6037fd3fb1da4615e4dc20d26cee',1,'tlx::LoserTreePointer::LoserTreePointer()'],['../classtlx_1_1LoserTreePointer_3_01true_00_01ValueType_00_01Comparator_01_4.html#a538fb0c729bb7e8ebe2c19905ada52a9',1,'tlx::LoserTreePointer&lt; true, ValueType, Comparator &gt;::LoserTreePointer()']]],
+  ['losertreepointer',['LoserTreePointer',['../classtlx_1_1LoserTreePointer.html',1,'tlx']]],
   ['losertreepointer_3c_20true_2c_20valuetype_2c_20comparator_20_3e',['LoserTreePointer&lt; true, ValueType, Comparator &gt;',['../classtlx_1_1LoserTreePointer_3_01true_00_01ValueType_00_01Comparator_01_4.html',1,'tlx']]],
-  ['losertreepointerbase',['LoserTreePointerBase',['../classtlx_1_1LoserTreePointerBase.html#a79bff7e676ec03f6500d6b46c4e3283a',1,'tlx::LoserTreePointerBase::LoserTreePointerBase(Source k, const Comparator &amp;cmp=Comparator())'],['../classtlx_1_1LoserTreePointerBase.html#ade1a5327b1b91eddef116d954ea90aaa',1,'tlx::LoserTreePointerBase::LoserTreePointerBase(const LoserTreePointerBase &amp;)=delete'],['../classtlx_1_1LoserTreePointerBase.html#acf2769a7cf8fb46e8ddb8d4cc17e04df',1,'tlx::LoserTreePointerBase::LoserTreePointerBase(LoserTreePointerBase &amp;&amp;)=default']]],
   ['losertreepointerbase',['LoserTreePointerBase',['../classtlx_1_1LoserTreePointerBase.html',1,'tlx']]],
+  ['losertreepointerbase',['LoserTreePointerBase',['../classtlx_1_1LoserTreePointerBase.html#a79bff7e676ec03f6500d6b46c4e3283a',1,'tlx::LoserTreePointerBase::LoserTreePointerBase(Source k, const Comparator &amp;cmp=Comparator())'],['../classtlx_1_1LoserTreePointerBase.html#ade1a5327b1b91eddef116d954ea90aaa',1,'tlx::LoserTreePointerBase::LoserTreePointerBase(const LoserTreePointerBase &amp;)=delete'],['../classtlx_1_1LoserTreePointerBase.html#acf2769a7cf8fb46e8ddb8d4cc17e04df',1,'tlx::LoserTreePointerBase::LoserTreePointerBase(LoserTreePointerBase &amp;&amp;)=default']]],
   ['losertreepointerunguarded',['LoserTreePointerUnguarded',['../classtlx_1_1LoserTreePointerUnguarded.html#ae2b89e4de75d6841152b1f9a21cd2766',1,'tlx::LoserTreePointerUnguarded::LoserTreePointerUnguarded()'],['../classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html#ad8e558444ec66c00e8f5e73abc348d6b',1,'tlx::LoserTreePointerUnguarded&lt; true, ValueType, Comparator &gt;::LoserTreePointerUnguarded()']]],
   ['losertreepointerunguarded',['LoserTreePointerUnguarded',['../classtlx_1_1LoserTreePointerUnguarded.html',1,'tlx']]],
   ['losertreepointerunguarded_3c_20true_2c_20valuetype_2c_20comparator_20_3e',['LoserTreePointerUnguarded&lt; true, ValueType, Comparator &gt;',['../classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html',1,'tlx']]],
@@ -44,8 +47,8 @@ var searchData=
   ['losertreepointerunguardedbase',['LoserTreePointerUnguardedBase',['../classtlx_1_1LoserTreePointerUnguardedBase.html#ae941693e8e1a8bb9dd5c152af41762db',1,'tlx::LoserTreePointerUnguardedBase::LoserTreePointerUnguardedBase(const Source &amp;k, const ValueType &amp;sentinel, const Comparator &amp;cmp=Comparator())'],['../classtlx_1_1LoserTreePointerUnguardedBase.html#ab9d89d87607109b4f1354e36eabd1af5',1,'tlx::LoserTreePointerUnguardedBase::LoserTreePointerUnguardedBase(const LoserTreePointerUnguardedBase &amp;other)=delete']]],
   ['losertreetraits',['LoserTreeTraits',['../classtlx_1_1LoserTreeTraits.html',1,'tlx']]],
   ['lru_5fcache_2ehpp',['lru_cache.hpp',['../lru__cache_8hpp.html',1,'']]],
-  ['lrucachemap',['LruCacheMap',['../classtlx_1_1LruCacheMap.html',1,'tlx']]],
   ['lrucachemap',['LruCacheMap',['../classtlx_1_1LruCacheMap.html#a2bdc1b30e5784092c2b5b5e3dac6fbc5',1,'tlx::LruCacheMap']]],
+  ['lrucachemap',['LruCacheMap',['../classtlx_1_1LruCacheMap.html',1,'tlx']]],
   ['lrucacheset',['LruCacheSet',['../classtlx_1_1LruCacheSet.html',1,'tlx']]],
   ['lrucacheset',['LruCacheSet',['../classtlx_1_1LruCacheSet.html#a3f0c429c26648f23a95d8e7b8223abcb',1,'tlx::LruCacheSet']]]
 ];
