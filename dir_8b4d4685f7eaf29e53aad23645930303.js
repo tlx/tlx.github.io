@@ -4,6 +4,9 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "math", "dir_e09772e06e87bbb5d2c69a5ed712ca42.html", "dir_e09772e06e87bbb5d2c69a5ed712ca42" ],
     [ "meta", "dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html", "dir_8ac7dfc841f33a5da7c5dfc5610caf4f" ],
     [ "string", "dir_45a7f11e1a4af18f182d54b603484851.html", "dir_45a7f11e1a4af18f182d54b603484851" ],
+    [ "allocator_base.hpp", "allocator__base_8hpp.html", [
+      [ "AllocatorBase", "classtlx_1_1AllocatorBase.html", "classtlx_1_1AllocatorBase" ]
+    ] ],
     [ "cmdline_parser.cpp", "cmdline__parser_8cpp.html", [
       [ "Argument", "structtlx_1_1CmdlineParser_1_1Argument.html", "structtlx_1_1CmdlineParser_1_1Argument" ],
       [ "ArgumentBool", "structtlx_1_1CmdlineParser_1_1ArgumentBool.html", "structtlx_1_1CmdlineParser_1_1ArgumentBool" ],
@@ -54,6 +57,11 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
       [ "RingBuffer", "classtlx_1_1RingBuffer.html", "classtlx_1_1RingBuffer" ]
     ] ],
     [ "simple_vector.hpp", "simple__vector_8hpp.html", "simple__vector_8hpp" ],
+    [ "stack_allocator.hpp", "stack__allocator_8hpp.html", [
+      [ "StackArena", "classtlx_1_1StackArena.html", "classtlx_1_1StackArena" ],
+      [ "StackAllocator", "classtlx_1_1StackAllocator.html", "classtlx_1_1StackAllocator" ],
+      [ "rebind", "structtlx_1_1StackAllocator_1_1rebind.html", "structtlx_1_1StackAllocator_1_1rebind" ]
+    ] ],
     [ "string.hpp", "string_8hpp.html", null ],
     [ "thread_pool.cpp", "thread__pool_8cpp.html", null ],
     [ "thread_pool.hpp", "thread__pool_8hpp.html", [

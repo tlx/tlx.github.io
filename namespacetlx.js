@@ -1,6 +1,7 @@
 var namespacetlx =
 [
     [ "detail", "namespacetlx_1_1detail.html", "namespacetlx_1_1detail" ],
+    [ "AllocatorBase", "classtlx_1_1AllocatorBase.html", "classtlx_1_1AllocatorBase" ],
     [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
     [ "CountingPtrDefaultDeleter", "classtlx_1_1CountingPtrDefaultDeleter.html", "classtlx_1_1CountingPtrDefaultDeleter" ],
     [ "CountingPtr", "classtlx_1_1CountingPtr.html", "classtlx_1_1CountingPtr" ],
@@ -41,5 +42,7 @@ var namespacetlx =
     [ "StaticIndex", "structtlx_1_1StaticIndex.html", "structtlx_1_1StaticIndex" ],
     [ "RingBuffer", "classtlx_1_1RingBuffer.html", "classtlx_1_1RingBuffer" ],
     [ "SimpleVector", "classtlx_1_1SimpleVector.html", "classtlx_1_1SimpleVector" ],
+    [ "StackArena", "classtlx_1_1StackArena.html", "classtlx_1_1StackArena" ],
+    [ "StackAllocator", "classtlx_1_1StackAllocator.html", "classtlx_1_1StackAllocator" ],
     [ "ThreadPool", "classtlx_1_1ThreadPool.html", "classtlx_1_1ThreadPool" ]
 ];

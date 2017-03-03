@@ -1,5 +1,8 @@
 var hierarchy =
 [
+    [ "tlx::AllocatorBase< Type >", "classtlx_1_1AllocatorBase.html", [
+      [ "tlx::StackAllocator< Type, Size >", "classtlx_1_1StackAllocator.html", null ]
+    ] ],
     [ "tlx::CmdlineParser::Argument", "structtlx_1_1CmdlineParser_1_1Argument.html", [
       [ "tlx::CmdlineParser::ArgumentBool", "structtlx_1_1CmdlineParser_1_1ArgumentBool.html", null ],
       [ "tlx::CmdlineParser::ArgumentBytes32", "structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html", null ],
@@ -59,6 +62,7 @@ var hierarchy =
     [ "tlx::LruCacheSet< Key, Alloc >", "classtlx_1_1LruCacheSet.html", null ],
     [ "tlx::detail::make_index_sequence_helper< CurrentIndex, Indexes >", "structtlx_1_1detail_1_1make__index__sequence__helper.html", null ],
     [ "tlx::detail::make_index_sequence_helper< 0, Indexes...>", "structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html", null ],
+    [ "tlx::StackAllocator< Type, Size >::rebind< Other >", "structtlx_1_1StackAllocator_1_1rebind.html", null ],
     [ "tlx::ReferenceCounter", "classtlx_1_1ReferenceCounter.html", null ],
     [ "tlx::RingBuffer< Type, Allocator >", "classtlx_1_1RingBuffer.html", null ],
     [ "tlx::SimpleVector< ValueType, Mode >", "classtlx_1_1SimpleVector.html", null ],
@@ -67,6 +71,7 @@ var hierarchy =
     [ "tlx::SimpleVector< tlx::LoserTreeCopyUnguardedBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
     [ "tlx::SimpleVector< tlx::LoserTreePointerBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
     [ "tlx::SimpleVector< tlx::LoserTreePointerUnguardedBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
+    [ "tlx::StackArena< Size >", "classtlx_1_1StackArena.html", null ],
     [ "tlx::StaticIndex< Index >", "structtlx_1_1StaticIndex.html", null ],
     [ "tlx::ThreadPool", "classtlx_1_1ThreadPool.html", null ],
     [ "true_type", null, [

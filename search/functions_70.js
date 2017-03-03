@@ -4,6 +4,7 @@ var searchData=
   ['param_5ftext',['param_text',['../structtlx_1_1CmdlineParser_1_1Argument.html#ab6fed65d87696152366b2ca791cb4ef2',1,'tlx::CmdlineParser::Argument']]],
   ['parse_5fhexdump',['parse_hexdump',['../namespacetlx.html#a15f3b68b2a872a4720a493a1dcdb0ae7',1,'tlx']]],
   ['parse_5fsi_5fiec_5funits',['parse_si_iec_units',['../namespacetlx.html#a05df4ec244bd2d205d7b3a703f7a1849',1,'tlx::parse_si_iec_units(const char *str, uint64_t *out_size, char default_unit=0)'],['../namespacetlx.html#ad3af33ea198b337b54631777267f9f03',1,'tlx::parse_si_iec_units(const std::string &amp;str, uint64_t *out_size, char default_unit=0)']]],
+  ['pointer_5fin_5fbuffer',['pointer_in_buffer',['../classtlx_1_1StackArena.html#ae8416df1e4c56cc15afd80f2b6c49621',1,'tlx::StackArena']]],
   ['pop',['pop',['../classtlx_1_1LruCacheSet.html#a00e57566a21a6c3c101c5c259cc554a6',1,'tlx::LruCacheSet::pop()'],['../classtlx_1_1LruCacheMap.html#a759cb0e839fbd872e6dd6adbc8b68b4a',1,'tlx::LruCacheMap::pop()']]],
   ['pop_5fback',['pop_back',['../classtlx_1_1RingBuffer.html#a6374185ef09e24326c22ce318587073c',1,'tlx::RingBuffer']]],
   ['pop_5ffront',['pop_front',['../classtlx_1_1RingBuffer.html#aba194afc262fece1bbdedf15bb7d033b',1,'tlx::RingBuffer']]],

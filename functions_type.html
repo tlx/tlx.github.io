@@ -100,6 +100,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_k"><span>k</span></a></li>
       <li><a href="#index_l"><span>l</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_o"><span>o</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
       <li><a href="#index_r"><span>r</span></a></li>
       <li><a href="#index_s"><span>s</span></a></li>
@@ -161,10 +162,14 @@ $(document).ready(function(){initNavTree('functions_type.html','');});
 </li>
 <li>const_pointer
 : <a class="el" href="classtlx_1_1RingBuffer.html#a56ab922cd86100a98286241eee1c26b9">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
+, <a class="el" href="classtlx_1_1StackAllocator.html#ab7f60d5e582778fac237484ede62d5c9">tlx::StackAllocator&lt; Type, Size &gt;</a>
+, <a class="el" href="classtlx_1_1AllocatorBase.html#afc572b1498236632247dfc60ac9c7adc">tlx::AllocatorBase&lt; Type &gt;</a>
 </li>
 <li>const_reference
-: <a class="el" href="classtlx_1_1RingBuffer.html#ae015d72924bf2c40b51ab02c274d2e1d">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
+: <a class="el" href="classtlx_1_1AllocatorBase.html#a74e66b09bd7ffb7ba4a67e238c9ebcbd">tlx::AllocatorBase&lt; Type &gt;</a>
+, <a class="el" href="classtlx_1_1StackAllocator.html#aa00224d11f90194b300cc8c428545aa8">tlx::StackAllocator&lt; Type, Size &gt;</a>
 , <a class="el" href="classtlx_1_1SimpleVector.html#a42441759f230e5e5457d75593fe59d63">tlx::SimpleVector&lt; ValueType, Mode &gt;</a>
+, <a class="el" href="classtlx_1_1RingBuffer.html#ae015d72924bf2c40b51ab02c274d2e1d">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
 </li>
 <li>ConstMemberPair
 : <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a02cc3609906ae8bd3d0647f71c4378f6">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
@@ -177,7 +182,9 @@ $(document).ready(function(){initNavTree('functions_type.html','');});
 : <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a19f2979021b55071588f357a82df61ac">tlx::Delegate&lt; R(A...), Allocator &gt;</a>
 </li>
 <li>difference_type
-: <a class="el" href="classtlx_1_1RingBuffer.html#ad92463f8ade78642097550392f7b28d3">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
+: <a class="el" href="classtlx_1_1StackAllocator.html#af759e047829dd70bb0179ea28755d9ed">tlx::StackAllocator&lt; Type, Size &gt;</a>
+, <a class="el" href="classtlx_1_1RingBuffer.html#ad92463f8ade78642097550392f7b28d3">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
+, <a class="el" href="classtlx_1_1AllocatorBase.html#a6a1978144fe4a1ebd062f5f7fb8dfbf0">tlx::AllocatorBase&lt; Type &gt;</a>
 </li>
 </ul>
 
@@ -190,6 +197,10 @@ $(document).ready(function(){initNavTree('functions_type.html','');});
 
 
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>is_always_equal
+: <a class="el" href="classtlx_1_1AllocatorBase.html#a70cfe8806cea6472cf700a64312f30cd">tlx::AllocatorBase&lt; Type &gt;</a>
+, <a class="el" href="classtlx_1_1StackAllocator.html#a8a524555101ea60cb9cf69f842f7f6c2">tlx::StackAllocator&lt; Type, Size &gt;</a>
+</li>
 <li>iterator
 : <a class="el" href="classtlx_1_1SimpleVector.html#a92b53e87cfdc7e73dca5cf7deedf8376">tlx::SimpleVector&lt; ValueType, Mode &gt;</a>
 </li>
@@ -233,49 +244,65 @@ $(document).ready(function(){initNavTree('functions_type.html','');});
 </ul>
 
 
+<h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
+<li>other
+: <a class="el" href="structtlx_1_1StackAllocator_1_1rebind.html#aeed39eda2eff8f6a6d1a17c5226534a8">tlx::StackAllocator&lt; Type, Size &gt;::rebind&lt; Other &gt;</a>
+</li>
+</ul>
+
+
 <h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
 <li>pointer
-: <a class="el" href="classtlx_1_1RingBuffer.html#a333e88390d7c8ac5eeab4c9a0a2bdf28">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
+: <a class="el" href="classtlx_1_1AllocatorBase.html#a5a35ad8326f22ac500b0bdf2e83d5e3f">tlx::AllocatorBase&lt; Type &gt;</a>
+, <a class="el" href="classtlx_1_1RingBuffer.html#a333e88390d7c8ac5eeab4c9a0a2bdf28">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
+, <a class="el" href="classtlx_1_1StackAllocator.html#a391a50dba93f2b19b80d71f013da9f2a">tlx::StackAllocator&lt; Type, Size &gt;</a>
+</li>
+<li>propagate_on_container_move_assignment
+: <a class="el" href="classtlx_1_1AllocatorBase.html#a914335970d484e629509bfbf6e0644c2">tlx::AllocatorBase&lt; Type &gt;</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>reference
-: <a class="el" href="classtlx_1_1RingBuffer.html#ad2eec3ba5db69361683853d6775299a7">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
+: <a class="el" href="classtlx_1_1AllocatorBase.html#a12070f1dd02f9e4ca77a0c58c1d0c93f">tlx::AllocatorBase&lt; Type &gt;</a>
+, <a class="el" href="classtlx_1_1StackAllocator.html#a4928f2ad2ccc443104657fd8fc5d1dc6">tlx::StackAllocator&lt; Type, Size &gt;</a>
 , <a class="el" href="classtlx_1_1SimpleVector.html#a9fdd837a2b37a801aaf7fd4c0b8a3251">tlx::SimpleVector&lt; ValueType, Mode &gt;</a>
+, <a class="el" href="classtlx_1_1RingBuffer.html#ad2eec3ba5db69361683853d6775299a7">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
 </li>
 </ul>
 
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
 <li>size_type
-: <a class="el" href="classtlx_1_1RingBuffer.html#aed52ab918d97b171e129502f5af6bb0a">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
+: <a class="el" href="classtlx_1_1AllocatorBase.html#a023f8006c82311995567fd44685d0f84">tlx::AllocatorBase&lt; Type &gt;</a>
+, <a class="el" href="classtlx_1_1RingBuffer.html#aed52ab918d97b171e129502f5af6bb0a">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
+, <a class="el" href="classtlx_1_1StackAllocator.html#a836cdea61098c6f1bbb415458b190a55">tlx::StackAllocator&lt; Type, Size &gt;</a>
 , <a class="el" href="classtlx_1_1SimpleVector.html#a90efdbd8979317a311b26da05d240b54">tlx::SimpleVector&lt; ValueType, Mode &gt;</a>
 </li>
 <li>Source
-: <a class="el" href="classtlx_1_1LoserTreeCopy.html#acec5b8132de049ff954908a88b2f874f">tlx::LoserTreeCopy&lt; Stable, ValueType, Comparator &gt;</a>
+: <a class="el" href="classtlx_1_1LoserTreePointerBase.html#aa54235e57b5e0a8ef7cc0d2a9e3748de">tlx::LoserTreePointerBase&lt; ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html#abb097d63d0e94f9398de2d6b34f2d837">tlx::LoserTreePointerUnguarded&lt; true, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreePointer.html#a68a265177a4c9ff819c6f59630435f8e">tlx::LoserTreePointer&lt; Stable, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreeCopyBase.html#ad25e355563cea3e549d5b9d43828a92f">tlx::LoserTreeCopyBase&lt; ValueType, Comparator &gt;</a>
 , <a class="el" href="classtlx_1_1LoserTreePointer_3_01true_00_01ValueType_00_01Comparator_01_4.html#aa1ce5a94975b81a3c26e4d88f11f42b7">tlx::LoserTreePointer&lt; true, ValueType, Comparator &gt;</a>
 , <a class="el" href="classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41">tlx::LoserTreeCopyUnguardedBase&lt; ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html#a063c42ed0593c9eb9476329696db1805">tlx::LoserTreeCopy&lt; true, ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreeCopyUnguarded.html#abd60c1a1efc59c1528f568ff653a7b0b">tlx::LoserTreeCopyUnguarded&lt; Stable, ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreeCopyUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html#a676ad150b32e5df8064aeefe19665999">tlx::LoserTreeCopyUnguarded&lt; true, ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreeCopyBase.html#ad25e355563cea3e549d5b9d43828a92f">tlx::LoserTreeCopyBase&lt; ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html#abb097d63d0e94f9398de2d6b34f2d837">tlx::LoserTreePointerUnguarded&lt; true, ValueType, Comparator &gt;</a>
 , <a class="el" href="classtlx_1_1LoserTreePointerUnguarded.html#a7761003cb11e37d80824e9290d641ff6">tlx::LoserTreePointerUnguarded&lt; Stable, ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreePointerBase.html#aa54235e57b5e0a8ef7cc0d2a9e3748de">tlx::LoserTreePointerBase&lt; ValueType, Comparator &gt;</a>
 , <a class="el" href="classtlx_1_1LoserTreePointerUnguardedBase.html#abdfc62a30ffd4643cc2b5428b3303f12">tlx::LoserTreePointerUnguardedBase&lt; ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreePointer.html#a68a265177a4c9ff819c6f59630435f8e">tlx::LoserTreePointer&lt; Stable, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreeCopyUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html#a676ad150b32e5df8064aeefe19665999">tlx::LoserTreeCopyUnguarded&lt; true, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreeCopy.html#acec5b8132de049ff954908a88b2f874f">tlx::LoserTreeCopy&lt; Stable, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreeCopyUnguarded.html#abd60c1a1efc59c1528f568ff653a7b0b">tlx::LoserTreeCopyUnguarded&lt; Stable, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html#a063c42ed0593c9eb9476329696db1805">tlx::LoserTreeCopy&lt; true, ValueType, Comparator &gt;</a>
 </li>
 <li>Super
-: <a class="el" href="classtlx_1_1LoserTreePointerUnguarded.html#ab5904c9d8d26e0205def81c29bf17580">tlx::LoserTreePointerUnguarded&lt; Stable, ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html#ac13229a40fe0b20e7537652928539d4a">tlx::LoserTreePointerUnguarded&lt; true, ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreePointer_3_01true_00_01ValueType_00_01Comparator_01_4.html#afd33e221dc77e8f3f32b7d93a11c5cfb">tlx::LoserTreePointer&lt; true, ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreeCopy.html#a17868569abf70216b08519f34eee82ce">tlx::LoserTreeCopy&lt; Stable, ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreePointer.html#a35b9db43b3b6e34acc2f4617e20b091f">tlx::LoserTreePointer&lt; Stable, ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreeCopyUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html#a9723791d5c1c9d780f3d4b3bff72582e">tlx::LoserTreeCopyUnguarded&lt; true, ValueType, Comparator &gt;</a>
-, <a class="el" href="classtlx_1_1LoserTreeCopyUnguarded.html#acceeadcbedf833f943148a6d7f013a14">tlx::LoserTreeCopyUnguarded&lt; Stable, ValueType, Comparator &gt;</a>
+: <a class="el" href="classtlx_1_1LoserTreeCopyUnguarded.html#acceeadcbedf833f943148a6d7f013a14">tlx::LoserTreeCopyUnguarded&lt; Stable, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreePointerUnguarded.html#ab5904c9d8d26e0205def81c29bf17580">tlx::LoserTreePointerUnguarded&lt; Stable, ValueType, Comparator &gt;</a>
 , <a class="el" href="classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html#af6102e7742591898d49d96767266943b">tlx::LoserTreeCopy&lt; true, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreeCopyUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html#a9723791d5c1c9d780f3d4b3bff72582e">tlx::LoserTreeCopyUnguarded&lt; true, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreeCopy.html#a17868569abf70216b08519f34eee82ce">tlx::LoserTreeCopy&lt; Stable, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreePointer_3_01true_00_01ValueType_00_01Comparator_01_4.html#afd33e221dc77e8f3f32b7d93a11c5cfb">tlx::LoserTreePointer&lt; true, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreePointer.html#a35b9db43b3b6e34acc2f4617e20b091f">tlx::LoserTreePointer&lt; Stable, ValueType, Comparator &gt;</a>
+, <a class="el" href="classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html#ac13229a40fe0b20e7537652928539d4a">tlx::LoserTreePointerUnguarded&lt; true, ValueType, Comparator &gt;</a>
 </li>
 </ul>
 
@@ -293,8 +320,10 @@ $(document).ready(function(){initNavTree('functions_type.html','');});
 
 <h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
 <li>value_type
-: <a class="el" href="classtlx_1_1RingBuffer.html#a89b566f30368c2dad7a6c9e88da564fa">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
+: <a class="el" href="classtlx_1_1AllocatorBase.html#afb71118621136958622a7c57a572131f">tlx::AllocatorBase&lt; Type &gt;</a>
+, <a class="el" href="classtlx_1_1StackAllocator.html#a199fc5be107e8c56f463e2bf12ed9314">tlx::StackAllocator&lt; Type, Size &gt;</a>
 , <a class="el" href="classtlx_1_1SimpleVector.html#a29140177379aa2f3e3f8fbdf175380f5">tlx::SimpleVector&lt; ValueType, Mode &gt;</a>
+, <a class="el" href="classtlx_1_1RingBuffer.html#a89b566f30368c2dad7a6c9e88da564fa">tlx::RingBuffer&lt; Type, Allocator &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -302,7 +331,7 @@ $(document).ready(function(){initNavTree('functions_type.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 2 2017 22:38:55 for tlx by
+    <li class="footer">Generated on Fri Mar 3 2017 08:33:48 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

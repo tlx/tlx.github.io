@@ -6,5 +6,6 @@ var searchData=
   ['union_5fwords_2ehpp',['union_words.hpp',['../union__words_8hpp.html',1,'']]],
   ['unique',['unique',['../classtlx_1_1CountingPtr.html#a9ff1619235be19aa84ba9ef58bc2698c',1,'tlx::CountingPtr::unique()'],['../classtlx_1_1ReferenceCounter.html#a0aaf4376428bf1f6752e75e9fd2932b9',1,'tlx::ReferenceCounter::unique()']]],
   ['unused',['unused',['../namespacetlx.html#a19fd9f38f30a86b1836abdda71dbf158',1,'tlx']]],
-  ['unused_2ehpp',['unused.hpp',['../unused_8hpp.html',1,'']]]
+  ['unused_2ehpp',['unused.hpp',['../unused_8hpp.html',1,'']]],
+  ['used',['used',['../classtlx_1_1StackArena.html#a1d055d3d30e4d84237a738e073878240',1,'tlx::StackArena']]]
 ];
