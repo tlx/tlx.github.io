@@ -148,13 +148,13 @@ $(document).ready(function(){initNavTree('die_8hpp_source.html','');});
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">        std::ostringstream oss__;                             \</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">        oss__ &lt;&lt; msg &lt;&lt; &quot; @ &quot; &lt;&lt; __FILE__ &lt;&lt; &#39;:&#39; &lt;&lt; __LINE__; \</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">        ::tlx::die_with_message(oss__.str());                 \</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">    } while (0)</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">    } while (false)</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">//! Instead of abort(), throw the output the message via an exception.</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="die_8hpp.html#ab6acaec854169756098dfd26138a1a0e">   41</a></span>&#160;<span class="comment"></span><span class="preprocessor">#define die(msg)                          \</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">    do {                                  \</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">        die_with_sstream(&quot;DIE: &quot; &lt;&lt; msg); \</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">    } while (0)</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">    } while (false)</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">// die_unless() and die_if()</span></div>
@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('die_8hpp_source.html','');});
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">            ::tlx::die_with_message(                                      \</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">                &quot;DIE: Assertion \&quot;&quot; #X &quot;\&quot; failed!&quot;, __FILE__, __LINE__); \</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">        }                                                                 \</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">    } while (0)</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">    } while (false)</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">//! Check condition X and die miserably if true. Opposite of assert() except</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">//! this is also active in Release mode.</span></div>
@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('die_8hpp_source.html','');});
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">            ::tlx::die_with_message(                                         \</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">                &quot;DIE: Assertion \&quot;&quot; #X &quot;\&quot; succeeded!&quot;, __FILE__, __LINE__); \</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">        }                                                                    \</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">    } while (0)</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">    } while (false)</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">// die_unequal()</span></div>
@@ -209,7 +209,7 @@ $(document).ready(function(){initNavTree('die_8hpp_source.html','');});
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">        if (!::tlx::die_unequal_compare(x__, y__))                       \</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">            die_with_sstream(&quot;DIE-UNEQUAL: &quot; #X &quot; != &quot; #Y &quot; : &quot;          \</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">                             &quot;\&quot;&quot; &lt;&lt; x__ &lt;&lt; &quot;\&quot; != \&quot;&quot; &lt;&lt; y__ &lt;&lt; &quot;\&quot;&quot;);  \</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">    } while (0)</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">    } while (false)</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">// die_noexcept()</span></div>
@@ -229,7 +229,7 @@ $(document).ready(function(){initNavTree('die_8hpp_source.html','');});
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">        ::tlx::die_with_message(                                       \</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">            &quot;DIE-NOEXCEPT: &quot; #code &quot; - NO EXCEPTION &quot; #exception_type, \</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">            __FILE__, __LINE__);                                       \</span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">    } while (0)</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">    } while (false)</span></div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;} <span class="comment">// namespace tlx</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
@@ -242,7 +242,7 @@ $(document).ready(function(){initNavTree('die_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="die_8hpp.html">die.hpp</a></li>
-    <li class="footer">Generated on Fri Mar 3 2017 08:33:47 for tlx by
+    <li class="footer">Generated on Sat Mar 4 2017 10:25:21 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

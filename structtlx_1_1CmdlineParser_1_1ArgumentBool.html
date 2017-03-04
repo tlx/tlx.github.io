@@ -138,9 +138,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab19246c10f98dfb7d6f9637c0fe538f4"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentBool.html#ab19246c10f98dfb7d6f9637c0fe538f4">type_name</a> () const final</td></tr>
 <tr class="memdesc:ab19246c10f98dfb7d6f9637c0fe538f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return formatted type name to user  <a href="#ab19246c10f98dfb7d6f9637c0fe538f4">More...</a><br/></td></tr>
 <tr class="separator:ab19246c10f98dfb7d6f9637c0fe538f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07756f1725a9e380a85b5b15a12aef3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentBool.html#a07756f1725a9e380a85b5b15a12aef3d">process</a> (int &amp;, const char *const *&amp;) final</td></tr>
-<tr class="memdesc:a07756f1725a9e380a85b5b15a12aef3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">"process" argument: just set to true, no argument is used.  <a href="#a07756f1725a9e380a85b5b15a12aef3d">More...</a><br/></td></tr>
-<tr class="separator:a07756f1725a9e380a85b5b15a12aef3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a729f6d715a99b1c067547d6860fe6883"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentBool.html#a729f6d715a99b1c067547d6860fe6883">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:a729f6d715a99b1c067547d6860fe6883"><td class="mdescLeft">&#160;</td><td class="mdescRight">"process" argument: just set to true, no argument is used.  <a href="#a729f6d715a99b1c067547d6860fe6883">More...</a><br/></td></tr>
+<tr class="separator:a729f6d715a99b1c067547d6860fe6883"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f71667ae4aa9daa75765a131056430f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentBool.html#a9f71667ae4aa9daa75765a131056430f">print_value</a> (std::ostream &amp;os) const final</td></tr>
 <tr class="memdesc:a9f71667ae4aa9daa75765a131056430f"><td class="mdescLeft">&#160;</td><td class="mdescRight">format value to ostream  <a href="#a9f71667ae4aa9daa75765a131056430f">More...</a><br/></td></tr>
 <tr class="separator:a9f71667ae4aa9daa75765a131056430f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,7 +189,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>specialization of argument for boolean flags (can only be set to true). </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00088">88</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00089">89</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af94a6ce9e9b484d46fd4a9ca2663c3d6"></a>
 <div class="memitem">
@@ -249,7 +249,7 @@ Public Attributes</h2></td></tr>
 
 <p>contructor filling most attributes </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00093">93</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00094">94</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -280,11 +280,11 @@ Public Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html#aa994c2e9a75627f5f4e36c93a3940976">tlx::CmdlineParser::Argument</a>.</p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00106">106</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00108">108</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a07756f1725a9e380a85b5b15a12aef3d"></a>
+<a class="anchor" id="a729f6d715a99b1c067547d6860fe6883"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -295,13 +295,13 @@ Public Attributes</h2></td></tr>
           <td class="memname">bool tlx::CmdlineParser::ArgumentBool::process </td>
           <td>(</td>
           <td class="paramtype">int &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>argc</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const char *const *&amp;&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -320,7 +320,7 @@ Public Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html#a50efc32e11497417e0bbb715bfa51bf3">tlx::CmdlineParser::Argument</a>.</p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00101">101</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00102">102</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -349,7 +349,7 @@ Public Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html#a635950c6300c5be16dd6b10ab0e8cf88">tlx::CmdlineParser::Argument</a>.</p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00098">98</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00099">99</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -366,7 +366,7 @@ Public Attributes</h2></td></tr>
 
 <p>reference to boolean to set to true </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00090">90</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00091">91</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -379,7 +379,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1CmdlineParser.html">CmdlineParser</a></li><li class="navelem"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentBool.html">ArgumentBool</a></li>
-    <li class="footer">Generated on Fri Mar 3 2017 08:33:48 for tlx by
+    <li class="footer">Generated on Sat Mar 4 2017 10:25:22 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

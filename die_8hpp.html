@@ -185,7 +185,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> {                                  \</div>
 <div class="line">        die_with_sstream(<span class="stringliteral">&quot;DIE: &quot;</span> &lt;&lt; msg); \</div>
-<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="line">    } <span class="keywordflow">while</span> (<span class="keyword">false</span>)</div>
 </div><!-- fragment -->
 <p>Instead of abort(), throw the output the message via an exception. </p>
 
@@ -211,7 +211,7 @@ Functions</h2></td></tr>
 <div class="line"><a class="code" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b" title="die with message - either throw an exception or die via abort()">            ::tlx::die_with_message</a>(                                         \</div>
 <div class="line">                <span class="stringliteral">&quot;DIE: Assertion \&quot;&quot;</span> #X <span class="stringliteral">&quot;\&quot; succeeded!&quot;</span>, __FILE__, __LINE__); \</div>
 <div class="line">        }                                                                    \</div>
-<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="line">    } <span class="keywordflow">while</span> (<span class="keyword">false</span>)</div>
 </div><!-- fragment -->
 <p>Check condition X and die miserably if true. </p>
 <p>Opposite of assert() except this is also active in Release mode. </p>
@@ -256,7 +256,7 @@ Functions</h2></td></tr>
 <div class="line"><a class="code" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b" title="die with message - either throw an exception or die via abort()">        ::tlx::die_with_message</a>(                                       \</div>
 <div class="line">            <span class="stringliteral">&quot;DIE-NOEXCEPT: &quot;</span> #code <span class="stringliteral">&quot; - NO EXCEPTION &quot;</span> #exception_type, \</div>
 <div class="line">            __FILE__, __LINE__);                                       \</div>
-<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="line">    } <span class="keywordflow">while</span> (<span class="keyword">false</span>)</div>
 </div><!-- fragment -->
 <p>Define to check that [code] throws and exception of given type. </p>
 
@@ -293,7 +293,7 @@ Functions</h2></td></tr>
 <div class="line">        if (!::<a class="code" href="namespacetlx.html#a717a659d0a374923911729663882bb4b" title="helper method to compare two values in die_unequal()">tlx::die_unequal_compare</a>(x__, y__))                       \</div>
 <div class="line">            die_with_sstream(<span class="stringliteral">&quot;DIE-UNEQUAL: &quot;</span> #X <span class="stringliteral">&quot; != &quot;</span> #Y <span class="stringliteral">&quot; : &quot;</span>          \</div>
 <div class="line">                             <span class="stringliteral">&quot;\&quot;&quot;</span> &lt;&lt; x__ &lt;&lt; <span class="stringliteral">&quot;\&quot; != \&quot;&quot;</span> &lt;&lt; y__ &lt;&lt; <span class="stringliteral">&quot;\&quot;&quot;</span>);  \</div>
-<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="line">    } <span class="keywordflow">while</span> (<span class="keyword">false</span>)</div>
 </div><!-- fragment -->
 <p>Check that X == Y or die miserably, but output the values of X and Y for better debugging. </p>
 
@@ -319,7 +319,7 @@ Functions</h2></td></tr>
 <div class="line"><a class="code" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b" title="die with message - either throw an exception or die via abort()">            ::tlx::die_with_message</a>(                                      \</div>
 <div class="line">                <span class="stringliteral">&quot;DIE: Assertion \&quot;&quot;</span> #X <span class="stringliteral">&quot;\&quot; failed!&quot;</span>, __FILE__, __LINE__); \</div>
 <div class="line">        }                                                                 \</div>
-<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="line">    } <span class="keywordflow">while</span> (<span class="keyword">false</span>)</div>
 </div><!-- fragment -->
 <p>Check condition X and die miserably if false. </p>
 <p>Same as assert() except this is also active in Release mode. </p>
@@ -345,7 +345,7 @@ Functions</h2></td></tr>
 <div class="line">        std::ostringstream oss__;                             \</div>
 <div class="line">        oss__ &lt;&lt; msg &lt;&lt; <span class="stringliteral">&quot; @ &quot;</span> &lt;&lt; __FILE__ &lt;&lt; <span class="charliteral">&#39;:&#39;</span> &lt;&lt; __LINE__; <a class="code" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b" title="die with message - either throw an exception or die via abort()">\</a></div>
 <div class="line"><a class="code" href="namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b" title="die with message - either throw an exception or die via abort()">        ::tlx::die_with_message</a>(oss__.str());                 \</div>
-<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="line">    } <span class="keywordflow">while</span> (<span class="keyword">false</span>)</div>
 </div><!-- fragment -->
 <p>Instead of abort(), throw the output the message via an exception. </p>
 
@@ -359,7 +359,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="die_8hpp.html">die.hpp</a></li>
-    <li class="footer">Generated on Fri Mar 3 2017 08:33:47 for tlx by
+    <li class="footer">Generated on Sat Mar 4 2017 10:25:22 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
