@@ -184,6 +184,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LruCacheMap.html">LruCacheMap</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an expected O(1) LRU cache which contains a map of (key -&gt; value) elements.  <a href="classtlx_1_1LruCacheMap.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1FunctionChain.html">FunctionChain</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classtlx_1_1FunctionChain.html" title="A FunctionChain is a chain of functors that can be folded to a single functors.">FunctionChain</a> is a chain of functors that can be folded to a single functors.  <a href="classtlx_1_1FunctionChain.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1FunctionStack.html">FunctionStack</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a> is a chain of functor that can be folded to a single functor (which is usually optimize by the compiler).  <a href="classtlx_1_1FunctionStack.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1index__sequence.html">index_sequence</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1make__index__sequence.html">make_index_sequence</a></td></tr>
@@ -463,6 +469,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a9a8854506459ec185c2bcbdd6fe6428b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a9a8854506459ec185c2bcbdd6fe6428b">call_foreach_with_index</a> (Functor &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
 <tr class="memdesc:a9a8854506459ec185c2bcbdd6fe6428b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument together with its zero-based index.  <a href="#a9a8854506459ec185c2bcbdd6fe6428b">More...</a><br/></td></tr>
 <tr class="separator:a9a8854506459ec185c2bcbdd6fe6428b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2afc1ff7d0b9ea7a6583d0573e36ef7"><td class="memTemplParams" colspan="2">template&lt;typename Functor &gt; </td></tr>
+<tr class="memitem:ab2afc1ff7d0b9ea7a6583d0573e36ef7"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab2afc1ff7d0b9ea7a6583d0573e36ef7">make_function_chain</a> (const Functor &amp;functor)</td></tr>
+<tr class="memdesc:ab2afc1ff7d0b9ea7a6583d0573e36ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor chain maker. Can also be called with a lambda function.  <a href="#ab2afc1ff7d0b9ea7a6583d0573e36ef7">More...</a><br/></td></tr>
+<tr class="separator:ab2afc1ff7d0b9ea7a6583d0573e36ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add2b32ffd2415899c6a69ccac4d7138f"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#add2b32ffd2415899c6a69ccac4d7138f">make_function_chain</a> ()</td></tr>
+<tr class="memdesc:add2b32ffd2415899c6a69ccac4d7138f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct and empty function chain.  <a href="#add2b32ffd2415899c6a69ccac4d7138f">More...</a><br/></td></tr>
+<tr class="separator:add2b32ffd2415899c6a69ccac4d7138f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f5461dca9e4be26479c56a5500357e"><td class="memTemplParams" colspan="2">template&lt;typename Input , typename Functor &gt; </td></tr>
+<tr class="memitem:af4f5461dca9e4be26479c56a5500357e"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#af4f5461dca9e4be26479c56a5500357e">make_function_stack</a> (const Functor &amp;functor)</td></tr>
+<tr class="memdesc:af4f5461dca9e4be26479c56a5500357e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function-style construction of a <a class="el" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a>.  <a href="#af4f5461dca9e4be26479c56a5500357e">More...</a><br/></td></tr>
+<tr class="separator:af4f5461dca9e4be26479c56a5500357e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a1c233e7ab713b8f8f77f7149f2bc4b"><td class="memTemplParams" colspan="2">template&lt;size_t Size, typename Functor &gt; </td></tr>
 <tr class="memitem:a4a1c233e7ab713b8f8f77f7149f2bc4b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a4a1c233e7ab713b8f8f77f7149f2bc4b">vmap_for_range</a> (Functor &amp;&amp;f)</td></tr>
 <tr class="memdesc:a4a1c233e7ab713b8f8f77f7149f2bc4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vmap a generic functor (like a generic lambda) for the integers [0,Size).  <a href="#a4a1c233e7ab713b8f8f77f7149f2bc4b">More...</a><br/></td></tr>
@@ -4158,6 +4175,93 @@ template&lt;class C , typename R , typename... A&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ab2afc1ff7d0b9ea7a6583d0573e36ef7"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Functor &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static auto tlx::make_function_chain </td>
+          <td>(</td>
+          <td class="paramtype">const Functor &amp;&#160;</td>
+          <td class="paramname"><em>functor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Functor chain maker. Can also be called with a lambda function. </p>
+
+<p>Definition at line <a class="el" href="function__chain_8hpp_source.html#l00169">169</a> of file <a class="el" href="function__chain_8hpp_source.html">function_chain.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add2b32ffd2415899c6a69ccac4d7138f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static auto tlx::make_function_chain </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct and empty function chain. </p>
+
+<p>Definition at line <a class="el" href="function__chain_8hpp_source.html#l00175">175</a> of file <a class="el" href="function__chain_8hpp_source.html">function_chain.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af4f5461dca9e4be26479c56a5500357e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Input , typename Functor &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static auto tlx::make_function_stack </td>
+          <td>(</td>
+          <td class="paramtype">const Functor &amp;&#160;</td>
+          <td class="paramname"><em>functor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function-style construction of a <a class="el" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a>. </p>
+
+<p>Definition at line <a class="el" href="function__stack_8hpp_source.html#l00167">167</a> of file <a class="el" href="function__stack_8hpp_source.html">function_stack.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a447e57b368c4ce87381d12d5cf1d8b12"></a>
 <div class="memitem">
 <div class="memproto">
@@ -7034,7 +7138,7 @@ template&lt;typename Functor , typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Sat Mar 4 2017 10:25:22 for tlx by
+    <li class="footer">Generated on Tue Mar 7 2017 09:26:05 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

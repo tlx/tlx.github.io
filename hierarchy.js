@@ -30,6 +30,8 @@ var hierarchy =
       [ "tlx::is_std_tuple< T >", "structtlx_1_1is__std__tuple.html", null ],
       [ "tlx::is_std_vector< T >", "structtlx_1_1is__std__vector.html", null ]
     ] ],
+    [ "tlx::FunctionChain< Functors >", "classtlx_1_1FunctionChain.html", null ],
+    [ "tlx::FunctionStack< Input_, Functors >", "classtlx_1_1FunctionStack.html", null ],
     [ "tlx::index_sequence< Indexes >", "structtlx_1_1index__sequence.html", null ],
     [ "tlx::Log2< Input >", "classtlx_1_1Log2.html", null ],
     [ "tlx::Log2< 0 >", "classtlx_1_1Log2_3_010_01_4.html", null ],

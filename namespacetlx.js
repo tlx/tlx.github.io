@@ -23,6 +23,8 @@ var namespacetlx =
     [ "LoserTreeTraits", "classtlx_1_1LoserTreeTraits.html", "classtlx_1_1LoserTreeTraits" ],
     [ "LruCacheSet", "classtlx_1_1LruCacheSet.html", "classtlx_1_1LruCacheSet" ],
     [ "LruCacheMap", "classtlx_1_1LruCacheMap.html", "classtlx_1_1LruCacheMap" ],
+    [ "FunctionChain", "classtlx_1_1FunctionChain.html", "classtlx_1_1FunctionChain" ],
+    [ "FunctionStack", "classtlx_1_1FunctionStack.html", "classtlx_1_1FunctionStack" ],
     [ "index_sequence", "structtlx_1_1index__sequence.html", "structtlx_1_1index__sequence" ],
     [ "make_index_sequence", "structtlx_1_1make__index__sequence.html", null ],
     [ "is_std_array", "structtlx_1_1is__std__array.html", null ],

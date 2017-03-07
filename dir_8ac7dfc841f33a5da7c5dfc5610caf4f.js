@@ -6,6 +6,8 @@ var dir_8ac7dfc841f33a5da7c5dfc5610caf4f =
     [ "call_foreach_tuple.hpp", "call__foreach__tuple_8hpp.html", "call__foreach__tuple_8hpp" ],
     [ "call_foreach_tuple_with_index.hpp", "call__foreach__tuple__with__index_8hpp.html", "call__foreach__tuple__with__index_8hpp" ],
     [ "call_foreach_with_index.hpp", "call__foreach__with__index_8hpp.html", "call__foreach__with__index_8hpp" ],
+    [ "function_chain.hpp", "function__chain_8hpp.html", "function__chain_8hpp" ],
+    [ "function_stack.hpp", "function__stack_8hpp.html", "function__stack_8hpp" ],
     [ "has_member.hpp", "has__member_8hpp.html", "has__member_8hpp" ],
     [ "index_sequence.hpp", "index__sequence_8hpp.html", [
       [ "index_sequence", "structtlx_1_1index__sequence.html", "structtlx_1_1index__sequence" ],
