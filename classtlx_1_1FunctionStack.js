@@ -9,5 +9,5 @@ var classtlx_1_1FunctionStack =
     [ "push", "classtlx_1_1FunctionStack.html#a8fb48df5ba410a9434b3eafac765c363", null ],
     [ "empty", "classtlx_1_1FunctionStack.html#a2ef7cfa1ff9abbe4ea1526cd717aee6c", null ],
     [ "size", "classtlx_1_1FunctionStack.html#addb4915bde2be95b0fcbc1d1415c2890", null ],
-    [ "stack_", "classtlx_1_1FunctionStack.html#a87a8c603ed4ef1bee0e1772fd56faac5", null ]
+    [ "stack_", "classtlx_1_1FunctionStack.html#ab45ba5cf7a1b6603393132b9e8492f00", null ]
 ];

@@ -353,7 +353,7 @@ $(document).ready(function(){initNavTree('counting__ptr_8hpp_source.html','');})
 <div class="line"><a name="l00240"></a><span class="lineno"><a class="code" href="namespacetlx.html#a04bc5251c951eb916e531c15ff43c8c2">  240</a></span>&#160;<span class="keyword">using</span> <a class="code" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">counting_ptr</a> = <a class="code" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr&lt;Type&gt;</a>;</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="comment">//! method analogous to std::make_shared and std::make_unique.</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Type, <span class="keyword">typename</span> ... Args&gt;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Type, <span class="keyword">typename</span>... Args&gt;</div>
 <div class="line"><a name="l00244"></a><span class="lineno"><a class="code" href="namespacetlx.html#ae38d352a065543cf324f52a58bd2b026">  244</a></span>&#160;<a class="code" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr&lt;Type&gt;</a> <a class="code" href="namespacetlx.html#ae38d352a065543cf324f52a58bd2b026" title="method analogous to std::make_shared and std::make_unique.">make_counting</a>(Args&amp;&amp; ... args) {</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer.">CountingPtr&lt;Type&gt;</a>(<span class="keyword">new</span> Type(std::forward&lt;Args&gt;(args) ...));</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;}</div>
@@ -443,7 +443,7 @@ $(document).ready(function(){initNavTree('counting__ptr_8hpp_source.html','');})
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="counting__ptr_8hpp.html">counting_ptr.hpp</a></li>
-    <li class="footer">Generated on Wed Mar 8 2017 09:41:44 for tlx by
+    <li class="footer">Generated on Wed Mar 8 2017 13:08:09 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

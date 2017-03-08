@@ -318,14 +318,14 @@ Lambdas with Captures and Wrapped Class::Method Calls with Objects</h2></td></tr
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Wrappers for indirect class::method calls.</h2></td></tr>
-<tr class="memitem:aa96fc6ba0b5875ebeb387c0cb1c7591a"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:aa96fc6ba0b5875ebeb387c0cb1c7591a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#aa96fc6ba0b5875ebeb387c0cb1c7591a">MemberPair</a> = std::pair&lt; C *const, R(C::*const)(A...)&gt;</td></tr>
-<tr class="memdesc:aa96fc6ba0b5875ebeb387c0cb1c7591a"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrappers for indirect class::method calls containing (object, method_ptr)  <a href="#aa96fc6ba0b5875ebeb387c0cb1c7591a">More...</a><br/></td></tr>
-<tr class="separator:aa96fc6ba0b5875ebeb387c0cb1c7591a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02cc3609906ae8bd3d0647f71c4378f6"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a02cc3609906ae8bd3d0647f71c4378f6"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a02cc3609906ae8bd3d0647f71c4378f6">ConstMemberPair</a> = std::pair&lt; C const *const, R(C::*const)(A...) const  &gt;</td></tr>
-<tr class="memdesc:a02cc3609906ae8bd3d0647f71c4378f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrappers for indirect const class::method calls containing (object, const method_ptr)  <a href="#a02cc3609906ae8bd3d0647f71c4378f6">More...</a><br/></td></tr>
-<tr class="separator:a02cc3609906ae8bd3d0647f71c4378f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bfb8ff4b4d14ab5295321134730556b"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a2bfb8ff4b4d14ab5295321134730556b"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a2bfb8ff4b4d14ab5295321134730556b">MemberPair</a> = std::pair&lt; C *const, R(C::*const)(A...)&gt;</td></tr>
+<tr class="memdesc:a2bfb8ff4b4d14ab5295321134730556b"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrappers for indirect class::method calls containing (object, method_ptr)  <a href="#a2bfb8ff4b4d14ab5295321134730556b">More...</a><br/></td></tr>
+<tr class="separator:a2bfb8ff4b4d14ab5295321134730556b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eb63b60efe45476e19efe3b1bcc87f4"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a7eb63b60efe45476e19efe3b1bcc87f4"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a7eb63b60efe45476e19efe3b1bcc87f4">ConstMemberPair</a> = std::pair&lt; C const *const, R(C::*const)(A...) const  &gt;</td></tr>
+<tr class="memdesc:a7eb63b60efe45476e19efe3b1bcc87f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrappers for indirect const class::method calls containing (object, const method_ptr)  <a href="#a7eb63b60efe45476e19efe3b1bcc87f4">More...</a><br/></td></tr>
+<tr class="separator:a7eb63b60efe45476e19efe3b1bcc87f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20c102498dfb8b61191cec8d3841fd85"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a20c102498dfb8b61191cec8d3841fd85"><td class="memTemplItemLeft" align="right" valign="top">static std::enable_if<br class="typebreak"/>
 &lt; !(IsMemberPair&lt; T &gt;::value||IsConstMemberPair<br class="typebreak"/>
@@ -414,7 +414,7 @@ template&lt;typename R , typename... A, typename Allocator &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a02cc3609906ae8bd3d0647f71c4378f6"></a>
+<a class="anchor" id="a7eb63b60efe45476e19efe3b1bcc87f4"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -426,7 +426,7 @@ template&lt;class C &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1Delegate.html">tlx::Delegate</a>&lt; R(A...), Allocator &gt;::<a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a02cc3609906ae8bd3d0647f71c4378f6">ConstMemberPair</a> =  std::pair&lt;C const* const, R(C::* const)(A ...) const&gt;</td>
+          <td class="memname">using <a class="el" href="classtlx_1_1Delegate.html">tlx::Delegate</a>&lt; R(A...), Allocator &gt;::<a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a7eb63b60efe45476e19efe3b1bcc87f4">ConstMemberPair</a> =  std::pair&lt;C const* const, R(C::* const)(A...) const&gt;</td>
         </tr>
       </table>
   </td>
@@ -466,7 +466,7 @@ template&lt;typename R , typename... A, typename Allocator &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aa96fc6ba0b5875ebeb387c0cb1c7591a"></a>
+<a class="anchor" id="a2bfb8ff4b4d14ab5295321134730556b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -478,7 +478,7 @@ template&lt;class C &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1Delegate.html">tlx::Delegate</a>&lt; R(A...), Allocator &gt;::<a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#aa96fc6ba0b5875ebeb387c0cb1c7591a">MemberPair</a> =  std::pair&lt;C* const, R(C::* const)(A ...)&gt;</td>
+          <td class="memname">using <a class="el" href="classtlx_1_1Delegate.html">tlx::Delegate</a>&lt; R(A...), Allocator &gt;::<a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a2bfb8ff4b4d14ab5295321134730556b">MemberPair</a> =  std::pair&lt;C* const, R(C::* const)(A...)&gt;</td>
         </tr>
       </table>
   </td>
@@ -1961,7 +1961,7 @@ template&lt;typename R , typename... A, typename Allocator &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html">Delegate< R(A...), Allocator ></a></li>
-    <li class="footer">Generated on Wed Mar 8 2017 09:41:45 for tlx by
+    <li class="footer">Generated on Wed Mar 8 2017 13:08:10 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

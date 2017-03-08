@@ -131,25 +131,25 @@ $(document).ready(function(){initNavTree('index__sequence_8hpp_source.html','');
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// Compile-time integer sequences, an implementation of std::index_sequence and</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">// std::make_index_sequence, as these are not available in many current</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">// libraries (MS Visual C++).</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> ... Indexes&gt;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span>... Indexes&gt;</div>
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="structtlx_1_1index__sequence.html">   22</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structtlx_1_1index__sequence.html">index_sequence</a> {</div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="code" href="structtlx_1_1index__sequence.html#aafe921fee8146325af257ac639203ada">   23</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">size_t</span> <a class="code" href="structtlx_1_1index__sequence.html#aafe921fee8146325af257ac639203ada">size</a>() { <span class="keywordflow">return</span> <span class="keyword">sizeof</span> ... (Indexes); }</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;};</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">namespace </span>detail {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> CurrentIndex, <span class="keywordtype">size_t</span> ... Indexes&gt;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> CurrentIndex, <span class="keywordtype">size_t</span>... Indexes&gt;</div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html">   29</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html">make_index_sequence_helper</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> ... Indexes&gt;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html">   32</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html">make_index_sequence_helper</a>&lt;0, Indexes ...&gt;{</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html#a98260e952c9616e5bb32684c41d0710e">   33</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="structtlx_1_1index__sequence.html">type</a> = <a class="code" href="structtlx_1_1index__sequence.html">index_sequence</a>&lt;Indexes ...&gt;;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span>... Indexes&gt;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html">   32</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html">make_index_sequence_helper</a>&lt;0, Indexes...&gt;{</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html#a71a765eead32d17f4f7a962eb7c67b34">   33</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="structtlx_1_1index__sequence.html">type</a> = <a class="code" href="structtlx_1_1index__sequence.html">index_sequence</a>&lt;Indexes...&gt;;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> CurrentIndex, <span class="keywordtype">size_t</span> ... Indexes&gt;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> CurrentIndex, <span class="keywordtype">size_t</span>... Indexes&gt;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">struct </span><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html">make_index_sequence_helper</a> {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">using</span> <a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html#a7e85302460c413b4adf9fc2536d5e0e5">type</a> = <span class="keyword">typename</span> <a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html">make_index_sequence_helper</a>&lt;</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html#a7e85302460c413b4adf9fc2536d5e0e5">   39</a></span>&#160;              CurrentIndex - 1, CurrentIndex - 1, Indexes ...&gt;<a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html#a7e85302460c413b4adf9fc2536d5e0e5">::type</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">using</span> <a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html#af360b893ba7d4babdf1e8629328234b9">type</a> = <span class="keyword">typename</span> <a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html">make_index_sequence_helper</a>&lt;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html#af360b893ba7d4babdf1e8629328234b9">   39</a></span>&#160;              CurrentIndex - 1, CurrentIndex - 1, Indexes...&gt;<a class="code" href="structtlx_1_1detail_1_1make__index__sequence__helper.html#af360b893ba7d4babdf1e8629328234b9">::type</a>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;};</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;} <span class="comment">// namespace detail</span></div>
@@ -169,7 +169,7 @@ $(document).ready(function(){initNavTree('index__sequence_8hpp_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html">meta</a></li><li class="navelem"><a class="el" href="index__sequence_8hpp.html">index_sequence.hpp</a></li>
-    <li class="footer">Generated on Wed Mar 8 2017 09:41:44 for tlx by
+    <li class="footer">Generated on Wed Mar 8 2017 13:08:09 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

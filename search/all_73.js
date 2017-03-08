@@ -24,7 +24,7 @@ var searchData=
   ['split_5fwords',['split_words',['../namespacetlx.html#a359648bf7e9bae0d45615233e24d2c12',1,'tlx']]],
   ['split_5fwords_2ecpp',['split_words.cpp',['../split__words_8cpp.html',1,'']]],
   ['split_5fwords_2ehpp',['split_words.hpp',['../split__words_8hpp.html',1,'']]],
-  ['stack_5f',['stack_',['../classtlx_1_1FunctionStack.html#a87a8c603ed4ef1bee0e1772fd56faac5',1,'tlx::FunctionStack']]],
+  ['stack_5f',['stack_',['../classtlx_1_1FunctionStack.html#ab45ba5cf7a1b6603393132b9e8492f00',1,'tlx::FunctionStack']]],
   ['stack_5fallocator_2ehpp',['stack_allocator.hpp',['../stack__allocator_8hpp.html',1,'']]],
   ['stackallocator',['StackAllocator',['../classtlx_1_1StackAllocator.html#a3135ad9d83db302cce8b0ea1a24acb7f',1,'tlx::StackAllocator::StackAllocator()'],['../classtlx_1_1StackAllocator.html#a3a6350b56a6894c293996777e55ba416',1,'tlx::StackAllocator::StackAllocator() noexcept'],['../classtlx_1_1StackAllocator.html#a3c089e6d08a4e8a97fe0b974fbae0e9a',1,'tlx::StackAllocator::StackAllocator(StackArena&lt; Size &gt; &amp;arena) noexcept'],['../classtlx_1_1StackAllocator.html#af030f47cfe6fd03be3d58f8597cfb2dd',1,'tlx::StackAllocator::StackAllocator(const StackAllocator&lt; Other, Size &gt; &amp;other) noexcept'],['../classtlx_1_1StackAllocator.html#a2c4c238ddd3a609ecdaeb97507178def',1,'tlx::StackAllocator::StackAllocator(const StackAllocator &amp;) noexcept=default'],['../classtlx_1_1StackAllocator.html#a546f385515bb59a8304e965fec8f9136',1,'tlx::StackAllocator::StackAllocator(StackAllocator &amp;&amp;) noexcept=default']]],
   ['stackallocator',['StackAllocator',['../classtlx_1_1StackAllocator.html',1,'tlx']]],

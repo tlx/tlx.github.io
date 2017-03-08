@@ -286,7 +286,7 @@ $(document).ready(function(){initNavTree('ring__buffer_8hpp_source.html','');});
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment">    //! emplace element at the end</span></div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment"></span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ... Args&gt;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment"></span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
 <div class="line"><a name="l00177"></a><span class="lineno"><a class="code" href="classtlx_1_1RingBuffer.html#ab91143482aa82fd577461f4daa518948">  177</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtlx_1_1RingBuffer.html#ab91143482aa82fd577461f4daa518948" title="emplace element at the end">emplace_back</a>(Args&amp;&amp; ... args) {</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        assert(<a class="code" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67" title="return the number of items in the buffer">size</a>() + 1 &lt;= <a class="code" href="classtlx_1_1RingBuffer.html#a0ff611b5b7efa212725de18553f7599e" title="target max_size of circular buffer prescribed by the user.">max_size_</a>);</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        alloc_traits::construct(<a class="code" href="classtlx_1_1RingBuffer.html#a5ba130d318a93f050b34d56a1381df75" title="used allocator">alloc_</a>, std::addressof(<a class="code" href="classtlx_1_1RingBuffer.html#aa7effc81c46a4d0ed9668a98ec5af028" title="the circular buffer of static size.">data_</a>[<a class="code" href="classtlx_1_1RingBuffer.html#abd03c2976940d5013df9414df8b2497b" title="iterator at current begin of ring buffer">end_</a>]),</div>
@@ -310,7 +310,7 @@ $(document).ready(function(){initNavTree('ring__buffer_8hpp_source.html','');});
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="comment">    //! emplace element at the beginning</span></div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="comment"></span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ... Args&gt;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="comment"></span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span>... Args&gt;</div>
 <div class="line"><a name="l00201"></a><span class="lineno"><a class="code" href="classtlx_1_1RingBuffer.html#ac2345ca06d18c2cd0df52bc43a002ab0">  201</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtlx_1_1RingBuffer.html#ac2345ca06d18c2cd0df52bc43a002ab0" title="emplace element at the beginning">emplace_front</a>(Args&amp;&amp; ... args) {</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        assert(<a class="code" href="classtlx_1_1RingBuffer.html#aaa2a4a6a9a95e52fa4417119e2dbaa67" title="return the number of items in the buffer">size</a>() + 1 &lt;= <a class="code" href="classtlx_1_1RingBuffer.html#a0ff611b5b7efa212725de18553f7599e" title="target max_size of circular buffer prescribed by the user.">max_size_</a>);</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        --<a class="code" href="classtlx_1_1RingBuffer.html#ac4b1c811e3663b7cf9ee2fdca2e7b1c5" title="iterator at current begin of ring buffer">begin_</a> &amp;= <a class="code" href="classtlx_1_1RingBuffer.html#a1c5dee367c701f3047fca3fe25b4a42a" title="one-bits mask for calculating modulo of capacity using AND-mask.">mask_</a>;</div>
@@ -490,7 +490,7 @@ $(document).ready(function(){initNavTree('ring__buffer_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="ring__buffer_8hpp.html">ring_buffer.hpp</a></li>
-    <li class="footer">Generated on Wed Mar 8 2017 09:41:44 for tlx by
+    <li class="footer">Generated on Wed Mar 8 2017 13:08:09 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

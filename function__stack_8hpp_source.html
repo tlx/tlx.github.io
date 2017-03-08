@@ -167,13 +167,13 @@ $(document).ready(function(){initNavTree('function__stack_8hpp_source.html','');
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"> * \param rest Remaining functors.</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor, <span class="keyword">typename</span> ... MoreFunctors&gt;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor, <span class="keyword">typename</span>... MoreFunctors&gt;</div>
 <div class="line"><a name="l00058"></a><span class="lineno"><a class="code" href="namespacetlx_1_1detail.html#af4e178df89faba2de429c84ca06c3187">   58</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx_1_1detail.html#ac0634b28a4f6406a96d06cab0abe0fca" title="Base case for the chaining of functors.">call_stack</a>(<span class="keyword">const</span> Functor&amp; functor, <span class="keyword">const</span> MoreFunctors&amp; ... rest) {</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">// the functor object is captured by non-const copy so that we can use</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// functors with non-const operator(), i.e. stateful functors (e.g. for</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// sampling)</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">return</span> [ =, functor = functor](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; input) mutable-&gt;void {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;               functor(input, <a class="code" href="namespacetlx_1_1detail.html#ac0634b28a4f6406a96d06cab0abe0fca" title="Base case for the chaining of functors.">call_stack</a>(rest ...));</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;               functor(input, <a class="code" href="namespacetlx_1_1detail.html#ac0634b28a4f6406a96d06cab0abe0fca" title="Base case for the chaining of functors.">call_stack</a>(rest...));</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    };</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
@@ -196,7 +196,7 @@ $(document).ready(function(){initNavTree('function__stack_8hpp_source.html','');
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment"> * \tparam Functors Types of the different functor.</span></div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Input_, <span class="keyword">typename</span> ... Functors&gt;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Input_, <span class="keyword">typename</span>... Functors&gt;</div>
 <div class="line"><a name="l00087"></a><span class="lineno"><a class="code" href="classtlx_1_1FunctionStack.html">   87</a></span>&#160;<span class="keyword">class </span><a class="code" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="keyword">public</span>:</div>
@@ -210,7 +210,7 @@ $(document).ready(function(){initNavTree('function__stack_8hpp_source.html','');
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">     *</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">     * \param stack Tuple of functor.</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">     */</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno"><a class="code" href="classtlx_1_1FunctionStack.html#a9d7e9f7e6fe4883373fd1f1891e0ccae">  100</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a>(<span class="keyword">const</span> std::tuple&lt;Functors ...&gt;&amp; stack)</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="code" href="classtlx_1_1FunctionStack.html#a9d7e9f7e6fe4883373fd1f1891e0ccae">  100</a></span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a>(<span class="keyword">const</span> std::tuple&lt;Functors...&gt;&amp; stack)</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        : stack_(stack) { }</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">    /*!</span></div>
@@ -225,7 +225,7 @@ $(document).ready(function(){initNavTree('function__stack_8hpp_source.html','');
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor&gt;</div>
 <div class="line"><a name="l00113"></a><span class="lineno"><a class="code" href="classtlx_1_1FunctionStack.html#a8fb48df5ba410a9434b3eafac765c363">  113</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="classtlx_1_1FunctionStack.html#a8fb48df5ba410a9434b3eafac765c363" title="Add a functor function to the end of the stack.">push</a>(<span class="keyword">const</span> Functor&amp; functor)<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="comment">// append to function stack&#39;s type the new function.</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a>&lt;<a class="code" href="classtlx_1_1FunctionStack.html#ae1dcebe0975d52d5abbd1d442db5bf11">Input</a>, Functors ..., Functor&gt;(</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a>&lt;<a class="code" href="classtlx_1_1FunctionStack.html#ae1dcebe0975d52d5abbd1d442db5bf11">Input</a>, Functors..., Functor&gt;(</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            std::tuple_cat(stack_, std::make_tuple(functor)));</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment"></span></div>
@@ -260,7 +260,7 @@ $(document).ready(function(){initNavTree('function__stack_8hpp_source.html','');
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="keyword">private</span>:<span class="comment"></span></div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="comment">    //! Tuple of varying type that stores all functor objects functions.</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno"><a class="code" href="classtlx_1_1FunctionStack.html#a87a8c603ed4ef1bee0e1772fd56faac5">  150</a></span>&#160;<span class="comment"></span>    std::tuple&lt;Functors ...&gt; <a class="code" href="classtlx_1_1FunctionStack.html#a87a8c603ed4ef1bee0e1772fd56faac5" title="Tuple of varying type that stores all functor objects functions.">stack_</a>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno"><a class="code" href="classtlx_1_1FunctionStack.html#ab45ba5cf7a1b6603393132b9e8492f00">  150</a></span>&#160;<span class="comment"></span>    std::tuple&lt;Functors...&gt; <a class="code" href="classtlx_1_1FunctionStack.html#ab45ba5cf7a1b6603393132b9e8492f00" title="Tuple of varying type that stores all functor objects functions.">stack_</a>;</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment">    /*!</span></div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="comment">     * Auxilary function for &quot;folding&quot; the stack.  This is needed to send all</span></div>
@@ -268,8 +268,8 @@ $(document).ready(function(){initNavTree('function__stack_8hpp_source.html','');
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="comment">     *</span></div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment">     * \return Single &quot;folded&quot; functor representing the stack.</span></div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="comment">     */</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> ... Is&gt;</div>
-<div class="line"><a name="l00159"></a><span class="lineno"><a class="code" href="classtlx_1_1FunctionStack.html#a6dd9d540717a8961e9272ef22c65cd21">  159</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="classtlx_1_1FunctionStack.html#a6dd9d540717a8961e9272ef22c65cd21" title="Auxilary function for &quot;folding&quot; the stack.">fold_stack</a>(<a class="code" href="structtlx_1_1index__sequence.html">index_sequence&lt;Is ...&gt;</a>)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span>... Is&gt;</div>
+<div class="line"><a name="l00159"></a><span class="lineno"><a class="code" href="classtlx_1_1FunctionStack.html#a6dd9d540717a8961e9272ef22c65cd21">  159</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="classtlx_1_1FunctionStack.html#a6dd9d540717a8961e9272ef22c65cd21" title="Auxilary function for &quot;folding&quot; the stack.">fold_stack</a>(<a class="code" href="structtlx_1_1index__sequence.html">index_sequence&lt;Is...&gt;</a>)<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacetlx_1_1detail.html#ac0634b28a4f6406a96d06cab0abe0fca" title="Base case for the chaining of functors.">detail::call_stack</a>(std::get&lt;Is&gt;(stack_) ...);</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;};</div>
@@ -292,7 +292,7 @@ $(document).ready(function(){initNavTree('function__stack_8hpp_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html">meta</a></li><li class="navelem"><a class="el" href="function__stack_8hpp.html">function_stack.hpp</a></li>
-    <li class="footer">Generated on Wed Mar 8 2017 09:41:44 for tlx by
+    <li class="footer">Generated on Wed Mar 8 2017 13:08:09 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
