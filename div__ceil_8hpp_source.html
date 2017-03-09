@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('div__ceil_8hpp_source.html','');});
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">//! calculate n div k with rounding up</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> IntegralN, <span class="keyword">typename</span> IntegralK&gt;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> constexpr</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="namespacetlx.html#a9ebe91735235f8f835ea5fb02874e117">   22</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx.html#a9ebe91735235f8f835ea5fb02874e117" title="calculate n div k with rounding up">div_ceil</a>(<span class="keyword">const</span> IntegralN&amp; n, <span class="keyword">const</span> IntegralK&amp; k) {</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="namespacetlx.html#aa901da3e5d75f6e1891f470b1382562e">   22</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx.html#aa901da3e5d75f6e1891f470b1382562e" title="calculate n div k with rounding up">div_ceil</a>(<span class="keyword">const</span> IntegralN&amp; n, <span class="keyword">const</span> IntegralK&amp; k)-&gt;decltype(n + k) {</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">return</span> (n + k - 1) / k;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
@@ -147,7 +147,7 @@ $(document).ready(function(){initNavTree('div__ceil_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_e09772e06e87bbb5d2c69a5ed712ca42.html">math</a></li><li class="navelem"><a class="el" href="div__ceil_8hpp.html">div_ceil.hpp</a></li>
-    <li class="footer">Generated on Wed Mar 8 2017 13:08:09 for tlx by
+    <li class="footer">Generated on Thu Mar 9 2017 13:20:34 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

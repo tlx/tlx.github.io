@@ -28,7 +28,7 @@ var searchData=
   ['die_5fwith_5fmessage',['die_with_message',['../namespacetlx.html#a4189021baeabfe5b52ca34be6d94499b',1,'tlx::die_with_message(const std::string &amp;msg)'],['../namespacetlx.html#a4ea5cbffd44f2ec0ce8ed33a4a61f6a0',1,'tlx::die_with_message(const char *msg, const char *file, size_t line)'],['../namespacetlx.html#a649f5837f3dd844a036e9a56534f4bec',1,'tlx::die_with_message(const std::string &amp;msg, const char *file, size_t line)']]],
   ['die_5fwith_5fsstream',['die_with_sstream',['../die_8hpp.html#a17ac1fcc957b3ac3414677c0058b1bad',1,'die.hpp']]],
   ['difference_5ftype',['difference_type',['../classtlx_1_1AllocatorBase.html#a6a1978144fe4a1ebd062f5f7fb8dfbf0',1,'tlx::AllocatorBase::difference_type()'],['../classtlx_1_1RingBuffer.html#ad92463f8ade78642097550392f7b28d3',1,'tlx::RingBuffer::difference_type()'],['../classtlx_1_1StackAllocator.html#af759e047829dd70bb0179ea28755d9ed',1,'tlx::StackAllocator::difference_type()']]],
-  ['div_5fceil',['div_ceil',['../namespacetlx.html#a9ebe91735235f8f835ea5fb02874e117',1,'tlx']]],
+  ['div_5fceil',['div_ceil',['../namespacetlx.html#aa901da3e5d75f6e1891f470b1382562e',1,'tlx']]],
   ['div_5fceil_2ehpp',['div_ceil.hpp',['../div__ceil_8hpp.html',1,'']]],
   ['done',['done',['../classtlx_1_1ThreadPool.html#a956cf2c2069dccfef517dbb8b8958322',1,'tlx::ThreadPool']]],
   ['done_5f',['done_',['../classtlx_1_1ThreadPool.html#a2318d7d7b55d5c110edcbef7d381cc5f',1,'tlx::ThreadPool']]]

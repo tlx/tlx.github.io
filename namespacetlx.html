@@ -316,10 +316,10 @@ Functions</h2></td></tr>
 <tr class="memitem:abe8b35ade280b3f91e8139002674d827"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:abe8b35ade280b3f91e8139002674d827"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#abe8b35ade280b3f91e8139002674d827">die_unequal_compare</a> (double a, double b)</td></tr>
 <tr class="separator:abe8b35ade280b3f91e8139002674d827"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ebe91735235f8f835ea5fb02874e117"><td class="memTemplParams" colspan="2">template&lt;typename IntegralN , typename IntegralK &gt; </td></tr>
-<tr class="memitem:a9ebe91735235f8f835ea5fb02874e117"><td class="memTemplItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a9ebe91735235f8f835ea5fb02874e117">div_ceil</a> (const IntegralN &amp;n, const IntegralK &amp;k)</td></tr>
-<tr class="memdesc:a9ebe91735235f8f835ea5fb02874e117"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate n div k with rounding up  <a href="#a9ebe91735235f8f835ea5fb02874e117">More...</a><br/></td></tr>
-<tr class="separator:a9ebe91735235f8f835ea5fb02874e117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa901da3e5d75f6e1891f470b1382562e"><td class="memTemplParams" colspan="2">template&lt;typename IntegralN , typename IntegralK &gt; </td></tr>
+<tr class="memitem:aa901da3e5d75f6e1891f470b1382562e"><td class="memTemplItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#aa901da3e5d75f6e1891f470b1382562e">div_ceil</a> (const IntegralN &amp;n, const IntegralK &amp;k) -&gt; decltype(n+k)</td></tr>
+<tr class="memdesc:aa901da3e5d75f6e1891f470b1382562e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate n div k with rounding up  <a href="#aa901da3e5d75f6e1891f470b1382562e">More...</a><br/></td></tr>
+<tr class="separator:aa901da3e5d75f6e1891f470b1382562e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b18ba30be90fbdad29253ee722c6ed1"><td class="memTemplParams" colspan="2">template&lt;typename Integral &gt; </td></tr>
 <tr class="memitem:a6b18ba30be90fbdad29253ee722c6ed1"><td class="memTemplItemLeft" align="right" valign="top">static unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a6b18ba30be90fbdad29253ee722c6ed1">ffs_template</a> (Integral x)</td></tr>
 <tr class="memdesc:a6b18ba30be90fbdad29253ee722c6ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">ffs (find first set bit) - generic implementation  <a href="#a6b18ba30be90fbdad29253ee722c6ed1">More...</a><br/></td></tr>
@@ -1829,7 +1829,7 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a9ebe91735235f8f835ea5fb02874e117"></a>
+<a class="anchor" id="aa901da3e5d75f6e1891f470b1382562e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1853,7 +1853,7 @@ template&lt;typename IntegralN , typename IntegralK &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt; decltype(n + k) </td>
         </tr>
       </table>
   </td>
@@ -7161,7 +7161,7 @@ template&lt;typename Functor , typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Wed Mar 8 2017 13:08:10 for tlx by
+    <li class="footer">Generated on Thu Mar 9 2017 13:20:35 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
