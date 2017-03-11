@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('function__chain_8hpp_source.html','');
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">/*!</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * Base case for the chaining of functors: zero functors, returns the identity.</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="code" href="namespacetlx_1_1detail.html#a27bb2c0665359b5619f0cd2165238b6c">   31</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx_1_1detail.html#a27bb2c0665359b5619f0cd2165238b6c" title="Base case for the chaining of functors: zero functors, returns the identity.">call_chain</a>() {</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="code" href="namespacetlx_1_1detail.html#aab44943db70c79829c12f33ee278a986">   31</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code" href="namespacetlx_1_1detail.html#aab44943db70c79829c12f33ee278a986" title="Base case for the chaining of functors: zero functors, returns the identity.">call_chain</a>() {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> [] (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; input)mutable-&gt;auto {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;               <span class="keywordflow">return</span> input;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    };</div>
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('function__chain_8hpp_source.html','');
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment"> * \param functor functor that represents the chain end.</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor&gt;</div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="namespacetlx_1_1detail.html#a14e3561331bf67f5667d5b0e0fd9fcc0">   44</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx_1_1detail.html#a27bb2c0665359b5619f0cd2165238b6c" title="Base case for the chaining of functors: zero functors, returns the identity.">call_chain</a>(<span class="keyword">const</span> Functor&amp; functor) {</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="namespacetlx_1_1detail.html#a14e3561331bf67f5667d5b0e0fd9fcc0">   44</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx_1_1detail.html#aab44943db70c79829c12f33ee278a986" title="Base case for the chaining of functors: zero functors, returns the identity.">call_chain</a>(<span class="keyword">const</span> Functor&amp; functor) {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// the functor is captured by non-const copy so that we can use functors</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">// with non-const operator(), i.e. stateful functors (e.g. for sampling)</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">return</span> [functor = functor](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; input) mutable-&gt;auto {</div>
@@ -171,11 +171,11 @@ $(document).ready(function(){initNavTree('function__chain_8hpp_source.html','');
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment"> * \param rest Remaining functors.</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor, <span class="keyword">typename</span>... MoreFunctors&gt;</div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="code" href="namespacetlx_1_1detail.html#a72c615079fcce30a812382955593cab2">   61</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx_1_1detail.html#a27bb2c0665359b5619f0cd2165238b6c" title="Base case for the chaining of functors: zero functors, returns the identity.">call_chain</a>(<span class="keyword">const</span> Functor&amp; functor, <span class="keyword">const</span> MoreFunctors&amp; ... rest) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="code" href="namespacetlx_1_1detail.html#a72c615079fcce30a812382955593cab2">   61</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx_1_1detail.html#aab44943db70c79829c12f33ee278a986" title="Base case for the chaining of functors: zero functors, returns the identity.">call_chain</a>(<span class="keyword">const</span> Functor&amp; functor, <span class="keyword">const</span> MoreFunctors&amp; ... rest) {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// the functor is captured by non-const copy so that we can use functors</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// with non-const operator(), i.e. stateful functors (e.g. for sampling)</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">return</span> [ =, functor = functor](<span class="keyword">const</span> <span class="keyword">auto</span>&amp; input) mutable-&gt;auto {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;               <span class="keywordflow">return</span> <a class="code" href="namespacetlx_1_1detail.html#a27bb2c0665359b5619f0cd2165238b6c" title="Base case for the chaining of functors: zero functors, returns the identity.">call_chain</a>(rest...)(functor(input));</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;               <span class="keywordflow">return</span> <a class="code" href="namespacetlx_1_1detail.html#aab44943db70c79829c12f33ee278a986" title="Base case for the chaining of functors: zero functors, returns the identity.">call_chain</a>(rest...)(functor(input));</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    };</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
@@ -272,7 +272,7 @@ $(document).ready(function(){initNavTree('function__chain_8hpp_source.html','');
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="comment">     */</span></div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span>... Is&gt;</div>
 <div class="line"><a name="l00161"></a><span class="lineno"><a class="code" href="classtlx_1_1FunctionChain.html#a495e6bcfc2839dfe4970c0c7902dce47">  161</a></span>&#160;    <span class="keyword">auto</span> <a class="code" href="classtlx_1_1FunctionChain.html#a495e6bcfc2839dfe4970c0c7902dce47" title="Auxilary function for &quot;folding&quot; the chain.">fold_chain</a>(<a class="code" href="structtlx_1_1index__sequence.html">index_sequence&lt;Is...&gt;</a>)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacetlx_1_1detail.html#a27bb2c0665359b5619f0cd2165238b6c" title="Base case for the chaining of functors: zero functors, returns the identity.">detail::call_chain</a>(std::get&lt;Is&gt;(chain_) ...);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespacetlx_1_1detail.html#aab44943db70c79829c12f33ee278a986" title="Base case for the chaining of functors: zero functors, returns the identity.">detail::call_chain</a>(std::get&lt;Is&gt;(chain_) ...);</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;};</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="comment"></span></div>
@@ -300,7 +300,7 @@ $(document).ready(function(){initNavTree('function__chain_8hpp_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html">meta</a></li><li class="navelem"><a class="el" href="function__chain_8hpp.html">function_chain.hpp</a></li>
-    <li class="footer">Generated on Thu Mar 9 2017 18:53:51 for tlx by
+    <li class="footer">Generated on Sat Mar 11 2017 16:53:33 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

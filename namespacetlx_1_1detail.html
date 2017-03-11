@@ -163,9 +163,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a17a39fc67bb095c789ca5e5418190350"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a17a39fc67bb095c789ca5e5418190350">call_foreach_with_index_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
 <tr class="memdesc:a17a39fc67bb095c789ca5e5418190350"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for call_foreach_with_index: general recursive case  <a href="#a17a39fc67bb095c789ca5e5418190350">More...</a><br/></td></tr>
 <tr class="separator:a17a39fc67bb095c789ca5e5418190350"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27bb2c0665359b5619f0cd2165238b6c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a27bb2c0665359b5619f0cd2165238b6c">call_chain</a> ()</td></tr>
-<tr class="memdesc:a27bb2c0665359b5619f0cd2165238b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base case for the chaining of functors: zero functors, returns the identity.  <a href="#a27bb2c0665359b5619f0cd2165238b6c">More...</a><br/></td></tr>
-<tr class="separator:a27bb2c0665359b5619f0cd2165238b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab44943db70c79829c12f33ee278a986"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#aab44943db70c79829c12f33ee278a986">call_chain</a> ()</td></tr>
+<tr class="memdesc:aab44943db70c79829c12f33ee278a986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base case for the chaining of functors: zero functors, returns the identity.  <a href="#aab44943db70c79829c12f33ee278a986">More...</a><br/></td></tr>
+<tr class="separator:aab44943db70c79829c12f33ee278a986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14e3561331bf67f5667d5b0e0fd9fcc0"><td class="memTemplParams" colspan="2">template&lt;typename Functor &gt; </td></tr>
 <tr class="memitem:a14e3561331bf67f5667d5b0e0fd9fcc0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a14e3561331bf67f5667d5b0e0fd9fcc0">call_chain</a> (const Functor &amp;functor)</td></tr>
 <tr class="memdesc:a14e3561331bf67f5667d5b0e0fd9fcc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base case for the chaining of functors.  <a href="#a14e3561331bf67f5667d5b0e0fd9fcc0">More...</a><br/></td></tr>
@@ -236,17 +236,25 @@ template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a27bb2c0665359b5619f0cd2165238b6c"></a>
+<a class="anchor" id="aab44943db70c79829c12f33ee278a986"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto tlx::detail::call_chain </td>
+          <td class="memname">static auto tlx::detail::call_chain </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Base case for the chaining of functors: zero functors, returns the identity. </p>
@@ -755,7 +763,7 @@ template&lt;size_t Index, typename Functor , typename Arg , typename... MoreArgs
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="namespacetlx_1_1detail.html">detail</a></li>
-    <li class="footer">Generated on Thu Mar 9 2017 18:53:51 for tlx by
+    <li class="footer">Generated on Sat Mar 11 2017 16:53:34 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
