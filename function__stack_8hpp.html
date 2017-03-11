@@ -50,6 +50,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -97,7 +98,7 @@ $(document).ready(function(){initNavTree('function__stack_8hpp.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -122,7 +123,7 @@ $(document).ready(function(){initNavTree('function__stack_8hpp.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1FunctionStack.html">tlx::FunctionStack&lt; Input_, Functors &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1FunctionStack.html">FunctionStack&lt; Input_, Functors &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a> is a chain of functor that can be folded to a single functor (which is usually optimize by the compiler).  <a href="classtlx_1_1FunctionStack.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -136,17 +137,17 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac0634b28a4f6406a96d06cab0abe0fca"><td class="memTemplParams" colspan="2">template&lt;typename Functor &gt; </td></tr>
-<tr class="memitem:ac0634b28a4f6406a96d06cab0abe0fca"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#ac0634b28a4f6406a96d06cab0abe0fca">tlx::detail::call_stack</a> (const Functor &amp;functor)</td></tr>
+<tr class="memitem:ac0634b28a4f6406a96d06cab0abe0fca"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#ac0634b28a4f6406a96d06cab0abe0fca">call_stack</a> (const Functor &amp;functor)</td></tr>
 <tr class="memdesc:ac0634b28a4f6406a96d06cab0abe0fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base case for the chaining of functors.  <a href="#ac0634b28a4f6406a96d06cab0abe0fca">More...</a><br/></td></tr>
 <tr class="separator:ac0634b28a4f6406a96d06cab0abe0fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4e178df89faba2de429c84ca06c3187"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename... MoreFunctors&gt; </td></tr>
-<tr class="memitem:af4e178df89faba2de429c84ca06c3187"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#af4e178df89faba2de429c84ca06c3187">tlx::detail::call_stack</a> (const Functor &amp;functor, const MoreFunctors &amp;...rest)</td></tr>
+<tr class="memitem:af4e178df89faba2de429c84ca06c3187"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#af4e178df89faba2de429c84ca06c3187">call_stack</a> (const Functor &amp;functor, const MoreFunctors &amp;...rest)</td></tr>
 <tr class="memdesc:af4e178df89faba2de429c84ca06c3187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recursive case for the chaining of functors.  <a href="#af4e178df89faba2de429c84ca06c3187">More...</a><br/></td></tr>
 <tr class="separator:af4e178df89faba2de429c84ca06c3187"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4f5461dca9e4be26479c56a5500357e"><td class="memTemplParams" colspan="2">template&lt;typename Input , typename Functor &gt; </td></tr>
-<tr class="memitem:af4f5461dca9e4be26479c56a5500357e"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#af4f5461dca9e4be26479c56a5500357e">tlx::make_function_stack</a> (const Functor &amp;functor)</td></tr>
-<tr class="memdesc:af4f5461dca9e4be26479c56a5500357e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function-style construction of a <a class="el" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a>.  <a href="#af4f5461dca9e4be26479c56a5500357e">More...</a><br/></td></tr>
-<tr class="separator:af4f5461dca9e4be26479c56a5500357e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf4f5461dca9e4be26479c56a5500357e"><td class="memTemplParams" colspan="2">template&lt;typename Input , typename Functor &gt; </td></tr>
+<tr class="memitem:gaf4f5461dca9e4be26479c56a5500357e"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__meta.html#gaf4f5461dca9e4be26479c56a5500357e">make_function_stack</a> (const Functor &amp;functor)</td></tr>
+<tr class="memdesc:gaf4f5461dca9e4be26479c56a5500357e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function-style construction of a <a class="el" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a>.  <a href="group__meta.html#gaf4f5461dca9e4be26479c56a5500357e">More...</a><br/></td></tr>
+<tr class="separator:gaf4f5461dca9e4be26479c56a5500357e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -154,7 +155,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html">meta</a></li><li class="navelem"><a class="el" href="function__stack_8hpp.html">function_stack.hpp</a></li>
-    <li class="footer">Generated on Sat Mar 11 2017 16:53:33 for tlx by
+    <li class="footer">Generated on Sat Mar 11 2017 23:15:29 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

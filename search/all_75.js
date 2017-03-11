@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['unify',['unify',['../classtlx_1_1CountingPtr.html#ac57602001699b59f1af0d0f239642a85',1,'tlx::CountingPtr']]],
-  ['union_5fwords',['union_words',['../namespacetlx.html#a9ec6be6417fecf489c677756087b8599',1,'tlx']]],
+  ['unify',['unify',['../classtlx_1_1CountingPtr.html#a28653b45bfba9a4135bc0c5903a45c4e',1,'tlx::CountingPtr']]],
+  ['union_5fwords',['union_words',['../group__string.html#ga39619db78c7e916bff3544fb07cbe462',1,'tlx']]],
   ['union_5fwords_2ecpp',['union_words.cpp',['../union__words_8cpp.html',1,'']]],
   ['union_5fwords_2ehpp',['union_words.hpp',['../union__words_8hpp.html',1,'']]],
-  ['unique',['unique',['../classtlx_1_1CountingPtr.html#a9ff1619235be19aa84ba9ef58bc2698c',1,'tlx::CountingPtr::unique()'],['../classtlx_1_1ReferenceCounter.html#a0aaf4376428bf1f6752e75e9fd2932b9',1,'tlx::ReferenceCounter::unique()']]],
+  ['unique',['unique',['../classtlx_1_1CountingPtr.html#a17f79efcc0f2e0d5cb9afcdee013e64c',1,'tlx::CountingPtr::unique()'],['../classtlx_1_1ReferenceCounter.html#a17f79efcc0f2e0d5cb9afcdee013e64c',1,'tlx::ReferenceCounter::unique()']]],
   ['unused',['unused',['../namespacetlx.html#a5a63b398e6678264958fb8590e9332bf',1,'tlx']]],
   ['unused_2ehpp',['unused.hpp',['../unused_8hpp.html',1,'']]],
-  ['used',['used',['../classtlx_1_1StackArena.html#a1d055d3d30e4d84237a738e073878240',1,'tlx::StackArena']]]
+  ['used',['used',['../classtlx_1_1StackArena.html#ab7ee045430da1e4ada9c2a7075b7f807',1,'tlx::StackArena']]]
 ];

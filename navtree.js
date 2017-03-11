@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "tlx", "index.html", [
+    [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -37,11 +38,11 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "allocator__base_8hpp.html",
-"classtlx_1_1Log2.html#a1d173024776901bc47a75d56cd19ce22a75db66707405b6b98194b11c7d62acfe",
-"classtlx_1_1StackAllocator.html#a836cdea61098c6f1bbb415458b190a55",
+"classtlx_1_1Log2.html#abc6126af1d45847bc59afa0aa3216b04a767a00e87322d8125073a77598ee1f97",
+"classtlx_1_1StackAllocator.html#ac73fe7e3bf0646d33e39f1653d0a6484",
 "functions_0x74.html",
-"replace_8hpp.html#a694e187e8049eb7dc29ff2b59c5f5566",
-"trim_8cpp.html#afc70026a4a1d57a74c7125f959245719"
+"integer__log2_8cpp_source.html",
+"split__words_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

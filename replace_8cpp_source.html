@@ -50,6 +50,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -97,7 +98,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">// replace_first() in-place</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="code" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe">   21</a></span>&#160;std::string&amp; <a class="code" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="code" href="group__string.html#gaca0aeb9a74105ec849e939229d47970b">   21</a></span>&#160;std::string&amp; <a class="code" href="group__string.html#gaca0aeb9a74105ec849e939229d47970b" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    std::string* str, <span class="keyword">const</span> std::string&amp; needle, <span class="keyword">const</span> std::string&amp; instead) {</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    std::string::size_type firstpos = str-&gt;find(needle);</div>
@@ -142,7 +143,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">return</span> *str;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="code" href="namespacetlx.html#ad5d874ebb36fd5f67b57ed9181f94765">   32</a></span>&#160;std::string&amp; <a class="code" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="code" href="group__string.html#ga32d2a706e20d6e5b07cbb677c340deba">   32</a></span>&#160;std::string&amp; <a class="code" href="group__string.html#gaca0aeb9a74105ec849e939229d47970b" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    std::string* str, <span class="keyword">const</span> std::string&amp; needle, <span class="keyword">const</span> <span class="keywordtype">char</span>* instead) {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    std::string::size_type firstpos = str-&gt;find(needle);</div>
@@ -153,7 +154,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> *str;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="namespacetlx.html#aa42af651055bba02cc39d2d2cfd5ddab">   43</a></span>&#160;std::string&amp; <a class="code" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="group__string.html#gab2b83d93d49145437aec2964f30e4cd1">   43</a></span>&#160;std::string&amp; <a class="code" href="group__string.html#gaca0aeb9a74105ec849e939229d47970b" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    std::string* str, <span class="keyword">const</span> <span class="keywordtype">char</span>* needle, <span class="keyword">const</span> std::string&amp; instead) {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    std::string::size_type firstpos = str-&gt;find(needle);</div>
@@ -164,7 +165,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> *str;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="code" href="namespacetlx.html#a682065cf1b811ca4ab97ca8198d39c5d">   54</a></span>&#160;std::string&amp; <a class="code" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="code" href="group__string.html#ga6ed49bc3eebffeefeff05f84ffbcc086">   54</a></span>&#160;std::string&amp; <a class="code" href="group__string.html#gaca0aeb9a74105ec849e939229d47970b" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    std::string* str, <span class="keyword">const</span> <span class="keywordtype">char</span>* needle, <span class="keyword">const</span> <span class="keywordtype">char</span>* instead) {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    std::string::size_type firstpos = str-&gt;find(needle);</div>
@@ -178,7 +179,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">// replace_first() copy</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="code" href="namespacetlx.html#a694e187e8049eb7dc29ff2b59c5f5566">   68</a></span>&#160;std::string <a class="code" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="code" href="group__string.html#ga8b0092a333e84d0c4eaae50955bc5a71">   68</a></span>&#160;std::string <a class="code" href="group__string.html#gaca0aeb9a74105ec849e939229d47970b" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">const</span> std::string&amp; str,</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">const</span> std::string&amp; needle, <span class="keyword">const</span> std::string&amp; instead) {</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
@@ -191,7 +192,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">return</span> newstr;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno"><a class="code" href="namespacetlx.html#a2e21587d2abcd727530592a5e10eca4c">   81</a></span>&#160;std::string <a class="code" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="code" href="group__string.html#gab6b1e9aa3d513c96cd5973e50551d6b5">   81</a></span>&#160;std::string <a class="code" href="group__string.html#gaca0aeb9a74105ec849e939229d47970b" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keyword">const</span> std::string&amp; str, <span class="keyword">const</span> std::string&amp; needle, <span class="keyword">const</span> <span class="keywordtype">char</span>* instead) {</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    std::string newstr = str;</div>
@@ -203,7 +204,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> newstr;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno"><a class="code" href="namespacetlx.html#acd35eea795e85b2a1435155d3e655f52">   93</a></span>&#160;std::string <a class="code" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="code" href="group__string.html#gae7e6db7b1dfe54efc4b195f27df5ed71">   93</a></span>&#160;std::string <a class="code" href="group__string.html#gaca0aeb9a74105ec849e939229d47970b" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keyword">const</span> std::string&amp; str, <span class="keyword">const</span> <span class="keywordtype">char</span>* needle, <span class="keyword">const</span> std::string&amp; instead) {</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    std::string newstr = str;</div>
@@ -215,7 +216,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">return</span> newstr;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;}</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="code" href="namespacetlx.html#a0aaf41622c559f40295d6136e2ea527a">  105</a></span>&#160;std::string <a class="code" href="namespacetlx.html#ab5bfd5af4ef681e5431a9dcc9b2f69fe" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="code" href="group__string.html#ga711f2f36ac6d9cb35a6a63672e47a47c">  105</a></span>&#160;std::string <a class="code" href="group__string.html#gaca0aeb9a74105ec849e939229d47970b" title="Replace only the first occurrence of needle in str.">replace_first</a>(</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keyword">const</span> std::string&amp; str, <span class="keyword">const</span> <span class="keywordtype">char</span>* needle, <span class="keyword">const</span> <span class="keywordtype">char</span>* instead) {</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    std::string newstr = str;</div>
@@ -230,7 +231,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment">// replace_all() in-place</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="code" href="namespacetlx.html#adf6441c2f401beebca1b130d5c0ede68">  120</a></span>&#160;std::string&amp; <a class="code" href="namespacetlx.html#adf6441c2f401beebca1b130d5c0ede68" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="code" href="group__string.html#ga7021d36930f4bd434b2082dce8bd43cf">  120</a></span>&#160;std::string&amp; <a class="code" href="group__string.html#ga7021d36930f4bd434b2082dce8bd43cf" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    std::string* str, <span class="keyword">const</span> std::string&amp; needle, <span class="keyword">const</span> std::string&amp; instead) {</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    std::string::size_type lastpos = 0, thispos;</div>
@@ -243,7 +244,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordflow">return</span> *str;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;}</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
-<div class="line"><a name="l00133"></a><span class="lineno"><a class="code" href="namespacetlx.html#ac8073d342fc47ecdf76ad838e735aa57">  133</a></span>&#160;std::string&amp; <a class="code" href="namespacetlx.html#adf6441c2f401beebca1b130d5c0ede68" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="code" href="group__string.html#gadd5bd9f9a887fa20b4a8ebaf987fd5de">  133</a></span>&#160;std::string&amp; <a class="code" href="group__string.html#ga7021d36930f4bd434b2082dce8bd43cf" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    std::string* str, <span class="keyword">const</span> std::string&amp; needle, <span class="keyword">const</span> <span class="keywordtype">char</span>* instead) {</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    std::string::size_type lastpos = 0, thispos;</div>
@@ -257,7 +258,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="keywordflow">return</span> *str;</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;}</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
-<div class="line"><a name="l00147"></a><span class="lineno"><a class="code" href="namespacetlx.html#a5b68830fd24a84d6b89c50a878f6d66a">  147</a></span>&#160;std::string&amp; <a class="code" href="namespacetlx.html#adf6441c2f401beebca1b130d5c0ede68" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
+<div class="line"><a name="l00147"></a><span class="lineno"><a class="code" href="group__string.html#ga6b4b8117690af529b7051a3c10c382ff">  147</a></span>&#160;std::string&amp; <a class="code" href="group__string.html#ga7021d36930f4bd434b2082dce8bd43cf" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    std::string* str, <span class="keyword">const</span> <span class="keywordtype">char</span>* needle, <span class="keyword">const</span> std::string&amp; instead) {</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    std::string::size_type lastpos = 0, thispos;</div>
@@ -271,7 +272,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">return</span> *str;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;}</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
-<div class="line"><a name="l00161"></a><span class="lineno"><a class="code" href="namespacetlx.html#a7c3a6fe09220e86f19f3451cee1e1e21">  161</a></span>&#160;std::string&amp; <a class="code" href="namespacetlx.html#adf6441c2f401beebca1b130d5c0ede68" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
+<div class="line"><a name="l00161"></a><span class="lineno"><a class="code" href="group__string.html#ga0d7d14badd05473e5a5c847b3f91b9e9">  161</a></span>&#160;std::string&amp; <a class="code" href="group__string.html#ga7021d36930f4bd434b2082dce8bd43cf" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    std::string* str, <span class="keyword">const</span> <span class="keywordtype">char</span>* needle, <span class="keyword">const</span> <span class="keywordtype">char</span>* instead) {</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    std::string::size_type lastpos = 0, thispos;</div>
@@ -289,7 +290,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="comment">// replace_all() copy</span></div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
-<div class="line"><a name="l00179"></a><span class="lineno"><a class="code" href="namespacetlx.html#ab9321abff9790139f91aa5f318d3674f">  179</a></span>&#160;std::string <a class="code" href="namespacetlx.html#adf6441c2f401beebca1b130d5c0ede68" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
+<div class="line"><a name="l00179"></a><span class="lineno"><a class="code" href="group__string.html#gac001aff0fa6c3bee2e9755e3ddd516f9">  179</a></span>&#160;std::string <a class="code" href="group__string.html#ga7021d36930f4bd434b2082dce8bd43cf" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keyword">const</span> std::string&amp; str,</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keyword">const</span> std::string&amp; needle, <span class="keyword">const</span> std::string&amp; instead) {</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
@@ -304,7 +305,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordflow">return</span> newstr;</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;}</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
-<div class="line"><a name="l00194"></a><span class="lineno"><a class="code" href="namespacetlx.html#a658c2a3f84c00c1654269b57aa18100c">  194</a></span>&#160;std::string <a class="code" href="namespacetlx.html#adf6441c2f401beebca1b130d5c0ede68" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
+<div class="line"><a name="l00194"></a><span class="lineno"><a class="code" href="group__string.html#gadfe9c066393585d1a769cbd55e9f9960">  194</a></span>&#160;std::string <a class="code" href="group__string.html#ga7021d36930f4bd434b2082dce8bd43cf" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keyword">const</span> std::string&amp; str, <span class="keyword">const</span> std::string&amp; needle, <span class="keyword">const</span> <span class="keywordtype">char</span>* instead) {</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    std::string newstr = str;</div>
@@ -319,7 +320,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">return</span> newstr;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;}</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
-<div class="line"><a name="l00209"></a><span class="lineno"><a class="code" href="namespacetlx.html#a377bdd21108edc0fda5a7bda408742a9">  209</a></span>&#160;std::string <a class="code" href="namespacetlx.html#adf6441c2f401beebca1b130d5c0ede68" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
+<div class="line"><a name="l00209"></a><span class="lineno"><a class="code" href="group__string.html#ga4e3b406ea495a236fff401c3585d8814">  209</a></span>&#160;std::string <a class="code" href="group__string.html#ga7021d36930f4bd434b2082dce8bd43cf" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keyword">const</span> std::string&amp; str, <span class="keyword">const</span> <span class="keywordtype">char</span>* needle, <span class="keyword">const</span> std::string&amp; instead) {</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    std::string newstr = str;</div>
@@ -334,7 +335,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordflow">return</span> newstr;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;}</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
-<div class="line"><a name="l00224"></a><span class="lineno"><a class="code" href="namespacetlx.html#aac4636c5529e88f38fa2322cdb5cd735">  224</a></span>&#160;std::string <a class="code" href="namespacetlx.html#adf6441c2f401beebca1b130d5c0ede68" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
+<div class="line"><a name="l00224"></a><span class="lineno"><a class="code" href="group__string.html#ga14cfa75fa579e1d4943855455d9e605d">  224</a></span>&#160;std::string <a class="code" href="group__string.html#ga7021d36930f4bd434b2082dce8bd43cf" title="Replace all occurrences of needle in str.">replace_all</a>(</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keyword">const</span> std::string&amp; str, <span class="keyword">const</span> <span class="keywordtype">char</span>* needle, <span class="keyword">const</span> <span class="keywordtype">char</span>* instead) {</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    std::string newstr = str;</div>
@@ -359,7 +360,7 @@ $(document).ready(function(){initNavTree('replace_8cpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_45a7f11e1a4af18f182d54b603484851.html">string</a></li><li class="navelem"><a class="el" href="replace_8cpp.html">replace.cpp</a></li>
-    <li class="footer">Generated on Sat Mar 11 2017 16:53:33 for tlx by
+    <li class="footer">Generated on Sat Mar 11 2017 23:15:29 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

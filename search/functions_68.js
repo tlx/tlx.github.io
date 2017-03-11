@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['hexdump',['hexdump',['../namespacetlx.html#a1745dfeabacc1acb2d27abbcf553f844',1,'tlx::hexdump(const void *const data, size_t size)'],['../namespacetlx.html#a3bec662b890f0da83582e7df6e3c55bf',1,'tlx::hexdump(const std::string &amp;str)'],['../namespacetlx.html#a6cfe26c3965f170d5367f8132ca9d4d6',1,'tlx::hexdump(const std::vector&lt; char &gt; &amp;data)'],['../namespacetlx.html#adab45f7bc3142c72619094a9d77069f1',1,'tlx::hexdump(const std::vector&lt; uint8_t &gt; &amp;data)']]],
-  ['hexdump_5flc',['hexdump_lc',['../namespacetlx.html#a3e23f2e36a532089a7b49e0c593cbe26',1,'tlx::hexdump_lc(const void *const data, size_t size)'],['../namespacetlx.html#a78b479ab381ff2e7de94b87708f342c1',1,'tlx::hexdump_lc(const std::string &amp;str)'],['../namespacetlx.html#a81ef6db6f00972ce269a6205002895b2',1,'tlx::hexdump_lc(const std::vector&lt; char &gt; &amp;data)'],['../namespacetlx.html#a0f65ffd0e8ea4503a9c9a5b681468722',1,'tlx::hexdump_lc(const std::vector&lt; uint8_t &gt; &amp;data)']]],
-  ['hexdump_5flc_5ftype',['hexdump_lc_type',['../namespacetlx.html#a0b2f444830d8f7b1b0eaf93b5f514bf7',1,'tlx']]],
-  ['hexdump_5fsourcecode',['hexdump_sourcecode',['../namespacetlx.html#ae43ee9db15046fbe68445eaec4e5c163',1,'tlx']]],
-  ['hexdump_5ftype',['hexdump_type',['../namespacetlx.html#ae2a485134f5e618b846abb630d44ec6f',1,'tlx']]]
+  ['hexdump',['hexdump',['../group__string.html#gab4c0ada9ff7b0d905361e60050316899',1,'tlx::hexdump(const void *const data, size_t size)'],['../group__string.html#gaa0757bf9871dc4e2526ab48e4cde28e1',1,'tlx::hexdump(const std::string &amp;str)'],['../group__string.html#ga15c83e3e2055412b0440758c98b3f148',1,'tlx::hexdump(const std::vector&lt; char &gt; &amp;data)'],['../group__string.html#ga6c6446ce9a61a434b3a10345cbf3ebed',1,'tlx::hexdump(const std::vector&lt; uint8_t &gt; &amp;data)']]],
+  ['hexdump_5flc',['hexdump_lc',['../group__string.html#ga0c47a216e0abcdf9a88fc50bb79c98ba',1,'tlx::hexdump_lc(const void *const data, size_t size)'],['../group__string.html#ga60e8912db4511738cfdbf3e97ff6dbbf',1,'tlx::hexdump_lc(const std::string &amp;str)'],['../group__string.html#gae749cedcfc25af4f829d70e8febba7a1',1,'tlx::hexdump_lc(const std::vector&lt; char &gt; &amp;data)'],['../group__string.html#ga0b35bd68e5974e78327fce13e0e2eaf6',1,'tlx::hexdump_lc(const std::vector&lt; uint8_t &gt; &amp;data)']]],
+  ['hexdump_5flc_5ftype',['hexdump_lc_type',['../group__string.html#ga0b2f444830d8f7b1b0eaf93b5f514bf7',1,'tlx']]],
+  ['hexdump_5fsourcecode',['hexdump_sourcecode',['../group__string.html#gab10f91fa3b24c787e4e0d88c009ac298',1,'tlx']]],
+  ['hexdump_5ftype',['hexdump_type',['../group__string.html#gae2a485134f5e618b846abb630d44ec6f',1,'tlx']]]
 ];

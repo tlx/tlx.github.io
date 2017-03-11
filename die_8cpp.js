@@ -1,6 +1,6 @@
 var die_8cpp =
 [
-    [ "die_with_message", "die_8cpp.html#a4189021baeabfe5b52ca34be6d94499b", null ],
-    [ "die_with_message", "die_8cpp.html#a4ea5cbffd44f2ec0ce8ed33a4a61f6a0", null ],
-    [ "die_with_message", "die_8cpp.html#a649f5837f3dd844a036e9a56534f4bec", null ]
+    [ "die_with_message", "die_8cpp.html#a1a4f198a88970a7cb1f5d8d3a0555b79", null ],
+    [ "die_with_message", "die_8cpp.html#a1972bdbc5b9ff146cf88d18ec9a12d64", null ],
+    [ "die_with_message", "die_8cpp.html#acf7bff2d67e5ed89bd9dc6bea904e1c1", null ]
 ];

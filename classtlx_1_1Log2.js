@@ -1,5 +1,5 @@
 var classtlx_1_1Log2 =
 [
-    [ "floor", "classtlx_1_1Log2.html#a1d173024776901bc47a75d56cd19ce22aaaf60610cfdaa4c6441b87eb19facfb5", null ],
-    [ "ceil", "classtlx_1_1Log2.html#a1d173024776901bc47a75d56cd19ce22a75db66707405b6b98194b11c7d62acfe", null ]
+    [ "floor", "classtlx_1_1Log2.html#abc6126af1d45847bc59afa0aa3216b04aa2cd0f2689920d3196cebb39ef6f9afb", null ],
+    [ "ceil", "classtlx_1_1Log2.html#abc6126af1d45847bc59afa0aa3216b04a767a00e87322d8125073a77598ee1f97", null ]
 ];

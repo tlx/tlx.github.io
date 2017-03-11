@@ -1,4 +1,4 @@
 var classtlx_1_1LoserTreeTraits =
 [
-    [ "Type", "classtlx_1_1LoserTreeTraits.html#ad0684206ca19b33641a3af1ce13d209b", null ]
+    [ "Type", "classtlx_1_1LoserTreeTraits.html#ad6f8a9e3078ec4056859079611e2ce2b", null ]
 ];

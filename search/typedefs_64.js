@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['delegate',['delegate',['../namespacetlx.html#a2c9c28df66ae41fedb3f537210097362',1,'tlx']]],
-  ['deleter',['Deleter',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a19f2979021b55071588f357a82df61ac',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
-  ['difference_5ftype',['difference_type',['../classtlx_1_1AllocatorBase.html#a6a1978144fe4a1ebd062f5f7fb8dfbf0',1,'tlx::AllocatorBase::difference_type()'],['../classtlx_1_1RingBuffer.html#ad92463f8ade78642097550392f7b28d3',1,'tlx::RingBuffer::difference_type()'],['../classtlx_1_1StackAllocator.html#af759e047829dd70bb0179ea28755d9ed',1,'tlx::StackAllocator::difference_type()']]]
+  ['delegate',['delegate',['../namespacetlx.html#afacc9643f535d390fd0ead73790a6d56',1,'tlx']]],
+  ['deleter',['Deleter',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ad5b2436249121d5b2803b61bd4a9ca3a',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
+  ['difference_5ftype',['difference_type',['../classtlx_1_1AllocatorBase.html#ace405568d0b2f3fad4990044252c7732',1,'tlx::AllocatorBase::difference_type()'],['../classtlx_1_1RingBuffer.html#a4db1526a7432629938f1aba3203accaa',1,'tlx::RingBuffer::difference_type()'],['../classtlx_1_1StackAllocator.html#ace405568d0b2f3fad4990044252c7732',1,'tlx::StackAllocator::difference_type()']]]
 ];

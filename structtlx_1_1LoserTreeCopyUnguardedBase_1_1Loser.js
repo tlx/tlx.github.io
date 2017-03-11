@@ -1,5 +1,5 @@
 var structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser =
 [
-    [ "key", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html#a7b171d4596cc6974b52c48f0408da022", null ],
-    [ "source", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html#a8447d8772e6643675a24e8f3b902490f", null ]
+    [ "key", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html#aa21e87c8b88d7759ff4af8841c89afe8", null ],
+    [ "source", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html#a6bfef4fd519b1708e99617d59d9c62cd", null ]
 ];

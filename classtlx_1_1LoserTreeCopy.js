@@ -1,7 +1,7 @@
 var classtlx_1_1LoserTreeCopy =
 [
-    [ "Source", "classtlx_1_1LoserTreeCopy.html#acec5b8132de049ff954908a88b2f874f", null ],
-    [ "Super", "classtlx_1_1LoserTreeCopy.html#a17868569abf70216b08519f34eee82ce", null ],
-    [ "LoserTreeCopy", "classtlx_1_1LoserTreeCopy.html#a6296e90c37d6ceeba1e87437ad80ed20", null ],
-    [ "delete_min_insert", "classtlx_1_1LoserTreeCopy.html#a56e1a1b18367c059467a4c37ffadd2ec", null ]
+    [ "Source", "classtlx_1_1LoserTreeCopy.html#a071fda465da2cd47c848c51e802635ed", null ],
+    [ "Super", "classtlx_1_1LoserTreeCopy.html#a65006bcb9b5fed9c6d6f09eadee41bd7", null ],
+    [ "LoserTreeCopy", "classtlx_1_1LoserTreeCopy.html#a18800cc410d9884293c3af7cbda12496", null ],
+    [ "delete_min_insert", "classtlx_1_1LoserTreeCopy.html#a662020d2414024ea935bf7fc67423d26", null ]
 ];

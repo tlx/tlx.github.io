@@ -1,15 +1,15 @@
 var classtlx_1_1LoserTreeCopyUnguardedBase =
 [
     [ "Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser" ],
-    [ "Source", "classtlx_1_1LoserTreeCopyUnguardedBase.html#af225f3e35c5b6498b3dc2a46e4658b41", null ],
-    [ "LoserTreeCopyUnguardedBase", "classtlx_1_1LoserTreeCopyUnguardedBase.html#aaa70ed354c44c2e972d6903a94aacf5b", null ],
-    [ "init", "classtlx_1_1LoserTreeCopyUnguardedBase.html#abbc513dc6201aad1e7abea94032893d0", null ],
-    [ "init_winner", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a877e3a14917714178f63e7b92ec000b3", null ],
-    [ "insert_start", "classtlx_1_1LoserTreeCopyUnguardedBase.html#ab67b96caa98ef45c02ca75feca050a38", null ],
-    [ "min_source", "classtlx_1_1LoserTreeCopyUnguardedBase.html#acb14c6336a92b4e7b46bab4866751bf7", null ],
-    [ "cmp_", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a75adaee0636c21a30f2596a0d9297764", null ],
-    [ "ik_", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a56953101afc8fb3ec7202993a5912115", null ],
-    [ "invalid_", "classtlx_1_1LoserTreeCopyUnguardedBase.html#adf77d78ff25d2c69ab82c1880f77ded7", null ],
-    [ "k_", "classtlx_1_1LoserTreeCopyUnguardedBase.html#ae7fc20c762f0c1a77fe5334c22cd598e", null ],
-    [ "losers_", "classtlx_1_1LoserTreeCopyUnguardedBase.html#af2ec9c9a3b9d9fd26a2c50e887fa809e", null ]
+    [ "Source", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a12092cf92cd4d6e1e7c5fde0fdff07ec", null ],
+    [ "LoserTreeCopyUnguardedBase", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a1ab3df86138384ac8759ef9a868871ef", null ],
+    [ "init", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a02fd73d861ef2e4aabb38c0c9ff82947", null ],
+    [ "init_winner", "classtlx_1_1LoserTreeCopyUnguardedBase.html#af07dfec788574b820da9b1145f9744a6", null ],
+    [ "insert_start", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a2050d2d5506e219a9baf5680c255655b", null ],
+    [ "min_source", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a8238e9afe0b492cfa7c1ec8fb69e078d", null ],
+    [ "cmp_", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a6a24aff5bbc0b80d7c2b02765406586f", null ],
+    [ "ik_", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a06f92e08a8d3b2fe95a11b3100222e98", null ],
+    [ "invalid_", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a12a608acf2b6dc6f3f0dfc25a8ddc8dc", null ],
+    [ "k_", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a5dd0613cf9174c2621a10433acc705a1", null ],
+    [ "losers_", "classtlx_1_1LoserTreeCopyUnguardedBase.html#a5e5ae1b3731e99dd2c3b28f0f5c893dc", null ]
 ];

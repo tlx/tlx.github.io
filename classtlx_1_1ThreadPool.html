@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.3.1"/>
-<title>tlx: tlx::ThreadPool Class Reference</title>
+<title>tlx: ThreadPool Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -50,6 +50,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -99,7 +100,7 @@ $(document).ready(function(){initNavTree('classtlx_1_1ThreadPool.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -116,103 +117,103 @@ $(document).ready(function(){initNavTree('classtlx_1_1ThreadPool.html','');});
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classtlx_1_1ThreadPool-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">tlx::ThreadPool Class Reference</div>  </div>
+<div class="title">ThreadPool Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classtlx_1_1ThreadPool.html" title="ThreadPool starts a fixed number p of std::threads which process Jobs that are enqueued into a concur...">ThreadPool</a> starts a fixed number p of std::threads which process Jobs that are enqueued into a concurrent job queue.  
+<p><a class="el" href="classtlx_1_1ThreadPool.html" title="ThreadPool starts a fixed number p of std::threads which process Jobs that are enqueued into a concur...">ThreadPool</a> starts a fixed number p of std::threads which process Jobs that are <a class="el" href="classtlx_1_1ThreadPool.html#ac0197b1301f4bec0f2421cfe41e9435a">enqueued</a> into a concurrent job queue.  
  <a href="classtlx_1_1ThreadPool.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a4ee92a9ff6c88ad5a25b73005d618dc8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a4ee92a9ff6c88ad5a25b73005d618dc8">Job</a> = <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt; void()&gt;</td></tr>
-<tr class="separator:a4ee92a9ff6c88ad5a25b73005d618dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ff9fe92ae6977ef1694db198a91c7a5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a7ff9fe92ae6977ef1694db198a91c7a5">Job</a> = <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt; void()&gt;</td></tr>
+<tr class="separator:a7ff9fe92ae6977ef1694db198a91c7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae2fd08e8c6b4554ffbf344aaac70b790"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ae2fd08e8c6b4554ffbf344aaac70b790">ThreadPool</a> (size_t num_threads=std::thread::hardware_concurrency())</td></tr>
-<tr class="memdesc:ae2fd08e8c6b4554ffbf344aaac70b790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct running thread pool of num_threads.  <a href="#ae2fd08e8c6b4554ffbf344aaac70b790">More...</a><br/></td></tr>
-<tr class="separator:ae2fd08e8c6b4554ffbf344aaac70b790"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a567d6183bd24e73c05f0e8ecda137686"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a567d6183bd24e73c05f0e8ecda137686">ThreadPool</a> (const <a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> &amp;)=delete</td></tr>
-<tr class="memdesc:a567d6183bd24e73c05f0e8ecda137686"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-copyable: delete copy-constructor  <a href="#a567d6183bd24e73c05f0e8ecda137686">More...</a><br/></td></tr>
-<tr class="separator:a567d6183bd24e73c05f0e8ecda137686"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22651330813d166acd67bb6e3a852d06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a22651330813d166acd67bb6e3a852d06">operator=</a> (const <a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> &amp;)=delete</td></tr>
-<tr class="memdesc:a22651330813d166acd67bb6e3a852d06"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-copyable: delete assignment operator  <a href="#a22651330813d166acd67bb6e3a852d06">More...</a><br/></td></tr>
-<tr class="separator:a22651330813d166acd67bb6e3a852d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14611867fd14385ac1686d57ca37f4a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a14611867fd14385ac1686d57ca37f4a5">~ThreadPool</a> ()</td></tr>
-<tr class="memdesc:a14611867fd14385ac1686d57ca37f4a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop processing jobs, terminate threads.  <a href="#a14611867fd14385ac1686d57ca37f4a5">More...</a><br/></td></tr>
-<tr class="separator:a14611867fd14385ac1686d57ca37f4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a508f66be981200278da96c3977d3ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a1a508f66be981200278da96c3977d3ef">enqueue</a> (<a class="el" href="classtlx_1_1ThreadPool.html#a4ee92a9ff6c88ad5a25b73005d618dc8">Job</a> &amp;&amp;job)</td></tr>
-<tr class="memdesc:a1a508f66be981200278da96c3977d3ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueue a Job, the caller must pass in all context using captures.  <a href="#a1a508f66be981200278da96c3977d3ef">More...</a><br/></td></tr>
-<tr class="separator:a1a508f66be981200278da96c3977d3ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8db532f0d4e7b98070bfe9bdd3f0b544"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a8db532f0d4e7b98070bfe9bdd3f0b544">loop_until_empty</a> ()</td></tr>
-<tr class="memdesc:a8db532f0d4e7b98070bfe9bdd3f0b544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop until no more jobs are in the queue AND all threads are idle.  <a href="#a8db532f0d4e7b98070bfe9bdd3f0b544">More...</a><br/></td></tr>
-<tr class="separator:a8db532f0d4e7b98070bfe9bdd3f0b544"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55a45a768654601584ed4c9761b880b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a55a45a768654601584ed4c9761b880b1">loop_until_terminate</a> ()</td></tr>
-<tr class="memdesc:a55a45a768654601584ed4c9761b880b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop until terminate flag was set.  <a href="#a55a45a768654601584ed4c9761b880b1">More...</a><br/></td></tr>
-<tr class="separator:a55a45a768654601584ed4c9761b880b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9bac7fd4bb8994a635ba13cf7aafa44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ab9bac7fd4bb8994a635ba13cf7aafa44">terminate</a> ()</td></tr>
-<tr class="memdesc:ab9bac7fd4bb8994a635ba13cf7aafa44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminate thread pool gracefully, wait until currently running jobs finish and then exit.  <a href="#ab9bac7fd4bb8994a635ba13cf7aafa44">More...</a><br/></td></tr>
-<tr class="separator:ab9bac7fd4bb8994a635ba13cf7aafa44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a956cf2c2069dccfef517dbb8b8958322"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a956cf2c2069dccfef517dbb8b8958322">done</a> () const </td></tr>
-<tr class="memdesc:a956cf2c2069dccfef517dbb8b8958322"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of jobs currently completed.  <a href="#a956cf2c2069dccfef517dbb8b8958322">More...</a><br/></td></tr>
-<tr class="separator:a956cf2c2069dccfef517dbb8b8958322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae70182c4ad9c7e8a2aa580ca5b52136b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ae70182c4ad9c7e8a2aa580ca5b52136b">size</a> () const </td></tr>
-<tr class="memdesc:ae70182c4ad9c7e8a2aa580ca5b52136b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of threads in pool.  <a href="#ae70182c4ad9c7e8a2aa580ca5b52136b">More...</a><br/></td></tr>
-<tr class="separator:ae70182c4ad9c7e8a2aa580ca5b52136b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b18cc0bea0f7c9858189f6c9c153ed5"><td class="memItemLeft" align="right" valign="top">std::thread &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a4b18cc0bea0f7c9858189f6c9c153ed5">thread</a> (size_t i)</td></tr>
-<tr class="memdesc:a4b18cc0bea0f7c9858189f6c9c153ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return thread handle to thread i.  <a href="#a4b18cc0bea0f7c9858189f6c9c153ed5">More...</a><br/></td></tr>
-<tr class="separator:a4b18cc0bea0f7c9858189f6c9c153ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a652357386d4c67fe3ae6f36459c501be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a652357386d4c67fe3ae6f36459c501be">ThreadPool</a> (size_t num_threads=std::thread::hardware_concurrency())</td></tr>
+<tr class="memdesc:a652357386d4c67fe3ae6f36459c501be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct running thread pool of num_threads.  <a href="#a652357386d4c67fe3ae6f36459c501be">More...</a><br/></td></tr>
+<tr class="separator:a652357386d4c67fe3ae6f36459c501be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6610d680083314d3125628cd00c0348"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ad6610d680083314d3125628cd00c0348">ThreadPool</a> (const <a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> &amp;)=delete</td></tr>
+<tr class="memdesc:ad6610d680083314d3125628cd00c0348"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-copyable: delete copy-constructor  <a href="#ad6610d680083314d3125628cd00c0348">More...</a><br/></td></tr>
+<tr class="separator:ad6610d680083314d3125628cd00c0348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cb89797b85a34e7456d4e05f76b7670"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a9cb89797b85a34e7456d4e05f76b7670">operator=</a> (const <a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> &amp;)=delete</td></tr>
+<tr class="memdesc:a9cb89797b85a34e7456d4e05f76b7670"><td class="mdescLeft">&#160;</td><td class="mdescRight">non-copyable: delete assignment operator  <a href="#a9cb89797b85a34e7456d4e05f76b7670">More...</a><br/></td></tr>
+<tr class="separator:a9cb89797b85a34e7456d4e05f76b7670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad41a30b11a0c9d8566ca1a53b4cf43f6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ad41a30b11a0c9d8566ca1a53b4cf43f6">~ThreadPool</a> ()</td></tr>
+<tr class="memdesc:ad41a30b11a0c9d8566ca1a53b4cf43f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop processing jobs, terminate threads.  <a href="#ad41a30b11a0c9d8566ca1a53b4cf43f6">More...</a><br/></td></tr>
+<tr class="separator:ad41a30b11a0c9d8566ca1a53b4cf43f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0197b1301f4bec0f2421cfe41e9435a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ac0197b1301f4bec0f2421cfe41e9435a">enqueue</a> (<a class="el" href="classtlx_1_1ThreadPool.html#a7ff9fe92ae6977ef1694db198a91c7a5">Job</a> &amp;&amp;job)</td></tr>
+<tr class="memdesc:ac0197b1301f4bec0f2421cfe41e9435a"><td class="mdescLeft">&#160;</td><td class="mdescRight">enqueue a Job, the caller must pass in all context using captures.  <a href="#ac0197b1301f4bec0f2421cfe41e9435a">More...</a><br/></td></tr>
+<tr class="separator:ac0197b1301f4bec0f2421cfe41e9435a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a07bc90245a99944cfe79f9d282bc0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a9a07bc90245a99944cfe79f9d282bc0d">loop_until_empty</a> ()</td></tr>
+<tr class="memdesc:a9a07bc90245a99944cfe79f9d282bc0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop until no more jobs are in the queue AND all threads are idle.  <a href="#a9a07bc90245a99944cfe79f9d282bc0d">More...</a><br/></td></tr>
+<tr class="separator:a9a07bc90245a99944cfe79f9d282bc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0957729c2ffe0e4d65247fbd1880f3ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a0957729c2ffe0e4d65247fbd1880f3ad">loop_until_terminate</a> ()</td></tr>
+<tr class="memdesc:a0957729c2ffe0e4d65247fbd1880f3ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loop until terminate flag was set.  <a href="#a0957729c2ffe0e4d65247fbd1880f3ad">More...</a><br/></td></tr>
+<tr class="separator:a0957729c2ffe0e4d65247fbd1880f3ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74a45d2648335936561898c390281a6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a74a45d2648335936561898c390281a6a">terminate</a> ()</td></tr>
+<tr class="memdesc:a74a45d2648335936561898c390281a6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminate thread pool gracefully, wait until currently running jobs finish and then exit.  <a href="#a74a45d2648335936561898c390281a6a">More...</a><br/></td></tr>
+<tr class="separator:a74a45d2648335936561898c390281a6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab55ecd45f61789b99e299e1cf679ea"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a6ab55ecd45f61789b99e299e1cf679ea">done</a> () const </td></tr>
+<tr class="memdesc:a6ab55ecd45f61789b99e299e1cf679ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of jobs currently completed.  <a href="#a6ab55ecd45f61789b99e299e1cf679ea">More...</a><br/></td></tr>
+<tr class="separator:a6ab55ecd45f61789b99e299e1cf679ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac782da1f912bceb5d8ad00c8dc892ac"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#aac782da1f912bceb5d8ad00c8dc892ac">size</a> () const </td></tr>
+<tr class="memdesc:aac782da1f912bceb5d8ad00c8dc892ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of threads in pool.  <a href="#aac782da1f912bceb5d8ad00c8dc892ac">More...</a><br/></td></tr>
+<tr class="separator:aac782da1f912bceb5d8ad00c8dc892ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f985327d805ba29b03e347335d611d2"><td class="memItemLeft" align="right" valign="top">std::thread &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a4f985327d805ba29b03e347335d611d2">thread</a> (size_t i)</td></tr>
+<tr class="memdesc:a4f985327d805ba29b03e347335d611d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return thread handle to thread i.  <a href="#a4f985327d805ba29b03e347335d611d2">More...</a><br/></td></tr>
+<tr class="separator:a4f985327d805ba29b03e347335d611d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aaf725803115ceb1fcbf95e4e08a059db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#aaf725803115ceb1fcbf95e4e08a059db">worker</a> ()</td></tr>
-<tr class="memdesc:aaf725803115ceb1fcbf95e4e08a059db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker function, one per thread is started.  <a href="#aaf725803115ceb1fcbf95e4e08a059db">More...</a><br/></td></tr>
-<tr class="separator:aaf725803115ceb1fcbf95e4e08a059db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa959a4a5e8a3fa9e2e1b04b8051f38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a3aa959a4a5e8a3fa9e2e1b04b8051f38">worker</a> ()</td></tr>
+<tr class="memdesc:a3aa959a4a5e8a3fa9e2e1b04b8051f38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worker function, one per thread is started.  <a href="#a3aa959a4a5e8a3fa9e2e1b04b8051f38">More...</a><br/></td></tr>
+<tr class="separator:a3aa959a4a5e8a3fa9e2e1b04b8051f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ac17f1db4df5eb8fab5019a0c4d1b4baf"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="classtlx_1_1ThreadPool.html#a4ee92a9ff6c88ad5a25b73005d618dc8">Job</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ac17f1db4df5eb8fab5019a0c4d1b4baf">jobs_</a></td></tr>
-<tr class="memdesc:ac17f1db4df5eb8fab5019a0c4d1b4baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deque of scheduled jobs.  <a href="#ac17f1db4df5eb8fab5019a0c4d1b4baf">More...</a><br/></td></tr>
-<tr class="separator:ac17f1db4df5eb8fab5019a0c4d1b4baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9588bf1a8dc6c92a166b55476a2527"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a9c9588bf1a8dc6c92a166b55476a2527">mutex_</a></td></tr>
-<tr class="memdesc:a9c9588bf1a8dc6c92a166b55476a2527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex used to access the queue of scheduled jobs.  <a href="#a9c9588bf1a8dc6c92a166b55476a2527">More...</a><br/></td></tr>
-<tr class="separator:a9c9588bf1a8dc6c92a166b55476a2527"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af258e90964e4a226a9dc86db8b052163"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; std::thread &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#af258e90964e4a226a9dc86db8b052163">threads_</a></td></tr>
-<tr class="memdesc:af258e90964e4a226a9dc86db8b052163"><td class="mdescLeft">&#160;</td><td class="mdescRight">threads in pool  <a href="#af258e90964e4a226a9dc86db8b052163">More...</a><br/></td></tr>
-<tr class="separator:af258e90964e4a226a9dc86db8b052163"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81a5a0f53cf71631ba37f335ad19e628"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a81a5a0f53cf71631ba37f335ad19e628">cv_jobs_</a></td></tr>
-<tr class="memdesc:a81a5a0f53cf71631ba37f335ad19e628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Condition variable used to notify that a new job has been inserted in the queue.  <a href="#a81a5a0f53cf71631ba37f335ad19e628">More...</a><br/></td></tr>
-<tr class="separator:a81a5a0f53cf71631ba37f335ad19e628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a629f5b68298479df4f511bc9f03782"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a0a629f5b68298479df4f511bc9f03782">cv_finished_</a></td></tr>
-<tr class="memdesc:a0a629f5b68298479df4f511bc9f03782"><td class="mdescLeft">&#160;</td><td class="mdescRight">Condition variable to signal when a jobs finishes.  <a href="#a0a629f5b68298479df4f511bc9f03782">More...</a><br/></td></tr>
-<tr class="separator:a0a629f5b68298479df4f511bc9f03782"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a194ff3567e539fa7dc5ff04eb2a98f4f"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a194ff3567e539fa7dc5ff04eb2a98f4f">busy_</a> = { 0 }</td></tr>
-<tr class="memdesc:a194ff3567e539fa7dc5ff04eb2a98f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for number of threads busy.  <a href="#a194ff3567e539fa7dc5ff04eb2a98f4f">More...</a><br/></td></tr>
-<tr class="separator:a194ff3567e539fa7dc5ff04eb2a98f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2318d7d7b55d5c110edcbef7d381cc5f"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a2318d7d7b55d5c110edcbef7d381cc5f">done_</a> = { 0 }</td></tr>
-<tr class="memdesc:a2318d7d7b55d5c110edcbef7d381cc5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for total number of jobs executed.  <a href="#a2318d7d7b55d5c110edcbef7d381cc5f">More...</a><br/></td></tr>
-<tr class="separator:a2318d7d7b55d5c110edcbef7d381cc5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad691c6e4fb48807795ad0f28893179af"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ad691c6e4fb48807795ad0f28893179af">terminate_</a> = { false }</td></tr>
-<tr class="memdesc:ad691c6e4fb48807795ad0f28893179af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag whether to terminate.  <a href="#ad691c6e4fb48807795ad0f28893179af">More...</a><br/></td></tr>
-<tr class="separator:ad691c6e4fb48807795ad0f28893179af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa85aa94b00dd9400cf594c8509470a04"><td class="memItemLeft" align="right" valign="top">std::deque&lt; <a class="el" href="classtlx_1_1ThreadPool.html#a7ff9fe92ae6977ef1694db198a91c7a5">Job</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#aa85aa94b00dd9400cf594c8509470a04">jobs_</a></td></tr>
+<tr class="memdesc:aa85aa94b00dd9400cf594c8509470a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deque of scheduled jobs.  <a href="#aa85aa94b00dd9400cf594c8509470a04">More...</a><br/></td></tr>
+<tr class="separator:aa85aa94b00dd9400cf594c8509470a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a281b5ec791338d4378e22ef44a51b4a1"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a281b5ec791338d4378e22ef44a51b4a1">mutex_</a></td></tr>
+<tr class="memdesc:a281b5ec791338d4378e22ef44a51b4a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mutex used to access the queue of scheduled jobs.  <a href="#a281b5ec791338d4378e22ef44a51b4a1">More...</a><br/></td></tr>
+<tr class="separator:a281b5ec791338d4378e22ef44a51b4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1381729bb622c2600b5c489bd9cf2d4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; std::thread &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a1381729bb622c2600b5c489bd9cf2d4f">threads_</a></td></tr>
+<tr class="memdesc:a1381729bb622c2600b5c489bd9cf2d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">threads in pool  <a href="#a1381729bb622c2600b5c489bd9cf2d4f">More...</a><br/></td></tr>
+<tr class="separator:a1381729bb622c2600b5c489bd9cf2d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631f3ec1b194da2fb848e15235f0ae88"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a631f3ec1b194da2fb848e15235f0ae88">cv_jobs_</a></td></tr>
+<tr class="memdesc:a631f3ec1b194da2fb848e15235f0ae88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Condition variable used to notify that a new job has been inserted in the queue.  <a href="#a631f3ec1b194da2fb848e15235f0ae88">More...</a><br/></td></tr>
+<tr class="separator:a631f3ec1b194da2fb848e15235f0ae88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada11126249a7bb96ff34e263a5cdd1f0"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ada11126249a7bb96ff34e263a5cdd1f0">cv_finished_</a></td></tr>
+<tr class="memdesc:ada11126249a7bb96ff34e263a5cdd1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Condition variable to signal when a jobs finishes.  <a href="#ada11126249a7bb96ff34e263a5cdd1f0">More...</a><br/></td></tr>
+<tr class="separator:ada11126249a7bb96ff34e263a5cdd1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fae67bd9af7e2f50a8175611aff1b96"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a0fae67bd9af7e2f50a8175611aff1b96">busy_</a> = { 0 }</td></tr>
+<tr class="memdesc:a0fae67bd9af7e2f50a8175611aff1b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for number of threads busy.  <a href="#a0fae67bd9af7e2f50a8175611aff1b96">More...</a><br/></td></tr>
+<tr class="separator:a0fae67bd9af7e2f50a8175611aff1b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18e1ce640131051703d238c31d041f30"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a18e1ce640131051703d238c31d041f30">done_</a> = { 0 }</td></tr>
+<tr class="memdesc:a18e1ce640131051703d238c31d041f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for total number of jobs executed.  <a href="#a18e1ce640131051703d238c31d041f30">More...</a><br/></td></tr>
+<tr class="separator:a18e1ce640131051703d238c31d041f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c7c161ce42f7ccc3184d9bec18fa969"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a5c7c161ce42f7ccc3184d9bec18fa969">terminate_</a> = { false }</td></tr>
+<tr class="memdesc:a5c7c161ce42f7ccc3184d9bec18fa969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag whether to terminate.  <a href="#a5c7c161ce42f7ccc3184d9bec18fa969">More...</a><br/></td></tr>
+<tr class="separator:a5c7c161ce42f7ccc3184d9bec18fa969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classtlx_1_1ThreadPool.html" title="ThreadPool starts a fixed number p of std::threads which process Jobs that are enqueued into a concur...">ThreadPool</a> starts a fixed number p of std::threads which process Jobs that are enqueued into a concurrent job queue. </p>
+<div class="textblock"><p><a class="el" href="classtlx_1_1ThreadPool.html" title="ThreadPool starts a fixed number p of std::threads which process Jobs that are enqueued into a concur...">ThreadPool</a> starts a fixed number p of std::threads which process Jobs that are <a class="el" href="classtlx_1_1ThreadPool.html#ac0197b1301f4bec0f2421cfe41e9435a">enqueued</a> into a concurrent job queue. </p>
 <p>The jobs themselves can enqueue more jobs that will be processed when a thread is ready.</p>
 <p>The <a class="el" href="classtlx_1_1ThreadPool.html" title="ThreadPool starts a fixed number p of std::threads which process Jobs that are enqueued into a concur...">ThreadPool</a> can either run until</p>
 <ol type="1">
-<li>all jobs are done AND all threads are idle, when called with <a class="el" href="classtlx_1_1ThreadPool.html#a8db532f0d4e7b98070bfe9bdd3f0b544" title="Loop until no more jobs are in the queue AND all threads are idle.">loop_until_empty()</a>, or</li>
+<li>all jobs are done AND all threads are idle, when called with <a class="el" href="classtlx_1_1ThreadPool.html#a9a07bc90245a99944cfe79f9d282bc0d" title="Loop until no more jobs are in the queue AND all threads are idle.">loop_until_empty()</a>, or</li>
 </ol>
 <ol type="1">
-<li>until Terminate() is called when run with <a class="el" href="classtlx_1_1ThreadPool.html#a55a45a768654601584ed4c9761b880b1" title="Loop until terminate flag was set.">loop_until_terminate()</a>.</li>
+<li>until Terminate() is called when run with <a class="el" href="classtlx_1_1ThreadPool.html#a0957729c2ffe0e4d65247fbd1880f3ad" title="Loop until terminate flag was set.">loop_until_terminate()</a>.</li>
 </ol>
 <p>Jobs are plain <a class="el" href="classtlx_1_1Delegate.html">tlx::Delegate</a>&lt;void()&gt; objects, hence the pool user must pass in ALL CONTEXT himself. The best method to pass parameters to Jobs is to use lambda captures. Alternatively, old-school objects implementing operator(), or std::binds can be used.</p>
 <p>The <a class="el" href="classtlx_1_1ThreadPool.html" title="ThreadPool starts a fixed number p of std::threads which process Jobs that are enqueued into a concur...">ThreadPool</a> uses a condition variable to wait for new jobs and does not remain busy waiting.</p>
-<p>Note that the threads in the pool start <b>before</b> the two loop functions are called. In case of <a class="el" href="classtlx_1_1ThreadPool.html#a8db532f0d4e7b98070bfe9bdd3f0b544" title="Loop until no more jobs are in the queue AND all threads are idle.">loop_until_empty()</a> the threads continue to be idle afterwards, and can be reused, until the <a class="el" href="classtlx_1_1ThreadPool.html" title="ThreadPool starts a fixed number p of std::threads which process Jobs that are enqueued into a concur...">ThreadPool</a> is destroyed.</p>
-<div class="fragment"><div class="line"><a class="code" href="classtlx_1_1ThreadPool.html#ae2fd08e8c6b4554ffbf344aaac70b790" title="Construct running thread pool of num_threads.">ThreadPool</a> pool(4); <span class="comment">// pool with 4 threads</span></div>
+<p>Note that the threads in the pool start <b>before</b> the two loop functions are called. In case of <a class="el" href="classtlx_1_1ThreadPool.html#a9a07bc90245a99944cfe79f9d282bc0d" title="Loop until no more jobs are in the queue AND all threads are idle.">loop_until_empty()</a> the threads continue to be idle afterwards, and can be reused, until the <a class="el" href="classtlx_1_1ThreadPool.html" title="ThreadPool starts a fixed number p of std::threads which process Jobs that are enqueued into a concur...">ThreadPool</a> is destroyed.</p>
+<div class="fragment"><div class="line"><a class="code" href="classtlx_1_1ThreadPool.html#a652357386d4c67fe3ae6f36459c501be" title="Construct running thread pool of num_threads.">ThreadPool</a> pool(4); <span class="comment">// pool with 4 threads</span></div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">int</span> value = 0;</div>
 <div class="line">pool.enqueue([&amp;value]() {</div>
@@ -221,33 +222,25 @@ Private Attributes</h2></td></tr>
 <div class="line">});</div>
 <div class="line"></div>
 <div class="line">pool.loop_until_empty();</div>
-</div><!-- fragment --><h2>Synchronization Primitives</h2>
-<p>Beyond threads from the <a class="el" href="classtlx_1_1ThreadPool.html" title="ThreadPool starts a fixed number p of std::threads which process Jobs that are enqueued into a concur...">ThreadPool</a>, the framework contains two fast synchronized queue containers:</p>
-<ul>
-<li>ConcurrentQueue</li>
-<li>ConcurrentBoundedQueue.</li>
-</ul>
-<p>If the Intel Thread Building Blocks are available, then these use their lock-free implementations, which are very fast, but do busy-waiting for items. Otherwise, compatible replacements are used.</p>
-<p>The ConcurrentQueue has no busy-waiting pop(), only a try_pop() method. This should be preferred! The ConcurrentBoundedQueue&lt;T&gt; has a blocking pop(), but it probably does busy-waiting. </p>
-
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00079">79</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+</div><!-- fragment --> 
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00064">64</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="a4ee92a9ff6c88ad5a25b73005d618dc8"></a>
+<a class="anchor" id="a7ff9fe92ae6977ef1694db198a91c7a5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1ThreadPool.html#a4ee92a9ff6c88ad5a25b73005d618dc8">tlx::ThreadPool::Job</a> =  <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt;void()&gt;</td>
+          <td class="memname">using <a class="el" href="classtlx_1_1ThreadPool.html#a7ff9fe92ae6977ef1694db198a91c7a5">Job</a> =  <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt;void()&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00082">82</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00067">67</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ae2fd08e8c6b4554ffbf344aaac70b790"></a>
+<a class="anchor" id="a652357386d4c67fe3ae6f36459c501be"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -255,7 +248,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">tlx::ThreadPool::ThreadPool </td>
+          <td class="memname"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>num_threads</em> = <code>std::thread::hardware_concurrency()</code></td><td>)</td>
@@ -275,7 +268,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a567d6183bd24e73c05f0e8ecda137686"></a>
+<a class="anchor" id="ad6610d680083314d3125628cd00c0348"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -283,7 +276,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">tlx::ThreadPool::ThreadPool </td>
+          <td class="memname"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -301,12 +294,12 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a14611867fd14385ac1686d57ca37f4a5"></a>
+<a class="anchor" id="ad41a30b11a0c9d8566ca1a53b4cf43f6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">tlx::ThreadPool::~ThreadPool </td>
+          <td class="memname">~<a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -321,7 +314,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a956cf2c2069dccfef517dbb8b8958322"></a>
+<a class="anchor" id="a6ab55ecd45f61789b99e299e1cf679ea"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -329,7 +322,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t tlx::ThreadPool::done </td>
+          <td class="memname">size_t done </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -344,11 +337,11 @@ Private Attributes</h2></td></tr>
 
 <p>Return number of jobs currently completed. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00141">141</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00126">126</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1a508f66be981200278da96c3977d3ef"></a>
+<a class="anchor" id="ac0197b1301f4bec0f2421cfe41e9435a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -356,9 +349,9 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void tlx::ThreadPool::enqueue </td>
+          <td class="memname">void enqueue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1ThreadPool.html#a4ee92a9ff6c88ad5a25b73005d618dc8">Job</a> &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1ThreadPool.html#a7ff9fe92ae6977ef1694db198a91c7a5">Job</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>job</em></td><td>)</td>
           <td></td>
         </tr>
@@ -370,18 +363,18 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Enqueue a Job, the caller must pass in all context using captures. </p>
+<p>enqueue a Job, the caller must pass in all context using captures. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00122">122</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00107">107</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8db532f0d4e7b98070bfe9bdd3f0b544"></a>
+<a class="anchor" id="a9a07bc90245a99944cfe79f9d282bc0d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void tlx::ThreadPool::loop_until_empty </td>
+          <td class="memname">void loop_until_empty </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -396,12 +389,12 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a55a45a768654601584ed4c9761b880b1"></a>
+<a class="anchor" id="a0957729c2ffe0e4d65247fbd1880f3ad"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void tlx::ThreadPool::loop_until_terminate </td>
+          <td class="memname">void loop_until_terminate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -415,7 +408,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a22651330813d166acd67bb6e3a852d06"></a>
+<a class="anchor" id="a9cb89797b85a34e7456d4e05f76b7670"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -423,7 +416,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a>&amp; tlx::ThreadPool::operator= </td>
+          <td class="memname"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a>&amp; operator= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -441,7 +434,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae70182c4ad9c7e8a2aa580ca5b52136b"></a>
+<a class="anchor" id="aac782da1f912bceb5d8ad00c8dc892ac"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -449,7 +442,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t tlx::ThreadPool::size </td>
+          <td class="memname">size_t size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -464,16 +457,16 @@ Private Attributes</h2></td></tr>
 
 <p>Return number of threads in pool. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00144">144</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00129">129</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab9bac7fd4bb8994a635ba13cf7aafa44"></a>
+<a class="anchor" id="a74a45d2648335936561898c390281a6a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void tlx::ThreadPool::terminate </td>
+          <td class="memname">void terminate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -488,7 +481,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4b18cc0bea0f7c9858189f6c9c153ed5"></a>
+<a class="anchor" id="a4f985327d805ba29b03e347335d611d2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -496,7 +489,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::thread&amp; tlx::ThreadPool::thread </td>
+          <td class="memname">std::thread&amp; thread </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -512,11 +505,11 @@ Private Attributes</h2></td></tr>
 
 <p>Return thread handle to thread i. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00147">147</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00132">132</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aaf725803115ceb1fcbf95e4e08a059db"></a>
+<a class="anchor" id="a3aa959a4a5e8a3fa9e2e1b04b8051f38"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -524,7 +517,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void tlx::ThreadPool::worker </td>
+          <td class="memname">void worker </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -544,7 +537,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a194ff3567e539fa7dc5ff04eb2a98f4f"></a>
+<a class="anchor" id="a0fae67bd9af7e2f50a8175611aff1b96"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -552,7 +545,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;size_t&gt; tlx::ThreadPool::busy_ = { 0 }</td>
+          <td class="memname">std::atomic&lt;size_t&gt; busy_ = { 0 }</td>
         </tr>
       </table>
   </td>
@@ -564,11 +557,11 @@ Private Attributes</h2></td></tr>
 
 <p>Counter for number of threads busy. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00101">101</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00086">86</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a0a629f5b68298479df4f511bc9f03782"></a>
+<a class="anchor" id="ada11126249a7bb96ff34e263a5cdd1f0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -576,7 +569,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::condition_variable tlx::ThreadPool::cv_finished_</td>
+          <td class="memname">std::condition_variable cv_finished_</td>
         </tr>
       </table>
   </td>
@@ -588,11 +581,11 @@ Private Attributes</h2></td></tr>
 
 <p>Condition variable to signal when a jobs finishes. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00098">98</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00083">83</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a81a5a0f53cf71631ba37f335ad19e628"></a>
+<a class="anchor" id="a631f3ec1b194da2fb848e15235f0ae88"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -600,7 +593,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::condition_variable tlx::ThreadPool::cv_jobs_</td>
+          <td class="memname">std::condition_variable cv_jobs_</td>
         </tr>
       </table>
   </td>
@@ -612,11 +605,11 @@ Private Attributes</h2></td></tr>
 
 <p>Condition variable used to notify that a new job has been inserted in the queue. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00096">96</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00081">81</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a2318d7d7b55d5c110edcbef7d381cc5f"></a>
+<a class="anchor" id="a18e1ce640131051703d238c31d041f30"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -624,7 +617,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;size_t&gt; tlx::ThreadPool::done_ = { 0 }</td>
+          <td class="memname">std::atomic&lt;size_t&gt; done_ = { 0 }</td>
         </tr>
       </table>
   </td>
@@ -636,11 +629,11 @@ Private Attributes</h2></td></tr>
 
 <p>Counter for total number of jobs executed. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00103">103</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00088">88</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac17f1db4df5eb8fab5019a0c4d1b4baf"></a>
+<a class="anchor" id="aa85aa94b00dd9400cf594c8509470a04"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -648,7 +641,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::deque&lt;<a class="el" href="classtlx_1_1ThreadPool.html#a4ee92a9ff6c88ad5a25b73005d618dc8">Job</a>&gt; tlx::ThreadPool::jobs_</td>
+          <td class="memname">std::deque&lt;<a class="el" href="classtlx_1_1ThreadPool.html#a7ff9fe92ae6977ef1694db198a91c7a5">Job</a>&gt; jobs_</td>
         </tr>
       </table>
   </td>
@@ -660,11 +653,11 @@ Private Attributes</h2></td></tr>
 
 <p>Deque of scheduled jobs. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00086">86</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00071">71</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9c9588bf1a8dc6c92a166b55476a2527"></a>
+<a class="anchor" id="a281b5ec791338d4378e22ef44a51b4a1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -672,7 +665,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::mutex tlx::ThreadPool::mutex_</td>
+          <td class="memname">std::mutex mutex_</td>
         </tr>
       </table>
   </td>
@@ -684,11 +677,11 @@ Private Attributes</h2></td></tr>
 
 <p>Mutex used to access the queue of scheduled jobs. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00089">89</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00074">74</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad691c6e4fb48807795ad0f28893179af"></a>
+<a class="anchor" id="a5c7c161ce42f7ccc3184d9bec18fa969"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -696,7 +689,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;bool&gt; tlx::ThreadPool::terminate_ = { false }</td>
+          <td class="memname">std::atomic&lt;bool&gt; terminate_ = { false }</td>
         </tr>
       </table>
   </td>
@@ -708,11 +701,11 @@ Private Attributes</h2></td></tr>
 
 <p>Flag whether to terminate. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00106">106</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00091">91</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af258e90964e4a226a9dc86db8b052163"></a>
+<a class="anchor" id="a1381729bb622c2600b5c489bd9cf2d4f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -720,7 +713,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt;std::thread&gt; tlx::ThreadPool::threads_</td>
+          <td class="memname"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt;std::thread&gt; threads_</td>
         </tr>
       </table>
   </td>
@@ -732,7 +725,7 @@ Private Attributes</h2></td></tr>
 
 <p>threads in pool </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00092">92</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00077">77</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
@@ -746,7 +739,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a></li>
-    <li class="footer">Generated on Sat Mar 11 2017 16:53:34 for tlx by
+    <li class="footer">Generated on Sat Mar 11 2017 23:15:30 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

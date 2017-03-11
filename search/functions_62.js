@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['back',['back',['../classtlx_1_1RingBuffer.html#a85469023a79a668328e49665c325abd1',1,'tlx::RingBuffer::back() noexcept'],['../classtlx_1_1RingBuffer.html#adc379479cc0314842b88afd88c2d2b08',1,'tlx::RingBuffer::back() const noexcept']]],
-  ['base64_5fdecode',['base64_decode',['../namespacetlx.html#ac81eee6726695191b838c71cfab87775',1,'tlx::base64_decode(const void *data, size_t size, bool strict=true)'],['../namespacetlx.html#acf60ffb92fd69bd1daf92ce2c30ce5d9',1,'tlx::base64_decode(const std::string &amp;str, bool strict=true)']]],
-  ['base64_5fencode',['base64_encode',['../namespacetlx.html#ab2dd5bc7b975d74e87f79590c14d761f',1,'tlx::base64_encode(const void *data, size_t size, size_t line_break=0)'],['../namespacetlx.html#af8aa4ba3081a5e44addd2a616877d4d6',1,'tlx::base64_encode(const std::string &amp;str, size_t line_break=0)']]],
-  ['begin',['begin',['../classtlx_1_1SimpleVector.html#aac88e121be7c81e672bb54c41aa37ff8',1,'tlx::SimpleVector::begin() noexcept'],['../classtlx_1_1SimpleVector.html#a34a550f0370003f3328b4d9ff45f6e4e',1,'tlx::SimpleVector::begin() const noexcept']]]
+  ['back',['back',['../classtlx_1_1RingBuffer.html#a9870425783540b4ca3fe8052772fcaa8',1,'tlx::RingBuffer::back() noexcept'],['../classtlx_1_1RingBuffer.html#afc77f0e3f44c6712f6bf4aa5f452a99f',1,'tlx::RingBuffer::back() const noexcept']]],
+  ['base64_5fdecode',['base64_decode',['../group__string.html#gac2775fbea220f27325aba0f8af1cc9a8',1,'tlx::base64_decode(const void *data, size_t size, bool strict=true)'],['../group__string.html#gabe1e973cd3a2d5b7e55544d4c616da49',1,'tlx::base64_decode(const std::string &amp;str, bool strict=true)']]],
+  ['base64_5fencode',['base64_encode',['../group__string.html#ga691477f59c8496eec65e994ce3f6e6e5',1,'tlx::base64_encode(const void *data, size_t size, size_t line_break=0)'],['../group__string.html#ga16a12f591febaeddffd2ffca031c8bf4',1,'tlx::base64_encode(const std::string &amp;str, size_t line_break=0)']]],
+  ['begin',['begin',['../classtlx_1_1SimpleVector.html#a979556eb331ec35eb33472a90a160f99',1,'tlx::SimpleVector::begin() noexcept'],['../classtlx_1_1SimpleVector.html#a1ca1fc2c9fc3e169d5d0decfd1e54221',1,'tlx::SimpleVector::begin() const noexcept']]]
 ];

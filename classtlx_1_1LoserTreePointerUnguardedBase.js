@@ -1,17 +1,17 @@
 var classtlx_1_1LoserTreePointerUnguardedBase =
 [
     [ "Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser" ],
-    [ "Source", "classtlx_1_1LoserTreePointerUnguardedBase.html#abdfc62a30ffd4643cc2b5428b3303f12", null ],
-    [ "LoserTreePointerUnguardedBase", "classtlx_1_1LoserTreePointerUnguardedBase.html#ae941693e8e1a8bb9dd5c152af41762db", null ],
-    [ "LoserTreePointerUnguardedBase", "classtlx_1_1LoserTreePointerUnguardedBase.html#ab9d89d87607109b4f1354e36eabd1af5", null ],
-    [ "init", "classtlx_1_1LoserTreePointerUnguardedBase.html#aa271da4bd313ccde51bd34c664d8b3b1", null ],
-    [ "init_winner", "classtlx_1_1LoserTreePointerUnguardedBase.html#a93e299d52ec8285c37d879eb37c9917f", null ],
-    [ "insert_start", "classtlx_1_1LoserTreePointerUnguardedBase.html#a2f5fbc57e3871952b49c55b1433a8904", null ],
-    [ "min_source", "classtlx_1_1LoserTreePointerUnguardedBase.html#aaacc0a8332c487060811d247e65a15b7", null ],
-    [ "operator=", "classtlx_1_1LoserTreePointerUnguardedBase.html#a5507763f6b5c102984674a5dbf62bf1a", null ],
-    [ "cmp_", "classtlx_1_1LoserTreePointerUnguardedBase.html#abecf1420875422c2c5cf23856352de2a", null ],
-    [ "ik_", "classtlx_1_1LoserTreePointerUnguardedBase.html#a3d04b5a6c2608be3d6cb8cdbce634f86", null ],
-    [ "invalid_", "classtlx_1_1LoserTreePointerUnguardedBase.html#a05546ab454df9a45aa8db6d2fa1008de", null ],
-    [ "k_", "classtlx_1_1LoserTreePointerUnguardedBase.html#a7542017c980074ec5882a338fb9b0329", null ],
-    [ "losers_", "classtlx_1_1LoserTreePointerUnguardedBase.html#adc9e91592fb13cde8ad02a822a26ca1d", null ]
+    [ "Source", "classtlx_1_1LoserTreePointerUnguardedBase.html#a12092cf92cd4d6e1e7c5fde0fdff07ec", null ],
+    [ "LoserTreePointerUnguardedBase", "classtlx_1_1LoserTreePointerUnguardedBase.html#a078f728ee1a8e2b903a86598eaf85d8a", null ],
+    [ "LoserTreePointerUnguardedBase", "classtlx_1_1LoserTreePointerUnguardedBase.html#abc941e5da1b62a3a51230e5782e39dd0", null ],
+    [ "init", "classtlx_1_1LoserTreePointerUnguardedBase.html#a02fd73d861ef2e4aabb38c0c9ff82947", null ],
+    [ "init_winner", "classtlx_1_1LoserTreePointerUnguardedBase.html#af07dfec788574b820da9b1145f9744a6", null ],
+    [ "insert_start", "classtlx_1_1LoserTreePointerUnguardedBase.html#a2050d2d5506e219a9baf5680c255655b", null ],
+    [ "min_source", "classtlx_1_1LoserTreePointerUnguardedBase.html#a8238e9afe0b492cfa7c1ec8fb69e078d", null ],
+    [ "operator=", "classtlx_1_1LoserTreePointerUnguardedBase.html#affada072329f43529d22f73b37067f1a", null ],
+    [ "cmp_", "classtlx_1_1LoserTreePointerUnguardedBase.html#a6a24aff5bbc0b80d7c2b02765406586f", null ],
+    [ "ik_", "classtlx_1_1LoserTreePointerUnguardedBase.html#a06f92e08a8d3b2fe95a11b3100222e98", null ],
+    [ "invalid_", "classtlx_1_1LoserTreePointerUnguardedBase.html#a12a608acf2b6dc6f3f0dfc25a8ddc8dc", null ],
+    [ "k_", "classtlx_1_1LoserTreePointerUnguardedBase.html#a5dd0613cf9174c2621a10433acc705a1", null ],
+    [ "losers_", "classtlx_1_1LoserTreePointerUnguardedBase.html#a5e5ae1b3731e99dd2c3b28f0f5c893dc", null ]
 ];

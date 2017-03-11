@@ -1,5 +1,5 @@
 var classtlx_1_1Log2_3_010_01_4 =
 [
-    [ "floor", "classtlx_1_1Log2_3_010_01_4.html#a43aff8ab61ed588d3e95fdfa2b30f407a2942be43e79b504c62138ca85d134a44", null ],
-    [ "ceil", "classtlx_1_1Log2_3_010_01_4.html#a43aff8ab61ed588d3e95fdfa2b30f407a405557d4a9f202029e82016dd654e91c", null ]
+    [ "floor", "classtlx_1_1Log2_3_010_01_4.html#a61dadd085c1777f559549e05962b2c9eaa2cd0f2689920d3196cebb39ef6f9afb", null ],
+    [ "ceil", "classtlx_1_1Log2_3_010_01_4.html#a61dadd085c1777f559549e05962b2c9ea767a00e87322d8125073a77598ee1f97", null ]
 ];

@@ -50,6 +50,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -97,7 +98,7 @@ $(document).ready(function(){initNavTree('namespacetlx_1_1detail.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +112,7 @@ $(document).ready(function(){initNavTree('namespacetlx_1_1detail.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">tlx::detail Namespace Reference</div>  </div>
+<div class="title">tlx::detail Namespace Reference<div class="ingroups"><a class="el" href="group__meta.html">Meta-Template Programming</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -203,8 +204,6 @@ Functions</h2></td></tr>
 <a class="anchor" id="ad9746dc2ad8271c539cc24ca9f840dcd"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto tlx::detail::apply_tuple_impl </td>
@@ -232,7 +231,7 @@ template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="apply__tuple_8hpp_source.html#l00027">27</a> of file <a class="el" href="apply__tuple_8hpp_source.html">apply_tuple.hpp</a>.</p>
+<p>Definition at line <a class="el" href="apply__tuple_8hpp_source.html#l00030">30</a> of file <a class="el" href="apply__tuple_8hpp_source.html">apply_tuple.hpp</a>.</p>
 
 </div>
 </div>
@@ -259,15 +258,13 @@ template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </div>
 
 <p>Base case for the chaining of functors: zero functors, returns the identity. </p>
 
-<p>Definition at line <a class="el" href="function__chain_8hpp_source.html#l00031">31</a> of file <a class="el" href="function__chain_8hpp_source.html">function_chain.hpp</a>.</p>
+<p>Definition at line <a class="el" href="function__chain_8hpp_source.html#l00034">34</a> of file <a class="el" href="function__chain_8hpp_source.html">function_chain.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a14e3561331bf67f5667d5b0e0fd9fcc0"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto tlx::detail::call_chain </td>
@@ -288,15 +285,13 @@ template&lt;typename Functor &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="function__chain_8hpp_source.html#l00044">44</a> of file <a class="el" href="function__chain_8hpp_source.html">function_chain.hpp</a>.</p>
+<p>Definition at line <a class="el" href="function__chain_8hpp_source.html#l00047">47</a> of file <a class="el" href="function__chain_8hpp_source.html">function_chain.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a72c615079fcce30a812382955593cab2"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor , typename... MoreFunctors&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto tlx::detail::call_chain </td>
@@ -328,15 +323,13 @@ template&lt;typename Functor , typename... MoreFunctors&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="function__chain_8hpp_source.html#l00061">61</a> of file <a class="el" href="function__chain_8hpp_source.html">function_chain.hpp</a>.</p>
+<p>Definition at line <a class="el" href="function__chain_8hpp_source.html#l00064">64</a> of file <a class="el" href="function__chain_8hpp_source.html">function_chain.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a291543f51590e77d1bcf133018d112c6"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor , typename Arg &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void tlx::detail::call_foreach_impl </td>
@@ -360,15 +353,13 @@ template&lt;typename Functor , typename Arg &gt; </div>
 
 <p>helper for call_foreach: base case </p>
 
-<p>Definition at line <a class="el" href="call__foreach_8hpp_source.html#l00026">26</a> of file <a class="el" href="call__foreach_8hpp_source.html">call_foreach.hpp</a>.</p>
+<p>Definition at line <a class="el" href="call__foreach_8hpp_source.html#l00029">29</a> of file <a class="el" href="call__foreach_8hpp_source.html">call_foreach.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="ab260f6c5433e64d9128c31a037c6f72c"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor , typename Arg , typename... MoreArgs&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void tlx::detail::call_foreach_impl </td>
@@ -398,15 +389,13 @@ template&lt;typename Functor , typename Arg , typename... MoreArgs&gt; </div>
 
 <p>helper for call_foreach: general recursive case </p>
 
-<p>Definition at line <a class="el" href="call__foreach_8hpp_source.html#l00032">32</a> of file <a class="el" href="call__foreach_8hpp_source.html">call_foreach.hpp</a>.</p>
+<p>Definition at line <a class="el" href="call__foreach_8hpp_source.html#l00035">35</a> of file <a class="el" href="call__foreach_8hpp_source.html">call_foreach.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a4b0e45d89e23ce5cb6673089a5eb9d67"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void tlx::detail::call_foreach_tuple_impl </td>
@@ -436,15 +425,13 @@ template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </div>
 
 <p>helper for call_foreach_tuple </p>
 
-<p>Definition at line <a class="el" href="call__foreach__tuple_8hpp_source.html#l00031">31</a> of file <a class="el" href="call__foreach__tuple_8hpp_source.html">call_foreach_tuple.hpp</a>.</p>
+<p>Definition at line <a class="el" href="call__foreach__tuple_8hpp_source.html#l00034">34</a> of file <a class="el" href="call__foreach__tuple_8hpp_source.html">call_foreach_tuple.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a2e6aac3a9add94f6aa8dece1a9774243"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void tlx::detail::call_foreach_tuple_with_index_impl </td>
@@ -474,15 +461,13 @@ template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </div>
 
 <p>helper for call_foreach_tuple_with_index </p>
 
-<p>Definition at line <a class="el" href="call__foreach__tuple__with__index_8hpp_source.html#l00031">31</a> of file <a class="el" href="call__foreach__tuple__with__index_8hpp_source.html">call_foreach_tuple_with_index.hpp</a>.</p>
+<p>Definition at line <a class="el" href="call__foreach__tuple__with__index_8hpp_source.html#l00034">34</a> of file <a class="el" href="call__foreach__tuple__with__index_8hpp_source.html">call_foreach_tuple_with_index.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a6b987a149b4cb462d12092eaa81eb074"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;size_t Index, typename Functor , typename Arg &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void tlx::detail::call_foreach_with_index_impl </td>
@@ -506,15 +491,13 @@ template&lt;size_t Index, typename Functor , typename Arg &gt; </div>
 
 <p>helper for call_foreach_with_index: base case </p>
 
-<p>Definition at line <a class="el" href="call__foreach__with__index_8hpp_source.html#l00030">30</a> of file <a class="el" href="call__foreach__with__index_8hpp_source.html">call_foreach_with_index.hpp</a>.</p>
+<p>Definition at line <a class="el" href="call__foreach__with__index_8hpp_source.html#l00033">33</a> of file <a class="el" href="call__foreach__with__index_8hpp_source.html">call_foreach_with_index.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a17a39fc67bb095c789ca5e5418190350"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;size_t Index, typename Functor , typename Arg , typename... MoreArgs&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void tlx::detail::call_foreach_with_index_impl </td>
@@ -544,15 +527,13 @@ template&lt;size_t Index, typename Functor , typename Arg , typename... MoreArgs
 
 <p>helper for call_foreach_with_index: general recursive case </p>
 
-<p>Definition at line <a class="el" href="call__foreach__with__index_8hpp_source.html#l00036">36</a> of file <a class="el" href="call__foreach__with__index_8hpp_source.html">call_foreach_with_index.hpp</a>.</p>
+<p>Definition at line <a class="el" href="call__foreach__with__index_8hpp_source.html#l00039">39</a> of file <a class="el" href="call__foreach__with__index_8hpp_source.html">call_foreach_with_index.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="ac0634b28a4f6406a96d06cab0abe0fca"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto tlx::detail::call_stack </td>
@@ -573,15 +554,13 @@ template&lt;typename Functor &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="function__stack_8hpp_source.html#l00039">39</a> of file <a class="el" href="function__stack_8hpp_source.html">function_stack.hpp</a>.</p>
+<p>Definition at line <a class="el" href="function__stack_8hpp_source.html#l00042">42</a> of file <a class="el" href="function__stack_8hpp_source.html">function_stack.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="af4e178df89faba2de429c84ca06c3187"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor , typename... MoreFunctors&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto tlx::detail::call_stack </td>
@@ -613,15 +592,13 @@ template&lt;typename Functor , typename... MoreFunctors&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="function__stack_8hpp_source.html#l00058">58</a> of file <a class="el" href="function__stack_8hpp_source.html">function_stack.hpp</a>.</p>
+<p>Definition at line <a class="el" href="function__stack_8hpp_source.html#l00061">61</a> of file <a class="el" href="function__stack_8hpp_source.html">function_stack.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a72bff64b5f65147c10f9fb21ef28659f"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor , typename Arg &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto tlx::detail::vmap_foreach_impl </td>
@@ -645,15 +622,13 @@ template&lt;typename Functor , typename Arg &gt; </div>
 
 <p>helper for vmap_foreach: base case </p>
 
-<p>Definition at line <a class="el" href="vmap__foreach_8hpp_source.html#l00028">28</a> of file <a class="el" href="vmap__foreach_8hpp_source.html">vmap_foreach.hpp</a>.</p>
+<p>Definition at line <a class="el" href="vmap__foreach_8hpp_source.html#l00031">31</a> of file <a class="el" href="vmap__foreach_8hpp_source.html">vmap_foreach.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="ae382be4a86007636b92d35d347959ca7"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Functor , typename Arg , typename... MoreArgs&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto tlx::detail::vmap_foreach_impl </td>
@@ -683,15 +658,13 @@ template&lt;typename Functor , typename Arg , typename... MoreArgs&gt; </div>
 
 <p>helper for vmap_foreach: general recursive case </p>
 
-<p>Definition at line <a class="el" href="vmap__foreach_8hpp_source.html#l00035">35</a> of file <a class="el" href="vmap__foreach_8hpp_source.html">vmap_foreach.hpp</a>.</p>
+<p>Definition at line <a class="el" href="vmap__foreach_8hpp_source.html#l00038">38</a> of file <a class="el" href="vmap__foreach_8hpp_source.html">vmap_foreach.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a094c6917a6bf518524d034482a8c3844"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;size_t Index, typename Functor , typename Arg &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto tlx::detail::vmap_foreach_with_index_impl </td>
@@ -715,15 +688,13 @@ template&lt;size_t Index, typename Functor , typename Arg &gt; </div>
 
 <p>helper for vmap_foreach_with_index: base case </p>
 
-<p>Definition at line <a class="el" href="vmap__foreach__with__index_8hpp_source.html#l00032">32</a> of file <a class="el" href="vmap__foreach__with__index_8hpp_source.html">vmap_foreach_with_index.hpp</a>.</p>
+<p>Definition at line <a class="el" href="vmap__foreach__with__index_8hpp_source.html#l00035">35</a> of file <a class="el" href="vmap__foreach__with__index_8hpp_source.html">vmap_foreach_with_index.hpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="a13da0c94f35887959453afd3bb1d248e"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;size_t Index, typename Functor , typename Arg , typename... MoreArgs&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto tlx::detail::vmap_foreach_with_index_impl </td>
@@ -753,7 +724,7 @@ template&lt;size_t Index, typename Functor , typename Arg , typename... MoreArgs
 
 <p>helper for vmap_foreach_with_index: general recursive case </p>
 
-<p>Definition at line <a class="el" href="vmap__foreach__with__index_8hpp_source.html#l00039">39</a> of file <a class="el" href="vmap__foreach__with__index_8hpp_source.html">vmap_foreach_with_index.hpp</a>.</p>
+<p>Definition at line <a class="el" href="vmap__foreach__with__index_8hpp_source.html#l00042">42</a> of file <a class="el" href="vmap__foreach__with__index_8hpp_source.html">vmap_foreach_with_index.hpp</a>.</p>
 
 </div>
 </div>
@@ -763,7 +734,7 @@ template&lt;size_t Index, typename Functor , typename Arg , typename... MoreArgs
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="namespacetlx_1_1detail.html">detail</a></li>
-    <li class="footer">Generated on Sat Mar 11 2017 16:53:34 for tlx by
+    <li class="footer">Generated on Sat Mar 11 2017 23:15:30 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

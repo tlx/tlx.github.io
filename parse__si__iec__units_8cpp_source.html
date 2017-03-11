@@ -50,6 +50,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -97,7 +98,7 @@ $(document).ready(function(){initNavTree('parse__si__iec__units_8cpp_source.html
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -127,7 +128,7 @@ $(document).ready(function(){initNavTree('parse__si__iec__units_8cpp_source.html
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>tlx {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="namespacetlx.html#a05df4ec244bd2d205d7b3a703f7a1849">   17</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="namespacetlx.html#a05df4ec244bd2d205d7b3a703f7a1849" title="Parse a string like &quot;343KB&quot; or &quot;44 GiB&quot; into the corresponding size in bytes.">parse_si_iec_units</a>(</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="group__string.html#ga58be0557b1b38913b28d947c935aed42">   17</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__string.html#ga58be0557b1b38913b28d947c935aed42" title="Parse a string like &quot;343KB&quot; or &quot;44 GiB&quot; into the corresponding size in bytes.">parse_si_iec_units</a>(</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* str, uint64_t* out_size, <span class="keywordtype">char</span> default_unit) {</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">char</span>* endptr;</div>
@@ -198,9 +199,9 @@ $(document).ready(function(){initNavTree('parse__si__iec__units_8cpp_source.html
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">return</span> (*endptr == 0);</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="code" href="namespacetlx.html#ad3af33ea198b337b54631777267f9f03">   88</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="namespacetlx.html#a05df4ec244bd2d205d7b3a703f7a1849" title="Parse a string like &quot;343KB&quot; or &quot;44 GiB&quot; into the corresponding size in bytes.">parse_si_iec_units</a>(</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="code" href="group__string.html#ga42a656ed3586b515140cb71b312f0f9b">   88</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="group__string.html#ga58be0557b1b38913b28d947c935aed42" title="Parse a string like &quot;343KB&quot; or &quot;44 GiB&quot; into the corresponding size in bytes.">parse_si_iec_units</a>(</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keyword">const</span> std::string&amp; str, uint64_t* out_size, <span class="keywordtype">char</span> default_unit) {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespacetlx.html#a05df4ec244bd2d205d7b3a703f7a1849" title="Parse a string like &quot;343KB&quot; or &quot;44 GiB&quot; into the corresponding size in bytes.">parse_si_iec_units</a>(str.c_str(), out_size, default_unit);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="group__string.html#ga58be0557b1b38913b28d947c935aed42" title="Parse a string like &quot;343KB&quot; or &quot;44 GiB&quot; into the corresponding size in bytes.">parse_si_iec_units</a>(str.c_str(), out_size, default_unit);</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;} <span class="comment">// namespace tlx</span></div>
@@ -212,7 +213,7 @@ $(document).ready(function(){initNavTree('parse__si__iec__units_8cpp_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_45a7f11e1a4af18f182d54b603484851.html">string</a></li><li class="navelem"><a class="el" href="parse__si__iec__units_8cpp.html">parse_si_iec_units.cpp</a></li>
-    <li class="footer">Generated on Sat Mar 11 2017 16:53:33 for tlx by
+    <li class="footer">Generated on Sat Mar 11 2017 23:15:29 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

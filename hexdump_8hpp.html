@@ -50,6 +50,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -97,7 +98,7 @@ $(document).ready(function(){initNavTree('hexdump_8hpp.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -108,8 +109,7 @@ $(document).ready(function(){initNavTree('hexdump_8hpp.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">hexdump.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -127,44 +127,45 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1745dfeabacc1acb2d27abbcf553f844"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1745dfeabacc1acb2d27abbcf553f844">tlx::hexdump</a> (const void *const data, size_t size)</td></tr>
-<tr class="memdesc:a1745dfeabacc1acb2d27abbcf553f844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string as a sequence of uppercase hexadecimal pairs.  <a href="#a1745dfeabacc1acb2d27abbcf553f844">More...</a><br/></td></tr>
-<tr class="separator:a1745dfeabacc1acb2d27abbcf553f844"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bec662b890f0da83582e7df6e3c55bf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a3bec662b890f0da83582e7df6e3c55bf">tlx::hexdump</a> (const std::string &amp;str)</td></tr>
-<tr class="memdesc:a3bec662b890f0da83582e7df6e3c55bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string as a sequence of uppercase hexadecimal pairs.  <a href="#a3bec662b890f0da83582e7df6e3c55bf">More...</a><br/></td></tr>
-<tr class="separator:a3bec662b890f0da83582e7df6e3c55bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2a485134f5e618b846abb630d44ec6f"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:ae2a485134f5e618b846abb630d44ec6f"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ae2a485134f5e618b846abb630d44ec6f">tlx::hexdump_type</a> (const Type &amp;t)</td></tr>
-<tr class="memdesc:ae2a485134f5e618b846abb630d44ec6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) item as a sequence of uppercase hexadecimal pairs.  <a href="#ae2a485134f5e618b846abb630d44ec6f">More...</a><br/></td></tr>
-<tr class="separator:ae2a485134f5e618b846abb630d44ec6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cfe26c3965f170d5367f8132ca9d4d6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a6cfe26c3965f170d5367f8132ca9d4d6">tlx::hexdump</a> (const std::vector&lt; char &gt; &amp;data)</td></tr>
-<tr class="memdesc:a6cfe26c3965f170d5367f8132ca9d4d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a char vector as a sequence of uppercase hexadecimal pairs.  <a href="#a6cfe26c3965f170d5367f8132ca9d4d6">More...</a><br/></td></tr>
-<tr class="separator:a6cfe26c3965f170d5367f8132ca9d4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adab45f7bc3142c72619094a9d77069f1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#adab45f7bc3142c72619094a9d77069f1">tlx::hexdump</a> (const std::vector&lt; uint8_t &gt; &amp;data)</td></tr>
-<tr class="memdesc:adab45f7bc3142c72619094a9d77069f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a uint8_t vector as a sequence of uppercase hexadecimal pairs.  <a href="#adab45f7bc3142c72619094a9d77069f1">More...</a><br/></td></tr>
-<tr class="separator:adab45f7bc3142c72619094a9d77069f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae43ee9db15046fbe68445eaec4e5c163"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ae43ee9db15046fbe68445eaec4e5c163">tlx::hexdump_sourcecode</a> (const std::string &amp;str, const std::string &amp;var_name=&quot;name&quot;)</td></tr>
-<tr class="memdesc:ae43ee9db15046fbe68445eaec4e5c163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string into a C source code snippet.  <a href="#ae43ee9db15046fbe68445eaec4e5c163">More...</a><br/></td></tr>
-<tr class="separator:ae43ee9db15046fbe68445eaec4e5c163"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e23f2e36a532089a7b49e0c593cbe26"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a3e23f2e36a532089a7b49e0c593cbe26">tlx::hexdump_lc</a> (const void *const data, size_t size)</td></tr>
-<tr class="memdesc:a3e23f2e36a532089a7b49e0c593cbe26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string as a sequence of lowercase hexadecimal pairs.  <a href="#a3e23f2e36a532089a7b49e0c593cbe26">More...</a><br/></td></tr>
-<tr class="separator:a3e23f2e36a532089a7b49e0c593cbe26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78b479ab381ff2e7de94b87708f342c1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a78b479ab381ff2e7de94b87708f342c1">tlx::hexdump_lc</a> (const std::string &amp;str)</td></tr>
-<tr class="memdesc:a78b479ab381ff2e7de94b87708f342c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string as a sequence of lowercase hexadecimal pairs.  <a href="#a78b479ab381ff2e7de94b87708f342c1">More...</a><br/></td></tr>
-<tr class="separator:a78b479ab381ff2e7de94b87708f342c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:a0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a0b2f444830d8f7b1b0eaf93b5f514bf7">tlx::hexdump_lc_type</a> (const Type &amp;t)</td></tr>
-<tr class="memdesc:a0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) item as a sequence of lowercase hexadecimal pairs.  <a href="#a0b2f444830d8f7b1b0eaf93b5f514bf7">More...</a><br/></td></tr>
-<tr class="separator:a0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81ef6db6f00972ce269a6205002895b2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a81ef6db6f00972ce269a6205002895b2">tlx::hexdump_lc</a> (const std::vector&lt; char &gt; &amp;data)</td></tr>
-<tr class="memdesc:a81ef6db6f00972ce269a6205002895b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a char vector as a sequence of lowercase hexadecimal pairs.  <a href="#a81ef6db6f00972ce269a6205002895b2">More...</a><br/></td></tr>
-<tr class="separator:a81ef6db6f00972ce269a6205002895b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f65ffd0e8ea4503a9c9a5b681468722"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a0f65ffd0e8ea4503a9c9a5b681468722">tlx::hexdump_lc</a> (const std::vector&lt; uint8_t &gt; &amp;data)</td></tr>
-<tr class="memdesc:a0f65ffd0e8ea4503a9c9a5b681468722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a uint8_t vector as a sequence of lowercase hexadecimal pairs.  <a href="#a0f65ffd0e8ea4503a9c9a5b681468722">More...</a><br/></td></tr>
-<tr class="separator:a0f65ffd0e8ea4503a9c9a5b681468722"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15f3b68b2a872a4720a493a1dcdb0ae7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a15f3b68b2a872a4720a493a1dcdb0ae7">tlx::parse_hexdump</a> (const std::string &amp;str)</td></tr>
-<tr class="memdesc:a15f3b68b2a872a4720a493a1dcdb0ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a string as a sequence of hexadecimal pairs.  <a href="#a15f3b68b2a872a4720a493a1dcdb0ae7">More...</a><br/></td></tr>
-<tr class="separator:a15f3b68b2a872a4720a493a1dcdb0ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Hexdump Methods</div></td></tr>
+<tr class="memitem:gab4c0ada9ff7b0d905361e60050316899"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#gab4c0ada9ff7b0d905361e60050316899">hexdump</a> (const void *const data, size_t size)</td></tr>
+<tr class="memdesc:gab4c0ada9ff7b0d905361e60050316899"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string as a sequence of uppercase hexadecimal pairs.  <a href="group__string.html#gab4c0ada9ff7b0d905361e60050316899">More...</a><br/></td></tr>
+<tr class="separator:gab4c0ada9ff7b0d905361e60050316899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0757bf9871dc4e2526ab48e4cde28e1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#gaa0757bf9871dc4e2526ab48e4cde28e1">hexdump</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:gaa0757bf9871dc4e2526ab48e4cde28e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string as a sequence of uppercase hexadecimal pairs.  <a href="group__string.html#gaa0757bf9871dc4e2526ab48e4cde28e1">More...</a><br/></td></tr>
+<tr class="separator:gaa0757bf9871dc4e2526ab48e4cde28e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2a485134f5e618b846abb630d44ec6f"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:gae2a485134f5e618b846abb630d44ec6f"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__string.html#gae2a485134f5e618b846abb630d44ec6f">hexdump_type</a> (const Type &amp;t)</td></tr>
+<tr class="memdesc:gae2a485134f5e618b846abb630d44ec6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) item as a sequence of uppercase hexadecimal pairs.  <a href="group__string.html#gae2a485134f5e618b846abb630d44ec6f">More...</a><br/></td></tr>
+<tr class="separator:gae2a485134f5e618b846abb630d44ec6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga15c83e3e2055412b0440758c98b3f148"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga15c83e3e2055412b0440758c98b3f148">hexdump</a> (const std::vector&lt; char &gt; &amp;data)</td></tr>
+<tr class="memdesc:ga15c83e3e2055412b0440758c98b3f148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a char vector as a sequence of uppercase hexadecimal pairs.  <a href="group__string.html#ga15c83e3e2055412b0440758c98b3f148">More...</a><br/></td></tr>
+<tr class="separator:ga15c83e3e2055412b0440758c98b3f148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c6446ce9a61a434b3a10345cbf3ebed"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga6c6446ce9a61a434b3a10345cbf3ebed">hexdump</a> (const std::vector&lt; uint8_t &gt; &amp;data)</td></tr>
+<tr class="memdesc:ga6c6446ce9a61a434b3a10345cbf3ebed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a uint8_t vector as a sequence of uppercase hexadecimal pairs.  <a href="group__string.html#ga6c6446ce9a61a434b3a10345cbf3ebed">More...</a><br/></td></tr>
+<tr class="separator:ga6c6446ce9a61a434b3a10345cbf3ebed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab10f91fa3b24c787e4e0d88c009ac298"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#gab10f91fa3b24c787e4e0d88c009ac298">hexdump_sourcecode</a> (const std::string &amp;str, const std::string &amp;var_name=&quot;name&quot;)</td></tr>
+<tr class="memdesc:gab10f91fa3b24c787e4e0d88c009ac298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string into a C source code snippet.  <a href="group__string.html#gab10f91fa3b24c787e4e0d88c009ac298">More...</a><br/></td></tr>
+<tr class="separator:gab10f91fa3b24c787e4e0d88c009ac298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0c47a216e0abcdf9a88fc50bb79c98ba"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga0c47a216e0abcdf9a88fc50bb79c98ba">hexdump_lc</a> (const void *const data, size_t size)</td></tr>
+<tr class="memdesc:ga0c47a216e0abcdf9a88fc50bb79c98ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string as a sequence of lowercase hexadecimal pairs.  <a href="group__string.html#ga0c47a216e0abcdf9a88fc50bb79c98ba">More...</a><br/></td></tr>
+<tr class="separator:ga0c47a216e0abcdf9a88fc50bb79c98ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga60e8912db4511738cfdbf3e97ff6dbbf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga60e8912db4511738cfdbf3e97ff6dbbf">hexdump_lc</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:ga60e8912db4511738cfdbf3e97ff6dbbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) string as a sequence of lowercase hexadecimal pairs.  <a href="group__string.html#ga60e8912db4511738cfdbf3e97ff6dbbf">More...</a><br/></td></tr>
+<tr class="separator:ga60e8912db4511738cfdbf3e97ff6dbbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:ga0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__string.html#ga0b2f444830d8f7b1b0eaf93b5f514bf7">hexdump_lc_type</a> (const Type &amp;t)</td></tr>
+<tr class="memdesc:ga0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) item as a sequence of lowercase hexadecimal pairs.  <a href="group__string.html#ga0b2f444830d8f7b1b0eaf93b5f514bf7">More...</a><br/></td></tr>
+<tr class="separator:ga0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae749cedcfc25af4f829d70e8febba7a1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#gae749cedcfc25af4f829d70e8febba7a1">hexdump_lc</a> (const std::vector&lt; char &gt; &amp;data)</td></tr>
+<tr class="memdesc:gae749cedcfc25af4f829d70e8febba7a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a char vector as a sequence of lowercase hexadecimal pairs.  <a href="group__string.html#gae749cedcfc25af4f829d70e8febba7a1">More...</a><br/></td></tr>
+<tr class="separator:gae749cedcfc25af4f829d70e8febba7a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0b35bd68e5974e78327fce13e0e2eaf6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga0b35bd68e5974e78327fce13e0e2eaf6">hexdump_lc</a> (const std::vector&lt; uint8_t &gt; &amp;data)</td></tr>
+<tr class="memdesc:ga0b35bd68e5974e78327fce13e0e2eaf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a uint8_t vector as a sequence of lowercase hexadecimal pairs.  <a href="group__string.html#ga0b35bd68e5974e78327fce13e0e2eaf6">More...</a><br/></td></tr>
+<tr class="separator:ga0b35bd68e5974e78327fce13e0e2eaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81809bc5e0b69034f39659303baa4bf9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga81809bc5e0b69034f39659303baa4bf9">parse_hexdump</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:ga81809bc5e0b69034f39659303baa4bf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a string as a sequence of hexadecimal pairs.  <a href="group__string.html#ga81809bc5e0b69034f39659303baa4bf9">More...</a><br/></td></tr>
+<tr class="separator:ga81809bc5e0b69034f39659303baa4bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -172,7 +173,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_45a7f11e1a4af18f182d54b603484851.html">string</a></li><li class="navelem"><a class="el" href="hexdump_8hpp.html">hexdump.hpp</a></li>
-    <li class="footer">Generated on Sat Mar 11 2017 16:53:33 for tlx by
+    <li class="footer">Generated on Sat Mar 11 2017 23:15:29 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

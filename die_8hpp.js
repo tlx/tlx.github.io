@@ -9,7 +9,7 @@ var die_8hpp =
     [ "die_unequal_compare", "die_8hpp.html#a717a659d0a374923911729663882bb4b", null ],
     [ "die_unequal_compare", "die_8hpp.html#a7b1550ff16b4ba586596da7f1f471abc", null ],
     [ "die_unequal_compare", "die_8hpp.html#abe8b35ade280b3f91e8139002674d827", null ],
-    [ "die_with_message", "die_8hpp.html#a4189021baeabfe5b52ca34be6d94499b", null ],
-    [ "die_with_message", "die_8hpp.html#a4ea5cbffd44f2ec0ce8ed33a4a61f6a0", null ],
-    [ "die_with_message", "die_8hpp.html#a649f5837f3dd844a036e9a56534f4bec", null ]
+    [ "die_with_message", "die_8hpp.html#a1a4f198a88970a7cb1f5d8d3a0555b79", null ],
+    [ "die_with_message", "die_8hpp.html#a1972bdbc5b9ff146cf88d18ec9a12d64", null ],
+    [ "die_with_message", "die_8hpp.html#acf7bff2d67e5ed89bd9dc6bea904e1c1", null ]
 ];

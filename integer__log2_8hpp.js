@@ -1,15 +1,15 @@
 var integer__log2_8hpp =
 [
-    [ "integer_log2_ceil", "integer__log2_8hpp.html#ab0623000e10bef6933e6ead2f1249440", null ],
-    [ "integer_log2_ceil", "integer__log2_8hpp.html#a8ac29ceb24428c6b50808522f0a2588f", null ],
-    [ "integer_log2_ceil", "integer__log2_8hpp.html#a6f38e7475ac2db7ddb3a0c799e09044a", null ],
-    [ "integer_log2_ceil", "integer__log2_8hpp.html#a030c7f4d9609d7b10128cfb9e51c3875", null ],
-    [ "integer_log2_ceil", "integer__log2_8hpp.html#afa8bca2feafd224a051671fe5766642b", null ],
-    [ "integer_log2_ceil", "integer__log2_8hpp.html#adea719b8d9be1a47b69efa13f5045699", null ],
-    [ "integer_log2_floor", "integer__log2_8hpp.html#a49df455c67c152625835c3960651fa8d", null ],
-    [ "integer_log2_floor", "integer__log2_8hpp.html#a329db427c164e8e18d5768bf39f5907b", null ],
-    [ "integer_log2_floor", "integer__log2_8hpp.html#abadbe93d286cd7f97cf551a79480db99", null ],
-    [ "integer_log2_floor", "integer__log2_8hpp.html#a867fbf8cc4ac6cd7d257b52a55df0320", null ],
-    [ "integer_log2_floor", "integer__log2_8hpp.html#aafe9c6e676fef1a542751ea36d6d8d9d", null ],
-    [ "integer_log2_floor", "integer__log2_8hpp.html#a281c59174d7e2d6f95f2a1a9c5a3f489", null ]
+    [ "integer_log2_ceil", "integer__log2_8hpp.html#ga308b250faae05a10c7d606e06d070f54", null ],
+    [ "integer_log2_ceil", "integer__log2_8hpp.html#gadca678eeb1a4b5fef4dfd53c71f5f0e6", null ],
+    [ "integer_log2_ceil", "integer__log2_8hpp.html#gab06a5be9a039621a428bad8b52bcb163", null ],
+    [ "integer_log2_ceil", "integer__log2_8hpp.html#gae906418b06ec57db053663d0437545ca", null ],
+    [ "integer_log2_ceil", "integer__log2_8hpp.html#gaf5b320c0091db1c3911af02aeb242877", null ],
+    [ "integer_log2_ceil", "integer__log2_8hpp.html#gae02589b516d44d66e4a9513d3f8f064f", null ],
+    [ "integer_log2_floor", "integer__log2_8hpp.html#gaeab5bbc00713a95adc413ee5ddd0cb65", null ],
+    [ "integer_log2_floor", "integer__log2_8hpp.html#ga6e254c8067dc87ac0ce3bc8d29f338ad", null ],
+    [ "integer_log2_floor", "integer__log2_8hpp.html#ga87a2457261b3eb2c6b0f8af2a058bf18", null ],
+    [ "integer_log2_floor", "integer__log2_8hpp.html#ga4c3ab78b29d4ec0f8e9282cc0828e206", null ],
+    [ "integer_log2_floor", "integer__log2_8hpp.html#gab51c66cfcb5cacb134fc03cc76729988", null ],
+    [ "integer_log2_floor", "integer__log2_8hpp.html#gaf78c1a129c9a05c883d267e2639a045b", null ]
 ];
