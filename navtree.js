@@ -41,8 +41,8 @@ var NAVTREEINDEX =
 "classtlx_1_1Log2.html#abc6126af1d45847bc59afa0aa3216b04a767a00e87322d8125073a77598ee1f97",
 "classtlx_1_1StackAllocator.html#ac73fe7e3bf0646d33e39f1653d0a6484",
 "functions_0x74.html",
-"integer__log2_8cpp_source.html",
-"split__words_8cpp.html"
+"integer__log2_8cpp.html#gab06a5be9a039621a428bad8b52bcb163",
+"split_8hpp.html#ga431c048d40a30f531e2e419e26582e4c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

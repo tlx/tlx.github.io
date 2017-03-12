@@ -9,6 +9,7 @@ var dir_8ac7dfc841f33a5da7c5dfc5610caf4f =
     [ "function_chain.hpp", "function__chain_8hpp.html", "function__chain_8hpp" ],
     [ "function_stack.hpp", "function__stack_8hpp.html", "function__stack_8hpp" ],
     [ "has_member.hpp", "has__member_8hpp.html", "has__member_8hpp" ],
+    [ "has_method.hpp", "has__method_8hpp.html", "has__method_8hpp" ],
     [ "index_sequence.hpp", "index__sequence_8hpp.html", [
       [ "make_index_sequence_helper", "structtlx_1_1detail_1_1make__index__sequence__helper.html", "structtlx_1_1detail_1_1make__index__sequence__helper" ],
       [ "make_index_sequence_helper< 0, Indexes...>", "structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html", "structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4" ],

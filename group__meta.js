@@ -62,8 +62,11 @@ var group__meta =
       [ "operator size_t", "structtlx_1_1StaticIndex.html#a71d124e0deb33bacc550df99ab1e5b25", null ],
       [ "index", "structtlx_1_1StaticIndex.html#a5db12ccaeb69abb440e410e47b86d6cf", null ]
     ] ],
-    [ "TLX_MAKE_MEMBER_TEST", "group__meta.html#ga43192dd0cafbcb73ec4bb0f3490ca9ec", null ],
-    [ "TLX_MAKE_TEMPLATE_MEMBER_TEST", "group__meta.html#ga7005de0f4e6c54ef79c3599df9816c4f", null ],
+    [ "TLX_MAKE_HAS_MEMBER", "group__meta.html#ga57d4934d6831a219db7ed2003093fde9", null ],
+    [ "TLX_MAKE_HAS_METHOD", "group__meta.html#ga77dd8d7d27ca0d3d6d34983bf69e8c83", null ],
+    [ "TLX_MAKE_HAS_STATIC_METHOD", "group__meta.html#gadc1ae15eca75b43b2028efa9214da70b", null ],
+    [ "TLX_MAKE_HAS_TEMPLATE_MEMBER", "group__meta.html#ga6b232298e50502336cb17c51f450b49c", null ],
+    [ "TLX_MAKE_HAS_TEMPLATE_METHOD", "group__meta.html#ga6025c1e576e81301e612ed7b5d9a639b", null ],
     [ "apply_tuple", "group__meta.html#ga697505eebc05040893022611ce8866c1", null ],
     [ "call_for_range", "group__meta.html#gaabdeef74e74806d7a81fa708ce9828e2", null ],
     [ "call_for_range", "group__meta.html#ga2abdae3c630ff66ff635822c14f8c72a", null ],
