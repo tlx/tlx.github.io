@@ -190,13 +190,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ada11126249a7bb96ff34e263a5cdd1f0"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ada11126249a7bb96ff34e263a5cdd1f0">cv_finished_</a></td></tr>
 <tr class="memdesc:ada11126249a7bb96ff34e263a5cdd1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Condition variable to signal when a jobs finishes.  <a href="#ada11126249a7bb96ff34e263a5cdd1f0">More...</a><br/></td></tr>
 <tr class="separator:ada11126249a7bb96ff34e263a5cdd1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fae67bd9af7e2f50a8175611aff1b96"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a0fae67bd9af7e2f50a8175611aff1b96">busy_</a> = { 0 }</td></tr>
+<tr class="memitem:a0fae67bd9af7e2f50a8175611aff1b96"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a0fae67bd9af7e2f50a8175611aff1b96">busy_</a></td></tr>
 <tr class="memdesc:a0fae67bd9af7e2f50a8175611aff1b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for number of threads busy.  <a href="#a0fae67bd9af7e2f50a8175611aff1b96">More...</a><br/></td></tr>
 <tr class="separator:a0fae67bd9af7e2f50a8175611aff1b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18e1ce640131051703d238c31d041f30"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a18e1ce640131051703d238c31d041f30">done_</a> = { 0 }</td></tr>
+<tr class="memitem:a18e1ce640131051703d238c31d041f30"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a18e1ce640131051703d238c31d041f30">done_</a></td></tr>
 <tr class="memdesc:a18e1ce640131051703d238c31d041f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for total number of jobs executed.  <a href="#a18e1ce640131051703d238c31d041f30">More...</a><br/></td></tr>
 <tr class="separator:a18e1ce640131051703d238c31d041f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c7c161ce42f7ccc3184d9bec18fa969"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a5c7c161ce42f7ccc3184d9bec18fa969">terminate_</a> = { false }</td></tr>
+<tr class="memitem:a5c7c161ce42f7ccc3184d9bec18fa969"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a5c7c161ce42f7ccc3184d9bec18fa969">terminate_</a></td></tr>
 <tr class="memdesc:a5c7c161ce42f7ccc3184d9bec18fa969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag whether to terminate.  <a href="#a5c7c161ce42f7ccc3184d9bec18fa969">More...</a><br/></td></tr>
 <tr class="separator:a5c7c161ce42f7ccc3184d9bec18fa969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -545,7 +545,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;size_t&gt; busy_ = { 0 }</td>
+          <td class="memname">std::atomic&lt;size_t&gt; busy_</td>
         </tr>
       </table>
   </td>
@@ -617,7 +617,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;size_t&gt; done_ = { 0 }</td>
+          <td class="memname">std::atomic&lt;size_t&gt; done_</td>
         </tr>
       </table>
   </td>
@@ -689,7 +689,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::atomic&lt;bool&gt; terminate_ = { false }</td>
+          <td class="memname">std::atomic&lt;bool&gt; terminate_</td>
         </tr>
       </table>
   </td>
@@ -739,7 +739,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a></li>
-    <li class="footer">Generated on Sun Mar 12 2017 09:43:45 for tlx by
+    <li class="footer">Generated on Sun Mar 12 2017 10:01:43 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
