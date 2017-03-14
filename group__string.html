@@ -207,6 +207,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga937bd46650d317c28df7c7723ae84119"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga937bd46650d317c28df7c7723ae84119">format_iec_units</a> (uint64_t number, int precision)</td></tr>
 <tr class="memdesc:ga937bd46650d317c28df7c7723ae84119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format number as something like 1 TiB.  <a href="#ga937bd46650d317c28df7c7723ae84119">More...</a><br/></td></tr>
 <tr class="separator:ga937bd46650d317c28df7c7723ae84119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga15b290439811d07e8fc0a6134c4faa0b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga15b290439811d07e8fc0a6134c4faa0b">index_of</a> (const std::vector&lt; std::string &gt; &amp;list, const char *str)</td></tr>
+<tr class="memdesc:ga15b290439811d07e8fc0a6134c4faa0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to find str in the list and return the index.  <a href="#ga15b290439811d07e8fc0a6134c4faa0b">More...</a><br/></td></tr>
+<tr class="separator:ga15b290439811d07e8fc0a6134c4faa0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac5156b8029cca4a21cb3e1b14ea6526d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#gac5156b8029cca4a21cb3e1b14ea6526d">index_of</a> (const std::vector&lt; std::string &gt; &amp;list, const std::string &amp;str)</td></tr>
+<tr class="memdesc:gac5156b8029cca4a21cb3e1b14ea6526d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to find str in the list and return the index.  <a href="#gac5156b8029cca4a21cb3e1b14ea6526d">More...</a><br/></td></tr>
+<tr class="separator:gac5156b8029cca4a21cb3e1b14ea6526d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga00bece0086ba6a8598e97e93694b713f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga00bece0086ba6a8598e97e93694b713f">index_of_icase</a> (const std::vector&lt; std::string &gt; &amp;list, const char *str)</td></tr>
+<tr class="memdesc:ga00bece0086ba6a8598e97e93694b713f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to find str in the list and return the index using case-insensitive comparisons.  <a href="#ga00bece0086ba6a8598e97e93694b713f">More...</a><br/></td></tr>
+<tr class="separator:ga00bece0086ba6a8598e97e93694b713f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d3b5b0636e261f97ab3292d78f2201b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga2d3b5b0636e261f97ab3292d78f2201b">index_of_icase</a> (const std::vector&lt; std::string &gt; &amp;list, const std::string &amp;str)</td></tr>
+<tr class="memdesc:ga2d3b5b0636e261f97ab3292d78f2201b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to find str in the list and return the index using case-insensitive comparisons.  <a href="#ga2d3b5b0636e261f97ab3292d78f2201b">More...</a><br/></td></tr>
+<tr class="separator:ga2d3b5b0636e261f97ab3292d78f2201b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad383d32ace209b51abe936d256d0bb1e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#gad383d32ace209b51abe936d256d0bb1e">join</a> (char glue, const std::vector&lt; std::string &gt; &amp;parts)</td></tr>
 <tr class="memdesc:gad383d32ace209b51abe936d256d0bb1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a vector of strings by some glue character between each pair from the sequence.  <a href="#gad383d32ace209b51abe936d256d0bb1e">More...</a><br/></td></tr>
 <tr class="separator:gad383d32ace209b51abe936d256d0bb1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2013,6 +2025,130 @@ Hexdump Methods</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>string of hexadecimal pairs </dd></dl>
 
 <p>Definition at line <a class="el" href="hexdump_8hpp_source.html#l00052">52</a> of file <a class="el" href="hexdump_8hpp_source.html">hexdump.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga15b290439811d07e8fc0a6134c4faa0b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t index_of </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Attempts to find str in the list and return the index. </p>
+<p>Throws a std::runtime_error if it is not found. </p>
+
+<p>Definition at line <a class="el" href="index__of_8cpp_source.html#l00019">19</a> of file <a class="el" href="index__of_8cpp_source.html">index_of.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gac5156b8029cca4a21cb3e1b14ea6526d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t index_of </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Attempts to find str in the list and return the index. </p>
+<p>Throws a std::runtime_error if it is not found. </p>
+
+<p>Definition at line <a class="el" href="index__of_8cpp_source.html#l00029">29</a> of file <a class="el" href="index__of_8cpp_source.html">index_of.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga00bece0086ba6a8598e97e93694b713f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t index_of_icase </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Attempts to find str in the list and return the index using case-insensitive comparisons. </p>
+<p>Throws a std::runtime_error if it is not found. </p>
+
+<p>Definition at line <a class="el" href="index__of_8cpp_source.html#l00039">39</a> of file <a class="el" href="index__of_8cpp_source.html">index_of.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga2d3b5b0636e261f97ab3292d78f2201b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t index_of_icase </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Attempts to find str in the list and return the index using case-insensitive comparisons. </p>
+<p>Throws a std::runtime_error if it is not found. </p>
+
+<p>Definition at line <a class="el" href="index__of_8cpp_source.html#l00050">50</a> of file <a class="el" href="index__of_8cpp_source.html">index_of.cpp</a>.</p>
 
 </div>
 </div>
@@ -4795,7 +4931,7 @@ Hexdump Methods</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 14 2017 20:36:11 for tlx by
+    <li class="footer">Generated on Tue Mar 14 2017 21:22:20 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

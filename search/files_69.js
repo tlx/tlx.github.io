@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['index_5fof_2ecpp',['index_of.cpp',['../index__of_8cpp.html',1,'']]],
+  ['index_5fof_2ehpp',['index_of.hpp',['../index__of_8hpp.html',1,'']]],
   ['index_5fsequence_2ehpp',['index_sequence.hpp',['../index__sequence_8hpp.html',1,'']]],
   ['integer_5flog2_2ecpp',['integer_log2.cpp',['../integer__log2_8cpp.html',1,'']]],
   ['integer_5flog2_2ehpp',['integer_log2.hpp',['../integer__log2_8hpp.html',1,'']]],
