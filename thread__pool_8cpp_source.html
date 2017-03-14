@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('thread__pool_8cpp_source.html','');});
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span>tlx {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="code" href="classtlx_1_1ThreadPool.html#a652357386d4c67fe3ae6f36459c501be">   17</a></span>&#160;<a class="code" href="classtlx_1_1ThreadPool.html#a652357386d4c67fe3ae6f36459c501be" title="Construct running thread pool of num_threads.">ThreadPool::ThreadPool</a>(<span class="keywordtype">size_t</span> num_threads)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    : threads_(num_threads) {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    : mutex_(), threads_(num_threads) {</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="comment">// immediately construct worker threads</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; num_threads; ++i)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="classtlx_1_1ThreadPool.html#a1381729bb622c2600b5c489bd9cf2d4f" title="threads in pool">threads_</a>[i] = std::thread(&amp;<a class="code" href="classtlx_1_1ThreadPool.html#a3aa959a4a5e8a3fa9e2e1b04b8051f38" title="Worker function, one per thread is started.">ThreadPool::worker</a>, <span class="keyword">this</span>);</div>
@@ -224,7 +224,7 @@ $(document).ready(function(){initNavTree('thread__pool_8cpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="thread__pool_8cpp.html">thread_pool.cpp</a></li>
-    <li class="footer">Generated on Tue Mar 14 2017 12:40:11 for tlx by
+    <li class="footer">Generated on Tue Mar 14 2017 20:36:11 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -20,6 +20,7 @@ var searchData=
   ['is_5fpower_5fof_5ftwo_2ecpp',['is_power_of_two.cpp',['../is__power__of__two_8cpp.html',1,'']]],
   ['is_5fpower_5fof_5ftwo_2ehpp',['is_power_of_two.hpp',['../is__power__of__two_8hpp.html',1,'']]],
   ['is_5fpower_5fof_5ftwo_5ftemplate',['is_power_of_two_template',['../namespacetlx.html#a6bd0c156caa682f81c584b29f1d62104',1,'tlx']]],
+  ['is_5fspace',['is_space',['../namespacetlx.html#aced5355a13aebabfa68ca4100e507e83',1,'tlx']]],
   ['is_5fstd_5farray',['is_std_array',['../structtlx_1_1is__std__array.html',1,'tlx']]],
   ['is_5fstd_5farray_2ehpp',['is_std_array.hpp',['../is__std__array_8hpp.html',1,'']]],
   ['is_5fstd_5farray_3c_20std_3a_3aarray_3c_20t_2c_20n_20_3e_20_3e',['is_std_array&lt; std::array&lt; T, N &gt; &gt;',['../structtlx_1_1is__std__array_3_01std_1_1array_3_01T_00_01N_01_4_01_4.html',1,'tlx']]],
