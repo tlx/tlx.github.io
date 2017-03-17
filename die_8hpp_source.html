@@ -205,8 +205,8 @@ $(document).ready(function(){initNavTree('die_8hpp_source.html','');});
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">//! better debugging.</span></div>
 <div class="line"><a name="l00092"></a><span class="lineno"><a class="code" href="die_8hpp.html#a334b021076c0dff0e3964c6819774ceb">   92</a></span>&#160;<span class="comment"></span><span class="preprocessor">#define die_unequal(X, Y)                                                \</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">    do {                                                                 \</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">        auto x__ = (X);                                                  \</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">        auto y__ = (Y);                                                  \</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">        auto x__ = (X);                                     </span><span class="comment">/* NOLINT */</span><span class="preprocessor"> \</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">        auto y__ = (Y);                                     </span><span class="comment">/* NOLINT */</span><span class="preprocessor"> \</span></div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">        if (!::tlx::die_unequal_compare(x__, y__))                       \</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">            die_with_sstream(&quot;DIE-UNEQUAL: &quot; #X &quot; != &quot; #Y &quot; : &quot;          \</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">                             &quot;\&quot;&quot; &lt;&lt; x__ &lt;&lt; &quot;\&quot; != \&quot;&quot; &lt;&lt; y__ &lt;&lt; &quot;\&quot;&quot;);  \</span></div>
@@ -243,7 +243,7 @@ $(document).ready(function(){initNavTree('die_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="die_8hpp.html">die.hpp</a></li>
-    <li class="footer">Generated on Wed Mar 15 2017 10:01:05 for tlx by
+    <li class="footer">Generated on Fri Mar 17 2017 18:14:36 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

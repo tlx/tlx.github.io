@@ -368,12 +368,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a82f067cc288f8abd50470ff6794da04f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1CmdlineParser.html#a477f5bd551a5681871bc240523b7bc2d">ArgumentList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a82f067cc288f8abd50470ff6794da04f">param_list_</a></td></tr>
 <tr class="memdesc:a82f067cc288f8abd50470ff6794da04f"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of parameters, both required and optional  <a href="#a82f067cc288f8abd50470ff6794da04f">More...</a><br/></td></tr>
 <tr class="separator:a82f067cc288f8abd50470ff6794da04f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0252f975b338c3da49564e309014ea3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ad0252f975b338c3da49564e309014ea3">option_max_width_</a></td></tr>
-<tr class="memdesc:ad0252f975b338c3da49564e309014ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">formatting width for options, '-s, &ndash;switch &lt;#&gt;'  <a href="#ad0252f975b338c3da49564e309014ea3">More...</a><br/></td></tr>
-<tr class="separator:ad0252f975b338c3da49564e309014ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f210f65cb600de541b979f8999d7844"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a1f210f65cb600de541b979f8999d7844">param_max_width_</a></td></tr>
-<tr class="memdesc:a1f210f65cb600de541b979f8999d7844"><td class="mdescLeft">&#160;</td><td class="mdescRight">formatting width for parameters, 'param &lt;#&gt;'  <a href="#a1f210f65cb600de541b979f8999d7844">More...</a><br/></td></tr>
-<tr class="separator:a1f210f65cb600de541b979f8999d7844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2780792d90885744803a109cdbd3608a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a2780792d90885744803a109cdbd3608a">option_max_width_</a></td></tr>
+<tr class="memdesc:a2780792d90885744803a109cdbd3608a"><td class="mdescLeft">&#160;</td><td class="mdescRight">formatting width for options, '-s, &ndash;switch &lt;#&gt;'  <a href="#a2780792d90885744803a109cdbd3608a">More...</a><br/></td></tr>
+<tr class="separator:a2780792d90885744803a109cdbd3608a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3bc88b7e683319e684d3e715ee060eb"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af3bc88b7e683319e684d3e715ee060eb">param_max_width_</a></td></tr>
+<tr class="memdesc:af3bc88b7e683319e684d3e715ee060eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">formatting width for parameters, 'param &lt;#&gt;'  <a href="#af3bc88b7e683319e684d3e715ee060eb">More...</a><br/></td></tr>
+<tr class="separator:af3bc88b7e683319e684d3e715ee060eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46ae7a27b899e9a86ad04807eb1ad34e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a46ae7a27b899e9a86ad04807eb1ad34e">program_name_</a></td></tr>
 <tr class="memdesc:a46ae7a27b899e9a86ad04807eb1ad34e"><td class="mdescLeft">&#160;</td><td class="mdescRight">argv[0] for usage.  <a href="#a46ae7a27b899e9a86ad04807eb1ad34e">More...</a><br/></td></tr>
 <tr class="separator:a46ae7a27b899e9a86ad04807eb1ad34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -512,7 +512,7 @@ Options:
 
 <p>Constructor. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00428">428</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00446">446</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -531,7 +531,7 @@ Options:
 
 <p>Delete all added arguments. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00430">430</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00448">448</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -580,7 +580,7 @@ Options:
 
 <p>add boolean option flag -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00454">454</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00472">472</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -622,7 +622,7 @@ Options:
 
 <p>add boolean option flag -key, &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00550">550</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00568">568</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -670,7 +670,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size option -key, &ndash;longkey [keytype] and store to 64-bit dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00514">514</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00532">532</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -718,7 +718,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size option -key, &ndash;longkey [keytype] and store to 64-bit dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00522">522</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00540">540</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -760,7 +760,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size option -key, &ndash;longkey [keytype] and store to 32-bit dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00590">590</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00608">608</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -802,7 +802,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size option -key, &ndash;longkey [keytype] and store to 64-bit dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00595">595</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00613">613</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -850,7 +850,7 @@ Options:
 
 <p>add double option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00506">506</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00524">524</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -892,7 +892,7 @@ Options:
 
 <p>add double option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00585">585</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00603">603</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -941,7 +941,7 @@ Options:
 <p>add boolean option flag -key, &ndash;longkey [keytype] with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#ae588fb1164112dfe0fb1ff99bf5463ab" title="add boolean option flag -key, –longkey [keytype] with description and store to dest">add_bool()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00462">462</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00480">480</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -984,7 +984,7 @@ Options:
 <p>add boolean option flag -key, &ndash;longkey with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#ae588fb1164112dfe0fb1ff99bf5463ab" title="add boolean option flag -key, –longkey [keytype] with description and store to dest">add_bool()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00555">555</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00573">573</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1032,7 +1032,7 @@ Options:
 
 <p>add float option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00498">498</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00516">516</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1074,7 +1074,7 @@ Options:
 
 <p>add float option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00580">580</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00598">598</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1122,7 +1122,7 @@ Options:
 
 <p>add signed integer option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00468">468</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00486">486</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1164,7 +1164,7 @@ Options:
 
 <p>add signed integer option -key, &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00560">560</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00578">578</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1200,7 +1200,7 @@ Options:
 
 <p>add optional SI/IEC suffixes byte size parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00716">716</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00734">734</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1236,7 +1236,7 @@ Options:
 
 <p>add optional SI/IEC suffixes byte size parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00723">723</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00741">741</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1272,7 +1272,7 @@ Options:
 
 <p>add optional double parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00709">709</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00727">727</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1308,7 +1308,7 @@ Options:
 
 <p>add optional float parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00703">703</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00721">721</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1344,7 +1344,7 @@ Options:
 
 <p>add optional signed integer parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00679">679</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00697">697</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1380,7 +1380,7 @@ Options:
 
 <p>add optional size_t parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00697">697</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00715">715</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1416,7 +1416,7 @@ Options:
 
 <p>add optional string parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00730">730</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00748">748</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1453,7 +1453,7 @@ Options:
 <p>add optional string parameter [name] with description and store to dest </p>
 <dl class="section warning"><dt>Warning</dt><dd>this parameter must be last, as it will gobble all non-option arguments! </dd></dl>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00737">737</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00755">755</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1490,7 +1490,7 @@ Options:
 <p>add optional unsigned integer parameter [name] with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#a274dcbdd6593fc918ac16c959e9aca65" title="add unsigned integer option -key, –longkey [keytype] with description and store to dest...">add_unsigned()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00692">692</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00710">710</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1526,7 +1526,7 @@ Options:
 
 <p>add optional unsigned integer parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00685">685</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00703">703</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1562,7 +1562,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00649">649</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00667">667</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1598,7 +1598,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00656">656</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00674">674</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1634,7 +1634,7 @@ Options:
 
 <p>add double parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00643">643</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00661">661</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1670,7 +1670,7 @@ Options:
 
 <p>add float parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00637">637</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00655">655</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1706,7 +1706,7 @@ Options:
 
 <p>add signed integer parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00613">613</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00631">631</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1742,7 +1742,7 @@ Options:
 
 <p>add size_t parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00631">631</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00649">649</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1778,7 +1778,7 @@ Options:
 
 <p>add string parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00663">663</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00681">681</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1815,7 +1815,7 @@ Options:
 <p>add string list parameter [name] with description and store to dest. </p>
 <dl class="section warning"><dt>Warning</dt><dd>this parameter must be last, as it will gobble all non-option arguments! </dd></dl>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00669">669</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00687">687</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1852,7 +1852,7 @@ Options:
 <p>add unsigned integer parameter [name] with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#a274dcbdd6593fc918ac16c959e9aca65" title="add unsigned integer option -key, –longkey [keytype] with description and store to dest...">add_unsigned()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00626">626</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00644">644</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1888,7 +1888,7 @@ Options:
 
 <p>add unsigned integer parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00619">619</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00637">637</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1936,7 +1936,7 @@ Options:
 
 <p>add size_t option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00490">490</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00508">508</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1978,7 +1978,7 @@ Options:
 
 <p>add size_t option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00575">575</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00593">593</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2026,7 +2026,7 @@ Options:
 
 <p>add string option -key, &ndash;longkey [keytype] and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00530">530</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00548">548</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2068,7 +2068,7 @@ Options:
 
 <p>add string option -key, &ndash;longkey [keytype] and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00600">600</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00618">618</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2116,7 +2116,7 @@ Options:
 
 <p>add string list option -key, &ndash;longkey [keytype] and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00538">538</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00556">556</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2158,7 +2158,7 @@ Options:
 
 <p>add string list option -key, &ndash;longkey [keytype] and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00605">605</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00623">623</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2207,7 +2207,7 @@ Options:
 <p>add unsigned integer option -key, &ndash;longkey [keytype] with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#a274dcbdd6593fc918ac16c959e9aca65" title="add unsigned integer option -key, –longkey [keytype] with description and store to dest...">add_unsigned()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00484">484</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00502">502</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2250,7 +2250,7 @@ Options:
 <p>add unsigned integer option -key, &ndash;longkey [keytype] with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#a274dcbdd6593fc918ac16c959e9aca65" title="add unsigned integer option -key, –longkey [keytype] with description and store to dest...">add_unsigned()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00570">570</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00588">588</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2298,7 +2298,7 @@ Options:
 
 <p>add unsigned integer option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00476">476</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00494">494</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2340,7 +2340,7 @@ Options:
 
 <p>add unsigned integer option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00565">565</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00583">583</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2368,7 +2368,7 @@ Options:
 
 <p>update maximum formatting width for new option </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00375">375</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00393">393</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2396,7 +2396,7 @@ Options:
 
 <p>update maximum formatting width for new parameter </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00380">380</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00398">398</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2465,7 +2465,7 @@ Options:
 <p>Wrap a long string at spaces into lines. </p>
 <p>Prefix is added unconditionally to each line. Lines are wrapped after wraplen characters if possible. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00387">387</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00405">405</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2515,7 +2515,7 @@ Options:
 
 <p>print error about option. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00809">809</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00827">827</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2565,7 +2565,7 @@ Options:
 
 <p>print error about parameter. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00822">822</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00840">840</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2585,7 +2585,7 @@ Options:
 
 <p>print nicely formatted result of processing </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00981">981</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00999">999</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2604,7 +2604,7 @@ Options:
 
 <p>print nicely formatted result of processing to std::cout </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l01025">1025</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l01045">1045</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2624,7 +2624,7 @@ Options:
 
 <p>output nicely formatted usage information including description of all parameters and options. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00747">747</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00765">765</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2643,7 +2643,7 @@ Options:
 
 <p>output to std::cout nicely formatted usage information including description of all parameters and options. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00805">805</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00823">823</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2680,7 +2680,7 @@ Options:
 <p>parse command line options as specified by the options and parameters added. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if command line is okay and all required parameters are present. </dd></dl>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00835">835</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00853">853</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2711,7 +2711,7 @@ Options:
 <p>parse command line options as specified by the options and parameters added. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if command line is okay and all required parameters are present. </dd></dl>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00977">977</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00995">995</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2731,7 +2731,7 @@ Options:
 
 <p>Set author of program, will be wrapped. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00444">444</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00462">462</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2751,7 +2751,7 @@ Options:
 
 <p>Set description of program, text will be wrapped. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00440">440</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00458">458</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2771,7 +2771,7 @@ Options:
 
 <p>Set verbose processing of command line arguments. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00448">448</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00466">466</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2896,7 +2896,7 @@ Options:
 
 </div>
 </div>
-<a class="anchor" id="ad0252f975b338c3da49564e309014ea3"></a>
+<a class="anchor" id="a2780792d90885744803a109cdbd3608a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2904,7 +2904,7 @@ Options:
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int option_max_width_</td>
+          <td class="memname">size_t option_max_width_</td>
         </tr>
       </table>
   </td>
@@ -2944,7 +2944,7 @@ Options:
 
 </div>
 </div>
-<a class="anchor" id="a1f210f65cb600de541b979f8999d7844"></a>
+<a class="anchor" id="af3bc88b7e683319e684d3e715ee060eb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2952,7 +2952,7 @@ Options:
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int param_max_width_</td>
+          <td class="memname">size_t param_max_width_</td>
         </tr>
       </table>
   </td>
@@ -3026,7 +3026,7 @@ Options:
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1CmdlineParser.html">CmdlineParser</a></li>
-    <li class="footer">Generated on Wed Mar 15 2017 10:01:05 for tlx by
+    <li class="footer">Generated on Fri Mar 17 2017 18:14:37 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

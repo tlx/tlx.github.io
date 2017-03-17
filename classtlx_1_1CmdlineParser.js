@@ -77,9 +77,9 @@ var classtlx_1_1CmdlineParser =
     [ "line_wrap_", "classtlx_1_1CmdlineParser.html#a573e1de8565db8166a5c220075bf1049", null ],
     [ "max_type_name_", "classtlx_1_1CmdlineParser.html#ae28c4d5fed3b50689543c004623ddfea", null ],
     [ "option_list_", "classtlx_1_1CmdlineParser.html#a1dfdda1dfa78d1addc33aaf91f6867a1", null ],
-    [ "option_max_width_", "classtlx_1_1CmdlineParser.html#ad0252f975b338c3da49564e309014ea3", null ],
+    [ "option_max_width_", "classtlx_1_1CmdlineParser.html#a2780792d90885744803a109cdbd3608a", null ],
     [ "param_list_", "classtlx_1_1CmdlineParser.html#a82f067cc288f8abd50470ff6794da04f", null ],
-    [ "param_max_width_", "classtlx_1_1CmdlineParser.html#a1f210f65cb600de541b979f8999d7844", null ],
+    [ "param_max_width_", "classtlx_1_1CmdlineParser.html#af3bc88b7e683319e684d3e715ee060eb", null ],
     [ "program_name_", "classtlx_1_1CmdlineParser.html#a46ae7a27b899e9a86ad04807eb1ad34e", null ],
     [ "verbose_process_", "classtlx_1_1CmdlineParser.html#a76c0d004bfb50442737216ec14314909", null ]
 ];

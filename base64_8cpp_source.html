@@ -279,8 +279,8 @@ $(document).ready(function(){initNavTree('base64_8cpp_source.html','');});
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                <span class="keywordflow">throw</span> std::runtime_error(ex_message);</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        } <span class="keywordflow">while</span> (fragment &gt;= ws);</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        outchar |= <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>((fragment &amp; 0x30) &gt;&gt; 4);</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        out += outchar;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        outchar = <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>(outchar | ((fragment &amp; 0x30) &gt;&gt; 4));</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        out += <span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span><span class="keyword">&gt;</span>(outchar);</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        outchar = <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>((fragment &amp; 0x0F) &lt;&lt; 4);</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
@@ -294,8 +294,8 @@ $(document).ready(function(){initNavTree('base64_8cpp_source.html','');});
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                <span class="keywordflow">throw</span> std::runtime_error(ex_message);</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        } <span class="keywordflow">while</span> (fragment &gt;= ws);</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        outchar |= (fragment &amp; 0x3C) &gt;&gt; 2;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        out += outchar;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        outchar = <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>(outchar | ((fragment &amp; 0x3C) &gt;&gt; 2));</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        out += <span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span><span class="keyword">&gt;</span>(outchar);</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        outchar = <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>((fragment &amp; 0x03) &lt;&lt; 6);</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
@@ -309,8 +309,8 @@ $(document).ready(function(){initNavTree('base64_8cpp_source.html','');});
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                <span class="keywordflow">throw</span> std::runtime_error(ex_message);</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        } <span class="keywordflow">while</span> (fragment &gt;= ws);</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        outchar |= <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>((fragment &amp; 0x3F) &gt;&gt; 0);</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        out += outchar;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        outchar = <span class="keyword">static_cast&lt;</span>uint8_t<span class="keyword">&gt;</span>(outchar | ((fragment &amp; 0x3F) &gt;&gt; 0));</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        out += <span class="keyword">static_cast&lt;</span><span class="keywordtype">char</span><span class="keyword">&gt;</span>(outchar);</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    }</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;}</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
@@ -327,7 +327,7 @@ $(document).ready(function(){initNavTree('base64_8cpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_45a7f11e1a4af18f182d54b603484851.html">string</a></li><li class="navelem"><a class="el" href="base64_8cpp.html">base64.cpp</a></li>
-    <li class="footer">Generated on Wed Mar 15 2017 10:01:05 for tlx by
+    <li class="footer">Generated on Fri Mar 17 2017 18:14:36 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
