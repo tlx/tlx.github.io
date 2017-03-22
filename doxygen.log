@@ -1,0 +1,4 @@
+warning: ignoring unsupported tag `SOURCE_TOOLTIPS        =' at line 928, file Doxyfile
+warning: ignoring unsupported tag `MATHJAX_CODEFILE       =' at line 1438, file Doxyfile
+warning: ignoring unsupported tag `GENERATE_DOCBOOK       =' at line 1574, file Doxyfile
+warning: ignoring unsupported tag `EXTERNAL_PAGES         =' at line 1721, file Doxyfile
