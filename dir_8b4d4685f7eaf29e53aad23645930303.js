@@ -28,6 +28,8 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "delegate.hpp", "delegate_8hpp.html", "delegate_8hpp" ],
     [ "die.cpp", "die_8cpp.html", "die_8cpp" ],
     [ "die.hpp", "die_8hpp.html", "die_8hpp" ],
+    [ "logger.cpp", "logger_8cpp.html", "logger_8cpp" ],
+    [ "logger.hpp", "logger_8hpp.html", "logger_8hpp" ],
     [ "loser_tree.hpp", "loser__tree_8hpp.html", [
       [ "LoserTreeCopyBase", "classtlx_1_1LoserTreeCopyBase.html", "classtlx_1_1LoserTreeCopyBase" ],
       [ "Loser", "structtlx_1_1LoserTreeCopyBase_1_1Loser.html", "structtlx_1_1LoserTreeCopyBase_1_1Loser" ],

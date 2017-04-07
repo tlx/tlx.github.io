@@ -5,6 +5,7 @@ var searchData=
   ['ffs_2ehpp',['ffs.hpp',['../ffs_8hpp.html',1,'']]],
   ['ffs_5ftemplate',['ffs_template',['../namespacetlx.html#a6b18ba30be90fbdad29253ee722c6ed1',1,'tlx']]],
   ['fill',['fill',['../classtlx_1_1SimpleVector.html#a87a9128345a8fb57cd8963b483005368',1,'tlx::SimpleVector']]],
+  ['first_5f',['first_',['../classtlx_1_1SpacingLogger.html#aa184fabd856fc0190c1f552fcc3f4143',1,'tlx::SpacingLogger']]],
   ['first_5finsert_5f',['first_insert_',['../classtlx_1_1LoserTreeCopyBase.html#a9cb25c1f5af5b7e4b1f12623a71c41dd',1,'tlx::LoserTreeCopyBase']]],
   ['floor',['floor',['../classtlx_1_1Log2.html#abc6126af1d45847bc59afa0aa3216b04aa2cd0f2689920d3196cebb39ef6f9afb',1,'tlx::Log2::floor()'],['../classtlx_1_1Log2_3_011_01_4.html#adc29c2ff13d900c2f185ee95427fb06caa2cd0f2689920d3196cebb39ef6f9afb',1,'tlx::Log2&lt; 1 &gt;::floor()'],['../classtlx_1_1Log2_3_010_01_4.html#a61dadd085c1777f559549e05962b2c9eaa2cd0f2689920d3196cebb39ef6f9afb',1,'tlx::Log2&lt; 0 &gt;::floor()']]],
   ['fold',['fold',['../classtlx_1_1FunctionChain.html#ac06f776af42a28453d16ff3705002239',1,'tlx::FunctionChain::fold()'],['../classtlx_1_1FunctionStack.html#ac06f776af42a28453d16ff3705002239',1,'tlx::FunctionStack::fold()']]],
@@ -20,8 +21,8 @@ var searchData=
   ['function_5fchain_2ehpp',['function_chain.hpp',['../function__chain_8hpp.html',1,'']]],
   ['function_5fptr_5fcaller',['function_ptr_caller',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a3ee7d2851882b4b30d582fcea89cf9d6',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
   ['function_5fstack_2ehpp',['function_stack.hpp',['../function__stack_8hpp.html',1,'']]],
-  ['functionchain',['FunctionChain',['../classtlx_1_1FunctionChain.html',1,'tlx']]],
   ['functionchain',['FunctionChain',['../classtlx_1_1FunctionChain.html#a46bd07dd339af54250e82936fe9bb992',1,'tlx::FunctionChain::FunctionChain()=default'],['../classtlx_1_1FunctionChain.html#aca53db38c24e6b401b249d7596e7d677',1,'tlx::FunctionChain::FunctionChain(const std::tuple&lt; Functors...&gt; &amp;chain)']]],
+  ['functionchain',['FunctionChain',['../classtlx_1_1FunctionChain.html',1,'tlx']]],
   ['functionstack',['FunctionStack',['../classtlx_1_1FunctionStack.html',1,'tlx']]],
   ['functionstack',['FunctionStack',['../classtlx_1_1FunctionStack.html#a96d244361dd64def8f02640c782f8c26',1,'tlx::FunctionStack::FunctionStack()=default'],['../classtlx_1_1FunctionStack.html#a02d3c4bcd25e82bea25394a4bf69e0d7',1,'tlx::FunctionStack::FunctionStack(const std::tuple&lt; Functors...&gt; &amp;stack)']]],
   ['functor_5fcaller',['functor_caller',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a3998aab84ff84dc56f415fc0c08afeaf',1,'tlx::Delegate&lt; R(A...), Allocator &gt;::functor_caller(void *const object_ptr, A &amp;&amp;...args)'],['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#aab7e238270860f97f119cc36f9720f03',1,'tlx::Delegate&lt; R(A...), Allocator &gt;::functor_caller(void *const object_ptr, A &amp;&amp;...args)']]]

@@ -113,7 +113,8 @@ $(document).ready(function(){initNavTree('namespacetlx.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">tlx Namespace Reference</div>  </div>
 </div><!--header-->
@@ -144,6 +145,14 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html">Delegate&lt; R(A...), Allocator &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a faster replacement than std::function.  <a href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Logger.html">Logger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">LOG and sLOG for development and debugging.  <a href="classtlx_1_1Logger.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SpacingLogger.html">SpacingLogger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A logging class which outputs spaces between elements pushed via operator&lt;&lt;.  <a href="classtlx_1_1SpacingLogger.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoggerVoidify.html">LoggerVoidify</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoserTreeCopyBase.html">LoserTreeCopyBase</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Guarded loser tree/tournament tree, either copying the whole element into the tree structure, or looking up the element via the index.  <a href="classtlx_1_1LoserTreeCopyBase.html#details">More...</a><br/></td></tr>
@@ -874,6 +883,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__string.html#ga0b2f444830d8f7b1b0eaf93b5f514bf7">hexdump_lc_type</a> (const Type &amp;t)</td></tr>
 <tr class="memdesc:ga0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump a (binary) item as a sequence of lowercase hexadecimal pairs.  <a href="group__string.html#ga0b2f444830d8f7b1b0eaf93b5f514bf7">More...</a><br/></td></tr>
 <tr class="separator:ga0b2f444830d8f7b1b0eaf93b5f514bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ac57ddd8d5c4eebe0f8a5d889b29c8823"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ac57ddd8d5c4eebe0f8a5d889b29c8823">s_logger_mutex</a></td></tr>
+<tr class="memdesc:ac57ddd8d5c4eebe0f8a5d889b29c8823"><td class="mdescLeft">&#160;</td><td class="mdescRight">mutex for log output  <a href="#ac57ddd8d5c4eebe0f8a5d889b29c8823">More...</a><br/></td></tr>
+<tr class="separator:ac57ddd8d5c4eebe0f8a5d889b29c8823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="a2c4e023d82bca2172da2f965e3b42b40"></a>
@@ -1645,13 +1660,38 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ac57ddd8d5c4eebe0f8a5d889b29c8823"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex s_logger_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>mutex for log output </p>
+
+<p>Definition at line <a class="el" href="logger_8cpp_source.html#l00024">24</a> of file <a class="el" href="logger_8cpp_source.html">logger.cpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Wed Mar 22 2017 10:31:21 for tlx by
+    <li class="footer">Generated on Fri Apr 7 2017 12:58:47 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
