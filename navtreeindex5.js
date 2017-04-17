@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"round__to__power__of__two_8cpp.html#gad221e96917e629c78fde55e8a365691f":[3,0,0,1,7,10],
 "round__to__power__of__two_8cpp.html#gaff63db7737beabefc45daa2078c4652a":[3,0,0,1,7,5],
 "round__to__power__of__two_8cpp_source.html":[3,0,0,1,7],
 "round__to__power__of__two_8hpp.html":[3,0,0,1,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "union__words_8hpp_source.html":[3,0,0,3,50],
 "unused_8hpp.html":[3,0,0,24],
 "unused_8hpp.html#a5a63b398e6678264958fb8590e9332bf":[3,0,0,24,0],
-"unused_8hpp_source.html":[3,0,0,24],
-"vexpand_8hpp.html":[3,0,0,2,17]
+"unused_8hpp_source.html":[3,0,0,24]
 };
