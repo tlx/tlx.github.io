@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"functions.html":[2,3,0,0],
 "functions_0x62.html":[2,3,0,1],
 "functions_0x63.html":[2,3,0,2],
 "functions_0x64.html":[2,3,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "hexdump_8hpp.html":[3,0,0,3,23],
 "hexdump_8hpp.html#ga0b2f444830d8f7b1b0eaf93b5f514bf7":[3,0,0,3,23,8],
 "hexdump_8hpp.html#ga0b35bd68e5974e78327fce13e0e2eaf6":[3,0,0,3,23,7],
-"hexdump_8hpp.html#ga0c47a216e0abcdf9a88fc50bb79c98ba":[3,0,0,3,23,4],
-"hexdump_8hpp.html#ga15c83e3e2055412b0440758c98b3f148":[3,0,0,3,23,2]
+"hexdump_8hpp.html#ga0c47a216e0abcdf9a88fc50bb79c98ba":[3,0,0,3,23,4]
 };

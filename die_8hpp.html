@@ -144,9 +144,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a334b021076c0dff0e3964c6819774ceb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#a334b021076c0dff0e3964c6819774ceb">die_unequal</a>(X, Y)</td></tr>
 <tr class="memdesc:a334b021076c0dff0e3964c6819774ceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that X == Y or die miserably, but output the values of X and Y for better debugging.  <a href="#a334b021076c0dff0e3964c6819774ceb">More...</a><br/></td></tr>
 <tr class="separator:a334b021076c0dff0e3964c6819774ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1033c3dc9fdb7b3ce176daaae86457e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#ac1033c3dc9fdb7b3ce176daaae86457e">die_noexcept</a>(code, exception_type)</td></tr>
-<tr class="memdesc:ac1033c3dc9fdb7b3ce176daaae86457e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define to check that [code] throws and exception of given type.  <a href="#ac1033c3dc9fdb7b3ce176daaae86457e">More...</a><br/></td></tr>
-<tr class="separator:ac1033c3dc9fdb7b3ce176daaae86457e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5085068329fda13af995242db4555038"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#a5085068329fda13af995242db4555038">assert_equal</a>(X, Y)</td></tr>
+<tr class="memdesc:a5085068329fda13af995242db4555038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that X == Y or die miserably, but output the values of X and Y for better debugging.  <a href="#a5085068329fda13af995242db4555038">More...</a><br/></td></tr>
+<tr class="separator:a5085068329fda13af995242db4555038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357da842bf02c9445e820f483b301542"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#a357da842bf02c9445e820f483b301542">die_unless_throws</a>(code, exception_type)</td></tr>
+<tr class="memdesc:a357da842bf02c9445e820f483b301542"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define to check that [code] throws and exception of given type.  <a href="#a357da842bf02c9445e820f483b301542">More...</a><br/></td></tr>
+<tr class="separator:a357da842bf02c9445e820f483b301542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -174,6 +177,37 @@ Functions</h2></td></tr>
 <tr class="separator:ac215c9815621e2ebbc07da9be07a622f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a5085068329fda13af995242db4555038"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define assert_equal</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check that X == Y or die miserably, but output the values of X and Y for better debugging. </p>
+<p>Only active if NDEBUG is not defined. </p>
+
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00113">113</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ab6acaec854169756098dfd26138a1a0e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -190,7 +224,7 @@ Functions</h2></td></tr>
 
 <p>Instead of abort(), throw the output the message via an exception. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00041">41</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00042">42</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -211,37 +245,7 @@ Functions</h2></td></tr>
 <p>Check condition X and die miserably if true. </p>
 <p>Opposite of assert() except this is also active in Release mode. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00061">61</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ac1033c3dc9fdb7b3ce176daaae86457e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define die_noexcept</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">code, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">exception_type&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Define to check that [code] throws and exception of given type. </p>
-
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00111">111</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00062">62</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -271,7 +275,7 @@ Functions</h2></td></tr>
 
 <p>Check that X == Y or die miserably, but output the values of X and Y for better debugging. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00098">98</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00099">99</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -292,7 +296,37 @@ Functions</h2></td></tr>
 <p>Check condition X and die miserably if false. </p>
 <p>Same as assert() except this is also active in Release mode. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00051">51</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00052">52</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a357da842bf02c9445e820f483b301542"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define die_unless_throws</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">code, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">exception_type&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Define to check that [code] throws and exception of given type. </p>
+
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00120">120</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -322,7 +356,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="die_8hpp.html">die.hpp</a></li>
-    <li class="footer">Generated on Tue May 9 2017 15:19:08 for tlx by
+    <li class="footer">Generated on Thu May 11 2017 13:26:16 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
