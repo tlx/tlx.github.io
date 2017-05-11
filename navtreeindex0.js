@@ -1,5 +1,8 @@
 var NAVTREEINDEX0 =
 {
+"abs__diff_8hpp.html":[3,0,0,1,0],
+"abs__diff_8hpp.html#ga72ac8fb39736ae5d2b8d920b17d815a8":[3,0,0,1,0,0],
+"abs__diff_8hpp_source.html":[3,0,0,1,0],
 "allocator__base_8hpp.html":[3,0,0,4],
 "allocator__base_8hpp_source.html":[3,0,0,4],
 "annotated.html":[2,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX0 =
 "classtlx_1_1FunctionStack.html#a865f1dca79a29770a2c09ef35d51852f":[0,1,2,6],
 "classtlx_1_1FunctionStack.html#a930ca3d8c54b91413c4847c370780a48":[0,1,2,5],
 "classtlx_1_1FunctionStack.html#a96d244361dd64def8f02640c782f8c26":[0,1,2,1],
-"classtlx_1_1FunctionStack.html#ac06f776af42a28453d16ff3705002239":[0,1,2,3],
-"classtlx_1_1FunctionStack.html#ae8542fe44413919dee9f41ede5a5032d":[0,1,2,8],
-"classtlx_1_1FunctionStack.html#af0bc060d9a25b5b470cd237b6dde786d":[0,1,2,4],
-"classtlx_1_1Log2.html":[0,1,16]
+"classtlx_1_1FunctionStack.html#ac06f776af42a28453d16ff3705002239":[0,1,2,3]
 };

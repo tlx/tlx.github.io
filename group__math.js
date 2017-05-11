@@ -1,5 +1,6 @@
 var group__math =
 [
+    [ "abs_diff", "group__math.html#ga72ac8fb39736ae5d2b8d920b17d815a8", null ],
     [ "div_ceil", "group__math.html#gaa901da3e5d75f6e1891f470b1382562e", null ],
     [ "ffs", "group__math.html#gad329f497b0ab5d232db2bfc197847f20", null ],
     [ "ffs", "group__math.html#ga4cd783fc78724052195627445d5571d2", null ],

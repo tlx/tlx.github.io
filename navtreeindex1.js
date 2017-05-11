@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"classtlx_1_1FunctionStack.html#ae8542fe44413919dee9f41ede5a5032d":[0,1,2,8],
+"classtlx_1_1FunctionStack.html#af0bc060d9a25b5b470cd237b6dde786d":[0,1,2,4],
+"classtlx_1_1Log2.html":[0,1,16],
 "classtlx_1_1Log2.html#abc6126af1d45847bc59afa0aa3216b04a767a00e87322d8125073a77598ee1f97":[0,1,16,1],
 "classtlx_1_1Log2.html#abc6126af1d45847bc59afa0aa3216b04aa2cd0f2689920d3196cebb39ef6f9afb":[0,1,16,0],
 "classtlx_1_1Log2Floor.html":[0,1,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "classtlx_1_1SimpleVector.html#ae0da1168fd66f3597f0236b5aa28107c":[2,0,0,46,22],
 "classtlx_1_1SimpleVector.html#af5bb6579266664efe61f1369ab0a02e3":[2,0,0,46,18],
 "classtlx_1_1SimpleVector.html#afc5380afa64b233d0df01a147616974b":[2,0,0,46,19],
-"classtlx_1_1SpacingLogger.html":[2,0,0,9],
-"classtlx_1_1SpacingLogger.html#aa184fabd856fc0190c1f552fcc3f4143":[2,0,0,9,2],
-"classtlx_1_1SpacingLogger.html#aaf88b9bbbc60505197177b6cee8b90cf":[2,0,0,9,0],
-"classtlx_1_1SpacingLogger.html#acbe8bc75214c441a925eb2ab98ff869d":[2,0,0,9,3]
+"classtlx_1_1SpacingLogger.html":[2,0,0,9]
 };
