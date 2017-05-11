@@ -53,7 +53,7 @@ var searchData=
   ['losertreepointerunguarded_3c_20true_2c_20valuetype_2c_20comparator_20_3e',['LoserTreePointerUnguarded&lt; true, ValueType, Comparator &gt;',['../classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html',1,'tlx']]],
   ['losertreepointerunguardedbase',['LoserTreePointerUnguardedBase',['../classtlx_1_1LoserTreePointerUnguardedBase.html',1,'tlx']]],
   ['losertreepointerunguardedbase',['LoserTreePointerUnguardedBase',['../classtlx_1_1LoserTreePointerUnguardedBase.html#a078f728ee1a8e2b903a86598eaf85d8a',1,'tlx::LoserTreePointerUnguardedBase::LoserTreePointerUnguardedBase(const Source &amp;k, const ValueType &amp;sentinel, const Comparator &amp;cmp=Comparator())'],['../classtlx_1_1LoserTreePointerUnguardedBase.html#abc941e5da1b62a3a51230e5782e39dd0',1,'tlx::LoserTreePointerUnguardedBase::LoserTreePointerUnguardedBase(const LoserTreePointerUnguardedBase &amp;other)=delete']]],
-  ['losertreetraits',['LoserTreeTraits',['../classtlx_1_1LoserTreeTraits.html',1,'tlx']]],
+  ['losertreeswitch',['LoserTreeSwitch',['../classtlx_1_1LoserTreeSwitch.html',1,'tlx']]],
   ['lru_5fcache_2ehpp',['lru_cache.hpp',['../lru__cache_8hpp.html',1,'']]],
   ['lrucachemap',['LruCacheMap',['../classtlx_1_1LruCacheMap.html',1,'tlx']]],
   ['lrucachemap',['LruCacheMap',['../classtlx_1_1LruCacheMap.html#a9bb6db98b22edd9eff37482bc16295a8',1,'tlx::LruCacheMap']]],

@@ -23,7 +23,7 @@ var namespacetlx =
     [ "LoserTreePointerUnguardedBase", "classtlx_1_1LoserTreePointerUnguardedBase.html", "classtlx_1_1LoserTreePointerUnguardedBase" ],
     [ "LoserTreePointerUnguarded", "classtlx_1_1LoserTreePointerUnguarded.html", "classtlx_1_1LoserTreePointerUnguarded" ],
     [ "LoserTreePointerUnguarded< true, ValueType, Comparator >", "classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html", "classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4" ],
-    [ "LoserTreeTraits", "classtlx_1_1LoserTreeTraits.html", "classtlx_1_1LoserTreeTraits" ],
+    [ "LoserTreeSwitch", "classtlx_1_1LoserTreeSwitch.html", "classtlx_1_1LoserTreeSwitch" ],
     [ "LruCacheSet", "classtlx_1_1LruCacheSet.html", "classtlx_1_1LruCacheSet" ],
     [ "LruCacheMap", "classtlx_1_1LruCacheMap.html", "classtlx_1_1LruCacheMap" ],
     [ "FunctionChain", "classtlx_1_1FunctionChain.html", "classtlx_1_1FunctionChain" ],

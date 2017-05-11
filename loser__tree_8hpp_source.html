@@ -946,54 +946,63 @@ $(document).ready(function(){initNavTree('loser__tree_8hpp_source.html','');});
 <div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;};</div>
 <div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;</div>
 <div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;<span class="comment">/******************************************************************************/</span></div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;<span class="comment">// LoserTreeTraits selects loser tree by size of value type</span></div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;<span class="comment">// LoserTreeSwitch selects loser tree by size of value type</span></div>
 <div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;</div>
 <div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">bool</span> Stable, <span class="keyword">typename</span> ValueType, <span class="keyword">typename</span> Comparator,</div>
 <div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;          <span class="keyword">typename</span> Enable = <span class="keywordtype">void</span>&gt;</div>
-<div class="line"><a name="l00839"></a><span class="lineno"><a class="code" href="classtlx_1_1LoserTreeTraits.html">  839</a></span>&#160;<span class="keyword">class </span><a class="code" href="classtlx_1_1LoserTreeTraits.html">LoserTreeTraits</a></div>
+<div class="line"><a name="l00839"></a><span class="lineno"><a class="code" href="classtlx_1_1LoserTreeSwitch.html">  839</a></span>&#160;<span class="keyword">class </span><a class="code" href="classtlx_1_1LoserTreeSwitch.html">LoserTreeSwitch</a></div>
 <div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;{</div>
 <div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00842"></a><span class="lineno"><a class="code" href="classtlx_1_1LoserTreeTraits.html#ad6f8a9e3078ec4056859079611e2ce2b">  842</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classtlx_1_1LoserTreePointer.html" title="Guarded loser tree, using pointers to the elements instead of copying them into the tree nodes...">Type</a> = <a class="code" href="classtlx_1_1LoserTreePointer.html" title="Guarded loser tree, using pointers to the elements instead of copying them into the tree nodes...">LoserTreePointer&lt;Stable, ValueType, Comparator&gt;</a>;</div>
+<div class="line"><a name="l00842"></a><span class="lineno"><a class="code" href="classtlx_1_1LoserTreeSwitch.html#ad6f8a9e3078ec4056859079611e2ce2b">  842</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classtlx_1_1LoserTreePointer.html" title="Guarded loser tree, using pointers to the elements instead of copying them into the tree nodes...">Type</a> = <a class="code" href="classtlx_1_1LoserTreePointer.html" title="Guarded loser tree, using pointers to the elements instead of copying them into the tree nodes...">LoserTreePointer&lt;Stable, ValueType, Comparator&gt;</a>;</div>
 <div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;};</div>
 <div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;</div>
 <div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">bool</span> Stable, <span class="keyword">typename</span> ValueType, <span class="keyword">typename</span> Comparator&gt;</div>
-<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;<span class="keyword">class </span><a class="code" href="classtlx_1_1LoserTreeTraits.html">LoserTreeTraits</a>&lt;</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;<span class="keyword">class </span><a class="code" href="classtlx_1_1LoserTreeSwitch.html">LoserTreeSwitch</a>&lt;</div>
 <div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;        Stable, ValueType, Comparator,</div>
 <div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;        typename std::enable_if&lt;sizeof(ValueType) &lt;= 2* sizeof(size_t)&gt;::type&gt;</div>
 <div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;{</div>
 <div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;    <span class="keyword">using</span> <a class="code" href="classtlx_1_1LoserTreeTraits.html#ad6f8a9e3078ec4056859079611e2ce2b">Type</a> = <a class="code" href="classtlx_1_1LoserTreeCopy.html" title="Guarded loser tree/tournament tree, either copying the whole element into the tree structure...">LoserTreeCopy&lt;Stable, ValueType, Comparator&gt;</a>;</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;    <span class="keyword">using</span> <a class="code" href="classtlx_1_1LoserTreeSwitch.html#ad6f8a9e3078ec4056859079611e2ce2b">Type</a> = <a class="code" href="classtlx_1_1LoserTreeCopy.html" title="Guarded loser tree/tournament tree, either copying the whole element into the tree structure...">LoserTreeCopy&lt;Stable, ValueType, Comparator&gt;</a>;</div>
 <div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;};</div>
 <div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;</div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">bool</span> Stable, <span class="keyword">typename</span> ValueType, <span class="keyword">typename</span> Comparator,</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;          <span class="keyword">typename</span> Enable = <span class="keywordtype">void</span>&gt;</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;<span class="keyword">class </span>LoserTreeTraitsUnguarded</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;{</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;    <span class="keyword">using</span> Type = LoserTreePointerUnguarded&lt;Stable, ValueType, Comparator&gt;;</div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;};</div>
-<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;</div>
-<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">bool</span> Stable, <span class="keyword">typename</span> ValueType, <span class="keyword">typename</span> Comparator&gt;</div>
-<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;<span class="keyword">class </span>LoserTreeTraitsUnguarded&lt;</div>
-<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;        Stable, ValueType, Comparator,</div>
-<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;        typename std::enable_if&lt;sizeof(ValueType) &lt;= 2* sizeof(size_t)&gt;::type&gt;</div>
-<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;{</div>
-<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;    <span class="keyword">using</span> Type = LoserTreeCopyUnguarded&lt;Stable, ValueType, Comparator&gt;;</div>
-<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;};</div>
-<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;</div>
-<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;} <span class="comment">// namespace tlx</span></div>
-<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;</div>
-<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;<span class="preprocessor">#endif // !TLX_LOSER_TREE_HEADER</span></div>
-<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;<span class="comment">/******************************************************************************/</span></div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">bool</span> Stable, <span class="keyword">typename</span> ValueType, <span class="keyword">typename</span> Comparator&gt;</div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;<span class="keyword">using</span> LoserTree = <span class="keyword">typename</span> LoserTreeSwitch&lt;Stable, ValueType, Comparator&gt;::Type;</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;</div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;<span class="comment">/*----------------------------------------------------------------------------*/</span></div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">bool</span> Stable, <span class="keyword">typename</span> ValueType, <span class="keyword">typename</span> Comparator,</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;          <span class="keyword">typename</span> Enable = <span class="keywordtype">void</span>&gt;</div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;<span class="keyword">class </span>LoserTreeUnguardedSwitch</div>
+<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;{</div>
+<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;    <span class="keyword">using</span> Type = LoserTreePointerUnguarded&lt;Stable, ValueType, Comparator&gt;;</div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;};</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;</div>
+<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">bool</span> Stable, <span class="keyword">typename</span> ValueType, <span class="keyword">typename</span> Comparator&gt;</div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;<span class="keyword">class </span>LoserTreeUnguardedSwitch&lt;</div>
+<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;        Stable, ValueType, Comparator,</div>
+<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;        typename std::enable_if&lt;sizeof(ValueType) &lt;= 2* sizeof(size_t)&gt;::type&gt;</div>
+<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;{</div>
+<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;    <span class="keyword">using</span> Type = LoserTreeCopyUnguarded&lt;Stable, ValueType, Comparator&gt;;</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;};</div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">bool</span> Stable, <span class="keyword">typename</span> ValueType, <span class="keyword">typename</span> Comparator&gt;</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;<span class="keyword">using</span> LoserTreeUnguarded =</div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;          <span class="keyword">typename</span> LoserTreeUnguardedSwitch&lt;Stable, ValueType, Comparator&gt;::Type;</div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;</div>
+<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;} <span class="comment">// namespace tlx</span></div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;</div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;<span class="preprocessor">#endif // !TLX_LOSER_TREE_HEADER</span></div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="loser__tree_8hpp.html">loser_tree.hpp</a></li>
-    <li class="footer">Generated on Thu May 11 2017 14:19:20 for tlx by
+    <li class="footer">Generated on Thu May 11 2017 14:45:31 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

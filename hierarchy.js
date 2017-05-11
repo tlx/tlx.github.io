@@ -61,7 +61,7 @@ var hierarchy =
       [ "LoserTreePointerUnguarded< Stable, ValueType, Comparator >", "classtlx_1_1LoserTreePointerUnguarded.html", null ],
       [ "LoserTreePointerUnguarded< true, ValueType, Comparator >", "classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html", null ]
     ] ],
-    [ "LoserTreeTraits< Stable, ValueType, Comparator, Enable >", "classtlx_1_1LoserTreeTraits.html", null ],
+    [ "LoserTreeSwitch< Stable, ValueType, Comparator, Enable >", "classtlx_1_1LoserTreeSwitch.html", null ],
     [ "LruCacheMap< Key, Value, Alloc >", "classtlx_1_1LruCacheMap.html", null ],
     [ "LruCacheSet< Key, Alloc >", "classtlx_1_1LruCacheSet.html", null ],
     [ "make_index_sequence_helper< CurrentIndex, Indexes >", "structtlx_1_1detail_1_1make__index__sequence__helper.html", null ],

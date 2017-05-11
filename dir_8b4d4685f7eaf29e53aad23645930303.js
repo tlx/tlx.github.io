@@ -47,7 +47,7 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
       [ "Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser" ],
       [ "LoserTreePointerUnguarded", "classtlx_1_1LoserTreePointerUnguarded.html", "classtlx_1_1LoserTreePointerUnguarded" ],
       [ "LoserTreePointerUnguarded< true, ValueType, Comparator >", "classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html", "classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4" ],
-      [ "LoserTreeTraits", "classtlx_1_1LoserTreeTraits.html", "classtlx_1_1LoserTreeTraits" ]
+      [ "LoserTreeSwitch", "classtlx_1_1LoserTreeSwitch.html", "classtlx_1_1LoserTreeSwitch" ]
     ] ],
     [ "lru_cache.hpp", "lru__cache_8hpp.html", [
       [ "LruCacheSet", "classtlx_1_1LruCacheSet.html", "classtlx_1_1LruCacheSet" ],
