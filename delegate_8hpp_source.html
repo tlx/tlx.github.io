@@ -397,12 +397,12 @@ $(document).ready(function(){initNavTree('delegate_8hpp_source.html','');});
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="comment">    //! compare delegate with another</span></div>
 <div class="line"><a name="l00285"></a><span class="lineno"><a class="code" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a71a2ba34e7b5f0ffba15e20d1b417f9d">  285</a></span>&#160;<span class="comment"></span>    <span class="keywordtype">bool</span> operator == (std::nullptr_t <span class="keyword">const</span>) const noexcept {</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordflow">return</span> !caller_;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordflow">return</span> caller_ == <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    }</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="comment">    //! compare delegate with another</span></div>
 <div class="line"><a name="l00290"></a><span class="lineno"><a class="code" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#af71db2fb87bd61131d974b31bce6cb61">  290</a></span>&#160;<span class="comment"></span>    <span class="keywordtype">bool</span> operator != (std::nullptr_t <span class="keyword">const</span>) const noexcept {</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <span class="keywordflow">return</span> caller_;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <span class="keywordflow">return</span> caller_ != <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    }</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="comment">    //! explicit conversion to bool -&gt; valid or invalid.</span></div>
@@ -582,7 +582,7 @@ $(document).ready(function(){initNavTree('delegate_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="delegate_8hpp.html">delegate.hpp</a></li>
-    <li class="footer">Generated on Tue May 16 2017 13:15:53 for tlx by
+    <li class="footer">Generated on Tue May 16 2017 14:01:40 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
