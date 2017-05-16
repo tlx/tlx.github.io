@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['ffs',['ffs',['../group__math.html#gad329f497b0ab5d232db2bfc197847f20',1,'tlx::ffs(int i)'],['../group__math.html#ga4cd783fc78724052195627445d5571d2',1,'tlx::ffs(unsigned int i)'],['../group__math.html#ga8936adc5e9fb170c95b49998cacd4bdf',1,'tlx::ffs(long i)'],['../group__math.html#gab21d7e3a30ccacf3270c9e9ec2c9350d',1,'tlx::ffs(unsigned long i)'],['../group__math.html#ga3f372b2e9f3084c32e4e2da798c5b8b2',1,'tlx::ffs(long long i)'],['../group__math.html#ga407c776f328063c08abf3eaa61a1dd95',1,'tlx::ffs(unsigned long long i)']]],
-  ['ffs_5ftemplate',['ffs_template',['../namespacetlx.html#a6b18ba30be90fbdad29253ee722c6ed1',1,'tlx']]],
+  ['ffs',['ffs',['../group__math.html#gad8fd16e4ccb887bed3fa8563ca38a61d',1,'tlx::ffs(int i)'],['../group__math.html#ga7d8d646eb127f0285aacdd5c18c45374',1,'tlx::ffs(unsigned int i)'],['../group__math.html#ga8d2ca2e0837990f307ff6f7129c45cb5',1,'tlx::ffs(long i)'],['../group__math.html#gaf13460ad33c93a724b32cd093ecdb4f9',1,'tlx::ffs(unsigned long i)'],['../group__math.html#ga7e797816c0711b7a6f99a1544d7a88e2',1,'tlx::ffs(long long i)'],['../group__math.html#gae0cbdb957bd7c626f6602d1461143357',1,'tlx::ffs(unsigned long long i)']]],
+  ['ffs_5ftemplate',['ffs_template',['../group__math.html#ga6b18ba30be90fbdad29253ee722c6ed1',1,'tlx']]],
   ['fill',['fill',['../classtlx_1_1SimpleVector.html#a87a9128345a8fb57cd8963b483005368',1,'tlx::SimpleVector']]],
   ['fold',['fold',['../classtlx_1_1FunctionChain.html#ac06f776af42a28453d16ff3705002239',1,'tlx::FunctionChain::fold()'],['../classtlx_1_1FunctionStack.html#ac06f776af42a28453d16ff3705002239',1,'tlx::FunctionStack::fold()']]],
   ['fold_5fchain',['fold_chain',['../classtlx_1_1FunctionChain.html#a45565e85f6d1605c8cd66b5edd66238c',1,'tlx::FunctionChain']]],
