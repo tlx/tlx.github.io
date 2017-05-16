@@ -1,6 +1,14 @@
 var group__math =
 [
     [ "abs_diff", "group__math.html#ga72ac8fb39736ae5d2b8d920b17d815a8", null ],
+    [ "clz", "group__math.html#ga8eebbd26ffd74bb652bdd95bbdf9cff8", null ],
+    [ "clz< int >", "group__math.html#ga09a565e9d3208a46ec2418f3f4af4aec", null ],
+    [ "clz< long >", "group__math.html#gad963f1305c675db55d4a68c48907ea50", null ],
+    [ "clz< long long >", "group__math.html#ga3f1b8534c59b728f99770d9e5fa6f1b1", null ],
+    [ "clz< unsigned >", "group__math.html#gaa5660978ea3eb7cde5437104e38998cb", null ],
+    [ "clz< unsigned long >", "group__math.html#ga12d5012490e9a781255746b9bfa1973c", null ],
+    [ "clz< unsigned long long >", "group__math.html#ga5238dcacef0a9e044c65271a676f940a", null ],
+    [ "clz_template", "group__math.html#gaf1fdecdbd0923a67672014032e079f16", null ],
     [ "div_ceil", "group__math.html#gaa901da3e5d75f6e1891f470b1382562e", null ],
     [ "ffs", "group__math.html#gad8fd16e4ccb887bed3fa8563ca38a61d", null ],
     [ "ffs", "group__math.html#ga7d8d646eb127f0285aacdd5c18c45374", null ],
