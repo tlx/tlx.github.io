@@ -549,8 +549,13 @@ Functions</h2></td></tr>
 <tr class="separator:ga1a5c01183e4cc91ffbec284e8bd9437e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dbb7e10c5e866474d0a516ba06388f8"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1dbb7e10c5e866474d0a516ba06388f8">siphash_plain</a> (const uint8_t key[16], const uint8_t *m, size_t len)</td></tr>
 <tr class="separator:a1dbb7e10c5e866474d0a516ba06388f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1bd6e3b4f18943a26a755b67ab67475"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ad1bd6e3b4f18943a26a755b67ab67475">siphash</a> (const uint8_t key[16], const uint8_t *m, size_t len)</td></tr>
-<tr class="separator:ad1bd6e3b4f18943a26a755b67ab67475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac377d7abe96391a306d74f49c1f92ab0"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ac377d7abe96391a306d74f49c1f92ab0">siphash</a> (const uint8_t key[16], const uint8_t *msg, size_t size)</td></tr>
+<tr class="separator:ac377d7abe96391a306d74f49c1f92ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5b74a8ec4e849ee19578715c65836ab"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab5b74a8ec4e849ee19578715c65836ab">siphash</a> (const uint8_t *msg, size_t size)</td></tr>
+<tr class="separator:ab5b74a8ec4e849ee19578715c65836ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36e52665aa49af074f344396ad6264f8"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:a36e52665aa49af074f344396ad6264f8"><td class="memTemplItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a36e52665aa49af074f344396ad6264f8">siphash</a> (const Type &amp;value)</td></tr>
+<tr class="separator:a36e52665aa49af074f344396ad6264f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7a87b7f6120ebcde0c01ad293465f9d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__string.html#ga7a87b7f6120ebcde0c01ad293465f9d7">compare_icase</a> (const char *a, const char *b)</td></tr>
 <tr class="memdesc:ga7a87b7f6120ebcde0c01ad293465f9d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns +1/0/-1 like strcmp(a, b) but without regard for letter case  <a href="group__string.html#ga7a87b7f6120ebcde0c01ad293465f9d7">More...</a><br/></td></tr>
 <tr class="separator:ga7a87b7f6120ebcde0c01ad293465f9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1600,7 +1605,7 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad1bd6e3b4f18943a26a755b67ab67475"></a>
+<a class="anchor" id="ac377d7abe96391a306d74f49c1f92ab0"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1617,13 +1622,13 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const uint8_t *&#160;</td>
-          <td class="paramname"><em>m</em>, </td>
+          <td class="paramname"><em>msg</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>len</em>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1639,6 +1644,68 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="siphash_8hpp_source.html#l00212">212</a> of file <a class="el" href="siphash_8hpp_source.html">siphash.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab5b74a8ec4e849ee19578715c65836ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint64_t tlx::siphash </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="siphash_8hpp_source.html#l00221">221</a> of file <a class="el" href="siphash_8hpp_source.html">siphash.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a36e52665aa49af074f344396ad6264f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint64_t tlx::siphash </td>
+          <td>(</td>
+          <td class="paramtype">const Type &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="siphash_8hpp_source.html#l00230">230</a> of file <a class="el" href="siphash_8hpp_source.html">siphash.hpp</a>.</p>
 
 </div>
 </div>
@@ -1825,7 +1892,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Wed May 17 2017 21:43:18 for tlx by
+    <li class="footer">Generated on Wed May 17 2017 21:52:55 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

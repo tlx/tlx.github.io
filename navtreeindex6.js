@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"trim_8cpp_source.html":[3,0,0,3,47],
+"trim_8hpp.html":[3,0,0,3,48],
 "trim_8hpp.html#ga4b761b3a20c3f400f4f3451511016a07":[3,0,0,3,48,11],
 "trim_8hpp.html#ga75e734df783f6b4f70f75a8031d930aa":[3,0,0,3,48,10],
 "trim_8hpp.html#ga7aacbd967bfb76fcb4b4d977b4f5d838":[3,0,0,3,48,3],
