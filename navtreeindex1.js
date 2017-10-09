@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"classtlx_1_1FunctionStack.html#a930ca3d8c54b91413c4847c370780a48":[0,1,2,5],
+"classtlx_1_1FunctionStack.html#a96d244361dd64def8f02640c782f8c26":[0,1,2,1],
+"classtlx_1_1FunctionStack.html#ac06f776af42a28453d16ff3705002239":[0,1,2,3],
 "classtlx_1_1FunctionStack.html#ae8542fe44413919dee9f41ede5a5032d":[0,1,2,8],
 "classtlx_1_1FunctionStack.html#af0bc060d9a25b5b470cd237b6dde786d":[0,1,2,4],
 "classtlx_1_1Log2.html":[0,1,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "classtlx_1_1SimpleVector.html#ac394c37f6cc648bfe3c348800f839ffd":[2,0,0,46,8],
 "classtlx_1_1SimpleVector.html#ad517750b1a85b1790f354ad2aac7e588":[2,0,0,46,0],
 "classtlx_1_1SimpleVector.html#ad9f416360dff7b1d24063c8fa7b22174":[2,0,0,46,10],
-"classtlx_1_1SimpleVector.html#ae0da1168fd66f3597f0236b5aa28107c":[2,0,0,46,22],
-"classtlx_1_1SimpleVector.html#af5bb6579266664efe61f1369ab0a02e3":[2,0,0,46,18],
-"classtlx_1_1SimpleVector.html#afc5380afa64b233d0df01a147616974b":[2,0,0,46,19],
-"classtlx_1_1SpacingLogger.html":[2,0,0,9]
+"classtlx_1_1SimpleVector.html#ae0da1168fd66f3597f0236b5aa28107c":[2,0,0,46,22]
 };
