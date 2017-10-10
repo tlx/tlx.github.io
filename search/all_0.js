@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['abs_5fdiff',['abs_diff',['../group__math.html#ga72ac8fb39736ae5d2b8d920b17d815a8',1,'tlx']]],
+  ['abs_5fdiff',['abs_diff',['../group__tlx__math.html#ga72ac8fb39736ae5d2b8d920b17d815a8',1,'tlx']]],
   ['abs_5fdiff_2ehpp',['abs_diff.hpp',['../abs__diff_8hpp.html',1,'']]],
   ['add_5fbool',['add_bool',['../classtlx_1_1CmdlineParser.html#ae588fb1164112dfe0fb1ff99bf5463ab',1,'tlx::CmdlineParser::add_bool(char key, const std::string &amp;longkey, const std::string &amp;keytype, bool &amp;dest, const std::string &amp;desc)'],['../classtlx_1_1CmdlineParser.html#a2aaf7c5aa298ae18d10e1a8f24a0bf88',1,'tlx::CmdlineParser::add_bool(char key, const std::string &amp;longkey, bool &amp;dest, const std::string &amp;desc)']]],
   ['add_5fbytes',['add_bytes',['../classtlx_1_1CmdlineParser.html#a7908445a2e6f7e97321baf8dee53978d',1,'tlx::CmdlineParser::add_bytes(char key, const std::string &amp;longkey, const std::string &amp;keytype, uint32_t &amp;dest, const std::string &amp;desc)'],['../classtlx_1_1CmdlineParser.html#ade460f7640e9b4d4dafb786d8d649c53',1,'tlx::CmdlineParser::add_bytes(char key, const std::string &amp;longkey, const std::string &amp;keytype, uint64_t &amp;dest, const std::string &amp;desc)'],['../classtlx_1_1CmdlineParser.html#aa18f4b9d44ff5d27735d64404800275a',1,'tlx::CmdlineParser::add_bytes(char key, const std::string &amp;longkey, uint32_t &amp;dest, const std::string &amp;desc)'],['../classtlx_1_1CmdlineParser.html#ab7055aec32a55fbcd4247d8af9e176df',1,'tlx::CmdlineParser::add_bytes(char key, const std::string &amp;longkey, uint64_t &amp;dest, const std::string &amp;desc)']]],
@@ -39,7 +39,7 @@ var searchData=
   ['allocator_5fbase_2ehpp',['allocator_base.hpp',['../allocator__base_8hpp.html',1,'']]],
   ['allocator_5ftype',['allocator_type',['../classtlx_1_1RingBuffer.html#a1b9340a5b56dce81fa182aee8c64e363',1,'tlx::RingBuffer']]],
   ['allocatorbase',['AllocatorBase',['../classtlx_1_1AllocatorBase.html',1,'tlx']]],
-  ['apply_5ftuple',['apply_tuple',['../group__meta.html#ga697505eebc05040893022611ce8866c1',1,'tlx']]],
+  ['apply_5ftuple',['apply_tuple',['../group__tlx__meta.html#ga697505eebc05040893022611ce8866c1',1,'tlx']]],
   ['apply_5ftuple_2ehpp',['apply_tuple.hpp',['../apply__tuple_8hpp.html',1,'']]],
   ['apply_5ftuple_5fimpl',['apply_tuple_impl',['../namespacetlx_1_1detail.html#ad9746dc2ad8271c539cc24ca9f840dcd',1,'tlx::detail']]],
   ['arena_5f',['arena_',['../classtlx_1_1StackAllocator.html#ac73fe7e3bf0646d33e39f1653d0a6484',1,'tlx::StackAllocator']]],

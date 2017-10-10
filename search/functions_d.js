@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['pad',['pad',['../group__string.html#ga03240bad0b02669f254c21c28009c21a',1,'tlx']]],
+  ['pad',['pad',['../group__tlx__string.html#ga03240bad0b02669f254c21c28009c21a',1,'tlx']]],
   ['param_5ftext',['param_text',['../structtlx_1_1CmdlineParser_1_1Argument.html#a37ad78a3220008442890cf3ac12e9f77',1,'tlx::CmdlineParser::Argument']]],
-  ['parse_5fhexdump',['parse_hexdump',['../group__string.html#ga81809bc5e0b69034f39659303baa4bf9',1,'tlx']]],
-  ['parse_5fsi_5fiec_5funits',['parse_si_iec_units',['../group__string.html#ga58be0557b1b38913b28d947c935aed42',1,'tlx::parse_si_iec_units(const char *str, uint64_t *out_size, char default_unit=0)'],['../group__string.html#ga42a656ed3586b515140cb71b312f0f9b',1,'tlx::parse_si_iec_units(const std::string &amp;str, uint64_t *out_size, char default_unit=0)']]],
+  ['parse_5fhexdump',['parse_hexdump',['../group__tlx__string.html#ga81809bc5e0b69034f39659303baa4bf9',1,'tlx']]],
+  ['parse_5fsi_5fiec_5funits',['parse_si_iec_units',['../group__tlx__string.html#ga58be0557b1b38913b28d947c935aed42',1,'tlx::parse_si_iec_units(const char *str, uint64_t *out_size, char default_unit=0)'],['../group__tlx__string.html#ga42a656ed3586b515140cb71b312f0f9b',1,'tlx::parse_si_iec_units(const std::string &amp;str, uint64_t *out_size, char default_unit=0)']]],
   ['pointer_5fin_5fbuffer',['pointer_in_buffer',['../classtlx_1_1StackArena.html#a351ae3d1a094b30c6f214370014dc61b',1,'tlx::StackArena']]],
   ['pop',['pop',['../classtlx_1_1LruCacheSet.html#a874f1a7960b79201a69e5700e9b3f66c',1,'tlx::LruCacheSet::pop()'],['../classtlx_1_1LruCacheMap.html#aa6ff226577e0c641c859c6bdc12804c9',1,'tlx::LruCacheMap::pop()']]],
   ['pop_5fback',['pop_back',['../classtlx_1_1RingBuffer.html#a058bda4957df6a97b1ea6c9fd783f672',1,'tlx::RingBuffer']]],

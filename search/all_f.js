@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['pad',['pad',['../group__string.html#ga03240bad0b02669f254c21c28009c21a',1,'tlx']]],
+  ['pad',['pad',['../group__tlx__string.html#ga03240bad0b02669f254c21c28009c21a',1,'tlx']]],
   ['pad_2ecpp',['pad.cpp',['../pad_8cpp.html',1,'']]],
   ['pad_2ehpp',['pad.hpp',['../pad_8hpp.html',1,'']]],
   ['param_5flist_5f',['param_list_',['../classtlx_1_1CmdlineParser.html#a82f067cc288f8abd50470ff6794da04f',1,'tlx::CmdlineParser']]],
   ['param_5fmax_5fwidth_5f',['param_max_width_',['../classtlx_1_1CmdlineParser.html#af3bc88b7e683319e684d3e715ee060eb',1,'tlx::CmdlineParser']]],
   ['param_5ftext',['param_text',['../structtlx_1_1CmdlineParser_1_1Argument.html#a37ad78a3220008442890cf3ac12e9f77',1,'tlx::CmdlineParser::Argument']]],
-  ['parse_5fhexdump',['parse_hexdump',['../group__string.html#ga81809bc5e0b69034f39659303baa4bf9',1,'tlx']]],
-  ['parse_5fsi_5fiec_5funits',['parse_si_iec_units',['../group__string.html#ga58be0557b1b38913b28d947c935aed42',1,'tlx::parse_si_iec_units(const char *str, uint64_t *out_size, char default_unit=0)'],['../group__string.html#ga42a656ed3586b515140cb71b312f0f9b',1,'tlx::parse_si_iec_units(const std::string &amp;str, uint64_t *out_size, char default_unit=0)']]],
+  ['parse_5fhexdump',['parse_hexdump',['../group__tlx__string.html#ga81809bc5e0b69034f39659303baa4bf9',1,'tlx']]],
+  ['parse_5fsi_5fiec_5funits',['parse_si_iec_units',['../group__tlx__string.html#ga58be0557b1b38913b28d947c935aed42',1,'tlx::parse_si_iec_units(const char *str, uint64_t *out_size, char default_unit=0)'],['../group__tlx__string.html#ga42a656ed3586b515140cb71b312f0f9b',1,'tlx::parse_si_iec_units(const std::string &amp;str, uint64_t *out_size, char default_unit=0)']]],
   ['parse_5fsi_5fiec_5funits_2ecpp',['parse_si_iec_units.cpp',['../parse__si__iec__units_8cpp.html',1,'']]],
   ['parse_5fsi_5fiec_5funits_2ehpp',['parse_si_iec_units.hpp',['../parse__si__iec__units_8hpp.html',1,'']]],
   ['pointer',['pointer',['../classtlx_1_1AllocatorBase.html#a1e67311e1f4ae3600af384f0a7e6addc',1,'tlx::AllocatorBase::pointer()'],['../classtlx_1_1RingBuffer.html#a1eb349cbe5db02193774b9026a90df1c',1,'tlx::RingBuffer::pointer()'],['../classtlx_1_1StackAllocator.html#a1e67311e1f4ae3600af384f0a7e6addc',1,'tlx::StackAllocator::pointer()']]],

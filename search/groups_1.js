@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['string_20algorithms',['String Algorithms',['../group__string.html',1,'']]]
+  ['loser_20trees',['Loser Trees',['../group__tlx__data__structures__loser__tree.html',1,'']]]
 ];
