@@ -1,5 +1,8 @@
 var NAVTREEINDEX5 =
 {
+"logger_8cpp.html#ac57ddd8d5c4eebe0f8a5d889b29c8823":[3,0,0,12,0],
+"logger_8cpp_source.html":[3,0,0,12],
+"logger_8hpp.html":[3,0,0,13],
 "logger_8hpp.html#a159ca84d25a5487d8e81e4438725df19":[3,0,0,13,3],
 "logger_8hpp.html#a1ebd9a4bec506b6bf89af113a8f03ca1":[3,0,0,13,10],
 "logger_8hpp.html#a278e17dff6f1eff15d52f0bc57b65915":[3,0,0,13,5],
@@ -27,8 +30,8 @@ var NAVTREEINDEX5 =
 "namespacemembers_enum.html":[1,1,4],
 "namespacemembers_eval.html":[1,1,5],
 "namespacemembers_f.html":[1,1,0,5],
-"namespacemembers_func.html":[1,1,1,0],
 "namespacemembers_func.html":[1,1,1],
+"namespacemembers_func.html":[1,1,1,0],
 "namespacemembers_func_b.html":[1,1,1,1],
 "namespacemembers_func_c.html":[1,1,1,2],
 "namespacemembers_func_d.html":[1,1,1,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX5 =
 "structtlx_1_1CmdlineParser_1_1ArgumentBool.html#a9db1ea384594ee66e67d6765bcce9116":[2,0,0,2,1,0],
 "structtlx_1_1CmdlineParser_1_1ArgumentBool.html#aa6a78908f9b56fd0b57a551a82c9546f":[2,0,0,2,1,3],
 "structtlx_1_1CmdlineParser_1_1ArgumentBool.html#aeaae06971ebe15525941922449c63813":[2,0,0,2,1,1],
-"structtlx_1_1CmdlineParser_1_1ArgumentBool.html#af1138dedebbc8733457bb3655f10716b":[2,0,0,2,1,2],
-"structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html":[2,0,0,2,2],
-"structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html#a011726dd2e68540a38b0b5788fca14e2":[2,0,0,2,2,0],
-"structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html#a837dd2e369475c20e2591c7612d5c9c6":[2,0,0,2,2,4]
+"structtlx_1_1CmdlineParser_1_1ArgumentBool.html#af1138dedebbc8733457bb3655f10716b":[2,0,0,2,1,2]
 };

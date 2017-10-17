@@ -250,7 +250,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 <p>The whole method is more similar to boost's instrusive_ptr, but also yields something resembling std::shared_ptr. However, compared to std::shared_ptr, this class only contains a single pointer, while shared_ptr contains two which are only related if constructed with std::make_shared.</p>
 <p>Another advantage with this method is that no kludges like std::enable_shared_from_this are needed. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00057">57</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00065">65</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="aa6c398e0330d2e6ddd23650cbfbcdf67"></a>
 <div class="memitem">
@@ -264,7 +264,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>contained type. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00061">61</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00069">69</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -292,7 +292,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>default constructor: contains a nullptr pointer. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00083">83</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00091">91</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -320,7 +320,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>implicit conversion from nullptr_t: contains a nullptr pointer. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00087">87</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00095">95</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -348,7 +348,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>constructor from pointer: initializes new reference to ptr. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00091">91</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00099">99</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -376,7 +376,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>copy-constructor: also initializes new reference to ptr. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00096">96</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00104">104</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -404,7 +404,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>copy-constructor: also initializes new reference to ptr. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00104">104</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00112">112</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -432,7 +432,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>move-constructor: just moves pointer, does not change reference counts. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00109">109</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00117">117</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -460,7 +460,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>move-constructor: just moves pointer, does not change reference counts. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00117">117</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00125">125</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -487,7 +487,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>destructor: decrements reference count in ptr. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00171">171</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00179">179</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -515,7 +515,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>decrement reference count of current object and maybe delete it. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00072">72</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00080">80</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -542,7 +542,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test for a nullptr pointer </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00213">213</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00221">221</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -569,7 +569,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>return the enclosed pointer. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00186">186</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00194">194</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -597,7 +597,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>increment reference count of object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00068">68</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00076">76</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -624,7 +624,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>cast to bool checks for a nullptr pointer </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00209">209</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00217">217</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -652,7 +652,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test inequality of only the pointer values. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00193">193</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00201">201</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -680,7 +680,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test inequality of only the address pointed to </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00201">201</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00209">209</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -707,7 +707,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>return the enclosed object as reference. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00174">174</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00182">182</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -734,7 +734,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>return the enclosed pointer. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00180">180</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00188">188</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -762,7 +762,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>copy-assignment operator: acquire reference on new one and dereference current object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00123">123</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00131">131</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -790,7 +790,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>copy-assignment operator: acquire reference on new one and dereference current object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00138">138</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00146">146</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -818,7 +818,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>move-assignment operator: move reference of other to current object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00148">148</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00156">156</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -846,7 +846,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>move-assignment operator: move reference of other to current object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00161">161</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00169">169</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -874,7 +874,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test equality of only the pointer values. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00189">189</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00197">197</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -902,7 +902,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test equality of only the address pointed to </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00197">197</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00205">205</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -929,7 +929,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>release contained pointer, frees object if this is the last reference. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00227">227</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00235">235</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -957,7 +957,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>swap enclosed object with another counting pointer (no reference counts need change) </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00234">234</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00242">242</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -984,7 +984,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>make and refer a copy if the original object was shared. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00221">221</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00229">229</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -1011,7 +1011,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>if the object is referred by this <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer. ">CountingPtr</a> only </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00217">217</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00225">225</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1038,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test for a non-nullptr pointer </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00205">205</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00213">213</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -1063,7 +1063,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>all <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer. ">CountingPtr</a> are friends such that they may steal pointers. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00080">80</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00088">88</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -1088,7 +1088,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>the pointer to the currently referenced object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00065">65</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00073">73</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -1101,7 +1101,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a></li>
-    <li class="footer">Generated on Tue Oct 10 2017 21:01:55 for tlx by
+    <li class="footer">Generated on Tue Oct 17 2017 08:07:57 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

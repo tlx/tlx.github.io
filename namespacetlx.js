@@ -4,6 +4,7 @@ var namespacetlx =
     [ "AllocatorBase", "classtlx_1_1AllocatorBase.html", "classtlx_1_1AllocatorBase" ],
     [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
     [ "CountingPtrDefaultDeleter", "classtlx_1_1CountingPtrDefaultDeleter.html", "classtlx_1_1CountingPtrDefaultDeleter" ],
+    [ "CountingPtrNoOperationDeleter", "classtlx_1_1CountingPtrNoOperationDeleter.html", "classtlx_1_1CountingPtrNoOperationDeleter" ],
     [ "CountingPtr", "classtlx_1_1CountingPtr.html", "classtlx_1_1CountingPtr" ],
     [ "ReferenceCounter", "classtlx_1_1ReferenceCounter.html", "classtlx_1_1ReferenceCounter" ],
     [ "Delegate", "classtlx_1_1Delegate.html", null ],

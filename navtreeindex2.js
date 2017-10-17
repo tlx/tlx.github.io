@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"clz_8hpp_source.html":[3,0,0,1,1],
+"cmdline__parser_8cpp.html":[3,0,0,5],
 "cmdline__parser_8cpp_source.html":[3,0,0,5],
 "cmdline__parser_8hpp.html":[3,0,0,6],
 "cmdline__parser_8hpp_source.html":[3,0,0,6],
@@ -35,11 +37,12 @@ var NAVTREEINDEX2 =
 "contains__word_8hpp.html#ga7f7b2444597941650e05c1bb96b04f45":[3,0,0,3,7,1],
 "contains__word_8hpp_source.html":[3,0,0,3,7],
 "counting__ptr_8hpp.html":[3,0,0,7],
-"counting__ptr_8hpp.html#a2c4e023d82bca2172da2f965e3b42b40":[3,0,0,7,3],
-"counting__ptr_8hpp.html#a447e57b368c4ce87381d12d5cf1d8b12":[3,0,0,7,6],
-"counting__ptr_8hpp.html#a4a89ad01492580f7cf07d93a99539cf5":[3,0,0,7,4],
-"counting__ptr_8hpp.html#a5dee8d3837365def6ce2290d6e76bd55":[3,0,0,7,7],
-"counting__ptr_8hpp.html#ae38d352a065543cf324f52a58bd2b026":[3,0,0,7,5],
+"counting__ptr_8hpp.html#a2c4e023d82bca2172da2f965e3b42b40":[3,0,0,7,4],
+"counting__ptr_8hpp.html#a4a89ad01492580f7cf07d93a99539cf5":[3,0,0,7,6],
+"counting__ptr_8hpp.html#a571b1c19ce4d530c4aaa3cd797c8ccae":[3,0,0,7,8],
+"counting__ptr_8hpp.html#a9d28f4e50fa9fc359c658b0911ce06b8":[3,0,0,7,5],
+"counting__ptr_8hpp.html#ade1320658af9846df1831480a96e7a38":[3,0,0,7,9],
+"counting__ptr_8hpp.html#ae38d352a065543cf324f52a58bd2b026":[3,0,0,7,7],
 "counting__ptr_8hpp_source.html":[3,0,0,7],
 "define_8hpp.html":[3,0,0,8],
 "define_8hpp_source.html":[3,0,0,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "group__tlx__data__structures__loser__tree.html#ga071fda465da2cd47c848c51e802635ed":[0,0,0,0,25],
 "group__tlx__data__structures__loser__tree.html#ga071fda465da2cd47c848c51e802635ed":[0,0,0,0,2,0],
 "group__tlx__data__structures__loser__tree.html#ga071fda465da2cd47c848c51e802635ed":[0,0,0,0,21],
-"group__tlx__data__structures__loser__tree.html#ga071fda465da2cd47c848c51e802635ed":[0,0,0,0,8,0],
-"group__tlx__data__structures__loser__tree.html#ga071fda465da2cd47c848c51e802635ed":[0,0,0,0,9,0],
-"group__tlx__data__structures__loser__tree.html#ga071fda465da2cd47c848c51e802635ed":[0,0,0,0,24],
-"group__tlx__data__structures__loser__tree.html#ga071fda465da2cd47c848c51e802635ed":[0,0,0,0,11,0]
+"group__tlx__data__structures__loser__tree.html#ga071fda465da2cd47c848c51e802635ed":[0,0,0,0,8,0]
 };

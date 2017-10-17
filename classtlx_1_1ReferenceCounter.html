@@ -160,7 +160,7 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>Provides reference counting abilities for use with <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer. ">CountingPtr</a>. </p>
 <p>Use as superclass of the actual object, this adds a reference_count_ value. Then either use <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer. ">CountingPtr</a> as pointer to manage references and deletion, or just do normal new and delete. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00268">268</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00280">280</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a4d1b69627f451d81664e76fa4f27ac8c"></a>
 <div class="memitem">
@@ -185,7 +185,7 @@ Private Attributes</h2></td></tr>
 
 <p>new objects have zero reference count </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00277">277</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00289">289</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -213,7 +213,7 @@ Private Attributes</h2></td></tr>
 
 <p>coping still creates a new object with zero reference count </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00281">281</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00293">293</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -238,7 +238,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00290">290</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00302">302</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -268,7 +268,7 @@ Private Attributes</h2></td></tr>
 <p>overwriting) a pointer to the object. IMPORTANT: In case of self-assignment, call AFTER <a class="el" href="classtlx_1_1ReferenceCounter.html#a84c7401c7aeead7b2b9a6795d9874e3b" title="Call whenever setting a pointer to the object. ">inc_reference()</a>.</p>
 <dl class="section return"><dt>Returns</dt><dd>if the object has to be deleted (i.e. if it's reference count dropped to zero) </dd></dl>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00305">305</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00317">317</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -295,7 +295,7 @@ Private Attributes</h2></td></tr>
 
 <p>Call whenever setting a pointer to the object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00295">295</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00307">307</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -323,7 +323,7 @@ Private Attributes</h2></td></tr>
 
 <p>assignment operator, leaves pointers unchanged </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00285">285</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00297">297</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -350,7 +350,7 @@ Private Attributes</h2></td></tr>
 
 <p>Return the number of references to this object (for debugging) </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00315">315</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00327">327</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -377,7 +377,7 @@ Private Attributes</h2></td></tr>
 
 <p>Test if the <a class="el" href="classtlx_1_1ReferenceCounter.html" title="Provides reference counting abilities for use with CountingPtr. ">ReferenceCounter</a> is referenced by only one <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer. ">CountingPtr</a>. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00311">311</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00323">323</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -402,7 +402,7 @@ Private Attributes</h2></td></tr>
 
 <p>the reference count is kept mutable for CountingPtr&lt;const Type&gt; to change the reference count. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00273">273</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00285">285</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -415,7 +415,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1ReferenceCounter.html">ReferenceCounter</a></li>
-    <li class="footer">Generated on Tue Oct 10 2017 21:01:55 for tlx by
+    <li class="footer">Generated on Tue Oct 17 2017 08:07:57 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

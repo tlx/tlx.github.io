@@ -62,9 +62,11 @@ var searchData=
   ['copy_5fto',['copy_to',['../classtlx_1_1RingBuffer.html#a6b5dbb6c480b361acfa89961532423ec',1,'tlx::RingBuffer']]],
   ['counting_5fptr',['counting_ptr',['../namespacetlx.html#a2c4e023d82bca2172da2f965e3b42b40',1,'tlx']]],
   ['counting_5fptr_2ehpp',['counting_ptr.hpp',['../counting__ptr_8hpp.html',1,'']]],
-  ['countingptr',['CountingPtr',['../classtlx_1_1CountingPtr.html',1,'tlx']]],
   ['countingptr',['CountingPtr',['../classtlx_1_1CountingPtr.html#a616ca2272ad86cb31707f59561c34901',1,'tlx::CountingPtr::CountingPtr()'],['../classtlx_1_1CountingPtr.html#ae413b4031fd8b8dcb64ac8039986ccc1',1,'tlx::CountingPtr::CountingPtr() noexcept'],['../classtlx_1_1CountingPtr.html#a76adf9605e775ed78d7a25286b399adf',1,'tlx::CountingPtr::CountingPtr(std::nullptr_t) noexcept'],['../classtlx_1_1CountingPtr.html#a4299e98560baaf13ae1e02f210ee8ab6',1,'tlx::CountingPtr::CountingPtr(Type *ptr) noexcept'],['../classtlx_1_1CountingPtr.html#a524e23f2626372c8e1176c171fd53a04',1,'tlx::CountingPtr::CountingPtr(const CountingPtr &amp;other) noexcept'],['../classtlx_1_1CountingPtr.html#ad6277c1f8e890e06484c1a1bdfb7d091',1,'tlx::CountingPtr::CountingPtr(const CountingPtr&lt; Subclass, Deleter &gt; &amp;other) noexcept'],['../classtlx_1_1CountingPtr.html#ab82bb319000be4145e148e0b6e31f5be',1,'tlx::CountingPtr::CountingPtr(CountingPtr &amp;&amp;other) noexcept'],['../classtlx_1_1CountingPtr.html#ae1e8511d1bdf12dcbab34d339567f131',1,'tlx::CountingPtr::CountingPtr(CountingPtr&lt; Subclass, Deleter &gt; &amp;&amp;other) noexcept']]],
+  ['countingptr',['CountingPtr',['../classtlx_1_1CountingPtr.html',1,'tlx']]],
   ['countingptrdefaultdeleter',['CountingPtrDefaultDeleter',['../classtlx_1_1CountingPtrDefaultDeleter.html',1,'tlx']]],
+  ['countingptrnodelete',['CountingPtrNoDelete',['../namespacetlx.html#a9d28f4e50fa9fc359c658b0911ce06b8',1,'tlx']]],
+  ['countingptrnooperationdeleter',['CountingPtrNoOperationDeleter',['../classtlx_1_1CountingPtrNoOperationDeleter.html',1,'tlx']]],
   ['create_5farray',['create_array',['../classtlx_1_1SimpleVector.html#a631b59e584b115ebe3921fb26e01ff74',1,'tlx::SimpleVector']]],
   ['cv_5ffinished_5f',['cv_finished_',['../classtlx_1_1ThreadPool.html#ada11126249a7bb96ff34e263a5cdd1f0',1,'tlx::ThreadPool']]],
   ['cv_5fjobs_5f',['cv_jobs_',['../classtlx_1_1ThreadPool.html#a631f3ec1b194da2fb848e15235f0ae88',1,'tlx::ThreadPool']]]

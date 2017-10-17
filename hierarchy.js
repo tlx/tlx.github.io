@@ -20,6 +20,7 @@ var hierarchy =
     [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ],
     [ "CountingPtr< Type, Deleter >", "classtlx_1_1CountingPtr.html", null ],
     [ "CountingPtrDefaultDeleter", "classtlx_1_1CountingPtrDefaultDeleter.html", null ],
+    [ "CountingPtrNoOperationDeleter", "classtlx_1_1CountingPtrNoOperationDeleter.html", null ],
     [ "Delegate< T, Allocator >", "classtlx_1_1Delegate.html", null ],
     [ "Delegate< R(A...), Allocator >", "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html", null ],
     [ "false_type", null, [
