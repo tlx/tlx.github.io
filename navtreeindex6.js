@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"structtlx_1_1CmdlineParser_1_1ArgumentBool.html#af1138dedebbc8733457bb3655f10716b":[2,0,0,2,1,2],
 "structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html":[2,0,0,2,2],
 "structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html#a011726dd2e68540a38b0b5788fca14e2":[2,0,0,2,2,0],
 "structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html#a837dd2e369475c20e2591c7612d5c9c6":[2,0,0,2,2,4],
