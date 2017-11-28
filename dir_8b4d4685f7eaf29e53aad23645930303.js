@@ -7,6 +7,8 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "allocator_base.hpp", "allocator__base_8hpp.html", [
       [ "AllocatorBase", "classtlx_1_1AllocatorBase.html", "classtlx_1_1AllocatorBase" ]
     ] ],
+    [ "backtrace.cpp", "backtrace_8cpp.html", "backtrace_8cpp" ],
+    [ "backtrace.hpp", "backtrace_8hpp.html", "backtrace_8hpp" ],
     [ "cmdline_parser.cpp", "cmdline__parser_8cpp.html", [
       [ "Argument", "structtlx_1_1CmdlineParser_1_1Argument.html", "structtlx_1_1CmdlineParser_1_1Argument" ],
       [ "ArgumentBool", "structtlx_1_1CmdlineParser_1_1ArgumentBool.html", "structtlx_1_1CmdlineParser_1_1ArgumentBool" ],

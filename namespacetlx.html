@@ -290,6 +290,15 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a5e964500195bf49264036402214d61ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a5e964500195bf49264036402214d61ed">print_raw_backtrace</a> (FILE *out, unsigned int max_frames, const char *fmt,...) <a class="el" href="attribute__format__printf_8hpp.html#a246a72d6938b4e4a40f11571a676b472">TLX_ATTRIBUTE_FORMAT_PRINTF</a>(3</td></tr>
+<tr class="memdesc:a5e964500195bf49264036402214d61ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a plain hex stack backtrace of the called function to FILE* out, prefixed with the given printf formatted output.  <a href="#a5e964500195bf49264036402214d61ed">More...</a><br/></td></tr>
+<tr class="separator:a5e964500195bf49264036402214d61ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d2bac4967f005d9dd31c0c300eef091"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1d2bac4967f005d9dd31c0c300eef091">print_raw_backtrace</a> (FILE *out=stderr, unsigned int max_frames=63)</td></tr>
+<tr class="memdesc:a1d2bac4967f005d9dd31c0c300eef091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a plain hex stack backtrace of the called function to FILE* out.  <a href="#a1d2bac4967f005d9dd31c0c300eef091">More...</a><br/></td></tr>
+<tr class="separator:a1d2bac4967f005d9dd31c0c300eef091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adad32b2f09919dea0ffb70cecfa4ee70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#adad32b2f09919dea0ffb70cecfa4ee70">print_cxx_backtrace</a> (FILE *out=stderr, unsigned int max_frames=63)</td></tr>
+<tr class="memdesc:adad32b2f09919dea0ffb70cecfa4ee70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print a demangled stack backtrace of the caller function to FILE* out.  <a href="#adad32b2f09919dea0ffb70cecfa4ee70">More...</a><br/></td></tr>
+<tr class="separator:adad32b2f09919dea0ffb70cecfa4ee70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae38d352a065543cf324f52a58bd2b026"><td class="memTemplParams" colspan="2">template&lt;typename Type , typename... Args&gt; </td></tr>
 <tr class="memitem:ae38d352a065543cf324f52a58bd2b026"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a>&lt; Type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ae38d352a065543cf324f52a58bd2b026">make_counting</a> (Args &amp;&amp;...args)</td></tr>
 <tr class="memdesc:ae38d352a065543cf324f52a58bd2b026"><td class="mdescLeft">&#160;</td><td class="mdescRight">method analogous to std::make_shared and std::make_unique.  <a href="#ae38d352a065543cf324f52a58bd2b026">More...</a><br/></td></tr>
@@ -1544,6 +1553,109 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="adad32b2f09919dea0ffb70cecfa4ee70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void void print_cxx_backtrace </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>out</em> = <code>stderr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>max_frames</em> = <code>63</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print a demangled stack backtrace of the caller function to FILE* out. </p>
+<dl class="section warning"><dt>Warning</dt><dd>The binary has to be compiled with <code>-rdynamic</code> for meaningful output. </dd></dl>
+
+<p>Definition at line <a class="el" href="backtrace_8cpp_source.html#l00064">64</a> of file <a class="el" href="backtrace_8cpp_source.html">backtrace.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5e964500195bf49264036402214d61ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_raw_backtrace </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>max_frames</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print a plain hex stack backtrace of the called function to FILE* out, prefixed with the given printf formatted output. </p>
+
+<p>Definition at line <a class="el" href="backtrace_8cpp_source.html#l00026">26</a> of file <a class="el" href="backtrace_8cpp_source.html">backtrace.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d2bac4967f005d9dd31c0c300eef091"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_raw_backtrace </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>max_frames</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print a plain hex stack backtrace of the called function to FILE* out. </p>
+
+<p>Definition at line <a class="el" href="backtrace_8cpp_source.html#l00060">60</a> of file <a class="el" href="backtrace_8cpp_source.html">backtrace.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a165140a3f756701491e3958c9858ea2c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1857,7 +1969,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Tue Oct 24 2017 15:55:41 for tlx by
+    <li class="footer">Generated on Tue Nov 28 2017 23:27:40 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
