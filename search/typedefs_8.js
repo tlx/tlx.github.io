@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['map',['Map',['../classtlx_1_1LruCacheSet.html#a861aef812bb830b05ff98b11bbb184be',1,'tlx::LruCacheSet::Map()'],['../classtlx_1_1LruCacheMap.html#a861aef812bb830b05ff98b11bbb184be',1,'tlx::LruCacheMap::Map()']]],
-  ['memberpair',['MemberPair',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ae8ce671297822c7617191eef0b7eb987',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]]
+  ['list',['List',['../classtlx_1_1LruCacheSet.html#aef5817a38720be7f39e4b342a5579167',1,'tlx::LruCacheSet::List()'],['../classtlx_1_1LruCacheMap.html#a23c2b72c6846b7f00ee6fdff05c7163f',1,'tlx::LruCacheMap::List()']]],
+  ['listiterator',['ListIterator',['../classtlx_1_1LruCacheSet.html#a893fd28c1f0a5a3caa628a7e08deb2cb',1,'tlx::LruCacheSet::ListIterator()'],['../classtlx_1_1LruCacheMap.html#a893fd28c1f0a5a3caa628a7e08deb2cb',1,'tlx::LruCacheMap::ListIterator()']]]
 ];

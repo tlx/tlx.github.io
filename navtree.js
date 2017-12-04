@@ -22,6 +22,7 @@ var NAVTREE =
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
@@ -39,12 +40,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "abs__diff_8hpp.html",
-"classtlx_1_1FunctionChain.html#a865f1dca79a29770a2c09ef35d51852f",
-"classtlx_1_1detail_1_1VMapForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html#a429e28bf4355ebc3f4405e915d356c32",
-"group__tlx__data__structures__loser__tree.html#ga05fc0c59707abe4501c0c9779e33fac3",
-"group__tlx__string.html#ga00c921a6a793d9c4e59e380b2bb32fca",
-"less__icase_8hpp.html#ga25e2629353a36fb47c587b4eef89c0d2",
-"structtlx_1_1CmdlineParser_1_1Argument.html#a895f2c0cfb8e6fc75f3c14c5f19d8f13"
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ae43b2bfac4cb813244715b6db6683a75",
+"classtlx_1_1ThreadPool.html#a9cb89797b85a34e7456d4e05f76b7670",
+"classtlx_1_1btree__map.html#a77ce4303907bb816a959ac7b0725311e",
+"classtlx_1_1btree__set.html#adc204502ef1606c9daa4a613da6aacfb",
+"functions_t.html",
+"group__tlx__math.html#gaeab5bbc00713a95adc413ee5ddd0cb65",
+"is__std__pair_8hpp_source.html",
+"split__words_8hpp_source.html",
+"vmap__foreach__with__index_8hpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

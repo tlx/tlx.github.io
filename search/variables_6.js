@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['ik_5f',['ik_',['../group__tlx__data__structures__loser__tree.html#gae685674ee260e306f6c7f3b82dd46834',1,'tlx::LoserTreeCopyBase::ik_()'],['../group__tlx__data__structures__loser__tree.html#gae685674ee260e306f6c7f3b82dd46834',1,'tlx::LoserTreePointerBase::ik_()'],['../group__tlx__data__structures__loser__tree.html#ga06f92e08a8d3b2fe95a11b3100222e98',1,'tlx::LoserTreeCopyUnguardedBase::ik_()'],['../group__tlx__data__structures__loser__tree.html#ga06f92e08a8d3b2fe95a11b3100222e98',1,'tlx::LoserTreePointerUnguardedBase::ik_()']]],
-  ['index',['index',['../structtlx_1_1StaticIndex.html#a5db12ccaeb69abb440e410e47b86d6cf',1,'tlx::StaticIndex']]],
-  ['invalid_5f',['invalid_',['../group__tlx__data__structures__loser__tree.html#ga12a608acf2b6dc6f3f0dfc25a8ddc8dc',1,'tlx::LoserTreeCopyBase::invalid_()'],['../group__tlx__data__structures__loser__tree.html#ga12a608acf2b6dc6f3f0dfc25a8ddc8dc',1,'tlx::LoserTreePointerBase::invalid_()'],['../group__tlx__data__structures__loser__tree.html#ga12a608acf2b6dc6f3f0dfc25a8ddc8dc',1,'tlx::LoserTreeCopyUnguardedBase::invalid_()'],['../group__tlx__data__structures__loser__tree.html#ga12a608acf2b6dc6f3f0dfc25a8ddc8dc',1,'tlx::LoserTreePointerUnguardedBase::invalid_()']]]
+  ['head_5fleaf_5f',['head_leaf_',['../classtlx_1_1btree.html#aa537b415741ac8c657b258aa21909e4f',1,'tlx::btree']]]
 ];

@@ -2,6 +2,12 @@ var namespacetlx =
 [
     [ "detail", "namespacetlx_1_1detail.html", "namespacetlx_1_1detail" ],
     [ "AllocatorBase", "classtlx_1_1AllocatorBase.html", "classtlx_1_1AllocatorBase" ],
+    [ "btree_default_traits", "structtlx_1_1btree__default__traits.html", "structtlx_1_1btree__default__traits" ],
+    [ "btree", "classtlx_1_1btree.html", "classtlx_1_1btree" ],
+    [ "btree_map", "classtlx_1_1btree__map.html", "classtlx_1_1btree__map" ],
+    [ "btree_multimap", "classtlx_1_1btree__multimap.html", "classtlx_1_1btree__multimap" ],
+    [ "btree_multiset", "classtlx_1_1btree__multiset.html", "classtlx_1_1btree__multiset" ],
+    [ "btree_set", "classtlx_1_1btree__set.html", "classtlx_1_1btree__set" ],
     [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
     [ "CountingPtrDefaultDeleter", "classtlx_1_1CountingPtrDefaultDeleter.html", "classtlx_1_1CountingPtrDefaultDeleter" ],
     [ "CountingPtrNoOperationDeleter", "classtlx_1_1CountingPtrNoOperationDeleter.html", "classtlx_1_1CountingPtrNoOperationDeleter" ],

@@ -32,6 +32,8 @@ var searchData=
   ['add_5funsigned',['add_unsigned',['../classtlx_1_1CmdlineParser.html#a274dcbdd6593fc918ac16c959e9aca65',1,'tlx::CmdlineParser::add_unsigned(char key, const std::string &amp;longkey, const std::string &amp;keytype, unsigned int &amp;dest, const std::string &amp;desc)'],['../classtlx_1_1CmdlineParser.html#acb9884eaef05f76f0609a3e849abf6da',1,'tlx::CmdlineParser::add_unsigned(char key, const std::string &amp;longkey, unsigned int &amp;dest, const std::string &amp;desc)']]],
   ['address',['address',['../classtlx_1_1AllocatorBase.html#ac76accbf197fcef37b3bebea103e4bfc',1,'tlx::AllocatorBase::address(reference x) const noexcept'],['../classtlx_1_1AllocatorBase.html#a6fdb0e8aec957fe7b0473ab43a32d906',1,'tlx::AllocatorBase::address(const_reference x) const noexcept']]],
   ['allocate',['allocate',['../classtlx_1_1RingBuffer.html#a3bb82abc6851598063f31094a69bac5e',1,'tlx::RingBuffer::allocate()'],['../classtlx_1_1StackArena.html#a959f27bc07dc2592fd25eb07a44114a0',1,'tlx::StackArena::allocate()'],['../classtlx_1_1StackAllocator.html#a44449cd76836f6ef924298c24b14ae6d',1,'tlx::StackAllocator::allocate()']]],
+  ['allocate_5finner',['allocate_inner',['../classtlx_1_1btree.html#a2e6121f279fc41b9c0153a7d4b1f2e36',1,'tlx::btree']]],
+  ['allocate_5fleaf',['allocate_leaf',['../classtlx_1_1btree.html#ae1811ff9998b4839190d15bfc9d03bf9',1,'tlx::btree']]],
   ['apply_5ftuple',['apply_tuple',['../group__tlx__meta.html#ga697505eebc05040893022611ce8866c1',1,'tlx']]],
   ['apply_5ftuple_5fimpl',['apply_tuple_impl',['../namespacetlx_1_1detail.html#ad9746dc2ad8271c539cc24ca9f840dcd',1,'tlx::detail']]],
   ['argument',['Argument',['../structtlx_1_1CmdlineParser_1_1Argument.html#ad2a14c07a619f29094a7c1adcbb776ba',1,'tlx::CmdlineParser::Argument']]],
@@ -44,5 +46,6 @@ var searchData=
   ['argumentsizet',['ArgumentSizeT',['../structtlx_1_1CmdlineParser_1_1ArgumentSizeT.html#a05281bc84c562650b0f2ec2ed3cc1361',1,'tlx::CmdlineParser::ArgumentSizeT']]],
   ['argumentstring',['ArgumentString',['../structtlx_1_1CmdlineParser_1_1ArgumentString.html#af4a7ce6923aff8de2ed6cc83cbd33bf6',1,'tlx::CmdlineParser::ArgumentString']]],
   ['argumentstringlist',['ArgumentStringlist',['../structtlx_1_1CmdlineParser_1_1ArgumentStringlist.html#acbc506e61defaaa5040c2a74d69e8f52',1,'tlx::CmdlineParser::ArgumentStringlist']]],
-  ['argumentunsigned',['ArgumentUnsigned',['../structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html#aa456fe4dc20e72ff3d863bce45a5a1b7',1,'tlx::CmdlineParser::ArgumentUnsigned']]]
+  ['argumentunsigned',['ArgumentUnsigned',['../structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html#aa456fe4dc20e72ff3d863bce45a5a1b7',1,'tlx::CmdlineParser::ArgumentUnsigned']]],
+  ['avgfill_5fleaves',['avgfill_leaves',['../structtlx_1_1btree_1_1tree__stats.html#a15e93268f0db30aba3e965bd0be33b02',1,'tlx::btree::tree_stats']]]
 ];

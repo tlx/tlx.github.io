@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['vmapforrangeimpl',['VMapForRangeImpl',['../classtlx_1_1detail_1_1VMapForRangeImpl.html',1,'tlx::detail']]],
-  ['vmapforrangeimpl_3c_20index_2c_200_2c_20functor_20_3e',['VMapForRangeImpl&lt; Index, 0, Functor &gt;',['../classtlx_1_1detail_1_1VMapForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html',1,'tlx::detail']]]
+  ['rebind',['rebind',['../structtlx_1_1StackAllocator_1_1rebind.html',1,'tlx::StackAllocator']]],
+  ['referencecounter',['ReferenceCounter',['../classtlx_1_1ReferenceCounter.html',1,'tlx']]],
+  ['result_5ft',['result_t',['../structtlx_1_1btree_1_1result__t.html',1,'tlx::btree']]],
+  ['reverse_5fiterator',['reverse_iterator',['../classtlx_1_1btree_1_1reverse__iterator.html',1,'tlx::btree']]],
+  ['ringbuffer',['RingBuffer',['../classtlx_1_1RingBuffer.html',1,'tlx']]]
 ];

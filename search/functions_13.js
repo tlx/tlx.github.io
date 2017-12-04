@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['word_5fwrap',['word_wrap',['../group__tlx__string.html#ga2d0ada76ddce7fc09d770fa512780839',1,'tlx']]],
-  ['worker',['worker',['../classtlx_1_1ThreadPool.html#a3aa959a4a5e8a3fa9e2e1b04b8051f38',1,'tlx::ThreadPool']]]
+  ['unify',['unify',['../classtlx_1_1CountingPtr.html#a28653b45bfba9a4135bc0c5903a45c4e',1,'tlx::CountingPtr']]],
+  ['union_5fwords',['union_words',['../group__tlx__string.html#ga39619db78c7e916bff3544fb07cbe462',1,'tlx']]],
+  ['unique',['unique',['../classtlx_1_1CountingPtr.html#a17f79efcc0f2e0d5cb9afcdee013e64c',1,'tlx::CountingPtr::unique()'],['../classtlx_1_1ReferenceCounter.html#a17f79efcc0f2e0d5cb9afcdee013e64c',1,'tlx::ReferenceCounter::unique()']]],
+  ['unused',['unused',['../namespacetlx.html#a5a63b398e6678264958fb8590e9332bf',1,'tlx']]],
+  ['upper_5fbound',['upper_bound',['../classtlx_1_1btree.html#a482b50e623a123f653e2a91f113a507b',1,'tlx::btree::upper_bound(const key_type &amp;key)'],['../classtlx_1_1btree.html#a99609d25589437b30cb42dab922bfaa9',1,'tlx::btree::upper_bound(const key_type &amp;key) const '],['../classtlx_1_1btree__map.html#a482b50e623a123f653e2a91f113a507b',1,'tlx::btree_map::upper_bound(const key_type &amp;key)'],['../classtlx_1_1btree__map.html#a99609d25589437b30cb42dab922bfaa9',1,'tlx::btree_map::upper_bound(const key_type &amp;key) const '],['../classtlx_1_1btree__multimap.html#a482b50e623a123f653e2a91f113a507b',1,'tlx::btree_multimap::upper_bound(const key_type &amp;key)'],['../classtlx_1_1btree__multimap.html#a99609d25589437b30cb42dab922bfaa9',1,'tlx::btree_multimap::upper_bound(const key_type &amp;key) const '],['../classtlx_1_1btree__multiset.html#a482b50e623a123f653e2a91f113a507b',1,'tlx::btree_multiset::upper_bound(const key_type &amp;key)'],['../classtlx_1_1btree__multiset.html#a99609d25589437b30cb42dab922bfaa9',1,'tlx::btree_multiset::upper_bound(const key_type &amp;key) const '],['../classtlx_1_1btree__set.html#a482b50e623a123f653e2a91f113a507b',1,'tlx::btree_set::upper_bound(const key_type &amp;key)'],['../classtlx_1_1btree__set.html#a99609d25589437b30cb42dab922bfaa9',1,'tlx::btree_set::upper_bound(const key_type &amp;key) const ']]],
+  ['used',['used',['../classtlx_1_1StackArena.html#ab7ee045430da1e4ada9c2a7075b7f807',1,'tlx::StackArena']]]
 ];

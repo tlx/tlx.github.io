@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['object_5fptr_5f',['object_ptr_',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a6357a4ada4f766aa5268fb52ecf26515',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
-  ['option_5flist_5f',['option_list_',['../classtlx_1_1CmdlineParser.html#a1dfdda1dfa78d1addc33aaf91f6867a1',1,'tlx::CmdlineParser']]],
-  ['option_5fmax_5fwidth_5f',['option_max_width_',['../classtlx_1_1CmdlineParser.html#a2780792d90885744803a109cdbd3608a',1,'tlx::CmdlineParser']]],
-  ['oss_5f',['oss_',['../classtlx_1_1Logger.html#acbe8bc75214c441a925eb2ab98ff869d',1,'tlx::Logger::oss_()'],['../classtlx_1_1SpacingLogger.html#acbe8bc75214c441a925eb2ab98ff869d',1,'tlx::SpacingLogger::oss_()']]]
+  ['map_5f',['map_',['../classtlx_1_1LruCacheSet.html#a750112449c7928f1bbc169db7a33bfd9',1,'tlx::LruCacheSet::map_()'],['../classtlx_1_1LruCacheMap.html#a750112449c7928f1bbc169db7a33bfd9',1,'tlx::LruCacheMap::map_()']]],
+  ['mask_5f',['mask_',['../classtlx_1_1RingBuffer.html#a7b17e9608c37b08dc3312f2ce0611f59',1,'tlx::RingBuffer']]],
+  ['max_5fsize_5f',['max_size_',['../classtlx_1_1RingBuffer.html#a6c71cd8b63dbd5e33c81719592b68977',1,'tlx::RingBuffer']]],
+  ['max_5ftype_5fname_5f',['max_type_name_',['../classtlx_1_1CmdlineParser.html#ae28c4d5fed3b50689543c004623ddfea',1,'tlx::CmdlineParser']]],
+  ['mutex_5f',['mutex_',['../classtlx_1_1ThreadPool.html#a281b5ec791338d4378e22ef44a51b4a1',1,'tlx::ThreadPool']]]
 ];

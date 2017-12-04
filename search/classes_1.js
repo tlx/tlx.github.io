@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['callforrangeimpl',['CallForRangeImpl',['../classtlx_1_1detail_1_1CallForRangeImpl.html',1,'tlx::detail']]],
-  ['callforrangeimpl_3c_20index_2c_200_2c_20functor_20_3e',['CallForRangeImpl&lt; Index, 0, Functor &gt;',['../classtlx_1_1detail_1_1CallForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html',1,'tlx::detail']]],
-  ['cmdlineparser',['CmdlineParser',['../classtlx_1_1CmdlineParser.html',1,'tlx']]],
-  ['countingptr',['CountingPtr',['../classtlx_1_1CountingPtr.html',1,'tlx']]],
-  ['countingptrdefaultdeleter',['CountingPtrDefaultDeleter',['../classtlx_1_1CountingPtrDefaultDeleter.html',1,'tlx']]],
-  ['countingptrnooperationdeleter',['CountingPtrNoOperationDeleter',['../classtlx_1_1CountingPtrNoOperationDeleter.html',1,'tlx']]]
+  ['btree',['btree',['../classtlx_1_1btree.html',1,'tlx']]],
+  ['btree_3c_20key_5ftype_2c_20value_5ftype_2c_20key_5fof_5fvalue_2c_20key_5fcompare_2c_20traits_2c_20false_2c_20allocator_5ftype_20_3e',['btree&lt; key_type, value_type, key_of_value, key_compare, traits, false, allocator_type &gt;',['../classtlx_1_1btree.html',1,'tlx']]],
+  ['btree_3c_20key_5ftype_2c_20value_5ftype_2c_20key_5fof_5fvalue_2c_20key_5fcompare_2c_20traits_2c_20true_2c_20allocator_5ftype_20_3e',['btree&lt; key_type, value_type, key_of_value, key_compare, traits, true, allocator_type &gt;',['../classtlx_1_1btree.html',1,'tlx']]],
+  ['btree_5fdefault_5ftraits',['btree_default_traits',['../structtlx_1_1btree__default__traits.html',1,'tlx']]],
+  ['btree_5fmap',['btree_map',['../classtlx_1_1btree__map.html',1,'tlx']]],
+  ['btree_5fmultimap',['btree_multimap',['../classtlx_1_1btree__multimap.html',1,'tlx']]],
+  ['btree_5fmultiset',['btree_multiset',['../classtlx_1_1btree__multiset.html',1,'tlx']]],
+  ['btree_5fset',['btree_set',['../classtlx_1_1btree__set.html',1,'tlx']]]
 ];

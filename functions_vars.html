@@ -86,6 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li class="current"><a href="functions_vars.html"><span>Variables</span></a></li>
       <li><a href="functions_type.html"><span>Typedefs</span></a></li>
+      <li><a href="functions_enum.html"><span>Enumerations</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
       <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
@@ -98,11 +99,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_d"><span>d</span></a></li>
       <li><a href="#index_e"><span>e</span></a></li>
       <li><a href="#index_f"><span>f</span></a></li>
+      <li><a href="#index_h"><span>h</span></a></li>
       <li><a href="#index_i"><span>i</span></a></li>
       <li><a href="#index_j"><span>j</span></a></li>
       <li><a href="#index_k"><span>k</span></a></li>
       <li><a href="#index_l"><span>l</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_n"><span>n</span></a></li>
       <li><a href="#index_o"><span>o</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
       <li><a href="#index_r"><span>r</span></a></li>
@@ -150,6 +153,16 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>alloc_
 : <a class="el" href="classtlx_1_1RingBuffer.html#af8ef2a35aadec4f191c273973f1304a6">RingBuffer&lt; Type, Allocator &gt;</a>
 </li>
+<li>allocator_
+: <a class="el" href="classtlx_1_1btree.html#a8746da7b8170695c17d760f1a43bd4fe">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+</li>
+<li>allow_duplicates
+: <a class="el" href="classtlx_1_1btree.html#a4a380c8745ff0a1c814742821e85403e">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__map.html#a4a380c8745ff0a1c814742821e85403e">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multimap.html#a4a380c8745ff0a1c814742821e85403e">btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multiset.html#a4a380c8745ff0a1c814742821e85403e">btree_multiset&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__set.html#a4a380c8745ff0a1c814742821e85403e">btree_set&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+</li>
 <li>arena_
 : <a class="el" href="classtlx_1_1StackAllocator.html#ac73fe7e3bf0646d33e39f1653d0a6484">StackAllocator&lt; Type, Size &gt;</a>
 </li>
@@ -165,6 +178,9 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
 <li>begin_
 : <a class="el" href="classtlx_1_1RingBuffer.html#a6f51da5125ced58697d7f8b51640bf74">RingBuffer&lt; Type, Allocator &gt;</a>
+</li>
+<li>binsearch_threshold
+: <a class="el" href="structtlx_1_1btree__default__traits.html#a4fefb7d61067934069f6a783e110ab47">btree_default_traits&lt; Key, Value &gt;</a>
 </li>
 <li>buf_
 : <a class="el" href="classtlx_1_1StackArena.html#ac4d3870b55243740c555f8ee1823973a">StackArena&lt; Size &gt;</a>
@@ -185,11 +201,26 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>chain_
 : <a class="el" href="classtlx_1_1FunctionChain.html#ad64b07d02ed459d83d1b26d2634ae83f">FunctionChain&lt; Functors &gt;</a>
 </li>
+<li>childid
+: <a class="el" href="structtlx_1_1btree_1_1inner__node.html#a62b9b49e8ee098752fb3893429dfdcb8">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::inner_node</a>
+</li>
 <li>cmp_
 : <a class="el" href="group__tlx__data__structures__loser__tree.html#ga6a24aff5bbc0b80d7c2b02765406586f">LoserTreeCopyBase&lt; ValueType, Comparator &gt;</a>
 , <a class="el" href="group__tlx__data__structures__loser__tree.html#ga6a24aff5bbc0b80d7c2b02765406586f">LoserTreeCopyUnguardedBase&lt; ValueType, Comparator &gt;</a>
 , <a class="el" href="group__tlx__data__structures__loser__tree.html#ga6a24aff5bbc0b80d7c2b02765406586f">LoserTreePointerBase&lt; ValueType, Comparator &gt;</a>
 , <a class="el" href="group__tlx__data__structures__loser__tree.html#ga6a24aff5bbc0b80d7c2b02765406586f">LoserTreePointerUnguardedBase&lt; ValueType, Comparator &gt;</a>
+</li>
+<li>curr_leaf
+: <a class="el" href="classtlx_1_1btree_1_1const__iterator.html#ad6936740ea6176e39cd61bbd7c3fa5cd">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::const_iterator</a>
+, <a class="el" href="classtlx_1_1btree_1_1const__reverse__iterator.html#ad6936740ea6176e39cd61bbd7c3fa5cd">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::const_reverse_iterator</a>
+, <a class="el" href="classtlx_1_1btree_1_1iterator.html#a0ae0b9994149fc8a793fa7941d72cd5b">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::iterator</a>
+, <a class="el" href="classtlx_1_1btree_1_1reverse__iterator.html#a0ae0b9994149fc8a793fa7941d72cd5b">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::reverse_iterator</a>
+</li>
+<li>curr_slot
+: <a class="el" href="classtlx_1_1btree_1_1const__iterator.html#ae606c9d192f5f681a19b60b19d8f18d2">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::const_iterator</a>
+, <a class="el" href="classtlx_1_1btree_1_1const__reverse__iterator.html#ae606c9d192f5f681a19b60b19d8f18d2">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::const_reverse_iterator</a>
+, <a class="el" href="classtlx_1_1btree_1_1iterator.html#ae606c9d192f5f681a19b60b19d8f18d2">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::iterator</a>
+, <a class="el" href="classtlx_1_1btree_1_1reverse__iterator.html#ae606c9d192f5f681a19b60b19d8f18d2">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::reverse_iterator</a>
 </li>
 <li>cv_finished_
 : <a class="el" href="classtlx_1_1ThreadPool.html#ada11126249a7bb96ff34e263a5cdd1f0">ThreadPool</a>
@@ -206,6 +237,12 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </li>
 <li>debug
 : <a class="el" href="classtlx_1_1AllocatorBase.html#a6b72e54baf646b08b4b87f987f583dcb">AllocatorBase&lt; Type &gt;</a>
+, <a class="el" href="classtlx_1_1btree.html#a6295d47efda04de55c38cb8ea1cdb807">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+, <a class="el" href="structtlx_1_1btree__default__traits.html#a6295d47efda04de55c38cb8ea1cdb807">btree_default_traits&lt; Key, Value &gt;</a>
+, <a class="el" href="classtlx_1_1btree__map.html#a6295d47efda04de55c38cb8ea1cdb807">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multimap.html#a6295d47efda04de55c38cb8ea1cdb807">btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multiset.html#a6295d47efda04de55c38cb8ea1cdb807">btree_multiset&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__set.html#a6295d47efda04de55c38cb8ea1cdb807">btree_set&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
 </li>
 <li>desc_
 : <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html#a6a1aebff917107d5da9f739f9ed05ef2">CmdlineParser::Argument</a>
@@ -249,8 +286,18 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>first_insert_
 : <a class="el" href="group__tlx__data__structures__loser__tree.html#ga9cb25c1f5af5b7e4b1f12623a71c41dd">LoserTreeCopyBase&lt; ValueType, Comparator &gt;</a>
 </li>
+<li>flags
+: <a class="el" href="structtlx_1_1btree_1_1result__t.html#a8977bdc6bb20adb10785684083b8077f">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::result_t</a>
+</li>
 <li>found_
 : <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html#a17bca20ca035c81fc7c4875bf4195982">CmdlineParser::Argument</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
+<li>head_leaf_
+: <a class="el" href="classtlx_1_1btree.html#aa537b415741ac8c657b258aa21909e4f">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
 </li>
 </ul>
 
@@ -264,6 +311,27 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </li>
 <li>index
 : <a class="el" href="structtlx_1_1StaticIndex.html#a5db12ccaeb69abb440e410e47b86d6cf">StaticIndex&lt; Index &gt;</a>
+</li>
+<li>inner_nodes
+: <a class="el" href="structtlx_1_1btree_1_1tree__stats.html#a33acefd815dae0cce39ba5c792abaa0e">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::tree_stats</a>
+</li>
+<li>inner_slotmax
+: <a class="el" href="classtlx_1_1btree.html#a004e76f14b7697d3801e3b1d397da5a5">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__map.html#a004e76f14b7697d3801e3b1d397da5a5">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multimap.html#a004e76f14b7697d3801e3b1d397da5a5">btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multiset.html#a004e76f14b7697d3801e3b1d397da5a5">btree_multiset&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__set.html#a004e76f14b7697d3801e3b1d397da5a5">btree_set&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+</li>
+<li>inner_slotmin
+: <a class="el" href="classtlx_1_1btree.html#a416b2e639a4ec04429632c3ee85e747c">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__map.html#a416b2e639a4ec04429632c3ee85e747c">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multimap.html#a416b2e639a4ec04429632c3ee85e747c">btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multiset.html#a416b2e639a4ec04429632c3ee85e747c">btree_multiset&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__set.html#a416b2e639a4ec04429632c3ee85e747c">btree_set&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+</li>
+<li>inner_slots
+: <a class="el" href="structtlx_1_1btree_1_1tree__stats.html#a84e520604922b0c0ff7aba4cae768e0d">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::tree_stats</a>
+, <a class="el" href="structtlx_1_1btree__default__traits.html#a5424ef685b876f253f83fa26ecec5761">btree_default_traits&lt; Key, Value &gt;</a>
 </li>
 <li>invalid_
 : <a class="el" href="group__tlx__data__structures__loser__tree.html#ga12a608acf2b6dc6f3f0dfc25a8ddc8dc">LoserTreeCopyBase&lt; ValueType, Comparator &gt;</a>
@@ -295,6 +363,12 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>key_
 : <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html#afe4c07cac9893084132f4d41107dfc3e">CmdlineParser::Argument</a>
 </li>
+<li>key_comp
+: <a class="el" href="classtlx_1_1btree_1_1value__compare.html#ae7dd7fc42fbc38520d612a82099fdd96">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::value_compare</a>
+</li>
+<li>key_less_
+: <a class="el" href="classtlx_1_1btree.html#a5d945dbdb41ca2fe76d87b2ba122e13e">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+</li>
 <li>keyp
 : <a class="el" href="group__tlx__data__structures__loser__tree.html#ga4fbd05437c51b2d9e9aefae936093bf5">LoserTreePointerBase&lt; ValueType, Comparator &gt;::Loser</a>
 , <a class="el" href="group__tlx__data__structures__loser__tree.html#ga4fbd05437c51b2d9e9aefae936093bf5">LoserTreePointerUnguardedBase&lt; ValueType, Comparator &gt;::Loser</a>
@@ -306,6 +380,33 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 
 
 <h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>lastkey
+: <a class="el" href="structtlx_1_1btree_1_1result__t.html#a8b50d073eba40cd3cd2678b97b7e0002">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::result_t</a>
+</li>
+<li>leaf_slotmax
+: <a class="el" href="classtlx_1_1btree.html#a52e57d8d7e32f6d5a56227a8d1f899cf">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__map.html#a52e57d8d7e32f6d5a56227a8d1f899cf">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multimap.html#a52e57d8d7e32f6d5a56227a8d1f899cf">btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multiset.html#a52e57d8d7e32f6d5a56227a8d1f899cf">btree_multiset&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__set.html#a52e57d8d7e32f6d5a56227a8d1f899cf">btree_set&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+</li>
+<li>leaf_slotmin
+: <a class="el" href="classtlx_1_1btree.html#abbec00fa1cdcfbf6b78482915c644dba">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__map.html#abbec00fa1cdcfbf6b78482915c644dba">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multimap.html#abbec00fa1cdcfbf6b78482915c644dba">btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multiset.html#abbec00fa1cdcfbf6b78482915c644dba">btree_multiset&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__set.html#abbec00fa1cdcfbf6b78482915c644dba">btree_set&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+</li>
+<li>leaf_slots
+: <a class="el" href="structtlx_1_1btree_1_1tree__stats.html#ab3295b4faf3bbe6f7bf7844ff5e4ed54">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::tree_stats</a>
+, <a class="el" href="structtlx_1_1btree__default__traits.html#adc2c16c96b684ee7d881e7dab29717a3">btree_default_traits&lt; Key, Value &gt;</a>
+</li>
+<li>leaves
+: <a class="el" href="structtlx_1_1btree_1_1tree__stats.html#a3df9010ac682baa68b20e01e5df2be3d">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::tree_stats</a>
+</li>
+<li>level
+: <a class="el" href="structtlx_1_1btree_1_1node.html#a15137871fddf6b98c4f13fda9d53c33c">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::node</a>
+</li>
 <li>line_wrap_
 : <a class="el" href="classtlx_1_1CmdlineParser.html#a573e1de8565db8166a5c220075bf1049">CmdlineParser</a>
 </li>
@@ -345,6 +446,13 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </ul>
 
 
+<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
+<li>next_leaf
+: <a class="el" href="structtlx_1_1btree_1_1leaf__node.html#a62f91e800a300a413c9fcab8d397e357">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::leaf_node</a>
+</li>
+</ul>
+
+
 <h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
 <li>object_ptr_
 : <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a6357a4ada4f766aa5268fb52ecf26515">Delegate&lt; R(A...), Allocator &gt;</a>
@@ -369,6 +477,9 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>param_max_width_
 : <a class="el" href="classtlx_1_1CmdlineParser.html#af3bc88b7e683319e684d3e715ee060eb">CmdlineParser</a>
 </li>
+<li>prev_leaf
+: <a class="el" href="structtlx_1_1btree_1_1leaf__node.html#a695a0547385af04cd83175626255b4ba">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::leaf_node</a>
+</li>
 <li>program_name_
 : <a class="el" href="classtlx_1_1CmdlineParser.html#a46ae7a27b899e9a86ad04807eb1ad34e">CmdlineParser</a>
 </li>
@@ -389,16 +500,37 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>required_
 : <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html#a04d6b51cee22d95cad88e5d2f6d77f47">CmdlineParser::Argument</a>
 </li>
+<li>root_
+: <a class="el" href="classtlx_1_1btree.html#aebc82407c13a86e9551f7984d2e3d356">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+</li>
 </ul>
 
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>self_verify
+: <a class="el" href="classtlx_1_1btree.html#a81a632bc519f850f4af56567ba404f4e">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+, <a class="el" href="structtlx_1_1btree__default__traits.html#a81a632bc519f850f4af56567ba404f4e">btree_default_traits&lt; Key, Value &gt;</a>
+, <a class="el" href="classtlx_1_1btree__map.html#a81a632bc519f850f4af56567ba404f4e">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multimap.html#a81a632bc519f850f4af56567ba404f4e">btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multiset.html#a81a632bc519f850f4af56567ba404f4e">btree_multiset&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__set.html#a81a632bc519f850f4af56567ba404f4e">btree_set&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+</li>
 <li>size
-: <a class="el" href="classtlx_1_1FunctionChain.html#ae8542fe44413919dee9f41ede5a5032d">FunctionChain&lt; Functors &gt;</a>
+: <a class="el" href="structtlx_1_1btree_1_1tree__stats.html#a769e947b7bd053d20cc72d6187e1d0fb">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::tree_stats</a>
+, <a class="el" href="classtlx_1_1FunctionChain.html#ae8542fe44413919dee9f41ede5a5032d">FunctionChain&lt; Functors &gt;</a>
 , <a class="el" href="classtlx_1_1FunctionStack.html#ae8542fe44413919dee9f41ede5a5032d">FunctionStack&lt; Input_, Functors &gt;</a>
 </li>
 <li>size_
 : <a class="el" href="classtlx_1_1SimpleVector.html#a4f3592f75c4916a9a92255c165bd65d2">SimpleVector&lt; ValueType, Mode &gt;</a>
+</li>
+<li>slotdata
+: <a class="el" href="structtlx_1_1btree_1_1leaf__node.html#a05e3d86c2442ace4b66c19e28e2a9585">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::leaf_node</a>
+</li>
+<li>slotkey
+: <a class="el" href="structtlx_1_1btree_1_1inner__node.html#aadab4c4629760352c8b7766669471657">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::inner_node</a>
+</li>
+<li>slotuse
+: <a class="el" href="structtlx_1_1btree_1_1node.html#a55ebc33d4c95919ff2c45023beb5ef64">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::node</a>
 </li>
 <li>source
 : <a class="el" href="group__tlx__data__structures__loser__tree.html#ga6bfef4fd519b1708e99617d59d9c62cd">LoserTreeCopyBase&lt; ValueType, Comparator &gt;::Loser</a>
@@ -408,6 +540,9 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </li>
 <li>stack_
 : <a class="el" href="classtlx_1_1FunctionStack.html#a7979b121ae58ef790d1ae41e775497e6">FunctionStack&lt; Input_, Functors &gt;</a>
+</li>
+<li>stats_
+: <a class="el" href="classtlx_1_1btree.html#aed457b19fc617a12201f09de1d885368">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
 </li>
 <li>store_
 : <a class="el" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a910701524c913c4efe16b629ad565a4a">Delegate&lt; R(A...), Allocator &gt;</a>
@@ -419,11 +554,27 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 
 
 <h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
+<li>tail_leaf_
+: <a class="el" href="classtlx_1_1btree.html#a3c467198562471ebc2a3ce840a556a9e">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
+</li>
 <li>terminate_
 : <a class="el" href="classtlx_1_1ThreadPool.html#a5c7c161ce42f7ccc3184d9bec18fa969">ThreadPool</a>
 </li>
 <li>threads_
 : <a class="el" href="classtlx_1_1ThreadPool.html#a1381729bb622c2600b5c489bd9cf2d4f">ThreadPool</a>
+</li>
+<li>TLX_BTREE_FRIENDS
+: <a class="el" href="classtlx_1_1btree_1_1const__reverse__iterator.html#a38ffbf220e298d1ee8c79307009cfa00">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::const_reverse_iterator</a>
+, <a class="el" href="classtlx_1_1btree__map.html#a38ffbf220e298d1ee8c79307009cfa00">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multimap.html#a38ffbf220e298d1ee8c79307009cfa00">btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multiset.html#a38ffbf220e298d1ee8c79307009cfa00">btree_multiset&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__set.html#a38ffbf220e298d1ee8c79307009cfa00">btree_set&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+</li>
+<li>tree_
+: <a class="el" href="classtlx_1_1btree__map.html#a901955ac1cb674450b79aa9d192832b3">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multimap.html#a901955ac1cb674450b79aa9d192832b3">btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__multiset.html#a901955ac1cb674450b79aa9d192832b3">btree_multiset&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
+, <a class="el" href="classtlx_1_1btree__set.html#a901955ac1cb674450b79aa9d192832b3">btree_set&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
 </li>
 </ul>
 
@@ -438,7 +589,7 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 29 2017 05:06:10 for tlx by
+    <li class="footer">Generated on Mon Dec 4 2017 23:07:11 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['ceil',['ceil',['../classtlx_1_1Log2.html#abc6126af1d45847bc59afa0aa3216b04a767a00e87322d8125073a77598ee1f97',1,'tlx::Log2::ceil()'],['../classtlx_1_1Log2_3_011_01_4.html#adc29c2ff13d900c2f185ee95427fb06ca767a00e87322d8125073a77598ee1f97',1,'tlx::Log2&lt; 1 &gt;::ceil()'],['../classtlx_1_1Log2_3_010_01_4.html#a61dadd085c1777f559549e05962b2c9ea767a00e87322d8125073a77598ee1f97',1,'tlx::Log2&lt; 0 &gt;::ceil()']]]
+  ['btree_5ffixmerge',['btree_fixmerge',['../classtlx_1_1btree.html#a3a617d72a0b84dcbdf111d1fe19ec0b5a1253a0a76ac7b4ca061433c10f7f832a',1,'tlx::btree']]],
+  ['btree_5fnot_5ffound',['btree_not_found',['../classtlx_1_1btree.html#a3a617d72a0b84dcbdf111d1fe19ec0b5a828fdc69a5b8ce344d849c52f4002434',1,'tlx::btree']]],
+  ['btree_5fok',['btree_ok',['../classtlx_1_1btree.html#a3a617d72a0b84dcbdf111d1fe19ec0b5acc548bf14d595f9790f15c6514e626d8',1,'tlx::btree']]],
+  ['btree_5fupdate_5flastkey',['btree_update_lastkey',['../classtlx_1_1btree.html#a3a617d72a0b84dcbdf111d1fe19ec0b5a99aacb09662e9c66cdef8fc5a605ec75',1,'tlx::btree']]]
 ];

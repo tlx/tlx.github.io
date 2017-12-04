@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['make_5findex_5fsequence',['make_index_sequence',['../structtlx_1_1make__index__sequence.html',1,'tlx']]],
-  ['make_5findex_5fsequence_5fhelper',['make_index_sequence_helper',['../structtlx_1_1detail_1_1make__index__sequence__helper.html',1,'tlx::detail']]],
-  ['make_5findex_5fsequence_5fhelper_3c_200_2c_20indexes_2e_2e_2e_3e',['make_index_sequence_helper&lt; 0, Indexes...&gt;',['../structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html',1,'tlx::detail']]]
+  ['key_5fof_5fvalue',['key_of_value',['../structtlx_1_1btree__map_1_1key__of__value.html',1,'tlx::btree_map']]],
+  ['key_5fof_5fvalue',['key_of_value',['../structtlx_1_1btree__set_1_1key__of__value.html',1,'tlx::btree_set']]],
+  ['key_5fof_5fvalue',['key_of_value',['../structtlx_1_1btree__multiset_1_1key__of__value.html',1,'tlx::btree_multiset']]],
+  ['key_5fof_5fvalue',['key_of_value',['../structtlx_1_1btree__multimap_1_1key__of__value.html',1,'tlx::btree_multimap']]]
 ];

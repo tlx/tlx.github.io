@@ -9,6 +9,19 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     ] ],
     [ "backtrace.cpp", "backtrace_8cpp.html", "backtrace_8cpp" ],
     [ "backtrace.hpp", "backtrace_8hpp.html", "backtrace_8hpp" ],
+    [ "btree.hpp", "btree_8hpp.html", "btree_8hpp" ],
+    [ "btree_map.hpp", "btree__map_8hpp.html", [
+      [ "key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", "structtlx_1_1btree__map_1_1key__of__value" ]
+    ] ],
+    [ "btree_multimap.hpp", "btree__multimap_8hpp.html", [
+      [ "key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", "structtlx_1_1btree__multimap_1_1key__of__value" ]
+    ] ],
+    [ "btree_multiset.hpp", "btree__multiset_8hpp.html", [
+      [ "key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", "structtlx_1_1btree__multiset_1_1key__of__value" ]
+    ] ],
+    [ "btree_set.hpp", "btree__set_8hpp.html", [
+      [ "key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", "structtlx_1_1btree__set_1_1key__of__value" ]
+    ] ],
     [ "cmdline_parser.cpp", "cmdline__parser_8cpp.html", [
       [ "Argument", "structtlx_1_1CmdlineParser_1_1Argument.html", "structtlx_1_1CmdlineParser_1_1Argument" ],
       [ "ArgumentBool", "structtlx_1_1CmdlineParser_1_1ArgumentBool.html", "structtlx_1_1CmdlineParser_1_1ArgumentBool" ],

@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['s_5flogger_5fmutex',['s_logger_mutex',['../namespacetlx.html#ac57ddd8d5c4eebe0f8a5d889b29c8823',1,'tlx']]],
-  ['size',['size',['../classtlx_1_1FunctionChain.html#ae8542fe44413919dee9f41ede5a5032d',1,'tlx::FunctionChain::size()'],['../classtlx_1_1FunctionStack.html#ae8542fe44413919dee9f41ede5a5032d',1,'tlx::FunctionStack::size()']]],
-  ['size_5f',['size_',['../classtlx_1_1SimpleVector.html#a4f3592f75c4916a9a92255c165bd65d2',1,'tlx::SimpleVector']]],
-  ['source',['source',['../group__tlx__data__structures__loser__tree.html#ga6bfef4fd519b1708e99617d59d9c62cd',1,'tlx::LoserTreeCopyBase::Loser::source()'],['../group__tlx__data__structures__loser__tree.html#ga6bfef4fd519b1708e99617d59d9c62cd',1,'tlx::LoserTreePointerBase::Loser::source()'],['../group__tlx__data__structures__loser__tree.html#ga6bfef4fd519b1708e99617d59d9c62cd',1,'tlx::LoserTreeCopyUnguardedBase::Loser::source()'],['../group__tlx__data__structures__loser__tree.html#ga6bfef4fd519b1708e99617d59d9c62cd',1,'tlx::LoserTreePointerUnguardedBase::Loser::source()']]],
-  ['stack_5f',['stack_',['../classtlx_1_1FunctionStack.html#a7979b121ae58ef790d1ae41e775497e6',1,'tlx::FunctionStack']]],
-  ['store_5f',['store_',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a910701524c913c4efe16b629ad565a4a',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
-  ['sup',['sup',['../group__tlx__data__structures__loser__tree.html#ga2f796f727a94170767ff7bc8e02655ec',1,'tlx::LoserTreeCopyBase::Loser']]]
+  ['param_5flist_5f',['param_list_',['../classtlx_1_1CmdlineParser.html#a82f067cc288f8abd50470ff6794da04f',1,'tlx::CmdlineParser']]],
+  ['param_5fmax_5fwidth_5f',['param_max_width_',['../classtlx_1_1CmdlineParser.html#af3bc88b7e683319e684d3e715ee060eb',1,'tlx::CmdlineParser']]],
+  ['prev_5fleaf',['prev_leaf',['../structtlx_1_1btree_1_1leaf__node.html#a695a0547385af04cd83175626255b4ba',1,'tlx::btree::leaf_node']]],
+  ['program_5fname_5f',['program_name_',['../classtlx_1_1CmdlineParser.html#a46ae7a27b899e9a86ad04807eb1ad34e',1,'tlx::CmdlineParser']]],
+  ['ptr_5f',['ptr_',['../classtlx_1_1CountingPtr.html#aa0957c00054156f1af9fce986cbfcb4f',1,'tlx::CountingPtr::ptr_()'],['../classtlx_1_1StackArena.html#aa5ec38c854291ed98296bd00efbf90ae',1,'tlx::StackArena::ptr_()']]]
 ];
