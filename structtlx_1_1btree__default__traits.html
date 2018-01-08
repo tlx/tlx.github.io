@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('structtlx_1_1btree__default__traits.ht
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structtlx_1_1btree__default__traits-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">btree_default_traits&lt; Key, Value &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__tlx__data__structures.html">Data Structures</a></div></div>  </div>
+<div class="title">btree_default_traits&lt; Key, Value &gt; Struct Template Reference<div class="ingroups"><a class="el" href="group__tlx__data__structures__btree.html">B+ Trees</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -148,7 +148,7 @@ struct tlx::btree_default_traits&lt; Key, Value &gt;</h3>
 <p>Generates default traits for a B+ tree used as a set or map. </p>
 <p>It estimates leaf and inner node sizes by assuming a cache line multiple of 256 bytes. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00070">70</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00073">73</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a4fefb7d61067934069f6a783e110ab47"></a>
 <div class="memitem">
@@ -171,7 +171,7 @@ struct tlx::btree_default_traits&lt; Key, Value &gt;</h3>
 <p>As of stx-btree-0.9, the code does linear search in find_lower() and find_upper() instead of binary_search, unless the node size is larger than this threshold. </p>
 <p>See notes at <a href="http://panthema.net/2013/0504-STX-B+Tree-Binary-vs-Linear-Search">http://panthema.net/2013/0504-STX-B+Tree-Binary-vs-Linear-Search</a> </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00096">96</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00099">99</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -196,7 +196,7 @@ struct tlx::btree_default_traits&lt; Key, Value &gt;</h3>
 <p>If true, the tree will print out debug information and a tree dump during insert() or erase() operation. </p>
 <p>The header must have been compiled with TLX_BTREE_DEBUG defined and key_type must be std::ostream printable. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00080">80</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00083">83</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -221,7 +221,7 @@ struct tlx::btree_default_traits&lt; Key, Value &gt;</h3>
 <p>Number of slots in each inner node of the tree. </p>
 <p>Estimated so that each node has a size of about 256 bytes. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00089">89</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00092">92</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -246,7 +246,7 @@ struct tlx::btree_default_traits&lt; Key, Value &gt;</h3>
 <p>Number of slots in each leaf of the tree. </p>
 <p>Estimated so that each node has a size of about 256 bytes. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00084">84</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00087">87</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -271,7 +271,7 @@ struct tlx::btree_default_traits&lt; Key, Value &gt;</h3>
 <p>If true, the tree will self verify its invariants after each insert() or erase(). </p>
 <p>The header must have been compiled with TLX_BTREE_DEBUG defined. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00074">74</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00077">77</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -284,7 +284,7 @@ struct tlx::btree_default_traits&lt; Key, Value &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="structtlx_1_1btree__default__traits.html">btree_default_traits</a></li>
-    <li class="footer">Generated on Mon Dec 4 2017 23:47:32 for tlx by
+    <li class="footer">Generated on Mon Jan 8 2018 07:01:37 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

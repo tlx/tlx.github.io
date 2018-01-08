@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('classtlx_1_1btree.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="classtlx_1_1btree-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__tlx__data__structures.html">Data Structures</a></div></div>  </div>
+<div class="title">btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__tlx__data__structures__btree.html">B+ Trees</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -524,7 +524,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>The base implementation of an in-memory B+ tree. It is based on the implementation in Cormen's Introduction into Algorithms, Jan Jannink's paper and other algorithm resources. Almost all STL-required function calls are implemented. The asymptotic time requirements of the STL are not always fulfilled in theory, however, in practice this B+ tree performs better than a red-black tree and almost always uses less memory. The insertion function splits the nodes on the recursion unroll. Erase is largely based on Jannink's ideas.</p>
 <p>This class is specialized into <a class="el" href="classtlx_1_1btree__set.html" title="Specialized B+ tree template class implementing STL&#39;s set container. ">btree_set</a>, <a class="el" href="classtlx_1_1btree__multiset.html" title="Specialized B+ tree template class implementing STL&#39;s multiset container. ">btree_multiset</a>, <a class="el" href="classtlx_1_1btree__map.html" title="Specialized B+ tree template class implementing STL&#39;s map container. ">btree_map</a> and <a class="el" href="classtlx_1_1btree__multimap.html" title="Specialized B+ tree template class implementing STL&#39;s multimap container. ">btree_multimap</a> using default template parameters and facade functions. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00120">120</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00123">123</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a552a180d973faf4f7ccc14b7d639a160"></a>
 <div class="memitem">
@@ -538,7 +538,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Seventh template parameter: STL allocator for tree nodes. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00149">149</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00152">152</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -554,7 +554,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Typedef of our own type. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00164">164</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00167">167</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -570,7 +570,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Fourth template parameter: key_type comparison function object. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00138">138</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00141">141</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -586,7 +586,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Third template: key extractor class to pull key_type from value_type. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00135">135</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00138">138</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -603,7 +603,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>First template parameter: The key type of the B+ tree. </p>
 <p>This is stored in inner nodes. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00128">128</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00131">131</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -619,7 +619,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Size type used to count keys. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00167">167</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00170">170</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -635,7 +635,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Fifth template parameter: Traits object used to define more parameters of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00142">142</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00145">145</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -652,7 +652,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Second template parameter: Composition pair of key and data types, or just the key for set containers. </p>
 <p>This data type is stored in the leaves. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00132">132</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00135">135</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -691,7 +691,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02269">2269</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02272">2272</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -720,7 +720,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Default constructor initializing an empty B+ tree with the standard key comparison function. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01099">1099</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01102">1102</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -758,7 +758,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Constructor initializing an empty B+ tree with a special key comparison object. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01106">1106</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01109">1109</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -803,7 +803,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Constructor initializing a B+ tree with the range [first,last). </p>
 <p>The range need not be sorted. To create a B+ tree from a sorted range, use <a class="el" href="classtlx_1_1btree.html#a3d0a35a00bc2ff5608fe613ea8fa47e6" title="Bulk load a sorted range. ">bulk_load()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01116">1116</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01119">1119</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -854,7 +854,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Constructor initializing a B+ tree with the range [first,last) and a special key comparison object. </p>
 <p>The range need not be sorted. To create a B+ tree from a sorted range, use <a class="el" href="classtlx_1_1btree.html#a3d0a35a00bc2ff5608fe613ea8fa47e6" title="Bulk load a sorted range. ">bulk_load()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01127">1127</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01130">1130</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -881,7 +881,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Frees up all used B+ tree memory pages. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01135">1135</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01138">1138</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -910,7 +910,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Copy constructor. </p>
 <p>The newly initialized B+ tree object will contain a copy of all key/data pairs. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01775">1775</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01778">1778</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -939,7 +939,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Allocate and initialize an inner node. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01257">1257</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01260">1260</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -966,7 +966,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Allocate and initialize a leaf node. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01249">1249</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01252">1252</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -993,7 +993,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Constructs a read/data-write iterator that points to the first slot in the first leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01337">1337</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01340">1340</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1020,7 +1020,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Constructs a read-only constant iterator that points to the first slot in the first leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01349">1349</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01352">1352</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1059,7 +1059,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Bulk load a sorted range. </p>
 <p>Loads items into leaves and constructs a B-tree above them. The tree must be empty when calling this function. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02134">2134</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02137">2137</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1086,7 +1086,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Frees all key/data pairs and all nodes of the tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01290">1290</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01293">1293</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1114,7 +1114,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Recursively free up nodes. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01307">1307</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01310">1310</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1142,7 +1142,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Recursively copy nodes from another B+ tree object. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01792">1792</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01795">1795</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1170,7 +1170,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Tries to locate a key in the B+ tree and returns the number of identical key entries found. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01580">1580</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01583">1583</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1197,7 +1197,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Returns true if there is at least one key/data pair in the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01495">1495</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01498">1498</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1224,7 +1224,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01343">1343</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01346">1346</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1251,7 +1251,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Constructs a read-only constant iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01355">1355</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01358">1358</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1279,7 +1279,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Searches the B+ tree and returns both <a class="el" href="classtlx_1_1btree.html#a373c61cca9b31735f4548b5b59b70184" title="Searches the B+ tree and returns an iterator to the first pair equal to or greater than key...">lower_bound()</a> and <a class="el" href="classtlx_1_1btree.html#a482b50e623a123f653e2a91f113a507b" title="Searches the B+ tree and returns an iterator to the first pair greater than key, or end() if all keys...">upper_bound()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01691">1691</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01694">1694</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1307,7 +1307,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Searches the B+ tree and returns both <a class="el" href="classtlx_1_1btree.html#a373c61cca9b31735f4548b5b59b70184" title="Searches the B+ tree and returns an iterator to the first pair equal to or greater than key...">lower_bound()</a> and <a class="el" href="classtlx_1_1btree.html#a482b50e623a123f653e2a91f113a507b" title="Searches the B+ tree and returns an iterator to the first pair greater than key, or end() if all keys...">upper_bound()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01698">1698</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01701">1701</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1336,7 +1336,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Erases all the key/data pairs associated with the given key. </p>
 <p>This is implemented using <a class="el" href="classtlx_1_1btree.html#a3a79f5c030eea924dbd8fcc9417b9263" title="Erases one (the first) of the key/data pairs associated with the given key. ">erase_one()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02352">2352</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02355">2355</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1364,7 +1364,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Erase the key/data pair referenced by the iterator. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02365">2365</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02368">2368</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1440,7 +1440,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Descends down the tree in search of an iterator. During the descent the parent, left and right siblings and their parents are computed and passed down. The difficulty is that the iterator contains only a pointer to a <a class="el" href="structtlx_1_1btree_1_1leaf__node.html" title="Extended structure of a leaf node in memory. ">leaf_node</a>, which means that this function must do a recursive depth first search for that leaf node in the subtree containing all pairs of the same key. This subtree can be very large, even the whole tree, though in practice it would not make sense to have so many duplicate keys.</p>
 <p>Once the referenced key/data pair is found, it is removed from the leaf and the same underflow cases are handled as in erase_one_descend. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02696">2696</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02699">2699</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1468,7 +1468,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Erases one (the first) of the key/data pairs associated with the given key. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02330">2330</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02333">2333</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1543,7 +1543,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Erase one (the first) key/data pair in the B+ tree matching key. </p>
 <p>Descends down the tree in search of key. During the descent the parent, left and right siblings and their parents are computed and passed down. Once the key/data pair is found, it is removed from the leaf. If the leaf underflows 6 different cases are handled. These cases resolve the underflow by shifting key/data pairs from adjacent sibling nodes, merging two sibling nodes or trimming the tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02407">2407</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02410">2410</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1572,7 +1572,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Non-STL function checking whether a key is in the B+ tree. </p>
 <p>The same as (find(k) != <a class="el" href="classtlx_1_1btree.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a>) or (<a class="el" href="classtlx_1_1btree.html#addd4e2b6ff9c7bef508bc908caabb2d4" title="Tries to locate a key in the B+ tree and returns the number of identical key entries found...">count()</a> != 0). </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01518">1518</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01521">1521</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1601,7 +1601,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Tries to locate a key in the B+ tree and returns an iterator to the key/data slot if found. </p>
 <p>If unsuccessful it returns <a class="el" href="classtlx_1_1btree.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01538">1538</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01541">1541</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1630,7 +1630,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Tries to locate a key in the B+ tree and returns an constant iterator to the key/data slot if found. </p>
 <p>If unsuccessful it returns <a class="el" href="classtlx_1_1btree.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01559">1559</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01562">1562</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1669,7 +1669,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Searches for the first key in the node n greater or equal to key. </p>
 <p>Uses binary search with an optional linear self-verification. This is a template function, because the slotkey array is located at different places in <a class="el" href="structtlx_1_1btree_1_1leaf__node.html" title="Extended structure of a leaf node in memory. ">leaf_node</a> and <a class="el" href="structtlx_1_1btree_1_1inner__node.html" title="Extended structure of a inner node in-memory. ">inner_node</a>. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01394">1394</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01397">1397</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1708,7 +1708,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Searches for the first key in the node n greater than key. </p>
 <p>Uses binary search with an optional linear self-verification. This is a template function, because the slotkey array is located at different places in <a class="el" href="structtlx_1_1btree_1_1leaf__node.html" title="Extended structure of a leaf node in memory. ">leaf_node</a> and <a class="el" href="structtlx_1_1btree_1_1inner__node.html" title="Extended structure of a inner node in-memory. ">inner_node</a>. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01441">1441</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01444">1444</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1736,7 +1736,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Correctly free either inner or leaf node, destructs all contained key and value objects. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01266">1266</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01269">1269</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1763,7 +1763,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Return the base node allocator provided during construction. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01228">1228</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01231">1231</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1790,7 +1790,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Return a const reference to the current statistics. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01506">1506</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01509">1509</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1817,7 +1817,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Return an allocator for <a class="el" href="structtlx_1_1btree_1_1inner__node.html" title="Extended structure of a inner node in-memory. ">inner_node</a> objects. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01244">1244</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01247">1247</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1846,7 +1846,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Attempt to insert a key/data pair into the B+ tree. </p>
 <p>If the tree does not allow duplicate keys, then the insert may fail if it is already present. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01842">1842</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01845">1845</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1885,7 +1885,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Attempt to insert a key/data pair into the B+ tree. </p>
 <p>The iterator hint is currently ignored by the B+ tree insertion routine. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01848">1848</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01851">1851</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1924,7 +1924,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Attempt to insert the range [first,last) of value_type pairs into the B+ tree. </p>
 <p>Each key/data pair is inserted individually; to bulk load the tree, use a constructor with range. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01856">1856</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01859">1859</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -1981,7 +1981,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Insert an item into the B+ tree. </p>
 <p>Descend down the nodes to a leaf, insert the key/data pair in a free slot. If the node overflows, then it must be split and the new split node inserted into the parent. Unroll / this splitting up to the root. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01921">1921</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01924">1924</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2020,7 +2020,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Start the insertion descent at the current root and handle root splits. </p>
 <p>Returns true if the item was inserted </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01874">1874</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01877">1877</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2047,7 +2047,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Constant access to the key comparison object sorting the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01179">1179</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01182">1182</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2086,7 +2086,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>True if a == b ? constructed from <a class="el" href="classtlx_1_1btree.html#a17774d91ac0b9a17b2ba5654441e7c9c" title="True if a &lt; b ? &quot;constructed&quot; from key_less_() ">key_less()</a>. </p>
 <p>This requires the &lt; relation to be a total order, otherwise the B+ tree cannot be sorted. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01217">1217</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01220">1220</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2124,7 +2124,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>True if a &gt; b ? constructed from <a class="el" href="classtlx_1_1btree.html#a17774d91ac0b9a17b2ba5654441e7c9c" title="True if a &lt; b ? &quot;constructed&quot; from key_less_() ">key_less()</a> </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01206">1206</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01209">1209</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2162,7 +2162,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>True if a &gt;= b ? constructed from <a class="el" href="classtlx_1_1btree.html#a17774d91ac0b9a17b2ba5654441e7c9c" title="True if a &lt; b ? &quot;constructed&quot; from key_less_() ">key_less()</a> </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01211">1211</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01214">1214</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2200,7 +2200,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>True if a &lt; b ? "constructed" from <a class="el" href="classtlx_1_1btree.html#a5d945dbdb41ca2fe76d87b2ba122e13e" title="Key comparison object. ">key_less_()</a> </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01196">1196</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01199">1199</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2238,7 +2238,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>True if a &lt;= b ? constructed from <a class="el" href="classtlx_1_1btree.html#a17774d91ac0b9a17b2ba5654441e7c9c" title="True if a &lt; b ? &quot;constructed&quot; from key_less_() ">key_less()</a> </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01201">1201</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01204">1204</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2265,7 +2265,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Return an allocator for <a class="el" href="structtlx_1_1btree_1_1leaf__node.html" title="Extended structure of a leaf node in memory. ">leaf_node</a> objects. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01239">1239</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01242">1242</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2293,7 +2293,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Searches the B+ tree and returns an iterator to the first pair equal to or greater than key, or <a class="el" href="classtlx_1_1btree.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01612">1612</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01615">1615</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2321,7 +2321,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Searches the B+ tree and returns a constant iterator to the first pair equal to or greater than key, or <a class="el" href="classtlx_1_1btree.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01632">1632</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01635">1635</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2349,7 +2349,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Returns the largest possible size of the B+ Tree. </p>
 <p>This is just a function required by the STL standard, the B+ Tree can hold more items. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01501">1501</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01504">1504</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2400,7 +2400,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Merge two inner nodes. </p>
 <p>The function moves all key/childid pairs from right to left and sets right's slotuse to zero. The right slot is then removed by the calling parent node. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03026">3026</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03029">3029</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2445,7 +2445,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Merge two leaf nodes. </p>
 <p>The function moves all key/data pairs from right to left and sets right's slotuse to zero. The right slot is then removed by the calling parent node. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02997">2997</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03000">3000</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2473,7 +2473,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Inequality relation. Based on operator==. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01718">1718</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01721">1721</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2502,7 +2502,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Total ordering relation of B+ trees of the same type. </p>
 <p>It uses std::lexicographical_compare() for the actual comparison of elements. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01724">1724</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01727">1727</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2530,7 +2530,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Less-equal relation. Based on operator&lt;. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01735">1735</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01738">1738</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2558,7 +2558,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Assignment operator. All the key/data pairs are copied. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01751">1751</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01754">1754</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2587,7 +2587,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Equality relation of B+ trees of the same type. </p>
 <p>B+ trees of the same size and equal elements (both key and data) are considered equal. Beware of the random ordering of duplicate keys. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01712">1712</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01715">1715</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2615,7 +2615,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Greater relation. Based on operator&lt;. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01730">1730</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01733">1733</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2643,7 +2643,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Greater-equal relation. Based on operator&lt;. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01740">1740</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01743">1743</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2671,7 +2671,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Constructs a read/data-write reverse iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01361">1361</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01364">1364</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2699,7 +2699,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Constructs a read-only reverse iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01373">1373</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01376">1376</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2727,7 +2727,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Constructs a read/data-write reverse iterator that points to the first slot in the first leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01367">1367</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01370">1370</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2755,7 +2755,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Constructs a read-only reverse iterator that points to the first slot in the first leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01379">1379</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01382">1382</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2806,7 +2806,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Balance two inner nodes. </p>
 <p>The function moves key/data pairs from right to left so that both nodes are equally filled. The parent node is updated if possible. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03114">3114</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03117">3117</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2857,7 +2857,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Balance two leaf nodes. </p>
 <p>The function moves key/data pairs from right to left so that both nodes are equally filled. The parent node is updated if possible. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03070">3070</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03073">3073</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2908,7 +2908,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Balance two inner nodes. </p>
 <p>The function moves key/data pairs from left to right so that both nodes are equally filled. The parent node is updated if possible. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03224">3224</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03227">3227</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2959,7 +2959,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Balance two leaf nodes. </p>
 <p>The function moves key/data pairs from left to right so that both nodes are equally filled. The parent node is updated if possible. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03173">3173</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03176">3176</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -2986,7 +2986,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Return the number of key/data pairs in the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01490">1490</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01493">1493</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3037,7 +3037,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Split up an inner node into two equally-filled sibling nodes. </p>
 <p>Returns the new nodes and it's insertion key in the two parameters. Requires the slot of the item will be inserted, so the nodes will be the same size after the insert. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02093">2093</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02096">2096</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3082,7 +3082,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Split up a leaf node into two equally-filled sibling leaves. </p>
 <p>Returns the new nodes and it's insertion key in the two parameters. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02058">2058</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l02061">2061</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3110,7 +3110,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Fast swapping of two identical B+ tree objects. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01140">1140</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01143">1143</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3138,7 +3138,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Searches the B+ tree and returns an iterator to the first pair greater than key, or <a class="el" href="classtlx_1_1btree.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller or equal. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01652">1652</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01655">1655</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3166,7 +3166,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Searches the B+ tree and returns a constant iterator to the first pair greater than key, or <a class="el" href="classtlx_1_1btree.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller or equal. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01672">1672</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01675">1675</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3194,7 +3194,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Constant access to a constructed value_type comparison object. </p>
 <p>Required by the STL. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01185">1185</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01188">1188</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3222,7 +3222,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Run a thorough verification of all B+ tree invariants. </p>
 <p>The program aborts via <a class="el" href="die_8hpp.html#a63798a2675296e09260478493bf3829b" title="Check condition X and die miserably if false. ">die_unless()</a> if something is wrong. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03363">3363</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03366">3366</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3249,7 +3249,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Verify the double linked list of leaves. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03464">3464</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03467">3467</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3299,7 +3299,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Recursively descend down the tree and verify each node. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03381">3381</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l03384">3384</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3324,7 +3324,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Memory allocator. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01089">1089</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01092">1092</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3349,7 +3349,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Sixth template parameter: Allow duplicate keys in the B+ tree. </p>
 <p>Used to implement multiset and multimap. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00146">146</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00149">149</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3374,7 +3374,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Debug parameter: Prints out lots of debug information about how the algorithms change the tree. </p>
 <p>Requires the header file to be compiled with TLX_BTREE_DEBUG and the key type must be std::ostream printable. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00199">199</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00202">202</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3398,7 +3398,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Pointer to first leaf in the double linked leaf chain. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01076">1076</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01079">1079</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3422,7 +3422,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Base B+ tree parameter: The number of key slots in each inner node, this can differ from slots in each leaf. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00180">180</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00183">183</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3447,7 +3447,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Computed B+ tree parameter: The minimum number of key slots used in an inner node. </p>
 <p>If fewer slots are used, the inner node will be merged or slots shifted from it's siblings. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00190">190</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00193">193</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3472,7 +3472,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Key comparison object. </p>
 <p>More comparison functions are generated from this &lt; relation. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01086">1086</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01089">1089</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3496,7 +3496,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Base B+ tree parameter: The number of key/data slots in each leaf. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00176">176</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00179">179</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3521,7 +3521,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <p>Computed B+ tree parameter: The minimum number of key/data slots used in a leaf. </p>
 <p>If fewer slots are used, the leaf will be merged or slots shifted from it's siblings. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00185">185</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00188">188</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3545,7 +3545,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Pointer to the B+ tree's root node, either leaf or inner node. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01073">1073</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01076">1076</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3569,7 +3569,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Debug parameter: Enables expensive and thorough checking of the B+ tree invariants after each insert/erase operation. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00194">194</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l00197">197</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3593,7 +3593,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Other small statistics about the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01082">1082</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01085">1085</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3617,7 +3617,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 
 <p>Pointer to last leaf in the double linked leaf chain. </p>
 
-<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01079">1079</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree_8hpp_source.html#l01082">1082</a> of file <a class="el" href="btree_8hpp_source.html">btree.hpp</a>.</p>
 
 </div>
 </div>
@@ -3630,7 +3630,7 @@ class tlx::btree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1btree.html">btree</a></li>
-    <li class="footer">Generated on Mon Dec 4 2017 23:47:32 for tlx by
+    <li class="footer">Generated on Mon Jan 8 2018 07:01:37 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

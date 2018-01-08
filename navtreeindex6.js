@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"group__tlx__math.html#gaea4dbc101569da260c218aad97698847":[0,0,1,30],
 "group__tlx__math.html#gaeab5bbc00713a95adc413ee5ddd0cb65":[0,0,1,23],
 "group__tlx__math.html#gaf13460ad33c93a724b32cd093ecdb4f9":[0,0,1,13],
 "group__tlx__math.html#gaf1fdecdbd0923a67672014032e079f16":[0,0,1,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "is__power__of__two_8hpp.html#gaea4dbc101569da260c218aad97698847":[3,0,0,1,7,0],
 "is__power__of__two_8hpp_source.html":[3,0,0,1,7],
 "is__std__array_8hpp.html":[3,0,0,2,11],
-"is__std__array_8hpp_source.html":[3,0,0,2,11],
-"is__std__pair_8hpp.html":[3,0,0,2,12]
+"is__std__array_8hpp_source.html":[3,0,0,2,11]
 };

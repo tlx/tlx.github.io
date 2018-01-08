@@ -37,5 +37,6 @@ var searchData=
   ['btree_5fupdate_5flastkey',['btree_update_lastkey',['../classtlx_1_1btree.html#a3a617d72a0b84dcbdf111d1fe19ec0b5a99aacb09662e9c66cdef8fc5a605ec75',1,'tlx::btree']]],
   ['buf_5f',['buf_',['../classtlx_1_1StackArena.html#ac4d3870b55243740c555f8ee1823973a',1,'tlx::StackArena']]],
   ['bulk_5fload',['bulk_load',['../classtlx_1_1btree.html#a3d0a35a00bc2ff5608fe613ea8fa47e6',1,'tlx::btree::bulk_load()'],['../classtlx_1_1btree__map.html#afa604e854df383bc24cc01d08428d5ac',1,'tlx::btree_map::bulk_load()'],['../classtlx_1_1btree__multimap.html#afa604e854df383bc24cc01d08428d5ac',1,'tlx::btree_multimap::bulk_load()'],['../classtlx_1_1btree__multiset.html#afa604e854df383bc24cc01d08428d5ac',1,'tlx::btree_multiset::bulk_load()'],['../classtlx_1_1btree__set.html#afa604e854df383bc24cc01d08428d5ac',1,'tlx::btree_set::bulk_load()']]],
-  ['busy_5f',['busy_',['../classtlx_1_1ThreadPool.html#a0fae67bd9af7e2f50a8175611aff1b96',1,'tlx::ThreadPool']]]
+  ['busy_5f',['busy_',['../classtlx_1_1ThreadPool.html#a0fae67bd9af7e2f50a8175611aff1b96',1,'tlx::ThreadPool']]],
+  ['b_2b_20trees',['B+ Trees',['../group__tlx__data__structures__btree.html',1,'']]]
 ];
