@@ -1,5 +1,8 @@
 var NAVTREEINDEX7 =
 {
+"is__power__of__two_8hpp.html#ga5cef6cc9dc38f1ba57d4759906369852":[3,0,0,1,7,2],
+"is__power__of__two_8hpp.html#ga73ba4e580abaebcd88684ab089ba22e3":[3,0,0,1,7,4],
+"is__power__of__two_8hpp.html#ga8aeeed5b11812ed9fc4e12c093f887ee":[3,0,0,1,7,1],
 "is__power__of__two_8hpp.html#gab4bb5d2b01bb4f7abee2de54f1dca2f9":[3,0,0,1,7,3],
 "is__power__of__two_8hpp.html#gae254dcf57628545d17e5b70148c63c47":[3,0,0,1,7,5],
 "is__power__of__two_8hpp.html#gaea4dbc101569da260c218aad97698847":[3,0,0,1,7,0],
@@ -40,10 +43,10 @@ var NAVTREEINDEX7 =
 "less__icase_8hpp.html#ga3a73759be8d7ec5778cb6192bc32c4c2":[3,0,0,3,30,0],
 "less__icase_8hpp.html#ga9fb49f152c6bf0d96ec46bfb90a38bfc":[3,0,0,3,30,3],
 "less__icase_8hpp_source.html":[3,0,0,3,30],
-"likely_8hpp.html":[3,0,0,0,5],
-"likely_8hpp.html#a106afbc6d1f1fe01b3a4614eebf55113":[3,0,0,0,5,1],
-"likely_8hpp.html#a2c4b5b038e88004e67c779cf9afcecc7":[3,0,0,0,5,0],
-"likely_8hpp_source.html":[3,0,0,0,5],
+"likely_8hpp.html":[3,0,0,0,6],
+"likely_8hpp.html#a106afbc6d1f1fe01b3a4614eebf55113":[3,0,0,0,6,1],
+"likely_8hpp.html#a2c4b5b038e88004e67c779cf9afcecc7":[3,0,0,0,6,0],
+"likely_8hpp_source.html":[3,0,0,0,6],
 "log2_8hpp.html":[3,0,0,2,15],
 "log2_8hpp_source.html":[3,0,0,2,15],
 "logger_8cpp.html":[3,0,0,19],
@@ -77,8 +80,8 @@ var NAVTREEINDEX7 =
 "namespacemembers_enum.html":[1,1,4],
 "namespacemembers_eval.html":[1,1,5],
 "namespacemembers_f.html":[1,1,0,5],
-"namespacemembers_func.html":[1,1,1,0],
 "namespacemembers_func.html":[1,1,1],
+"namespacemembers_func.html":[1,1,1,0],
 "namespacemembers_func_b.html":[1,1,1,1],
 "namespacemembers_func_c.html":[1,1,1,2],
 "namespacemembers_func_d.html":[1,1,1,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX7 =
 "split_8hpp.html#ga40222e4ae7f552a3d6f8d485ced3d91d":[3,0,0,3,38,10],
 "split_8hpp.html#ga431c048d40a30f531e2e419e26582e4c":[3,0,0,3,38,8],
 "split_8hpp.html#ga4997fcbeb1c6a97d23bce8ea590b3ce3":[3,0,0,3,38,9],
-"split_8hpp.html#ga4aa7e0fb9bd81e31214087d3d85367a3":[3,0,0,3,38,11],
-"split_8hpp.html#ga4fb56b145f00428be03f74257c61f1cc":[3,0,0,3,38,0],
-"split_8hpp.html#ga7a0a5d581ecd362eaae43bdee50b3896":[3,0,0,3,38,5],
-"split_8hpp.html#gac5fb737c26e5fa4d63467b0ded2a1b90":[3,0,0,3,38,4]
+"split_8hpp.html#ga4aa7e0fb9bd81e31214087d3d85367a3":[3,0,0,3,38,11]
 };
