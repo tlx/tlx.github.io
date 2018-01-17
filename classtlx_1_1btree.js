@@ -112,5 +112,6 @@ var classtlx_1_1btree =
     [ "root_", "classtlx_1_1btree.html#aebc82407c13a86e9551f7984d2e3d356", null ],
     [ "self_verify", "classtlx_1_1btree.html#a81a632bc519f850f4af56567ba404f4e", null ],
     [ "stats_", "classtlx_1_1btree.html#aed457b19fc617a12201f09de1d885368", null ],
-    [ "tail_leaf_", "classtlx_1_1btree.html#a3c467198562471ebc2a3ce840a556a9e", null ]
+    [ "tail_leaf_", "classtlx_1_1btree.html#a3c467198562471ebc2a3ce840a556a9e", null ],
+    [ "TLX_BTREE_FRIENDS", "classtlx_1_1btree.html#a38ffbf220e298d1ee8c79307009cfa00", null ]
 ];

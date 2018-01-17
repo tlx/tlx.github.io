@@ -24,5 +24,6 @@ var classtlx_1_1btree_1_1iterator =
     [ "const_reverse_iterator", "classtlx_1_1btree_1_1iterator.html#a776e261b45ef26d713a4d105a8d7c240", null ],
     [ "reverse_iterator", "classtlx_1_1btree_1_1iterator.html#af0a70641f2216cc31420487a62dd3b0d", null ],
     [ "curr_leaf", "classtlx_1_1btree_1_1iterator.html#a0ae0b9994149fc8a793fa7941d72cd5b", null ],
-    [ "curr_slot", "classtlx_1_1btree_1_1iterator.html#ae606c9d192f5f681a19b60b19d8f18d2", null ]
+    [ "curr_slot", "classtlx_1_1btree_1_1iterator.html#ae606c9d192f5f681a19b60b19d8f18d2", null ],
+    [ "TLX_BTREE_FRIENDS", "classtlx_1_1btree_1_1iterator.html#a38ffbf220e298d1ee8c79307009cfa00", null ]
 ];

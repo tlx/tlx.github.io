@@ -23,5 +23,6 @@ var classtlx_1_1btree_1_1reverse__iterator =
     [ "const_reverse_iterator", "classtlx_1_1btree_1_1reverse__iterator.html#a776e261b45ef26d713a4d105a8d7c240", null ],
     [ "iterator", "classtlx_1_1btree_1_1reverse__iterator.html#a67171474c4da6cc8efe0c7fafefd2b2d", null ],
     [ "curr_leaf", "classtlx_1_1btree_1_1reverse__iterator.html#a0ae0b9994149fc8a793fa7941d72cd5b", null ],
-    [ "curr_slot", "classtlx_1_1btree_1_1reverse__iterator.html#ae606c9d192f5f681a19b60b19d8f18d2", null ]
+    [ "curr_slot", "classtlx_1_1btree_1_1reverse__iterator.html#ae606c9d192f5f681a19b60b19d8f18d2", null ],
+    [ "TLX_BTREE_FRIENDS", "classtlx_1_1btree_1_1reverse__iterator.html#a38ffbf220e298d1ee8c79307009cfa00", null ]
 ];

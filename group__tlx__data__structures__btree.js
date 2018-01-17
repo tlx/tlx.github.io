@@ -32,7 +32,8 @@ var group__tlx__data__structures__btree =
         [ "operator==", "classtlx_1_1btree_1_1const__iterator.html#a8a0948685b8eb65ce6775c8f12547439", null ],
         [ "const_reverse_iterator", "classtlx_1_1btree_1_1const__iterator.html#a776e261b45ef26d713a4d105a8d7c240", null ],
         [ "curr_leaf", "classtlx_1_1btree_1_1const__iterator.html#ad6936740ea6176e39cd61bbd7c3fa5cd", null ],
-        [ "curr_slot", "classtlx_1_1btree_1_1const__iterator.html#ae606c9d192f5f681a19b60b19d8f18d2", null ]
+        [ "curr_slot", "classtlx_1_1btree_1_1const__iterator.html#ae606c9d192f5f681a19b60b19d8f18d2", null ],
+        [ "TLX_BTREE_FRIENDS", "classtlx_1_1btree_1_1const__iterator.html#a38ffbf220e298d1ee8c79307009cfa00", null ]
       ] ],
       [ "const_reverse_iterator", "classtlx_1_1btree_1_1const__reverse__iterator.html", [
         [ "difference_type", "classtlx_1_1btree_1_1const__reverse__iterator.html#acf947bbb9e09f863cc3572ff8550b183", null ],
@@ -96,7 +97,8 @@ var group__tlx__data__structures__btree =
         [ "const_reverse_iterator", "classtlx_1_1btree_1_1iterator.html#a776e261b45ef26d713a4d105a8d7c240", null ],
         [ "reverse_iterator", "classtlx_1_1btree_1_1iterator.html#af0a70641f2216cc31420487a62dd3b0d", null ],
         [ "curr_leaf", "classtlx_1_1btree_1_1iterator.html#a0ae0b9994149fc8a793fa7941d72cd5b", null ],
-        [ "curr_slot", "classtlx_1_1btree_1_1iterator.html#ae606c9d192f5f681a19b60b19d8f18d2", null ]
+        [ "curr_slot", "classtlx_1_1btree_1_1iterator.html#ae606c9d192f5f681a19b60b19d8f18d2", null ],
+        [ "TLX_BTREE_FRIENDS", "classtlx_1_1btree_1_1iterator.html#a38ffbf220e298d1ee8c79307009cfa00", null ]
       ] ],
       [ "leaf_node", "structtlx_1_1btree_1_1leaf__node.html", [
         [ "alloc_type", "structtlx_1_1btree_1_1leaf__node.html#a139eb2df5eeecebc888840267d218194", null ],
@@ -148,7 +150,8 @@ var group__tlx__data__structures__btree =
         [ "const_reverse_iterator", "classtlx_1_1btree_1_1reverse__iterator.html#a776e261b45ef26d713a4d105a8d7c240", null ],
         [ "iterator", "classtlx_1_1btree_1_1reverse__iterator.html#a67171474c4da6cc8efe0c7fafefd2b2d", null ],
         [ "curr_leaf", "classtlx_1_1btree_1_1reverse__iterator.html#a0ae0b9994149fc8a793fa7941d72cd5b", null ],
-        [ "curr_slot", "classtlx_1_1btree_1_1reverse__iterator.html#ae606c9d192f5f681a19b60b19d8f18d2", null ]
+        [ "curr_slot", "classtlx_1_1btree_1_1reverse__iterator.html#ae606c9d192f5f681a19b60b19d8f18d2", null ],
+        [ "TLX_BTREE_FRIENDS", "classtlx_1_1btree_1_1reverse__iterator.html#a38ffbf220e298d1ee8c79307009cfa00", null ]
       ] ],
       [ "tree_stats", "structtlx_1_1btree_1_1tree__stats.html", [
         [ "tree_stats", "structtlx_1_1btree_1_1tree__stats.html#aee390aabd0d5706d9a55d51259151704", null ],
@@ -268,7 +271,8 @@ var group__tlx__data__structures__btree =
       [ "root_", "classtlx_1_1btree.html#aebc82407c13a86e9551f7984d2e3d356", null ],
       [ "self_verify", "classtlx_1_1btree.html#a81a632bc519f850f4af56567ba404f4e", null ],
       [ "stats_", "classtlx_1_1btree.html#aed457b19fc617a12201f09de1d885368", null ],
-      [ "tail_leaf_", "classtlx_1_1btree.html#a3c467198562471ebc2a3ce840a556a9e", null ]
+      [ "tail_leaf_", "classtlx_1_1btree.html#a3c467198562471ebc2a3ce840a556a9e", null ],
+      [ "TLX_BTREE_FRIENDS", "classtlx_1_1btree.html#a38ffbf220e298d1ee8c79307009cfa00", null ]
     ] ],
     [ "btree_map", "classtlx_1_1btree__map.html", [
       [ "key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", [
