@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['data_20structures',['Data Structures',['../group__tlx__data__structures.html',1,'']]]
+  ['b_2b_20trees',['B+ Trees',['../group__tlx__data__structures__btree.html',1,'']]]
 ];

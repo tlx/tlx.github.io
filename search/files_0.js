@@ -1,6 +1,7 @@
 var searchData=
 [
   ['abs_5fdiff_2ehpp',['abs_diff.hpp',['../abs__diff_8hpp.html',1,'']]],
+  ['algorithm_2ehpp',['algorithm.hpp',['../algorithm_8hpp.html',1,'']]],
   ['allocator_5fbase_2ehpp',['allocator_base.hpp',['../allocator__base_8hpp.html',1,'']]],
   ['apply_5ftuple_2ehpp',['apply_tuple.hpp',['../apply__tuple_8hpp.html',1,'']]],
   ['attribute_5falways_5finline_2ehpp',['attribute_always_inline.hpp',['../attribute__always__inline_8hpp.html',1,'']]],

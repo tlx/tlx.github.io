@@ -17,6 +17,8 @@ var searchData=
   ['max_5fsize_5f',['max_size_',['../classtlx_1_1RingBuffer.html#a6c71cd8b63dbd5e33c81719592b68977',1,'tlx::RingBuffer']]],
   ['max_5ftype_5fname_5f',['max_type_name_',['../classtlx_1_1CmdlineParser.html#ae28c4d5fed3b50689543c004623ddfea',1,'tlx::CmdlineParser']]],
   ['memberpair',['MemberPair',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ae8ce671297822c7617191eef0b7eb987',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
+  ['merge_5fcombine',['merge_combine',['../group__tlx__algorithm.html#gab8e20183a8a10742b47d9140546ec687',1,'tlx']]],
+  ['merge_5fcombine_2ehpp',['merge_combine.hpp',['../merge__combine_8hpp.html',1,'']]],
   ['merge_5finner',['merge_inner',['../classtlx_1_1btree.html#afa40e96291e33d6ccd267df6d955e86e',1,'tlx::btree']]],
   ['merge_5fleaves',['merge_leaves',['../classtlx_1_1btree.html#a7fb62b3e7b0446c88031df8344518e69',1,'tlx::btree']]],
   ['meta_2ehpp',['meta.hpp',['../meta_8hpp.html',1,'']]],

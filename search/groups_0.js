@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['b_2b_20trees',['B+ Trees',['../group__tlx__data__structures__btree.html',1,'']]]
+  ['algorithms_20for_20iterators',['Algorithms for Iterators',['../group__tlx__algorithm.html',1,'']]]
 ];

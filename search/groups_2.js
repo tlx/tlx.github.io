@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loser_20trees',['Loser Trees',['../group__tlx__data__structures__loser__tree.html',1,'']]]
+  ['data_20structures',['Data Structures',['../group__tlx__data__structures.html',1,'']]]
 ];
