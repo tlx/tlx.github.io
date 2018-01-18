@@ -208,7 +208,7 @@ $(document).ready(function(){initNavTree('backtrace_8cpp_source.html','');});
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="comment">// allocate string which will be filled with the demangled function name</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">size_t</span> funcnamesize = 256;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">char</span>* funcname = (<span class="keywordtype">char</span>*)malloc(funcnamesize);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">char</span>* funcname = <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(alloca(funcnamesize));</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="comment">// iterate over the returned symbol lines. skip the first, it is the</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="comment">// address of this function.</span></div>
@@ -263,58 +263,57 @@ $(document).ready(function(){initNavTree('backtrace_8cpp_source.html','');});
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        }</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    free(funcname);</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    free(symbollist);</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    fprintf(out, <span class="stringliteral">&quot; (not supported on this platform)\n&quot;</span>);</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="namespacetlx.html#a5a63b398e6678264958fb8590e9332bf">tlx::unused</a>(max_frames);</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">#if __linux__</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> segv_backtrace_handler(<span class="keywordtype">int</span> sig) {</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <a class="code" href="namespacetlx.html#a5a63b398e6678264958fb8590e9332bf">tlx::unused</a>(sig);</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordtype">void</span>* addr[16];</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordtype">size_t</span> size;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    size = backtrace(addr, 16);</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    fprintf(stderr, <span class="stringliteral">&quot;Caught SIGSEGV (segmentation fault). Backtrace:\n&quot;</span>);</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    backtrace_symbols_fd(addr + 1, size - 1, STDERR_FILENO);</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    exit(1);</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;}</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="namespacetlx.html#a393c17d312eb726b7e5631ecef50abee">  179</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacetlx.html#a393c17d312eb726b7e5631ecef50abee">enable_segv_backtrace</a>() {</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="preprocessor">#if __linux__</span></div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="preprocessor"></span>    signal(SIGSEGV, segv_backtrace_handler);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="preprocessor"></span>    printf(<span class="stringliteral">&quot;enable_segv_backtrace(): not supported on this platform.\n&quot;</span>);</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;} <span class="comment">// namespace tlx</span></div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="comment">/******************************************************************************/</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    free(symbollist);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    fprintf(out, <span class="stringliteral">&quot; (not supported on this platform)\n&quot;</span>);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="namespacetlx.html#a5a63b398e6678264958fb8590e9332bf">tlx::unused</a>(max_frames);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="preprocessor">#if __linux__</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> segv_backtrace_handler(<span class="keywordtype">int</span> sig) {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="namespacetlx.html#a5a63b398e6678264958fb8590e9332bf">tlx::unused</a>(sig);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordtype">void</span>* addr[16];</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordtype">size_t</span> size;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    size = backtrace(addr, 16);</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    fprintf(stderr, <span class="stringliteral">&quot;Caught SIGSEGV (segmentation fault). Backtrace:\n&quot;</span>);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    backtrace_symbols_fd(addr + 1, size - 1, STDERR_FILENO);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    exit(1);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;}</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="namespacetlx.html#a393c17d312eb726b7e5631ecef50abee">  178</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="namespacetlx.html#a393c17d312eb726b7e5631ecef50abee">enable_segv_backtrace</a>() {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="preprocessor">#if __linux__</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="preprocessor"></span>    signal(SIGSEGV, segv_backtrace_handler);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="preprocessor"></span>    printf(<span class="stringliteral">&quot;enable_segv_backtrace(): not supported on this platform.\n&quot;</span>);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;} <span class="comment">// namespace tlx</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="ttc" id="unused_8hpp_html"><div class="ttname"><a href="unused_8hpp.html">unused.hpp</a></div></div>
 <div class="ttc" id="namespacetlx_html_a5a63b398e6678264958fb8590e9332bf"><div class="ttname"><a href="namespacetlx.html#a5a63b398e6678264958fb8590e9332bf">tlx::unused</a></div><div class="ttdeci">void unused(Types &amp;&amp;...)</div><div class="ttdef"><b>Definition:</b> <a href="unused_8hpp_source.html#l00020">unused.hpp:20</a></div></div>
 <div class="ttc" id="backtrace_8hpp_html"><div class="ttname"><a href="backtrace_8hpp.html">backtrace.hpp</a></div></div>
 <div class="ttc" id="namespacetlx_html_adad32b2f09919dea0ffb70cecfa4ee70"><div class="ttname"><a href="namespacetlx.html#adad32b2f09919dea0ffb70cecfa4ee70">tlx::print_cxx_backtrace</a></div><div class="ttdeci">void print_cxx_backtrace(FILE *out, unsigned int max_frames)</div><div class="ttdoc">Print a demangled stack backtrace of the caller function to FILE* out. </div><div class="ttdef"><b>Definition:</b> <a href="backtrace_8cpp_source.html#l00073">backtrace.cpp:73</a></div></div>
 <div class="ttc" id="namespacetlx_html_a5e964500195bf49264036402214d61ed"><div class="ttname"><a href="namespacetlx.html#a5e964500195bf49264036402214d61ed">tlx::print_raw_backtrace</a></div><div class="ttdeci">void print_raw_backtrace(FILE *out, unsigned int max_frames, const char *fmt,...)</div><div class="ttdoc">Print a plain hex stack backtrace of the called function to FILE* out, prefixed with the given printf...</div><div class="ttdef"><b>Definition:</b> <a href="backtrace_8cpp_source.html#l00030">backtrace.cpp:30</a></div></div>
-<div class="ttc" id="namespacetlx_html_a393c17d312eb726b7e5631ecef50abee"><div class="ttname"><a href="namespacetlx.html#a393c17d312eb726b7e5631ecef50abee">tlx::enable_segv_backtrace</a></div><div class="ttdeci">void enable_segv_backtrace()</div><div class="ttdoc">Install SIGSEGV signal handler and output backtrace on segmentation fault. </div><div class="ttdef"><b>Definition:</b> <a href="backtrace_8cpp_source.html#l00179">backtrace.cpp:179</a></div></div>
+<div class="ttc" id="namespacetlx_html_a393c17d312eb726b7e5631ecef50abee"><div class="ttname"><a href="namespacetlx.html#a393c17d312eb726b7e5631ecef50abee">tlx::enable_segv_backtrace</a></div><div class="ttdeci">void enable_segv_backtrace()</div><div class="ttdoc">Install SIGSEGV signal handler and output backtrace on segmentation fault. </div><div class="ttdef"><b>Definition:</b> <a href="backtrace_8cpp_source.html#l00178">backtrace.cpp:178</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="backtrace_8cpp.html">backtrace.cpp</a></li>
-    <li class="footer">Generated on Thu Jan 18 2018 12:08:48 for tlx by
+    <li class="footer">Generated on Thu Jan 18 2018 15:44:35 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
