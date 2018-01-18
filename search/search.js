@@ -18,7 +18,8 @@ var indexSectionsWithContent =
   8: "bcfnv",
   9: "bcirs",
   10: "adlrst",
-  11: "bdlmst"
+  11: "bdlmst",
+  12: "cdt"
 };
 
 var indexSectionNames =
@@ -34,7 +35,8 @@ var indexSectionNames =
   8: "enumvalues",
   9: "related",
   10: "defines",
-  11: "groups"
+  11: "groups",
+  12: "pages"
 };
 
 function convertToId(search)

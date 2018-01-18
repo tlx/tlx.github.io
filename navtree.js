@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "tlx", "index.html", [
+    [ "tlx - C++ Extensions and Helpers Library", "index.html", "index" ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
@@ -46,9 +47,9 @@ var NAVTREEINDEX =
 "classtlx_1_1btree__set.html#aa5b0dda67f641dfe840ef2c92a3458ef",
 "functions_func_o.html",
 "group__tlx__math.html#ga8d2ca2e0837990f307ff6f7129c45cb5",
-"integer__log2_8hpp.html#gaf5b320c0091db1c3911af02aeb242877",
-"split_8cpp.html#ga4997fcbeb1c6a97d23bce8ea590b3ce3",
-"trim_8hpp.html#gae59121dc9b7582edd903016d412bdb4b"
+"integer__log2_8hpp.html#gaeab5bbc00713a95adc413ee5ddd0cb65",
+"split_8cpp.html#ga431c048d40a30f531e2e419e26582e4c",
+"trim_8hpp.html#ga9f5067eb83515704232300be374b2857"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
