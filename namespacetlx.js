@@ -53,6 +53,7 @@ var namespacetlx =
     [ "Log2< 0 >", "classtlx_1_1Log2_3_010_01_4.html", "classtlx_1_1Log2_3_010_01_4" ],
     [ "StaticIndex", "structtlx_1_1StaticIndex.html", "structtlx_1_1StaticIndex" ],
     [ "RingBuffer", "classtlx_1_1RingBuffer.html", "classtlx_1_1RingBuffer" ],
+    [ "Semaphore", "classtlx_1_1Semaphore.html", "classtlx_1_1Semaphore" ],
     [ "SimpleVector", "classtlx_1_1SimpleVector.html", "classtlx_1_1SimpleVector" ],
     [ "StackArena", "classtlx_1_1StackArena.html", "classtlx_1_1StackArena" ],
     [ "StackAllocator", "classtlx_1_1StackAllocator.html", "classtlx_1_1StackAllocator" ],

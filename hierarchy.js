@@ -91,6 +91,7 @@ var hierarchy =
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::result_t", "structtlx_1_1btree_1_1result__t.html", null ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::reverse_iterator", "classtlx_1_1btree_1_1reverse__iterator.html", null ],
     [ "RingBuffer< Type, Allocator >", "classtlx_1_1RingBuffer.html", null ],
+    [ "Semaphore", "classtlx_1_1Semaphore.html", null ],
     [ "SimpleVector< ValueType, Mode >", "classtlx_1_1SimpleVector.html", null ],
     [ "SimpleVector< std::thread >", "classtlx_1_1SimpleVector.html", null ],
     [ "SimpleVector< tlx::LoserTreeCopyBase::Loser >", "classtlx_1_1SimpleVector.html", null ],

@@ -263,6 +263,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html">RingBuffer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A ring (circular) buffer of static (non-growing) size.  <a href="classtlx_1_1RingBuffer.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Semaphore.html">Semaphore</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple semaphore implementation using C++11 synchronization methods.  <a href="classtlx_1_1Semaphore.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simpler non-growing vector without initialization.  <a href="classtlx_1_1SimpleVector.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,6 +295,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:afacc9643f535d390fd0ead73790a6d56"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#afacc9643f535d390fd0ead73790a6d56">delegate</a> = <a class="el" href="classtlx_1_1Delegate.html">Delegate</a>&lt; T, Allocator &gt;</td></tr>
 <tr class="memdesc:afacc9643f535d390fd0ead73790a6d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">make template alias due to similarity with std::function  <a href="#afacc9643f535d390fd0ead73790a6d56">More...</a><br/></td></tr>
 <tr class="separator:afacc9643f535d390fd0ead73790a6d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13b278f8ac00c463d949d2297f0c3381"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a13b278f8ac00c463d949d2297f0c3381">semaphore</a> = <a class="el" href="classtlx_1_1Semaphore.html">Semaphore</a></td></tr>
+<tr class="memdesc:a13b278f8ac00c463d949d2297f0c3381"><td class="mdescLeft">&#160;</td><td class="mdescRight">alias for STL-like code style  <a href="#a13b278f8ac00c463d949d2297f0c3381">More...</a><br/></td></tr>
+<tr class="separator:a13b278f8ac00c463d949d2297f0c3381"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4843a6aed555573a98892469fee27b0b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga4843a6aed555573a98892469fee27b0b"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__data__structures.html#ga4843a6aed555573a98892469fee27b0b">simple_vector</a> = <a class="el" href="classtlx_1_1SimpleVector.html">SimpleVector</a>&lt; T &gt;</td></tr>
 <tr class="memdesc:ga4843a6aed555573a98892469fee27b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">make template alias due to similarity with std::vector  <a href="group__tlx__data__structures.html#ga4843a6aed555573a98892469fee27b0b">More...</a><br/></td></tr>
@@ -1050,6 +1056,22 @@ Variables</h2></td></tr>
 <p>make alias due to <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer. ">CountingPtr</a>'s similarity with std::shared_ptr&lt;T&gt; </p>
 
 <p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00332">332</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a13b278f8ac00c463d949d2297f0c3381"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacetlx.html#a13b278f8ac00c463d949d2297f0c3381">semaphore</a> =  <a class="el" href="classtlx_1_1Semaphore.html">Semaphore</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>alias for STL-like code style </p>
+
+<p>Definition at line <a class="el" href="semaphore_8hpp_source.html#l00084">84</a> of file <a class="el" href="semaphore_8hpp_source.html">semaphore.hpp</a>.</p>
 
 </div>
 </div>
@@ -2011,7 +2033,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Thu Jan 18 2018 04:09:26 for tlx by
+    <li class="footer">Generated on Thu Jan 18 2018 04:43:18 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -23,7 +23,7 @@ var searchData=
   ['method_5fcaller',['method_caller',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a8ee077d9451e836a793fbbe1a9b6d422',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
   ['min_5fsource',['min_source',['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreeCopyBase::min_source()'],['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreePointerBase::min_source()'],['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreeCopyUnguardedBase::min_source()'],['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreePointerUnguardedBase::min_source()']]],
   ['move_5fto',['move_to',['../classtlx_1_1RingBuffer.html#ac4eb8f7058fc153a56de3da92a8f4817',1,'tlx::RingBuffer']]],
-  ['mutex_5f',['mutex_',['../classtlx_1_1ThreadPool.html#a281b5ec791338d4378e22ef44a51b4a1',1,'tlx::ThreadPool']]],
+  ['mutex_5f',['mutex_',['../classtlx_1_1Semaphore.html#a281b5ec791338d4378e22ef44a51b4a1',1,'tlx::Semaphore::mutex_()'],['../classtlx_1_1ThreadPool.html#a281b5ec791338d4378e22ef44a51b4a1',1,'tlx::ThreadPool::mutex_()']]],
   ['math_20functions',['Math Functions',['../group__tlx__math.html',1,'']]],
   ['meta_2dtemplate_20programming',['Meta-Template Programming',['../group__tlx__meta.html',1,'']]]
 ];

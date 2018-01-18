@@ -54,6 +54,7 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "math.hpp", "math_8hpp.html", null ],
     [ "meta.hpp", "meta_8hpp.html", null ],
     [ "ring_buffer.hpp", "ring__buffer_8hpp.html", null ],
+    [ "semaphore.hpp", "semaphore_8hpp.html", "semaphore_8hpp" ],
     [ "simple_vector.hpp", "simple__vector_8hpp.html", "simple__vector_8hpp" ],
     [ "siphash.hpp", "siphash_8hpp.html", "siphash_8hpp" ],
     [ "stack_allocator.hpp", "stack__allocator_8hpp.html", [

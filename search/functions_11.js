@@ -1,6 +1,7 @@
 var searchData=
 [
   ['save',['save',['../classtlx_1_1RingBuffer.html#a3e3ca3bcf7599e458cbad99f1f9ba11a',1,'tlx::RingBuffer']]],
+  ['semaphore',['Semaphore',['../classtlx_1_1Semaphore.html#a3cda6715143fee1290ae66d9cf4eb8ca',1,'tlx::Semaphore::Semaphore(size_t initial_value=0)'],['../classtlx_1_1Semaphore.html#ad001444f732fccbcd791d9c7ff795a61',1,'tlx::Semaphore::Semaphore(const Semaphore &amp;)=delete'],['../classtlx_1_1Semaphore.html#adac7c37c5126e0e873c1db8045889edb',1,'tlx::Semaphore::Semaphore(Semaphore &amp;&amp;s)']]],
   ['set_5fauthor',['set_author',['../classtlx_1_1CmdlineParser.html#a1f0e0ccea403fbb478df8e170e276133',1,'tlx::CmdlineParser']]],
   ['set_5fdescription',['set_description',['../classtlx_1_1CmdlineParser.html#a9b582ca26190005482986c1ac7f8609f',1,'tlx::CmdlineParser']]],
   ['set_5fslot',['set_slot',['../structtlx_1_1btree_1_1leaf__node.html#ad21aa3c1e3f3defa507cbc89cdd7bd37',1,'tlx::btree::leaf_node']]],
@@ -9,6 +10,7 @@ var searchData=
   ['shift_5fleft_5fleaf',['shift_left_leaf',['../classtlx_1_1btree.html#a35a60f1a17441bfc007f2bafd13dbe67',1,'tlx::btree']]],
   ['shift_5fright_5finner',['shift_right_inner',['../classtlx_1_1btree.html#a53c382cf6da6d219d9d50aad9fafda80',1,'tlx::btree']]],
   ['shift_5fright_5fleaf',['shift_right_leaf',['../classtlx_1_1btree.html#aece1b2df921d0e7fe782b08f99575e3a',1,'tlx::btree']]],
+  ['signal',['signal',['../classtlx_1_1Semaphore.html#a5524204bfdb58acebd952153208d9a14',1,'tlx::Semaphore::signal()'],['../classtlx_1_1Semaphore.html#a749ba93ea62dd66bb49ecd8f159258db',1,'tlx::Semaphore::signal(size_t delta)']]],
   ['simplevector',['SimpleVector',['../classtlx_1_1SimpleVector.html#a588ceefa7d4f32a7e52a9a46f73c17d1',1,'tlx::SimpleVector::SimpleVector()'],['../classtlx_1_1SimpleVector.html#aa109e266e4f918a701cdad6423f98c31',1,'tlx::SimpleVector::SimpleVector(const size_type &amp;sz)'],['../classtlx_1_1SimpleVector.html#ac394c37f6cc648bfe3c348800f839ffd',1,'tlx::SimpleVector::SimpleVector(const SimpleVector &amp;)=delete'],['../classtlx_1_1SimpleVector.html#abc56793ed0b88c80827df33461f38edc',1,'tlx::SimpleVector::SimpleVector(SimpleVector &amp;&amp;v) noexcept']]],
   ['siphash',['siphash',['../namespacetlx.html#ac377d7abe96391a306d74f49c1f92ab0',1,'tlx::siphash(const uint8_t key[16], const uint8_t *msg, size_t size)'],['../namespacetlx.html#ab5b74a8ec4e849ee19578715c65836ab',1,'tlx::siphash(const uint8_t *msg, size_t size)'],['../namespacetlx.html#a36e52665aa49af074f344396ad6264f8',1,'tlx::siphash(const Type &amp;value)']]],
   ['siphash_5fplain',['siphash_plain',['../namespacetlx.html#a1dbb7e10c5e866474d0a516ba06388f8',1,'tlx']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['wait',['wait',['../classtlx_1_1Semaphore.html#a646f6c0cfc1c5f8cdc223868efa535e7',1,'tlx::Semaphore']]],
   ['word_5fwrap',['word_wrap',['../group__tlx__string.html#ga2d0ada76ddce7fc09d770fa512780839',1,'tlx']]],
   ['word_5fwrap_2ecpp',['word_wrap.cpp',['../word__wrap_8cpp.html',1,'']]],
   ['word_5fwrap_2ehpp',['word_wrap.hpp',['../word__wrap_8hpp.html',1,'']]],
