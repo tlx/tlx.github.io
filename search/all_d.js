@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['next_5f',['next_',['../classtlx_1_1LoggerCollectOutput.html#a9dff1530ea1100398de9ab0977600092',1,'tlx::LoggerCollectOutput']]],
   ['next_5fleaf',['next_leaf',['../structtlx_1_1btree_1_1leaf__node.html#a62f91e800a300a413c9fcab8d397e357',1,'tlx::btree::leaf_node']]],
   ['node',['node',['../structtlx_1_1btree_1_1node.html',1,'tlx::btree']]],
   ['nodes',['nodes',['../structtlx_1_1btree_1_1tree__stats.html#a942a7c4c9368b0fa17df9feb4e0dbd74',1,'tlx::btree::tree_stats']]],

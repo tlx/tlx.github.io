@@ -10,6 +10,7 @@ var searchData=
   ['make_5findex_5fsequence_5fhelper',['make_index_sequence_helper',['../structtlx_1_1detail_1_1make__index__sequence__helper.html',1,'tlx::detail']]],
   ['make_5findex_5fsequence_5fhelper_3c_200_2c_20indexes_2e_2e_2e_3e',['make_index_sequence_helper&lt; 0, Indexes...&gt;',['../structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html',1,'tlx::detail']]],
   ['map',['Map',['../classtlx_1_1LruCacheSet.html#a861aef812bb830b05ff98b11bbb184be',1,'tlx::LruCacheSet::Map()'],['../classtlx_1_1LruCacheMap.html#a861aef812bb830b05ff98b11bbb184be',1,'tlx::LruCacheMap::Map()']]],
+  ['map_2ehpp',['map.hpp',['../map_8hpp.html',1,'']]],
   ['map_5f',['map_',['../classtlx_1_1LruCacheSet.html#a750112449c7928f1bbc169db7a33bfd9',1,'tlx::LruCacheSet::map_()'],['../classtlx_1_1LruCacheMap.html#a750112449c7928f1bbc169db7a33bfd9',1,'tlx::LruCacheMap::map_()']]],
   ['mask_5f',['mask_',['../classtlx_1_1RingBuffer.html#a7b17e9608c37b08dc3312f2ce0611f59',1,'tlx::RingBuffer']]],
   ['math_2ehpp',['math.hpp',['../math_8hpp.html',1,'']]],
@@ -25,7 +26,7 @@ var searchData=
   ['method_5fcaller',['method_caller',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a8ee077d9451e836a793fbbe1a9b6d422',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
   ['min_5fsource',['min_source',['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreeCopyBase::min_source()'],['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreePointerBase::min_source()'],['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreeCopyUnguardedBase::min_source()'],['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreePointerUnguardedBase::min_source()']]],
   ['move_5fto',['move_to',['../classtlx_1_1RingBuffer.html#ac4eb8f7058fc153a56de3da92a8f4817',1,'tlx::RingBuffer']]],
-  ['mutex_5f',['mutex_',['../classtlx_1_1Semaphore.html#a281b5ec791338d4378e22ef44a51b4a1',1,'tlx::Semaphore::mutex_()'],['../classtlx_1_1ThreadPool.html#a281b5ec791338d4378e22ef44a51b4a1',1,'tlx::ThreadPool::mutex_()']]],
+  ['mutex_5f',['mutex_',['../classtlx_1_1DefaultLoggerOutput.html#a281b5ec791338d4378e22ef44a51b4a1',1,'tlx::DefaultLoggerOutput::mutex_()'],['../classtlx_1_1Semaphore.html#a281b5ec791338d4378e22ef44a51b4a1',1,'tlx::Semaphore::mutex_()'],['../classtlx_1_1ThreadPool.html#a281b5ec791338d4378e22ef44a51b4a1',1,'tlx::ThreadPool::mutex_()']]],
   ['math_20functions',['Math Functions',['../group__tlx__math.html',1,'']]],
   ['meta_2dtemplate_20programming',['Meta-Template Programming',['../group__tlx__meta.html',1,'']]]
 ];

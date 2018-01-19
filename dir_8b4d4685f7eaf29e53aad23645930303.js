@@ -2,6 +2,7 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
 [
     [ "algorithm", "dir_2da45d5634f3d704f0f0e3154b7e8ec4.html", "dir_2da45d5634f3d704f0f0e3154b7e8ec4" ],
     [ "define", "dir_a24f6cc0d1b9a31e7adf9b47ab4358cd.html", "dir_a24f6cc0d1b9a31e7adf9b47ab4358cd" ],
+    [ "logger", "dir_9ec9e9a7bcf6c1b34f6e098c23b43be1.html", "dir_9ec9e9a7bcf6c1b34f6e098c23b43be1" ],
     [ "math", "dir_e09772e06e87bbb5d2c69a5ed712ca42.html", "dir_e09772e06e87bbb5d2c69a5ed712ca42" ],
     [ "meta", "dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html", "dir_8ac7dfc841f33a5da7c5dfc5610caf4f" ],
     [ "string", "dir_45a7f11e1a4af18f182d54b603484851.html", "dir_45a7f11e1a4af18f182d54b603484851" ],

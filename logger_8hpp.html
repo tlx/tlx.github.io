@@ -112,18 +112,24 @@ $(document).ready(function(){initNavTree('logger_8hpp.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">logger.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;sstream&gt;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
+<code>#include &lt;utility&gt;</code><br/>
+<code>#include &lt;vector&gt;</code><br/>
 </div>
 <p><a href="logger_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoggerFormatter.html">LoggerFormatter&lt; AnyType, Enable &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">template class for formatting. contains a print() method.  <a href="classtlx_1_1LoggerFormatter.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Logger.html">Logger</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">LOG and sLOG for development and debugging.  <a href="classtlx_1_1Logger.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,6 +137,21 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A logging class which outputs spaces between elements pushed via operator&lt;&lt;.  <a href="classtlx_1_1SpacingLogger.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoggerVoidify.html">LoggerVoidify</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoggerPrefixHook.html">LoggerPrefixHook</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract class to implement prefix output hooks for logging.  <a href="classtlx_1_1LoggerPrefixHook.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoggerOutputHook.html">LoggerOutputHook</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract class to implement output hooks for logging.  <a href="classtlx_1_1LoggerOutputHook.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoggerCollectOutput.html">LoggerCollectOutput</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to hook logger output in the local thread.  <a href="classtlx_1_1LoggerCollectOutput.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoggerFormatter_3_01AnyType_01_4.html">LoggerFormatter&lt; AnyType &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoggerFormatter_3_01std_1_1pair_3_01A_00_01B_01_4_01_4.html">LoggerFormatter&lt; std::pair&lt; A, B &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1LoggerFormatter_3_01std_1_1vector_3_01T_00_01A_01_4_01_4.html">LoggerFormatter&lt; std::vector&lt; T, A &gt; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -162,6 +183,15 @@ Macros</h2></td></tr>
 <tr class="separator:af14c6f708bfe284dacf04d7866461a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea27f4824707b7aa21c0bcb69cd53ffb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8hpp.html#aea27f4824707b7aa21c0bcb69cd53ffb">sLOG1</a></td></tr>
 <tr class="separator:aea27f4824707b7aa21c0bcb69cd53ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6f6fd6485b3c32e7706d585634e012d0"><td class="memItemLeft" align="right" valign="top">LoggerPrefixHook *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a6f6fd6485b3c32e7706d585634e012d0">set_logger_prefix_hook</a> (LoggerPrefixHook *hook)</td></tr>
+<tr class="memdesc:a6f6fd6485b3c32e7706d585634e012d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new <a class="el" href="classtlx_1_1LoggerPrefixHook.html" title="Abstract class to implement prefix output hooks for logging. ">LoggerPrefixHook</a> instance to prefix global log lines.  <a href="#a6f6fd6485b3c32e7706d585634e012d0">More...</a><br/></td></tr>
+<tr class="separator:a6f6fd6485b3c32e7706d585634e012d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a369d24d80d405a29502266c3c3742b42"><td class="memItemLeft" align="right" valign="top">LoggerOutputHook *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a369d24d80d405a29502266c3c3742b42">set_logger_output_hook</a> (LoggerOutputHook *hook)</td></tr>
+<tr class="memdesc:a369d24d80d405a29502266c3c3742b42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new <a class="el" href="classtlx_1_1LoggerOutputHook.html" title="Abstract class to implement output hooks for logging. ">LoggerOutputHook</a> instance to receive global log lines.  <a href="#a369d24d80d405a29502266c3c3742b42">More...</a><br/></td></tr>
+<tr class="separator:a369d24d80d405a29502266c3c3742b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a159ca84d25a5487d8e81e4438725df19"></a>
@@ -176,7 +206,7 @@ Macros</h2></td></tr>
 
 <p>Default logging method: output if the local debug variable is true. </p>
 
-<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00136">136</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
+<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00141">141</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
 
 </div>
 </div>
@@ -192,7 +222,7 @@ Macros</h2></td></tr>
 
 <p>Override default output: never or always output log. </p>
 
-<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00139">139</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
+<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00144">144</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
 
 </div>
 </div>
@@ -206,7 +236,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00140">140</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
+<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00145">145</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
 
 </div>
 </div>
@@ -226,7 +256,7 @@ Macros</h2></td></tr>
 
 <p>Explicitly specify the condition for logging. </p>
 
-<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00132">132</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
+<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00137">137</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
 
 </div>
 </div>
@@ -242,7 +272,7 @@ Macros</h2></td></tr>
 
 <p>Default logging method: output if the local debug variable is true. </p>
 
-<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00147">147</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
+<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00152">152</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
 
 </div>
 </div>
@@ -258,7 +288,7 @@ Macros</h2></td></tr>
 
 <p>Override default output: never or always output log. </p>
 
-<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00150">150</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
+<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00155">155</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
 
 </div>
 </div>
@@ -272,7 +302,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00151">151</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
+<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00156">156</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
 
 </div>
 </div>
@@ -292,7 +322,7 @@ Macros</h2></td></tr>
 
 <p>Explicitly specify the condition for logging. </p>
 
-<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00143">143</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
+<p>Definition at line <a class="el" href="logger_8hpp_source.html#l00148">148</a> of file <a class="el" href="logger_8hpp_source.html">logger.hpp</a>.</p>
 
 </div>
 </div>
@@ -302,7 +332,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="logger_8hpp.html">logger.hpp</a></li>
-    <li class="footer">Generated on Fri Jan 19 2018 05:27:18 for tlx by
+    <li class="footer">Generated on Fri Jan 19 2018 15:05:56 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

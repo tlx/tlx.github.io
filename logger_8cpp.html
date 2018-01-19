@@ -110,29 +110,55 @@ $(document).ready(function(){initNavTree('logger_8cpp.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">logger.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="logger_8hpp_source.html">tlx/logger.hpp</a>&gt;</code><br/>
+<code>#include &lt;atomic&gt;</code><br/>
 <code>#include &lt;iostream&gt;</code><br/>
 <code>#include &lt;mutex&gt;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
 </div>
 <p><a href="logger_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1DefaultLoggerOutput.html">DefaultLoggerOutput</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">default output logger  <a href="classtlx_1_1DefaultLoggerOutput.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacetlx"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html">tlx</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a369d24d80d405a29502266c3c3742b42"><td class="memItemLeft" align="right" valign="top">LoggerOutputHook *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a369d24d80d405a29502266c3c3742b42">set_logger_output_hook</a> (LoggerOutputHook *hook)</td></tr>
+<tr class="memdesc:a369d24d80d405a29502266c3c3742b42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new <a class="el" href="classtlx_1_1LoggerOutputHook.html" title="Abstract class to implement output hooks for logging. ">LoggerOutputHook</a> instance to receive global log lines.  <a href="#a369d24d80d405a29502266c3c3742b42">More...</a><br/></td></tr>
+<tr class="separator:a369d24d80d405a29502266c3c3742b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f6fd6485b3c32e7706d585634e012d0"><td class="memItemLeft" align="right" valign="top">LoggerPrefixHook *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a6f6fd6485b3c32e7706d585634e012d0">set_logger_prefix_hook</a> (LoggerPrefixHook *hook)</td></tr>
+<tr class="memdesc:a6f6fd6485b3c32e7706d585634e012d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new <a class="el" href="classtlx_1_1LoggerPrefixHook.html" title="Abstract class to implement prefix output hooks for logging. ">LoggerPrefixHook</a> instance to prefix global log lines.  <a href="#a6f6fd6485b3c32e7706d585634e012d0">More...</a><br/></td></tr>
+<tr class="separator:a6f6fd6485b3c32e7706d585634e012d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac57ddd8d5c4eebe0f8a5d889b29c8823"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ac57ddd8d5c4eebe0f8a5d889b29c8823">s_logger_mutex</a></td></tr>
-<tr class="memdesc:ac57ddd8d5c4eebe0f8a5d889b29c8823"><td class="mdescLeft">&#160;</td><td class="mdescRight">mutex for log output  <a href="#ac57ddd8d5c4eebe0f8a5d889b29c8823">More...</a><br/></td></tr>
-<tr class="separator:ac57ddd8d5c4eebe0f8a5d889b29c8823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a241ff102af8805b7bbd03a8c80a04861"><td class="memItemLeft" align="right" valign="top">static DefaultLoggerOutput&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a241ff102af8805b7bbd03a8c80a04861">s_default_logger</a></td></tr>
+<tr class="memdesc:a241ff102af8805b7bbd03a8c80a04861"><td class="mdescLeft">&#160;</td><td class="mdescRight">default logger singleton  <a href="#a241ff102af8805b7bbd03a8c80a04861">More...</a><br/></td></tr>
+<tr class="separator:a241ff102af8805b7bbd03a8c80a04861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a043e222f2e520d8002dd4e31b3696edd"><td class="memItemLeft" align="right" valign="top">static std::atomic<br class="typebreak"/>
+&lt; LoggerOutputHook * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a043e222f2e520d8002dd4e31b3696edd">s_logger_output_hook</a></td></tr>
+<tr class="memdesc:a043e222f2e520d8002dd4e31b3696edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">global logger output hook  <a href="#a043e222f2e520d8002dd4e31b3696edd">More...</a><br/></td></tr>
+<tr class="separator:a043e222f2e520d8002dd4e31b3696edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c3ea0e853bc0db7e475dce0c2912de"><td class="memItemLeft" align="right" valign="top">static std::atomic<br class="typebreak"/>
+&lt; LoggerPrefixHook * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab8c3ea0e853bc0db7e475dce0c2912de">s_logger_prefix_hook</a></td></tr>
+<tr class="memdesc:ab8c3ea0e853bc0db7e475dce0c2912de"><td class="mdescLeft">&#160;</td><td class="mdescRight">global logger prefix hook  <a href="#ab8c3ea0e853bc0db7e475dce0c2912de">More...</a><br/></td></tr>
+<tr class="separator:ab8c3ea0e853bc0db7e475dce0c2912de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -140,7 +166,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="logger_8cpp.html">logger.cpp</a></li>
-    <li class="footer">Generated on Fri Jan 19 2018 05:27:18 for tlx by
+    <li class="footer">Generated on Fri Jan 19 2018 15:05:56 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

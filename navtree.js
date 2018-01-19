@@ -41,15 +41,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "abs__diff_8hpp.html",
-"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ad3faaca58812b7d86b60dd18e49869de",
-"classtlx_1_1StackArena.html#ac4d3870b55243740c555f8ee1823973a",
-"classtlx_1_1btree__map.html#a38ffbf220e298d1ee8c79307009cfa00",
-"classtlx_1_1btree__set.html#a9c9766a96c492f3e9e5861d6b4f87387",
-"functions_func_l.html",
-"group__tlx__math.html#ga181e095bba991ad9f8174a6eff001ad7",
-"integer__log2_8cpp.html#ga6e254c8067dc87ac0ce3bc8d29f338ad",
-"round__to__power__of__two_8hpp.html#gac4552e08e9a23d0e81ee4f8ee59120cf",
-"to__upper_8cpp.html#ga2be559f6e498862bec070f122feb6e14"
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ab221d6f56ef9cc5a219cda5c1f744768",
+"classtlx_1_1SimpleVector.html#a87a9128345a8fb57cd8963b483005368",
+"classtlx_1_1btree_1_1iterator.html#a7d6dfa944ab1bdbe8c84556f02a4d02e",
+"classtlx_1_1btree__multiset.html#acad38d52497a975bfb6f2f6acd76631f",
+"extract__between_8cpp.html#gab3a44aaf97230d79b6aac046331240d3",
+"group__tlx__data__structures__loser__tree.html#ga9217936c23da221160951da2e74ea714",
+"group__tlx__string.html#gae7e6db7b1dfe54efc4b195f27df5ed71",
+"replace_8cpp.html#ga276e1110c0ea48a01ef5a84f8ff40f37",
+"structtlx_1_1btree_1_1leaf__node.html#ab52e5ead4896194d02bf207103be33a8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
