@@ -35,5 +35,6 @@ var searchData=
   ['done',['done',['../classtlx_1_1ThreadPool.html#a6ab55ecd45f61789b99e299e1cf679ea',1,'tlx::ThreadPool']]],
   ['done_5f',['done_',['../classtlx_1_1ThreadPool.html#a18e1ce640131051703d238c31d041f30',1,'tlx::ThreadPool']]],
   ['data_20structures',['Data Structures',['../group__tlx__data__structures.html',1,'']]],
+  ['defines_20and_20macros',['Defines and Macros',['../group__tlx__define.html',1,'']]],
   ['die_28_29_20_2d_20simple_20invariant_20testing',['die() - Simple Invariant Testing',['../tlx_die.html',1,'index']]]
 ];

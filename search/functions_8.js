@@ -19,6 +19,8 @@ var searchData=
   ['is_5fleafnode',['is_leafnode',['../structtlx_1_1btree_1_1node.html#af0bb2987233e128054452dc84553b3a9',1,'tlx::btree::node']]],
   ['is_5fpower_5fof_5ftwo',['is_power_of_two',['../group__tlx__math.html#gaea4dbc101569da260c218aad97698847',1,'tlx::is_power_of_two(int i)'],['../group__tlx__math.html#ga8aeeed5b11812ed9fc4e12c093f887ee',1,'tlx::is_power_of_two(unsigned int i)'],['../group__tlx__math.html#ga5cef6cc9dc38f1ba57d4759906369852',1,'tlx::is_power_of_two(long i)'],['../group__tlx__math.html#gab4bb5d2b01bb4f7abee2de54f1dca2f9',1,'tlx::is_power_of_two(unsigned long i)'],['../group__tlx__math.html#ga73ba4e580abaebcd88684ab089ba22e3',1,'tlx::is_power_of_two(long long i)'],['../group__tlx__math.html#gae254dcf57628545d17e5b70148c63c47',1,'tlx::is_power_of_two(unsigned long long i)']]],
   ['is_5fpower_5fof_5ftwo_5ftemplate',['is_power_of_two_template',['../namespacetlx.html#a6bd0c156caa682f81c584b29f1d62104',1,'tlx']]],
+  ['is_5fsorted_5fcmp',['is_sorted_cmp',['../group__tlx__algorithm.html#gabe360874d7ebb9890f27be61d5b8e599',1,'tlx']]],
+  ['is_5fsorted_5funtil_5fcmp',['is_sorted_until_cmp',['../group__tlx__algorithm.html#ga0f76b0fd536a8ed9216ff7c3e26d2214',1,'tlx']]],
   ['is_5fspace',['is_space',['../namespacetlx.html#aced5355a13aebabfa68ca4100e507e83',1,'tlx']]],
   ['is_5funderflow',['is_underflow',['../structtlx_1_1btree_1_1inner__node.html#a161bc176fff45968605cbbf2bb5f4ef9',1,'tlx::btree::inner_node::is_underflow()'],['../structtlx_1_1btree_1_1leaf__node.html#a161bc176fff45968605cbbf2bb5f4ef9',1,'tlx::btree::leaf_node::is_underflow()']]],
   ['is_5fwhite',['is_white',['../namespacetlx.html#a7aebcd1b9a6ce6667c8bbcab36aeaadb',1,'tlx']]],

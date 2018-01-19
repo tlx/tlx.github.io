@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>tlx: Algorithms for Iterators</title>
+<title>tlx: Algorithms</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -106,24 +106,105 @@ $(document).ready(function(){initNavTree('group__tlx__algorithm.html','');});
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Algorithms for Iterators</div>  </div>
+<div class="title">Algorithms<div class="ingroups"><a class="el" href="group__tlx.html">tlx - C++ Extensions and Utilities</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>algorithms for iterators and ranges  
+<p>Algorithms for iterators and ranges.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab8e20183a8a10742b47d9140546ec687"><td class="memTemplParams" colspan="2">template&lt;typename InputIterator1 , typename InputIterator2 , typename OutputIterator , typename Comparator  = std::less&lt;              typename std::iterator_traits&lt;InputIterator1&gt;::value_type&gt;, typename Combine  = std::plus&lt;              typename std::iterator_traits&lt;InputIterator1&gt;::value_type&gt;&gt; </td></tr>
-<tr class="memitem:gab8e20183a8a10742b47d9140546ec687"><td class="memTemplItemLeft" align="right" valign="top">OutputIterator&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gab8e20183a8a10742b47d9140546ec687">merge_combine</a> (InputIterator1 first1, InputIterator1 last1, InputIterator2 first2, InputIterator2 last2, OutputIterator result, Comparator comp=Comparator(), Combine combine=Combine())</td></tr>
-<tr class="memdesc:gab8e20183a8a10742b47d9140546ec687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge two sorted ranges and add all items comparing equal.  <a href="#gab8e20183a8a10742b47d9140546ec687">More...</a><br/></td></tr>
-<tr class="separator:gab8e20183a8a10742b47d9140546ec687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0f76b0fd536a8ed9216ff7c3e26d2214"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIterator , typename Comparator &gt; </td></tr>
+<tr class="memitem:ga0f76b0fd536a8ed9216ff7c3e26d2214"><td class="memTemplItemLeft" align="right" valign="top">ForwardIterator&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#ga0f76b0fd536a8ed9216ff7c3e26d2214">is_sorted_until_cmp</a> (ForwardIterator first, ForwardIterator last, Comparator cmp)</td></tr>
+<tr class="memdesc:ga0f76b0fd536a8ed9216ff7c3e26d2214"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a range is sorted using a three-way Comparator (with memcmp() semantics).  <a href="#ga0f76b0fd536a8ed9216ff7c3e26d2214">More...</a><br/></td></tr>
+<tr class="separator:ga0f76b0fd536a8ed9216ff7c3e26d2214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe360874d7ebb9890f27be61d5b8e599"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIterator , typename Comparator &gt; </td></tr>
+<tr class="memitem:gabe360874d7ebb9890f27be61d5b8e599"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gabe360874d7ebb9890f27be61d5b8e599">is_sorted_cmp</a> (ForwardIterator first, ForwardIterator last, Comparator cmp)</td></tr>
+<tr class="memdesc:gabe360874d7ebb9890f27be61d5b8e599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a range is sorted using a three-way Comparator (with memcmp() semantics).  <a href="#gabe360874d7ebb9890f27be61d5b8e599">More...</a><br/></td></tr>
+<tr class="separator:gabe360874d7ebb9890f27be61d5b8e599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac328961b3d340e0963ca02b7703fafcd"><td class="memTemplParams" colspan="2">template&lt;typename InputIterator1 , typename InputIterator2 , typename OutputIterator , typename Comparator , typename Combine  = std::plus&lt;              typename std::iterator_traits&lt;InputIterator1&gt;::value_type&gt;&gt; </td></tr>
+<tr class="memitem:gac328961b3d340e0963ca02b7703fafcd"><td class="memTemplItemLeft" align="right" valign="top">OutputIterator&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gac328961b3d340e0963ca02b7703fafcd">merge_combine</a> (InputIterator1 first1, InputIterator1 last1, InputIterator2 first2, InputIterator2 last2, OutputIterator result, Comparator cmp=Comparator(), Combine combine=Combine())</td></tr>
+<tr class="memdesc:gac328961b3d340e0963ca02b7703fafcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge two sorted ranges and add all items comparing equal.  <a href="#gac328961b3d340e0963ca02b7703fafcd">More...</a><br/></td></tr>
+<tr class="separator:gac328961b3d340e0963ca02b7703fafcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>algorithms for iterators and ranges </p>
+<p>Algorithms for iterators and ranges. </p>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="gab8e20183a8a10742b47d9140546ec687"></a>
+<a class="anchor" id="gabe360874d7ebb9890f27be61d5b8e599"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool tlx::is_sorted_cmp </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIterator&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIterator&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparator&#160;</td>
+          <td class="paramname"><em>cmp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if a range is sorted using a three-way Comparator (with memcmp() semantics). </p>
+
+<p>Definition at line <a class="el" href="is__sorted__cmp_8hpp_source.html#l00044">44</a> of file <a class="el" href="is__sorted__cmp_8hpp_source.html">is_sorted_cmp.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga0f76b0fd536a8ed9216ff7c3e26d2214"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ForwardIterator tlx::is_sorted_until_cmp </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIterator&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIterator&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparator&#160;</td>
+          <td class="paramname"><em>cmp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if a range is sorted using a three-way Comparator (with memcmp() semantics). </p>
+<p>Returns an iterator to the first items not in order. </p>
+
+<p>Definition at line <a class="el" href="is__sorted__cmp_8hpp_source.html#l00026">26</a> of file <a class="el" href="is__sorted__cmp_8hpp_source.html">is_sorted_cmp.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gac328961b3d340e0963ca02b7703fafcd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -161,7 +242,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Comparator&#160;</td>
-          <td class="paramname"><em>comp</em> = <code>Comparator()</code>, </td>
+          <td class="paramname"><em>cmp</em> = <code>Comparator()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -178,10 +259,10 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Merge two sorted ranges and add all items comparing equal. </p>
-<p>Both ranges must be sorted using the three-way Comparator (with memcmp() semantics). Item pairs comparing equal (comp returns 0) are combined together using an operator.</p>
+<p>Both ranges must be sorted using the three-way Comparator (with memcmp() semantics). Item pairs comparing equal (cmp returns 0) are combined together using a combine operator.</p>
 <dl class="section warning"><dt>Warning</dt><dd>This method does not check if the ranges are sorted. Also make sure that the comparator does not work with unsigned types. </dd></dl>
 
-<p>Definition at line <a class="el" href="merge__combine_8hpp_source.html#l00036">36</a> of file <a class="el" href="merge__combine_8hpp_source.html">merge_combine.hpp</a>.</p>
+<p>Definition at line <a class="el" href="merge__combine_8hpp_source.html#l00035">35</a> of file <a class="el" href="merge__combine_8hpp_source.html">merge_combine.hpp</a>.</p>
 
 </div>
 </div>
@@ -190,7 +271,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 18 2018 21:50:50 for tlx by
+    <li class="footer">Generated on Fri Jan 19 2018 05:27:18 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

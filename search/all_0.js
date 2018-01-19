@@ -81,5 +81,5 @@ var searchData=
   ['attribute_5fwarn_5funused_5fresult_2ehpp',['attribute_warn_unused_result.hpp',['../attribute__warn__unused__result_8hpp.html',1,'']]],
   ['author_5f',['author_',['../classtlx_1_1CmdlineParser.html#a90d2a2533b2434302f3be98438f9f470',1,'tlx::CmdlineParser']]],
   ['avgfill_5fleaves',['avgfill_leaves',['../structtlx_1_1btree_1_1tree__stats.html#a15e93268f0db30aba3e965bd0be33b02',1,'tlx::btree::tree_stats']]],
-  ['algorithms_20for_20iterators',['Algorithms for Iterators',['../group__tlx__algorithm.html',1,'']]]
+  ['algorithms',['Algorithms',['../group__tlx__algorithm.html',1,'']]]
 ];

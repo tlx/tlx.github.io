@@ -17,7 +17,7 @@ var indexSectionsWithContent =
   7: "rs",
   8: "bcfnv",
   9: "bcirs",
-  10: "adlrst",
+  10: "adlrs",
   11: "abdlmst",
   12: "cdt"
 };
