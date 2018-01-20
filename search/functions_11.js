@@ -4,6 +4,7 @@ var searchData=
   ['semaphore',['Semaphore',['../classtlx_1_1Semaphore.html#a3cda6715143fee1290ae66d9cf4eb8ca',1,'tlx::Semaphore::Semaphore(size_t initial_value=0)'],['../classtlx_1_1Semaphore.html#ad001444f732fccbcd791d9c7ff795a61',1,'tlx::Semaphore::Semaphore(const Semaphore &amp;)=delete'],['../classtlx_1_1Semaphore.html#adac7c37c5126e0e873c1db8045889edb',1,'tlx::Semaphore::Semaphore(Semaphore &amp;&amp;s)']]],
   ['set_5fauthor',['set_author',['../classtlx_1_1CmdlineParser.html#a1f0e0ccea403fbb478df8e170e276133',1,'tlx::CmdlineParser']]],
   ['set_5fdescription',['set_description',['../classtlx_1_1CmdlineParser.html#a9b582ca26190005482986c1ac7f8609f',1,'tlx::CmdlineParser']]],
+  ['set_5fdie_5fwith_5fexception',['set_die_with_exception',['../namespacetlx.html#aa17989dc1fbbf1047c8f238aaafe7092',1,'tlx']]],
   ['set_5flogger_5foutput_5fhook',['set_logger_output_hook',['../namespacetlx.html#a369d24d80d405a29502266c3c3742b42',1,'tlx']]],
   ['set_5flogger_5fprefix_5fhook',['set_logger_prefix_hook',['../namespacetlx.html#a6f6fd6485b3c32e7706d585634e012d0',1,'tlx']]],
   ['set_5fslot',['set_slot',['../structtlx_1_1btree_1_1leaf__node.html#ad21aa3c1e3f3defa507cbc89cdd7bd37',1,'tlx::btree::leaf_node']]],

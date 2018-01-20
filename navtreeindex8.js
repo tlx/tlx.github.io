@@ -1,5 +1,10 @@
 var NAVTREEINDEX8 =
 {
+"parse__si__iec__units_8hpp.html":[4,0,0,5,34],
+"parse__si__iec__units_8hpp.html#ga42a656ed3586b515140cb71b312f0f9b":[4,0,0,5,34,1],
+"parse__si__iec__units_8hpp.html#ga58be0557b1b38913b28d947c935aed42":[4,0,0,5,34,0],
+"parse__si__iec__units_8hpp_source.html":[4,0,0,5,34],
+"replace_8cpp.html":[4,0,0,5,35],
 "replace_8cpp.html#ga0d7d14badd05473e5a5c847b3f91b9e9":[4,0,0,5,35,3],
 "replace_8cpp.html#ga14cfa75fa579e1d4943855455d9e605d":[4,0,0,5,35,8],
 "replace_8cpp.html#ga276e1110c0ea48a01ef5a84f8ff40f37":[4,0,0,5,35,19],
@@ -230,8 +235,8 @@ var NAVTREEINDEX8 =
 "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html":[1,0,1,1,7,0],
 "structtlx_1_1LoserTreePointerBase_1_1Loser.html":[1,0,1,1,4,0],
 "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html":[1,0,1,1,10,0],
-"structtlx_1_1StackAllocator_1_1rebind.html":[3,0,0,77,0],
-"structtlx_1_1StackAllocator_1_1rebind.html#ae87deb46986ab6e10fd8f986c1e40115":[3,0,0,77,0,0],
+"structtlx_1_1StackAllocator_1_1rebind.html":[3,0,0,78,0],
+"structtlx_1_1StackAllocator_1_1rebind.html#ae87deb46986ab6e10fd8f986c1e40115":[3,0,0,78,0,0],
 "structtlx_1_1StaticIndex.html":[1,0,4,19],
 "structtlx_1_1StaticIndex.html#a5db12ccaeb69abb440e410e47b86d6cf":[1,0,4,19,1],
 "structtlx_1_1StaticIndex.html#a71d124e0deb33bacc550df99ab1e5b25":[1,0,4,19,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX8 =
 "structtlx_1_1btree_1_1inner__node.html#aadab4c4629760352c8b7766669471657":[1,0,1,0,1,2,7],
 "structtlx_1_1btree_1_1inner__node.html#ab52e5ead4896194d02bf207103be33a8":[1,0,1,0,1,2,5],
 "structtlx_1_1btree_1_1inner__node.html#ae028d16479603404a2f2b71bfc0abe82":[1,0,1,0,1,2,3],
-"structtlx_1_1btree_1_1leaf__node.html":[1,0,1,0,1,4],
-"structtlx_1_1btree_1_1leaf__node.html#a05e3d86c2442ace4b66c19e28e2a9585":[1,0,1,0,1,4,9],
-"structtlx_1_1btree_1_1leaf__node.html#a139eb2df5eeecebc888840267d218194":[1,0,1,0,1,4,0],
-"structtlx_1_1btree_1_1leaf__node.html#a161bc176fff45968605cbbf2bb5f4ef9":[1,0,1,0,1,4,4],
-"structtlx_1_1btree_1_1leaf__node.html#a25a40b6614565f755233080a384c35f1":[1,0,1,0,1,4,1],
-"structtlx_1_1btree_1_1leaf__node.html#a62f91e800a300a413c9fcab8d397e357":[1,0,1,0,1,4,7]
+"structtlx_1_1btree_1_1leaf__node.html":[1,0,1,0,1,4]
 };

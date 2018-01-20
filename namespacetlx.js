@@ -15,6 +15,7 @@ var namespacetlx =
     [ "ReferenceCounter", "classtlx_1_1ReferenceCounter.html", "classtlx_1_1ReferenceCounter" ],
     [ "Delegate", "classtlx_1_1Delegate.html", null ],
     [ "Delegate< R(A...), Allocator >", "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html", "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4" ],
+    [ "DieException", "classtlx_1_1DieException.html", "classtlx_1_1DieException" ],
     [ "LoggerFormatter< std::array< T, N > >", "classtlx_1_1LoggerFormatter_3_01std_1_1array_3_01T_00_01N_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1array_3_01T_00_01N_01_4_01_4" ],
     [ "LoggerFormatter< std::deque< T, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1deque_3_01T_00_01A_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1deque_3_01T_00_01A_01_4_01_4" ],
     [ "LoggerFormatter< std::map< K, V, C, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1map_3_01K_00_01V_00_01C_00_01A_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1map_3_01K_00_01V_00_01C_00_01A_01_4_01_4" ],

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['s_5fdefault_5flogger',['s_default_logger',['../namespacetlx.html#a241ff102af8805b7bbd03a8c80a04861',1,'tlx']]],
+  ['s_5fdie_5fwith_5fexception',['s_die_with_exception',['../namespacetlx.html#a60940290b9c3ca9e978cd30dca38d8c8',1,'tlx']]],
   ['s_5flogger_5foutput_5fhook',['s_logger_output_hook',['../namespacetlx.html#a043e222f2e520d8002dd4e31b3696edd',1,'tlx']]],
   ['s_5flogger_5fprefix_5fhook',['s_logger_prefix_hook',['../namespacetlx.html#ab8c3ea0e853bc0db7e475dce0c2912de',1,'tlx']]],
   ['self_5fverify',['self_verify',['../structtlx_1_1btree__default__traits.html#a81a632bc519f850f4af56567ba404f4e',1,'tlx::btree_default_traits::self_verify()'],['../classtlx_1_1btree.html#a81a632bc519f850f4af56567ba404f4e',1,'tlx::btree::self_verify()'],['../classtlx_1_1btree__map.html#a81a632bc519f850f4af56567ba404f4e',1,'tlx::btree_map::self_verify()'],['../classtlx_1_1btree__multimap.html#a81a632bc519f850f4af56567ba404f4e',1,'tlx::btree_multimap::self_verify()'],['../classtlx_1_1btree__multiset.html#a81a632bc519f850f4af56567ba404f4e',1,'tlx::btree_multiset::self_verify()'],['../classtlx_1_1btree__set.html#a81a632bc519f850f4af56567ba404f4e',1,'tlx::btree_set::self_verify()']]],

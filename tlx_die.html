@@ -104,13 +104,13 @@ $(document).ready(function(){initNavTree('tlx_die.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title"><a class="el" href="die_8hpp.html#ab6acaec854169756098dfd26138a1a0e" title="Instead of abort(), throw the output the message via an exception. ">die()</a> - Simple Invariant Testing </div>  </div>
+<div class="title"><a class="el" href="die_8hpp.html#ab6acaec854169756098dfd26138a1a0e" title="Instead of std::terminate(), throw the output the message via an exception. ">die()</a> - Simple Invariant Testing </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>tlx contains a set of macros called <code>die_...</code> for simple invariant testing.</p>
 <p>They test some condition and fail with nice output containing both the condition, and file/line information where it occurred.</p>
 <ul>
-<li><code><a class="el" href="die_8hpp.html#ab6acaec854169756098dfd26138a1a0e" title="Instead of abort(), throw the output the message via an exception. ">die(message)</a></code> - always terminates with given message.</li>
+<li><code><a class="el" href="die_8hpp.html#ab6acaec854169756098dfd26138a1a0e" title="Instead of std::terminate(), throw the output the message via an exception. ">die(message)</a></code> - always terminates with given message.</li>
 <li><code><a class="el" href="die_8hpp.html#a63798a2675296e09260478493bf3829b" title="Check condition X and die miserably if false. ">die_unless(condition)</a></code> - terminates if condition is false</li>
 <li><code><a class="el" href="die_8hpp.html#a104ef9af1dda7b166a22fea791aad044" title="Check condition X and die miserably if true. ">die_if(condition)</a></code> - terminates if condition is true</li>
 <li><code><a class="el" href="die_8hpp.html#a334b021076c0dff0e3964c6819774ceb" title="Check that X == Y or die miserably, but output the values of X and Y for better debugging. ">die_unequal(a,b)</a></code> - terminates unless a == b.</li>
@@ -118,15 +118,16 @@ $(document).ready(function(){initNavTree('tlx_die.html','');});
 </ul>
 <p>Furthermore, some additional assert macros are also available. These are only active in Debug mode, if NDEBUG is defined they are compiled out.</p>
 <ul>
-<li><code><a class="el" href="die_8hpp.html#a5085068329fda13af995242db4555038" title="Check that X == Y or die miserably, but output the values of X and Y for better debugging. ">assert_equal(a,b)</a></code> - checks if a == b. </li>
+<li><code><a class="el" href="die_8hpp.html#a5085068329fda13af995242db4555038" title="Check that X == Y or die miserably, but output the values of X and Y for better debugging. ">assert_equal(a,b)</a></code> - checks if a == b.</li>
 </ul>
+<p>tlx die macros can also be modified to throw a <a class="el" href="classtlx_1_1DieException.html" title="Exception thrown by die_with_message() if. ">DieException</a> instead of calling std::terminate. Either call <code>set_die_with_exception(true)</code> to define TLX_DIE_WITH_EXCEPTION=1 using the preprocessor. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">tlx - C++ Extensions and Helpers Library</a></li>
-    <li class="footer">Generated on Sat Jan 20 2018 10:35:22 for tlx by
+    <li class="footer">Generated on Sat Jan 20 2018 14:36:06 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

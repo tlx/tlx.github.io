@@ -9,6 +9,7 @@ var searchData=
   ['destroy_5farray',['destroy_array',['../classtlx_1_1SimpleVector.html#af5bb6579266664efe61f1369ab0a02e3',1,'tlx::SimpleVector']]],
   ['die_5fequal_5fcompare',['die_equal_compare',['../namespacetlx.html#a9f8179e15f255f7283de043a22560c25',1,'tlx::die_equal_compare(TypeA a, TypeB b)'],['../namespacetlx.html#ac37c2fc10d396b6a0038eb2d643d1360',1,'tlx::die_equal_compare(const char *a, const char *b)'],['../namespacetlx.html#a6834365ccbbe0995d597d91cb16ac05c',1,'tlx::die_equal_compare(float a, float b)'],['../namespacetlx.html#ac215c9815621e2ebbc07da9be07a622f',1,'tlx::die_equal_compare(double a, double b)']]],
   ['die_5fwith_5fmessage',['die_with_message',['../namespacetlx.html#a1a4f198a88970a7cb1f5d8d3a0555b79',1,'tlx::die_with_message(const std::string &amp;msg)'],['../namespacetlx.html#a1972bdbc5b9ff146cf88d18ec9a12d64',1,'tlx::die_with_message(const char *msg, const char *file, size_t line)'],['../namespacetlx.html#acf7bff2d67e5ed89bd9dc6bea904e1c1',1,'tlx::die_with_message(const std::string &amp;msg, const char *file, size_t line)']]],
+  ['dieexception',['DieException',['../classtlx_1_1DieException.html#aa5a876a546d70d22b260e1c174f44de7',1,'tlx::DieException']]],
   ['div_5fceil',['div_ceil',['../group__tlx__math.html#gaa901da3e5d75f6e1891f470b1382562e',1,'tlx']]],
   ['done',['done',['../classtlx_1_1ThreadPool.html#a6ab55ecd45f61789b99e299e1cf679ea',1,'tlx::ThreadPool']]]
 ];

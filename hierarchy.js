@@ -34,6 +34,11 @@ var hierarchy =
     [ "CountingPtrNoOperationDeleter", "classtlx_1_1CountingPtrNoOperationDeleter.html", null ],
     [ "Delegate< T, Allocator >", "classtlx_1_1Delegate.html", null ],
     [ "Delegate< R(A...), Allocator >", "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html", null ],
+    [ "exception", null, [
+      [ "runtime_error", null, [
+        [ "DieException", "classtlx_1_1DieException.html", null ]
+      ] ]
+    ] ],
     [ "false_type", null, [
       [ "Delegate< R(A...), Allocator >::IsConstMemberPair< typename >", "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsConstMemberPair.html", null ],
       [ "Delegate< R(A...), Allocator >::IsMemberPair< typename >", "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsMemberPair.html", null ],

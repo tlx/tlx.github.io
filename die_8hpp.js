@@ -1,5 +1,6 @@
 var die_8hpp =
 [
+    [ "DieException", "classtlx_1_1DieException.html", "classtlx_1_1DieException" ],
     [ "assert_equal", "die_8hpp.html#a5085068329fda13af995242db4555038", null ],
     [ "die", "die_8hpp.html#ab6acaec854169756098dfd26138a1a0e", null ],
     [ "die_if", "die_8hpp.html#a104ef9af1dda7b166a22fea791aad044", null ],
@@ -13,5 +14,6 @@ var die_8hpp =
     [ "die_equal_compare", "die_8hpp.html#ac215c9815621e2ebbc07da9be07a622f", null ],
     [ "die_with_message", "die_8hpp.html#a1a4f198a88970a7cb1f5d8d3a0555b79", null ],
     [ "die_with_message", "die_8hpp.html#a1972bdbc5b9ff146cf88d18ec9a12d64", null ],
-    [ "die_with_message", "die_8hpp.html#acf7bff2d67e5ed89bd9dc6bea904e1c1", null ]
+    [ "die_with_message", "die_8hpp.html#acf7bff2d67e5ed89bd9dc6bea904e1c1", null ],
+    [ "set_die_with_exception", "die_8hpp.html#aa17989dc1fbbf1047c8f238aaafe7092", null ]
 ];

@@ -110,6 +110,7 @@ $(document).ready(function(){initNavTree('die_8hpp.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -119,10 +120,17 @@ $(document).ready(function(){initNavTree('die_8hpp.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;cstring&gt;</code><br/>
 <code>#include &lt;sstream&gt;</code><br/>
+<code>#include &lt;stdexcept&gt;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
 </div>
 <p><a href="die_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1DieException.html">DieException</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exception thrown by <a class="el" href="namespacetlx.html#a1a4f198a88970a7cb1f5d8d3a0555b79" title="die with message - either throw an exception or die via std::terminate() ">die_with_message()</a> if.  <a href="classtlx_1_1DieException.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacetlx"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html">tlx</a></td></tr>
@@ -131,10 +139,10 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a17ac1fcc957b3ac3414677c0058b1bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#a17ac1fcc957b3ac3414677c0058b1bad">die_with_sstream</a>(msg)</td></tr>
-<tr class="memdesc:a17ac1fcc957b3ac3414677c0058b1bad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instead of abort(), throw the output the message via an exception.  <a href="#a17ac1fcc957b3ac3414677c0058b1bad">More...</a><br/></td></tr>
+<tr class="memdesc:a17ac1fcc957b3ac3414677c0058b1bad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instead of std::terminate(), throw the output the message via an exception.  <a href="#a17ac1fcc957b3ac3414677c0058b1bad">More...</a><br/></td></tr>
 <tr class="separator:a17ac1fcc957b3ac3414677c0058b1bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6acaec854169756098dfd26138a1a0e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#ab6acaec854169756098dfd26138a1a0e">die</a>(msg)</td></tr>
-<tr class="memdesc:ab6acaec854169756098dfd26138a1a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instead of abort(), throw the output the message via an exception.  <a href="#ab6acaec854169756098dfd26138a1a0e">More...</a><br/></td></tr>
+<tr class="memdesc:ab6acaec854169756098dfd26138a1a0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instead of std::terminate(), throw the output the message via an exception.  <a href="#ab6acaec854169756098dfd26138a1a0e">More...</a><br/></td></tr>
 <tr class="separator:ab6acaec854169756098dfd26138a1a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63798a2675296e09260478493bf3829b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(X)</td></tr>
 <tr class="memdesc:a63798a2675296e09260478493bf3829b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check condition X and die miserably if false.  <a href="#a63798a2675296e09260478493bf3829b">More...</a><br/></td></tr>
@@ -155,14 +163,17 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1a4f198a88970a7cb1f5d8d3a0555b79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1a4f198a88970a7cb1f5d8d3a0555b79">die_with_message</a> (const std::string &amp;msg)</td></tr>
-<tr class="memdesc:a1a4f198a88970a7cb1f5d8d3a0555b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">die with message - either throw an exception or die via abort()  <a href="#a1a4f198a88970a7cb1f5d8d3a0555b79">More...</a><br/></td></tr>
+<tr class="memdesc:a1a4f198a88970a7cb1f5d8d3a0555b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">die with message - either throw an exception or die via std::terminate()  <a href="#a1a4f198a88970a7cb1f5d8d3a0555b79">More...</a><br/></td></tr>
 <tr class="separator:a1a4f198a88970a7cb1f5d8d3a0555b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1972bdbc5b9ff146cf88d18ec9a12d64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1972bdbc5b9ff146cf88d18ec9a12d64">die_with_message</a> (const char *msg, const char *file, size_t line)</td></tr>
-<tr class="memdesc:a1972bdbc5b9ff146cf88d18ec9a12d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">die with message - either throw an exception or die via abort()  <a href="#a1972bdbc5b9ff146cf88d18ec9a12d64">More...</a><br/></td></tr>
+<tr class="memdesc:a1972bdbc5b9ff146cf88d18ec9a12d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">die with message - either throw an exception or die via std::terminate()  <a href="#a1972bdbc5b9ff146cf88d18ec9a12d64">More...</a><br/></td></tr>
 <tr class="separator:a1972bdbc5b9ff146cf88d18ec9a12d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf7bff2d67e5ed89bd9dc6bea904e1c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#acf7bff2d67e5ed89bd9dc6bea904e1c1">die_with_message</a> (const std::string &amp;msg, const char *file, size_t line)</td></tr>
-<tr class="memdesc:acf7bff2d67e5ed89bd9dc6bea904e1c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">die with message - either throw an exception or die via abort()  <a href="#acf7bff2d67e5ed89bd9dc6bea904e1c1">More...</a><br/></td></tr>
+<tr class="memdesc:acf7bff2d67e5ed89bd9dc6bea904e1c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">die with message - either throw an exception or die via std::terminate()  <a href="#acf7bff2d67e5ed89bd9dc6bea904e1c1">More...</a><br/></td></tr>
 <tr class="separator:acf7bff2d67e5ed89bd9dc6bea904e1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17989dc1fbbf1047c8f238aaafe7092"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#aa17989dc1fbbf1047c8f238aaafe7092">set_die_with_exception</a> (bool b)</td></tr>
+<tr class="memdesc:aa17989dc1fbbf1047c8f238aaafe7092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch between dying via std::terminate() and throwing an exception.  <a href="#aa17989dc1fbbf1047c8f238aaafe7092">More...</a><br/></td></tr>
+<tr class="separator:aa17989dc1fbbf1047c8f238aaafe7092"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f8179e15f255f7283de043a22560c25"><td class="memTemplParams" colspan="2">template&lt;typename TypeA , typename TypeB &gt; </td></tr>
 <tr class="memitem:a9f8179e15f255f7283de043a22560c25"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a9f8179e15f255f7283de043a22560c25">die_equal_compare</a> (TypeA a, TypeB b)</td></tr>
 <tr class="memdesc:a9f8179e15f255f7283de043a22560c25"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper method to compare two values in <a class="el" href="die_8hpp.html#a334b021076c0dff0e3964c6819774ceb" title="Check that X == Y or die miserably, but output the values of X and Y for better debugging. ">die_unequal()</a>  <a href="#a9f8179e15f255f7283de043a22560c25">More...</a><br/></td></tr>
@@ -205,7 +216,7 @@ Functions</h2></td></tr>
 <p>Check that X == Y or die miserably, but output the values of X and Y for better debugging. </p>
 <p>Only active if NDEBUG is not defined. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00113">113</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00124">124</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -223,9 +234,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Instead of abort(), throw the output the message via an exception. </p>
+<p>Instead of std::terminate(), throw the output the message via an exception. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00042">42</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00043">43</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -246,7 +257,7 @@ Functions</h2></td></tr>
 <p>Check condition X and die miserably if true. </p>
 <p>Opposite of assert() except this is also active in Release mode. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00062">62</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00073">73</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -276,7 +287,7 @@ Functions</h2></td></tr>
 
 <p>Check that X == Y or die miserably, but output the values of X and Y for better debugging. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00099">99</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00110">110</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -297,7 +308,7 @@ Functions</h2></td></tr>
 <p>Check condition X and die miserably if false. </p>
 <p>Same as assert() except this is also active in Release mode. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00052">52</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00063">63</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -327,7 +338,7 @@ Functions</h2></td></tr>
 
 <p>Define to check that [code] throws and exception of given type. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00120">120</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00131">131</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -345,9 +356,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Instead of abort(), throw the output the message via an exception. </p>
+<p>Instead of std::terminate(), throw the output the message via an exception. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00033">33</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00034">34</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -357,7 +368,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="die_8hpp.html">die.hpp</a></li>
-    <li class="footer">Generated on Sat Jan 20 2018 10:35:22 for tlx by
+    <li class="footer">Generated on Sat Jan 20 2018 14:36:06 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
