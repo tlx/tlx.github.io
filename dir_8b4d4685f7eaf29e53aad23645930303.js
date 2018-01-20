@@ -62,6 +62,7 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "siphash.hpp", "siphash_8hpp.html", "siphash_8hpp" ],
     [ "stack_allocator.hpp", "stack__allocator_8hpp.html", [
       [ "StackArena", "classtlx_1_1StackArena.html", "classtlx_1_1StackArena" ],
+      [ "AlignmentHelper", "uniontlx_1_1StackArena_1_1AlignmentHelper.html", "uniontlx_1_1StackArena_1_1AlignmentHelper" ],
       [ "StackAllocator", "classtlx_1_1StackAllocator.html", "classtlx_1_1StackAllocator" ],
       [ "rebind", "structtlx_1_1StackAllocator_1_1rebind.html", "structtlx_1_1StackAllocator_1_1rebind" ]
     ] ],

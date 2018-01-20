@@ -81,5 +81,6 @@ var group__tlx__meta =
     [ "vmap_for_range", "group__tlx__meta.html#ga4a1c233e7ab713b8f8f77f7149f2bc4b", null ],
     [ "vmap_for_range", "group__tlx__meta.html#ga36807642146dd614b63d26ed6bba9c19", null ],
     [ "vmap_foreach", "group__tlx__meta.html#gaf379571cbffcf0273d0203ef53bca2b8", null ],
+    [ "vmap_foreach_tuple", "group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926", null ],
     [ "vmap_foreach_with_index", "group__tlx__meta.html#ga1a5c01183e4cc91ffbec284e8bd9437e", null ]
 ];

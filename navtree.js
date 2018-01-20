@@ -43,13 +43,13 @@ var NAVTREEINDEX =
 "abs__diff_8hpp.html",
 "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ab221d6f56ef9cc5a219cda5c1f744768",
 "classtlx_1_1SimpleVector.html#a87a9128345a8fb57cd8963b483005368",
-"classtlx_1_1btree_1_1iterator.html#a7d6dfa944ab1bdbe8c84556f02a4d02e",
-"classtlx_1_1btree__multiset.html#acad38d52497a975bfb6f2f6acd76631f",
-"extract__between_8cpp.html#gab3a44aaf97230d79b6aac046331240d3",
+"classtlx_1_1btree_1_1iterator.html#a79650310ba908366e5553a2e4136b9cb",
+"classtlx_1_1btree__multiset.html#ac9d65f1906a503050e0b82efd47b9f84",
+"extract__between_8cpp.html#ga713c5cd2e2209e379c8b79ba2cd3e398",
 "group__tlx__data__structures__loser__tree.html#ga9217936c23da221160951da2e74ea714",
-"group__tlx__string.html#gae7e6db7b1dfe54efc4b195f27df5ed71",
-"replace_8cpp.html#ga276e1110c0ea48a01ef5a84f8ff40f37",
-"structtlx_1_1btree_1_1leaf__node.html#ab52e5ead4896194d02bf207103be33a8"
+"group__tlx__string.html#gae2a485134f5e618b846abb630d44ec6f",
+"replace_8cpp.html#ga0d7d14badd05473e5a5c847b3f91b9e9",
+"structtlx_1_1btree_1_1leaf__node.html#a695a0547385af04cd83175626255b4ba"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

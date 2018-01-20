@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['d',['d',['../uniontlx_1_1StackArena_1_1AlignmentHelper.html#a873684cefeb665f3d5e6b495de57fc0d',1,'tlx::StackArena::AlignmentHelper']]],
   ['data',['data',['../classtlx_1_1SimpleVector.html#a0b4fb6c261ed5f5792806334824d8bc8',1,'tlx::SimpleVector::data() noexcept'],['../classtlx_1_1SimpleVector.html#a93bf6c5e2a99028f205cd1aacfcfbc04',1,'tlx::SimpleVector::data() const noexcept']]],
   ['data_5f',['data_',['../classtlx_1_1RingBuffer.html#a98e4560adae148e80c54e8f07b59685f',1,'tlx::RingBuffer']]],
   ['data_5ftype',['data_type',['../classtlx_1_1btree__map.html#a2a9bb4a20468cdfca8b476a26892f283',1,'tlx::btree_map::data_type()'],['../classtlx_1_1btree__multimap.html#a2a9bb4a20468cdfca8b476a26892f283',1,'tlx::btree_multimap::data_type()']]],
@@ -36,6 +37,7 @@ var searchData=
   ['div_5fceil_2ehpp',['div_ceil.hpp',['../div__ceil_8hpp.html',1,'']]],
   ['done',['done',['../classtlx_1_1ThreadPool.html#a6ab55ecd45f61789b99e299e1cf679ea',1,'tlx::ThreadPool']]],
   ['done_5f',['done_',['../classtlx_1_1ThreadPool.html#a18e1ce640131051703d238c31d041f30',1,'tlx::ThreadPool']]],
+  ['dummy_5ffor_5falignment_5f',['dummy_for_alignment_',['../classtlx_1_1StackArena.html#a7b5aee095580b69494418f5592fca380',1,'tlx::StackArena']]],
   ['data_20structures',['Data Structures',['../group__tlx__data__structures.html',1,'']]],
   ['defines_20and_20macros',['Defines and Macros',['../group__tlx__define.html',1,'']]],
   ['die_28_29_20_2d_20simple_20invariant_20testing',['die() - Simple Invariant Testing',['../tlx_die.html',1,'index']]]

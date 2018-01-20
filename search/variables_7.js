@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['i',['i',['../uniontlx_1_1StackArena_1_1AlignmentHelper.html#acb559820d9ca11295b4500f179ef6392',1,'tlx::StackArena::AlignmentHelper']]],
   ['ik_5f',['ik_',['../group__tlx__data__structures__loser__tree.html#gae685674ee260e306f6c7f3b82dd46834',1,'tlx::LoserTreeCopyBase::ik_()'],['../group__tlx__data__structures__loser__tree.html#gae685674ee260e306f6c7f3b82dd46834',1,'tlx::LoserTreePointerBase::ik_()'],['../group__tlx__data__structures__loser__tree.html#ga06f92e08a8d3b2fe95a11b3100222e98',1,'tlx::LoserTreeCopyUnguardedBase::ik_()'],['../group__tlx__data__structures__loser__tree.html#ga06f92e08a8d3b2fe95a11b3100222e98',1,'tlx::LoserTreePointerUnguardedBase::ik_()']]],
   ['index',['index',['../structtlx_1_1StaticIndex.html#a5db12ccaeb69abb440e410e47b86d6cf',1,'tlx::StaticIndex']]],
   ['inner_5fnodes',['inner_nodes',['../structtlx_1_1btree_1_1tree__stats.html#a33acefd815dae0cce39ba5c792abaa0e',1,'tlx::btree::tree_stats']]],

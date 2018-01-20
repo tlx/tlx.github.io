@@ -192,6 +192,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ae382be4a86007636b92d35d347959ca7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#ae382be4a86007636b92d35d347959ca7">vmap_foreach_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
 <tr class="memdesc:ae382be4a86007636b92d35d347959ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach: general recursive case  <a href="#ae382be4a86007636b92d35d347959ca7">More...</a><br/></td></tr>
 <tr class="separator:ae382be4a86007636b92d35d347959ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a195441b008a3437d3770c9a825498381"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Arg &gt; </td></tr>
+<tr class="memitem:a195441b008a3437d3770c9a825498381"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a195441b008a3437d3770c9a825498381">vmap_foreach_tuple_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg)</td></tr>
+<tr class="memdesc:a195441b008a3437d3770c9a825498381"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple_with_index_impl: base case  <a href="#a195441b008a3437d3770c9a825498381">More...</a><br/></td></tr>
+<tr class="separator:a195441b008a3437d3770c9a825498381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a285c928c498dcff593f0f45697038f48"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Arg , typename... MoreArgs&gt; </td></tr>
+<tr class="memitem:a285c928c498dcff593f0f45697038f48"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a285c928c498dcff593f0f45697038f48">vmap_foreach_tuple_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
+<tr class="memdesc:a285c928c498dcff593f0f45697038f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple_with_index_impl: general recursive case  <a href="#a285c928c498dcff593f0f45697038f48">More...</a><br/></td></tr>
+<tr class="separator:a285c928c498dcff593f0f45697038f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4110117cecc0756541501bc74ec6de3"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </td></tr>
+<tr class="memitem:ac4110117cecc0756541501bc74ec6de3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">vmap_foreach_tuple_with_index_impl</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t, <a class="el" href="structtlx_1_1index__sequence.html">tlx::index_sequence</a>&lt; Is...&gt;)</td></tr>
+<tr class="memdesc:ac4110117cecc0756541501bc74ec6de3"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple: forwards tuple entries  <a href="#ac4110117cecc0756541501bc74ec6de3">More...</a><br/></td></tr>
+<tr class="separator:ac4110117cecc0756541501bc74ec6de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a094c6917a6bf518524d034482a8c3844"><td class="memTemplParams" colspan="2">template&lt;size_t Index, typename Functor , typename Arg &gt; </td></tr>
 <tr class="memitem:a094c6917a6bf518524d034482a8c3844"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a094c6917a6bf518524d034482a8c3844">vmap_foreach_with_index_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg)</td></tr>
 <tr class="memdesc:a094c6917a6bf518524d034482a8c3844"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_with_index: base case  <a href="#a094c6917a6bf518524d034482a8c3844">More...</a><br/></td></tr>
@@ -232,7 +244,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="apply__tuple_8hpp_source.html#l00030">30</a> of file <a class="el" href="apply__tuple_8hpp_source.html">apply_tuple.hpp</a>.</p>
+<p>Definition at line <a class="el" href="apply__tuple_8hpp_source.html#l00031">31</a> of file <a class="el" href="apply__tuple_8hpp_source.html">apply_tuple.hpp</a>.</p>
 
 </div>
 </div>
@@ -663,6 +675,108 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a195441b008a3437d3770c9a825498381"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::detail::vmap_foreach_tuple_impl </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Arg &amp;&amp;&#160;</td>
+          <td class="paramname"><em>arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for vmap_foreach_tuple_with_index_impl: base case </p>
+
+<p>Definition at line <a class="el" href="vmap__foreach__tuple_8hpp_source.html#l00031">31</a> of file <a class="el" href="vmap__foreach__tuple_8hpp_source.html">vmap_foreach_tuple.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a285c928c498dcff593f0f45697038f48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::detail::vmap_foreach_tuple_impl </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Arg &amp;&amp;&#160;</td>
+          <td class="paramname"><em>arg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MoreArgs &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>rest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for vmap_foreach_tuple_with_index_impl: general recursive case </p>
+
+<p>Definition at line <a class="el" href="vmap__foreach__tuple_8hpp_source.html#l00037">37</a> of file <a class="el" href="vmap__foreach__tuple_8hpp_source.html">vmap_foreach_tuple.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac4110117cecc0756541501bc74ec6de3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::detail::vmap_foreach_tuple_with_index_impl </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Tuple &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structtlx_1_1index__sequence.html">tlx::index_sequence</a>&lt; Is...&gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for vmap_foreach_tuple: forwards tuple entries </p>
+
+<p>Definition at line <a class="el" href="vmap__foreach__tuple_8hpp_source.html#l00047">47</a> of file <a class="el" href="vmap__foreach__tuple_8hpp_source.html">vmap_foreach_tuple.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a094c6917a6bf518524d034482a8c3844"></a>
 <div class="memitem">
 <div class="memproto">
@@ -735,7 +849,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="namespacetlx_1_1detail.html">detail</a></li>
-    <li class="footer">Generated on Fri Jan 19 2018 16:05:27 for tlx by
+    <li class="footer">Generated on Sat Jan 20 2018 10:35:23 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

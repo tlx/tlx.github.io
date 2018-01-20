@@ -112,6 +112,7 @@ $(document).ready(function(){initNavTree('classtlx_1_1StackArena.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -128,6 +129,12 @@ $(document).ready(function(){initNavTree('classtlx_1_1StackArena.html','');});
 
 <p><code>#include &lt;<a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uniontlx_1_1StackArena_1_1AlignmentHelper.html">AlignmentHelper</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">union to enforce alignment of buffer area  <a href="uniontlx_1_1StackArena_1_1AlignmentHelper.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2c8cd7313715f9bbacd3469bdacf9d75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StackArena.html#a2c8cd7313715f9bbacd3469bdacf9d75">StackArena</a> () noexcept</td></tr>
@@ -165,9 +172,15 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ac4d3870b55243740c555f8ee1823973a"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StackArena.html#ac4d3870b55243740c555f8ee1823973a">buf_</a> [Size]</td></tr>
+<tr class="memitem:a6004a63df670fef43bc7ae17aa91cf6a"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:ac4d3870b55243740c555f8ee1823973a"><td class="memItemLeft" >&#160;&#160;&#160;char&#160;&#160;&#160;<a class="el" href="classtlx_1_1StackArena.html#ac4d3870b55243740c555f8ee1823973a">buf_</a> [Size]</td></tr>
 <tr class="memdesc:ac4d3870b55243740c555f8ee1823973a"><td class="mdescLeft">&#160;</td><td class="mdescRight">stack memory area used for allocations.  <a href="#ac4d3870b55243740c555f8ee1823973a">More...</a><br/></td></tr>
 <tr class="separator:ac4d3870b55243740c555f8ee1823973a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b5aee095580b69494418f5592fca380"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="uniontlx_1_1StackArena_1_1AlignmentHelper.html">AlignmentHelper</a>&#160;&#160;&#160;<a class="el" href="classtlx_1_1StackArena.html#a7b5aee095580b69494418f5592fca380">dummy_for_alignment_</a></td></tr>
+<tr class="memdesc:a7b5aee095580b69494418f5592fca380"><td class="mdescLeft">&#160;</td><td class="mdescRight">enforce alignment  <a href="#a7b5aee095580b69494418f5592fca380">More...</a><br/></td></tr>
+<tr class="separator:a7b5aee095580b69494418f5592fca380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6004a63df670fef43bc7ae17aa91cf6a"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a6004a63df670fef43bc7ae17aa91cf6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5ec38c854291ed98296bd00efbf90ae"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StackArena.html#aa5ec38c854291ed98296bd00efbf90ae">ptr_</a></td></tr>
 <tr class="memdesc:aa5ec38c854291ed98296bd00efbf90ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer into free bytes in buf_  <a href="#aa5ec38c854291ed98296bd00efbf90ae">More...</a><br/></td></tr>
 <tr class="separator:aa5ec38c854291ed98296bd00efbf90ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,7 +221,7 @@ class tlx::StackArena&lt; Size &gt;</h3>
 
 <p>default constructor: free pointer at the beginning. </p>
 
-<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00048">48</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00064">64</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
 
 </div>
 </div>
@@ -235,7 +248,7 @@ class tlx::StackArena&lt; Size &gt;</h3>
 
 <p>destructor clears ptr_ for debugging. </p>
 
-<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00051">51</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00067">67</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
 
 </div>
 </div>
@@ -286,7 +299,7 @@ class tlx::StackArena&lt; Size &gt;</h3>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00056">56</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00072">72</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
 
 </div>
 </div>
@@ -322,7 +335,7 @@ class tlx::StackArena&lt; Size &gt;</h3>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00072">72</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00088">88</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
 
 </div>
 </div>
@@ -374,7 +387,7 @@ class tlx::StackArena&lt; Size &gt;</h3>
 
 <p>debug method to check whether ptr_ is still in buf_. </p>
 
-<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00043">43</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00059">59</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
 
 </div>
 </div>
@@ -401,7 +414,7 @@ class tlx::StackArena&lt; Size &gt;</h3>
 
 <p>reset memory area </p>
 
-<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00094">94</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00110">110</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
 
 </div>
 </div>
@@ -428,7 +441,7 @@ class tlx::StackArena&lt; Size &gt;</h3>
 
 <p>size of memory area </p>
 
-<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00088">88</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00104">104</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
 
 </div>
 </div>
@@ -455,11 +468,23 @@ class tlx::StackArena&lt; Size &gt;</h3>
 
 <p>return number of bytes used in <a class="el" href="classtlx_1_1StackArena.html" title="Storage area allocated on the stack and usable by a StackAllocator. ">StackArena</a> </p>
 
-<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00091">91</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00107">107</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a6004a63df670fef43bc7ae17aa91cf6a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union { ... } </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ac15e6b5f88a94c672b70f8a914798517"></a>
 <div class="memitem">
 <div class="memproto">
@@ -485,24 +510,32 @@ class tlx::StackArena&lt; Size &gt;</h3>
 <a class="anchor" id="ac4d3870b55243740c555f8ee1823973a"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">char buf_[Size]</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>stack memory area used for allocations. </p>
 
-<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00037">37</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00050">50</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7b5aee095580b69494418f5592fca380"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="uniontlx_1_1StackArena_1_1AlignmentHelper.html">AlignmentHelper</a> dummy_for_alignment_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>enforce alignment </p>
+
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00052">52</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
 
 </div>
 </div>
@@ -526,7 +559,7 @@ class tlx::StackArena&lt; Size &gt;</h3>
 
 <p>pointer into free bytes in buf_ </p>
 
-<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00040">40</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
+<p>Definition at line <a class="el" href="stack__allocator_8hpp_source.html#l00056">56</a> of file <a class="el" href="stack__allocator_8hpp_source.html">stack_allocator.hpp</a>.</p>
 
 </div>
 </div>
@@ -539,7 +572,7 @@ class tlx::StackArena&lt; Size &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1StackArena.html">StackArena</a></li>
-    <li class="footer">Generated on Fri Jan 19 2018 16:05:27 for tlx by
+    <li class="footer">Generated on Sat Jan 20 2018 10:35:23 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -24,5 +24,6 @@ var dir_8ac7dfc841f33a5da7c5dfc5610caf4f =
     [ "vexpand.hpp", "vexpand_8hpp.html", "vexpand_8hpp" ],
     [ "vmap_for_range.hpp", "vmap__for__range_8hpp.html", "vmap__for__range_8hpp" ],
     [ "vmap_foreach.hpp", "vmap__foreach_8hpp.html", "vmap__foreach_8hpp" ],
+    [ "vmap_foreach_tuple.hpp", "vmap__foreach__tuple_8hpp.html", "vmap__foreach__tuple_8hpp" ],
     [ "vmap_foreach_with_index.hpp", "vmap__foreach__with__index_8hpp.html", "vmap__foreach__with__index_8hpp" ]
 ];
