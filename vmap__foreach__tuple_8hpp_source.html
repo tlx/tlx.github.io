@@ -150,45 +150,44 @@ $(document).ready(function(){initNavTree('vmap__foreach__tuple_8hpp_source.html'
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">//! helper for vmap_foreach_tuple_with_index_impl: general recursive case</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor, <span class="keyword">typename</span> Arg, <span class="keyword">typename</span>... MoreArgs&gt;</div>
 <div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="namespacetlx_1_1detail.html#a285c928c498dcff593f0f45697038f48">   37</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx_1_1detail.html#a195441b008a3437d3770c9a825498381">vmap_foreach_tuple_impl</a>(Functor&amp;&amp; f, Arg&amp;&amp; arg, MoreArgs&amp;&amp; ... rest) {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">return</span> std::tuple_cat(</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        std::make_tuple(std::forward&lt;Functor&gt;(f)(std::forward&lt;Arg&gt;(arg))),</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="namespacetlx_1_1detail.html#a195441b008a3437d3770c9a825498381">vmap_foreach_tuple_impl</a>(</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            std::forward&lt;Functor&gt;(f), std::forward&lt;MoreArgs&gt;(rest) ...)</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        );</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">//! helper for vmap_foreach_tuple: forwards tuple entries</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor, <span class="keyword">typename</span> Tuple, std::size_t... Is&gt;</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">   47</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">vmap_foreach_tuple_with_index_impl</a>(</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    Functor&amp;&amp; f, Tuple&amp;&amp; t, <a class="code" href="structtlx_1_1index__sequence.html">tlx::index_sequence&lt;Is...&gt;</a>) {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespacetlx_1_1detail.html#a195441b008a3437d3770c9a825498381">vmap_foreach_tuple_impl</a>(</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        std::forward&lt;Functor&gt;(f), std::get&lt;Is&gt;(std::forward&lt;Tuple&gt;(t)) ...);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;} <span class="comment">// namespace detail</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">//! Call a generic functor (like a generic lambda) for each variadic template</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">//! argument and collect the result in a std::tuple&lt;&gt;.</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor, <span class="keyword">typename</span> Tuple&gt;</div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926">   58</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926">vmap_foreach_tuple</a>(Functor&amp;&amp; f, Tuple&amp;&amp; t) {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">using</span> Indices = <a class="code" href="structtlx_1_1make__index__sequence.html">tlx::make_index_sequence</a>&lt;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;              std::tuple_size&lt;typename std::decay&lt;Tuple&gt;::type&gt;::value&gt;;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">detail::vmap_foreach_tuple_with_index_impl</a>(</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        std::forward&lt;Functor&gt;(f), std::forward&lt;Tuple&gt;(t), Indices());</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">//! \}</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;} <span class="comment">// namespace tlx</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif // !TLX_META_VMAP_FOREACH_TUPLE_HEADER</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">/******************************************************************************/</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">auto</span> x = std::forward&lt;Functor&gt;(f)(std::forward&lt;Arg&gt;(arg));</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> std::tuple_cat(std::make_tuple(std::move(x)),</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="namespacetlx_1_1detail.html#a195441b008a3437d3770c9a825498381">vmap_foreach_tuple_impl</a>(std::forward&lt;Functor&gt;(f),</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                std::forward&lt;MoreArgs&gt;(rest) ...));</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">//! helper for vmap_foreach_tuple: forwards tuple entries</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor, <span class="keyword">typename</span> Tuple, std::size_t... Is&gt;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">   46</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">vmap_foreach_tuple_with_index_impl</a>(</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    Functor&amp;&amp; f, Tuple&amp;&amp; t, <a class="code" href="structtlx_1_1index__sequence.html">tlx::index_sequence&lt;Is...&gt;</a>) {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespacetlx_1_1detail.html#a195441b008a3437d3770c9a825498381">vmap_foreach_tuple_impl</a>(</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        std::forward&lt;Functor&gt;(f), std::get&lt;Is&gt;(std::forward&lt;Tuple&gt;(t)) ...);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;} <span class="comment">// namespace detail</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">//! Call a generic functor (like a generic lambda) for each variadic template</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">//! argument and collect the result in a std::tuple&lt;&gt;.</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor, <span class="keyword">typename</span> Tuple&gt;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926">   57</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926">vmap_foreach_tuple</a>(Functor&amp;&amp; f, Tuple&amp;&amp; t) {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">using</span> Indices = <a class="code" href="structtlx_1_1make__index__sequence.html">tlx::make_index_sequence</a>&lt;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;              std::tuple_size&lt;typename std::decay&lt;Tuple&gt;::type&gt;::value&gt;;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">detail::vmap_foreach_tuple_with_index_impl</a>(</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        std::forward&lt;Functor&gt;(f), std::forward&lt;Tuple&gt;(t), Indices());</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">//! \}</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;} <span class="comment">// namespace tlx</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif // !TLX_META_VMAP_FOREACH_TUPLE_HEADER</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="ttc" id="structtlx_1_1make__index__sequence_html"><div class="ttname"><a href="structtlx_1_1make__index__sequence.html">tlx::make_index_sequence</a></div><div class="ttdef"><b>Definition:</b> <a href="index__sequence_8hpp_source.html#l00048">index_sequence.hpp:48</a></div></div>
-<div class="ttc" id="group__tlx__meta_html_ga3d427a6295fdc8b9b037794a785e9926"><div class="ttname"><a href="group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926">tlx::vmap_foreach_tuple</a></div><div class="ttdeci">auto vmap_foreach_tuple(Functor &amp;&amp;f, Tuple &amp;&amp;t)</div><div class="ttdoc">Call a generic functor (like a generic lambda) for each variadic template argument and collect the re...</div><div class="ttdef"><b>Definition:</b> <a href="vmap__foreach__tuple_8hpp_source.html#l00058">vmap_foreach_tuple.hpp:58</a></div></div>
+<div class="ttc" id="group__tlx__meta_html_ga3d427a6295fdc8b9b037794a785e9926"><div class="ttname"><a href="group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926">tlx::vmap_foreach_tuple</a></div><div class="ttdeci">auto vmap_foreach_tuple(Functor &amp;&amp;f, Tuple &amp;&amp;t)</div><div class="ttdoc">Call a generic functor (like a generic lambda) for each variadic template argument and collect the re...</div><div class="ttdef"><b>Definition:</b> <a href="vmap__foreach__tuple_8hpp_source.html#l00057">vmap_foreach_tuple.hpp:57</a></div></div>
 <div class="ttc" id="index__sequence_8hpp_html"><div class="ttname"><a href="index__sequence_8hpp.html">index_sequence.hpp</a></div></div>
 <div class="ttc" id="namespacetlx_1_1detail_html_a195441b008a3437d3770c9a825498381"><div class="ttname"><a href="namespacetlx_1_1detail.html#a195441b008a3437d3770c9a825498381">tlx::detail::vmap_foreach_tuple_impl</a></div><div class="ttdeci">auto vmap_foreach_tuple_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg)</div><div class="ttdoc">helper for vmap_foreach_tuple_with_index_impl: base case </div><div class="ttdef"><b>Definition:</b> <a href="vmap__foreach__tuple_8hpp_source.html#l00031">vmap_foreach_tuple.hpp:31</a></div></div>
-<div class="ttc" id="namespacetlx_1_1detail_html_ac4110117cecc0756541501bc74ec6de3"><div class="ttname"><a href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">tlx::detail::vmap_foreach_tuple_with_index_impl</a></div><div class="ttdeci">auto vmap_foreach_tuple_with_index_impl(Functor &amp;&amp;f, Tuple &amp;&amp;t, tlx::index_sequence&lt; Is...&gt;)</div><div class="ttdoc">helper for vmap_foreach_tuple: forwards tuple entries </div><div class="ttdef"><b>Definition:</b> <a href="vmap__foreach__tuple_8hpp_source.html#l00047">vmap_foreach_tuple.hpp:47</a></div></div>
+<div class="ttc" id="namespacetlx_1_1detail_html_ac4110117cecc0756541501bc74ec6de3"><div class="ttname"><a href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">tlx::detail::vmap_foreach_tuple_with_index_impl</a></div><div class="ttdeci">auto vmap_foreach_tuple_with_index_impl(Functor &amp;&amp;f, Tuple &amp;&amp;t, tlx::index_sequence&lt; Is...&gt;)</div><div class="ttdoc">helper for vmap_foreach_tuple: forwards tuple entries </div><div class="ttdef"><b>Definition:</b> <a href="vmap__foreach__tuple_8hpp_source.html#l00046">vmap_foreach_tuple.hpp:46</a></div></div>
 <div class="ttc" id="structtlx_1_1index__sequence_html"><div class="ttname"><a href="structtlx_1_1index__sequence.html">tlx::index_sequence</a></div><div class="ttdef"><b>Definition:</b> <a href="index__sequence_8hpp_source.html#l00025">index_sequence.hpp:25</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -196,7 +195,7 @@ $(document).ready(function(){initNavTree('vmap__foreach__tuple_8hpp_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html">meta</a></li><li class="navelem"><a class="el" href="vmap__foreach__tuple_8hpp.html">vmap_foreach_tuple.hpp</a></li>
-    <li class="footer">Generated on Sun Jan 21 2018 18:04:58 for tlx by
+    <li class="footer">Generated on Sun Jan 21 2018 18:44:43 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
