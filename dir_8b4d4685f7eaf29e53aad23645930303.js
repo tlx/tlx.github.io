@@ -2,6 +2,7 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
 [
     [ "algorithm", "dir_2da45d5634f3d704f0f0e3154b7e8ec4.html", "dir_2da45d5634f3d704f0f0e3154b7e8ec4" ],
     [ "define", "dir_a24f6cc0d1b9a31e7adf9b47ab4358cd.html", "dir_a24f6cc0d1b9a31e7adf9b47ab4358cd" ],
+    [ "digest", "dir_b06e9b4cd340fffe100ae4cc0f0306a1.html", "dir_b06e9b4cd340fffe100ae4cc0f0306a1" ],
     [ "logger", "dir_9ec9e9a7bcf6c1b34f6e098c23b43be1.html", "dir_9ec9e9a7bcf6c1b34f6e098c23b43be1" ],
     [ "math", "dir_e09772e06e87bbb5d2c69a5ed712ca42.html", "dir_e09772e06e87bbb5d2c69a5ed712ca42" ],
     [ "meta", "dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html", "dir_8ac7dfc841f33a5da7c5dfc5610caf4f" ],
@@ -46,6 +47,7 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "delegate.hpp", "delegate_8hpp.html", "delegate_8hpp" ],
     [ "die.cpp", "die_8cpp.html", "die_8cpp" ],
     [ "die.hpp", "die_8hpp.html", "die_8hpp" ],
+    [ "digest.hpp", "digest_8hpp.html", null ],
     [ "logger.cpp", "logger_8cpp.html", "logger_8cpp" ],
     [ "logger.hpp", "logger_8hpp.html", "logger_8hpp" ],
     [ "loser_tree.hpp", "loser__tree_8hpp.html", [

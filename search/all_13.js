@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['u32',['u32',['../namespacetlx.html#afaa62991928fb9fb18ff0db62a040aba',1,'tlx']]],
+  ['u64',['u64',['../namespacetlx.html#a3f7e2bcbb0b4c338f3c4f6c937cd4234',1,'tlx']]],
   ['unify',['unify',['../classtlx_1_1CountingPtr.html#a28653b45bfba9a4135bc0c5903a45c4e',1,'tlx::CountingPtr']]],
   ['union_5fwords',['union_words',['../group__tlx__string.html#ga39619db78c7e916bff3544fb07cbe462',1,'tlx']]],
   ['union_5fwords_2ecpp',['union_words.cpp',['../union__words_8cpp.html',1,'']]],

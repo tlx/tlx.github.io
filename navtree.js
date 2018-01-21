@@ -21,7 +21,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
@@ -41,15 +41,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "abs__diff_8hpp.html",
-"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ab221d6f56ef9cc5a219cda5c1f744768",
-"classtlx_1_1SimpleVector.html#a7d4e17439baa2cdfd0be4cca86577251",
-"classtlx_1_1btree_1_1iterator.html#a67d652c2433cf9217ed2a1485092fdd1",
-"classtlx_1_1btree__multiset.html#ac6e61de369e994009e36f344f99c15ad",
-"escape__uri_8hpp.html",
-"group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d",
-"group__tlx__string.html#gadbcdc1f2a056e954b197ce9c1d236522",
-"parse__si__iec__units_8hpp.html",
-"structtlx_1_1btree_1_1leaf__node.html#a05e3d86c2442ace4b66c19e28e2a9585"
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a94ffbd8c50fe32f981dda6c67e56d4db",
+"classtlx_1_1SHA256.html#a49dcf7ef7b1ab5733884340178a42e15",
+"classtlx_1_1btree_1_1const__iterator.html#a7d6dfa944ab1bdbe8c84556f02a4d02e",
+"classtlx_1_1btree__multiset.html",
+"dir_b06e9b4cd340fffe100ae4cc0f0306a1.html",
+"group__tlx__data__structures__loser__tree.html#ga2050d2d5506e219a9baf5680c255655b",
+"group__tlx__string.html#ga14cfa75fa579e1d4943855455d9e605d",
+"likely_8hpp.html#ga2c4b5b038e88004e67c779cf9afcecc7",
+"split_8cpp.html#ga0d57e8e6ac19e94787bf3cd44a79c1fe",
+"trim_8cpp.html#gac44946abf6c2e869d57d1ce3d2c9a7e8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
