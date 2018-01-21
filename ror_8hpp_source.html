@@ -144,87 +144,89 @@ $(document).ready(function(){initNavTree('ror_8hpp_source.html','');});
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">//! ror32 - generic implementation</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="group__tlx__math.html#ga771f50ed60fe713a5beab0da4647cfb5">   31</a></span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint32_t <a class="code" href="group__tlx__math.html#ga771f50ed60fe713a5beab0da4647cfb5">ror32_generic</a>(<span class="keyword">const</span> uint32_t&amp; x, <span class="keywordtype">int</span> i) {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> (x &gt;&gt; (uint32_t)(i &amp; 31)) | (x &lt;&lt; (uint32_t)((32 - (i &amp; 31)) &amp; 31));</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#if defined(__GNUC__) || defined(__clang__)</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">//! ror32 - gcc/clang assembler</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint32_t <a class="code" href="group__tlx__math.html#ga719bbc1834b484884e10ac303a00ec5f">ror32</a>(<span class="keyword">const</span> uint32_t&amp; x, <span class="keywordtype">int</span> i) {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    uint32_t x1 = x;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">asm</span> (<span class="stringliteral">&quot;rorl %%cl,%0&quot;</span> : <span class="stringliteral">&quot;=r&quot;</span> (x1) : <span class="stringliteral">&quot;0&quot;</span> (x1), <span class="stringliteral">&quot;c&quot;</span> (i));</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> x1;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#elif defined(_MSC_VER)</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">//! ror32 - MSVC intrinsic</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint32_t <a class="code" href="group__tlx__math.html#ga719bbc1834b484884e10ac303a00ec5f">ror32</a>(<span class="keyword">const</span> uint32_t&amp; x, <span class="keywordtype">int</span> i) {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> _lrotr(x, i);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">//! ror32 - generic</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="group__tlx__math.html#ga719bbc1834b484884e10ac303a00ec5f">   54</a></span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint32_t <a class="code" href="group__tlx__math.html#ga719bbc1834b484884e10ac303a00ec5f">ror32</a>(<span class="keyword">const</span> uint32_t&amp; x, <span class="keywordtype">int</span> i) {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="group__tlx__math.html#ga771f50ed60fe713a5beab0da4647cfb5">ror32_generic</a>(x, i);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">/******************************************************************************/</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">// ror64() - rotate bits right in 64-bit integers</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">//! ror64 - generic implementation</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="group__tlx__math.html#gacd2e7233a05f4964ad832a285e7d3b48">   64</a></span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint64_t <a class="code" href="group__tlx__math.html#gacd2e7233a05f4964ad832a285e7d3b48">ror64_generic</a>(<span class="keyword">const</span> uint64_t&amp; x, <span class="keywordtype">int</span> i) {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span> (x &gt;&gt; (uint64_t)(i &amp; 63)) | (x &lt;&lt; (uint64_t)((64 - (i &amp; 63)) &amp; 63));</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#if defined(__GNUC__) || defined(__clang__)</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">//! ror64 - gcc/clang assembler</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint64_t <a class="code" href="group__tlx__math.html#gaa1719724a19036752c629c8195f732d3">ror64</a>(<span class="keyword">const</span> uint64_t&amp; x, <span class="keywordtype">int</span> i) {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    uint64_t x1 = x;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">asm</span> (<span class="stringliteral">&quot;rorq %%cl,%0&quot;</span> : <span class="stringliteral">&quot;=r&quot;</span> (x1) : <span class="stringliteral">&quot;0&quot;</span> (x1), <span class="stringliteral">&quot;c&quot;</span> (i));</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">return</span> x1;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#elif defined(_MSC_VER)</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">//! ror64 - MSVC intrinsic</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint64_t <a class="code" href="group__tlx__math.html#gaa1719724a19036752c629c8195f732d3">ror64</a>(<span class="keyword">const</span> uint64_t&amp; x, <span class="keywordtype">int</span> i) {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">return</span> _lrotr64(x, i);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">//! ror64 - generic</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="group__tlx__math.html#gaa1719724a19036752c629c8195f732d3">   87</a></span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint64_t <a class="code" href="group__tlx__math.html#gaa1719724a19036752c629c8195f732d3">ror64</a>(<span class="keyword">const</span> uint64_t&amp; x, <span class="keywordtype">int</span> i) {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="group__tlx__math.html#gacd2e7233a05f4964ad832a285e7d3b48">ror64_generic</a>(x, i);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">/******************************************************************************/</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">//! \}</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> (x &gt;&gt; static_cast&lt;uint32_t&gt;(i &amp; 31)) |</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;           (x &lt;&lt; static_cast&lt;uint32_t&gt;((32 - (i &amp; 31)) &amp; 31));</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#if (defined(__GNUC__) || defined(__clang__)) &amp;&amp; (defined(__i386__) || defined(__x86_64__))</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">//! ror32 - gcc/clang assembler</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint32_t <a class="code" href="group__tlx__math.html#ga719bbc1834b484884e10ac303a00ec5f">ror32</a>(<span class="keyword">const</span> uint32_t&amp; x, <span class="keywordtype">int</span> i) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    uint32_t x1 = x;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">asm</span> (<span class="stringliteral">&quot;rorl %%cl,%0&quot;</span> : <span class="stringliteral">&quot;=r&quot;</span> (x1) : <span class="stringliteral">&quot;0&quot;</span> (x1), <span class="stringliteral">&quot;c&quot;</span> (i));</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> x1;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#elif defined(_MSC_VER)</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">//! ror32 - MSVC intrinsic</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint32_t <a class="code" href="group__tlx__math.html#ga719bbc1834b484884e10ac303a00ec5f">ror32</a>(<span class="keyword">const</span> uint32_t&amp; x, <span class="keywordtype">int</span> i) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> _lrotr(x, i);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">//! ror32 - generic</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="group__tlx__math.html#ga719bbc1834b484884e10ac303a00ec5f">   55</a></span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint32_t <a class="code" href="group__tlx__math.html#ga719bbc1834b484884e10ac303a00ec5f">ror32</a>(<span class="keyword">const</span> uint32_t&amp; x, <span class="keywordtype">int</span> i) {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="group__tlx__math.html#ga771f50ed60fe713a5beab0da4647cfb5">ror32_generic</a>(x, i);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">/******************************************************************************/</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">// ror64() - rotate bits right in 64-bit integers</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">//! ror64 - generic implementation</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="group__tlx__math.html#gacd2e7233a05f4964ad832a285e7d3b48">   65</a></span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint64_t <a class="code" href="group__tlx__math.html#gacd2e7233a05f4964ad832a285e7d3b48">ror64_generic</a>(<span class="keyword">const</span> uint64_t&amp; x, <span class="keywordtype">int</span> i) {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span> (x &gt;&gt; static_cast&lt;uint64_t&gt;(i &amp; 63)) |</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;           (x &lt;&lt; static_cast&lt;uint64_t&gt;((64 - (i &amp; 63)) &amp; 63));</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#if (defined(__GNUC__) || defined(__clang__)) &amp;&amp; defined(__x86_64__)</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">//! ror64 - gcc/clang assembler</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint64_t <a class="code" href="group__tlx__math.html#gaa1719724a19036752c629c8195f732d3">ror64</a>(<span class="keyword">const</span> uint64_t&amp; x, <span class="keywordtype">int</span> i) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    uint64_t x1 = x;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keyword">asm</span> (<span class="stringliteral">&quot;rorq %%cl,%0&quot;</span> : <span class="stringliteral">&quot;=r&quot;</span> (x1) : <span class="stringliteral">&quot;0&quot;</span> (x1), <span class="stringliteral">&quot;c&quot;</span> (i));</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">return</span> x1;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#elif defined(_MSC_VER)</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">//! ror64 - MSVC intrinsic</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint64_t <a class="code" href="group__tlx__math.html#gaa1719724a19036752c629c8195f732d3">ror64</a>(<span class="keyword">const</span> uint64_t&amp; x, <span class="keywordtype">int</span> i) {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> _lrotr64(x, i);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">//! ror64 - generic</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="group__tlx__math.html#gaa1719724a19036752c629c8195f732d3">   89</a></span>&#160;<span class="comment"></span><span class="keyword">static</span> <span class="keyword">inline</span> uint64_t <a class="code" href="group__tlx__math.html#gaa1719724a19036752c629c8195f732d3">ror64</a>(<span class="keyword">const</span> uint64_t&amp; x, <span class="keywordtype">int</span> i) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="group__tlx__math.html#gacd2e7233a05f4964ad832a285e7d3b48">ror64_generic</a>(x, i);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;} <span class="comment">// namespace tlx</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#endif // !TLX_MATH_ROR_HEADER</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">/******************************************************************************/</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">//! \}</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;} <span class="comment">// namespace tlx</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#endif // !TLX_MATH_ROR_HEADER</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="ttc" id="group__tlx__math_html_ga771f50ed60fe713a5beab0da4647cfb5"><div class="ttname"><a href="group__tlx__math.html#ga771f50ed60fe713a5beab0da4647cfb5">tlx::ror32_generic</a></div><div class="ttdeci">static uint32_t ror32_generic(const uint32_t &amp;x, int i)</div><div class="ttdoc">ror32 - generic implementation </div><div class="ttdef"><b>Definition:</b> <a href="ror_8hpp_source.html#l00031">ror.hpp:31</a></div></div>
-<div class="ttc" id="group__tlx__math_html_gacd2e7233a05f4964ad832a285e7d3b48"><div class="ttname"><a href="group__tlx__math.html#gacd2e7233a05f4964ad832a285e7d3b48">tlx::ror64_generic</a></div><div class="ttdeci">static uint64_t ror64_generic(const uint64_t &amp;x, int i)</div><div class="ttdoc">ror64 - generic implementation </div><div class="ttdef"><b>Definition:</b> <a href="ror_8hpp_source.html#l00064">ror.hpp:64</a></div></div>
-<div class="ttc" id="group__tlx__math_html_ga719bbc1834b484884e10ac303a00ec5f"><div class="ttname"><a href="group__tlx__math.html#ga719bbc1834b484884e10ac303a00ec5f">tlx::ror32</a></div><div class="ttdeci">static uint32_t ror32(const uint32_t &amp;x, int i)</div><div class="ttdoc">ror32 - generic </div><div class="ttdef"><b>Definition:</b> <a href="ror_8hpp_source.html#l00054">ror.hpp:54</a></div></div>
-<div class="ttc" id="group__tlx__math_html_gaa1719724a19036752c629c8195f732d3"><div class="ttname"><a href="group__tlx__math.html#gaa1719724a19036752c629c8195f732d3">tlx::ror64</a></div><div class="ttdeci">static uint64_t ror64(const uint64_t &amp;x, int i)</div><div class="ttdoc">ror64 - generic </div><div class="ttdef"><b>Definition:</b> <a href="ror_8hpp_source.html#l00087">ror.hpp:87</a></div></div>
+<div class="ttc" id="group__tlx__math_html_gacd2e7233a05f4964ad832a285e7d3b48"><div class="ttname"><a href="group__tlx__math.html#gacd2e7233a05f4964ad832a285e7d3b48">tlx::ror64_generic</a></div><div class="ttdeci">static uint64_t ror64_generic(const uint64_t &amp;x, int i)</div><div class="ttdoc">ror64 - generic implementation </div><div class="ttdef"><b>Definition:</b> <a href="ror_8hpp_source.html#l00065">ror.hpp:65</a></div></div>
+<div class="ttc" id="group__tlx__math_html_ga719bbc1834b484884e10ac303a00ec5f"><div class="ttname"><a href="group__tlx__math.html#ga719bbc1834b484884e10ac303a00ec5f">tlx::ror32</a></div><div class="ttdeci">static uint32_t ror32(const uint32_t &amp;x, int i)</div><div class="ttdoc">ror32 - generic </div><div class="ttdef"><b>Definition:</b> <a href="ror_8hpp_source.html#l00055">ror.hpp:55</a></div></div>
+<div class="ttc" id="group__tlx__math_html_gaa1719724a19036752c629c8195f732d3"><div class="ttname"><a href="group__tlx__math.html#gaa1719724a19036752c629c8195f732d3">tlx::ror64</a></div><div class="ttdeci">static uint64_t ror64(const uint64_t &amp;x, int i)</div><div class="ttdoc">ror64 - generic </div><div class="ttdef"><b>Definition:</b> <a href="ror_8hpp_source.html#l00089">ror.hpp:89</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_e09772e06e87bbb5d2c69a5ed712ca42.html">math</a></li><li class="navelem"><a class="el" href="ror_8hpp.html">ror.hpp</a></li>
-    <li class="footer">Generated on Sun Jan 21 2018 12:50:46 for tlx by
+    <li class="footer">Generated on Sun Jan 21 2018 13:11:39 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
