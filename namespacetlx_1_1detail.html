@@ -165,6 +165,30 @@ Functions</h2></td></tr>
 <tr class="memitem:a17a39fc67bb095c789ca5e5418190350"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a17a39fc67bb095c789ca5e5418190350">call_foreach_with_index_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
 <tr class="memdesc:a17a39fc67bb095c789ca5e5418190350"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for call_foreach_with_index: general recursive case  <a href="#a17a39fc67bb095c789ca5e5418190350">More...</a><br/></td></tr>
 <tr class="separator:a17a39fc67bb095c789ca5e5418190350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a775574492152b3ff162d13066c098424"><td class="memTemplParams" colspan="2">template&lt;typename Reduce , typename Initial , typename Arg &gt; </td></tr>
+<tr class="memitem:a775574492152b3ff162d13066c098424"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a775574492152b3ff162d13066c098424">fold_left_impl</a> (Reduce &amp;&amp;r, Initial &amp;&amp;init, Arg &amp;&amp;arg)</td></tr>
+<tr class="memdesc:a775574492152b3ff162d13066c098424"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for <a class="el" href="group__tlx__meta.html#ga618fa4f3ed4af06a48274926ecd95252" title="Implements fold_left() – ((a * b) * c) – with a binary Reduce operation and initial value...">fold_left()</a>: base case  <a href="#a775574492152b3ff162d13066c098424">More...</a><br/></td></tr>
+<tr class="separator:a775574492152b3ff162d13066c098424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b0c2548498269367aaaa42749adfda4"><td class="memTemplParams" colspan="2">template&lt;typename Reduce , typename Initial , typename Arg , typename... MoreArgs&gt; </td></tr>
+<tr class="memitem:a8b0c2548498269367aaaa42749adfda4"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a8b0c2548498269367aaaa42749adfda4">fold_left_impl</a> (Reduce &amp;&amp;r, Initial &amp;&amp;init, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
+<tr class="memdesc:a8b0c2548498269367aaaa42749adfda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for <a class="el" href="group__tlx__meta.html#ga618fa4f3ed4af06a48274926ecd95252" title="Implements fold_left() – ((a * b) * c) – with a binary Reduce operation and initial value...">fold_left()</a>: general recursive case  <a href="#a8b0c2548498269367aaaa42749adfda4">More...</a><br/></td></tr>
+<tr class="separator:a8b0c2548498269367aaaa42749adfda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37f6a26436cb0cf150a300b81316291d"><td class="memTemplParams" colspan="2">template&lt;typename Reduce , typename Initial , typename Tuple , std::size_t... Is&gt; </td></tr>
+<tr class="memitem:a37f6a26436cb0cf150a300b81316291d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a37f6a26436cb0cf150a300b81316291d">fold_left_tuple_impl</a> (Reduce &amp;&amp;r, Initial &amp;&amp;init, Tuple &amp;&amp;t, <a class="el" href="structtlx_1_1index__sequence.html">index_sequence</a>&lt; Is...&gt;)</td></tr>
+<tr class="memdesc:a37f6a26436cb0cf150a300b81316291d"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for fold_left_tuple: forwards tuple entries  <a href="#a37f6a26436cb0cf150a300b81316291d">More...</a><br/></td></tr>
+<tr class="separator:a37f6a26436cb0cf150a300b81316291d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ad6156be9cffdb13b1158ba3a7e3d90"><td class="memTemplParams" colspan="2">template&lt;typename Reduce , typename Initial , typename Arg &gt; </td></tr>
+<tr class="memitem:a0ad6156be9cffdb13b1158ba3a7e3d90"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a0ad6156be9cffdb13b1158ba3a7e3d90">fold_right_impl</a> (Reduce &amp;&amp;r, Initial &amp;&amp;init, Arg &amp;&amp;arg)</td></tr>
+<tr class="memdesc:a0ad6156be9cffdb13b1158ba3a7e3d90"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for fold_right: base case  <a href="#a0ad6156be9cffdb13b1158ba3a7e3d90">More...</a><br/></td></tr>
+<tr class="separator:a0ad6156be9cffdb13b1158ba3a7e3d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465572711438e3c8ef4aaf0516d9f9fd"><td class="memTemplParams" colspan="2">template&lt;typename Reduce , typename Initial , typename Arg , typename... MoreArgs&gt; </td></tr>
+<tr class="memitem:a465572711438e3c8ef4aaf0516d9f9fd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a465572711438e3c8ef4aaf0516d9f9fd">fold_right_impl</a> (Reduce &amp;&amp;r, Initial &amp;&amp;init, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
+<tr class="memdesc:a465572711438e3c8ef4aaf0516d9f9fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for fold_right: general recursive case  <a href="#a465572711438e3c8ef4aaf0516d9f9fd">More...</a><br/></td></tr>
+<tr class="separator:a465572711438e3c8ef4aaf0516d9f9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61f74e00080980f454c324b2d0a31819"><td class="memTemplParams" colspan="2">template&lt;typename Reduce , typename Initial , typename Tuple , std::size_t... Is&gt; </td></tr>
+<tr class="memitem:a61f74e00080980f454c324b2d0a31819"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a61f74e00080980f454c324b2d0a31819">fold_right_tuple_impl</a> (Reduce &amp;&amp;r, Initial &amp;&amp;init, Tuple &amp;&amp;t, <a class="el" href="structtlx_1_1index__sequence.html">index_sequence</a>&lt; Is...&gt;)</td></tr>
+<tr class="memdesc:a61f74e00080980f454c324b2d0a31819"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for fold_right_tuple: forwards tuple entries  <a href="#a61f74e00080980f454c324b2d0a31819">More...</a><br/></td></tr>
+<tr class="separator:a61f74e00080980f454c324b2d0a31819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab44943db70c79829c12f33ee278a986"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#aab44943db70c79829c12f33ee278a986">call_chain</a> ()</td></tr>
 <tr class="memdesc:aab44943db70c79829c12f33ee278a986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base case for the chaining of functors: zero functors, returns the identity.  <a href="#aab44943db70c79829c12f33ee278a986">More...</a><br/></td></tr>
 <tr class="separator:aab44943db70c79829c12f33ee278a986"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,18 +216,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ae382be4a86007636b92d35d347959ca7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#ae382be4a86007636b92d35d347959ca7">vmap_foreach_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
 <tr class="memdesc:ae382be4a86007636b92d35d347959ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach: general recursive case  <a href="#ae382be4a86007636b92d35d347959ca7">More...</a><br/></td></tr>
 <tr class="separator:ae382be4a86007636b92d35d347959ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a195441b008a3437d3770c9a825498381"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Arg &gt; </td></tr>
-<tr class="memitem:a195441b008a3437d3770c9a825498381"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a195441b008a3437d3770c9a825498381">vmap_foreach_tuple_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg)</td></tr>
-<tr class="memdesc:a195441b008a3437d3770c9a825498381"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple_with_index_impl: base case  <a href="#a195441b008a3437d3770c9a825498381">More...</a><br/></td></tr>
-<tr class="separator:a195441b008a3437d3770c9a825498381"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a285c928c498dcff593f0f45697038f48"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Arg , typename... MoreArgs&gt; </td></tr>
-<tr class="memitem:a285c928c498dcff593f0f45697038f48"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a285c928c498dcff593f0f45697038f48">vmap_foreach_tuple_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
-<tr class="memdesc:a285c928c498dcff593f0f45697038f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple_with_index_impl: general recursive case  <a href="#a285c928c498dcff593f0f45697038f48">More...</a><br/></td></tr>
-<tr class="separator:a285c928c498dcff593f0f45697038f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4110117cecc0756541501bc74ec6de3"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </td></tr>
-<tr class="memitem:ac4110117cecc0756541501bc74ec6de3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">vmap_foreach_tuple_with_index_impl</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t, <a class="el" href="structtlx_1_1index__sequence.html">tlx::index_sequence</a>&lt; Is...&gt;)</td></tr>
-<tr class="memdesc:ac4110117cecc0756541501bc74ec6de3"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple: forwards tuple entries  <a href="#ac4110117cecc0756541501bc74ec6de3">More...</a><br/></td></tr>
-<tr class="separator:ac4110117cecc0756541501bc74ec6de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adea3d3a2d5b3d83943a13593e8b45848"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </td></tr>
+<tr class="memitem:adea3d3a2d5b3d83943a13593e8b45848"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#adea3d3a2d5b3d83943a13593e8b45848">vmap_foreach_tuple_impl</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t, <a class="el" href="structtlx_1_1index__sequence.html">index_sequence</a>&lt; Is...&gt;)</td></tr>
+<tr class="memdesc:adea3d3a2d5b3d83943a13593e8b45848"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple: forwards tuple entries  <a href="#adea3d3a2d5b3d83943a13593e8b45848">More...</a><br/></td></tr>
+<tr class="separator:adea3d3a2d5b3d83943a13593e8b45848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a510b778636a5f3348fd6402b1d739efd"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </td></tr>
+<tr class="memitem:a510b778636a5f3348fd6402b1d739efd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a510b778636a5f3348fd6402b1d739efd">vmap_foreach_tuple_with_index_impl</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t, <a class="el" href="structtlx_1_1index__sequence.html">index_sequence</a>&lt; Is...&gt;)</td></tr>
+<tr class="memdesc:a510b778636a5f3348fd6402b1d739efd"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple_with_index: forwards tuple entries  <a href="#a510b778636a5f3348fd6402b1d739efd">More...</a><br/></td></tr>
+<tr class="separator:a510b778636a5f3348fd6402b1d739efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a094c6917a6bf518524d034482a8c3844"><td class="memTemplParams" colspan="2">template&lt;size_t Index, typename Functor , typename Arg &gt; </td></tr>
 <tr class="memitem:a094c6917a6bf518524d034482a8c3844"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a094c6917a6bf518524d034482a8c3844">vmap_foreach_with_index_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg)</td></tr>
 <tr class="memdesc:a094c6917a6bf518524d034482a8c3844"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_with_index: base case  <a href="#a094c6917a6bf518524d034482a8c3844">More...</a><br/></td></tr>
@@ -609,6 +629,246 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a775574492152b3ff162d13066c098424"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::detail::fold_left_impl </td>
+          <td>(</td>
+          <td class="paramtype">Reduce &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Initial &amp;&amp;&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Arg &amp;&amp;&#160;</td>
+          <td class="paramname"><em>arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for <a class="el" href="group__tlx__meta.html#ga618fa4f3ed4af06a48274926ecd95252" title="Implements fold_left() – ((a * b) * c) – with a binary Reduce operation and initial value...">fold_left()</a>: base case </p>
+
+<p>Definition at line <a class="el" href="fold__left_8hpp_source.html#l00030">30</a> of file <a class="el" href="fold__left_8hpp_source.html">fold_left.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b0c2548498269367aaaa42749adfda4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::detail::fold_left_impl </td>
+          <td>(</td>
+          <td class="paramtype">Reduce &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Initial &amp;&amp;&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Arg &amp;&amp;&#160;</td>
+          <td class="paramname"><em>arg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MoreArgs &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>rest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for <a class="el" href="group__tlx__meta.html#ga618fa4f3ed4af06a48274926ecd95252" title="Implements fold_left() – ((a * b) * c) – with a binary Reduce operation and initial value...">fold_left()</a>: general recursive case </p>
+
+<p>Definition at line <a class="el" href="fold__left_8hpp_source.html#l00037">37</a> of file <a class="el" href="fold__left_8hpp_source.html">fold_left.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37f6a26436cb0cf150a300b81316291d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::detail::fold_left_tuple_impl </td>
+          <td>(</td>
+          <td class="paramtype">Reduce &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Initial &amp;&amp;&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Tuple &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">index_sequence&lt; Is...&gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for fold_left_tuple: forwards tuple entries </p>
+
+<p>Definition at line <a class="el" href="fold__left__tuple_8hpp_source.html#l00031">31</a> of file <a class="el" href="fold__left__tuple_8hpp_source.html">fold_left_tuple.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ad6156be9cffdb13b1158ba3a7e3d90"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::detail::fold_right_impl </td>
+          <td>(</td>
+          <td class="paramtype">Reduce &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Initial &amp;&amp;&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Arg &amp;&amp;&#160;</td>
+          <td class="paramname"><em>arg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for fold_right: base case </p>
+
+<p>Definition at line <a class="el" href="fold__right_8hpp_source.html#l00030">30</a> of file <a class="el" href="fold__right_8hpp_source.html">fold_right.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a465572711438e3c8ef4aaf0516d9f9fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::detail::fold_right_impl </td>
+          <td>(</td>
+          <td class="paramtype">Reduce &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Initial &amp;&amp;&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Arg &amp;&amp;&#160;</td>
+          <td class="paramname"><em>arg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MoreArgs &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>rest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for fold_right: general recursive case </p>
+
+<p>Definition at line <a class="el" href="fold__right_8hpp_source.html#l00037">37</a> of file <a class="el" href="fold__right_8hpp_source.html">fold_right.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a61f74e00080980f454c324b2d0a31819"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::detail::fold_right_tuple_impl </td>
+          <td>(</td>
+          <td class="paramtype">Reduce &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Initial &amp;&amp;&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Tuple &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">index_sequence&lt; Is...&gt;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>helper for fold_right_tuple: forwards tuple entries </p>
+
+<p>Definition at line <a class="el" href="fold__right__tuple_8hpp_source.html#l00031">31</a> of file <a class="el" href="fold__right__tuple_8hpp_source.html">fold_right_tuple.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a72bff64b5f65147c10f9fb21ef28659f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -675,7 +935,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a195441b008a3437d3770c9a825498381"></a>
+<a class="anchor" id="adea3d3a2d5b3d83943a13593e8b45848"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -688,8 +948,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Arg &amp;&amp;&#160;</td>
-          <td class="paramname"><em>arg</em>&#160;</td>
+          <td class="paramtype">Tuple &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">index_sequence&lt; Is...&gt;&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -699,49 +965,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>helper for vmap_foreach_tuple_with_index_impl: base case </p>
+<p>helper for vmap_foreach_tuple: forwards tuple entries </p>
 
-<p>Definition at line <a class="el" href="vmap__foreach__tuple_8hpp_source.html#l00031">31</a> of file <a class="el" href="vmap__foreach__tuple_8hpp_source.html">vmap_foreach_tuple.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a285c928c498dcff593f0f45697038f48"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto tlx::detail::vmap_foreach_tuple_impl </td>
-          <td>(</td>
-          <td class="paramtype">Functor &amp;&amp;&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Arg &amp;&amp;&#160;</td>
-          <td class="paramname"><em>arg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">MoreArgs &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>rest</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>helper for vmap_foreach_tuple_with_index_impl: general recursive case </p>
-
-<p>Definition at line <a class="el" href="vmap__foreach__tuple_8hpp_source.html#l00037">37</a> of file <a class="el" href="vmap__foreach__tuple_8hpp_source.html">vmap_foreach_tuple.hpp</a>.</p>
+<p>Definition at line <a class="el" href="vmap__foreach__tuple_8hpp_source.html#l00032">32</a> of file <a class="el" href="vmap__foreach__tuple_8hpp_source.html">vmap_foreach_tuple.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac4110117cecc0756541501bc74ec6de3"></a>
+<a class="anchor" id="a510b778636a5f3348fd6402b1d739efd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -760,7 +990,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structtlx_1_1index__sequence.html">tlx::index_sequence</a>&lt; Is...&gt;&#160;</td>
+          <td class="paramtype">index_sequence&lt; Is...&gt;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -771,9 +1001,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>helper for vmap_foreach_tuple: forwards tuple entries </p>
+<p>helper for vmap_foreach_tuple_with_index: forwards tuple entries </p>
 
-<p>Definition at line <a class="el" href="vmap__foreach__tuple_8hpp_source.html#l00046">46</a> of file <a class="el" href="vmap__foreach__tuple_8hpp_source.html">vmap_foreach_tuple.hpp</a>.</p>
+<p>Definition at line <a class="el" href="vmap__foreach__tuple__with__index_8hpp_source.html#l00034">34</a> of file <a class="el" href="vmap__foreach__tuple__with__index_8hpp_source.html">vmap_foreach_tuple_with_index.hpp</a>.</p>
 
 </div>
 </div>
@@ -849,7 +1079,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="namespacetlx_1_1detail.html">detail</a></li>
-    <li class="footer">Generated on Sun Jan 21 2018 18:44:44 for tlx by
+    <li class="footer">Generated on Mon Jan 22 2018 14:03:03 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

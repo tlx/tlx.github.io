@@ -6,6 +6,10 @@ var dir_8ac7dfc841f33a5da7c5dfc5610caf4f =
     [ "call_foreach_tuple.hpp", "call__foreach__tuple_8hpp.html", "call__foreach__tuple_8hpp" ],
     [ "call_foreach_tuple_with_index.hpp", "call__foreach__tuple__with__index_8hpp.html", "call__foreach__tuple__with__index_8hpp" ],
     [ "call_foreach_with_index.hpp", "call__foreach__with__index_8hpp.html", "call__foreach__with__index_8hpp" ],
+    [ "fold_left.hpp", "fold__left_8hpp.html", "fold__left_8hpp" ],
+    [ "fold_left_tuple.hpp", "fold__left__tuple_8hpp.html", "fold__left__tuple_8hpp" ],
+    [ "fold_right.hpp", "fold__right_8hpp.html", "fold__right_8hpp" ],
+    [ "fold_right_tuple.hpp", "fold__right__tuple_8hpp.html", "fold__right__tuple_8hpp" ],
     [ "function_chain.hpp", "function__chain_8hpp.html", "function__chain_8hpp" ],
     [ "function_stack.hpp", "function__stack_8hpp.html", "function__stack_8hpp" ],
     [ "has_member.hpp", "has__member_8hpp.html", "has__member_8hpp" ],
@@ -25,5 +29,6 @@ var dir_8ac7dfc841f33a5da7c5dfc5610caf4f =
     [ "vmap_for_range.hpp", "vmap__for__range_8hpp.html", "vmap__for__range_8hpp" ],
     [ "vmap_foreach.hpp", "vmap__foreach_8hpp.html", "vmap__foreach_8hpp" ],
     [ "vmap_foreach_tuple.hpp", "vmap__foreach__tuple_8hpp.html", "vmap__foreach__tuple_8hpp" ],
+    [ "vmap_foreach_tuple_with_index.hpp", "vmap__foreach__tuple__with__index_8hpp.html", "vmap__foreach__tuple__with__index_8hpp" ],
     [ "vmap_foreach_with_index.hpp", "vmap__foreach__with__index_8hpp.html", "vmap__foreach__with__index_8hpp" ]
 ];

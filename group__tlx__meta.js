@@ -74,6 +74,10 @@ var group__tlx__meta =
     [ "call_foreach_tuple", "group__tlx__meta.html#ga592749f0b74d1c116893d4bc880343e3", null ],
     [ "call_foreach_tuple_with_index", "group__tlx__meta.html#ga83551ec4ad5da9352345f7178abeb056", null ],
     [ "call_foreach_with_index", "group__tlx__meta.html#ga9a8854506459ec185c2bcbdd6fe6428b", null ],
+    [ "fold_left", "group__tlx__meta.html#ga618fa4f3ed4af06a48274926ecd95252", null ],
+    [ "fold_left_tuple", "group__tlx__meta.html#ga81c817d6c9ae0e06f4806fad21d583b8", null ],
+    [ "fold_right", "group__tlx__meta.html#gac6619c87c7a112a16cbeed0ecdd3a07c", null ],
+    [ "fold_right_tuple", "group__tlx__meta.html#ga4e169ed1c415649bc1cd112cf59f56f4", null ],
     [ "make_function_chain", "group__tlx__meta.html#gab2afc1ff7d0b9ea7a6583d0573e36ef7", null ],
     [ "make_function_chain", "group__tlx__meta.html#gadd2b32ffd2415899c6a69ccac4d7138f", null ],
     [ "make_function_stack", "group__tlx__meta.html#gaf4f5461dca9e4be26479c56a5500357e", null ],
@@ -82,5 +86,6 @@ var group__tlx__meta =
     [ "vmap_for_range", "group__tlx__meta.html#ga36807642146dd614b63d26ed6bba9c19", null ],
     [ "vmap_foreach", "group__tlx__meta.html#gaf379571cbffcf0273d0203ef53bca2b8", null ],
     [ "vmap_foreach_tuple", "group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926", null ],
+    [ "vmap_foreach_tuple_with_index", "group__tlx__meta.html#gac60978f8100125dbfddf607bdf0cf412", null ],
     [ "vmap_foreach_with_index", "group__tlx__meta.html#ga1a5c01183e4cc91ffbec284e8bd9437e", null ]
 ];

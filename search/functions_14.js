@@ -12,8 +12,9 @@ var searchData=
   ['vmap_5fforeach',['vmap_foreach',['../group__tlx__meta.html#gaf379571cbffcf0273d0203ef53bca2b8',1,'tlx']]],
   ['vmap_5fforeach_5fimpl',['vmap_foreach_impl',['../namespacetlx_1_1detail.html#a72bff64b5f65147c10f9fb21ef28659f',1,'tlx::detail::vmap_foreach_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg)'],['../namespacetlx_1_1detail.html#ae382be4a86007636b92d35d347959ca7',1,'tlx::detail::vmap_foreach_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)']]],
   ['vmap_5fforeach_5ftuple',['vmap_foreach_tuple',['../group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926',1,'tlx']]],
-  ['vmap_5fforeach_5ftuple_5fimpl',['vmap_foreach_tuple_impl',['../namespacetlx_1_1detail.html#a195441b008a3437d3770c9a825498381',1,'tlx::detail::vmap_foreach_tuple_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg)'],['../namespacetlx_1_1detail.html#a285c928c498dcff593f0f45697038f48',1,'tlx::detail::vmap_foreach_tuple_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)']]],
-  ['vmap_5fforeach_5ftuple_5fwith_5findex_5fimpl',['vmap_foreach_tuple_with_index_impl',['../namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3',1,'tlx::detail']]],
+  ['vmap_5fforeach_5ftuple_5fimpl',['vmap_foreach_tuple_impl',['../namespacetlx_1_1detail.html#adea3d3a2d5b3d83943a13593e8b45848',1,'tlx::detail']]],
+  ['vmap_5fforeach_5ftuple_5fwith_5findex',['vmap_foreach_tuple_with_index',['../group__tlx__meta.html#gac60978f8100125dbfddf607bdf0cf412',1,'tlx']]],
+  ['vmap_5fforeach_5ftuple_5fwith_5findex_5fimpl',['vmap_foreach_tuple_with_index_impl',['../namespacetlx_1_1detail.html#a510b778636a5f3348fd6402b1d739efd',1,'tlx::detail']]],
   ['vmap_5fforeach_5fwith_5findex',['vmap_foreach_with_index',['../group__tlx__meta.html#ga1a5c01183e4cc91ffbec284e8bd9437e',1,'tlx']]],
   ['vmap_5fforeach_5fwith_5findex_5fimpl',['vmap_foreach_with_index_impl',['../namespacetlx_1_1detail.html#a094c6917a6bf518524d034482a8c3844',1,'tlx::detail::vmap_foreach_with_index_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg)'],['../namespacetlx_1_1detail.html#a13da0c94f35887959453afd3bb1d248e',1,'tlx::detail::vmap_foreach_with_index_impl(Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)']]]
 ];

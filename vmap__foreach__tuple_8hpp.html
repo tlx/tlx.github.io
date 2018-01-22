@@ -117,6 +117,7 @@ $(document).ready(function(){initNavTree('vmap__foreach__tuple_8hpp.html','');})
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="index__sequence_8hpp_source.html">tlx/meta/index_sequence.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="vmap__foreach_8hpp_source.html">tlx/meta/vmap_foreach.hpp</a>&gt;</code><br/>
 <code>#include &lt;tuple&gt;</code><br/>
 </div>
 <p><a href="vmap__foreach__tuple_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -130,18 +131,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a195441b008a3437d3770c9a825498381"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Arg &gt; </td></tr>
-<tr class="memitem:a195441b008a3437d3770c9a825498381"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a195441b008a3437d3770c9a825498381">vmap_foreach_tuple_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg)</td></tr>
-<tr class="memdesc:a195441b008a3437d3770c9a825498381"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple_with_index_impl: base case  <a href="#a195441b008a3437d3770c9a825498381">More...</a><br/></td></tr>
-<tr class="separator:a195441b008a3437d3770c9a825498381"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a285c928c498dcff593f0f45697038f48"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Arg , typename... MoreArgs&gt; </td></tr>
-<tr class="memitem:a285c928c498dcff593f0f45697038f48"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#a285c928c498dcff593f0f45697038f48">vmap_foreach_tuple_impl</a> (Functor &amp;&amp;f, Arg &amp;&amp;arg, MoreArgs &amp;&amp;...rest)</td></tr>
-<tr class="memdesc:a285c928c498dcff593f0f45697038f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple_with_index_impl: general recursive case  <a href="#a285c928c498dcff593f0f45697038f48">More...</a><br/></td></tr>
-<tr class="separator:a285c928c498dcff593f0f45697038f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4110117cecc0756541501bc74ec6de3"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </td></tr>
-<tr class="memitem:ac4110117cecc0756541501bc74ec6de3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#ac4110117cecc0756541501bc74ec6de3">vmap_foreach_tuple_with_index_impl</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t, <a class="el" href="structtlx_1_1index__sequence.html">tlx::index_sequence</a>&lt; Is...&gt;)</td></tr>
-<tr class="memdesc:ac4110117cecc0756541501bc74ec6de3"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple: forwards tuple entries  <a href="#ac4110117cecc0756541501bc74ec6de3">More...</a><br/></td></tr>
-<tr class="separator:ac4110117cecc0756541501bc74ec6de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adea3d3a2d5b3d83943a13593e8b45848"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Tuple , std::size_t... Is&gt; </td></tr>
+<tr class="memitem:adea3d3a2d5b3d83943a13593e8b45848"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1detail.html#adea3d3a2d5b3d83943a13593e8b45848">vmap_foreach_tuple_impl</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t, index_sequence&lt; Is...&gt;)</td></tr>
+<tr class="memdesc:adea3d3a2d5b3d83943a13593e8b45848"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper for vmap_foreach_tuple: forwards tuple entries  <a href="#adea3d3a2d5b3d83943a13593e8b45848">More...</a><br/></td></tr>
+<tr class="separator:adea3d3a2d5b3d83943a13593e8b45848"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3d427a6295fdc8b9b037794a785e9926"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Tuple &gt; </td></tr>
 <tr class="memitem:ga3d427a6295fdc8b9b037794a785e9926"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926">vmap_foreach_tuple</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t)</td></tr>
 <tr class="memdesc:ga3d427a6295fdc8b9b037794a785e9926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument and collect the result in a std::tuple&lt;&gt;.  <a href="group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926">More...</a><br/></td></tr>
@@ -153,7 +146,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html">meta</a></li><li class="navelem"><a class="el" href="vmap__foreach__tuple_8hpp.html">vmap_foreach_tuple.hpp</a></li>
-    <li class="footer">Generated on Sun Jan 21 2018 18:44:43 for tlx by
+    <li class="footer">Generated on Mon Jan 22 2018 14:03:02 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

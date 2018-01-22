@@ -217,6 +217,22 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9a8854506459ec185c2bcbdd6fe6428b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__meta.html#ga9a8854506459ec185c2bcbdd6fe6428b">call_foreach_with_index</a> (Functor &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
 <tr class="memdesc:ga9a8854506459ec185c2bcbdd6fe6428b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument together with its zero-based index.  <a href="#ga9a8854506459ec185c2bcbdd6fe6428b">More...</a><br/></td></tr>
 <tr class="separator:ga9a8854506459ec185c2bcbdd6fe6428b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga618fa4f3ed4af06a48274926ecd95252"><td class="memTemplParams" colspan="2">template&lt;typename Reduce , typename Initial , typename... Args&gt; </td></tr>
+<tr class="memitem:ga618fa4f3ed4af06a48274926ecd95252"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__meta.html#ga618fa4f3ed4af06a48274926ecd95252">fold_left</a> (Reduce &amp;&amp;r, Initial &amp;&amp;init, Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:ga618fa4f3ed4af06a48274926ecd95252"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements <a class="el" href="group__tlx__meta.html#ga618fa4f3ed4af06a48274926ecd95252" title="Implements fold_left() – ((a * b) * c) – with a binary Reduce operation and initial value...">fold_left()</a> &ndash; ((a * b) * c) &ndash; with a binary Reduce operation and initial value.  <a href="#ga618fa4f3ed4af06a48274926ecd95252">More...</a><br/></td></tr>
+<tr class="separator:ga618fa4f3ed4af06a48274926ecd95252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81c817d6c9ae0e06f4806fad21d583b8"><td class="memTemplParams" colspan="2">template&lt;typename Reduce , typename Initial , typename Tuple &gt; </td></tr>
+<tr class="memitem:ga81c817d6c9ae0e06f4806fad21d583b8"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__meta.html#ga81c817d6c9ae0e06f4806fad21d583b8">fold_left_tuple</a> (Reduce &amp;&amp;r, Initial &amp;&amp;init, Tuple &amp;&amp;t)</td></tr>
+<tr class="memdesc:ga81c817d6c9ae0e06f4806fad21d583b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements <a class="el" href="group__tlx__meta.html#ga618fa4f3ed4af06a48274926ecd95252" title="Implements fold_left() – ((a * b) * c) – with a binary Reduce operation and initial value...">fold_left()</a> &ndash; ((a * b) * c) &ndash; with a binary Reduce operation and initial value on a tuple.  <a href="#ga81c817d6c9ae0e06f4806fad21d583b8">More...</a><br/></td></tr>
+<tr class="separator:ga81c817d6c9ae0e06f4806fad21d583b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6619c87c7a112a16cbeed0ecdd3a07c"><td class="memTemplParams" colspan="2">template&lt;typename Reduce , typename Initial , typename... Args&gt; </td></tr>
+<tr class="memitem:gac6619c87c7a112a16cbeed0ecdd3a07c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__meta.html#gac6619c87c7a112a16cbeed0ecdd3a07c">fold_right</a> (Reduce &amp;&amp;r, Initial &amp;&amp;init, Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:gac6619c87c7a112a16cbeed0ecdd3a07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements <a class="el" href="group__tlx__meta.html#gac6619c87c7a112a16cbeed0ecdd3a07c" title="Implements fold_right() – (a * (b * c)) – with a binary Reduce operation and initial value...">fold_right()</a> &ndash; (a * (b * c)) &ndash; with a binary Reduce operation and initial value.  <a href="#gac6619c87c7a112a16cbeed0ecdd3a07c">More...</a><br/></td></tr>
+<tr class="separator:gac6619c87c7a112a16cbeed0ecdd3a07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e169ed1c415649bc1cd112cf59f56f4"><td class="memTemplParams" colspan="2">template&lt;typename Reduce , typename Initial , typename Tuple &gt; </td></tr>
+<tr class="memitem:ga4e169ed1c415649bc1cd112cf59f56f4"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__meta.html#ga4e169ed1c415649bc1cd112cf59f56f4">fold_right_tuple</a> (Reduce &amp;&amp;r, Initial &amp;&amp;init, Tuple &amp;&amp;t)</td></tr>
+<tr class="memdesc:ga4e169ed1c415649bc1cd112cf59f56f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements <a class="el" href="group__tlx__meta.html#gac6619c87c7a112a16cbeed0ecdd3a07c" title="Implements fold_right() – (a * (b * c)) – with a binary Reduce operation and initial value...">fold_right()</a> &ndash; (a * (b * c)) &ndash; with a binary Reduce operation and initial value on a tuple.  <a href="#ga4e169ed1c415649bc1cd112cf59f56f4">More...</a><br/></td></tr>
+<tr class="separator:ga4e169ed1c415649bc1cd112cf59f56f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab2afc1ff7d0b9ea7a6583d0573e36ef7"><td class="memTemplParams" colspan="2">template&lt;typename Functor &gt; </td></tr>
 <tr class="memitem:gab2afc1ff7d0b9ea7a6583d0573e36ef7"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__meta.html#gab2afc1ff7d0b9ea7a6583d0573e36ef7">make_function_chain</a> (const Functor &amp;functor)</td></tr>
 <tr class="memdesc:gab2afc1ff7d0b9ea7a6583d0573e36ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functor chain maker. Can also be called with a lambda function.  <a href="#gab2afc1ff7d0b9ea7a6583d0573e36ef7">More...</a><br/></td></tr>
@@ -247,6 +263,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3d427a6295fdc8b9b037794a785e9926"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__meta.html#ga3d427a6295fdc8b9b037794a785e9926">vmap_foreach_tuple</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t)</td></tr>
 <tr class="memdesc:ga3d427a6295fdc8b9b037794a785e9926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument and collect the result in a std::tuple&lt;&gt;.  <a href="#ga3d427a6295fdc8b9b037794a785e9926">More...</a><br/></td></tr>
 <tr class="separator:ga3d427a6295fdc8b9b037794a785e9926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac60978f8100125dbfddf607bdf0cf412"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename Tuple &gt; </td></tr>
+<tr class="memitem:gac60978f8100125dbfddf607bdf0cf412"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__meta.html#gac60978f8100125dbfddf607bdf0cf412">vmap_foreach_tuple_with_index</a> (Functor &amp;&amp;f, Tuple &amp;&amp;t)</td></tr>
+<tr class="memdesc:gac60978f8100125dbfddf607bdf0cf412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument and collect the result in a std::tuple&lt;&gt;.  <a href="#gac60978f8100125dbfddf607bdf0cf412">More...</a><br/></td></tr>
+<tr class="separator:gac60978f8100125dbfddf607bdf0cf412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1a5c01183e4cc91ffbec284e8bd9437e"><td class="memTemplParams" colspan="2">template&lt;typename Functor , typename... Args&gt; </td></tr>
 <tr class="memitem:ga1a5c01183e4cc91ffbec284e8bd9437e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__meta.html#ga1a5c01183e4cc91ffbec284e8bd9437e">vmap_foreach_with_index</a> (Functor &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
 <tr class="memdesc:ga1a5c01183e4cc91ffbec284e8bd9437e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call a generic functor (like a generic lambda) for each variadic template argument together with its zero-based index.  <a href="#ga1a5c01183e4cc91ffbec284e8bd9437e">More...</a><br/></td></tr>
@@ -576,6 +596,150 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ga618fa4f3ed4af06a48274926ecd95252"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::fold_left </td>
+          <td>(</td>
+          <td class="paramtype">Reduce &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Initial &amp;&amp;&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="group__tlx__meta.html#ga618fa4f3ed4af06a48274926ecd95252" title="Implements fold_left() – ((a * b) * c) – with a binary Reduce operation and initial value...">fold_left()</a> &ndash; ((a * b) * c) &ndash; with a binary Reduce operation and initial value. </p>
+
+<p>Definition at line <a class="el" href="fold__left_8hpp_source.html#l00051">51</a> of file <a class="el" href="fold__left_8hpp_source.html">fold_left.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga81c817d6c9ae0e06f4806fad21d583b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::fold_left_tuple </td>
+          <td>(</td>
+          <td class="paramtype">Reduce &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Initial &amp;&amp;&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Tuple &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="group__tlx__meta.html#ga618fa4f3ed4af06a48274926ecd95252" title="Implements fold_left() – ((a * b) * c) – with a binary Reduce operation and initial value...">fold_left()</a> &ndash; ((a * b) * c) &ndash; with a binary Reduce operation and initial value on a tuple. </p>
+
+<p>Definition at line <a class="el" href="fold__left__tuple_8hpp_source.html#l00043">43</a> of file <a class="el" href="fold__left__tuple_8hpp_source.html">fold_left_tuple.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gac6619c87c7a112a16cbeed0ecdd3a07c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::fold_right </td>
+          <td>(</td>
+          <td class="paramtype">Reduce &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Initial &amp;&amp;&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="group__tlx__meta.html#gac6619c87c7a112a16cbeed0ecdd3a07c" title="Implements fold_right() – (a * (b * c)) – with a binary Reduce operation and initial value...">fold_right()</a> &ndash; (a * (b * c)) &ndash; with a binary Reduce operation and initial value. </p>
+
+<p>Definition at line <a class="el" href="fold__right_8hpp_source.html#l00050">50</a> of file <a class="el" href="fold__right_8hpp_source.html">fold_right.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga4e169ed1c415649bc1cd112cf59f56f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::fold_right_tuple </td>
+          <td>(</td>
+          <td class="paramtype">Reduce &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Initial &amp;&amp;&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Tuple &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="group__tlx__meta.html#gac6619c87c7a112a16cbeed0ecdd3a07c" title="Implements fold_right() – (a * (b * c)) – with a binary Reduce operation and initial value...">fold_right()</a> &ndash; (a * (b * c)) &ndash; with a binary Reduce operation and initial value on a tuple. </p>
+
+<p>Definition at line <a class="el" href="fold__right__tuple_8hpp_source.html#l00042">42</a> of file <a class="el" href="fold__right__tuple_8hpp_source.html">fold_right_tuple.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="gab2afc1ff7d0b9ea7a6583d0573e36ef7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -773,7 +937,37 @@ Functions</h2></td></tr>
 
 <p>Call a generic functor (like a generic lambda) for each variadic template argument and collect the result in a std::tuple&lt;&gt;. </p>
 
-<p>Definition at line <a class="el" href="vmap__foreach__tuple_8hpp_source.html#l00057">57</a> of file <a class="el" href="vmap__foreach__tuple_8hpp_source.html">vmap_foreach_tuple.hpp</a>.</p>
+<p>Definition at line <a class="el" href="vmap__foreach__tuple_8hpp_source.html#l00043">43</a> of file <a class="el" href="vmap__foreach__tuple_8hpp_source.html">vmap_foreach_tuple.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gac60978f8100125dbfddf607bdf0cf412"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto tlx::vmap_foreach_tuple_with_index </td>
+          <td>(</td>
+          <td class="paramtype">Functor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Tuple &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Call a generic functor (like a generic lambda) for each variadic template argument and collect the result in a std::tuple&lt;&gt;. </p>
+
+<p>Definition at line <a class="el" href="vmap__foreach__tuple__with__index_8hpp_source.html#l00045">45</a> of file <a class="el" href="vmap__foreach__tuple__with__index_8hpp_source.html">vmap_foreach_tuple_with_index.hpp</a>.</p>
 
 </div>
 </div>
@@ -812,7 +1006,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jan 21 2018 18:44:43 for tlx by
+    <li class="footer">Generated on Mon Jan 22 2018 14:03:02 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
