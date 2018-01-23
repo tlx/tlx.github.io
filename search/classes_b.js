@@ -1,6 +1,7 @@
 var searchData=
 [
   ['semaphore',['Semaphore',['../classtlx_1_1Semaphore.html',1,'tlx']]],
+  ['sha1',['SHA1',['../classtlx_1_1SHA1.html',1,'tlx']]],
   ['sha256',['SHA256',['../classtlx_1_1SHA256.html',1,'tlx']]],
   ['sha512',['SHA512',['../classtlx_1_1SHA512.html',1,'tlx']]],
   ['simplevector',['SimpleVector',['../classtlx_1_1SimpleVector.html',1,'tlx']]],

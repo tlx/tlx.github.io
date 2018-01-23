@@ -121,6 +121,7 @@ var hierarchy =
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::reverse_iterator", "classtlx_1_1btree_1_1reverse__iterator.html", null ],
     [ "RingBuffer< Type, Allocator >", "classtlx_1_1RingBuffer.html", null ],
     [ "Semaphore", "classtlx_1_1Semaphore.html", null ],
+    [ "SHA1", "classtlx_1_1SHA1.html", null ],
     [ "SHA256", "classtlx_1_1SHA256.html", null ],
     [ "SHA512", "classtlx_1_1SHA512.html", null ],
     [ "SimpleVector< ValueType, Mode >", "classtlx_1_1SimpleVector.html", null ],

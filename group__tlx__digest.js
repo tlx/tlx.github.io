@@ -16,6 +16,22 @@ var group__tlx__digest =
       [ "length_", "classtlx_1_1MD5.html#aa1735c03c96350e523110f2109e0facb", null ],
       [ "state_", "classtlx_1_1MD5.html#a0149ec9511837798640501d1181273fe", null ]
     ] ],
+    [ "SHA1", "classtlx_1_1SHA1.html", [
+      [ "SHA1", "classtlx_1_1SHA1.html#abb90fd47931fb59b3150bbb063489a58", null ],
+      [ "SHA1", "classtlx_1_1SHA1.html#af8c78dfa1cb73c74060a8357d8649e6c", null ],
+      [ "SHA1", "classtlx_1_1SHA1.html#a70a254f3d0029995efc36989b1c419c9", null ],
+      [ "digest", "classtlx_1_1SHA1.html#a49dcf7ef7b1ab5733884340178a42e15", null ],
+      [ "digest_hex", "classtlx_1_1SHA1.html#a329c98716f9ac464b5db0a16cc2c7ab5", null ],
+      [ "digest_hex_uc", "classtlx_1_1SHA1.html#a4e0e6724f1a97fe6ac6b233b8872eec6", null ],
+      [ "finalize", "classtlx_1_1SHA1.html#a30f22639e1b47e494b13edd36c7ed69d", null ],
+      [ "process", "classtlx_1_1SHA1.html#a4e3b5bf63b847e7370bfd59addf51c08", null ],
+      [ "process", "classtlx_1_1SHA1.html#af044f67f0f9100c12e47c1780a55b640", null ],
+      [ "buf_", "classtlx_1_1SHA1.html#ad73ec031d3f1dfbd49d882980d689aa8", null ],
+      [ "curlen_", "classtlx_1_1SHA1.html#ad4e5816dc54a81eaa5bd7fd94d51621a", null ],
+      [ "kDigestLength", "classtlx_1_1SHA1.html#a5ca061f68d965a55b1145a367419b52b", null ],
+      [ "length_", "classtlx_1_1SHA1.html#aa1735c03c96350e523110f2109e0facb", null ],
+      [ "state_", "classtlx_1_1SHA1.html#a1b38a88d05ca0a95fe4883a42a3df16a", null ]
+    ] ],
     [ "SHA256", "classtlx_1_1SHA256.html", [
       [ "SHA256", "classtlx_1_1SHA256.html#aae423f794851a6884ca6187478d01144", null ],
       [ "SHA256", "classtlx_1_1SHA256.html#a48afd329b521e8c1ce1185d215576dac", null ],
@@ -52,6 +68,10 @@ var group__tlx__digest =
     [ "MD5_hex", "group__tlx__digest.html#gaefb88e679f4807b343ecfdea015a2303", null ],
     [ "MD5_hex_uc", "group__tlx__digest.html#ga9cc344ef35306e282b87dbe289235005", null ],
     [ "MD5_hex_uc", "group__tlx__digest.html#ga58a63db3755ec4d171dbe62ea3c1d2f2", null ],
+    [ "SHA1_hex", "group__tlx__digest.html#ga039e94aa64c1466cf71362a5cedcd09d", null ],
+    [ "SHA1_hex", "group__tlx__digest.html#gae6126ca192f76b392ae7c945b8147abe", null ],
+    [ "SHA1_hex_uc", "group__tlx__digest.html#gad40a1cbc7b667f1b5b130e5c6bbed152", null ],
+    [ "SHA1_hex_uc", "group__tlx__digest.html#gaae599be1f3ddb71a31debf8732d1caf3", null ],
     [ "SHA256_hex", "group__tlx__digest.html#ga5011a9feeb65823647a672d81c65ac21", null ],
     [ "SHA256_hex", "group__tlx__digest.html#gaa72777215d7f3cc7e2fd896bb4d069ba", null ],
     [ "SHA256_hex_uc", "group__tlx__digest.html#ga12624046c2b7d4d3e9c1024a86096336", null ],

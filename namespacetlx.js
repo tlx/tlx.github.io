@@ -17,6 +17,7 @@ var namespacetlx =
     [ "Delegate< R(A...), Allocator >", "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html", "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4" ],
     [ "DieException", "classtlx_1_1DieException.html", "classtlx_1_1DieException" ],
     [ "MD5", "classtlx_1_1MD5.html", "classtlx_1_1MD5" ],
+    [ "SHA1", "classtlx_1_1SHA1.html", "classtlx_1_1SHA1" ],
     [ "SHA256", "classtlx_1_1SHA256.html", "classtlx_1_1SHA256" ],
     [ "SHA512", "classtlx_1_1SHA512.html", "classtlx_1_1SHA512" ],
     [ "LoggerFormatter< std::array< T, N > >", "classtlx_1_1LoggerFormatter_3_01std_1_1array_3_01T_00_01N_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1array_3_01T_00_01N_01_4_01_4" ],
