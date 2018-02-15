@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a910701524c913c4efe16b629ad565a4a":[3,0,0,14,50],
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a9171db321ddb1eec9d57bcde3d67d60b":[3,0,0,14,24],
 "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a94ffbd8c50fe32f981dda6c67e56d4db":[3,0,0,14,15],
 "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a9fd00de53c7a454f0b52b11015c66edd":[3,0,0,14,19],
 "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#aa3a1b34a209aa5dead6d59bbe3013591":[3,0,0,14,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "classtlx_1_1RingBuffer.html#afc77f0e3f44c6712f6bf4aa5f452a99f":[1,0,1,4,16],
 "classtlx_1_1SHA1.html":[1,0,3,1],
 "classtlx_1_1SHA1.html#a1b38a88d05ca0a95fe4883a42a3df16a":[1,0,3,1,13],
-"classtlx_1_1SHA1.html#a30f22639e1b47e494b13edd36c7ed69d":[1,0,3,1,6],
-"classtlx_1_1SHA1.html#a329c98716f9ac464b5db0a16cc2c7ab5":[1,0,3,1,4],
-"classtlx_1_1SHA1.html#a49dcf7ef7b1ab5733884340178a42e15":[1,0,3,1,3]
+"classtlx_1_1SHA1.html#a30f22639e1b47e494b13edd36c7ed69d":[1,0,3,1,6]
 };

@@ -11,6 +11,8 @@ var searchData=
   ['begin_5f',['begin_',['../classtlx_1_1RingBuffer.html#a6f51da5125ced58697d7f8b51640bf74',1,'tlx::RingBuffer']]],
   ['binsearch_5fthreshold',['binsearch_threshold',['../structtlx_1_1btree__default__traits.html#a4fefb7d61067934069f6a783e110ab47',1,'tlx::btree_default_traits']]],
   ['bswap_2ehpp',['bswap.hpp',['../bswap_8hpp.html',1,'']]],
+  ['bswap16',['bswap16',['../group__tlx__math.html#gaed291452463c14987f064718b577b4e0',1,'tlx']]],
+  ['bswap16_5fgeneric',['bswap16_generic',['../group__tlx__math.html#gac03c8212547da938040fb7418763de20',1,'tlx']]],
   ['bswap32',['bswap32',['../group__tlx__math.html#ga793a6ded5c447ffb21d2b091e7b07312',1,'tlx']]],
   ['bswap32_5fgeneric',['bswap32_generic',['../group__tlx__math.html#gadd47ff29616b4ea732416837f6f3c5d5',1,'tlx']]],
   ['bswap64',['bswap64',['../group__tlx__math.html#gaffd11e08884e55a4161f9bf5685d24fa',1,'tlx']]],

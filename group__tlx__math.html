@@ -119,6 +119,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga72ac8fb39736ae5d2b8d920b17d815a8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga72ac8fb39736ae5d2b8d920b17d815a8">abs_diff</a> (const T &amp;a, const T &amp;b)</td></tr>
 <tr class="memdesc:ga72ac8fb39736ae5d2b8d920b17d815a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">absolute difference, which also works for unsigned types  <a href="#ga72ac8fb39736ae5d2b8d920b17d815a8">More...</a><br/></td></tr>
 <tr class="separator:ga72ac8fb39736ae5d2b8d920b17d815a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac03c8212547da938040fb7418763de20"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gac03c8212547da938040fb7418763de20">bswap16_generic</a> (const uint16_t &amp;x)</td></tr>
+<tr class="memdesc:gac03c8212547da938040fb7418763de20"><td class="mdescLeft">&#160;</td><td class="mdescRight">bswap16 - generic implementation  <a href="#gac03c8212547da938040fb7418763de20">More...</a><br/></td></tr>
+<tr class="separator:gac03c8212547da938040fb7418763de20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaed291452463c14987f064718b577b4e0"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gaed291452463c14987f064718b577b4e0">bswap16</a> (const uint16_t &amp;v)</td></tr>
+<tr class="memdesc:gaed291452463c14987f064718b577b4e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">bswap16 - generic  <a href="#gaed291452463c14987f064718b577b4e0">More...</a><br/></td></tr>
+<tr class="separator:gaed291452463c14987f064718b577b4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadd47ff29616b4ea732416837f6f3c5d5"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gadd47ff29616b4ea732416837f6f3c5d5">bswap32_generic</a> (const uint32_t &amp;x)</td></tr>
 <tr class="memdesc:gadd47ff29616b4ea732416837f6f3c5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">bswap32 - generic implementation  <a href="#gadd47ff29616b4ea732416837f6f3c5d5">More...</a><br/></td></tr>
 <tr class="separator:gadd47ff29616b4ea732416837f6f3c5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,6 +346,62 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="gaed291452463c14987f064718b577b4e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t tlx::bswap16 </td>
+          <td>(</td>
+          <td class="paramtype">const uint16_t &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>bswap16 - generic </p>
+
+<p>Definition at line <a class="el" href="bswap_8hpp_source.html#l00052">52</a> of file <a class="el" href="bswap_8hpp_source.html">bswap.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gac03c8212547da938040fb7418763de20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t tlx::bswap16_generic </td>
+          <td>(</td>
+          <td class="paramtype">const uint16_t &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>bswap16 - generic implementation </p>
+
+<p>Definition at line <a class="el" href="bswap_8hpp_source.html#l00031">31</a> of file <a class="el" href="bswap_8hpp_source.html">bswap.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga793a6ded5c447ffb21d2b091e7b07312"></a>
 <div class="memitem">
 <div class="memproto">
@@ -364,7 +426,7 @@ Functions</h2></td></tr>
 
 <p>bswap32 - generic </p>
 
-<p>Definition at line <a class="el" href="bswap_8hpp_source.html#l00053">53</a> of file <a class="el" href="bswap_8hpp_source.html">bswap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="bswap_8hpp_source.html#l00084">84</a> of file <a class="el" href="bswap_8hpp_source.html">bswap.hpp</a>.</p>
 
 </div>
 </div>
@@ -392,7 +454,7 @@ Functions</h2></td></tr>
 
 <p>bswap32 - generic implementation </p>
 
-<p>Definition at line <a class="el" href="bswap_8hpp_source.html#l00031">31</a> of file <a class="el" href="bswap_8hpp_source.html">bswap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="bswap_8hpp_source.html#l00062">62</a> of file <a class="el" href="bswap_8hpp_source.html">bswap.hpp</a>.</p>
 
 </div>
 </div>
@@ -420,7 +482,7 @@ Functions</h2></td></tr>
 
 <p>bswap64 - generic </p>
 
-<p>Definition at line <a class="el" href="bswap_8hpp_source.html#l00091">91</a> of file <a class="el" href="bswap_8hpp_source.html">bswap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="bswap_8hpp_source.html#l00122">122</a> of file <a class="el" href="bswap_8hpp_source.html">bswap.hpp</a>.</p>
 
 </div>
 </div>
@@ -448,7 +510,7 @@ Functions</h2></td></tr>
 
 <p>bswap64 - generic implementation </p>
 
-<p>Definition at line <a class="el" href="bswap_8hpp_source.html#l00063">63</a> of file <a class="el" href="bswap_8hpp_source.html">bswap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="bswap_8hpp_source.html#l00094">94</a> of file <a class="el" href="bswap_8hpp_source.html">bswap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1843,7 +1905,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 23 2018 10:22:54 for tlx by
+    <li class="footer">Generated on Thu Feb 15 2018 15:21:37 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

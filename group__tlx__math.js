@@ -1,6 +1,8 @@
 var group__tlx__math =
 [
     [ "abs_diff", "group__tlx__math.html#ga72ac8fb39736ae5d2b8d920b17d815a8", null ],
+    [ "bswap16", "group__tlx__math.html#gaed291452463c14987f064718b577b4e0", null ],
+    [ "bswap16_generic", "group__tlx__math.html#gac03c8212547da938040fb7418763de20", null ],
     [ "bswap32", "group__tlx__math.html#ga793a6ded5c447ffb21d2b091e7b07312", null ],
     [ "bswap32_generic", "group__tlx__math.html#gadd47ff29616b4ea732416837f6f3c5d5", null ],
     [ "bswap64", "group__tlx__math.html#gaffd11e08884e55a4161f9bf5685d24fa", null ],
