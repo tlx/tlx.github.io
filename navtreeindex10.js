@@ -1,5 +1,11 @@
 var NAVTREEINDEX10 =
 {
+"structtlx_1_1btree__map_1_1key__of__value.html#a2f06b332dc03ff5e9e52f85ac3794a95":[1,0,1,0,2,0,0],
+"structtlx_1_1btree__multimap_1_1key__of__value.html":[1,0,1,0,3,0],
+"structtlx_1_1btree__multimap_1_1key__of__value.html#a2f06b332dc03ff5e9e52f85ac3794a95":[1,0,1,0,3,0,0],
+"structtlx_1_1btree__multiset_1_1key__of__value.html":[1,0,1,0,4,0],
+"structtlx_1_1btree__multiset_1_1key__of__value.html#a2f06b332dc03ff5e9e52f85ac3794a95":[1,0,1,0,4,0,0],
+"structtlx_1_1btree__set_1_1key__of__value.html":[1,0,1,0,5,0],
 "structtlx_1_1btree__set_1_1key__of__value.html#a2f06b332dc03ff5e9e52f85ac3794a95":[1,0,1,0,5,0,0],
 "structtlx_1_1detail_1_1make__index__sequence__helper.html":[3,0,0,0,2],
 "structtlx_1_1detail_1_1make__index__sequence__helper.html#afc01fc2576137761d6b1645a42a8c55f":[3,0,0,0,2,0],

@@ -41,16 +41,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "abs__diff_8hpp.html",
-"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a910701524c913c4efe16b629ad565a4a",
-"classtlx_1_1SHA1.html#a329c98716f9ac464b5db0a16cc2c7ab5",
-"classtlx_1_1btree.html#af26aef03a7dfaca8fabb99969312307a",
-"classtlx_1_1btree__multimap.html#acad38d52497a975bfb6f2f6acd76631f",
-"die_8hpp.html#a63798a2675296e09260478493bf3829b",
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a7bb78b493998a90ba5f4e4ba45c17b6b",
+"classtlx_1_1RingBuffer.html#afc77f0e3f44c6712f6bf4aa5f452a99f",
+"classtlx_1_1btree.html#aeb4495d854e99e724ac3fce0ceea0c07",
+"classtlx_1_1btree__multimap.html#ac6bdc5524aeaa9f7b70bbc0627e8b5e4",
+"die_8hpp.html#a1a4f198a88970a7cb1f5d8d3a0555b79",
 "group__tlx__data__structures__loser__tree.html#ga071fda465da2cd47c848c51e802635ed",
-"group__tlx__meta.html",
-"is__power__of__two_8hpp.html#gab4bb5d2b01bb4f7abee2de54f1dca2f9",
-"semaphore_8hpp.html#a13b278f8ac00c463d949d2297f0c3381",
-"structtlx_1_1btree__set_1_1key__of__value.html#a2f06b332dc03ff5e9e52f85ac3794a95"
+"group__tlx__math.html#gaf13460ad33c93a724b32cd093ecdb4f9",
+"is__power__of__two_8cpp.html#gaea4dbc101569da260c218aad97698847",
+"round__to__power__of__two_8hpp.html#gabba29a3381e0f408d02fdcfcf902d231",
+"structtlx_1_1btree__map_1_1key__of__value.html#a2f06b332dc03ff5e9e52f85ac3794a95"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
