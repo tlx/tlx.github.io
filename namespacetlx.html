@@ -928,6 +928,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2e35ca12bd4564ba470e3bf4f6a91798"><td class="memTemplItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga2e35ca12bd4564ba470e3bf4f6a91798">join</a> (const std::string &amp;glue, const Container &amp;parts)</td></tr>
 <tr class="memdesc:ga2e35ca12bd4564ba470e3bf4f6a91798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a Container of strings by some glue string between each pair from the sequence.  <a href="group__tlx__string.html#ga2e35ca12bd4564ba470e3bf4f6a91798">More...</a><br/></td></tr>
 <tr class="separator:ga2e35ca12bd4564ba470e3bf4f6a91798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabceb162540e1d7f3f6bef9304fdd6ef9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#gabceb162540e1d7f3f6bef9304fdd6ef9">join_quoted</a> (const std::vector&lt; std::string &gt; &amp;str, char sep, char quote, char escape)</td></tr>
+<tr class="memdesc:gabceb162540e1d7f3f6bef9304fdd6ef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a vector of strings using a separator character.  <a href="group__tlx__string.html#gabceb162540e1d7f3f6bef9304fdd6ef9">More...</a><br/></td></tr>
+<tr class="separator:gabceb162540e1d7f3f6bef9304fdd6ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71e61af2f5c2aea97806490bc4e89b17"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga71e61af2f5c2aea97806490bc4e89b17">join_quoted</a> (const std::vector&lt; std::string &gt; &amp;str)</td></tr>
+<tr class="memdesc:ga71e61af2f5c2aea97806490bc4e89b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join a vector of strings using spaces as separator character.  <a href="group__tlx__string.html#ga71e61af2f5c2aea97806490bc4e89b17">More...</a><br/></td></tr>
+<tr class="separator:ga71e61af2f5c2aea97806490bc4e89b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3a73759be8d7ec5778cb6192bc32c4c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga3a73759be8d7ec5778cb6192bc32c4c2">less_icase</a> (const char *a, const char *b)</td></tr>
 <tr class="memdesc:ga3a73759be8d7ec5778cb6192bc32c4c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a &lt; b without regard for letter case  <a href="group__tlx__string.html#ga3a73759be8d7ec5778cb6192bc32c4c2">More...</a><br/></td></tr>
 <tr class="separator:ga3a73759be8d7ec5778cb6192bc32c4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1047,6 +1053,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4aa7e0fb9bd81e31214087d3d85367a3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga4aa7e0fb9bd81e31214087d3d85367a3">split</a> (std::vector&lt; std::string &gt; *into, const std::string &amp;sep, const std::string &amp;str, std::string::size_type min_fields, std::string::size_type limit)</td></tr>
 <tr class="memdesc:ga4aa7e0fb9bd81e31214087d3d85367a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator string into distinct substrings.  <a href="group__tlx__string.html#ga4aa7e0fb9bd81e31214087d3d85367a3">More...</a><br/></td></tr>
 <tr class="separator:ga4aa7e0fb9bd81e31214087d3d85367a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc48ce717ba77df6c6f395fb07bc8a1e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#gafc48ce717ba77df6c6f395fb07bc8a1e">split_quoted</a> (const std::string &amp;str, char sep, char quote, char escape)</td></tr>
+<tr class="memdesc:gafc48ce717ba77df6c6f395fb07bc8a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each separator character into distinct substrings.  <a href="group__tlx__string.html#gafc48ce717ba77df6c6f395fb07bc8a1e">More...</a><br/></td></tr>
+<tr class="separator:gafc48ce717ba77df6c6f395fb07bc8a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0210d995cdc4df9aafcd09c005571449"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga0210d995cdc4df9aafcd09c005571449">split_quoted</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:ga0210d995cdc4df9aafcd09c005571449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string at each space into distinct substrings.  <a href="group__tlx__string.html#ga0210d995cdc4df9aafcd09c005571449">More...</a><br/></td></tr>
+<tr class="separator:ga0210d995cdc4df9aafcd09c005571449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga92d58b1e8b06cbb57400b5959281a4a1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga92d58b1e8b06cbb57400b5959281a4a1">split_words</a> (const std::string &amp;str, std::string::size_type limit=std::string::npos)</td></tr>
 <tr class="memdesc:ga92d58b1e8b06cbb57400b5959281a4a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string by whitespaces into distinct words.  <a href="group__tlx__string.html#ga92d58b1e8b06cbb57400b5959281a4a1">More...</a><br/></td></tr>
 <tr class="separator:ga92d58b1e8b06cbb57400b5959281a4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2472,7 +2484,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Thu Feb 15 2018 22:42:37 for tlx by
+    <li class="footer">Generated on Wed Feb 28 2018 15:56:08 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

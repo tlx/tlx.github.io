@@ -12,6 +12,8 @@ var searchData=
   ['siphash_2ehpp',['siphash.hpp',['../siphash_8hpp.html',1,'']]],
   ['split_2ecpp',['split.cpp',['../split_8cpp.html',1,'']]],
   ['split_2ehpp',['split.hpp',['../split_8hpp.html',1,'']]],
+  ['split_5fquoted_2ecpp',['split_quoted.cpp',['../split__quoted_8cpp.html',1,'']]],
+  ['split_5fquoted_2ehpp',['split_quoted.hpp',['../split__quoted_8hpp.html',1,'']]],
   ['split_5fwords_2ecpp',['split_words.cpp',['../split__words_8cpp.html',1,'']]],
   ['split_5fwords_2ehpp',['split_words.hpp',['../split__words_8hpp.html',1,'']]],
   ['stack_5fallocator_2ehpp',['stack_allocator.hpp',['../stack__allocator_8hpp.html',1,'']]],

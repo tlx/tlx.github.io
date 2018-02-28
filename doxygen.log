@@ -1,0 +1,8 @@
+/home/travis/build/tlx/tlx/tlx/string/join_quoted.hpp:24: warning: Found unknown command `\r'
+/home/travis/build/tlx/tlx/tlx/string/join_quoted.hpp:24: warning: Found unknown command `\t'
+/home/travis/build/tlx/tlx/tlx/string/join_quoted.hpp:32: warning: Found unknown command `\r'
+/home/travis/build/tlx/tlx/tlx/string/join_quoted.hpp:32: warning: Found unknown command `\t'
+/home/travis/build/tlx/tlx/tlx/string/split_quoted.hpp:24: warning: Found unknown command `\r'
+/home/travis/build/tlx/tlx/tlx/string/split_quoted.hpp:24: warning: Found unknown command `\t'
+/home/travis/build/tlx/tlx/tlx/string/split_quoted.hpp:34: warning: Found unknown command `\r'
+/home/travis/build/tlx/tlx/tlx/string/split_quoted.hpp:34: warning: Found unknown command `\t'

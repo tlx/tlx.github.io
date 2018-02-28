@@ -1,7 +1,7 @@
 var searchData=
 [
   ['detail',['detail',['../namespacetlx_1_1detail.html',1,'tlx']]],
-  ['tlx_20_2d_20c_2b_2b_20extensions_20and_20helpers_20library',['tlx - C++ Extensions and Helpers Library',['../index.html',1,'']]],
+  ['tlx_20_2d_20collection_20of_20c_2b_2b_20data_20structures_2c_20algorithms_2c_20and_20miscellaneous_20helpers',['tlx - Collection of C++ Data Structures, Algorithms, and Miscellaneous Helpers',['../index.html',1,'']]],
   ['tail_5fleaf_5f',['tail_leaf_',['../classtlx_1_1btree.html#a3c467198562471ebc2a3ce840a556a9e',1,'tlx::btree']]],
   ['terminate',['terminate',['../classtlx_1_1ThreadPool.html#a74a45d2648335936561898c390281a6a',1,'tlx::ThreadPool']]],
   ['terminate_5f',['terminate_',['../classtlx_1_1ThreadPool.html#a5c7c161ce42f7ccc3184d9bec18fa969',1,'tlx::ThreadPool']]],
