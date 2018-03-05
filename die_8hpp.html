@@ -156,6 +156,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a5085068329fda13af995242db4555038"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#a5085068329fda13af995242db4555038">assert_equal</a>(X, Y)</td></tr>
 <tr class="memdesc:a5085068329fda13af995242db4555038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that X == Y or die miserably, but output the values of X and Y for better debugging.  <a href="#a5085068329fda13af995242db4555038">More...</a><br/></td></tr>
 <tr class="separator:a5085068329fda13af995242db4555038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b7ce407ec77acd1f6b146c1a6ea65ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#a6b7ce407ec77acd1f6b146c1a6ea65ef">die_unequal_eps</a>(X, Y, eps)</td></tr>
+<tr class="memdesc:a6b7ce407ec77acd1f6b146c1a6ea65ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that ABS(X - Y) &lt;= eps or die miserably, but output the values of X and Y for better debugging.  <a href="#a6b7ce407ec77acd1f6b146c1a6ea65ef">More...</a><br/></td></tr>
+<tr class="separator:a6b7ce407ec77acd1f6b146c1a6ea65ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a7675ff116550671881ba49da77808c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#a1a7675ff116550671881ba49da77808c">die_unequal_eps6</a>(X, Y)</td></tr>
+<tr class="memdesc:a1a7675ff116550671881ba49da77808c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that ABS(X - Y) &lt;= 0.000001 or die miserably, but output the values of X and Y for better debugging.  <a href="#a1a7675ff116550671881ba49da77808c">More...</a><br/></td></tr>
+<tr class="separator:a1a7675ff116550671881ba49da77808c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a357da842bf02c9445e820f483b301542"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_8hpp.html#a357da842bf02c9445e820f483b301542">die_unless_throws</a>(code, exception_type)</td></tr>
 <tr class="memdesc:a357da842bf02c9445e820f483b301542"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define to check that [code] throws and exception of given type.  <a href="#a357da842bf02c9445e820f483b301542">More...</a><br/></td></tr>
 <tr class="separator:a357da842bf02c9445e820f483b301542"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,6 +193,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ac215c9815621e2ebbc07da9be07a622f"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:ac215c9815621e2ebbc07da9be07a622f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ac215c9815621e2ebbc07da9be07a622f">die_equal_compare</a> (double a, double b)</td></tr>
 <tr class="separator:ac215c9815621e2ebbc07da9be07a622f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f3602febd2a4b1979c9846da4ce8d62"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:a9f3602febd2a4b1979c9846da4ce8d62"><td class="memTemplItemLeft" align="right" valign="top">Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a9f3602febd2a4b1979c9846da4ce8d62">die_unequal_eps_abs</a> (const Type &amp;t)</td></tr>
+<tr class="memdesc:a9f3602febd2a4b1979c9846da4ce8d62"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple replacement for std::abs  <a href="#a9f3602febd2a4b1979c9846da4ce8d62">More...</a><br/></td></tr>
+<tr class="separator:a9f3602febd2a4b1979c9846da4ce8d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc85623f015ff3ce8bf5a365f14770c4"><td class="memTemplParams" colspan="2">template&lt;typename TypeA , typename TypeB &gt; </td></tr>
+<tr class="memitem:acc85623f015ff3ce8bf5a365f14770c4"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#acc85623f015ff3ce8bf5a365f14770c4">die_equal_eps_compare</a> (TypeA x, TypeB y, double eps)</td></tr>
+<tr class="memdesc:acc85623f015ff3ce8bf5a365f14770c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper method to compare two values in <a class="el" href="die_8hpp.html#a6b7ce407ec77acd1f6b146c1a6ea65ef" title="Check that ABS(X - Y) &lt;= eps or die miserably, but output the values of X and Y for better debugging...">die_unequal_eps()</a>  <a href="#acc85623f015ff3ce8bf5a365f14770c4">More...</a><br/></td></tr>
+<tr class="separator:acc85623f015ff3ce8bf5a365f14770c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a5085068329fda13af995242db4555038"></a>
@@ -216,7 +230,7 @@ Functions</h2></td></tr>
 <p>Check that X == Y or die miserably, but output the values of X and Y for better debugging. </p>
 <p>Only active if NDEBUG is not defined. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00124">124</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00125">125</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -257,7 +271,7 @@ Functions</h2></td></tr>
 <p>Check condition X and die miserably if true. </p>
 <p>Opposite of assert() except this is also active in Release mode. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00073">73</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00074">74</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -287,7 +301,73 @@ Functions</h2></td></tr>
 
 <p>Check that X == Y or die miserably, but output the values of X and Y for better debugging. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00110">110</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00111">111</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6b7ce407ec77acd1f6b146c1a6ea65ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define die_unequal_eps</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Y, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">eps&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check that ABS(X - Y) &lt;= eps or die miserably, but output the values of X and Y for better debugging. </p>
+
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00146">146</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1a7675ff116550671881ba49da77808c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define die_unequal_eps6</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check that ABS(X - Y) &lt;= 0.000001 or die miserably, but output the values of X and Y for better debugging. </p>
+
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00158">158</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -308,7 +388,7 @@ Functions</h2></td></tr>
 <p>Check condition X and die miserably if false. </p>
 <p>Same as assert() except this is also active in Release mode. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00063">63</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00064">64</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -338,7 +418,7 @@ Functions</h2></td></tr>
 
 <p>Define to check that [code] throws and exception of given type. </p>
 
-<p>Definition at line <a class="el" href="die_8hpp_source.html#l00131">131</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_8hpp_source.html#l00165">165</a> of file <a class="el" href="die_8hpp_source.html">die.hpp</a>.</p>
 
 </div>
 </div>
@@ -368,7 +448,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="die_8hpp.html">die.hpp</a></li>
-    <li class="footer">Generated on Wed Feb 28 2018 15:56:08 for tlx by
+    <li class="footer">Generated on Mon Mar 5 2018 21:30:54 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

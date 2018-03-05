@@ -114,6 +114,7 @@ $(document).ready(function(){initNavTree('tlx_die.html','');});
 <li><code><a class="el" href="die_8hpp.html#a63798a2675296e09260478493bf3829b" title="Check condition X and die miserably if false. ">die_unless(condition)</a></code> - terminates if condition is false</li>
 <li><code><a class="el" href="die_8hpp.html#a104ef9af1dda7b166a22fea791aad044" title="Check condition X and die miserably if true. ">die_if(condition)</a></code> - terminates if condition is true</li>
 <li><code><a class="el" href="die_8hpp.html#a334b021076c0dff0e3964c6819774ceb" title="Check that X == Y or die miserably, but output the values of X and Y for better debugging. ">die_unequal(a,b)</a></code> - terminates unless a == b.</li>
+<li><code><a class="el" href="die_8hpp.html#a1a7675ff116550671881ba49da77808c" title="Check that ABS(X - Y) &lt;= 0.000001 or die miserably, but output the values of X and Y for better debug...">die_unequal_eps6(a,b)</a></code> - terminates unless abs(a - b) &lt; 1e-6 for approximate equality .</li>
 <li><code><a class="el" href="die_8hpp.html#a357da842bf02c9445e820f483b301542" title="Define to check that [code] throws and exception of given type. ">die_unless_throws(code,exception)</a></code> - terminate if code does not throw the exception</li>
 </ul>
 <p>Furthermore, some additional assert macros are also available. These are only active in Debug mode, if NDEBUG is defined they are compiled out.</p>
@@ -127,7 +128,7 @@ $(document).ready(function(){initNavTree('tlx_die.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="index.html">tlx - Collection of C++ Data Structures, Algorithms, and Miscellaneous Helpers</a></li>
-    <li class="footer">Generated on Wed Feb 28 2018 15:56:08 for tlx by
+    <li class="footer">Generated on Mon Mar 5 2018 21:30:54 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

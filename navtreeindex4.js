@@ -248,6 +248,6 @@ var NAVTREEINDEX4 =
 "die_8cpp_source.html":[4,0,0,21],
 "die_8hpp.html":[4,0,0,22],
 "die_8hpp.html#a104ef9af1dda7b166a22fea791aad044":[4,0,0,22,3],
-"die_8hpp.html#a17ac1fcc957b3ac3414677c0058b1bad":[4,0,0,22,7],
-"die_8hpp.html#a1972bdbc5b9ff146cf88d18ec9a12d64":[4,0,0,22,13]
+"die_8hpp.html#a17ac1fcc957b3ac3414677c0058b1bad":[4,0,0,22,9],
+"die_8hpp.html#a1972bdbc5b9ff146cf88d18ec9a12d64":[4,0,0,22,17]
 };
