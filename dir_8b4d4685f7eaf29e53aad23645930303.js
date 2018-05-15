@@ -6,6 +6,7 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "logger", "dir_9ec9e9a7bcf6c1b34f6e098c23b43be1.html", "dir_9ec9e9a7bcf6c1b34f6e098c23b43be1" ],
     [ "math", "dir_e09772e06e87bbb5d2c69a5ed712ca42.html", "dir_e09772e06e87bbb5d2c69a5ed712ca42" ],
     [ "meta", "dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html", "dir_8ac7dfc841f33a5da7c5dfc5610caf4f" ],
+    [ "sort", "dir_82d49b977daa72f9a1145b61404a8efe.html", "dir_82d49b977daa72f9a1145b61404a8efe" ],
     [ "string", "dir_45a7f11e1a4af18f182d54b603484851.html", "dir_45a7f11e1a4af18f182d54b603484851" ],
     [ "algorithm.hpp", "algorithm_8hpp.html", null ],
     [ "allocator_base.hpp", "allocator__base_8hpp.html", [
@@ -62,6 +63,7 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "semaphore.hpp", "semaphore_8hpp.html", "semaphore_8hpp" ],
     [ "simple_vector.hpp", "simple__vector_8hpp.html", "simple__vector_8hpp" ],
     [ "siphash.hpp", "siphash_8hpp.html", "siphash_8hpp" ],
+    [ "sort.hpp", "sort_8hpp.html", null ],
     [ "stack_allocator.hpp", "stack__allocator_8hpp.html", [
       [ "StackArena", "classtlx_1_1StackArena.html", "classtlx_1_1StackArena" ],
       [ "AlignmentHelper", "uniontlx_1_1StackArena_1_1AlignmentHelper.html", "uniontlx_1_1StackArena_1_1AlignmentHelper" ],

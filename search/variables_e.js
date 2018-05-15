@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['p',['p',['../uniontlx_1_1StackArena_1_1AlignmentHelper.html#a117104b82864d3b23ec174af6d392709',1,'tlx::StackArena::AlignmentHelper']]],
-  ['param_5flist_5f',['param_list_',['../classtlx_1_1CmdlineParser.html#a82f067cc288f8abd50470ff6794da04f',1,'tlx::CmdlineParser']]],
-  ['param_5fmax_5fwidth_5f',['param_max_width_',['../classtlx_1_1CmdlineParser.html#af3bc88b7e683319e684d3e715ee060eb',1,'tlx::CmdlineParser']]],
-  ['pf',['pf',['../uniontlx_1_1StackArena_1_1AlignmentHelper.html#a6158b086cef0c520608268694dd4b996',1,'tlx::StackArena::AlignmentHelper']]],
-  ['prev_5fleaf',['prev_leaf',['../structtlx_1_1btree_1_1leaf__node.html#a695a0547385af04cd83175626255b4ba',1,'tlx::btree::leaf_node']]],
-  ['program_5fname_5f',['program_name_',['../classtlx_1_1CmdlineParser.html#a46ae7a27b899e9a86ad04807eb1ad34e',1,'tlx::CmdlineParser']]],
-  ['ps',['ps',['../uniontlx_1_1StackArena_1_1AlignmentHelper.html#af08f04d47c314c45938909a89c6507d1',1,'tlx::StackArena::AlignmentHelper']]],
-  ['ptr_5f',['ptr_',['../classtlx_1_1CountingPtr.html#aa0957c00054156f1af9fce986cbfcb4f',1,'tlx::CountingPtr::ptr_()'],['../classtlx_1_1StackArena.html#aa5ec38c854291ed98296bd00efbf90ae',1,'tlx::StackArena::ptr_()']]]
+  ['object_5fptr_5f',['object_ptr_',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a6357a4ada4f766aa5268fb52ecf26515',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
+  ['option_5flist_5f',['option_list_',['../classtlx_1_1CmdlineParser.html#a1dfdda1dfa78d1addc33aaf91f6867a1',1,'tlx::CmdlineParser']]],
+  ['option_5fmax_5fwidth_5f',['option_max_width_',['../classtlx_1_1CmdlineParser.html#a2780792d90885744803a109cdbd3608a',1,'tlx::CmdlineParser']]],
+  ['os_5f',['os_',['../classtlx_1_1LoggerTupleFormatter.html#af20ae96d3a771bd807d36aae8cfd0d4b',1,'tlx::LoggerTupleFormatter']]],
+  ['oss_5f',['oss_',['../classtlx_1_1Logger.html#acbe8bc75214c441a925eb2ab98ff869d',1,'tlx::Logger::oss_()'],['../classtlx_1_1SpacingLogger.html#acbe8bc75214c441a925eb2ab98ff869d',1,'tlx::SpacingLogger::oss_()'],['../classtlx_1_1LoggerCollectOutput.html#acbe8bc75214c441a925eb2ab98ff869d',1,'tlx::LoggerCollectOutput::oss_()']]]
 ];

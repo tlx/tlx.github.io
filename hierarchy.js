@@ -49,12 +49,15 @@ var hierarchy =
     ] ],
     [ "FunctionChain< Functors >", "classtlx_1_1FunctionChain.html", null ],
     [ "FunctionStack< Input_, Functors >", "classtlx_1_1FunctionStack.html", null ],
+    [ "GenericCharStringSetTraits< CharType >", "classtlx_1_1sort__strings__detail_1_1GenericCharStringSetTraits.html", [
+      [ "GenericCharStringSet< CharType >", "classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html", null ]
+    ] ],
     [ "index_sequence< Indexes >", "structtlx_1_1index__sequence.html", null ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::iterator", "classtlx_1_1btree_1_1iterator.html", null ],
-    [ "btree_map< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", null ],
     [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", null ],
     [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
     [ "btree_set< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", null ],
+    [ "btree_map< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", null ],
     [ "Log2< Input >", "classtlx_1_1Log2.html", null ],
     [ "Log2< 0 >", "classtlx_1_1Log2_3_010_01_4.html", null ],
     [ "Log2< 1 >", "classtlx_1_1Log2_3_011_01_4.html", null ],
@@ -115,6 +118,11 @@ var hierarchy =
       [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::inner_node", "structtlx_1_1btree_1_1inner__node.html", null ],
       [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::leaf_node", "structtlx_1_1btree_1_1leaf__node.html", null ]
     ] ],
+    [ "RadixStep_CE0< StringSet >", "structtlx_1_1sort__strings__detail_1_1RadixStep__CE0.html", null ],
+    [ "RadixStep_CE2< StringSet >", "structtlx_1_1sort__strings__detail_1_1RadixStep__CE2.html", null ],
+    [ "RadixStep_CE3< StringSet >", "structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html", null ],
+    [ "RadixStep_CI2< StringSet >", "structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html", null ],
+    [ "RadixStep_CI3< StringSet >", "structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html", null ],
     [ "StackAllocator< Type, Size >::rebind< Other >", "structtlx_1_1StackAllocator_1_1rebind.html", null ],
     [ "ReferenceCounter", "classtlx_1_1ReferenceCounter.html", null ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::result_t", "structtlx_1_1btree_1_1result__t.html", null ],
@@ -133,6 +141,27 @@ var hierarchy =
     [ "SpacingLogger", "classtlx_1_1SpacingLogger.html", null ],
     [ "StackArena< Size >", "classtlx_1_1StackArena.html", null ],
     [ "StaticIndex< Index >", "structtlx_1_1StaticIndex.html", null ],
+    [ "StdStringSetTraits", "classtlx_1_1sort__strings__detail_1_1StdStringSetTraits.html", [
+      [ "StdStringSet", "classtlx_1_1sort__strings__detail_1_1StdStringSet.html", null ]
+    ] ],
+    [ "StringSetBase< StringSet, Traits >", "classtlx_1_1sort__strings__detail_1_1StringSetBase.html", null ],
+    [ "StringSetBase< GenericCharStringSet< CharType >, GenericCharStringSetTraits< CharType > >", "classtlx_1_1sort__strings__detail_1_1StringSetBase.html", [
+      [ "GenericCharStringSet< CharType >", "classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html", null ]
+    ] ],
+    [ "StringSetBase< StdStringSet, StdStringSetTraits >", "classtlx_1_1sort__strings__detail_1_1StringSetBase.html", [
+      [ "StdStringSet", "classtlx_1_1sort__strings__detail_1_1StdStringSet.html", null ]
+    ] ],
+    [ "StringSetBase< StringSuffixSet, StringSuffixSetTraits >", "classtlx_1_1sort__strings__detail_1_1StringSetBase.html", [
+      [ "StringSuffixSet", "classtlx_1_1sort__strings__detail_1_1StringSuffixSet.html", null ]
+    ] ],
+    [ "StringSetBase< UPtrStdStringSet, UPtrStdStringSetTraits >", "classtlx_1_1sort__strings__detail_1_1StringSetBase.html", [
+      [ "UPtrStdStringSet", "classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet.html", null ]
+    ] ],
+    [ "StringShadowPtr< StringSet_ >", "classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html", null ],
+    [ "StringShadowPtr< StringSet >", "classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html", null ],
+    [ "StringSuffixSetTraits", "classtlx_1_1sort__strings__detail_1_1StringSuffixSetTraits.html", [
+      [ "StringSuffixSet", "classtlx_1_1sort__strings__detail_1_1StringSuffixSet.html", null ]
+    ] ],
     [ "ThreadPool", "classtlx_1_1ThreadPool.html", null ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::tree_stats", "structtlx_1_1btree_1_1tree__stats.html", null ],
     [ "true_type", null, [
@@ -145,6 +174,9 @@ var hierarchy =
     ] ],
     [ "type", null, [
       [ "make_index_sequence< Size >", "structtlx_1_1make__index__sequence.html", null ]
+    ] ],
+    [ "UPtrStdStringSetTraits", "classtlx_1_1sort__strings__detail_1_1UPtrStdStringSetTraits.html", [
+      [ "UPtrStdStringSet", "classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet.html", null ]
     ] ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::value_compare", "classtlx_1_1btree_1_1value__compare.html", null ],
     [ "VMapForRangeImpl< Index, Size, Functor >", "classtlx_1_1detail_1_1VMapForRangeImpl.html", null ],

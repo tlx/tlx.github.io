@@ -1,6 +1,7 @@
 var namespacetlx =
 [
     [ "detail", "namespacetlx_1_1detail.html", "namespacetlx_1_1detail" ],
+    [ "sort_strings_detail", "namespacetlx_1_1sort__strings__detail.html", "namespacetlx_1_1sort__strings__detail" ],
     [ "AllocatorBase", "classtlx_1_1AllocatorBase.html", "classtlx_1_1AllocatorBase" ],
     [ "btree_default_traits", "structtlx_1_1btree__default__traits.html", "structtlx_1_1btree__default__traits" ],
     [ "btree", "classtlx_1_1btree.html", "classtlx_1_1btree" ],

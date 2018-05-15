@@ -9,10 +9,12 @@ var searchData=
   ['md5',['MD5',['../classtlx_1_1MD5.html#a5b1c09b071a871c8829a13e808bbce3a',1,'tlx::MD5::MD5()'],['../classtlx_1_1MD5.html#a0d23b8861da57026e42da0b9e8da48e9',1,'tlx::MD5::MD5(const void *data, uint32_t size)'],['../classtlx_1_1MD5.html#a37598096f5cf07db28eafb10d7a31b31',1,'tlx::MD5::MD5(const std::string &amp;str)']]],
   ['md5_5fhex',['MD5_hex',['../group__tlx__digest.html#gabbcf555b690d83aa51f0d6ca0ba63797',1,'tlx::MD5_hex(const void *data, uint32_t size)'],['../group__tlx__digest.html#gaefb88e679f4807b343ecfdea015a2303',1,'tlx::MD5_hex(const std::string &amp;str)']]],
   ['md5_5fhex_5fuc',['MD5_hex_uc',['../group__tlx__digest.html#ga9cc344ef35306e282b87dbe289235005',1,'tlx::MD5_hex_uc(const void *data, uint32_t size)'],['../group__tlx__digest.html#ga58a63db3755ec4d171dbe62ea3c1d2f2',1,'tlx::MD5_hex_uc(const std::string &amp;str)']]],
+  ['med3func',['med3func',['../namespacetlx_1_1sort__strings__detail.html#a845bc4c1ce60f7593d847e16e95c34c5',1,'tlx::sort_strings_detail']]],
   ['merge_5fcombine',['merge_combine',['../group__tlx__algorithm.html#gac328961b3d340e0963ca02b7703fafcd',1,'tlx']]],
   ['merge_5finner',['merge_inner',['../classtlx_1_1btree.html#afa40e96291e33d6ccd267df6d955e86e',1,'tlx::btree']]],
   ['merge_5fleaves',['merge_leaves',['../classtlx_1_1btree.html#a7fb62b3e7b0446c88031df8344518e69',1,'tlx::btree']]],
   ['method_5fcaller',['method_caller',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a8ee077d9451e836a793fbbe1a9b6d422',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],
   ['min_5fsource',['min_source',['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreeCopyBase::min_source()'],['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreePointerBase::min_source()'],['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreeCopyUnguardedBase::min_source()'],['../group__tlx__data__structures__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d',1,'tlx::LoserTreePointerUnguardedBase::min_source()']]],
-  ['move_5fto',['move_to',['../classtlx_1_1RingBuffer.html#ac4eb8f7058fc153a56de3da92a8f4817',1,'tlx::RingBuffer']]]
+  ['move_5fto',['move_to',['../classtlx_1_1RingBuffer.html#ac4eb8f7058fc153a56de3da92a8f4817',1,'tlx::RingBuffer']]],
+  ['multikey_5fquicksort',['multikey_quicksort',['../namespacetlx_1_1sort__strings__detail.html#ad0cd093ac3afda49e9ce1c4c119bb7a9',1,'tlx::sort_strings_detail']]]
 ];
