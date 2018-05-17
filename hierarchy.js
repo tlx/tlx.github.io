@@ -17,10 +17,10 @@ var hierarchy =
       [ "CmdlineParser::ArgumentUnsigned", "structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html", null ]
     ] ],
     [ "binary_function", null, [
-      [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__local_1_1lexicographic.html", null ],
-      [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__local_1_1lexicographic__rev.html", null ],
-      [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__local_1_1lexicographic.html", null ],
-      [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__local_1_1lexicographic__rev.html", null ]
+      [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__detail_1_1lexicographic.html", null ],
+      [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__detail_1_1lexicographic__rev.html", null ],
+      [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__detail_1_1lexicographic.html", null ],
+      [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html", null ]
     ] ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >", "classtlx_1_1btree.html", null ],
     [ "btree< key_type, value_type, key_of_value, key_compare, traits, false, allocator_type >", "classtlx_1_1btree.html", null ],
@@ -30,8 +30,8 @@ var hierarchy =
     [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >", "classtlx_1_1btree__multimap.html", null ],
     [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >", "classtlx_1_1btree__multiset.html", null ],
     [ "btree_set< Key_, Compare_, Traits_, Alloc_ >", "classtlx_1_1btree__set.html", null ],
-    [ "CallForRangeImpl< Index, Size, Functor >", "classtlx_1_1detail_1_1CallForRangeImpl.html", null ],
-    [ "CallForRangeImpl< Index, 0, Functor >", "classtlx_1_1detail_1_1CallForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html", null ],
+    [ "CallForRangeImpl< Index, Size, Functor >", "classtlx_1_1meta__detail_1_1CallForRangeImpl.html", null ],
+    [ "CallForRangeImpl< Index, 0, Functor >", "classtlx_1_1meta__detail_1_1CallForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html", null ],
     [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::const_iterator", "classtlx_1_1btree_1_1const__iterator.html", null ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::const_reverse_iterator", "classtlx_1_1btree_1_1const__reverse__iterator.html", null ],
@@ -61,8 +61,8 @@ var hierarchy =
     [ "guarded_iterator< RandomAccessIterator, Comparator >", "classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html", null ],
     [ "index_sequence< Indexes >", "structtlx_1_1index__sequence.html", null ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::iterator", "classtlx_1_1btree_1_1iterator.html", null ],
-    [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", null ],
     [ "btree_set< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", null ],
+    [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", null ],
     [ "btree_map< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", null ],
     [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
     [ "Log2< Input >", "classtlx_1_1Log2.html", null ],
@@ -118,8 +118,8 @@ var hierarchy =
     [ "LoserTreeSwitch< Stable, ValueType, Comparator, Enable >", "classtlx_1_1LoserTreeSwitch.html", null ],
     [ "LruCacheMap< Key, Value, Alloc >", "classtlx_1_1LruCacheMap.html", null ],
     [ "LruCacheSet< Key, Alloc >", "classtlx_1_1LruCacheSet.html", null ],
-    [ "make_index_sequence_helper< CurrentIndex, Indexes >", "structtlx_1_1detail_1_1make__index__sequence__helper.html", null ],
-    [ "make_index_sequence_helper< 0, Indexes...>", "structtlx_1_1detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html", null ],
+    [ "make_index_sequence_helper< CurrentIndex, Indexes >", "structtlx_1_1meta__detail_1_1make__index__sequence__helper.html", null ],
+    [ "make_index_sequence_helper< 0, Indexes...>", "structtlx_1_1meta__detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html", null ],
     [ "MD5", "classtlx_1_1MD5.html", null ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::node", "structtlx_1_1btree_1_1node.html", [
       [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::inner_node", "structtlx_1_1btree_1_1inner__node.html", null ],
@@ -187,6 +187,6 @@ var hierarchy =
       [ "UPtrStdStringSet", "classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet.html", null ]
     ] ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::value_compare", "classtlx_1_1btree_1_1value__compare.html", null ],
-    [ "VMapForRangeImpl< Index, Size, Functor >", "classtlx_1_1detail_1_1VMapForRangeImpl.html", null ],
-    [ "VMapForRangeImpl< Index, 0, Functor >", "classtlx_1_1detail_1_1VMapForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html", null ]
+    [ "VMapForRangeImpl< Index, Size, Functor >", "classtlx_1_1meta__detail_1_1VMapForRangeImpl.html", null ],
+    [ "VMapForRangeImpl< Index, 0, Functor >", "classtlx_1_1meta__detail_1_1VMapForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html", null ]
 ];

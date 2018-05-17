@@ -1,13 +1,13 @@
 var group__tlx__algorithm =
 [
-    [ "multisequence_partition_local", "namespacetlx_1_1multisequence__partition__local.html", null ],
-    [ "multisequence_selection_local", "namespacetlx_1_1multisequence__selection__local.html", null ],
+    [ "multisequence_partition_detail", "namespacetlx_1_1multisequence__partition__detail.html", null ],
+    [ "multisequence_selection_detail", "namespacetlx_1_1multisequence__selection__detail.html", null ],
     [ "multiway_merge_detail", "namespacetlx_1_1multiway__merge__detail.html", null ],
     [ "MultiwayMergeAlgorithm", "group__tlx__algorithm.html#ga98e900a348b28aa3709eb5e6d897ffbb", [
-      [ "MWMA_BUBBLE", "group__tlx__algorithm.html#gga98e900a348b28aa3709eb5e6d897ffbba097e6877921551867e9681ff56411d10", null ],
       [ "MWMA_LOSER_TREE", "group__tlx__algorithm.html#gga98e900a348b28aa3709eb5e6d897ffbbac1488a90ba6e18d5f936e51cbc5625e1", null ],
       [ "MWMA_LOSER_TREE_COMBINED", "group__tlx__algorithm.html#gga98e900a348b28aa3709eb5e6d897ffbbadd051fbbe4e1346d6357c82d56add811", null ],
       [ "MWMA_LOSER_TREE_SENTINEL", "group__tlx__algorithm.html#gga98e900a348b28aa3709eb5e6d897ffbba8f020d718b11548f7d45b3d56fb37981", null ],
+      [ "MWMA_BUBBLE", "group__tlx__algorithm.html#gga98e900a348b28aa3709eb5e6d897ffbba097e6877921551867e9681ff56411d10", null ],
       [ "MWMA_ALGORITHM_LAST", "group__tlx__algorithm.html#gga98e900a348b28aa3709eb5e6d897ffbba9fbb6366507fb2f30a433c51366719b6", null ],
       [ "MWMA_ALGORITHM_DEFAULT", "group__tlx__algorithm.html#gga98e900a348b28aa3709eb5e6d897ffbba332bba921707cc62f6a682b8ac2c9013", null ]
     ] ],

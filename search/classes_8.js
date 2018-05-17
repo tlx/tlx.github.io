@@ -1,10 +1,10 @@
 var searchData=
 [
   ['leaf_5fnode',['leaf_node',['../structtlx_1_1btree_1_1leaf__node.html',1,'tlx::btree']]],
-  ['lexicographic',['lexicographic',['../classtlx_1_1multisequence__partition__local_1_1lexicographic.html',1,'tlx::multisequence_partition_local']]],
-  ['lexicographic',['lexicographic',['../classtlx_1_1multisequence__selection__local_1_1lexicographic.html',1,'tlx::multisequence_selection_local']]],
-  ['lexicographic_5frev',['lexicographic_rev',['../classtlx_1_1multisequence__partition__local_1_1lexicographic__rev.html',1,'tlx::multisequence_partition_local']]],
-  ['lexicographic_5frev',['lexicographic_rev',['../classtlx_1_1multisequence__selection__local_1_1lexicographic__rev.html',1,'tlx::multisequence_selection_local']]],
+  ['lexicographic',['lexicographic',['../classtlx_1_1multisequence__partition__detail_1_1lexicographic.html',1,'tlx::multisequence_partition_detail']]],
+  ['lexicographic',['lexicographic',['../classtlx_1_1multisequence__selection__detail_1_1lexicographic.html',1,'tlx::multisequence_selection_detail']]],
+  ['lexicographic_5frev',['lexicographic_rev',['../classtlx_1_1multisequence__partition__detail_1_1lexicographic__rev.html',1,'tlx::multisequence_partition_detail']]],
+  ['lexicographic_5frev',['lexicographic_rev',['../classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html',1,'tlx::multisequence_selection_detail']]],
   ['log2',['Log2',['../classtlx_1_1Log2.html',1,'tlx']]],
   ['log2_3c_200_20_3e',['Log2&lt; 0 &gt;',['../classtlx_1_1Log2_3_010_01_4.html',1,'tlx']]],
   ['log2_3c_201_20_3e',['Log2&lt; 1 &gt;',['../classtlx_1_1Log2_3_011_01_4.html',1,'tlx']]],

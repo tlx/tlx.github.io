@@ -2547,8 +2547,7 @@ Trim</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Join a vector of strings using a separator character. </p>
-<p>If any string contains the separator, quote the field. In the quoted string, escape all quotes, escapes, <br/>
-, ,  sequences. This is the opposite of <a class="el" href="group__tlx__string.html#gafc48ce717ba77df6c6f395fb07bc8a1e" title="Split the given string at each separator character into distinct substrings. ">split_quoted()</a>. </p>
+<p>If any string contains the separator, quote the field. In the quoted string, escape all quotes, escapes, \n, \r, \t sequences. This is the opposite of <a class="el" href="group__tlx__string.html#gafc48ce717ba77df6c6f395fb07bc8a1e" title="Split the given string at each separator character into distinct substrings. ">split_quoted()</a>. </p>
 
 <p>Definition at line <a class="el" href="join__quoted_8cpp_source.html#l00015">15</a> of file <a class="el" href="join__quoted_8cpp_source.html">join_quoted.cpp</a>.</p>
 
@@ -2569,8 +2568,7 @@ Trim</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Join a vector of strings using spaces as separator character. </p>
-<p>If any string contains a space, quote the field. In the quoted string, escape all quotes, escapes, <br/>
-, ,  sequences. This is the opposite of <a class="el" href="group__tlx__string.html#gafc48ce717ba77df6c6f395fb07bc8a1e" title="Split the given string at each separator character into distinct substrings. ">split_quoted()</a>. </p>
+<p>If any string contains a space, quote the field. In the quoted string, escape all quotes, escapes, \n, \r, \t sequences. This is the opposite of <a class="el" href="group__tlx__string.html#gafc48ce717ba77df6c6f395fb07bc8a1e" title="Split the given string at each separator character into distinct substrings. ">split_quoted()</a>. </p>
 
 <p>Definition at line <a class="el" href="join__quoted_8cpp_source.html#l00055">55</a> of file <a class="el" href="join__quoted_8cpp_source.html">join_quoted.cpp</a>.</p>
 
@@ -4427,8 +4425,7 @@ Trim</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Split the given string at each separator character into distinct substrings. </p>
-<p>Multiple separators are joined and will not result in empty split substrings. Quoted fields extend to the next quote. Quoted fields may containg escaped quote, and <br/>
-   \ sequences. </p>
+<p>Multiple separators are joined and will not result in empty split substrings. Quoted fields extend to the next quote. Quoted fields may containg escaped quote, and \n \r \t \\ sequences. </p>
 
 <p>Definition at line <a class="el" href="split__quoted_8cpp_source.html#l00018">18</a> of file <a class="el" href="split__quoted_8cpp_source.html">split_quoted.cpp</a>.</p>
 
@@ -4449,8 +4446,7 @@ Trim</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Split the given string at each space into distinct substrings. </p>
-<p>Multiple spaces are joined and will not result in empty split substrings. Quoted fields extend to the next quote. Quoted fields may containg escaped quote, and <br/>
-   \ sequences. </p>
+<p>Multiple spaces are joined and will not result in empty split substrings. Quoted fields extend to the next quote. Quoted fields may containg escaped quote, and \n \r \t \\ sequences. </p>
 
 <p>Definition at line <a class="el" href="split__quoted_8cpp_source.html#l00122">122</a> of file <a class="el" href="split__quoted_8cpp_source.html">split_quoted.cpp</a>.</p>
 
@@ -5467,7 +5463,7 @@ Trim</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 17 2018 12:45:35 for tlx by
+    <li class="footer">Generated on Thu May 17 2018 13:16:13 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

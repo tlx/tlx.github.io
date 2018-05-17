@@ -1,8 +1,8 @@
 var namespacetlx =
 [
-    [ "detail", "namespacetlx_1_1detail.html", "namespacetlx_1_1detail" ],
-    [ "multisequence_partition_local", "namespacetlx_1_1multisequence__partition__local.html", "namespacetlx_1_1multisequence__partition__local" ],
-    [ "multisequence_selection_local", "namespacetlx_1_1multisequence__selection__local.html", "namespacetlx_1_1multisequence__selection__local" ],
+    [ "meta_detail", "namespacetlx_1_1meta__detail.html", "namespacetlx_1_1meta__detail" ],
+    [ "multisequence_partition_detail", "namespacetlx_1_1multisequence__partition__detail.html", "namespacetlx_1_1multisequence__partition__detail" ],
+    [ "multisequence_selection_detail", "namespacetlx_1_1multisequence__selection__detail.html", "namespacetlx_1_1multisequence__selection__detail" ],
     [ "multiway_merge_detail", "namespacetlx_1_1multiway__merge__detail.html", "namespacetlx_1_1multiway__merge__detail" ],
     [ "sort_strings_detail", "namespacetlx_1_1sort__strings__detail.html", "namespacetlx_1_1sort__strings__detail" ],
     [ "AllocatorBase", "classtlx_1_1AllocatorBase.html", "classtlx_1_1AllocatorBase" ],

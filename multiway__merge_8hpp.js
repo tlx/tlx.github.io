@@ -8,10 +8,10 @@ var multiway__merge_8hpp =
     [ "TLX_POS", "multiway__merge_8hpp.html#aaed922dd2b60924d07d50c0251159ad7", null ],
     [ "TLX_STOPS", "multiway__merge_8hpp.html#a58dd81b56a49d64efae2b543746d0dce", null ],
     [ "MultiwayMergeAlgorithm", "multiway__merge_8hpp.html#ga98e900a348b28aa3709eb5e6d897ffbb", [
-      [ "MWMA_BUBBLE", "multiway__merge_8hpp.html#gga98e900a348b28aa3709eb5e6d897ffbba097e6877921551867e9681ff56411d10", null ],
       [ "MWMA_LOSER_TREE", "multiway__merge_8hpp.html#gga98e900a348b28aa3709eb5e6d897ffbbac1488a90ba6e18d5f936e51cbc5625e1", null ],
       [ "MWMA_LOSER_TREE_COMBINED", "multiway__merge_8hpp.html#gga98e900a348b28aa3709eb5e6d897ffbbadd051fbbe4e1346d6357c82d56add811", null ],
       [ "MWMA_LOSER_TREE_SENTINEL", "multiway__merge_8hpp.html#gga98e900a348b28aa3709eb5e6d897ffbba8f020d718b11548f7d45b3d56fb37981", null ],
+      [ "MWMA_BUBBLE", "multiway__merge_8hpp.html#gga98e900a348b28aa3709eb5e6d897ffbba097e6877921551867e9681ff56411d10", null ],
       [ "MWMA_ALGORITHM_LAST", "multiway__merge_8hpp.html#gga98e900a348b28aa3709eb5e6d897ffbba9fbb6366507fb2f30a433c51366719b6", null ],
       [ "MWMA_ALGORITHM_DEFAULT", "multiway__merge_8hpp.html#gga98e900a348b28aa3709eb5e6d897ffbba332bba921707cc62f6a682b8ac2c9013", null ]
     ] ],

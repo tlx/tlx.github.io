@@ -1,6 +1,6 @@
 var group__tlx__meta =
 [
-    [ "detail", "namespacetlx_1_1detail.html", null ],
+    [ "meta_detail", "namespacetlx_1_1meta__detail.html", null ],
     [ "FunctionChain", "classtlx_1_1FunctionChain.html", [
       [ "FunctionChain", "classtlx_1_1FunctionChain.html#a46bd07dd339af54250e82936fe9bb992", null ],
       [ "FunctionChain", "classtlx_1_1FunctionChain.html#aca53db38c24e6b401b249d7596e7d677", null ],

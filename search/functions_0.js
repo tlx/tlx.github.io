@@ -38,7 +38,7 @@ var searchData=
   ['allocate_5fleaf',['allocate_leaf',['../classtlx_1_1btree.html#ae1811ff9998b4839190d15bfc9d03bf9',1,'tlx::btree']]],
   ['append_5flog_5fline',['append_log_line',['../classtlx_1_1DefaultLoggerOutput.html#a20e4b738f8e1e364a9ac3615a836c819',1,'tlx::DefaultLoggerOutput::append_log_line()'],['../classtlx_1_1LoggerOutputHook.html#a91222349e5edab8ea5b17b81c9a1fe30',1,'tlx::LoggerOutputHook::append_log_line()'],['../classtlx_1_1LoggerCollectOutput.html#a20e4b738f8e1e364a9ac3615a836c819',1,'tlx::LoggerCollectOutput::append_log_line()']]],
   ['apply_5ftuple',['apply_tuple',['../group__tlx__meta.html#ga697505eebc05040893022611ce8866c1',1,'tlx']]],
-  ['apply_5ftuple_5fimpl',['apply_tuple_impl',['../namespacetlx_1_1detail.html#ad9746dc2ad8271c539cc24ca9f840dcd',1,'tlx::detail']]],
+  ['apply_5ftuple_5fimpl',['apply_tuple_impl',['../namespacetlx_1_1meta__detail.html#aa96f0044001096216aceae77cd330eaa',1,'tlx::meta_detail']]],
   ['argument',['Argument',['../structtlx_1_1CmdlineParser_1_1Argument.html#ad2a14c07a619f29094a7c1adcbb776ba',1,'tlx::CmdlineParser::Argument']]],
   ['argumentbool',['ArgumentBool',['../structtlx_1_1CmdlineParser_1_1ArgumentBool.html#a9db1ea384594ee66e67d6765bcce9116',1,'tlx::CmdlineParser::ArgumentBool']]],
   ['argumentbytes32',['ArgumentBytes32',['../structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html#a011726dd2e68540a38b0b5788fca14e2',1,'tlx::CmdlineParser::ArgumentBytes32']]],
