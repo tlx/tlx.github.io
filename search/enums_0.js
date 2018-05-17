@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['result_5fflags_5ft',['result_flags_t',['../classtlx_1_1btree.html#a3a617d72a0b84dcbdf111d1fe19ec0b5',1,'tlx::btree']]]
+  ['multiwaymergealgorithm',['MultiwayMergeAlgorithm',['../group__tlx__algorithm.html#ga98e900a348b28aa3709eb5e6d897ffbb',1,'tlx']]],
+  ['multiwaymergesplittingalgorithm',['MultiwayMergeSplittingAlgorithm',['../group__tlx__algorithm.html#ga8a7342a22bda2a80ef56d779ceae36c0',1,'tlx']]]
 ];

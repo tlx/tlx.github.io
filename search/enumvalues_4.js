@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['radix',['RADIX',['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html#a726ca809ffd3d67ab4b8476646f26635a9a4084441c1568887684a4e6acc91948',1,'tlx::sort_strings_detail::RadixStep_CE3::RADIX()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#a0411cd49bb5b71852cecd93bcbf0ca2da9a4084441c1568887684a4e6acc91948',1,'tlx::sort_strings_detail::RadixStep_CI3::RADIX()']]]
+  ['noinitbutdestroy',['NoInitButDestroy',['../group__tlx__data__structures.html#gga07f67904ca9d31961dc022100101c358a96726bf24e630d03d0f4e5715e9fd097',1,'tlx']]],
+  ['noinitnodestroy',['NoInitNoDestroy',['../group__tlx__data__structures.html#gga07f67904ca9d31961dc022100101c358a60008b87abd54104caffab5779ea7244',1,'tlx']]],
+  ['normal',['Normal',['../group__tlx__data__structures.html#gga07f67904ca9d31961dc022100101c358a960b44c579bc2f6818d2daaf9e4c16f0',1,'tlx']]]
 ];

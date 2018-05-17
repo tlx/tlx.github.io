@@ -238,7 +238,7 @@ $(document).ready(function(){initNavTree('delegate_8hpp_source.html','');});
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment">    //! constructor from a plain function pointer with no object.</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a7246e9785aac2f8d1a62107032b1bd19">  124</a></span>&#160;<span class="comment"></span>    <span class="keyword">explicit</span> <a class="code" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a7246e9785aac2f8d1a62107032b1bd19">Delegate</a>(R (*<span class="keyword">const</span> function_ptr)(A...)) noexcept</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        : <a class="code" href="classtlx_1_1Delegate.html">Delegate</a>(function_ptr_caller,</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                   * reinterpret_cast&lt;<span class="keywordtype">void</span>* const*&gt;(&amp;function_ptr)) { }</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                   *reinterpret_cast&lt;<span class="keywordtype">void</span>* const*&gt;(&amp;function_ptr)) { }</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    static_assert(<span class="keyword">sizeof</span>(<span class="keywordtype">void</span>*) == <span class="keyword">sizeof</span>(<span class="keywordtype">void</span> (*)(<span class="keywordtype">void</span>)),</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                  <span class="stringliteral">&quot;object pointer and function pointer sizes must equal&quot;</span>);</div>
@@ -490,13 +490,13 @@ $(document).ready(function(){initNavTree('delegate_8hpp_source.html','');});
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;<span class="comment">    //! method_ptr)</span></div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;<span class="comment"></span>    <span class="keyword">template</span> &lt;<span class="keyword">class</span> C&gt;</div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="keyword">using</span> MemberPair =</div>
-<div class="line"><a name="l00378"></a><span class="lineno"><a class="line" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ae8ce671297822c7617191eef0b7eb987">  378</a></span>&#160;              std::pair&lt;C* <span class="keyword">const</span>, R(C::* <span class="keyword">const</span>)(A...)&gt;;</div>
+<div class="line"><a name="l00378"></a><span class="lineno"><a class="line" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ae8ce671297822c7617191eef0b7eb987">  378</a></span>&#160;        std::pair&lt;C* <span class="keyword">const</span>, R(C::* <span class="keyword">const</span>)(A...)&gt;;</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="comment">    //! wrappers for indirect const class::method calls containing (object,</span></div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="comment">    //! const method_ptr)</span></div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="comment"></span>    <span class="keyword">template</span> &lt;<span class="keyword">class</span> C&gt;</div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <span class="keyword">using</span> <a class="code" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ad3faaca58812b7d86b60dd18e49869de">ConstMemberPair</a> =</div>
-<div class="line"><a name="l00384"></a><span class="lineno"><a class="line" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ad3faaca58812b7d86b60dd18e49869de">  384</a></span>&#160;              std::pair&lt;C <span class="keyword">const</span>* <span class="keyword">const</span>, R(C::* <span class="keyword">const</span>)(A...) <span class="keyword">const</span>&gt;;</div>
+<div class="line"><a name="l00384"></a><span class="lineno"><a class="line" href="classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#ad3faaca58812b7d86b60dd18e49869de">  384</a></span>&#160;        std::pair&lt;C <span class="keyword">const</span>* <span class="keyword">const</span>, R(C::* <span class="keyword">const</span>)(A...) <span class="keyword">const</span>&gt;;</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<span class="comment">    //! template for class::function selector</span></div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;<span class="comment"></span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span>&gt;</div>
@@ -619,7 +619,7 @@ $(document).ready(function(){initNavTree('delegate_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="delegate_8hpp.html">delegate.hpp</a></li>
-    <li class="footer">Generated on Tue May 15 2018 17:38:16 for tlx by
+    <li class="footer">Generated on Thu May 17 2018 12:45:34 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

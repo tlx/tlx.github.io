@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['simplevectormode',['SimpleVectorMode',['../group__tlx__data__structures.html#ga07f67904ca9d31961dc022100101c358',1,'tlx']]]
+  ['result_5fflags_5ft',['result_flags_t',['../classtlx_1_1btree.html#a3a617d72a0b84dcbdf111d1fe19ec0b5',1,'tlx::btree']]]
 ];

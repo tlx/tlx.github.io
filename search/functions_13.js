@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['unguarded_5fiterator',['unguarded_iterator',['../classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a5f99bf4b86b28107056431c0ac7bffca',1,'tlx::multiway_merge_detail::unguarded_iterator']]],
   ['unify',['unify',['../classtlx_1_1CountingPtr.html#a28653b45bfba9a4135bc0c5903a45c4e',1,'tlx::CountingPtr']]],
   ['union_5fwords',['union_words',['../group__tlx__string.html#ga39619db78c7e916bff3544fb07cbe462',1,'tlx']]],
   ['unique',['unique',['../classtlx_1_1CountingPtr.html#a17f79efcc0f2e0d5cb9afcdee013e64c',1,'tlx::CountingPtr::unique()'],['../classtlx_1_1ReferenceCounter.html#a17f79efcc0f2e0d5cb9afcdee013e64c',1,'tlx::ReferenceCounter::unique()']]],

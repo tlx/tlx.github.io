@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('apply__tuple_8hpp_source.html','');});
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment"></span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Functor, <span class="keyword">typename</span> Tuple&gt;</div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="group__tlx__meta.html#ga697505eebc05040893022611ce8866c1">   40</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="group__tlx__meta.html#ga697505eebc05040893022611ce8866c1">apply_tuple</a>(Functor&amp;&amp; f, Tuple&amp;&amp; t) {</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">using</span> Indices = <a class="code" href="structtlx_1_1make__index__sequence.html">make_index_sequence</a>&lt;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;              std::tuple_size&lt;typename std::decay&lt;Tuple&gt;::type&gt;::value&gt;;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        std::tuple_size&lt;typename std::decay&lt;Tuple&gt;::type&gt;::value&gt;;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespacetlx_1_1detail.html#ad9746dc2ad8271c539cc24ca9f840dcd">detail::apply_tuple_impl</a>(</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        std::forward&lt;Functor&gt;(f), std::forward&lt;Tuple&gt;(t), Indices());</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('apply__tuple_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_8ac7dfc841f33a5da7c5dfc5610caf4f.html">meta</a></li><li class="navelem"><a class="el" href="apply__tuple_8hpp.html">apply_tuple.hpp</a></li>
-    <li class="footer">Generated on Tue May 15 2018 17:38:16 for tlx by
+    <li class="footer">Generated on Thu May 17 2018 12:45:34 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

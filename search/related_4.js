@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stackallocator',['StackAllocator',['../classtlx_1_1StackAllocator.html#a3135ad9d83db302cce8b0ea1a24acb7f',1,'tlx::StackAllocator']]]
+  ['reverse_5fiterator',['reverse_iterator',['../classtlx_1_1btree_1_1iterator.html#af0a70641f2216cc31420487a62dd3b0d',1,'tlx::btree::iterator::reverse_iterator()'],['../classtlx_1_1btree_1_1const__reverse__iterator.html#af0a70641f2216cc31420487a62dd3b0d',1,'tlx::btree::const_reverse_iterator::reverse_iterator()']]]
 ];

@@ -16,6 +16,12 @@ var hierarchy =
       [ "CmdlineParser::ArgumentStringlist", "structtlx_1_1CmdlineParser_1_1ArgumentStringlist.html", null ],
       [ "CmdlineParser::ArgumentUnsigned", "structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html", null ]
     ] ],
+    [ "binary_function", null, [
+      [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__local_1_1lexicographic.html", null ],
+      [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__local_1_1lexicographic__rev.html", null ],
+      [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__local_1_1lexicographic.html", null ],
+      [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__local_1_1lexicographic__rev.html", null ]
+    ] ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >", "classtlx_1_1btree.html", null ],
     [ "btree< key_type, value_type, key_of_value, key_compare, traits, false, allocator_type >", "classtlx_1_1btree.html", null ],
     [ "btree< key_type, value_type, key_of_value, key_compare, traits, true, allocator_type >", "classtlx_1_1btree.html", null ],
@@ -52,12 +58,13 @@ var hierarchy =
     [ "GenericCharStringSetTraits< CharType >", "classtlx_1_1sort__strings__detail_1_1GenericCharStringSetTraits.html", [
       [ "GenericCharStringSet< CharType >", "classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html", null ]
     ] ],
+    [ "guarded_iterator< RandomAccessIterator, Comparator >", "classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html", null ],
     [ "index_sequence< Indexes >", "structtlx_1_1index__sequence.html", null ],
     [ "btree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::iterator", "classtlx_1_1btree_1_1iterator.html", null ],
     [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", null ],
-    [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
     [ "btree_set< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", null ],
     [ "btree_map< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", null ],
+    [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
     [ "Log2< Input >", "classtlx_1_1Log2.html", null ],
     [ "Log2< 0 >", "classtlx_1_1Log2_3_010_01_4.html", null ],
     [ "Log2< 1 >", "classtlx_1_1Log2_3_011_01_4.html", null ],
@@ -175,6 +182,7 @@ var hierarchy =
     [ "type", null, [
       [ "make_index_sequence< Size >", "structtlx_1_1make__index__sequence.html", null ]
     ] ],
+    [ "unguarded_iterator< RandomAccessIterator, Comparator >", "classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html", null ],
     [ "UPtrStdStringSetTraits", "classtlx_1_1sort__strings__detail_1_1UPtrStdStringSetTraits.html", [
       [ "UPtrStdStringSet", "classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet.html", null ]
     ] ],
