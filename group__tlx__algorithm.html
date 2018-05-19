@@ -106,7 +106,8 @@ $(document).ready(function(){initNavTree('group__tlx__algorithm.html','');});
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Algorithms<div class="ingroups"><a class="el" href="group__tlx.html">tlx - C++ Extensions and Utilities</a></div></div>  </div>
 </div><!--header-->
@@ -204,10 +205,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gac2db163874c1c8e389c2736a72decb5f"><td class="memTemplItemLeft" align="right" valign="top">RandomAccessIterator3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gac2db163874c1c8e389c2736a72decb5f">stable_multiway_merge_sentinels</a> (RandomAccessIteratorIterator seqs_begin, RandomAccessIteratorIterator seqs_end, RandomAccessIterator3 target, typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type size, Comparator comp=Comparator(), MultiwayMergeAlgorithm mwma=MWMA_ALGORITHM_DEFAULT)</td></tr>
 <tr class="memdesc:gac2db163874c1c8e389c2736a72decb5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stable sequential multi-way merge with sentinels in sequences.  <a href="#gac2db163874c1c8e389c2736a72decb5f">More...</a><br/></td></tr>
 <tr class="separator:gac2db163874c1c8e389c2736a72decb5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga741ea27fd808fe2bac3f2a596e020a33"><td class="memTemplParams" colspan="2">template&lt;bool Stable, typename RandomAccessIteratorIterator , typename Comparator &gt; </td></tr>
-<tr class="memitem:ga741ea27fd808fe2bac3f2a596e020a33"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#ga741ea27fd808fe2bac3f2a596e020a33">multiway_merge_sampling_splitting</a> (const RandomAccessIteratorIterator &amp;seqs_begin, const RandomAccessIteratorIterator &amp;seqs_end, typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type size, typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type total_size, Comparator comp, std::vector&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type &gt; *chunks, const size_t num_threads, const size_t merge_oversampling=10)</td></tr>
-<tr class="memdesc:ga741ea27fd808fe2bac3f2a596e020a33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splitting method for parallel multi-way merge routine: use sampling and binary search for in-exact splitting.  <a href="#ga741ea27fd808fe2bac3f2a596e020a33">More...</a><br/></td></tr>
-<tr class="separator:ga741ea27fd808fe2bac3f2a596e020a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc54aa6bde4767b7ccf503674494494b"><td class="memTemplParams" colspan="2">template&lt;bool Stable, typename RandomAccessIteratorIterator , typename Comparator &gt; </td></tr>
+<tr class="memitem:gacc54aa6bde4767b7ccf503674494494b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gacc54aa6bde4767b7ccf503674494494b">multiway_merge_sampling_splitting</a> (const RandomAccessIteratorIterator &amp;seqs_begin, const RandomAccessIteratorIterator &amp;seqs_end, typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type size, typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type total_size, Comparator comp, std::vector&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type &gt; *chunks, const size_t num_threads, const size_t merge_oversampling)</td></tr>
+<tr class="memdesc:gacc54aa6bde4767b7ccf503674494494b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splitting method for parallel multi-way merge routine: use sampling and binary search for in-exact splitting.  <a href="#gacc54aa6bde4767b7ccf503674494494b">More...</a><br/></td></tr>
+<tr class="separator:gacc54aa6bde4767b7ccf503674494494b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6211397a04bfb4f213fceb2ae79f3ba1"><td class="memTemplParams" colspan="2">template&lt;bool Stable, typename RandomAccessIteratorIterator , typename Comparator &gt; </td></tr>
 <tr class="memitem:ga6211397a04bfb4f213fceb2ae79f3ba1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#ga6211397a04bfb4f213fceb2ae79f3ba1">multiway_merge_exact_splitting</a> (const RandomAccessIteratorIterator &amp;seqs_begin, const RandomAccessIteratorIterator &amp;seqs_end, typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type size, typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type total_size, Comparator comp, std::vector&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type &gt; *chunks, const size_t num_threads)</td></tr>
 <tr class="memdesc:ga6211397a04bfb4f213fceb2ae79f3ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splitting method for parallel multi-way merge routine: use multisequence selection for exact splitting.  <a href="#ga6211397a04bfb4f213fceb2ae79f3ba1">More...</a><br/></td></tr>
@@ -222,8 +223,34 @@ Functions</h2></td></tr>
 <tr class="separator:gac3580dd876ff80d088499292a12d2fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae6f27252c44641af08a7297588ab1e6b"><td class="memTemplParams" colspan="2">template&lt;typename RandomAccessIteratorIterator , typename RandomAccessIterator3 , typename Comparator  = std::less&lt;        typename std::iterator_traits&lt;            typename std::iterator_traits&lt;RandomAccessIteratorIterator&gt;            ::value_type::first_type&gt;::value_type&gt;&gt; </td></tr>
 <tr class="memitem:gae6f27252c44641af08a7297588ab1e6b"><td class="memTemplItemLeft" align="right" valign="top">RandomAccessIterator3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gae6f27252c44641af08a7297588ab1e6b">stable_parallel_multiway_merge</a> (RandomAccessIteratorIterator seqs_begin, RandomAccessIteratorIterator seqs_end, RandomAccessIterator3 target, const typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type size, Comparator comp=Comparator(), MultiwayMergeAlgorithm mwma=MWMA_ALGORITHM_DEFAULT, MultiwayMergeSplittingAlgorithm mwmsa=MWMSA_DEFAULT, size_t num_threads=std::thread::hardware_concurrency())</td></tr>
-<tr class="memdesc:gae6f27252c44641af08a7297588ab1e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel multi-way merge routine.  <a href="#gae6f27252c44641af08a7297588ab1e6b">More...</a><br/></td></tr>
+<tr class="memdesc:gae6f27252c44641af08a7297588ab1e6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stable parallel multi-way merge routine.  <a href="#gae6f27252c44641af08a7297588ab1e6b">More...</a><br/></td></tr>
 <tr class="separator:gae6f27252c44641af08a7297588ab1e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf080f97856fc44ecf724cb8693a0e62e"><td class="memTemplParams" colspan="2">template&lt;typename RandomAccessIteratorIterator , typename RandomAccessIterator3 , typename Comparator  = std::less&lt;        typename std::iterator_traits&lt;            typename std::iterator_traits&lt;RandomAccessIteratorIterator&gt;            ::value_type::first_type&gt;::value_type&gt;&gt; </td></tr>
+<tr class="memitem:gaf080f97856fc44ecf724cb8693a0e62e"><td class="memTemplItemLeft" align="right" valign="top">RandomAccessIterator3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gaf080f97856fc44ecf724cb8693a0e62e">parallel_multiway_merge_sentinels</a> (RandomAccessIteratorIterator seqs_begin, RandomAccessIteratorIterator seqs_end, RandomAccessIterator3 target, const typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type size, Comparator comp=Comparator(), MultiwayMergeAlgorithm mwma=MWMA_ALGORITHM_DEFAULT, MultiwayMergeSplittingAlgorithm mwmsa=MWMSA_DEFAULT, size_t num_threads=std::thread::hardware_concurrency())</td></tr>
+<tr class="memdesc:gaf080f97856fc44ecf724cb8693a0e62e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel multi-way merge routine with sentinels.  <a href="#gaf080f97856fc44ecf724cb8693a0e62e">More...</a><br/></td></tr>
+<tr class="separator:gaf080f97856fc44ecf724cb8693a0e62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae1bcd8deadd96750e476982b2d572fcf"><td class="memTemplParams" colspan="2">template&lt;typename RandomAccessIteratorIterator , typename RandomAccessIterator3 , typename Comparator  = std::less&lt;        typename std::iterator_traits&lt;            typename std::iterator_traits&lt;RandomAccessIteratorIterator&gt;            ::value_type::first_type&gt;::value_type&gt;&gt; </td></tr>
+<tr class="memitem:gae1bcd8deadd96750e476982b2d572fcf"><td class="memTemplItemLeft" align="right" valign="top">RandomAccessIterator3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gae1bcd8deadd96750e476982b2d572fcf">stable_parallel_multiway_merge_sentinels</a> (RandomAccessIteratorIterator seqs_begin, RandomAccessIteratorIterator seqs_end, RandomAccessIterator3 target, const typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type size, Comparator comp=Comparator(), MultiwayMergeAlgorithm mwma=MWMA_ALGORITHM_DEFAULT, MultiwayMergeSplittingAlgorithm mwmsa=MWMSA_DEFAULT, size_t num_threads=std::thread::hardware_concurrency())</td></tr>
+<tr class="memdesc:gae1bcd8deadd96750e476982b2d572fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stable parallel multi-way merge routine with sentinels.  <a href="#gae1bcd8deadd96750e476982b2d572fcf">More...</a><br/></td></tr>
+<tr class="separator:gae1bcd8deadd96750e476982b2d572fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:gaee58bcd5ecf83c8fde2fdfcb4645a91c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gaee58bcd5ecf83c8fde2fdfcb4645a91c">parallel_multiway_merge_force_sequential</a></td></tr>
+<tr class="memdesc:gaee58bcd5ecf83c8fde2fdfcb4645a91c"><td class="mdescLeft">&#160;</td><td class="mdescRight">setting to force all <a class="el" href="group__tlx__algorithm.html#gac3580dd876ff80d088499292a12d2fbe" title="Parallel multi-way merge routine. ">parallel_multiway_merge()</a> calls to run sequentially  <a href="#gaee58bcd5ecf83c8fde2fdfcb4645a91c">More...</a><br/></td></tr>
+<tr class="separator:gaee58bcd5ecf83c8fde2fdfcb4645a91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8345e9f64e776708ff06090e0480f9ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#ga8345e9f64e776708ff06090e0480f9ae">parallel_multiway_merge_force_parallel</a></td></tr>
+<tr class="memdesc:ga8345e9f64e776708ff06090e0480f9ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">setting to force <a class="el" href="group__tlx__algorithm.html#gac3580dd876ff80d088499292a12d2fbe" title="Parallel multi-way merge routine. ">parallel_multiway_merge()</a> calls to run with parallel code  <a href="#ga8345e9f64e776708ff06090e0480f9ae">More...</a><br/></td></tr>
+<tr class="separator:ga8345e9f64e776708ff06090e0480f9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3fec55f066eef8bab8e18da604f978f0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#ga3fec55f066eef8bab8e18da604f978f0">parallel_multiway_merge_minimal_k</a></td></tr>
+<tr class="memdesc:ga3fec55f066eef8bab8e18da604f978f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimal number of sequences for switching to parallel merging  <a href="#ga3fec55f066eef8bab8e18da604f978f0">More...</a><br/></td></tr>
+<tr class="separator:ga3fec55f066eef8bab8e18da604f978f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga13c75c629afda60aa74bfc46239c977c"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#ga13c75c629afda60aa74bfc46239c977c">parallel_multiway_merge_minimal_n</a></td></tr>
+<tr class="memdesc:ga13c75c629afda60aa74bfc46239c977c"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimal number of items for switching to parallel merging  <a href="#ga13c75c629afda60aa74bfc46239c977c">More...</a><br/></td></tr>
+<tr class="separator:ga13c75c629afda60aa74bfc46239c977c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0a0a9b421b4afc71557597aa03874b4d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#ga0a0a9b421b4afc71557597aa03874b4d">parallel_multiway_merge_oversampling</a></td></tr>
+<tr class="memdesc:ga0a0a9b421b4afc71557597aa03874b4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">default oversampling factor for parallel_multiway_merge  <a href="#ga0a0a9b421b4afc71557597aa03874b4d">More...</a><br/></td></tr>
+<tr class="separator:ga0a0a9b421b4afc71557597aa03874b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Algorithms for iterators and ranges. </p>
@@ -280,7 +307,7 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="parallel__multiway__merge_8hpp_source.html#l00041">41</a> of file <a class="el" href="parallel__multiway__merge_8hpp_source.html">parallel_multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge__splitting_8hpp_source.html#l00035">35</a> of file <a class="el" href="multiway__merge__splitting_8hpp_source.html">multiway_merge_splitting.hpp</a>.</p>
 
 </div>
 </div>
@@ -1024,11 +1051,11 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
 
-<p>Definition at line <a class="el" href="multiway__merge__splitting_8hpp_source.html#l00178">178</a> of file <a class="el" href="multiway__merge__splitting_8hpp_source.html">multiway_merge_splitting.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge__splitting_8hpp_source.html#l00188">188</a> of file <a class="el" href="multiway__merge__splitting_8hpp_source.html">multiway_merge_splitting.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ga741ea27fd808fe2bac3f2a596e020a33"></a>
+<a class="anchor" id="gacc54aa6bde4767b7ccf503674494494b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1078,7 +1105,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const size_t&#160;</td>
-          <td class="paramname"><em>merge_oversampling</em> = <code>10</code>&#160;</td>
+          <td class="paramname"><em>merge_oversampling</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1110,7 +1137,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
 
-<p>Definition at line <a class="el" href="multiway__merge__splitting_8hpp_source.html#l00082">82</a> of file <a class="el" href="multiway__merge__splitting_8hpp_source.html">multiway_merge_splitting.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge__splitting_8hpp_source.html#l00092">92</a> of file <a class="el" href="multiway__merge__splitting_8hpp_source.html">multiway_merge_splitting.hpp</a>.</p>
 
 </div>
 </div>
@@ -1263,7 +1290,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
 
-<p>Definition at line <a class="el" href="parallel__multiway__merge_8hpp_source.html#l00222">222</a> of file <a class="el" href="parallel__multiway__merge_8hpp_source.html">parallel_multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="parallel__multiway__merge_8hpp_source.html#l00228">228</a> of file <a class="el" href="parallel__multiway__merge_8hpp_source.html">parallel_multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -1350,7 +1377,94 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
 
-<p>Definition at line <a class="el" href="parallel__multiway__merge_8hpp_source.html#l00074">74</a> of file <a class="el" href="parallel__multiway__merge_8hpp_source.html">parallel_multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="parallel__multiway__merge_8hpp_source.html#l00067">67</a> of file <a class="el" href="parallel__multiway__merge_8hpp_source.html">parallel_multiway_merge.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaf080f97856fc44ecf724cb8693a0e62e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RandomAccessIterator3 tlx::parallel_multiway_merge_sentinels </td>
+          <td>(</td>
+          <td class="paramtype">RandomAccessIteratorIterator&#160;</td>
+          <td class="paramname"><em>seqs_begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomAccessIteratorIterator&#160;</td>
+          <td class="paramname"><em>seqs_end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomAccessIterator3&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparator&#160;</td>
+          <td class="paramname"><em>comp</em> = <code>Comparator()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MultiwayMergeAlgorithm&#160;</td>
+          <td class="paramname"><em>mwma</em> = <code>MWMA_ALGORITHM_DEFAULT</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MultiwayMergeSplittingAlgorithm&#160;</td>
+          <td class="paramname"><em>mwmsa</em> = <code>MWMSA_DEFAULT</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_threads</em> = <code>std::thread::hardware_concurrency()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parallel multi-way merge routine with sentinels. </p>
+<p>Implemented either using OpenMP or with std::threads, depending on if compiled with -fopenmp or not. The OpenMP version uses the implicit thread pool, which is faster when using this method often.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seqs_begin</td><td>Begin iterator of iterator pair input sequence. </td></tr>
+    <tr><td class="paramname">seqs_end</td><td>End iterator of iterator pair input sequence. </td></tr>
+    <tr><td class="paramname">target</td><td>Begin iterator out output sequence. </td></tr>
+    <tr><td class="paramname">size</td><td>Maximum size to merge. </td></tr>
+    <tr><td class="paramname">comp</td><td>Comparator. </td></tr>
+    <tr><td class="paramname">mwma</td><td>MultiwayMergeAlgorithm set to use. </td></tr>
+    <tr><td class="paramname">mwmsa</td><td>MultiwayMergeSplittingAlgorithm to use. </td></tr>
+    <tr><td class="paramname">num_threads</td><td>Number of threads to use (defaults to all cores) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Stable</td><td>Stable merging incurs a performance penalty. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
+
+<p>Definition at line <a class="el" href="parallel__multiway__merge_8hpp_source.html#l00342">342</a> of file <a class="el" href="parallel__multiway__merge_8hpp_source.html">parallel_multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -1546,7 +1660,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Parallel multi-way merge routine. </p>
+<p>Stable parallel multi-way merge routine. </p>
 <p>Implemented either using OpenMP or with std::threads, depending on if compiled with -fopenmp or not. The OpenMP version uses the implicit thread pool, which is faster when using this method often.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1569,7 +1683,175 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
 
-<p>Definition at line <a class="el" href="parallel__multiway__merge_8hpp_source.html#l00264">264</a> of file <a class="el" href="parallel__multiway__merge_8hpp_source.html">parallel_multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="parallel__multiway__merge_8hpp_source.html#l00285">285</a> of file <a class="el" href="parallel__multiway__merge_8hpp_source.html">parallel_multiway_merge.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gae1bcd8deadd96750e476982b2d572fcf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RandomAccessIterator3 tlx::stable_parallel_multiway_merge_sentinels </td>
+          <td>(</td>
+          <td class="paramtype">RandomAccessIteratorIterator&#160;</td>
+          <td class="paramname"><em>seqs_begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomAccessIteratorIterator&#160;</td>
+          <td class="paramname"><em>seqs_end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomAccessIterator3&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparator&#160;</td>
+          <td class="paramname"><em>comp</em> = <code>Comparator()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MultiwayMergeAlgorithm&#160;</td>
+          <td class="paramname"><em>mwma</em> = <code>MWMA_ALGORITHM_DEFAULT</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MultiwayMergeSplittingAlgorithm&#160;</td>
+          <td class="paramname"><em>mwmsa</em> = <code>MWMSA_DEFAULT</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_threads</em> = <code>std::thread::hardware_concurrency()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stable parallel multi-way merge routine with sentinels. </p>
+<p>Implemented either using OpenMP or with std::threads, depending on if compiled with -fopenmp or not. The OpenMP version uses the implicit thread pool, which is faster when using this method often.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">seqs_begin</td><td>Begin iterator of iterator pair input sequence. </td></tr>
+    <tr><td class="paramname">seqs_end</td><td>End iterator of iterator pair input sequence. </td></tr>
+    <tr><td class="paramname">target</td><td>Begin iterator out output sequence. </td></tr>
+    <tr><td class="paramname">size</td><td>Maximum size to merge. </td></tr>
+    <tr><td class="paramname">comp</td><td>Comparator. </td></tr>
+    <tr><td class="paramname">mwma</td><td>MultiwayMergeAlgorithm set to use. </td></tr>
+    <tr><td class="paramname">mwmsa</td><td>MultiwayMergeSplittingAlgorithm to use. </td></tr>
+    <tr><td class="paramname">num_threads</td><td>Number of threads to use (defaults to all cores) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Stable</td><td>Stable merging incurs a performance penalty. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
+
+<p>Definition at line <a class="el" href="parallel__multiway__merge_8hpp_source.html#l00399">399</a> of file <a class="el" href="parallel__multiway__merge_8hpp_source.html">parallel_multiway_merge.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ga8345e9f64e776708ff06090e0480f9ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool parallel_multiway_merge_force_parallel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setting to force <a class="el" href="group__tlx__algorithm.html#gac3580dd876ff80d088499292a12d2fbe" title="Parallel multi-way merge routine. ">parallel_multiway_merge()</a> calls to run with parallel code </p>
+
+<p>Definition at line <a class="el" href="parallel__multiway__merge_8cpp_source.html#l00029">29</a> of file <a class="el" href="parallel__multiway__merge_8cpp_source.html">parallel_multiway_merge.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaee58bcd5ecf83c8fde2fdfcb4645a91c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool parallel_multiway_merge_force_sequential</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setting to force all <a class="el" href="group__tlx__algorithm.html#gac3580dd876ff80d088499292a12d2fbe" title="Parallel multi-way merge routine. ">parallel_multiway_merge()</a> calls to run sequentially </p>
+
+<p>Definition at line <a class="el" href="parallel__multiway__merge_8cpp_source.html#l00027">27</a> of file <a class="el" href="parallel__multiway__merge_8cpp_source.html">parallel_multiway_merge.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga3fec55f066eef8bab8e18da604f978f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t parallel_multiway_merge_minimal_k</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>minimal number of sequences for switching to parallel merging </p>
+
+<p>Definition at line <a class="el" href="parallel__multiway__merge_8cpp_source.html#l00031">31</a> of file <a class="el" href="parallel__multiway__merge_8cpp_source.html">parallel_multiway_merge.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga13c75c629afda60aa74bfc46239c977c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t parallel_multiway_merge_minimal_n</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>minimal number of items for switching to parallel merging </p>
+
+<p>Definition at line <a class="el" href="parallel__multiway__merge_8cpp_source.html#l00033">33</a> of file <a class="el" href="parallel__multiway__merge_8cpp_source.html">parallel_multiway_merge.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga0a0a9b421b4afc71557597aa03874b4d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t parallel_multiway_merge_oversampling</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>default oversampling factor for parallel_multiway_merge </p>
+
+<p>Definition at line <a class="el" href="parallel__multiway__merge_8cpp_source.html#l00035">35</a> of file <a class="el" href="parallel__multiway__merge_8cpp_source.html">parallel_multiway_merge.cpp</a>.</p>
 
 </div>
 </div>
@@ -1578,7 +1860,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 18 2018 09:18:25 for tlx by
+    <li class="footer">Generated on Sat May 19 2018 10:10:46 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

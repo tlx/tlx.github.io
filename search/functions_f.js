@@ -3,6 +3,7 @@ var searchData=
   ['pad',['pad',['../group__tlx__string.html#ga03240bad0b02669f254c21c28009c21a',1,'tlx']]],
   ['parallel_5fmultiway_5fmerge',['parallel_multiway_merge',['../group__tlx__algorithm.html#gac3580dd876ff80d088499292a12d2fbe',1,'tlx']]],
   ['parallel_5fmultiway_5fmerge_5fbase',['parallel_multiway_merge_base',['../group__tlx__algorithm.html#ga267435a66c9b4a25471ea4233318e3cb',1,'tlx']]],
+  ['parallel_5fmultiway_5fmerge_5fsentinels',['parallel_multiway_merge_sentinels',['../group__tlx__algorithm.html#gaf080f97856fc44ecf724cb8693a0e62e',1,'tlx']]],
   ['param_5ftext',['param_text',['../structtlx_1_1CmdlineParser_1_1Argument.html#a37ad78a3220008442890cf3ac12e9f77',1,'tlx::CmdlineParser::Argument']]],
   ['parse_5fhexdump',['parse_hexdump',['../group__tlx__string.html#ga81809bc5e0b69034f39659303baa4bf9',1,'tlx']]],
   ['parse_5fsi_5fiec_5funits',['parse_si_iec_units',['../group__tlx__string.html#ga58be0557b1b38913b28d947c935aed42',1,'tlx::parse_si_iec_units(const char *str, uint64_t *out_size, char default_unit=0)'],['../group__tlx__string.html#ga42a656ed3586b515140cb71b312f0f9b',1,'tlx::parse_si_iec_units(const std::string &amp;str, uint64_t *out_size, char default_unit=0)']]],
