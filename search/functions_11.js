@@ -9,6 +9,7 @@ var searchData=
   ['set_5flogger_5fprefix_5fhook',['set_logger_prefix_hook',['../namespacetlx.html#a6f6fd6485b3c32e7706d585634e012d0',1,'tlx']]],
   ['set_5fslot',['set_slot',['../structtlx_1_1btree_1_1leaf__node.html#ad21aa3c1e3f3defa507cbc89cdd7bd37',1,'tlx::btree::leaf_node']]],
   ['set_5fverbose_5fprocess',['set_verbose_process',['../classtlx_1_1CmdlineParser.html#a4ec636355dd759f3742d5d5e5b49e1b2',1,'tlx::CmdlineParser']]],
+  ['setenv',['setenv',['../group__tlx__port.html#ga1c8b16a3abcb4dc450a0a62b42c554dd',1,'tlx']]],
   ['sha1',['SHA1',['../classtlx_1_1SHA1.html#abb90fd47931fb59b3150bbb063489a58',1,'tlx::SHA1::SHA1()'],['../classtlx_1_1SHA1.html#af8c78dfa1cb73c74060a8357d8649e6c',1,'tlx::SHA1::SHA1(const void *data, uint32_t size)'],['../classtlx_1_1SHA1.html#a70a254f3d0029995efc36989b1c419c9',1,'tlx::SHA1::SHA1(const std::string &amp;str)']]],
   ['sha1_5fhex',['SHA1_hex',['../group__tlx__digest.html#ga039e94aa64c1466cf71362a5cedcd09d',1,'tlx::SHA1_hex(const void *data, uint32_t size)'],['../group__tlx__digest.html#gae6126ca192f76b392ae7c945b8147abe',1,'tlx::SHA1_hex(const std::string &amp;str)']]],
   ['sha1_5fhex_5fuc',['SHA1_hex_uc',['../group__tlx__digest.html#gad40a1cbc7b667f1b5b130e5c6bbed152',1,'tlx::SHA1_hex_uc(const void *data, uint32_t size)'],['../group__tlx__digest.html#gaae599be1f3ddb71a31debf8732d1caf3',1,'tlx::SHA1_hex_uc(const std::string &amp;str)']]],

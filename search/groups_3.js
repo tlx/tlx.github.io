@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loser_20trees',['Loser Trees',['../group__tlx__data__structures__loser__tree.html',1,'']]]
+  ['helpers_20for_20portable_20code',['Helpers for Portable Code',['../group__tlx__port.html',1,'']]]
 ];
