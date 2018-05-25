@@ -190,6 +190,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ga6c9dca404398316e3ffb6266d592b38d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga6c9dca404398316e3ffb6266d592b38d">escape_uri</a> (const std::string &amp;src)</td></tr>
 <tr class="memdesc:ga6c9dca404398316e3ffb6266d592b38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Escape a string into a URI-encoding.  <a href="#ga6c9dca404398316e3ffb6266d592b38d">More...</a><br/></td></tr>
 <tr class="separator:ga6c9dca404398316e3ffb6266d592b38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf3c0e542036a6b3db66c2df1592fdcd4"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#gaf3c0e542036a6b3db66c2df1592fdcd4">expand_environment_variables</a> (std::string *s)</td></tr>
+<tr class="memdesc:gaf3c0e542036a6b3db66c2df1592fdcd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expand substrings $ABC_123 and ${ABC_123} into the corresponding environment variables.  <a href="#gaf3c0e542036a6b3db66c2df1592fdcd4">More...</a><br/></td></tr>
+<tr class="separator:gaf3c0e542036a6b3db66c2df1592fdcd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9078e1281843ab0c30230082ee244dd3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga9078e1281843ab0c30230082ee244dd3">expand_environment_variables</a> (const std::string &amp;s)</td></tr>
+<tr class="memdesc:ga9078e1281843ab0c30230082ee244dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expand substrings $ABC_123 and ${ABC_123} into the corresponding environment variables.  <a href="#ga9078e1281843ab0c30230082ee244dd3">More...</a><br/></td></tr>
+<tr class="separator:ga9078e1281843ab0c30230082ee244dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga59e8b9ac077b7535eccf2dd2469ef792"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga59e8b9ac077b7535eccf2dd2469ef792">expand_environment_variables</a> (const char *s)</td></tr>
+<tr class="memdesc:ga59e8b9ac077b7535eccf2dd2469ef792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expand substrings $ABC_123 and ${ABC_123} into the corresponding environment variables.  <a href="#ga59e8b9ac077b7535eccf2dd2469ef792">More...</a><br/></td></tr>
+<tr class="separator:ga59e8b9ac077b7535eccf2dd2469ef792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga713c5cd2e2209e379c8b79ba2cd3e398"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga713c5cd2e2209e379c8b79ba2cd3e398">extract_between</a> (const std::string &amp;str, const char *sep1, const char *sep2)</td></tr>
 <tr class="memdesc:ga713c5cd2e2209e379c8b79ba2cd3e398"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the string for given start and end separators and extract all characters between the both, if they are found.  <a href="#ga713c5cd2e2209e379c8b79ba2cd3e398">More...</a><br/></td></tr>
 <tr class="separator:ga713c5cd2e2209e379c8b79ba2cd3e398"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1502,6 +1511,69 @@ Trim</h2></td></tr>
 <p>This maps all non A-Z0-9 characters to HH hex representation. </p>
 
 <p>Definition at line <a class="el" href="escape__uri_8cpp_source.html#l00015">15</a> of file <a class="el" href="escape__uri_8cpp_source.html">escape_uri.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaf3c0e542036a6b3db66c2df1592fdcd4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string &amp; expand_environment_variables </td>
+          <td>(</td>
+          <td class="paramtype">std::string *&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Expand substrings $ABC_123 and ${ABC_123} into the corresponding environment variables. </p>
+<p>Matches all substrings "$[a-zA-Z_][a-zA-Z0-9_]*" and "${[^}]*}". Replaces all substrings in-place. </p>
+
+<p>Definition at line <a class="el" href="expand__environment__variables_8cpp_source.html#l00019">19</a> of file <a class="el" href="expand__environment__variables_8cpp_source.html">expand_environment_variables.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga9078e1281843ab0c30230082ee244dd3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string expand_environment_variables </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Expand substrings $ABC_123 and ${ABC_123} into the corresponding environment variables. </p>
+<p>Matches all substrings "$[a-zA-Z_][a-zA-Z0-9_]*" and "${[^}]*}". Returns a copy of the string with all substrings replaced. </p>
+
+<p>Definition at line <a class="el" href="expand__environment__variables_8cpp_source.html#l00080">80</a> of file <a class="el" href="expand__environment__variables_8cpp_source.html">expand_environment_variables.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga59e8b9ac077b7535eccf2dd2469ef792"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string expand_environment_variables </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Expand substrings $ABC_123 and ${ABC_123} into the corresponding environment variables. </p>
+<p>Matches all substrings "$[a-zA-Z_][a-zA-Z0-9_]*" and "${[^}]*}". Returns a copy of the string with all substrings replaced. </p>
+
+<p>Definition at line <a class="el" href="expand__environment__variables_8cpp_source.html#l00086">86</a> of file <a class="el" href="expand__environment__variables_8cpp_source.html">expand_environment_variables.cpp</a>.</p>
 
 </div>
 </div>
@@ -5463,7 +5535,7 @@ Trim</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat May 19 2018 10:10:46 for tlx by
+    <li class="footer">Generated on Fri May 25 2018 12:27:43 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
