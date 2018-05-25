@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"strings2_8cpp.html#gadb2eee9d9aac922a1c52d7ec0f24a374":[4,0,0,7,4,1],
 "strings2_8cpp.html#gaeed5079ecadf6501cac7c82a5f2652b9":[4,0,0,7,4,3],
 "strings2_8cpp_source.html":[4,0,0,7,4],
 "strings3_8cpp.html":[4,0,0,7,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "trim_8cpp.html#ga387d6e51cf1f77b7ac7111e8f0ed7d48":[4,0,0,8,53,12],
 "trim_8cpp.html#ga4b761b3a20c3f400f4f3451511016a07":[4,0,0,8,53,17],
 "trim_8cpp.html#ga58107ce115061cb45873f46778bfe836":[4,0,0,8,53,9],
-"trim_8cpp.html#ga5a01f705cc7b4a7317a57f6bf41aef25":[4,0,0,8,53,3],
-"trim_8cpp.html#ga7aacbd967bfb76fcb4b4d977b4f5d838":[4,0,0,8,53,5]
+"trim_8cpp.html#ga5a01f705cc7b4a7317a57f6bf41aef25":[4,0,0,8,53,3]
 };

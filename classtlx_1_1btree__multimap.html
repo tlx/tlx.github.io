@@ -211,9 +211,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa904d5c9c3c0c45195ed0d489fe9d0a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#aa904d5c9c3c0c45195ed0d489fe9d0a4">~btree_multimap</a> ()</td></tr>
 <tr class="memdesc:aa904d5c9c3c0c45195ed0d489fe9d0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees up all used B+ tree memory pages.  <a href="#aa904d5c9c3c0c45195ed0d489fe9d0a4">More...</a><br/></td></tr>
 <tr class="separator:aa904d5c9c3c0c45195ed0d489fe9d0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7966bec5429be362dc2207fb9aa441e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#aa7966bec5429be362dc2207fb9aa441e">swap</a> (<a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;from)</td></tr>
-<tr class="memdesc:aa7966bec5429be362dc2207fb9aa441e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast swapping of two identical B+ tree objects.  <a href="#aa7966bec5429be362dc2207fb9aa441e">More...</a><br/></td></tr>
-<tr class="separator:aa7966bec5429be362dc2207fb9aa441e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a158db26381d5b0ab7d30a30891a61718"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#a158db26381d5b0ab7d30a30891a61718">swap</a> (<a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> &amp;from)</td></tr>
+<tr class="memdesc:a158db26381d5b0ab7d30a30891a61718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast swapping of two identical B+ tree objects.  <a href="#a158db26381d5b0ab7d30a30891a61718">More...</a><br/></td></tr>
+<tr class="separator:a158db26381d5b0ab7d30a30891a61718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Key and Value Comparison Function Objects</div></td></tr>
 <tr class="memitem:a62c2add0ee33d7acce9f02077cd1da99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1btree__multimap.html#a7462b1e2b24182127f494d58dbb95fa9">key_compare</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#a62c2add0ee33d7acce9f02077cd1da99">key_comp</a> () const </td></tr>
 <tr class="memdesc:a62c2add0ee33d7acce9f02077cd1da99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant access to the key comparison object sorting the B+ tree.  <a href="#a62c2add0ee33d7acce9f02077cd1da99">More...</a><br/></td></tr>
@@ -300,31 +300,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a33c1ee0eb39360edec2a985301b9d631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches the B+ tree and returns both <a class="el" href="classtlx_1_1btree__multimap.html#a373c61cca9b31735f4548b5b59b70184" title="Searches the B+ tree and returns an iterator to the first pair equal to or greater than key...">lower_bound()</a> and <a class="el" href="classtlx_1_1btree__multimap.html#a482b50e623a123f653e2a91f113a507b" title="Searches the B+ tree and returns an iterator to the first pair greater than key, or end() if all keys...">upper_bound()</a>.  <a href="#a33c1ee0eb39360edec2a985301b9d631">More...</a><br/></td></tr>
 <tr class="separator:a33c1ee0eb39360edec2a985301b9d631"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">B+ Tree Object Comparison Functions</div></td></tr>
-<tr class="memitem:ad5ebaaac3f02973a0f3fe6ec201f5b32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#ad5ebaaac3f02973a0f3fe6ec201f5b32">operator==</a> (const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:ad5ebaaac3f02973a0f3fe6ec201f5b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality relation of B+ trees of the same type.  <a href="#ad5ebaaac3f02973a0f3fe6ec201f5b32">More...</a><br/></td></tr>
-<tr class="separator:ad5ebaaac3f02973a0f3fe6ec201f5b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a341153e31d99dfaf60aa76a2f2b372"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#a8a341153e31d99dfaf60aa76a2f2b372">operator!=</a> (const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:a8a341153e31d99dfaf60aa76a2f2b372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality relation. Based on operator==.  <a href="#a8a341153e31d99dfaf60aa76a2f2b372">More...</a><br/></td></tr>
-<tr class="separator:a8a341153e31d99dfaf60aa76a2f2b372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6bdc5524aeaa9f7b70bbc0627e8b5e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#ac6bdc5524aeaa9f7b70bbc0627e8b5e4">operator&lt;</a> (const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:ac6bdc5524aeaa9f7b70bbc0627e8b5e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total ordering relation of B+ trees of the same type.  <a href="#ac6bdc5524aeaa9f7b70bbc0627e8b5e4">More...</a><br/></td></tr>
-<tr class="separator:ac6bdc5524aeaa9f7b70bbc0627e8b5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9d65f1906a503050e0b82efd47b9f84"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#ac9d65f1906a503050e0b82efd47b9f84">operator&gt;</a> (const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:ac9d65f1906a503050e0b82efd47b9f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater relation. Based on operator&lt;.  <a href="#ac9d65f1906a503050e0b82efd47b9f84">More...</a><br/></td></tr>
-<tr class="separator:ac9d65f1906a503050e0b82efd47b9f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57fd2423547309dc7023cc489c6ab875"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#a57fd2423547309dc7023cc489c6ab875">operator&lt;=</a> (const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:a57fd2423547309dc7023cc489c6ab875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less-equal relation. Based on operator&lt;.  <a href="#a57fd2423547309dc7023cc489c6ab875">More...</a><br/></td></tr>
-<tr class="separator:a57fd2423547309dc7023cc489c6ab875"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9478a47b65cb68f74023016043ffef3b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#a9478a47b65cb68f74023016043ffef3b">operator&gt;=</a> (const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:a9478a47b65cb68f74023016043ffef3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater-equal relation. Based on operator&lt;.  <a href="#a9478a47b65cb68f74023016043ffef3b">More...</a><br/></td></tr>
-<tr class="separator:a9478a47b65cb68f74023016043ffef3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a135e5c5aebb3804fbd4676a4c8e47ac1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#a135e5c5aebb3804fbd4676a4c8e47ac1">operator==</a> (const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> &amp;other) const </td></tr>
+<tr class="memdesc:a135e5c5aebb3804fbd4676a4c8e47ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality relation of B+ trees of the same type.  <a href="#a135e5c5aebb3804fbd4676a4c8e47ac1">More...</a><br/></td></tr>
+<tr class="separator:a135e5c5aebb3804fbd4676a4c8e47ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3badb6f872b637c5c141f17fee965e50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#a3badb6f872b637c5c141f17fee965e50">operator!=</a> (const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> &amp;other) const </td></tr>
+<tr class="memdesc:a3badb6f872b637c5c141f17fee965e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality relation. Based on operator==.  <a href="#a3badb6f872b637c5c141f17fee965e50">More...</a><br/></td></tr>
+<tr class="separator:a3badb6f872b637c5c141f17fee965e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8f5ffe1d3297b17faaf6878e79656cd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#ac8f5ffe1d3297b17faaf6878e79656cd">operator&lt;</a> (const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> &amp;other) const </td></tr>
+<tr class="memdesc:ac8f5ffe1d3297b17faaf6878e79656cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total ordering relation of B+ trees of the same type.  <a href="#ac8f5ffe1d3297b17faaf6878e79656cd">More...</a><br/></td></tr>
+<tr class="separator:ac8f5ffe1d3297b17faaf6878e79656cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08569819955bb63f02b07ae866cce21b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#a08569819955bb63f02b07ae866cce21b">operator&gt;</a> (const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> &amp;other) const </td></tr>
+<tr class="memdesc:a08569819955bb63f02b07ae866cce21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater relation. Based on operator&lt;.  <a href="#a08569819955bb63f02b07ae866cce21b">More...</a><br/></td></tr>
+<tr class="separator:a08569819955bb63f02b07ae866cce21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56451ef98afd8306cf4bf7c8cf6d1ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#ae56451ef98afd8306cf4bf7c8cf6d1ed">operator&lt;=</a> (const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> &amp;other) const </td></tr>
+<tr class="memdesc:ae56451ef98afd8306cf4bf7c8cf6d1ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less-equal relation. Based on operator&lt;.  <a href="#ae56451ef98afd8306cf4bf7c8cf6d1ed">More...</a><br/></td></tr>
+<tr class="separator:ae56451ef98afd8306cf4bf7c8cf6d1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fcae48e8af1ae44ed0dea218337b8ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#a5fcae48e8af1ae44ed0dea218337b8ca">operator&gt;=</a> (const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> &amp;other) const </td></tr>
+<tr class="memdesc:a5fcae48e8af1ae44ed0dea218337b8ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater-equal relation. Based on operator&lt;.  <a href="#a5fcae48e8af1ae44ed0dea218337b8ca">More...</a><br/></td></tr>
+<tr class="separator:a5fcae48e8af1ae44ed0dea218337b8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Fast Copy: Assign Operator and Copy Constructors</div></td></tr>
-<tr class="memitem:abc8aace96a1665cd01e184cb1c47f482"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#abc8aace96a1665cd01e184cb1c47f482">operator=</a> (const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;other)</td></tr>
-<tr class="memdesc:abc8aace96a1665cd01e184cb1c47f482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator. All the key/data pairs are copied.  <a href="#abc8aace96a1665cd01e184cb1c47f482">More...</a><br/></td></tr>
-<tr class="separator:abc8aace96a1665cd01e184cb1c47f482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab30bf0d925323f41555365cfff751cac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#ab30bf0d925323f41555365cfff751cac">btree_multimap</a> (const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;other)</td></tr>
-<tr class="memdesc:ab30bf0d925323f41555365cfff751cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#ab30bf0d925323f41555365cfff751cac">More...</a><br/></td></tr>
-<tr class="separator:ab30bf0d925323f41555365cfff751cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac656c44e42993ed002d4578f7b66ab7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#ac656c44e42993ed002d4578f7b66ab7f">operator=</a> (const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> &amp;other)</td></tr>
+<tr class="memdesc:ac656c44e42993ed002d4578f7b66ab7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator. All the key/data pairs are copied.  <a href="#ac656c44e42993ed002d4578f7b66ab7f">More...</a><br/></td></tr>
+<tr class="separator:ac656c44e42993ed002d4578f7b66ab7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c212e3b9308b7ff2a58e7c42ac7406"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#a75c212e3b9308b7ff2a58e7c42ac7406">btree_multimap</a> (const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> &amp;other)</td></tr>
+<tr class="memdesc:a75c212e3b9308b7ff2a58e7c42ac7406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a75c212e3b9308b7ff2a58e7c42ac7406">More...</a><br/></td></tr>
+<tr class="separator:a75c212e3b9308b7ff2a58e7c42ac7406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Public Insertion Functions</div></td></tr>
 <tr class="memitem:aa1a2a9b2bd315a468b77e7c262e2c06c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1btree__multimap.html#afac99371679d954e37aefa29118a6459">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__multimap.html#aa1a2a9b2bd315a468b77e7c262e2c06c">insert</a> (const <a class="el" href="classtlx_1_1btree__multimap.html#a59a38ae57e83c2f2b5f645f716d0fd3f">value_type</a> &amp;x)</td></tr>
 <tr class="memdesc:aa1a2a9b2bd315a468b77e7c262e2c06c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to insert a key/data pair into the B+ tree.  <a href="#aa1a2a9b2bd315a468b77e7c262e2c06c">More...</a><br/></td></tr>
@@ -405,7 +405,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Specialized B+ tree template class implementing STL's multimap container. </p>
 <p>Implements the STL multimap using a B+ tree. It can be used as a drop-in replacement for std::multimap. Not all asymptotic time requirements are met in theory. The class has a traits class defining B+ tree properties like slots and self-verification. Furthermore an allocator can be specified for tree nodes. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00034">34</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00038">38</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a552a180d973faf4f7ccc14b7d639a160"></a>
 <div class="memitem">
@@ -419,7 +419,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Fifth template parameter: STL allocator. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00056">56</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00060">60</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -435,7 +435,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Implementation type of the btree_base. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00084">84</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00088">88</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -452,7 +452,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>STL-like iterator object for B+ tree items. </p>
 <p>The iterator points to a specific slot number in a leaf. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00142">142</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00146">146</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -468,7 +468,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>create constant reverse iterator by using STL magic </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00148">148</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00152">152</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -485,7 +485,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Second template parameter: The data type associated with each key. </p>
 <p>Stored in the B+ tree's leaves </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00046">46</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00050">50</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -502,7 +502,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>STL-like iterator object for B+ tree items. </p>
 <p>The iterator points to a specific slot number in a leaf. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00138">138</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00142">142</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -518,7 +518,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Third template parameter: Key comparison function object. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00049">49</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00053">53</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -535,7 +535,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>First template parameter: The key type of the btree. </p>
 <p>This is stored in inner nodes. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00042">42</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00046">46</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -551,7 +551,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>create mutable reverse iterator by using STL magic </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00145">145</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00149">149</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -567,7 +567,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Typedef of our own type. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00070">70</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00074">74</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -583,7 +583,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Size type used to count keys. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00090">90</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00094">94</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -599,7 +599,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Fourth template parameter: Traits object used to define more parameters of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00053">53</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00057">57</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -615,7 +615,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Small structure containing statistics about the tree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00093">93</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00097">97</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -631,7 +631,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Function class comparing two value_type pairs. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00087">87</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00091">91</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -647,7 +647,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Construct the STL-required value_type as a composition pair of key and data types. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00074">74</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00078">78</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -676,7 +676,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Default constructor initializing an empty B+ tree with the standard key comparison function. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00167">167</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00171">171</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -714,7 +714,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructor initializing an empty B+ tree with a special key comparison object. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00173">173</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00177">177</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -758,7 +758,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructor initializing a B+ tree with the range [first,last) </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00180">180</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00184">184</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -808,7 +808,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructor initializing a B+ tree with the range [first,last) and a special key comparison object. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00188">188</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00192">192</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -835,11 +835,11 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Frees up all used B+ tree memory pages. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00194">194</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00198">198</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ab30bf0d925323f41555365cfff751cac"></a>
+<a class="anchor" id="a75c212e3b9308b7ff2a58e7c42ac7406"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -849,7 +849,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname"><a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -864,7 +864,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Copy constructor. </p>
 <p>The newly initialized B+ tree object will contain a copy or all key/data pairs. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00441">441</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00445">445</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -892,7 +892,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructs a read/data-write iterator that points to the first slot in the first leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00249">249</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00253">253</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -919,7 +919,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructs a read-only constant iterator that points to the first slot in the first leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00261">261</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00265">265</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -958,7 +958,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Bulk load a sorted range [first,last). </p>
 <p>Loads items into leaves and constructs a B-tree above them. The tree must be empty when calling this function. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00487">487</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00491">491</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -985,7 +985,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Frees all key/data pairs and all nodes of the tree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00237">237</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00241">241</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1013,7 +1013,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Tries to locate a key in the B+ tree and returns the number of identical key entries found. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00348">348</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00352">352</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1040,7 +1040,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Returns true if there is at least one key/data pair in the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00307">307</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00311">311</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1067,7 +1067,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00255">255</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00259">259</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1094,7 +1094,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructs a read-only constant iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00267">267</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00271">271</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1122,7 +1122,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns both <a class="el" href="classtlx_1_1btree__multimap.html#a373c61cca9b31735f4548b5b59b70184" title="Searches the B+ tree and returns an iterator to the first pair equal to or greater than key...">lower_bound()</a> and <a class="el" href="classtlx_1_1btree__multimap.html#a482b50e623a123f653e2a91f113a507b" title="Searches the B+ tree and returns an iterator to the first pair greater than key, or end() if all keys...">upper_bound()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00377">377</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00381">381</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1150,7 +1150,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns both <a class="el" href="classtlx_1_1btree__multimap.html#a373c61cca9b31735f4548b5b59b70184" title="Searches the B+ tree and returns an iterator to the first pair equal to or greater than key...">lower_bound()</a> and <a class="el" href="classtlx_1_1btree__multimap.html#a482b50e623a123f653e2a91f113a507b" title="Searches the B+ tree and returns an iterator to the first pair greater than key, or end() if all keys...">upper_bound()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00383">383</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00387">387</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1179,7 +1179,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Erases all the key/data pairs associated with the given key. </p>
 <p>This is implemented using <a class="el" href="classtlx_1_1btree__multimap.html#a3a79f5c030eea924dbd8fcc9417b9263" title="Erases one (the first) of the key/data pairs associated with the given key. ">erase_one()</a> and thus not very efficient. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00505">505</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00509">509</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1207,7 +1207,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Erase the key/data pair referenced by the iterator. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00510">510</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00514">514</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1235,7 +1235,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Erases one (the first) of the key/data pairs associated with the given key. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00499">499</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00503">503</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1264,7 +1264,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Non-STL function checking whether a key is in the B+ tree. </p>
 <p>The same as (find(k) != <a class="el" href="classtlx_1_1btree__multimap.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a>) or (<a class="el" href="classtlx_1_1btree__multimap.html#addd4e2b6ff9c7bef508bc908caabb2d4" title="Tries to locate a key in the B+ tree and returns the number of identical key entries found...">count()</a> != 0). </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00330">330</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00334">334</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1293,7 +1293,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Tries to locate a key in the B+ tree and returns an iterator to the key/data slot if found. </p>
 <p>If unsuccessful it returns <a class="el" href="classtlx_1_1btree__multimap.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00336">336</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00340">340</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1322,7 +1322,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Tries to locate a key in the B+ tree and returns an constant iterator to the key/data slot if found. </p>
 <p>If unsuccessful it returns <a class="el" href="classtlx_1_1btree__multimap.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00342">342</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00346">346</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1349,7 +1349,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Return the base node allocator provided during construction. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00226">226</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00230">230</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1376,7 +1376,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Return a const reference to the current statistics. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00318">318</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00322">322</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1405,7 +1405,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Attempt to insert a key/data pair into the B+ tree. </p>
 <p>As this tree allows duplicates, insertion never fails. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00453">453</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00457">457</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1444,7 +1444,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Attempt to insert a key/data pair into the B+ tree. </p>
 <p>The iterator hint is currently ignored by the B+ tree insertion routine. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00466">466</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00470">470</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1483,7 +1483,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Attempt to insert the range [first,last) of value_type pairs into the B+ tree. </p>
 <p>Each key/data pair is inserted individually. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00479">479</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00483">483</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1522,7 +1522,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Attempt to insert a key/data pair into the B+ tree. </p>
 <p>This function is the same as the other insert. As this tree allows duplicates, insertion never fails. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00460">460</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00464">464</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1567,7 +1567,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Attempt to insert a key/data pair into the B+ tree. </p>
 <p>The iterator hint is currently ignored by the B+ tree insertion routine. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00472">472</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00476">476</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1594,7 +1594,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constant access to the key comparison object sorting the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00209">209</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00213">213</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1622,7 +1622,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns an iterator to the first pair equal to or greater than key, or <a class="el" href="classtlx_1_1btree__multimap.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00354">354</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00358">358</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1650,7 +1650,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns a constant iterator to the first pair equal to or greater than key, or <a class="el" href="classtlx_1_1btree__multimap.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00360">360</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00364">364</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1678,11 +1678,11 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Returns the largest possible size of the B+ Tree. </p>
 <p>This is just a function required by the STL standard, the B+ Tree can hold more items. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00313">313</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00317">317</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8a341153e31d99dfaf60aa76a2f2b372"></a>
+<a class="anchor" id="a3badb6f872b637c5c141f17fee965e50"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1692,7 +1692,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator!= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1706,11 +1706,11 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Inequality relation. Based on operator==. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00401">401</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00405">405</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac6bdc5524aeaa9f7b70bbc0627e8b5e4"></a>
+<a class="anchor" id="ac8f5ffe1d3297b17faaf6878e79656cd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1720,7 +1720,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator&lt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1735,11 +1735,11 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Total ordering relation of B+ trees of the same type. </p>
 <p>It uses std::lexicographical_compare() for the actual comparison of elements. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00407">407</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00411">411</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a57fd2423547309dc7023cc489c6ab875"></a>
+<a class="anchor" id="ae56451ef98afd8306cf4bf7c8cf6d1ed"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1749,7 +1749,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator&lt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1763,11 +1763,11 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Less-equal relation. Based on operator&lt;. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00417">417</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00421">421</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abc8aace96a1665cd01e184cb1c47f482"></a>
+<a class="anchor" id="ac656c44e42993ed002d4578f7b66ab7f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1775,9 +1775,9 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a>&amp; operator= </td>
+          <td class="memname"><a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a>&amp; operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1791,11 +1791,11 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Assignment operator. All the key/data pairs are copied. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00433">433</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00437">437</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad5ebaaac3f02973a0f3fe6ec201f5b32"></a>
+<a class="anchor" id="a135e5c5aebb3804fbd4676a4c8e47ac1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1805,7 +1805,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1820,11 +1820,11 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Equality relation of B+ trees of the same type. </p>
 <p>B+ trees of the same size and equal elements (both key and data) are considered equal. Beware of the random ordering of duplicate keys. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00396">396</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00400">400</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac9d65f1906a503050e0b82efd47b9f84"></a>
+<a class="anchor" id="a08569819955bb63f02b07ae866cce21b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1834,7 +1834,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator&gt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1848,11 +1848,11 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Greater relation. Based on operator&lt;. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00412">412</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00416">416</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9478a47b65cb68f74023016043ffef3b"></a>
+<a class="anchor" id="a5fcae48e8af1ae44ed0dea218337b8ca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1862,7 +1862,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator&gt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1876,7 +1876,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Greater-equal relation. Based on operator&lt;. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00422">422</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00426">426</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1904,7 +1904,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Constructs a read/data-write reverse iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00273">273</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00277">277</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1932,7 +1932,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Constructs a read-only reverse iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00285">285</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00289">289</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1960,7 +1960,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Constructs a read/data-write reverse iterator that points to the first slot in the first leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00279">279</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00283">283</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -1988,7 +1988,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Constructs a read-only reverse iterator that points to the first slot in the first leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00291">291</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00295">295</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2015,11 +2015,11 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Return the number of key/data pairs in the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00302">302</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00306">306</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa7966bec5429be362dc2207fb9aa441e"></a>
+<a class="anchor" id="a158db26381d5b0ab7d30a30891a61718"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2029,7 +2029,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">void swap </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1btree__multimap.html#a11749a4305d091aab145bf7afae44ffe">self</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>from</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2043,7 +2043,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Fast swapping of two identical B+ tree objects. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00198">198</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00202">202</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2071,7 +2071,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns an iterator to the first pair greater than key, or <a class="el" href="classtlx_1_1btree__multimap.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller or equal. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00366">366</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00370">370</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2099,7 +2099,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns a constant iterator to the first pair greater than key, or <a class="el" href="classtlx_1_1btree__multimap.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller or equal. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00372">372</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00376">376</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2127,7 +2127,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Constant access to a constructed value_type comparison object. </p>
 <p>required by the STL </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00215">215</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00219">219</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2155,7 +2155,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Run a thorough verification of all B+ tree invariants. </p>
 <p>The program aborts via <a class="el" href="group__tlx__data__structures__btree.html#gaf7a068d4e246b8f8e74bfc33f205596b" title="Assertion only if TLX_BTREE_DEBUG is defined. This is not used in verify(). ">TLX_BTREE_ASSERT()</a> if something is wrong. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00551">551</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00555">555</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2180,7 +2180,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Operational parameter: Allow duplicate keys in the btree. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00128">128</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00132">132</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2205,7 +2205,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Debug parameter: Prints out lots of debug information about how the algorithms change the tree. </p>
 <p>Requires the header file to be compiled with TLX_BTREE_DEBUG and the key type must be std::ostream printable. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00125">125</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00129">129</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2229,7 +2229,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Base B+ tree parameter: The number of key slots in each inner node, this can differ from slots in each leaf. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00106">106</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00110">110</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2254,7 +2254,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Computed B+ tree parameter: The minimum number of key slots used in an inner node. </p>
 <p>If fewer slots are used, the inner node will be merged or slots shifted from it's siblings. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00116">116</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00120">120</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2278,7 +2278,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Base B+ tree parameter: The number of key/data slots in each leaf. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00102">102</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00106">106</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2303,7 +2303,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Computed B+ tree parameter: The minimum number of key/data slots used in a leaf. </p>
 <p>If fewer slots are used, the leaf will be merged or slots shifted from it's siblings. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00111">111</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00115">115</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2327,7 +2327,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Debug parameter: Enables expensive and thorough checking of the B+ tree invariants after each insert/erase operation. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00120">120</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00124">124</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2341,7 +2341,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00063">63</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00067">67</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2365,7 +2365,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>The contained implementation object. </p>
 
-<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00157">157</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__multimap_8hpp_source.html#l00161">161</a> of file <a class="el" href="btree__multimap_8hpp_source.html">btree_multimap.hpp</a>.</p>
 
 </div>
 </div>
@@ -2378,7 +2378,7 @@ class tlx::btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1btree__multimap.html">btree_multimap</a></li>
-    <li class="footer">Generated on Fri May 25 2018 14:46:44 for tlx by
+    <li class="footer">Generated on Fri May 25 2018 15:28:36 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

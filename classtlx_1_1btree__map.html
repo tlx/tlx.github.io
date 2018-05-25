@@ -210,9 +210,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aec89d699a604c38a596825ae86bc7081"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#aec89d699a604c38a596825ae86bc7081">~btree_map</a> ()</td></tr>
 <tr class="memdesc:aec89d699a604c38a596825ae86bc7081"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees up all used B+ tree memory pages.  <a href="#aec89d699a604c38a596825ae86bc7081">More...</a><br/></td></tr>
 <tr class="separator:aec89d699a604c38a596825ae86bc7081"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7966bec5429be362dc2207fb9aa441e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#aa7966bec5429be362dc2207fb9aa441e">swap</a> (<a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;from)</td></tr>
-<tr class="memdesc:aa7966bec5429be362dc2207fb9aa441e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast swapping of two identical B+ tree objects.  <a href="#aa7966bec5429be362dc2207fb9aa441e">More...</a><br/></td></tr>
-<tr class="separator:aa7966bec5429be362dc2207fb9aa441e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dbc83497c0a31a1dfbee26c5a26dbfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a6dbc83497c0a31a1dfbee26c5a26dbfa">swap</a> (<a class="el" href="classtlx_1_1btree__map.html">btree_map</a> &amp;from)</td></tr>
+<tr class="memdesc:a6dbc83497c0a31a1dfbee26c5a26dbfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast swapping of two identical B+ tree objects.  <a href="#a6dbc83497c0a31a1dfbee26c5a26dbfa">More...</a><br/></td></tr>
+<tr class="separator:a6dbc83497c0a31a1dfbee26c5a26dbfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Key and Value Comparison Function Objects</div></td></tr>
 <tr class="memitem:a62c2add0ee33d7acce9f02077cd1da99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1btree__map.html#a7462b1e2b24182127f494d58dbb95fa9">key_compare</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a62c2add0ee33d7acce9f02077cd1da99">key_comp</a> () const </td></tr>
 <tr class="memdesc:a62c2add0ee33d7acce9f02077cd1da99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant access to the key comparison object sorting the B+ tree.  <a href="#a62c2add0ee33d7acce9f02077cd1da99">More...</a><br/></td></tr>
@@ -299,31 +299,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a33c1ee0eb39360edec2a985301b9d631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches the B+ tree and returns both <a class="el" href="classtlx_1_1btree__map.html#a373c61cca9b31735f4548b5b59b70184" title="Searches the B+ tree and returns an iterator to the first pair equal to or greater than key...">lower_bound()</a> and <a class="el" href="classtlx_1_1btree__map.html#a482b50e623a123f653e2a91f113a507b" title="Searches the B+ tree and returns an iterator to the first pair greater than key, or end() if all keys...">upper_bound()</a>.  <a href="#a33c1ee0eb39360edec2a985301b9d631">More...</a><br/></td></tr>
 <tr class="separator:a33c1ee0eb39360edec2a985301b9d631"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">B+ Tree Object Comparison Functions</div></td></tr>
-<tr class="memitem:ad5ebaaac3f02973a0f3fe6ec201f5b32"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#ad5ebaaac3f02973a0f3fe6ec201f5b32">operator==</a> (const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:ad5ebaaac3f02973a0f3fe6ec201f5b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality relation of B+ trees of the same type.  <a href="#ad5ebaaac3f02973a0f3fe6ec201f5b32">More...</a><br/></td></tr>
-<tr class="separator:ad5ebaaac3f02973a0f3fe6ec201f5b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a341153e31d99dfaf60aa76a2f2b372"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a8a341153e31d99dfaf60aa76a2f2b372">operator!=</a> (const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:a8a341153e31d99dfaf60aa76a2f2b372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality relation. Based on operator==.  <a href="#a8a341153e31d99dfaf60aa76a2f2b372">More...</a><br/></td></tr>
-<tr class="separator:a8a341153e31d99dfaf60aa76a2f2b372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6bdc5524aeaa9f7b70bbc0627e8b5e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#ac6bdc5524aeaa9f7b70bbc0627e8b5e4">operator&lt;</a> (const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:ac6bdc5524aeaa9f7b70bbc0627e8b5e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total ordering relation of B+ trees of the same type.  <a href="#ac6bdc5524aeaa9f7b70bbc0627e8b5e4">More...</a><br/></td></tr>
-<tr class="separator:ac6bdc5524aeaa9f7b70bbc0627e8b5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9d65f1906a503050e0b82efd47b9f84"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#ac9d65f1906a503050e0b82efd47b9f84">operator&gt;</a> (const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:ac9d65f1906a503050e0b82efd47b9f84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater relation. Based on operator&lt;.  <a href="#ac9d65f1906a503050e0b82efd47b9f84">More...</a><br/></td></tr>
-<tr class="separator:ac9d65f1906a503050e0b82efd47b9f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57fd2423547309dc7023cc489c6ab875"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a57fd2423547309dc7023cc489c6ab875">operator&lt;=</a> (const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:a57fd2423547309dc7023cc489c6ab875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less-equal relation. Based on operator&lt;.  <a href="#a57fd2423547309dc7023cc489c6ab875">More...</a><br/></td></tr>
-<tr class="separator:a57fd2423547309dc7023cc489c6ab875"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9478a47b65cb68f74023016043ffef3b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a9478a47b65cb68f74023016043ffef3b">operator&gt;=</a> (const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;other) const </td></tr>
-<tr class="memdesc:a9478a47b65cb68f74023016043ffef3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater-equal relation. Based on operator&lt;.  <a href="#a9478a47b65cb68f74023016043ffef3b">More...</a><br/></td></tr>
-<tr class="separator:a9478a47b65cb68f74023016043ffef3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262cfff15dcc1020e2b26408bb8e1708"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a262cfff15dcc1020e2b26408bb8e1708">operator==</a> (const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a> &amp;other) const </td></tr>
+<tr class="memdesc:a262cfff15dcc1020e2b26408bb8e1708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality relation of B+ trees of the same type.  <a href="#a262cfff15dcc1020e2b26408bb8e1708">More...</a><br/></td></tr>
+<tr class="separator:a262cfff15dcc1020e2b26408bb8e1708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29643879db2761f2848d7ef98516bc72"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a29643879db2761f2848d7ef98516bc72">operator!=</a> (const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a> &amp;other) const </td></tr>
+<tr class="memdesc:a29643879db2761f2848d7ef98516bc72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality relation. Based on operator==.  <a href="#a29643879db2761f2848d7ef98516bc72">More...</a><br/></td></tr>
+<tr class="separator:a29643879db2761f2848d7ef98516bc72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e842ea742062f430b44358bce97a06b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a7e842ea742062f430b44358bce97a06b">operator&lt;</a> (const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a> &amp;other) const </td></tr>
+<tr class="memdesc:a7e842ea742062f430b44358bce97a06b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total ordering relation of B+ trees of the same type.  <a href="#a7e842ea742062f430b44358bce97a06b">More...</a><br/></td></tr>
+<tr class="separator:a7e842ea742062f430b44358bce97a06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f230ca9c5cd2ad9070ea01a32c4b54d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a1f230ca9c5cd2ad9070ea01a32c4b54d">operator&gt;</a> (const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a> &amp;other) const </td></tr>
+<tr class="memdesc:a1f230ca9c5cd2ad9070ea01a32c4b54d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater relation. Based on operator&lt;.  <a href="#a1f230ca9c5cd2ad9070ea01a32c4b54d">More...</a><br/></td></tr>
+<tr class="separator:a1f230ca9c5cd2ad9070ea01a32c4b54d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe83486537fbeccf6dad05a7c4ffee3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a2fe83486537fbeccf6dad05a7c4ffee3">operator&lt;=</a> (const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a> &amp;other) const </td></tr>
+<tr class="memdesc:a2fe83486537fbeccf6dad05a7c4ffee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less-equal relation. Based on operator&lt;.  <a href="#a2fe83486537fbeccf6dad05a7c4ffee3">More...</a><br/></td></tr>
+<tr class="separator:a2fe83486537fbeccf6dad05a7c4ffee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a2583f852363a0513ec35bb14baa89c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a5a2583f852363a0513ec35bb14baa89c">operator&gt;=</a> (const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a> &amp;other) const </td></tr>
+<tr class="memdesc:a5a2583f852363a0513ec35bb14baa89c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater-equal relation. Based on operator&lt;.  <a href="#a5a2583f852363a0513ec35bb14baa89c">More...</a><br/></td></tr>
+<tr class="separator:a5a2583f852363a0513ec35bb14baa89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Fast Copy: Assign Operator and Copy Constructors</div></td></tr>
-<tr class="memitem:abc8aace96a1665cd01e184cb1c47f482"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#abc8aace96a1665cd01e184cb1c47f482">operator=</a> (const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;other)</td></tr>
-<tr class="memdesc:abc8aace96a1665cd01e184cb1c47f482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator. All the key/data pairs are copied.  <a href="#abc8aace96a1665cd01e184cb1c47f482">More...</a><br/></td></tr>
-<tr class="separator:abc8aace96a1665cd01e184cb1c47f482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b560c3a92ab20211e7b0319d1d90f47"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a3b560c3a92ab20211e7b0319d1d90f47">btree_map</a> (const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;other)</td></tr>
-<tr class="memdesc:a3b560c3a92ab20211e7b0319d1d90f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a3b560c3a92ab20211e7b0319d1d90f47">More...</a><br/></td></tr>
-<tr class="separator:a3b560c3a92ab20211e7b0319d1d90f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eedd249af98b4577a2c43376e247f2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1btree__map.html">btree_map</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#a0eedd249af98b4577a2c43376e247f2a">operator=</a> (const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a> &amp;other)</td></tr>
+<tr class="memdesc:a0eedd249af98b4577a2c43376e247f2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator. All the key/data pairs are copied.  <a href="#a0eedd249af98b4577a2c43376e247f2a">More...</a><br/></td></tr>
+<tr class="separator:a0eedd249af98b4577a2c43376e247f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9369e88bc4abb8d2c9fbea7652ff797"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#ac9369e88bc4abb8d2c9fbea7652ff797">btree_map</a> (const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a> &amp;other)</td></tr>
+<tr class="memdesc:ac9369e88bc4abb8d2c9fbea7652ff797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#ac9369e88bc4abb8d2c9fbea7652ff797">More...</a><br/></td></tr>
+<tr class="separator:ac9369e88bc4abb8d2c9fbea7652ff797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Public Insertion Functions</div></td></tr>
 <tr class="memitem:aa218c2c89397f8d0484ef9438d540456"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="classtlx_1_1btree__map.html#afac99371679d954e37aefa29118a6459">iterator</a>, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1btree__map.html#aa218c2c89397f8d0484ef9438d540456">insert</a> (const <a class="el" href="classtlx_1_1btree__map.html#a59a38ae57e83c2f2b5f645f716d0fd3f">value_type</a> &amp;x)</td></tr>
 <tr class="memdesc:aa218c2c89397f8d0484ef9438d540456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt to insert a key/data pair into the B+ tree.  <a href="#aa218c2c89397f8d0484ef9438d540456">More...</a><br/></td></tr>
@@ -407,7 +407,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Specialized B+ tree template class implementing STL's map container. </p>
 <p>Implements the STL map using a B+ tree. It can be used as a drop-in replacement for std::map. Not all asymptotic time requirements are met in theory. The class has a traits class defining B+ tree properties like slots and self-verification. Furthermore an allocator can be specified for tree nodes. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00034">34</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00038">38</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a552a180d973faf4f7ccc14b7d639a160"></a>
 <div class="memitem">
@@ -421,7 +421,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Fifth template parameter: STL allocator. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00056">56</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00060">60</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -437,7 +437,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Implementation type of the btree_base. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00085">85</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00089">89</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -454,7 +454,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>STL-like iterator object for B+ tree items. </p>
 <p>The iterator points to a specific slot number in a leaf. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00143">143</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00147">147</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -470,7 +470,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>create constant reverse iterator by using STL magic </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00149">149</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00153">153</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -487,7 +487,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Second template parameter: The value type associated with each key. </p>
 <p>Stored in the B+ tree's leaves </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00046">46</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00050">50</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -504,7 +504,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>STL-like iterator object for B+ tree items. </p>
 <p>The iterator points to a specific slot number in a leaf. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00139">139</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00143">143</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -520,7 +520,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Third template parameter: Key comparison function object. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00049">49</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00053">53</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -537,7 +537,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>First template parameter: The key type of the btree. </p>
 <p>This is stored in inner nodes. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00042">42</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00046">46</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -553,7 +553,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>create mutable reverse iterator by using STL magic </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00146">146</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00150">150</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -569,7 +569,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Typedef of our own type. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00071">71</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00075">75</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -585,7 +585,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Size type used to count keys. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00091">91</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00095">95</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -601,7 +601,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Fourth template parameter: Traits object used to define more parameters of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00053">53</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00057">57</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -617,7 +617,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Small structure containing statistics about the tree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00094">94</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00098">98</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -633,7 +633,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Function class comparing two value_type pairs. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00088">88</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00092">92</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -649,7 +649,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Construct the STL-required value_type as a composition pair of key and data types. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00075">75</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00079">79</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -678,7 +678,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Default constructor initializing an empty B+ tree with the standard key comparison function. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00168">168</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00172">172</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -716,7 +716,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructor initializing an empty B+ tree with a special key comparison object. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00174">174</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00178">178</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -760,7 +760,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructor initializing a B+ tree with the range [first,last) </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00181">181</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00185">185</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -810,7 +810,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructor initializing a B+ tree with the range [first,last) and a special key comparison object. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00189">189</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00193">193</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -837,11 +837,11 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Frees up all used B+ tree memory pages. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00195">195</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00199">199</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a3b560c3a92ab20211e7b0319d1d90f47"></a>
+<a class="anchor" id="ac9369e88bc4abb8d2c9fbea7652ff797"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -851,7 +851,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname"><a class="el" href="classtlx_1_1btree__map.html">btree_map</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -866,7 +866,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Copy constructor. </p>
 <p>The newly initialized B+ tree object will contain a copy of all key/data pairs. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00442">442</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00446">446</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -894,7 +894,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructs a read/data-write iterator that points to the first slot in the first leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00250">250</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00254">254</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -921,7 +921,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructs a read-only constant iterator that points to the first slot in the first leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00262">262</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00266">266</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -960,7 +960,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Bulk load a sorted range [first,last). </p>
 <p>Loads items into leaves and constructs a B-tree above them. The tree must be empty when calling this function. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00495">495</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00499">499</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -987,7 +987,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Frees all key/data pairs and all nodes of the tree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00238">238</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00242">242</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1016,7 +1016,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Tries to locate a key in the B+ tree and returns the number of identical key entries found. </p>
 <p>Since this is a unique map, <a class="el" href="classtlx_1_1btree__map.html#addd4e2b6ff9c7bef508bc908caabb2d4" title="Tries to locate a key in the B+ tree and returns the number of identical key entries found...">count()</a> returns either 0 or 1. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00350">350</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00354">354</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1043,7 +1043,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Returns true if there is at least one key/data pair in the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00308">308</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00312">312</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1070,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00256">256</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00260">260</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1097,7 +1097,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constructs a read-only constant iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00268">268</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00272">272</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1125,7 +1125,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns both <a class="el" href="classtlx_1_1btree__map.html#a373c61cca9b31735f4548b5b59b70184" title="Searches the B+ tree and returns an iterator to the first pair equal to or greater than key...">lower_bound()</a> and <a class="el" href="classtlx_1_1btree__map.html#a482b50e623a123f653e2a91f113a507b" title="Searches the B+ tree and returns an iterator to the first pair greater than key, or end() if all keys...">upper_bound()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00379">379</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00383">383</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1153,7 +1153,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns both <a class="el" href="classtlx_1_1btree__map.html#a373c61cca9b31735f4548b5b59b70184" title="Searches the B+ tree and returns an iterator to the first pair equal to or greater than key...">lower_bound()</a> and <a class="el" href="classtlx_1_1btree__map.html#a482b50e623a123f653e2a91f113a507b" title="Searches the B+ tree and returns an iterator to the first pair greater than key, or end() if all keys...">upper_bound()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00385">385</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00389">389</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1182,7 +1182,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Erases all the key/data pairs associated with the given key. </p>
 <p>This is implemented using <a class="el" href="classtlx_1_1btree__map.html#a3a79f5c030eea924dbd8fcc9417b9263" title="Erases the key/data pairs associated with the given key. ">erase_one()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00513">513</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00517">517</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1210,7 +1210,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Erase the key/data pair referenced by the iterator. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00518">518</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00522">522</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1239,7 +1239,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Erases the key/data pairs associated with the given key. </p>
 <p>For this unique-associative map there is no difference to <a class="el" href="classtlx_1_1btree__map.html#ae57ff6dd1cb4dc347b892dfa87ea6613" title="Erases all the key/data pairs associated with the given key. ">erase()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00507">507</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00511">511</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1268,7 +1268,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Non-STL function checking whether a key is in the B+ tree. </p>
 <p>The same as (find(k) != <a class="el" href="classtlx_1_1btree__map.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a>) or (<a class="el" href="classtlx_1_1btree__map.html#addd4e2b6ff9c7bef508bc908caabb2d4" title="Tries to locate a key in the B+ tree and returns the number of identical key entries found...">count()</a> != 0). </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00331">331</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00335">335</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1297,7 +1297,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Tries to locate a key in the B+ tree and returns an iterator to the key/data slot if found. </p>
 <p>If unsuccessful it returns <a class="el" href="classtlx_1_1btree__map.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00337">337</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00341">341</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1326,7 +1326,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Tries to locate a key in the B+ tree and returns an constant iterator to the key/data slot if found. </p>
 <p>If unsuccessful it returns <a class="el" href="classtlx_1_1btree__map.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00343">343</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00347">347</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1353,7 +1353,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Return the base node allocator provided during construction. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00227">227</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00231">231</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1380,7 +1380,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Return a const reference to the current statistics. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00319">319</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00323">323</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1409,7 +1409,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Attempt to insert a key/data pair into the B+ tree. </p>
 <p>Fails if the pair is already present. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00454">454</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00458">458</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1448,7 +1448,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Attempt to insert a key/data pair into the B+ tree. </p>
 <p>The iterator hint is currently ignored by the B+ tree insertion routine. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00466">466</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00470">470</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1487,7 +1487,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Attempt to insert the range [first,last) of value_type pairs into the B+ tree. </p>
 <p>Each key/data pair is inserted individually. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00487">487</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00491">491</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1526,7 +1526,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Attempt to insert a key/data pair into the B+ tree. </p>
 <p>This function is the same as the other insert. Fails if the inserted pair is already present. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00460">460</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00464">464</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1571,7 +1571,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Attempt to insert a key/data pair into the B+ tree. </p>
 <p>The iterator hint is currently ignored by the B+ tree insertion routine. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00472">472</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00476">476</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1598,7 +1598,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Constant access to the key comparison object sorting the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00210">210</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00214">214</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1626,7 +1626,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns an iterator to the first pair equal to or greater than key, or <a class="el" href="classtlx_1_1btree__map.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00356">356</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00360">360</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1654,7 +1654,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns a constant iterator to the first pair equal to or greater than key, or <a class="el" href="classtlx_1_1btree__map.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00362">362</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00366">366</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1682,11 +1682,11 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Returns the largest possible size of the B+ Tree. </p>
 <p>This is just a function required by the STL standard, the B+ Tree can hold more items. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00314">314</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00318">318</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8a341153e31d99dfaf60aa76a2f2b372"></a>
+<a class="anchor" id="a29643879db2761f2848d7ef98516bc72"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1696,7 +1696,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator!= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1710,11 +1710,11 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Inequality relation. Based on operator==. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00402">402</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00406">406</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac6bdc5524aeaa9f7b70bbc0627e8b5e4"></a>
+<a class="anchor" id="a7e842ea742062f430b44358bce97a06b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1724,7 +1724,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator&lt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1739,11 +1739,11 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Total ordering relation of B+ trees of the same type. </p>
 <p>It uses std::lexicographical_compare() for the actual comparison of elements. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00408">408</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00412">412</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a57fd2423547309dc7023cc489c6ab875"></a>
+<a class="anchor" id="a2fe83486537fbeccf6dad05a7c4ffee3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1753,7 +1753,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator&lt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1767,11 +1767,11 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Less-equal relation. Based on operator&lt;. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00418">418</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00422">422</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abc8aace96a1665cd01e184cb1c47f482"></a>
+<a class="anchor" id="a0eedd249af98b4577a2c43376e247f2a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1779,9 +1779,9 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a>&amp; operator= </td>
+          <td class="memname"><a class="el" href="classtlx_1_1btree__map.html">btree_map</a>&amp; operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1795,11 +1795,11 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Assignment operator. All the key/data pairs are copied. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00434">434</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00438">438</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad5ebaaac3f02973a0f3fe6ec201f5b32"></a>
+<a class="anchor" id="a262cfff15dcc1020e2b26408bb8e1708"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1809,7 +1809,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1824,11 +1824,11 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Equality relation of B+ trees of the same type. </p>
 <p>B+ trees of the same size and equal elements (both key and data) are considered equal. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00397">397</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00401">401</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac9d65f1906a503050e0b82efd47b9f84"></a>
+<a class="anchor" id="a1f230ca9c5cd2ad9070ea01a32c4b54d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1838,7 +1838,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator&gt; </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1852,11 +1852,11 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Greater relation. Based on operator&lt;. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00413">413</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00417">417</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9478a47b65cb68f74023016043ffef3b"></a>
+<a class="anchor" id="a5a2583f852363a0513ec35bb14baa89c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1866,7 +1866,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">bool operator&gt;= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1btree__map.html">btree_map</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1880,7 +1880,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Greater-equal relation. Based on operator&lt;. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00423">423</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00427">427</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1909,7 +1909,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Returns a reference to the object that is associated with a particular key. </p>
 <p>If the map does not already contain such an object, operator[] inserts the default object <a class="el" href="classtlx_1_1btree__map.html#a2a9bb4a20468cdfca8b476a26892f283" title="Second template parameter: The value type associated with each key. ">data_type()</a>. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00479">479</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00483">483</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1937,7 +1937,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Constructs a read/data-write reverse iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00274">274</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00278">278</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1965,7 +1965,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Constructs a read-only reverse iterator that points to the first invalid slot in the last leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00286">286</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00290">290</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -1993,7 +1993,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Constructs a read/data-write reverse iterator that points to the first slot in the first leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00280">280</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00284">284</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2021,7 +2021,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Constructs a read-only reverse iterator that points to the first slot in the first leaf of the B+ tree. </p>
 <p>Uses STL magic. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00292">292</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00296">296</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2048,11 +2048,11 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Return the number of key/data pairs in the B+ tree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00303">303</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00307">307</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa7966bec5429be362dc2207fb9aa441e"></a>
+<a class="anchor" id="a6dbc83497c0a31a1dfbee26c5a26dbfa"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -2062,7 +2062,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
         <tr>
           <td class="memname">void swap </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classtlx_1_1btree__map.html#ab6c0964fd6b1c350546b05e4926309af">self</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1btree__map.html">btree_map</a>&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>from</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2076,7 +2076,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Fast swapping of two identical B+ tree objects. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00199">199</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00203">203</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2104,7 +2104,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns an iterator to the first pair greater than key, or <a class="el" href="classtlx_1_1btree__map.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller or equal. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00368">368</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00372">372</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2132,7 +2132,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Searches the B+ tree and returns a constant iterator to the first pair greater than key, or <a class="el" href="classtlx_1_1btree__map.html#acad38d52497a975bfb6f2f6acd76631f" title="Constructs a read/data-write iterator that points to the first invalid slot in the last leaf of the B...">end()</a> if all keys are smaller or equal. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00374">374</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00378">378</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2160,7 +2160,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Constant access to a constructed value_type comparison object. </p>
 <p>required by the STL </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00216">216</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00220">220</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2188,7 +2188,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Run a thorough verification of all B+ tree invariants. </p>
 <p>The program aborts via <a class="el" href="group__tlx__data__structures__btree.html#gaf7a068d4e246b8f8e74bfc33f205596b" title="Assertion only if TLX_BTREE_DEBUG is defined. This is not used in verify(). ">TLX_BTREE_ASSERT()</a> if something is wrong. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00559">559</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00563">563</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2213,7 +2213,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Operational parameter: Allow duplicate keys in the btree. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00129">129</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00133">133</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2238,7 +2238,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Debug parameter: Prints out lots of debug information about how the algorithms change the tree. </p>
 <p>Requires the header file to be compiled with TLX_BTREE_DEBUG and the key type must be std::ostream printable. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00126">126</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00130">130</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2262,7 +2262,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Base B+ tree parameter: The number of key slots in each inner node, this can differ from slots in each leaf. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00107">107</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00111">111</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2287,7 +2287,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Computed B+ tree parameter: The minimum number of key slots used in an inner node. </p>
 <p>If fewer slots are used, the inner node will be merged or slots shifted from it's siblings. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00117">117</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00121">121</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2311,7 +2311,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Base B+ tree parameter: The number of key/data slots in each leaf. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00103">103</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00107">107</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2336,7 +2336,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <p>Computed B+ tree parameter: The minimum number of key/data slots used in a leaf. </p>
 <p>If fewer slots are used, the leaf will be merged or slots shifted from it's siblings. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00112">112</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00116">116</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2360,7 +2360,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>Debug parameter: Enables expensive and thorough checking of the B+ tree invariants after each insert/erase operation. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00121">121</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00125">125</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2374,7 +2374,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00063">63</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00067">67</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2398,7 +2398,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 
 <p>The contained implementation object. </p>
 
-<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00158">158</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
+<p>Definition at line <a class="el" href="btree__map_8hpp_source.html#l00162">162</a> of file <a class="el" href="btree__map_8hpp_source.html">btree_map.hpp</a>.</p>
 
 </div>
 </div>
@@ -2411,7 +2411,7 @@ class tlx::btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1btree__map.html">btree_map</a></li>
-    <li class="footer">Generated on Fri May 25 2018 14:46:44 for tlx by
+    <li class="footer">Generated on Fri May 25 2018 15:28:36 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

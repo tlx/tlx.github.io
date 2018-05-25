@@ -181,8 +181,58 @@ std::iterator_traits<br class="typebreak"/>
 <tr class="memitem:a9b355735b0cbd64192c3b5ae99e5e2f0"><td class="memTemplParams" colspan="2">template&lt;bool Stable, typename RandomAccessIteratorIterator , typename RandomAccessIterator3 , typename Comparator &gt; </td></tr>
 <tr class="memitem:a9b355735b0cbd64192c3b5ae99e5e2f0"><td class="memTemplItemLeft" align="right" valign="top">RandomAccessIterator3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1multiway__merge__detail.html#a9b355735b0cbd64192c3b5ae99e5e2f0">multiway_merge_loser_tree_sentinel</a> (RandomAccessIteratorIterator seqs_begin, RandomAccessIteratorIterator seqs_end, RandomAccessIterator3 target, typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type size, Comparator comp)</td></tr>
 <tr class="separator:a9b355735b0cbd64192c3b5ae99e5e2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58b375f7e5d2e26e774eb81c48d6272d"><td class="memTemplParams" colspan="2">template&lt;typename DiffType , typename DiffTypeOutputIterator &gt; </td></tr>
+<tr class="memitem:a58b375f7e5d2e26e774eb81c48d6272d"><td class="memTemplItemLeft" align="right" valign="top">DiffTypeOutputIterator&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1multiway__merge__detail.html#a58b375f7e5d2e26e774eb81c48d6272d">equally_split</a> (DiffType n, size_t p, DiffTypeOutputIterator s)</td></tr>
+<tr class="memdesc:a58b375f7e5d2e26e774eb81c48d6272d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a sequence into parts of almost equal size.  <a href="#a58b375f7e5d2e26e774eb81c48d6272d">More...</a><br/></td></tr>
+<tr class="separator:a58b375f7e5d2e26e774eb81c48d6272d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a58b375f7e5d2e26e774eb81c48d6272d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DiffTypeOutputIterator tlx::multiway_merge_detail::equally_split </td>
+          <td>(</td>
+          <td class="paramtype">DiffType&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DiffTypeOutputIterator&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Split a sequence into parts of almost equal size. </p>
+<p>The resulting sequence s of length p+1 contains the splitting positions when splitting the range [0,n) into parts of almost equal size (plus minus 1). The first entry is 0, the last one n. There may result empty parts.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Number of elements </td></tr>
+    <tr><td class="paramname">p</td><td>Number of parts </td></tr>
+    <tr><td class="paramname">s</td><td>Splitters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>End of splitter sequence, i. e. <code>s+p+1</code> </dd></dl>
+
+<p>Definition at line <a class="el" href="multiway__merge__splitting_8hpp_source.html#l00057">57</a> of file <a class="el" href="multiway__merge__splitting_8hpp_source.html">multiway_merge_splitting.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a70480d1927745d5df741d4c3769b0984"></a>
 <div class="memitem">
 <div class="memproto">
@@ -199,7 +249,7 @@ std::iterator_traits<br class="typebreak"/>
 
 <p>Size of a sequence described by a pair of iterators. </p>
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00041">41</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00044">44</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -245,7 +295,7 @@ std::iterator_traits<br class="typebreak"/>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00450">450</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00453">453</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -308,7 +358,7 @@ std::iterator_traits<br class="typebreak"/>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00371">371</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00374">374</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -354,7 +404,7 @@ std::iterator_traits<br class="typebreak"/>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00652">652</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00655">655</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -417,7 +467,7 @@ std::iterator_traits<br class="typebreak"/>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00545">545</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00548">548</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -483,7 +533,7 @@ std::iterator_traits<br class="typebreak"/>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00725">725</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00728">728</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -549,7 +599,7 @@ std::iterator_traits<br class="typebreak"/>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00912">912</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00915">915</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -595,7 +645,7 @@ std::iterator_traits<br class="typebreak"/>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l01070">1070</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l01073">1073</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -641,7 +691,7 @@ std::iterator_traits<br class="typebreak"/>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l01122">1122</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l01125">1125</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -708,7 +758,7 @@ std::iterator_traits<br class="typebreak"/>
 <dl class="section return"><dt>Returns</dt><dd>End iterator of output sequence. </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd>No input will run out of elements during the merge. </dd></dl>
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00998">998</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l01001">1001</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -766,7 +816,7 @@ std::iterator_traits<br class="typebreak"/>
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd>(seqs_end - seqs_begin &gt; 0) </dd></dl>
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00229">229</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00232">232</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -810,7 +860,7 @@ std::iterator_traits<br class="typebreak"/>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00307">307</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multiway__merge_8hpp_source.html#l00310">310</a> of file <a class="el" href="multiway__merge_8hpp_source.html">multiway_merge.hpp</a>.</p>
 
 </div>
 </div>
@@ -820,7 +870,7 @@ std::iterator_traits<br class="typebreak"/>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="namespacetlx_1_1multiway__merge__detail.html">multiway_merge_detail</a></li>
-    <li class="footer">Generated on Fri May 25 2018 14:46:45 for tlx by
+    <li class="footer">Generated on Fri May 25 2018 15:28:36 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
