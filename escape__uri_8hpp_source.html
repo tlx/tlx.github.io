@@ -137,23 +137,29 @@ $(document).ready(function(){initNavTree('escape__uri_8hpp_source.html','');});
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * Escape a string into a URI-encoding. This maps all non A-Z0-9 characters to</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * %HH hex representation.</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;std::string <a class="code" href="group__tlx__string.html#ga6c9dca404398316e3ffb6266d592b38d">escape_uri</a>(<span class="keyword">const</span> std::string&amp; src);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;std::string <a class="code" href="group__tlx__string.html#ga78dd9a77d746d167e41eb91022b3bc38">escape_uri</a>(<span class="keyword">const</span> std::string&amp; str);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">//! \}</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;} <span class="comment">// namespace tlx</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif // !TLX_STRING_ESCAPE_URI_HEADER</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">/******************************************************************************/</span></div>
-<div class="ttc" id="group__tlx__string_html_ga6c9dca404398316e3ffb6266d592b38d"><div class="ttname"><a href="group__tlx__string.html#ga6c9dca404398316e3ffb6266d592b38d">tlx::escape_uri</a></div><div class="ttdeci">std::string escape_uri(const std::string &amp;src)</div><div class="ttdoc">Escape a string into a URI-encoding. </div><div class="ttdef"><b>Definition:</b> <a href="escape__uri_8cpp_source.html#l00015">escape_uri.cpp:15</a></div></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">/*!</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * Escape a string into a URI-encoding. This maps all non A-Z0-9 characters to</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * %HH hex representation.</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;std::string <a class="code" href="group__tlx__string.html#ga78dd9a77d746d167e41eb91022b3bc38">escape_uri</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* str);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">//! \}</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;} <span class="comment">// namespace tlx</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif // !TLX_STRING_ESCAPE_URI_HEADER</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">/******************************************************************************/</span></div>
+<div class="ttc" id="group__tlx__string_html_ga78dd9a77d746d167e41eb91022b3bc38"><div class="ttname"><a href="group__tlx__string.html#ga78dd9a77d746d167e41eb91022b3bc38">tlx::escape_uri</a></div><div class="ttdeci">std::string escape_uri(const std::string &amp;str)</div><div class="ttdoc">Escape a string into a URI-encoding. </div><div class="ttdef"><b>Definition:</b> <a href="escape__uri_8cpp_source.html#l00017">escape_uri.cpp:17</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_45a7f11e1a4af18f182d54b603484851.html">string</a></li><li class="navelem"><a class="el" href="escape__uri_8hpp.html">escape_uri.hpp</a></li>
-    <li class="footer">Generated on Fri May 25 2018 16:11:22 for tlx by
+    <li class="footer">Generated on Fri May 25 2018 20:37:17 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

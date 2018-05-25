@@ -187,9 +187,15 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa3ec7c7d258293a6891f016878d22f09"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#gaa3ec7c7d258293a6891f016878d22f09">escape_html</a> (const std::string &amp;str)</td></tr>
 <tr class="memdesc:gaa3ec7c7d258293a6891f016878d22f09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Escape characters for inclusion in HTML documents: replaces the characters &lt;, &gt;, &amp; and " with HTML entities.  <a href="#gaa3ec7c7d258293a6891f016878d22f09">More...</a><br/></td></tr>
 <tr class="separator:gaa3ec7c7d258293a6891f016878d22f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6c9dca404398316e3ffb6266d592b38d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga6c9dca404398316e3ffb6266d592b38d">escape_uri</a> (const std::string &amp;src)</td></tr>
-<tr class="memdesc:ga6c9dca404398316e3ffb6266d592b38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Escape a string into a URI-encoding.  <a href="#ga6c9dca404398316e3ffb6266d592b38d">More...</a><br/></td></tr>
-<tr class="separator:ga6c9dca404398316e3ffb6266d592b38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaff9bb94ad54dff0e04f12d87ba4ccd0d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#gaff9bb94ad54dff0e04f12d87ba4ccd0d">escape_html</a> (const char *str)</td></tr>
+<tr class="memdesc:gaff9bb94ad54dff0e04f12d87ba4ccd0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Escape characters for inclusion in HTML documents: replaces the characters &lt;, &gt;, &amp; and " with HTML entities.  <a href="#gaff9bb94ad54dff0e04f12d87ba4ccd0d">More...</a><br/></td></tr>
+<tr class="separator:gaff9bb94ad54dff0e04f12d87ba4ccd0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga78dd9a77d746d167e41eb91022b3bc38"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga78dd9a77d746d167e41eb91022b3bc38">escape_uri</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:ga78dd9a77d746d167e41eb91022b3bc38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Escape a string into a URI-encoding.  <a href="#ga78dd9a77d746d167e41eb91022b3bc38">More...</a><br/></td></tr>
+<tr class="separator:ga78dd9a77d746d167e41eb91022b3bc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga526a45d33d89b2de7c3c4a0734495332"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga526a45d33d89b2de7c3c4a0734495332">escape_uri</a> (const char *str)</td></tr>
+<tr class="memdesc:ga526a45d33d89b2de7c3c4a0734495332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Escape a string into a URI-encoding.  <a href="#ga526a45d33d89b2de7c3c4a0734495332">More...</a><br/></td></tr>
+<tr class="separator:ga526a45d33d89b2de7c3c4a0734495332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf3c0e542036a6b3db66c2df1592fdcd4"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#gaf3c0e542036a6b3db66c2df1592fdcd4">expand_environment_variables</a> (std::string *s)</td></tr>
 <tr class="memdesc:gaf3c0e542036a6b3db66c2df1592fdcd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expand substrings $ABC_123 and ${ABC_123} into the corresponding environment variables.  <a href="#gaf3c0e542036a6b3db66c2df1592fdcd4">More...</a><br/></td></tr>
 <tr class="separator:gaf3c0e542036a6b3db66c2df1592fdcd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1489,11 +1495,31 @@ Trim</h2></td></tr>
 
 <p>Escape characters for inclusion in HTML documents: replaces the characters &lt;, &gt;, &amp; and " with HTML entities. </p>
 
-<p>Definition at line <a class="el" href="escape__html_8cpp_source.html#l00015">15</a> of file <a class="el" href="escape__html_8cpp_source.html">escape_html.cpp</a>.</p>
+<p>Definition at line <a class="el" href="escape__html_8cpp_source.html#l00017">17</a> of file <a class="el" href="escape__html_8cpp_source.html">escape_html.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ga6c9dca404398316e3ffb6266d592b38d"></a>
+<a class="anchor" id="gaff9bb94ad54dff0e04f12d87ba4ccd0d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string escape_html </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Escape characters for inclusion in HTML documents: replaces the characters &lt;, &gt;, &amp; and " with HTML entities. </p>
+
+<p>Definition at line <a class="el" href="escape__html_8cpp_source.html#l00033">33</a> of file <a class="el" href="escape__html_8cpp_source.html">escape_html.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga78dd9a77d746d167e41eb91022b3bc38"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1501,7 +1527,7 @@ Trim</h2></td></tr>
           <td class="memname">std::string escape_uri </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>src</em></td><td>)</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1510,7 +1536,28 @@ Trim</h2></td></tr>
 <p>Escape a string into a URI-encoding. </p>
 <p>This maps all non A-Z0-9 characters to HH hex representation. </p>
 
-<p>Definition at line <a class="el" href="escape__uri_8cpp_source.html#l00015">15</a> of file <a class="el" href="escape__uri_8cpp_source.html">escape_uri.cpp</a>.</p>
+<p>Definition at line <a class="el" href="escape__uri_8cpp_source.html#l00017">17</a> of file <a class="el" href="escape__uri_8cpp_source.html">escape_uri.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga526a45d33d89b2de7c3c4a0734495332"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string escape_uri </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Escape a string into a URI-encoding. </p>
+<p>This maps all non A-Z0-9 characters to HH hex representation. </p>
+
+<p>Definition at line <a class="el" href="escape__uri_8cpp_source.html#l00057">57</a> of file <a class="el" href="escape__uri_8cpp_source.html">escape_uri.cpp</a>.</p>
 
 </div>
 </div>
@@ -5535,7 +5582,7 @@ Trim</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 25 2018 16:11:22 for tlx by
+    <li class="footer">Generated on Fri May 25 2018 20:37:17 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
