@@ -13,7 +13,7 @@ var dir_dab8345dcd2ad8c9400f2b10c593e3dd =
     [ "btree_set.hpp", "btree__set_8hpp.html", [
       [ "key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", "structtlx_1_1btree__set_1_1key__of__value" ]
     ] ],
-    [ "loser_tree.hpp", "container_2loser__tree_8hpp.html", [
+    [ "loser_tree.hpp", "loser__tree_8hpp.html", [
       [ "Loser", "structtlx_1_1LoserTreePointerBase_1_1Loser.html", "structtlx_1_1LoserTreePointerBase_1_1Loser" ],
       [ "Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser" ],
       [ "Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser" ]

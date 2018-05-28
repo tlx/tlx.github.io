@@ -34,6 +34,7 @@ var group__tlx__algorithm =
     [ "parallel_multiway_merge", "group__tlx__algorithm.html#gac3580dd876ff80d088499292a12d2fbe", null ],
     [ "parallel_multiway_merge_base", "group__tlx__algorithm.html#ga267435a66c9b4a25471ea4233318e3cb", null ],
     [ "parallel_multiway_merge_sentinels", "group__tlx__algorithm.html#gaf080f97856fc44ecf724cb8693a0e62e", null ],
+    [ "random_bipartition_shuffle", "group__tlx__algorithm.html#ga635866c58aa0826d8c8ea7097f913935", null ],
     [ "stable_multiway_merge", "group__tlx__algorithm.html#gab5a6467af7f10ab6f206eb3f9b3e0e4e", null ],
     [ "stable_multiway_merge_sentinels", "group__tlx__algorithm.html#gac2db163874c1c8e389c2736a72decb5f", null ],
     [ "stable_parallel_multiway_merge", "group__tlx__algorithm.html#gae6f27252c44641af08a7297588ab1e6b", null ],

@@ -233,6 +233,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gae1bcd8deadd96750e476982b2d572fcf"><td class="memTemplItemLeft" align="right" valign="top">RandomAccessIterator3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gae1bcd8deadd96750e476982b2d572fcf">stable_parallel_multiway_merge_sentinels</a> (RandomAccessIteratorIterator seqs_begin, RandomAccessIteratorIterator seqs_end, RandomAccessIterator3 target, const typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type size, Comparator comp=Comparator(), MultiwayMergeAlgorithm mwma=MWMA_ALGORITHM_DEFAULT, MultiwayMergeSplittingAlgorithm mwmsa=MWMSA_DEFAULT, size_t num_threads=std::thread::hardware_concurrency())</td></tr>
 <tr class="memdesc:gae1bcd8deadd96750e476982b2d572fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stable parallel multi-way merge routine with sentinels.  <a href="#gae1bcd8deadd96750e476982b2d572fcf">More...</a><br/></td></tr>
 <tr class="separator:gae1bcd8deadd96750e476982b2d572fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga635866c58aa0826d8c8ea7097f913935"><td class="memTemplParams" colspan="2">template&lt;typename RandomAccessIt , typename RandomBits &gt; </td></tr>
+<tr class="memitem:ga635866c58aa0826d8c8ea7097f913935"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#ga635866c58aa0826d8c8ea7097f913935">random_bipartition_shuffle</a> (RandomAccessIt begin, RandomAccessIt end, size_t size_left_partition, RandomBits &amp;urng)</td></tr>
+<tr class="memdesc:ga635866c58aa0826d8c8ea7097f913935"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to std::shuffle, but only generates a random bi-partition.  <a href="#ga635866c58aa0826d8c8ea7097f913935">More...</a><br/></td></tr>
+<tr class="separator:ga635866c58aa0826d8c8ea7097f913935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1468,6 +1472,59 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ga635866c58aa0826d8c8ea7097f913935"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tlx::random_bipartition_shuffle </td>
+          <td>(</td>
+          <td class="paramtype">RandomAccessIt&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomAccessIt&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size_left_partition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomBits &amp;&#160;</td>
+          <td class="paramname"><em>urng</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Similar to std::shuffle, but only generates a random bi-partition. </p>
+<p>In the result, the the left partition class is stored at positions 0 to size_left_partition-1 the right partition class is stored at positions size_left_partition to n where n = std::distance(begin, end).</p>
+<p>Each element is moved to the left partition with probability (size_left_partition / n). There are no guarantees on the order WITHIN a partition (which makes this function considerable faster than std::shuffle especially if partition sizes are unbalanced). The runtime complexity is linear in the size of the smaller partition class.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin</td><td>Iterator to the begin of the data frame </td></tr>
+    <tr><td class="paramname">end</td><td>Iterator to the end of the data frame </td></tr>
+    <tr><td class="paramname">size_left_partition</td><td>Number of elements to be put into the left partition: 0 &lt;= size_left_partition &lt;= n </td></tr>
+    <tr><td class="paramname">urng</td><td>Random number generator compatible with STL interface, e.g. std::mt19937 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="random__bipartition__shuffle_8hpp_source.html#l00044">44</a> of file <a class="el" href="random__bipartition__shuffle_8hpp_source.html">random_bipartition_shuffle.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="gab5a6467af7f10ab6f206eb3f9b3e0e4e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1860,7 +1917,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon May 28 2018 13:04:39 for tlx by
+    <li class="footer">Generated on Mon May 28 2018 14:24:46 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

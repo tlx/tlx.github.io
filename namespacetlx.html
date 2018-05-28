@@ -494,6 +494,10 @@ Functions</h2></td></tr>
 <tr class="memitem:gae1bcd8deadd96750e476982b2d572fcf"><td class="memTemplItemLeft" align="right" valign="top">RandomAccessIterator3&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#gae1bcd8deadd96750e476982b2d572fcf">stable_parallel_multiway_merge_sentinels</a> (RandomAccessIteratorIterator seqs_begin, RandomAccessIteratorIterator seqs_end, RandomAccessIterator3 target, const typename std::iterator_traits&lt; typename std::iterator_traits&lt; RandomAccessIteratorIterator &gt;::value_type::first_type &gt;::difference_type size, Comparator comp=Comparator(), <a class="el" href="group__tlx__algorithm.html#ga98e900a348b28aa3709eb5e6d897ffbb">MultiwayMergeAlgorithm</a> mwma=<a class="el" href="group__tlx__algorithm.html#gga98e900a348b28aa3709eb5e6d897ffbba332bba921707cc62f6a682b8ac2c9013">MWMA_ALGORITHM_DEFAULT</a>, <a class="el" href="group__tlx__algorithm.html#ga8a7342a22bda2a80ef56d779ceae36c0">MultiwayMergeSplittingAlgorithm</a> mwmsa=<a class="el" href="group__tlx__algorithm.html#gga8a7342a22bda2a80ef56d779ceae36c0acfb06584091121c62050c13c54e0e298">MWMSA_DEFAULT</a>, size_t num_threads=std::thread::hardware_concurrency())</td></tr>
 <tr class="memdesc:gae1bcd8deadd96750e476982b2d572fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stable parallel multi-way merge routine with sentinels.  <a href="group__tlx__algorithm.html#gae1bcd8deadd96750e476982b2d572fcf">More...</a><br/></td></tr>
 <tr class="separator:gae1bcd8deadd96750e476982b2d572fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga635866c58aa0826d8c8ea7097f913935"><td class="memTemplParams" colspan="2">template&lt;typename RandomAccessIt , typename RandomBits &gt; </td></tr>
+<tr class="memitem:ga635866c58aa0826d8c8ea7097f913935"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__algorithm.html#ga635866c58aa0826d8c8ea7097f913935">random_bipartition_shuffle</a> (RandomAccessIt begin, RandomAccessIt end, size_t size_left_partition, RandomBits &amp;urng)</td></tr>
+<tr class="memdesc:ga635866c58aa0826d8c8ea7097f913935"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to std::shuffle, but only generates a random bi-partition.  <a href="group__tlx__algorithm.html#ga635866c58aa0826d8c8ea7097f913935">More...</a><br/></td></tr>
+<tr class="separator:ga635866c58aa0826d8c8ea7097f913935"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae38d352a065543cf324f52a58bd2b026"><td class="memTemplParams" colspan="2">template&lt;typename Type , typename... Args&gt; </td></tr>
 <tr class="memitem:ae38d352a065543cf324f52a58bd2b026"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a>&lt; Type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ae38d352a065543cf324f52a58bd2b026">make_counting</a> (Args &amp;&amp;...args)</td></tr>
 <tr class="memdesc:ae38d352a065543cf324f52a58bd2b026"><td class="mdescLeft">&#160;</td><td class="mdescRight">method analogous to std::make_shared and std::make_unique.  <a href="#ae38d352a065543cf324f52a58bd2b026">More...</a><br/></td></tr>
@@ -2727,7 +2731,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Mon May 28 2018 13:04:39 for tlx by
+    <li class="footer">Generated on Mon May 28 2018 14:24:46 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

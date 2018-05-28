@@ -9,5 +9,6 @@ var dir_2da45d5634f3d704f0f0e3154b7e8ec4 =
     [ "multiway_merge.hpp", "multiway__merge_8hpp.html", "multiway__merge_8hpp" ],
     [ "multiway_merge_splitting.hpp", "multiway__merge__splitting_8hpp.html", "multiway__merge__splitting_8hpp" ],
     [ "parallel_multiway_merge.cpp", "parallel__multiway__merge_8cpp.html", "parallel__multiway__merge_8cpp" ],
-    [ "parallel_multiway_merge.hpp", "parallel__multiway__merge_8hpp.html", "parallel__multiway__merge_8hpp" ]
+    [ "parallel_multiway_merge.hpp", "parallel__multiway__merge_8hpp.html", "parallel__multiway__merge_8hpp" ],
+    [ "random_bipartition_shuffle.hpp", "random__bipartition__shuffle_8hpp.html", "random__bipartition__shuffle_8hpp" ]
 ];
