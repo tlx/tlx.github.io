@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['data_20structures',['Data Structures',['../group__tlx__data__structures.html',1,'']]],
-  ['defines_20and_20macros',['Defines and Macros',['../group__tlx__define.html',1,'']]]
+  ['containers_20and_20data_20structures',['Containers and Data Structures',['../group__tlx__container.html',1,'']]]
 ];

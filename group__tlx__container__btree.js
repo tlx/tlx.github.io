@@ -1,4 +1,4 @@
-var group__tlx__data__structures__btree =
+var group__tlx__container__btree =
 [
     [ "btree_default_traits", "structtlx_1_1btree__default__traits.html", [
       [ "binsearch_threshold", "structtlx_1_1btree__default__traits.html#a4fefb7d61067934069f6a783e110ab47", null ],
@@ -585,8 +585,8 @@ var group__tlx__data__structures__btree =
       [ "TLX_BTREE_FRIENDS", "classtlx_1_1btree__set.html#a38ffbf220e298d1ee8c79307009cfa00", null ],
       [ "tree_", "classtlx_1_1btree__set.html#a901955ac1cb674450b79aa9d192832b3", null ]
     ] ],
-    [ "TLX_BTREE_ASSERT", "group__tlx__data__structures__btree.html#gaf7a068d4e246b8f8e74bfc33f205596b", null ],
-    [ "TLX_BTREE_FRIENDS", "group__tlx__data__structures__btree.html#ga615c99c9c9168777ab650dcdc9331947", null ],
-    [ "TLX_BTREE_MAX", "group__tlx__data__structures__btree.html#ga069fbcbc52ca1f7cbe681ff86d1e0e73", null ],
-    [ "TLX_BTREE_PRINT", "group__tlx__data__structures__btree.html#gabe5546ec024823fdb200cf2e6e9b624c", null ]
+    [ "TLX_BTREE_ASSERT", "group__tlx__container__btree.html#gaf7a068d4e246b8f8e74bfc33f205596b", null ],
+    [ "TLX_BTREE_FRIENDS", "group__tlx__container__btree.html#ga615c99c9c9168777ab650dcdc9331947", null ],
+    [ "TLX_BTREE_MAX", "group__tlx__container__btree.html#ga069fbcbc52ca1f7cbe681ff86d1e0e73", null ],
+    [ "TLX_BTREE_PRINT", "group__tlx__container__btree.html#gabe5546ec024823fdb200cf2e6e9b624c", null ]
 ];

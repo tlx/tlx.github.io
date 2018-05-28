@@ -1,6 +1,7 @@
 var searchData=
 [
   ['tail_5fleaf_5f',['tail_leaf_',['../classtlx_1_1btree.html#a3c467198562471ebc2a3ce840a556a9e',1,'tlx::btree']]],
+  ['temporary',['temporary',['../structtlx_1_1parallel__mergesort__detail_1_1PMWMSSortingData.html#a786edbe53d9c347f6e19e3f76ac9c67a',1,'tlx::parallel_mergesort_detail::PMWMSSortingData']]],
   ['terminate_5f',['terminate_',['../classtlx_1_1ThreadPool.html#a5c7c161ce42f7ccc3184d9bec18fa969',1,'tlx::ThreadPool']]],
   ['text_5f',['text_',['../classtlx_1_1sort__strings__detail_1_1StringSuffixSet.html#ab7df45d7ff473bfe1c16292c220c1015',1,'tlx::sort_strings_detail::StringSuffixSet']]],
   ['threads_5f',['threads_',['../classtlx_1_1ThreadPool.html#a1381729bb622c2600b5c489bd9cf2d4f',1,'tlx::ThreadPool']]],

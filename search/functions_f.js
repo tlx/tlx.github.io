@@ -1,12 +1,16 @@
 var searchData=
 [
   ['pad',['pad',['../group__tlx__string.html#ga03240bad0b02669f254c21c28009c21a',1,'tlx']]],
+  ['parallel_5fmergesort',['parallel_mergesort',['../group__tlx__sort.html#ga400ae7e170366e84a4bdb9b6ed1592e7',1,'tlx']]],
+  ['parallel_5fmergesort_5fbase',['parallel_mergesort_base',['../group__tlx__sort.html#ga81fdf70add19aa5134ecee16dba0925d',1,'tlx']]],
   ['parallel_5fmultiway_5fmerge',['parallel_multiway_merge',['../group__tlx__algorithm.html#gac3580dd876ff80d088499292a12d2fbe',1,'tlx']]],
   ['parallel_5fmultiway_5fmerge_5fbase',['parallel_multiway_merge_base',['../group__tlx__algorithm.html#ga267435a66c9b4a25471ea4233318e3cb',1,'tlx']]],
   ['parallel_5fmultiway_5fmerge_5fsentinels',['parallel_multiway_merge_sentinels',['../group__tlx__algorithm.html#gaf080f97856fc44ecf724cb8693a0e62e',1,'tlx']]],
+  ['parallel_5fsort_5fmwms_5fpu',['parallel_sort_mwms_pu',['../namespacetlx_1_1parallel__mergesort__detail.html#a991c870cb0098ee2f62bf18993d676c8',1,'tlx::parallel_mergesort_detail']]],
   ['param_5ftext',['param_text',['../structtlx_1_1CmdlineParser_1_1Argument.html#a37ad78a3220008442890cf3ac12e9f77',1,'tlx::CmdlineParser::Argument']]],
   ['parse_5fhexdump',['parse_hexdump',['../group__tlx__string.html#ga81809bc5e0b69034f39659303baa4bf9',1,'tlx']]],
   ['parse_5fsi_5fiec_5funits',['parse_si_iec_units',['../group__tlx__string.html#ga58be0557b1b38913b28d947c935aed42',1,'tlx::parse_si_iec_units(const char *str, uint64_t *out_size, char default_unit=0)'],['../group__tlx__string.html#ga42a656ed3586b515140cb71b312f0f9b',1,'tlx::parse_si_iec_units(const std::string &amp;str, uint64_t *out_size, char default_unit=0)']]],
+  ['pmwmssortingdata',['PMWMSSortingData',['../structtlx_1_1parallel__mergesort__detail_1_1PMWMSSortingData.html#a7aa11aaca0270572eedb224250df7404',1,'tlx::parallel_mergesort_detail::PMWMSSortingData']]],
   ['pointer_5fin_5fbuffer',['pointer_in_buffer',['../classtlx_1_1StackArena.html#a351ae3d1a094b30c6f214370014dc61b',1,'tlx::StackArena']]],
   ['pop',['pop',['../classtlx_1_1LruCacheSet.html#a874f1a7960b79201a69e5700e9b3f66c',1,'tlx::LruCacheSet::pop()'],['../classtlx_1_1LruCacheMap.html#aa6ff226577e0c641c859c6bdc12804c9',1,'tlx::LruCacheMap::pop()']]],
   ['pop_5fback',['pop_back',['../classtlx_1_1RingBuffer.html#a058bda4957df6a97b1ea6c9fd783f672',1,'tlx::RingBuffer']]],

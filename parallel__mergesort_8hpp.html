@@ -109,19 +109,72 @@ $(document).ready(function(){initNavTree('parallel__mergesort_8hpp.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">parallel_mergesort.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;algorithm&gt;</code><br/>
+<code>#include &lt;functional&gt;</code><br/>
+<code>#include &lt;utility&gt;</code><br/>
+<code>#include &lt;vector&gt;</code><br/>
+<code>#include &lt;<a class="el" href="multisequence__selection_8hpp_source.html">tlx/algorithm/multisequence_selection.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="parallel__multiway__merge_8hpp_source.html">tlx/algorithm/parallel_multiway_merge.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="simple__vector_8hpp_source.html">tlx/simple_vector.hpp</a>&gt;</code><br/>
+<code>#include &lt;omp.h&gt;</code><br/>
+</div>
 <p><a href="parallel__mergesort_8hpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1parallel__mergesort__detail_1_1PMWMSPiece.html">PMWMSPiece&lt; DiffType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subsequence description.  <a href="structtlx_1_1parallel__mergesort__detail_1_1PMWMSPiece.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1parallel__mergesort__detail_1_1PMWMSSortingData.html">PMWMSSortingData&lt; RandomAccessIterator &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data accessed by all threads.  <a href="structtlx_1_1parallel__mergesort__detail_1_1PMWMSSortingData.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacetlx"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html">tlx</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacetlx_1_1parallel__mergesort__detail"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1parallel__mergesort__detail.html">tlx::parallel_mergesort_detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a500637883c17b2e5a7d7865fe1d62765"><td class="memTemplParams" colspan="2">template&lt;typename RandomAccessIterator , typename DiffType &gt; </td></tr>
+<tr class="memitem:a500637883c17b2e5a7d7865fe1d62765"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1parallel__mergesort__detail.html#a500637883c17b2e5a7d7865fe1d62765">determine_samples</a> (PMWMSSortingData&lt; RandomAccessIterator &gt; *sd, DiffType &amp;num_samples, size_t iam, size_t num_threads)</td></tr>
+<tr class="memdesc:a500637883c17b2e5a7d7865fe1d62765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select samples from a sequence.  <a href="#a500637883c17b2e5a7d7865fe1d62765">More...</a><br/></td></tr>
+<tr class="separator:a500637883c17b2e5a7d7865fe1d62765"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991c870cb0098ee2f62bf18993d676c8"><td class="memTemplParams" colspan="2">template&lt;bool Stable, typename RandomAccessIterator , typename Comparator &gt; </td></tr>
+<tr class="memitem:a991c870cb0098ee2f62bf18993d676c8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1parallel__mergesort__detail.html#a991c870cb0098ee2f62bf18993d676c8">parallel_sort_mwms_pu</a> (PMWMSSortingData&lt; RandomAccessIterator &gt; *sd, size_t iam, size_t num_threads, Comparator &amp;comp, MultiwayMergeSplittingAlgorithm mwmsa)</td></tr>
+<tr class="memdesc:a991c870cb0098ee2f62bf18993d676c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">PMWMS code executed by each thread.  <a href="#a991c870cb0098ee2f62bf18993d676c8">More...</a><br/></td></tr>
+<tr class="separator:a991c870cb0098ee2f62bf18993d676c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Parallel Sorting Algorithms</div></td></tr>
+<tr class="memitem:ga81fdf70add19aa5134ecee16dba0925d"><td class="memTemplParams" colspan="2">template&lt;bool Stable, typename RandomAccessIterator , typename Comparator &gt; </td></tr>
+<tr class="memitem:ga81fdf70add19aa5134ecee16dba0925d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga81fdf70add19aa5134ecee16dba0925d">parallel_mergesort_base</a> (RandomAccessIterator begin, RandomAccessIterator end, Comparator comp, size_t num_threads=std::thread::hardware_concurrency(), MultiwayMergeSplittingAlgorithm mwmsa=MWMSA_DEFAULT)</td></tr>
+<tr class="memdesc:ga81fdf70add19aa5134ecee16dba0925d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel multiway mergesort main call.  <a href="group__tlx__sort.html#ga81fdf70add19aa5134ecee16dba0925d">More...</a><br/></td></tr>
+<tr class="separator:ga81fdf70add19aa5134ecee16dba0925d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga400ae7e170366e84a4bdb9b6ed1592e7"><td class="memTemplParams" colspan="2">template&lt;typename RandomAccessIterator , typename Comparator  = std::less&lt;              typename std::iterator_traits&lt;RandomAccessIterator&gt;::value_type&gt;&gt; </td></tr>
+<tr class="memitem:ga400ae7e170366e84a4bdb9b6ed1592e7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga400ae7e170366e84a4bdb9b6ed1592e7">parallel_mergesort</a> (RandomAccessIterator begin, RandomAccessIterator end, Comparator comp=Comparator(), size_t num_threads=std::thread::hardware_concurrency(), MultiwayMergeSplittingAlgorithm mwmsa=MWMSA_DEFAULT)</td></tr>
+<tr class="memdesc:ga400ae7e170366e84a4bdb9b6ed1592e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel multiway mergesort.  <a href="group__tlx__sort.html#ga400ae7e170366e84a4bdb9b6ed1592e7">More...</a><br/></td></tr>
+<tr class="separator:ga400ae7e170366e84a4bdb9b6ed1592e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4aa384ccbe79fdd32a7eec193142781a"><td class="memTemplParams" colspan="2">template&lt;typename RandomAccessIterator , typename Comparator  = std::less&lt;              typename std::iterator_traits&lt;RandomAccessIterator&gt;::value_type&gt;&gt; </td></tr>
+<tr class="memitem:ga4aa384ccbe79fdd32a7eec193142781a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga4aa384ccbe79fdd32a7eec193142781a">stable_parallel_mergesort</a> (RandomAccessIterator begin, RandomAccessIterator end, Comparator comp=Comparator(), size_t num_threads=std::thread::hardware_concurrency(), MultiwayMergeSplittingAlgorithm mwmsa=MWMSA_DEFAULT)</td></tr>
+<tr class="memdesc:ga4aa384ccbe79fdd32a7eec193142781a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stable parallel multiway mergesort.  <a href="group__tlx__sort.html#ga4aa384ccbe79fdd32a7eec193142781a">More...</a><br/></td></tr>
+<tr class="separator:ga4aa384ccbe79fdd32a7eec193142781a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_82d49b977daa72f9a1145b61404a8efe.html">sort</a></li><li class="navelem"><a class="el" href="parallel__mergesort_8hpp.html">parallel_mergesort.hpp</a></li>
-    <li class="footer">Generated on Fri May 25 2018 20:37:17 for tlx by
+    <li class="footer">Generated on Mon May 28 2018 13:04:38 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,7 +1,7 @@
-var group__tlx__data__structures =
+var group__tlx__container =
 [
-    [ "B+ Trees", "group__tlx__data__structures__btree.html", "group__tlx__data__structures__btree" ],
-    [ "Loser Trees", "group__tlx__data__structures__loser__tree.html", "group__tlx__data__structures__loser__tree" ],
+    [ "B+ Trees", "group__tlx__container__btree.html", "group__tlx__container__btree" ],
+    [ "Loser Trees", "group__tlx__container__loser__tree.html", "group__tlx__container__loser__tree" ],
     [ "LruCacheSet", "classtlx_1_1LruCacheSet.html", [
       [ "List", "classtlx_1_1LruCacheSet.html#aef5817a38720be7f39e4b342a5579167", null ],
       [ "ListIterator", "classtlx_1_1LruCacheSet.html#a893fd28c1f0a5a3caa628a7e08deb2cb", null ],
@@ -122,10 +122,10 @@ var group__tlx__data__structures =
       [ "array_", "classtlx_1_1SimpleVector.html#a581987641fc2ed1e4c1fff21240dcd01", null ],
       [ "size_", "classtlx_1_1SimpleVector.html#a4f3592f75c4916a9a92255c165bd65d2", null ]
     ] ],
-    [ "simple_vector", "group__tlx__data__structures.html#ga4843a6aed555573a98892469fee27b0b", null ],
-    [ "SimpleVectorMode", "group__tlx__data__structures.html#ga07f67904ca9d31961dc022100101c358", [
-      [ "Normal", "group__tlx__data__structures.html#gga07f67904ca9d31961dc022100101c358a960b44c579bc2f6818d2daaf9e4c16f0", null ],
-      [ "NoInitButDestroy", "group__tlx__data__structures.html#gga07f67904ca9d31961dc022100101c358a96726bf24e630d03d0f4e5715e9fd097", null ],
-      [ "NoInitNoDestroy", "group__tlx__data__structures.html#gga07f67904ca9d31961dc022100101c358a60008b87abd54104caffab5779ea7244", null ]
+    [ "simple_vector", "group__tlx__container.html#ga4843a6aed555573a98892469fee27b0b", null ],
+    [ "SimpleVectorMode", "group__tlx__container.html#ga07f67904ca9d31961dc022100101c358", [
+      [ "Normal", "group__tlx__container.html#gga07f67904ca9d31961dc022100101c358a960b44c579bc2f6818d2daaf9e4c16f0", null ],
+      [ "NoInitButDestroy", "group__tlx__container.html#gga07f67904ca9d31961dc022100101c358a96726bf24e630d03d0f4e5715e9fd097", null ],
+      [ "NoInitNoDestroy", "group__tlx__container.html#gga07f67904ca9d31961dc022100101c358a60008b87abd54104caffab5779ea7244", null ]
     ] ]
 ];

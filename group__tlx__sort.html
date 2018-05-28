@@ -103,6 +103,8 @@ $(document).ready(function(){initNavTree('group__tlx__sort.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">Sorting Algorithms<div class="ingroups"><a class="el" href="group__tlx.html">tlx - C++ Extensions and Utilities</a></div></div>  </div>
 </div><!--header-->
@@ -111,6 +113,26 @@ $(document).ready(function(){initNavTree('group__tlx__sort.html','');});
 <p>Specialized Sorting Algorithms.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacetlx_1_1parallel__mergesort__detail"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1parallel__mergesort__detail.html">tlx::parallel_mergesort_detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Parallel Sorting Algorithms</h2></td></tr>
+<tr class="memitem:ga81fdf70add19aa5134ecee16dba0925d"><td class="memTemplParams" colspan="2">template&lt;bool Stable, typename RandomAccessIterator , typename Comparator &gt; </td></tr>
+<tr class="memitem:ga81fdf70add19aa5134ecee16dba0925d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga81fdf70add19aa5134ecee16dba0925d">parallel_mergesort_base</a> (RandomAccessIterator begin, RandomAccessIterator end, Comparator comp, size_t num_threads=std::thread::hardware_concurrency(), MultiwayMergeSplittingAlgorithm mwmsa=MWMSA_DEFAULT)</td></tr>
+<tr class="memdesc:ga81fdf70add19aa5134ecee16dba0925d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel multiway mergesort main call.  <a href="#ga81fdf70add19aa5134ecee16dba0925d">More...</a><br/></td></tr>
+<tr class="separator:ga81fdf70add19aa5134ecee16dba0925d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga400ae7e170366e84a4bdb9b6ed1592e7"><td class="memTemplParams" colspan="2">template&lt;typename RandomAccessIterator , typename Comparator  = std::less&lt;              typename std::iterator_traits&lt;RandomAccessIterator&gt;::value_type&gt;&gt; </td></tr>
+<tr class="memitem:ga400ae7e170366e84a4bdb9b6ed1592e7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga400ae7e170366e84a4bdb9b6ed1592e7">parallel_mergesort</a> (RandomAccessIterator begin, RandomAccessIterator end, Comparator comp=Comparator(), size_t num_threads=std::thread::hardware_concurrency(), MultiwayMergeSplittingAlgorithm mwmsa=MWMSA_DEFAULT)</td></tr>
+<tr class="memdesc:ga400ae7e170366e84a4bdb9b6ed1592e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parallel multiway mergesort.  <a href="#ga400ae7e170366e84a4bdb9b6ed1592e7">More...</a><br/></td></tr>
+<tr class="separator:ga400ae7e170366e84a4bdb9b6ed1592e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4aa384ccbe79fdd32a7eec193142781a"><td class="memTemplParams" colspan="2">template&lt;typename RandomAccessIterator , typename Comparator  = std::less&lt;              typename std::iterator_traits&lt;RandomAccessIterator&gt;::value_type&gt;&gt; </td></tr>
+<tr class="memitem:ga4aa384ccbe79fdd32a7eec193142781a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga4aa384ccbe79fdd32a7eec193142781a">stable_parallel_mergesort</a> (RandomAccessIterator begin, RandomAccessIterator end, Comparator comp=Comparator(), size_t num_threads=std::thread::hardware_concurrency(), MultiwayMergeSplittingAlgorithm mwmsa=MWMSA_DEFAULT)</td></tr>
+<tr class="memdesc:ga4aa384ccbe79fdd32a7eec193142781a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stable parallel multiway mergesort.  <a href="#ga4aa384ccbe79fdd32a7eec193142781a">More...</a><br/></td></tr>
+<tr class="separator:ga4aa384ccbe79fdd32a7eec193142781a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 String Sorting Algorithms</h2></td></tr>
 <tr class="memitem:ga2f9c811e016ff972020f490ab2b7ad7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga2f9c811e016ff972020f490ab2b7ad7b">sort_strings</a> (char **strings, size_t size, size_t memory=0)</td></tr>
@@ -147,6 +169,128 @@ String Sorting Algorithms</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Specialized Sorting Algorithms. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="ga400ae7e170366e84a4bdb9b6ed1592e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tlx::parallel_mergesort </td>
+          <td>(</td>
+          <td class="paramtype">RandomAccessIterator&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomAccessIterator&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparator&#160;</td>
+          <td class="paramname"><em>comp</em> = <code>Comparator()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_threads</em> = <code>std::thread::hardware_concurrency()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MultiwayMergeSplittingAlgorithm&#160;</td>
+          <td class="paramname"><em>mwmsa</em> = <code>MWMSA_DEFAULT</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parallel multiway mergesort. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin</td><td>Begin iterator of sequence. </td></tr>
+    <tr><td class="paramname">end</td><td>End iterator of sequence. </td></tr>
+    <tr><td class="paramname">comp</td><td>Comparator. </td></tr>
+    <tr><td class="paramname">num_threads</td><td>Number of threads to use. </td></tr>
+    <tr><td class="paramname">mwmsa</td><td>MultiwayMergeSplittingAlgorithm to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="parallel__mergesort_8hpp_source.html#l00338">338</a> of file <a class="el" href="parallel__mergesort_8hpp_source.html">parallel_mergesort.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga81fdf70add19aa5134ecee16dba0925d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tlx::parallel_mergesort_base </td>
+          <td>(</td>
+          <td class="paramtype">RandomAccessIterator&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomAccessIterator&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparator&#160;</td>
+          <td class="paramname"><em>comp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_threads</em> = <code>std::thread::hardware_concurrency()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MultiwayMergeSplittingAlgorithm&#160;</td>
+          <td class="paramname"><em>mwmsa</em> = <code>MWMSA_DEFAULT</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parallel multiway mergesort main call. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin</td><td>Begin iterator of sequence. </td></tr>
+    <tr><td class="paramname">end</td><td>End iterator of sequence. </td></tr>
+    <tr><td class="paramname">comp</td><td>Comparator. </td></tr>
+    <tr><td class="paramname">num_threads</td><td>Number of threads to use. </td></tr>
+    <tr><td class="paramname">mwmsa</td><td>MultiwayMergeSplittingAlgorithm to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Stable</td><td>Stable sorting. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="parallel__mergesort_8hpp_source.html#l00276">276</a> of file <a class="el" href="parallel__mergesort_8hpp_source.html">parallel_mergesort.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga2f9c811e016ff972020f490ab2b7ad7b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -485,12 +629,70 @@ String Sorting Algorithms</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ga4aa384ccbe79fdd32a7eec193142781a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tlx::stable_parallel_mergesort </td>
+          <td>(</td>
+          <td class="paramtype">RandomAccessIterator&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomAccessIterator&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparator&#160;</td>
+          <td class="paramname"><em>comp</em> = <code>Comparator()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>num_threads</em> = <code>std::thread::hardware_concurrency()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MultiwayMergeSplittingAlgorithm&#160;</td>
+          <td class="paramname"><em>mwmsa</em> = <code>MWMSA_DEFAULT</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stable parallel multiway mergesort. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin</td><td>Begin iterator of sequence. </td></tr>
+    <tr><td class="paramname">end</td><td>End iterator of sequence. </td></tr>
+    <tr><td class="paramname">comp</td><td>Comparator. </td></tr>
+    <tr><td class="paramname">num_threads</td><td>Number of threads to use. </td></tr>
+    <tr><td class="paramname">mwmsa</td><td>MultiwayMergeSplittingAlgorithm to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="parallel__mergesort_8hpp_source.html#l00361">361</a> of file <a class="el" href="parallel__mergesort_8hpp_source.html">parallel_mergesort.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 25 2018 20:37:17 for tlx by
+    <li class="footer">Generated on Mon May 28 2018 13:04:39 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

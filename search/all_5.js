@@ -9,7 +9,7 @@ var searchData=
   ['find_5flower',['find_lower',['../classtlx_1_1btree.html#ae8009ed54bc12a51d11dfdcb447a9227',1,'tlx::btree']]],
   ['find_5fupper',['find_upper',['../classtlx_1_1btree.html#ab0544e2a2c0a7df7f7f2efa47682e5c4',1,'tlx::btree']]],
   ['first_5f',['first_',['../classtlx_1_1SpacingLogger.html#aa184fabd856fc0190c1f552fcc3f4143',1,'tlx::SpacingLogger']]],
-  ['first_5finsert_5f',['first_insert_',['../group__tlx__data__structures__loser__tree.html#ga9cb25c1f5af5b7e4b1f12623a71c41dd',1,'tlx::LoserTreeCopyBase']]],
+  ['first_5finsert_5f',['first_insert_',['../group__tlx__container__loser__tree.html#ga9cb25c1f5af5b7e4b1f12623a71c41dd',1,'tlx::LoserTreeCopyBase']]],
   ['flags',['flags',['../structtlx_1_1btree_1_1result__t.html#a8977bdc6bb20adb10785684083b8077f',1,'tlx::btree::result_t']]],
   ['flip',['flip',['../classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#aa9fcd2d2bd9f6622c0bb6c5e5bfe48ed',1,'tlx::sort_strings_detail::StringShadowPtr::flip(size_t begin, size_t end) const '],['../classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#ae6be098c1c11cdbef895b1a50914ace3',1,'tlx::sort_strings_detail::StringShadowPtr::flip() const ']]],
   ['flipped',['flipped',['../classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#a829548f7a1865ca82c63d40da2087758',1,'tlx::sort_strings_detail::StringShadowPtr']]],

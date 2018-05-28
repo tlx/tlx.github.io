@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['unguarded_5fiterator',['unguarded_iterator',['../classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html',1,'tlx::multiway_merge_detail']]],
-  ['uptrstdstringset',['UPtrStdStringSet',['../classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet.html',1,'tlx::sort_strings_detail']]],
-  ['uptrstdstringsettraits',['UPtrStdStringSetTraits',['../classtlx_1_1sort__strings__detail_1_1UPtrStdStringSetTraits.html',1,'tlx::sort_strings_detail']]]
+  ['threadpool',['ThreadPool',['../classtlx_1_1ThreadPool.html',1,'tlx']]],
+  ['tree_5fstats',['tree_stats',['../structtlx_1_1btree_1_1tree__stats.html',1,'tlx::btree']]]
 ];
