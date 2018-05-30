@@ -7,7 +7,7 @@ var searchData=
   ['radixstep_5fci3',['RadixStep_CI3',['../structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html',1,'tlx::sort_strings_detail']]],
   ['rebind',['rebind',['../structtlx_1_1StackAllocator_1_1rebind.html',1,'tlx::StackAllocator']]],
   ['referencecounter',['ReferenceCounter',['../classtlx_1_1ReferenceCounter.html',1,'tlx']]],
-  ['result_5ft',['result_t',['../structtlx_1_1btree_1_1result__t.html',1,'tlx::btree']]],
-  ['reverse_5fiterator',['reverse_iterator',['../classtlx_1_1btree_1_1reverse__iterator.html',1,'tlx::btree']]],
+  ['result_5ft',['result_t',['../structtlx_1_1BTree_1_1result__t.html',1,'tlx::BTree']]],
+  ['reverse_5fiterator',['reverse_iterator',['../classtlx_1_1BTree_1_1reverse__iterator.html',1,'tlx::BTree']]],
   ['ringbuffer',['RingBuffer',['../classtlx_1_1RingBuffer.html',1,'tlx']]]
 ];

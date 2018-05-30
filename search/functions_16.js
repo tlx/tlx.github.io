@@ -1,7 +1,7 @@
 var searchData=
 [
   ['_7eargument',['~Argument',['../structtlx_1_1CmdlineParser_1_1Argument.html#a638bde225f0c55386b6f70741d6a4576',1,'tlx::CmdlineParser::Argument']]],
-  ['_7ebtree',['~btree',['../classtlx_1_1btree.html#a20cfa7f3246dda87ab05351e23b1bc11',1,'tlx::btree']]],
+  ['_7ebtree',['~BTree',['../classtlx_1_1BTree.html#af50bbeb39af1051f057b65da1c71a671',1,'tlx::BTree']]],
   ['_7ebtree_5fmap',['~btree_map',['../classtlx_1_1btree__map.html#aec89d699a604c38a596825ae86bc7081',1,'tlx::btree_map']]],
   ['_7ebtree_5fmultimap',['~btree_multimap',['../classtlx_1_1btree__multimap.html#aa904d5c9c3c0c45195ed0d489fe9d0a4',1,'tlx::btree_multimap']]],
   ['_7ebtree_5fmultiset',['~btree_multiset',['../classtlx_1_1btree__multiset.html#a4040aecad09bb71686d455eb8643fde3',1,'tlx::btree_multiset']]],

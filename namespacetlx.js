@@ -9,7 +9,7 @@ var namespacetlx =
     [ "AllocatorBase", "classtlx_1_1AllocatorBase.html", "classtlx_1_1AllocatorBase" ],
     [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
     [ "btree_default_traits", "structtlx_1_1btree__default__traits.html", "structtlx_1_1btree__default__traits" ],
-    [ "btree", "classtlx_1_1btree.html", "classtlx_1_1btree" ],
+    [ "BTree", "classtlx_1_1BTree.html", "classtlx_1_1BTree" ],
     [ "btree_map", "classtlx_1_1btree__map.html", "classtlx_1_1btree__map" ],
     [ "btree_multimap", "classtlx_1_1btree__multimap.html", "classtlx_1_1btree__multimap" ],
     [ "btree_multiset", "classtlx_1_1btree__multiset.html", "classtlx_1_1btree__multiset" ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['leaf_5fnode',['leaf_node',['../structtlx_1_1btree_1_1leaf__node.html',1,'tlx::btree']]],
+  ['leafnode',['LeafNode',['../structtlx_1_1BTree_1_1LeafNode.html',1,'tlx::BTree']]],
   ['lexicographic',['lexicographic',['../classtlx_1_1multisequence__partition__detail_1_1lexicographic.html',1,'tlx::multisequence_partition_detail']]],
   ['lexicographic',['lexicographic',['../classtlx_1_1multisequence__selection__detail_1_1lexicographic.html',1,'tlx::multisequence_selection_detail']]],
   ['lexicographic_5frev',['lexicographic_rev',['../classtlx_1_1multisequence__partition__detail_1_1lexicographic__rev.html',1,'tlx::multisequence_partition_detail']]],
