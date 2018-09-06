@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>tlx: tlx/die.cpp File Reference</title>
+<title>tlx: tlx/die Directory Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -54,7 +54,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -73,12 +73,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
-  <div id="navrow2" class="tabs2">
-    <ul class="tablist">
-      <li><a href="files.html"><span>File&#160;List</span></a></li>
-      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
-    </ul>
-  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -91,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('die_8cpp.html','');});
+$(document).ready(function(){initNavTree('dir_9a6008668f7ecf35878ebc6bd2d3ccfa.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,53 +103,25 @@ $(document).ready(function(){initNavTree('die_8cpp.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">die.cpp File Reference</div>  </div>
+<div class="title">die Directory Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="die_8hpp_source.html">tlx/die.hpp</a>&gt;</code><br/>
-<code>#include &lt;atomic&gt;</code><br/>
-<code>#include &lt;iostream&gt;</code><br/>
-<code>#include &lt;sstream&gt;</code><br/>
-</div>
-<p><a href="die_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespacetlx"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html">tlx</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
+Files</h2></td></tr>
+<tr class="memitem:die_2core_8cpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_2core_8cpp.html">core.cpp</a> <a href="die_2core_8cpp_source.html">[code]</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a1a4f198a88970a7cb1f5d8d3a0555b79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1a4f198a88970a7cb1f5d8d3a0555b79">die_with_message</a> (const std::string &amp;msg)</td></tr>
-<tr class="memdesc:a1a4f198a88970a7cb1f5d8d3a0555b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">die with message - either throw an exception or die via std::terminate()  <a href="#a1a4f198a88970a7cb1f5d8d3a0555b79">More...</a><br/></td></tr>
-<tr class="separator:a1a4f198a88970a7cb1f5d8d3a0555b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1972bdbc5b9ff146cf88d18ec9a12d64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a1972bdbc5b9ff146cf88d18ec9a12d64">die_with_message</a> (const char *msg, const char *file, size_t line)</td></tr>
-<tr class="memdesc:a1972bdbc5b9ff146cf88d18ec9a12d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">die with message - either throw an exception or die via std::terminate()  <a href="#a1972bdbc5b9ff146cf88d18ec9a12d64">More...</a><br/></td></tr>
-<tr class="separator:a1972bdbc5b9ff146cf88d18ec9a12d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf7bff2d67e5ed89bd9dc6bea904e1c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#acf7bff2d67e5ed89bd9dc6bea904e1c1">die_with_message</a> (const std::string &amp;msg, const char *file, size_t line)</td></tr>
-<tr class="memdesc:acf7bff2d67e5ed89bd9dc6bea904e1c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">die with message - either throw an exception or die via std::terminate()  <a href="#acf7bff2d67e5ed89bd9dc6bea904e1c1">More...</a><br/></td></tr>
-<tr class="separator:acf7bff2d67e5ed89bd9dc6bea904e1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa17989dc1fbbf1047c8f238aaafe7092"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#aa17989dc1fbbf1047c8f238aaafe7092">set_die_with_exception</a> (bool b)</td></tr>
-<tr class="memdesc:aa17989dc1fbbf1047c8f238aaafe7092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch between dying via std::terminate() and throwing an exception.  <a href="#aa17989dc1fbbf1047c8f238aaafe7092">More...</a><br/></td></tr>
-<tr class="separator:aa17989dc1fbbf1047c8f238aaafe7092"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a60940290b9c3ca9e978cd30dca38d8c8"><td class="memItemLeft" align="right" valign="top">static std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a60940290b9c3ca9e978cd30dca38d8c8">s_die_with_exception</a></td></tr>
-<tr class="separator:a60940290b9c3ca9e978cd30dca38d8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:die_2core_8hpp"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_2core_8hpp.html">core.hpp</a> <a href="die_2core_8hpp_source.html">[code]</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="die_8cpp.html">die.cpp</a></li>
-    <li class="footer">Generated on Thu Sep 6 2018 15:05:19 for tlx by
+    <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_9a6008668f7ecf35878ebc6bd2d3ccfa.html">die</a></li>
+    <li class="footer">Generated on Thu Sep 6 2018 15:36:26 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

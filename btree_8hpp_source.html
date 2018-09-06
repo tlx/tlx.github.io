@@ -126,7 +126,7 @@ $(document).ready(function(){initNavTree('btree_8hpp_source.html','');});
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef TLX_CONTAINER_BTREE_HEADER</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TLX_CONTAINER_BTREE_HEADER</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="die_8hpp.html">tlx/die.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="die_2core_8hpp.html">tlx/die/core.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// *** Required Headers from the STL</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
@@ -3649,7 +3649,7 @@ $(document).ready(function(){initNavTree('btree_8hpp_source.html','');});
 <div class="line"><a name="l03534"></a><span class="lineno"> 3534</span>&#160;<span class="comment">    //! \{</span></div>
 <div class="line"><a name="l03535"></a><span class="lineno"> 3535</span>&#160;<span class="comment"></span><span class="comment"></span></div>
 <div class="line"><a name="l03536"></a><span class="lineno"> 3536</span>&#160;<span class="comment">    //! Run a thorough verification of all B+ tree invariants. The program</span></div>
-<div class="line"><a name="l03537"></a><span class="lineno"> 3537</span>&#160;<span class="comment">    //! aborts via die_unless() if something is wrong.</span></div>
+<div class="line"><a name="l03537"></a><span class="lineno"> 3537</span>&#160;<span class="comment">    //! aborts via tlx_die_unless() if something is wrong.</span></div>
 <div class="line"><a name="l03538"></a><span class="lineno"><a class="line" href="classtlx_1_1BTree.html#af26aef03a7dfaca8fabb99969312307a"> 3538</a></span>&#160;<span class="comment"></span>    <span class="keywordtype">void</span> <a class="code" href="classtlx_1_1BTree.html#af26aef03a7dfaca8fabb99969312307a">verify</a>()<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l03539"></a><span class="lineno"> 3539</span>&#160;        <a class="code" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">key_type</a> minkey, maxkey;</div>
 <div class="line"><a name="l03540"></a><span class="lineno"> 3540</span>&#160;        tree_stats vstats;</div>
@@ -3658,9 +3658,9 @@ $(document).ready(function(){initNavTree('btree_8hpp_source.html','');});
 <div class="line"><a name="l03543"></a><span class="lineno"> 3543</span>&#160;        {</div>
 <div class="line"><a name="l03544"></a><span class="lineno"> 3544</span>&#160;            <a class="code" href="classtlx_1_1BTree.html#ad6ed64cad61c5ac8cb5a4dc97ac34baf">verify_node</a>(<a class="code" href="classtlx_1_1BTree.html#aebc82407c13a86e9551f7984d2e3d356">root_</a>, &amp;minkey, &amp;maxkey, vstats);</div>
 <div class="line"><a name="l03545"></a><span class="lineno"> 3545</span>&#160;</div>
-<div class="line"><a name="l03546"></a><span class="lineno"> 3546</span>&#160;            <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(vstats.size == <a class="code" href="classtlx_1_1BTree.html#aed457b19fc617a12201f09de1d885368">stats_</a>.<a class="code" href="structtlx_1_1BTree_1_1tree__stats.html#a769e947b7bd053d20cc72d6187e1d0fb">size</a>);</div>
-<div class="line"><a name="l03547"></a><span class="lineno"> 3547</span>&#160;            <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(vstats.leaves == <a class="code" href="classtlx_1_1BTree.html#aed457b19fc617a12201f09de1d885368">stats_</a>.<a class="code" href="structtlx_1_1BTree_1_1tree__stats.html#a3df9010ac682baa68b20e01e5df2be3d">leaves</a>);</div>
-<div class="line"><a name="l03548"></a><span class="lineno"> 3548</span>&#160;            <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(vstats.inner_nodes == <a class="code" href="classtlx_1_1BTree.html#aed457b19fc617a12201f09de1d885368">stats_</a>.<a class="code" href="structtlx_1_1BTree_1_1tree__stats.html#a33acefd815dae0cce39ba5c792abaa0e">inner_nodes</a>);</div>
+<div class="line"><a name="l03546"></a><span class="lineno"> 3546</span>&#160;            <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(vstats.size == <a class="code" href="classtlx_1_1BTree.html#aed457b19fc617a12201f09de1d885368">stats_</a>.<a class="code" href="structtlx_1_1BTree_1_1tree__stats.html#a769e947b7bd053d20cc72d6187e1d0fb">size</a>);</div>
+<div class="line"><a name="l03547"></a><span class="lineno"> 3547</span>&#160;            <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(vstats.leaves == <a class="code" href="classtlx_1_1BTree.html#aed457b19fc617a12201f09de1d885368">stats_</a>.<a class="code" href="structtlx_1_1BTree_1_1tree__stats.html#a3df9010ac682baa68b20e01e5df2be3d">leaves</a>);</div>
+<div class="line"><a name="l03548"></a><span class="lineno"> 3548</span>&#160;            <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(vstats.inner_nodes == <a class="code" href="classtlx_1_1BTree.html#aed457b19fc617a12201f09de1d885368">stats_</a>.<a class="code" href="structtlx_1_1BTree_1_1tree__stats.html#a33acefd815dae0cce39ba5c792abaa0e">inner_nodes</a>);</div>
 <div class="line"><a name="l03549"></a><span class="lineno"> 3549</span>&#160;</div>
 <div class="line"><a name="l03550"></a><span class="lineno"> 3550</span>&#160;            <a class="code" href="classtlx_1_1BTree.html#a288f383c102e522614ffcb27b1b979a9">verify_leaflinks</a>();</div>
 <div class="line"><a name="l03551"></a><span class="lineno"> 3551</span>&#160;        }</div>
@@ -3676,140 +3676,141 @@ $(document).ready(function(){initNavTree('btree_8hpp_source.html','');});
 <div class="line"><a name="l03561"></a><span class="lineno"> 3561</span>&#160;        {</div>
 <div class="line"><a name="l03562"></a><span class="lineno"> 3562</span>&#160;            <span class="keyword">const</span> LeafNode* leaf = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>LeafNode*<span class="keyword">&gt;</span>(n);</div>
 <div class="line"><a name="l03563"></a><span class="lineno"> 3563</span>&#160;</div>
-<div class="line"><a name="l03564"></a><span class="lineno"> 3564</span>&#160;            <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(leaf == <a class="code" href="classtlx_1_1BTree.html#aebc82407c13a86e9551f7984d2e3d356">root_</a> || !leaf-&gt;is_underflow());</div>
-<div class="line"><a name="l03565"></a><span class="lineno"> 3565</span>&#160;            <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(leaf-&gt;slotuse &gt; 0);</div>
+<div class="line"><a name="l03564"></a><span class="lineno"> 3564</span>&#160;            <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(leaf == <a class="code" href="classtlx_1_1BTree.html#aebc82407c13a86e9551f7984d2e3d356">root_</a> || !leaf-&gt;is_underflow());</div>
+<div class="line"><a name="l03565"></a><span class="lineno"> 3565</span>&#160;            <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(leaf-&gt;slotuse &gt; 0);</div>
 <div class="line"><a name="l03566"></a><span class="lineno"> 3566</span>&#160;</div>
 <div class="line"><a name="l03567"></a><span class="lineno"> 3567</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> slot = 0; slot &lt; leaf-&gt;slotuse - 1; ++slot)</div>
 <div class="line"><a name="l03568"></a><span class="lineno"> 3568</span>&#160;            {</div>
-<div class="line"><a name="l03569"></a><span class="lineno"> 3569</span>&#160;                <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(<a class="code" href="classtlx_1_1BTree.html#a25950f60bc42a7b7bbd2fa6e9cecc7f4">key_lessequal</a>(leaf-&gt;key(slot), leaf-&gt;key(slot + 1)));</div>
-<div class="line"><a name="l03570"></a><span class="lineno"> 3570</span>&#160;            }</div>
-<div class="line"><a name="l03571"></a><span class="lineno"> 3571</span>&#160;</div>
-<div class="line"><a name="l03572"></a><span class="lineno"> 3572</span>&#160;            *minkey = leaf-&gt;key(0);</div>
-<div class="line"><a name="l03573"></a><span class="lineno"> 3573</span>&#160;            *maxkey = leaf-&gt;key(leaf-&gt;slotuse - 1);</div>
-<div class="line"><a name="l03574"></a><span class="lineno"> 3574</span>&#160;</div>
-<div class="line"><a name="l03575"></a><span class="lineno"> 3575</span>&#160;            vstats.leaves++;</div>
-<div class="line"><a name="l03576"></a><span class="lineno"> 3576</span>&#160;            vstats.size += leaf-&gt;slotuse;</div>
-<div class="line"><a name="l03577"></a><span class="lineno"> 3577</span>&#160;        }</div>
-<div class="line"><a name="l03578"></a><span class="lineno"> 3578</span>&#160;        <span class="keywordflow">else</span> <span class="comment">// !n-&gt;is_leafnode()</span></div>
-<div class="line"><a name="l03579"></a><span class="lineno"> 3579</span>&#160;        {</div>
-<div class="line"><a name="l03580"></a><span class="lineno"> 3580</span>&#160;            <span class="keyword">const</span> InnerNode* inner = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>InnerNode*<span class="keyword">&gt;</span>(n);</div>
-<div class="line"><a name="l03581"></a><span class="lineno"> 3581</span>&#160;            vstats.inner_nodes++;</div>
-<div class="line"><a name="l03582"></a><span class="lineno"> 3582</span>&#160;</div>
-<div class="line"><a name="l03583"></a><span class="lineno"> 3583</span>&#160;            <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(inner == <a class="code" href="classtlx_1_1BTree.html#aebc82407c13a86e9551f7984d2e3d356">root_</a> || !inner-&gt;is_underflow());</div>
-<div class="line"><a name="l03584"></a><span class="lineno"> 3584</span>&#160;            <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(inner-&gt;slotuse &gt; 0);</div>
-<div class="line"><a name="l03585"></a><span class="lineno"> 3585</span>&#160;</div>
-<div class="line"><a name="l03586"></a><span class="lineno"> 3586</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> slot = 0; slot &lt; inner-&gt;slotuse - 1; ++slot)</div>
-<div class="line"><a name="l03587"></a><span class="lineno"> 3587</span>&#160;            {</div>
-<div class="line"><a name="l03588"></a><span class="lineno"> 3588</span>&#160;                <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(</div>
-<div class="line"><a name="l03589"></a><span class="lineno"> 3589</span>&#160;                    <a class="code" href="classtlx_1_1BTree.html#a25950f60bc42a7b7bbd2fa6e9cecc7f4">key_lessequal</a>(inner-&gt;key(slot), inner-&gt;key(slot + 1)));</div>
-<div class="line"><a name="l03590"></a><span class="lineno"> 3590</span>&#160;            }</div>
-<div class="line"><a name="l03591"></a><span class="lineno"> 3591</span>&#160;</div>
-<div class="line"><a name="l03592"></a><span class="lineno"> 3592</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> slot = 0; slot &lt;= inner-&gt;slotuse; ++slot)</div>
-<div class="line"><a name="l03593"></a><span class="lineno"> 3593</span>&#160;            {</div>
-<div class="line"><a name="l03594"></a><span class="lineno"> 3594</span>&#160;                <span class="keyword">const</span> node* subnode = inner-&gt;childid[slot];</div>
-<div class="line"><a name="l03595"></a><span class="lineno"> 3595</span>&#160;                <a class="code" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">key_type</a> subminkey = <a class="code" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">key_type</a>();</div>
-<div class="line"><a name="l03596"></a><span class="lineno"> 3596</span>&#160;                <a class="code" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">key_type</a> submaxkey = <a class="code" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">key_type</a>();</div>
-<div class="line"><a name="l03597"></a><span class="lineno"> 3597</span>&#160;</div>
-<div class="line"><a name="l03598"></a><span class="lineno"> 3598</span>&#160;                <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(subnode-&gt;level + 1 == inner-&gt;level);</div>
-<div class="line"><a name="l03599"></a><span class="lineno"> 3599</span>&#160;                <a class="code" href="classtlx_1_1BTree.html#ad6ed64cad61c5ac8cb5a4dc97ac34baf">verify_node</a>(subnode, &amp;subminkey, &amp;submaxkey, vstats);</div>
-<div class="line"><a name="l03600"></a><span class="lineno"> 3600</span>&#160;</div>
-<div class="line"><a name="l03601"></a><span class="lineno"> 3601</span>&#160;                <a class="code" href="group__tlx__container__btree.html#gabe5546ec024823fdb200cf2e6e9b624c">TLX_BTREE_PRINT</a>(<span class="stringliteral">&quot;verify subnode &quot;</span> &lt;&lt; subnode &lt;&lt;</div>
-<div class="line"><a name="l03602"></a><span class="lineno"> 3602</span>&#160;                                <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; subminkey &lt;&lt;</div>
-<div class="line"><a name="l03603"></a><span class="lineno"> 3603</span>&#160;                                <span class="stringliteral">&quot; - &quot;</span> &lt;&lt; submaxkey);</div>
-<div class="line"><a name="l03604"></a><span class="lineno"> 3604</span>&#160;</div>
-<div class="line"><a name="l03605"></a><span class="lineno"> 3605</span>&#160;                <span class="keywordflow">if</span> (slot == 0)</div>
-<div class="line"><a name="l03606"></a><span class="lineno"> 3606</span>&#160;                    *minkey = subminkey;</div>
-<div class="line"><a name="l03607"></a><span class="lineno"> 3607</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l03608"></a><span class="lineno"> 3608</span>&#160;                    <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(</div>
-<div class="line"><a name="l03609"></a><span class="lineno"> 3609</span>&#160;                        <a class="code" href="classtlx_1_1BTree.html#a86ce69542070f80643dee49e06bebf64">key_greaterequal</a>(subminkey, inner-&gt;key(slot - 1)));</div>
-<div class="line"><a name="l03610"></a><span class="lineno"> 3610</span>&#160;</div>
-<div class="line"><a name="l03611"></a><span class="lineno"> 3611</span>&#160;                <span class="keywordflow">if</span> (slot == inner-&gt;slotuse)</div>
-<div class="line"><a name="l03612"></a><span class="lineno"> 3612</span>&#160;                    *maxkey = submaxkey;</div>
-<div class="line"><a name="l03613"></a><span class="lineno"> 3613</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l03614"></a><span class="lineno"> 3614</span>&#160;                    <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(<a class="code" href="classtlx_1_1BTree.html#a117b795a14531e05da974077af0ff76e">key_equal</a>(inner-&gt;key(slot), submaxkey));</div>
-<div class="line"><a name="l03615"></a><span class="lineno"> 3615</span>&#160;</div>
-<div class="line"><a name="l03616"></a><span class="lineno"> 3616</span>&#160;                <span class="keywordflow">if</span> (inner-&gt;level == 1 &amp;&amp; slot &lt; inner-&gt;slotuse)</div>
-<div class="line"><a name="l03617"></a><span class="lineno"> 3617</span>&#160;                {</div>
-<div class="line"><a name="l03618"></a><span class="lineno"> 3618</span>&#160;                    <span class="comment">// children are leaves and must be linked together in the</span></div>
-<div class="line"><a name="l03619"></a><span class="lineno"> 3619</span>&#160;                    <span class="comment">// correct order</span></div>
-<div class="line"><a name="l03620"></a><span class="lineno"> 3620</span>&#160;                    <span class="keyword">const</span> LeafNode* leafa = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>LeafNode*<span class="keyword">&gt;</span>(</div>
-<div class="line"><a name="l03621"></a><span class="lineno"> 3621</span>&#160;                        inner-&gt;childid[slot]);</div>
-<div class="line"><a name="l03622"></a><span class="lineno"> 3622</span>&#160;                    <span class="keyword">const</span> LeafNode* leafb = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>LeafNode*<span class="keyword">&gt;</span>(</div>
-<div class="line"><a name="l03623"></a><span class="lineno"> 3623</span>&#160;                        inner-&gt;childid[slot + 1]);</div>
-<div class="line"><a name="l03624"></a><span class="lineno"> 3624</span>&#160;</div>
-<div class="line"><a name="l03625"></a><span class="lineno"> 3625</span>&#160;                    <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(leafa-&gt;next_leaf == leafb);</div>
-<div class="line"><a name="l03626"></a><span class="lineno"> 3626</span>&#160;                    <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(leafa == leafb-&gt;prev_leaf);</div>
-<div class="line"><a name="l03627"></a><span class="lineno"> 3627</span>&#160;                }</div>
-<div class="line"><a name="l03628"></a><span class="lineno"> 3628</span>&#160;                <span class="keywordflow">if</span> (inner-&gt;level == 2 &amp;&amp; slot &lt; inner-&gt;slotuse)</div>
-<div class="line"><a name="l03629"></a><span class="lineno"> 3629</span>&#160;                {</div>
-<div class="line"><a name="l03630"></a><span class="lineno"> 3630</span>&#160;                    <span class="comment">// verify leaf links between the adjacent inner nodes</span></div>
-<div class="line"><a name="l03631"></a><span class="lineno"> 3631</span>&#160;                    <span class="keyword">const</span> InnerNode* parenta = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>InnerNode*<span class="keyword">&gt;</span>(</div>
-<div class="line"><a name="l03632"></a><span class="lineno"> 3632</span>&#160;                        inner-&gt;childid[slot]);</div>
-<div class="line"><a name="l03633"></a><span class="lineno"> 3633</span>&#160;                    <span class="keyword">const</span> InnerNode* parentb = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>InnerNode*<span class="keyword">&gt;</span>(</div>
-<div class="line"><a name="l03634"></a><span class="lineno"> 3634</span>&#160;                        inner-&gt;childid[slot + 1]);</div>
-<div class="line"><a name="l03635"></a><span class="lineno"> 3635</span>&#160;</div>
-<div class="line"><a name="l03636"></a><span class="lineno"> 3636</span>&#160;                    <span class="keyword">const</span> LeafNode* leafa = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>LeafNode*<span class="keyword">&gt;</span>(</div>
-<div class="line"><a name="l03637"></a><span class="lineno"> 3637</span>&#160;                        parenta-&gt;childid[parenta-&gt;slotuse]);</div>
-<div class="line"><a name="l03638"></a><span class="lineno"> 3638</span>&#160;                    <span class="keyword">const</span> LeafNode* leafb = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>LeafNode*<span class="keyword">&gt;</span>(</div>
-<div class="line"><a name="l03639"></a><span class="lineno"> 3639</span>&#160;                        parentb-&gt;childid[0]);</div>
-<div class="line"><a name="l03640"></a><span class="lineno"> 3640</span>&#160;</div>
-<div class="line"><a name="l03641"></a><span class="lineno"> 3641</span>&#160;                    <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(leafa-&gt;next_leaf == leafb);</div>
-<div class="line"><a name="l03642"></a><span class="lineno"> 3642</span>&#160;                    <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(leafa == leafb-&gt;prev_leaf);</div>
-<div class="line"><a name="l03643"></a><span class="lineno"> 3643</span>&#160;                }</div>
-<div class="line"><a name="l03644"></a><span class="lineno"> 3644</span>&#160;            }</div>
-<div class="line"><a name="l03645"></a><span class="lineno"> 3645</span>&#160;        }</div>
-<div class="line"><a name="l03646"></a><span class="lineno"> 3646</span>&#160;    }</div>
-<div class="line"><a name="l03647"></a><span class="lineno"> 3647</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l03648"></a><span class="lineno"> 3648</span>&#160;<span class="comment">    //! Verify the double linked list of leaves.</span></div>
-<div class="line"><a name="l03649"></a><span class="lineno"><a class="line" href="classtlx_1_1BTree.html#a288f383c102e522614ffcb27b1b979a9"> 3649</a></span>&#160;<span class="comment"></span>    <span class="keywordtype">void</span> <a class="code" href="classtlx_1_1BTree.html#a288f383c102e522614ffcb27b1b979a9">verify_leaflinks</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l03650"></a><span class="lineno"> 3650</span>&#160;        <span class="keyword">const</span> LeafNode* n = <a class="code" href="classtlx_1_1BTree.html#a8d6ac34d80de837a5e6125c932f1c288">head_leaf_</a>;</div>
-<div class="line"><a name="l03651"></a><span class="lineno"> 3651</span>&#160;</div>
-<div class="line"><a name="l03652"></a><span class="lineno"> 3652</span>&#160;        <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(n-&gt;level == 0);</div>
-<div class="line"><a name="l03653"></a><span class="lineno"> 3653</span>&#160;        <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(!n || n-&gt;prev_leaf == <span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l03654"></a><span class="lineno"> 3654</span>&#160;</div>
-<div class="line"><a name="l03655"></a><span class="lineno"> 3655</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> testcount = 0;</div>
-<div class="line"><a name="l03656"></a><span class="lineno"> 3656</span>&#160;</div>
-<div class="line"><a name="l03657"></a><span class="lineno"> 3657</span>&#160;        <span class="keywordflow">while</span> (n)</div>
-<div class="line"><a name="l03658"></a><span class="lineno"> 3658</span>&#160;        {</div>
-<div class="line"><a name="l03659"></a><span class="lineno"> 3659</span>&#160;            <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(n-&gt;level == 0);</div>
-<div class="line"><a name="l03660"></a><span class="lineno"> 3660</span>&#160;            <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(n-&gt;slotuse &gt; 0);</div>
-<div class="line"><a name="l03661"></a><span class="lineno"> 3661</span>&#160;</div>
-<div class="line"><a name="l03662"></a><span class="lineno"> 3662</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> slot = 0; slot &lt; n-&gt;slotuse - 1; ++slot)</div>
-<div class="line"><a name="l03663"></a><span class="lineno"> 3663</span>&#160;            {</div>
-<div class="line"><a name="l03664"></a><span class="lineno"> 3664</span>&#160;                <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(<a class="code" href="classtlx_1_1BTree.html#a25950f60bc42a7b7bbd2fa6e9cecc7f4">key_lessequal</a>(n-&gt;key(slot), n-&gt;key(slot + 1)));</div>
-<div class="line"><a name="l03665"></a><span class="lineno"> 3665</span>&#160;            }</div>
-<div class="line"><a name="l03666"></a><span class="lineno"> 3666</span>&#160;</div>
-<div class="line"><a name="l03667"></a><span class="lineno"> 3667</span>&#160;            testcount += n-&gt;slotuse;</div>
-<div class="line"><a name="l03668"></a><span class="lineno"> 3668</span>&#160;</div>
-<div class="line"><a name="l03669"></a><span class="lineno"> 3669</span>&#160;            <span class="keywordflow">if</span> (n-&gt;next_leaf)</div>
-<div class="line"><a name="l03670"></a><span class="lineno"> 3670</span>&#160;            {</div>
-<div class="line"><a name="l03671"></a><span class="lineno"> 3671</span>&#160;                <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(<a class="code" href="classtlx_1_1BTree.html#a25950f60bc42a7b7bbd2fa6e9cecc7f4">key_lessequal</a>(n-&gt;key(n-&gt;slotuse - 1),</div>
-<div class="line"><a name="l03672"></a><span class="lineno"> 3672</span>&#160;                                         n-&gt;next_leaf-&gt;key(0)));</div>
-<div class="line"><a name="l03673"></a><span class="lineno"> 3673</span>&#160;</div>
-<div class="line"><a name="l03674"></a><span class="lineno"> 3674</span>&#160;                <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(n == n-&gt;next_leaf-&gt;prev_leaf);</div>
-<div class="line"><a name="l03675"></a><span class="lineno"> 3675</span>&#160;            }</div>
-<div class="line"><a name="l03676"></a><span class="lineno"> 3676</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l03677"></a><span class="lineno"> 3677</span>&#160;            {</div>
-<div class="line"><a name="l03678"></a><span class="lineno"> 3678</span>&#160;                <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(<a class="code" href="classtlx_1_1BTree.html#a6747e195cffb9e4dbceef6a4848b3563">tail_leaf_</a> == n);</div>
-<div class="line"><a name="l03679"></a><span class="lineno"> 3679</span>&#160;            }</div>
-<div class="line"><a name="l03680"></a><span class="lineno"> 3680</span>&#160;</div>
-<div class="line"><a name="l03681"></a><span class="lineno"> 3681</span>&#160;            n = n-&gt;next_leaf;</div>
-<div class="line"><a name="l03682"></a><span class="lineno"> 3682</span>&#160;        }</div>
-<div class="line"><a name="l03683"></a><span class="lineno"> 3683</span>&#160;</div>
-<div class="line"><a name="l03684"></a><span class="lineno"> 3684</span>&#160;        <a class="code" href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a>(testcount == <a class="code" href="classtlx_1_1BTree.html#a503ab01f6c0142145d3434f6924714e7">size</a>());</div>
-<div class="line"><a name="l03685"></a><span class="lineno"> 3685</span>&#160;    }</div>
-<div class="line"><a name="l03686"></a><span class="lineno"> 3686</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l03687"></a><span class="lineno"> 3687</span>&#160;<span class="comment">    //! \}</span></div>
-<div class="line"><a name="l03688"></a><span class="lineno"> 3688</span>&#160;<span class="comment"></span>};</div>
-<div class="line"><a name="l03689"></a><span class="lineno"> 3689</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l03690"></a><span class="lineno"> 3690</span>&#160;<span class="comment">//! \}</span></div>
+<div class="line"><a name="l03569"></a><span class="lineno"> 3569</span>&#160;                <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(</div>
+<div class="line"><a name="l03570"></a><span class="lineno"> 3570</span>&#160;                    <a class="code" href="classtlx_1_1BTree.html#a25950f60bc42a7b7bbd2fa6e9cecc7f4">key_lessequal</a>(leaf-&gt;key(slot), leaf-&gt;key(slot + 1)));</div>
+<div class="line"><a name="l03571"></a><span class="lineno"> 3571</span>&#160;            }</div>
+<div class="line"><a name="l03572"></a><span class="lineno"> 3572</span>&#160;</div>
+<div class="line"><a name="l03573"></a><span class="lineno"> 3573</span>&#160;            *minkey = leaf-&gt;key(0);</div>
+<div class="line"><a name="l03574"></a><span class="lineno"> 3574</span>&#160;            *maxkey = leaf-&gt;key(leaf-&gt;slotuse - 1);</div>
+<div class="line"><a name="l03575"></a><span class="lineno"> 3575</span>&#160;</div>
+<div class="line"><a name="l03576"></a><span class="lineno"> 3576</span>&#160;            vstats.leaves++;</div>
+<div class="line"><a name="l03577"></a><span class="lineno"> 3577</span>&#160;            vstats.size += leaf-&gt;slotuse;</div>
+<div class="line"><a name="l03578"></a><span class="lineno"> 3578</span>&#160;        }</div>
+<div class="line"><a name="l03579"></a><span class="lineno"> 3579</span>&#160;        <span class="keywordflow">else</span> <span class="comment">// !n-&gt;is_leafnode()</span></div>
+<div class="line"><a name="l03580"></a><span class="lineno"> 3580</span>&#160;        {</div>
+<div class="line"><a name="l03581"></a><span class="lineno"> 3581</span>&#160;            <span class="keyword">const</span> InnerNode* inner = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>InnerNode*<span class="keyword">&gt;</span>(n);</div>
+<div class="line"><a name="l03582"></a><span class="lineno"> 3582</span>&#160;            vstats.inner_nodes++;</div>
+<div class="line"><a name="l03583"></a><span class="lineno"> 3583</span>&#160;</div>
+<div class="line"><a name="l03584"></a><span class="lineno"> 3584</span>&#160;            <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(inner == <a class="code" href="classtlx_1_1BTree.html#aebc82407c13a86e9551f7984d2e3d356">root_</a> || !inner-&gt;is_underflow());</div>
+<div class="line"><a name="l03585"></a><span class="lineno"> 3585</span>&#160;            <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(inner-&gt;slotuse &gt; 0);</div>
+<div class="line"><a name="l03586"></a><span class="lineno"> 3586</span>&#160;</div>
+<div class="line"><a name="l03587"></a><span class="lineno"> 3587</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> slot = 0; slot &lt; inner-&gt;slotuse - 1; ++slot)</div>
+<div class="line"><a name="l03588"></a><span class="lineno"> 3588</span>&#160;            {</div>
+<div class="line"><a name="l03589"></a><span class="lineno"> 3589</span>&#160;                <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(</div>
+<div class="line"><a name="l03590"></a><span class="lineno"> 3590</span>&#160;                    <a class="code" href="classtlx_1_1BTree.html#a25950f60bc42a7b7bbd2fa6e9cecc7f4">key_lessequal</a>(inner-&gt;key(slot), inner-&gt;key(slot + 1)));</div>
+<div class="line"><a name="l03591"></a><span class="lineno"> 3591</span>&#160;            }</div>
+<div class="line"><a name="l03592"></a><span class="lineno"> 3592</span>&#160;</div>
+<div class="line"><a name="l03593"></a><span class="lineno"> 3593</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> slot = 0; slot &lt;= inner-&gt;slotuse; ++slot)</div>
+<div class="line"><a name="l03594"></a><span class="lineno"> 3594</span>&#160;            {</div>
+<div class="line"><a name="l03595"></a><span class="lineno"> 3595</span>&#160;                <span class="keyword">const</span> node* subnode = inner-&gt;childid[slot];</div>
+<div class="line"><a name="l03596"></a><span class="lineno"> 3596</span>&#160;                <a class="code" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">key_type</a> subminkey = <a class="code" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">key_type</a>();</div>
+<div class="line"><a name="l03597"></a><span class="lineno"> 3597</span>&#160;                <a class="code" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">key_type</a> submaxkey = <a class="code" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">key_type</a>();</div>
+<div class="line"><a name="l03598"></a><span class="lineno"> 3598</span>&#160;</div>
+<div class="line"><a name="l03599"></a><span class="lineno"> 3599</span>&#160;                <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(subnode-&gt;level + 1 == inner-&gt;level);</div>
+<div class="line"><a name="l03600"></a><span class="lineno"> 3600</span>&#160;                <a class="code" href="classtlx_1_1BTree.html#ad6ed64cad61c5ac8cb5a4dc97ac34baf">verify_node</a>(subnode, &amp;subminkey, &amp;submaxkey, vstats);</div>
+<div class="line"><a name="l03601"></a><span class="lineno"> 3601</span>&#160;</div>
+<div class="line"><a name="l03602"></a><span class="lineno"> 3602</span>&#160;                <a class="code" href="group__tlx__container__btree.html#gabe5546ec024823fdb200cf2e6e9b624c">TLX_BTREE_PRINT</a>(<span class="stringliteral">&quot;verify subnode &quot;</span> &lt;&lt; subnode &lt;&lt;</div>
+<div class="line"><a name="l03603"></a><span class="lineno"> 3603</span>&#160;                                <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; subminkey &lt;&lt;</div>
+<div class="line"><a name="l03604"></a><span class="lineno"> 3604</span>&#160;                                <span class="stringliteral">&quot; - &quot;</span> &lt;&lt; submaxkey);</div>
+<div class="line"><a name="l03605"></a><span class="lineno"> 3605</span>&#160;</div>
+<div class="line"><a name="l03606"></a><span class="lineno"> 3606</span>&#160;                <span class="keywordflow">if</span> (slot == 0)</div>
+<div class="line"><a name="l03607"></a><span class="lineno"> 3607</span>&#160;                    *minkey = subminkey;</div>
+<div class="line"><a name="l03608"></a><span class="lineno"> 3608</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l03609"></a><span class="lineno"> 3609</span>&#160;                    <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(</div>
+<div class="line"><a name="l03610"></a><span class="lineno"> 3610</span>&#160;                        <a class="code" href="classtlx_1_1BTree.html#a86ce69542070f80643dee49e06bebf64">key_greaterequal</a>(subminkey, inner-&gt;key(slot - 1)));</div>
+<div class="line"><a name="l03611"></a><span class="lineno"> 3611</span>&#160;</div>
+<div class="line"><a name="l03612"></a><span class="lineno"> 3612</span>&#160;                <span class="keywordflow">if</span> (slot == inner-&gt;slotuse)</div>
+<div class="line"><a name="l03613"></a><span class="lineno"> 3613</span>&#160;                    *maxkey = submaxkey;</div>
+<div class="line"><a name="l03614"></a><span class="lineno"> 3614</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l03615"></a><span class="lineno"> 3615</span>&#160;                    <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(<a class="code" href="classtlx_1_1BTree.html#a117b795a14531e05da974077af0ff76e">key_equal</a>(inner-&gt;key(slot), submaxkey));</div>
+<div class="line"><a name="l03616"></a><span class="lineno"> 3616</span>&#160;</div>
+<div class="line"><a name="l03617"></a><span class="lineno"> 3617</span>&#160;                <span class="keywordflow">if</span> (inner-&gt;level == 1 &amp;&amp; slot &lt; inner-&gt;slotuse)</div>
+<div class="line"><a name="l03618"></a><span class="lineno"> 3618</span>&#160;                {</div>
+<div class="line"><a name="l03619"></a><span class="lineno"> 3619</span>&#160;                    <span class="comment">// children are leaves and must be linked together in the</span></div>
+<div class="line"><a name="l03620"></a><span class="lineno"> 3620</span>&#160;                    <span class="comment">// correct order</span></div>
+<div class="line"><a name="l03621"></a><span class="lineno"> 3621</span>&#160;                    <span class="keyword">const</span> LeafNode* leafa = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>LeafNode*<span class="keyword">&gt;</span>(</div>
+<div class="line"><a name="l03622"></a><span class="lineno"> 3622</span>&#160;                        inner-&gt;childid[slot]);</div>
+<div class="line"><a name="l03623"></a><span class="lineno"> 3623</span>&#160;                    <span class="keyword">const</span> LeafNode* leafb = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>LeafNode*<span class="keyword">&gt;</span>(</div>
+<div class="line"><a name="l03624"></a><span class="lineno"> 3624</span>&#160;                        inner-&gt;childid[slot + 1]);</div>
+<div class="line"><a name="l03625"></a><span class="lineno"> 3625</span>&#160;</div>
+<div class="line"><a name="l03626"></a><span class="lineno"> 3626</span>&#160;                    <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(leafa-&gt;next_leaf == leafb);</div>
+<div class="line"><a name="l03627"></a><span class="lineno"> 3627</span>&#160;                    <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(leafa == leafb-&gt;prev_leaf);</div>
+<div class="line"><a name="l03628"></a><span class="lineno"> 3628</span>&#160;                }</div>
+<div class="line"><a name="l03629"></a><span class="lineno"> 3629</span>&#160;                <span class="keywordflow">if</span> (inner-&gt;level == 2 &amp;&amp; slot &lt; inner-&gt;slotuse)</div>
+<div class="line"><a name="l03630"></a><span class="lineno"> 3630</span>&#160;                {</div>
+<div class="line"><a name="l03631"></a><span class="lineno"> 3631</span>&#160;                    <span class="comment">// verify leaf links between the adjacent inner nodes</span></div>
+<div class="line"><a name="l03632"></a><span class="lineno"> 3632</span>&#160;                    <span class="keyword">const</span> InnerNode* parenta = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>InnerNode*<span class="keyword">&gt;</span>(</div>
+<div class="line"><a name="l03633"></a><span class="lineno"> 3633</span>&#160;                        inner-&gt;childid[slot]);</div>
+<div class="line"><a name="l03634"></a><span class="lineno"> 3634</span>&#160;                    <span class="keyword">const</span> InnerNode* parentb = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>InnerNode*<span class="keyword">&gt;</span>(</div>
+<div class="line"><a name="l03635"></a><span class="lineno"> 3635</span>&#160;                        inner-&gt;childid[slot + 1]);</div>
+<div class="line"><a name="l03636"></a><span class="lineno"> 3636</span>&#160;</div>
+<div class="line"><a name="l03637"></a><span class="lineno"> 3637</span>&#160;                    <span class="keyword">const</span> LeafNode* leafa = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>LeafNode*<span class="keyword">&gt;</span>(</div>
+<div class="line"><a name="l03638"></a><span class="lineno"> 3638</span>&#160;                        parenta-&gt;childid[parenta-&gt;slotuse]);</div>
+<div class="line"><a name="l03639"></a><span class="lineno"> 3639</span>&#160;                    <span class="keyword">const</span> LeafNode* leafb = <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>LeafNode*<span class="keyword">&gt;</span>(</div>
+<div class="line"><a name="l03640"></a><span class="lineno"> 3640</span>&#160;                        parentb-&gt;childid[0]);</div>
+<div class="line"><a name="l03641"></a><span class="lineno"> 3641</span>&#160;</div>
+<div class="line"><a name="l03642"></a><span class="lineno"> 3642</span>&#160;                    <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(leafa-&gt;next_leaf == leafb);</div>
+<div class="line"><a name="l03643"></a><span class="lineno"> 3643</span>&#160;                    <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(leafa == leafb-&gt;prev_leaf);</div>
+<div class="line"><a name="l03644"></a><span class="lineno"> 3644</span>&#160;                }</div>
+<div class="line"><a name="l03645"></a><span class="lineno"> 3645</span>&#160;            }</div>
+<div class="line"><a name="l03646"></a><span class="lineno"> 3646</span>&#160;        }</div>
+<div class="line"><a name="l03647"></a><span class="lineno"> 3647</span>&#160;    }</div>
+<div class="line"><a name="l03648"></a><span class="lineno"> 3648</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l03649"></a><span class="lineno"> 3649</span>&#160;<span class="comment">    //! Verify the double linked list of leaves.</span></div>
+<div class="line"><a name="l03650"></a><span class="lineno"><a class="line" href="classtlx_1_1BTree.html#a288f383c102e522614ffcb27b1b979a9"> 3650</a></span>&#160;<span class="comment"></span>    <span class="keywordtype">void</span> <a class="code" href="classtlx_1_1BTree.html#a288f383c102e522614ffcb27b1b979a9">verify_leaflinks</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l03651"></a><span class="lineno"> 3651</span>&#160;        <span class="keyword">const</span> LeafNode* n = <a class="code" href="classtlx_1_1BTree.html#a8d6ac34d80de837a5e6125c932f1c288">head_leaf_</a>;</div>
+<div class="line"><a name="l03652"></a><span class="lineno"> 3652</span>&#160;</div>
+<div class="line"><a name="l03653"></a><span class="lineno"> 3653</span>&#160;        <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(n-&gt;level == 0);</div>
+<div class="line"><a name="l03654"></a><span class="lineno"> 3654</span>&#160;        <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(!n || n-&gt;prev_leaf == <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l03655"></a><span class="lineno"> 3655</span>&#160;</div>
+<div class="line"><a name="l03656"></a><span class="lineno"> 3656</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> testcount = 0;</div>
+<div class="line"><a name="l03657"></a><span class="lineno"> 3657</span>&#160;</div>
+<div class="line"><a name="l03658"></a><span class="lineno"> 3658</span>&#160;        <span class="keywordflow">while</span> (n)</div>
+<div class="line"><a name="l03659"></a><span class="lineno"> 3659</span>&#160;        {</div>
+<div class="line"><a name="l03660"></a><span class="lineno"> 3660</span>&#160;            <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(n-&gt;level == 0);</div>
+<div class="line"><a name="l03661"></a><span class="lineno"> 3661</span>&#160;            <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(n-&gt;slotuse &gt; 0);</div>
+<div class="line"><a name="l03662"></a><span class="lineno"> 3662</span>&#160;</div>
+<div class="line"><a name="l03663"></a><span class="lineno"> 3663</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> slot = 0; slot &lt; n-&gt;slotuse - 1; ++slot)</div>
+<div class="line"><a name="l03664"></a><span class="lineno"> 3664</span>&#160;            {</div>
+<div class="line"><a name="l03665"></a><span class="lineno"> 3665</span>&#160;                <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(<a class="code" href="classtlx_1_1BTree.html#a25950f60bc42a7b7bbd2fa6e9cecc7f4">key_lessequal</a>(n-&gt;key(slot), n-&gt;key(slot + 1)));</div>
+<div class="line"><a name="l03666"></a><span class="lineno"> 3666</span>&#160;            }</div>
+<div class="line"><a name="l03667"></a><span class="lineno"> 3667</span>&#160;</div>
+<div class="line"><a name="l03668"></a><span class="lineno"> 3668</span>&#160;            testcount += n-&gt;slotuse;</div>
+<div class="line"><a name="l03669"></a><span class="lineno"> 3669</span>&#160;</div>
+<div class="line"><a name="l03670"></a><span class="lineno"> 3670</span>&#160;            <span class="keywordflow">if</span> (n-&gt;next_leaf)</div>
+<div class="line"><a name="l03671"></a><span class="lineno"> 3671</span>&#160;            {</div>
+<div class="line"><a name="l03672"></a><span class="lineno"> 3672</span>&#160;                <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(<a class="code" href="classtlx_1_1BTree.html#a25950f60bc42a7b7bbd2fa6e9cecc7f4">key_lessequal</a>(n-&gt;key(n-&gt;slotuse - 1),</div>
+<div class="line"><a name="l03673"></a><span class="lineno"> 3673</span>&#160;                                             n-&gt;next_leaf-&gt;key(0)));</div>
+<div class="line"><a name="l03674"></a><span class="lineno"> 3674</span>&#160;</div>
+<div class="line"><a name="l03675"></a><span class="lineno"> 3675</span>&#160;                <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(n == n-&gt;next_leaf-&gt;prev_leaf);</div>
+<div class="line"><a name="l03676"></a><span class="lineno"> 3676</span>&#160;            }</div>
+<div class="line"><a name="l03677"></a><span class="lineno"> 3677</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l03678"></a><span class="lineno"> 3678</span>&#160;            {</div>
+<div class="line"><a name="l03679"></a><span class="lineno"> 3679</span>&#160;                <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(<a class="code" href="classtlx_1_1BTree.html#a6747e195cffb9e4dbceef6a4848b3563">tail_leaf_</a> == n);</div>
+<div class="line"><a name="l03680"></a><span class="lineno"> 3680</span>&#160;            }</div>
+<div class="line"><a name="l03681"></a><span class="lineno"> 3681</span>&#160;</div>
+<div class="line"><a name="l03682"></a><span class="lineno"> 3682</span>&#160;            n = n-&gt;next_leaf;</div>
+<div class="line"><a name="l03683"></a><span class="lineno"> 3683</span>&#160;        }</div>
+<div class="line"><a name="l03684"></a><span class="lineno"> 3684</span>&#160;</div>
+<div class="line"><a name="l03685"></a><span class="lineno"> 3685</span>&#160;        <a class="code" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a>(testcount == <a class="code" href="classtlx_1_1BTree.html#a503ab01f6c0142145d3434f6924714e7">size</a>());</div>
+<div class="line"><a name="l03686"></a><span class="lineno"> 3686</span>&#160;    }</div>
+<div class="line"><a name="l03687"></a><span class="lineno"> 3687</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l03688"></a><span class="lineno"> 3688</span>&#160;<span class="comment">    //! \}</span></div>
+<div class="line"><a name="l03689"></a><span class="lineno"> 3689</span>&#160;<span class="comment"></span>};</div>
+<div class="line"><a name="l03690"></a><span class="lineno"> 3690</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l03691"></a><span class="lineno"> 3691</span>&#160;<span class="comment">//! \}</span></div>
-<div class="line"><a name="l03692"></a><span class="lineno"> 3692</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l03693"></a><span class="lineno"> 3693</span>&#160;} <span class="comment">// namespace tlx</span></div>
-<div class="line"><a name="l03694"></a><span class="lineno"> 3694</span>&#160;</div>
-<div class="line"><a name="l03695"></a><span class="lineno"> 3695</span>&#160;<span class="preprocessor">#endif // !TLX_CONTAINER_BTREE_HEADER</span></div>
-<div class="line"><a name="l03696"></a><span class="lineno"> 3696</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l03697"></a><span class="lineno"> 3697</span>&#160;<span class="comment">/******************************************************************************/</span></div>
+<div class="line"><a name="l03692"></a><span class="lineno"> 3692</span>&#160;<span class="comment">//! \}</span></div>
+<div class="line"><a name="l03693"></a><span class="lineno"> 3693</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l03694"></a><span class="lineno"> 3694</span>&#160;} <span class="comment">// namespace tlx</span></div>
+<div class="line"><a name="l03695"></a><span class="lineno"> 3695</span>&#160;</div>
+<div class="line"><a name="l03696"></a><span class="lineno"> 3696</span>&#160;<span class="preprocessor">#endif // !TLX_CONTAINER_BTREE_HEADER</span></div>
+<div class="line"><a name="l03697"></a><span class="lineno"> 3697</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l03698"></a><span class="lineno"> 3698</span>&#160;<span class="comment">/******************************************************************************/</span></div>
 <div class="ttc" id="classtlx_1_1BTree_html_ad69bd11391be1a1dba5c8202259664f8"><div class="ttname"><a href="classtlx_1_1BTree.html#ad69bd11391be1a1dba5c8202259664f8">tlx::BTree::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdoc">Constructs a read/data-write iterator that points to the first slot in the first leaf of the B+ tree...</div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01341">btree.hpp:1341</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_a9c9766a96c492f3e9e5861d6b4f87387"><div class="ttname"><a href="classtlx_1_1BTree.html#a9c9766a96c492f3e9e5861d6b4f87387">tlx::BTree::find</a></div><div class="ttdeci">iterator find(const key_type &amp;key)</div><div class="ttdoc">Tries to locate a key in the B+ tree and returns an iterator to the key/data slot if found...</div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01542">btree.hpp:1542</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_a117b795a14531e05da974077af0ff76e"><div class="ttname"><a href="classtlx_1_1BTree.html#a117b795a14531e05da974077af0ff76e">tlx::BTree::key_equal</a></div><div class="ttdeci">bool key_equal(const key_type &amp;a, const key_type &amp;b) const </div><div class="ttdoc">True if a == b ? constructed from key_less(). </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01221">btree.hpp:1221</a></div></div>
@@ -3846,7 +3847,6 @@ $(document).ready(function(){initNavTree('btree_8hpp_source.html','');});
 <div class="ttc" id="classtlx_1_1BTree_html_aa4b02d4f1a8500fb07a551069060709f"><div class="ttname"><a href="classtlx_1_1BTree.html#aa4b02d4f1a8500fb07a551069060709f">tlx::BTree::begin</a></div><div class="ttdeci">const_iterator begin() const </div><div class="ttdoc">Constructs a read-only constant iterator that points to the first slot in the first leaf of the B+ tr...</div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01353">btree.hpp:1353</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_1_1reverse__iterator_html_a0cc59491125a67abc87e8bfe6a4022c1"><div class="ttname"><a href="classtlx_1_1BTree_1_1reverse__iterator.html#a0cc59491125a67abc87e8bfe6a4022c1">tlx::BTree::reverse_iterator::key_type</a></div><div class="ttdeci">BTree::key_type key_type</div><div class="ttdoc">The key type of the btree. Returned by key(). </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00686">btree.hpp:686</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_aa75eef3ff50d37f5b6c2eeea491cade1"><div class="ttname"><a href="classtlx_1_1BTree.html#aa75eef3ff50d37f5b6c2eeea491cade1">tlx::BTree::allocate_inner</a></div><div class="ttdeci">InnerNode * allocate_inner(unsigned short level)</div><div class="ttdoc">Allocate and initialize an inner node. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01261">btree.hpp:1261</a></div></div>
-<div class="ttc" id="die_8hpp_html_a63798a2675296e09260478493bf3829b"><div class="ttname"><a href="die_8hpp.html#a63798a2675296e09260478493bf3829b">die_unless</a></div><div class="ttdeci">#define die_unless(X)</div><div class="ttdoc">Check condition X and die miserably if false. </div><div class="ttdef"><b>Definition:</b> <a href="die_8hpp_source.html#l00064">die.hpp:64</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_adc204502ef1606c9daa4a613da6aacfb"><div class="ttname"><a href="classtlx_1_1BTree.html#adc204502ef1606c9daa4a613da6aacfb">tlx::BTree::find</a></div><div class="ttdeci">const_iterator find(const key_type &amp;key) const </div><div class="ttdoc">Tries to locate a key in the B+ tree and returns an constant iterator to the key/data slot if found...</div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01563">btree.hpp:1563</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_a81a632bc519f850f4af56567ba404f4e"><div class="ttname"><a href="classtlx_1_1BTree.html#a81a632bc519f850f4af56567ba404f4e">tlx::BTree::self_verify</a></div><div class="ttdeci">static const bool self_verify</div><div class="ttdoc">Debug parameter: Enables expensive and thorough checking of the B+ tree invariants after each insert/...</div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00198">btree.hpp:198</a></div></div>
 <div class="ttc" id="structtlx_1_1BTree_1_1tree__stats_html_a33acefd815dae0cce39ba5c792abaa0e"><div class="ttname"><a href="structtlx_1_1BTree_1_1tree__stats.html#a33acefd815dae0cce39ba5c792abaa0e">tlx::BTree::tree_stats::inner_nodes</a></div><div class="ttdeci">size_type inner_nodes</div><div class="ttdoc">Number of inner nodes in the B+ tree. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01045">btree.hpp:1045</a></div></div>
@@ -3984,10 +3984,11 @@ $(document).ready(function(){initNavTree('btree_8hpp_source.html','');});
 <div class="ttc" id="classtlx_1_1BTree_1_1reverse__iterator_html_a44839df34adfadbdbab52e110f164aa9"><div class="ttname"><a href="classtlx_1_1BTree_1_1reverse__iterator.html#a44839df34adfadbdbab52e110f164aa9">tlx::BTree::reverse_iterator::operator++</a></div><div class="ttdeci">reverse_iterator &amp; operator++()</div><div class="ttdoc">Prefix++ advance the iterator to the next slot. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00769">btree.hpp:769</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_1_1const__iterator_html_ae606c9d192f5f681a19b60b19d8f18d2"><div class="ttname"><a href="classtlx_1_1BTree_1_1const__iterator.html#ae606c9d192f5f681a19b60b19d8f18d2">tlx::BTree::const_iterator::curr_slot</a></div><div class="ttdeci">unsigned short curr_slot</div><div class="ttdoc">Current key/data slot referenced. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00541">btree.hpp:541</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_ac048f549259de32da2acd742cce52d5c"><div class="ttname"><a href="classtlx_1_1BTree.html#ac048f549259de32da2acd742cce52d5c">tlx::BTree::insert</a></div><div class="ttdeci">void insert(InputIterator first, InputIterator last)</div><div class="ttdoc">Attempt to insert the range [first,last) of value_type pairs into the B+ tree. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01860">btree.hpp:1860</a></div></div>
-<div class="ttc" id="classtlx_1_1BTree_html_a288f383c102e522614ffcb27b1b979a9"><div class="ttname"><a href="classtlx_1_1BTree.html#a288f383c102e522614ffcb27b1b979a9">tlx::BTree::verify_leaflinks</a></div><div class="ttdeci">void verify_leaflinks() const </div><div class="ttdoc">Verify the double linked list of leaves. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l03649">btree.hpp:3649</a></div></div>
+<div class="ttc" id="classtlx_1_1BTree_html_a288f383c102e522614ffcb27b1b979a9"><div class="ttname"><a href="classtlx_1_1BTree.html#a288f383c102e522614ffcb27b1b979a9">tlx::BTree::verify_leaflinks</a></div><div class="ttdeci">void verify_leaflinks() const </div><div class="ttdoc">Verify the double linked list of leaves. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l03650">btree.hpp:3650</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_1_1reverse__iterator_html_a934db568e9cc178d05533b6a5a255b5f"><div class="ttname"><a href="classtlx_1_1BTree_1_1reverse__iterator.html#a934db568e9cc178d05533b6a5a255b5f">tlx::BTree::reverse_iterator::reverse_iterator</a></div><div class="ttdeci">reverse_iterator(typename BTree::LeafNode *l, unsigned short s)</div><div class="ttdoc">Initializing-Constructor of a mutable reverse iterator. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00741">btree.hpp:741</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_1_1iterator_html_a3cfb3b6f1a8cae1f3fcfb75f7855619f"><div class="ttname"><a href="classtlx_1_1BTree_1_1iterator.html#a3cfb3b6f1a8cae1f3fcfb75f7855619f">tlx::BTree::iterator::operator==</a></div><div class="ttdeci">bool operator==(const iterator &amp;x) const </div><div class="ttdoc">Equality of iterators. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00496">btree.hpp:496</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_a552a180d973faf4f7ccc14b7d639a160"><div class="ttname"><a href="classtlx_1_1BTree.html#a552a180d973faf4f7ccc14b7d639a160">tlx::BTree::allocator_type</a></div><div class="ttdeci">Alloc_ allocator_type</div><div class="ttdoc">Seventh template parameter: STL allocator for tree nodes. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00153">btree.hpp:153</a></div></div>
+<div class="ttc" id="die_2core_8hpp_html"><div class="ttname"><a href="die_2core_8hpp.html">core.hpp</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_1_1const__reverse__iterator_html_ae6dd5cb1a04fdb444583ffc0b8a29a5b"><div class="ttname"><a href="classtlx_1_1BTree_1_1const__reverse__iterator.html#ae6dd5cb1a04fdb444583ffc0b8a29a5b">tlx::BTree::const_reverse_iterator::value_type</a></div><div class="ttdeci">BTree::value_type value_type</div><div class="ttdoc">The value type of the btree. Returned by operator*(). </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00862">btree.hpp:862</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_a6747e195cffb9e4dbceef6a4848b3563"><div class="ttname"><a href="classtlx_1_1BTree.html#a6747e195cffb9e4dbceef6a4848b3563">tlx::BTree::tail_leaf_</a></div><div class="ttdeci">LeafNode * tail_leaf_</div><div class="ttdoc">Pointer to last leaf in the double linked leaf chain. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01083">btree.hpp:1083</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_1_1reverse__iterator_html_abe8933d436779a43cb5c1896ff5f2918"><div class="ttname"><a href="classtlx_1_1BTree_1_1reverse__iterator.html#abe8933d436779a43cb5c1896ff5f2918">tlx::BTree::reverse_iterator::reference</a></div><div class="ttdeci">value_type &amp; reference</div><div class="ttdoc">Reference to the value_type. STL required. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00692">btree.hpp:692</a></div></div>
@@ -4030,7 +4031,6 @@ $(document).ready(function(){initNavTree('btree_8hpp_source.html','');});
 <div class="ttc" id="classtlx_1_1BTree_html_a04886aa70c34d66738e78bf70c675e66"><div class="ttname"><a href="classtlx_1_1BTree.html#a04886aa70c34d66738e78bf70c675e66">tlx::BTree::rbegin</a></div><div class="ttdeci">const_reverse_iterator rbegin() const </div><div class="ttdoc">Constructs a read-only reverse iterator that points to the first invalid slot in the last leaf of the...</div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01377">btree.hpp:1377</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_a4d396f4c2d232e90fabff194a345a283"><div class="ttname"><a href="classtlx_1_1BTree.html#a4d396f4c2d232e90fabff194a345a283">tlx::BTree::key_less</a></div><div class="ttdeci">bool key_less(const key_type &amp;a, const key_type &amp;b) const </div><div class="ttdoc">True if a &lt; b ? &quot;constructed&quot; from key_less_() </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01200">btree.hpp:1200</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_1_1const__reverse__iterator_html_a5c7c4696c5fef580a58dffe96e1d82fe"><div class="ttname"><a href="classtlx_1_1BTree_1_1const__reverse__iterator.html#a5c7c4696c5fef580a58dffe96e1d82fe">tlx::BTree::const_reverse_iterator::operator==</a></div><div class="ttdeci">bool operator==(const const_reverse_iterator &amp;x) const </div><div class="ttdoc">Equality of iterators. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01017">btree.hpp:1017</a></div></div>
-<div class="ttc" id="die_8hpp_html"><div class="ttname"><a href="die_8hpp.html">die.hpp</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_af580a76629eafd1d907fa5e1e18556a2"><div class="ttname"><a href="classtlx_1_1BTree.html#af580a76629eafd1d907fa5e1e18556a2">tlx::BTree::insert_start</a></div><div class="ttdeci">std::pair&lt; iterator, bool &gt; insert_start(const key_type &amp;key, const value_type &amp;value)</div><div class="ttdoc">Start the insertion descent at the current root and handle root splits. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01878">btree.hpp:1878</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_1_1const__iterator_html_ae6dd5cb1a04fdb444583ffc0b8a29a5b"><div class="ttname"><a href="classtlx_1_1BTree_1_1const__iterator.html#ae6dd5cb1a04fdb444583ffc0b8a29a5b">tlx::BTree::const_iterator::value_type</a></div><div class="ttdeci">BTree::value_type value_type</div><div class="ttdoc">The value type of the btree. Returned by operator*(). </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00517">btree.hpp:517</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_a05f41c2452c5416a662e8176af0a97b7"><div class="ttname"><a href="classtlx_1_1BTree.html#a05f41c2452c5416a662e8176af0a97b7">tlx::BTree::merge_inner</a></div><div class="ttdeci">static result_t merge_inner(InnerNode *left, InnerNode *right, InnerNode *parent, unsigned int parentslot)</div><div class="ttdoc">Merge two inner nodes. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l03166">btree.hpp:3166</a></div></div>
@@ -4049,6 +4049,7 @@ $(document).ready(function(){initNavTree('btree_8hpp_source.html','');});
 <div class="ttc" id="structtlx_1_1BTree_1_1result__t_html_ae1c20bab9719dbdf19bb660a0a4a700d"><div class="ttname"><a href="structtlx_1_1BTree_1_1result__t.html#ae1c20bab9719dbdf19bb660a0a4a700d">tlx::BTree::result_t::has</a></div><div class="ttdeci">bool has(result_flags_t f) const </div><div class="ttdoc">Test if this result object has a given flag set. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l02341">btree.hpp:2341</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_1_1value__compare_html_ae7dd7fc42fbc38520d612a82099fdd96"><div class="ttname"><a href="classtlx_1_1BTree_1_1value__compare.html#ae7dd7fc42fbc38520d612a82099fdd96">tlx::BTree::value_compare::key_comp</a></div><div class="ttdeci">key_compare key_comp</div><div class="ttdoc">Key comparison function from the template parameter. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01164">btree.hpp:1164</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_ad6ed64cad61c5ac8cb5a4dc97ac34baf"><div class="ttname"><a href="classtlx_1_1BTree.html#ad6ed64cad61c5ac8cb5a4dc97ac34baf">tlx::BTree::verify_node</a></div><div class="ttdeci">void verify_node(const node *n, key_type *minkey, key_type *maxkey, tree_stats &amp;vstats) const </div><div class="ttdoc">Recursively descend down the tree and verify each node. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l03556">btree.hpp:3556</a></div></div>
+<div class="ttc" id="die_2core_8hpp_html_ae75b813cfb11a89830e7e7e98dec7ac0"><div class="ttname"><a href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0">tlx_die_unless</a></div><div class="ttdeci">#define tlx_die_unless(X)</div><div class="ttdoc">Check condition X and die miserably if false. </div><div class="ttdef"><b>Definition:</b> <a href="die_2core_8hpp_source.html#l00064">core.hpp:64</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_1_1const__reverse__iterator_html_a0cc59491125a67abc87e8bfe6a4022c1"><div class="ttname"><a href="classtlx_1_1BTree_1_1const__reverse__iterator.html#a0cc59491125a67abc87e8bfe6a4022c1">tlx::BTree::const_reverse_iterator::key_type</a></div><div class="ttdeci">BTree::key_type key_type</div><div class="ttdoc">The key type of the btree. Returned by key(). </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00859">btree.hpp:859</a></div></div>
 <div class="ttc" id="structtlx_1_1BTree_1_1node_html_af0bb2987233e128054452dc84553b3a9"><div class="ttname"><a href="structtlx_1_1BTree_1_1node.html#af0bb2987233e128054452dc84553b3a9">tlx::BTree::node::is_leafnode</a></div><div class="ttdeci">bool is_leafnode() const </div><div class="ttdoc">True if this is a leaf node. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l00228">btree.hpp:228</a></div></div>
 <div class="ttc" id="classtlx_1_1BTree_html_aed457b19fc617a12201f09de1d885368"><div class="ttname"><a href="classtlx_1_1BTree.html#aed457b19fc617a12201f09de1d885368">tlx::BTree::stats_</a></div><div class="ttdeci">tree_stats stats_</div><div class="ttdoc">Other small statistics about the B+ tree. </div><div class="ttdef"><b>Definition:</b> <a href="btree_8hpp_source.html#l01086">btree.hpp:1086</a></div></div>
@@ -4062,7 +4063,7 @@ $(document).ready(function(){initNavTree('btree_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_dab8345dcd2ad8c9400f2b10c593e3dd.html">container</a></li><li class="navelem"><a class="el" href="btree_8hpp.html">btree.hpp</a></li>
-    <li class="footer">Generated on Thu Sep 6 2018 15:05:18 for tlx by
+    <li class="footer">Generated on Thu Sep 6 2018 15:36:24 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
