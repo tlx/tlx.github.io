@@ -4,6 +4,8 @@ var dir_9ec9e9a7bcf6c1b34f6e098c23b43be1 =
     [ "array.hpp", "array_8hpp.html", [
       [ "LoggerFormatter< std::array< T, N > >", "classtlx_1_1LoggerFormatter_3_01std_1_1array_3_01T_00_01N_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1array_3_01T_00_01N_01_4_01_4" ]
     ] ],
+    [ "core.cpp", "core_8cpp.html", "core_8cpp" ],
+    [ "core.hpp", "core_8hpp.html", "core_8hpp" ],
     [ "deque.hpp", "deque_8hpp.html", [
       [ "LoggerFormatter< std::deque< T, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1deque_3_01T_00_01A_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1deque_3_01T_00_01A_01_4_01_4" ]
     ] ],

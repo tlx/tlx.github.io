@@ -39,7 +39,6 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "die.cpp", "die_8cpp.html", "die_8cpp" ],
     [ "die.hpp", "die_8hpp.html", "die_8hpp" ],
     [ "digest.hpp", "digest_8hpp.html", null ],
-    [ "logger.cpp", "logger_8cpp.html", "logger_8cpp" ],
     [ "logger.hpp", "logger_8hpp.html", "logger_8hpp" ],
     [ "math.hpp", "math_8hpp.html", null ],
     [ "meta.hpp", "meta_8hpp.html", null ],
