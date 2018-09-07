@@ -80,7 +80,7 @@ var searchData=
   ['argumentunsigned',['ArgumentUnsigned',['../structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html#aa456fe4dc20e72ff3d863bce45a5a1b7',1,'tlx::CmdlineParser::ArgumentUnsigned']]],
   ['array_2ehpp',['array.hpp',['../array_8hpp.html',1,'']]],
   ['array_5f',['array_',['../classtlx_1_1SimpleVector.html#a581987641fc2ed1e4c1fff21240dcd01',1,'tlx::SimpleVector']]],
-  ['assert_5funequal',['assert_unequal',['../die_8hpp.html#a2b352f8d766a97c1d9d6e83a1b726b54',1,'die.hpp']]],
+  ['assert_5fequal',['assert_equal',['../die_8hpp.html#a5085068329fda13af995242db4555038',1,'die.hpp']]],
   ['attribute_5falways_5finline_2ehpp',['attribute_always_inline.hpp',['../attribute__always__inline_8hpp.html',1,'']]],
   ['attribute_5ffallthrough_2ehpp',['attribute_fallthrough.hpp',['../attribute__fallthrough_8hpp.html',1,'']]],
   ['attribute_5fformat_5fprintf_2ehpp',['attribute_format_printf.hpp',['../attribute__format__printf_8hpp.html',1,'']]],
