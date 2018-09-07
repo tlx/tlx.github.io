@@ -58,5 +58,6 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "thread_pool.hpp", "thread__pool_8hpp.html", [
       [ "ThreadPool", "classtlx_1_1ThreadPool.html", "classtlx_1_1ThreadPool" ]
     ] ],
-    [ "unused.hpp", "unused_8hpp.html", "unused_8hpp" ]
+    [ "unused.hpp", "unused_8hpp.html", "unused_8hpp" ],
+    [ "version.hpp", "version_8hpp.html", "version_8hpp" ]
 ];
