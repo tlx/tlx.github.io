@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['radixheap',['RadixHeap',['../classtlx_1_1RadixHeap.html',1,'tlx']]],
   ['radixstep_5fce0',['RadixStep_CE0',['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE0.html',1,'tlx::sort_strings_detail']]],
   ['radixstep_5fce2',['RadixStep_CE2',['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE2.html',1,'tlx::sort_strings_detail']]],
   ['radixstep_5fce3',['RadixStep_CE3',['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html',1,'tlx::sort_strings_detail']]],

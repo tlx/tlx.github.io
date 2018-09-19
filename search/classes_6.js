@@ -2,6 +2,7 @@ var searchData=
 [
   ['index_5fsequence',['index_sequence',['../structtlx_1_1index__sequence.html',1,'tlx']]],
   ['innernode',['InnerNode',['../structtlx_1_1BTree_1_1InnerNode.html',1,'tlx::BTree']]],
+  ['integerrank',['IntegerRank',['../classtlx_1_1radix__heap__detail_1_1IntegerRank.html',1,'tlx::radix_heap_detail']]],
   ['is_5fstd_5farray',['is_std_array',['../structtlx_1_1is__std__array.html',1,'tlx']]],
   ['is_5fstd_5farray_3c_20std_3a_3aarray_3c_20t_2c_20n_20_3e_20_3e',['is_std_array&lt; std::array&lt; T, N &gt; &gt;',['../structtlx_1_1is__std__array_3_01std_1_1array_3_01T_00_01N_01_4_01_4.html',1,'tlx']]],
   ['is_5fstd_5fpair',['is_std_pair',['../structtlx_1_1is__std__pair.html',1,'tlx']]],

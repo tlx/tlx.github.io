@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['value_5f',['value_',['../classtlx_1_1Semaphore.html#ad30f307794877c16a97c16cc854e9a9e',1,'tlx::Semaphore']]],
-  ['verbose_5fprocess_5f',['verbose_process_',['../classtlx_1_1CmdlineParser.html#a76c0d004bfb50442737216ec14314909',1,'tlx::CmdlineParser']]]
+  ['use_5fidentity_5f',['use_identity_',['../classtlx_1_1radix__heap__detail_1_1IntegerRank.html#a495b26cf245e2d7a02061f8917057ea3',1,'tlx::radix_heap_detail::IntegerRank']]]
 ];

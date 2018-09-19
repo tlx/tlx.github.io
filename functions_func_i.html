@@ -175,6 +175,9 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 <li>Initialize()
 : <a class="el" href="classtlx_1_1sort__strings__detail_1_1StringSuffixSet.html#ae7f5a8ee9268dff1e50c7661f7e20e56">StringSuffixSet</a>
 </li>
+<li>initialize_()
+: <a class="el" href="classtlx_1_1RadixHeap.html#a6aca068dd3cf1a6c7e78091c9bdae961">RadixHeap&lt; ValueType, KeyExtract, KeyType, Radix &gt;</a>
+</li>
 <li>inner_node_allocator()
 : <a class="el" href="classtlx_1_1BTree.html#a791d570451c392e04774581a7d04707a">BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;</a>
 </li>
@@ -186,7 +189,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 , <a class="el" href="classtlx_1_1btree__set.html#af79b899fde02df88636620e2c7f64dc8">btree_set&lt; Key_, Compare_, Traits_, Alloc_ &gt;</a>
 </li>
 <li>insert2()
-: <a class="el" href="classtlx_1_1btree__map.html#abc3949df520acc3517361a1ba7ad27a1">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
+: <a class="el" href="classtlx_1_1btree__map.html#abf71c5fa810524ce814ba2955bd62286">btree_map&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
 , <a class="el" href="classtlx_1_1btree__multimap.html#a23be6285b057e5dd51e9cbaf0e4c9ebf">btree_multimap&lt; Key_, Data_, Compare_, Traits_, Alloc_ &gt;</a>
 </li>
 <li>insert_descend()
@@ -198,6 +201,9 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 , <a class="el" href="group__tlx__container__loser__tree.html#ga2050d2d5506e219a9baf5680c255655b">LoserTreeCopyUnguardedBase&lt; ValueType, Comparator &gt;</a>
 , <a class="el" href="group__tlx__container__loser__tree.html#ga2050d2d5506e219a9baf5680c255655b">LoserTreePointerBase&lt; ValueType, Comparator &gt;</a>
 , <a class="el" href="group__tlx__container__loser__tree.html#ga2050d2d5506e219a9baf5680c255655b">LoserTreePointerUnguardedBase&lt; ValueType, Comparator &gt;</a>
+</li>
+<li>int_at_rank()
+: <a class="el" href="classtlx_1_1radix__heap__detail_1_1IntegerRank.html#a748c2c6b25f9be1c8e24f10720afe6e4">IntegerRank&lt; Int &gt;</a>
 </li>
 <li>is_end()
 : <a class="el" href="classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#a7349264fc9bd0d9c4ccd83ca9efae511">GenericCharStringSet&lt; CharType &gt;</a>
@@ -222,12 +228,17 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 <li>is_leq()
 : <a class="el" href="classtlx_1_1sort__strings__detail_1_1StringSetBase.html#a3bc3f10d579e9ce1487fd1973197ed2c">StringSetBase&lt; StringSet, Traits &gt;</a>
 </li>
+<li>is_set()
+: <a class="el" href="classtlx_1_1radix__heap__detail_1_1BitArray.html#a90ed4001ddc87157dab0b5cd8708c19c">BitArray&lt; Size &gt;</a>
+, <a class="el" href="classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01false_01_4.html#a90ed4001ddc87157dab0b5cd8708c19c">BitArrayRecursive&lt; Size, false &gt;</a>
+, <a class="el" href="classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#a90ed4001ddc87157dab0b5cd8708c19c">BitArrayRecursive&lt; Size, true &gt;</a>
+</li>
 <li>is_underflow()
 : <a class="el" href="structtlx_1_1BTree_1_1InnerNode.html#a161bc176fff45968605cbbf2bb5f4ef9">BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::InnerNode</a>
 , <a class="el" href="structtlx_1_1BTree_1_1LeafNode.html#a161bc176fff45968605cbbf2bb5f4ef9">BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::LeafNode</a>
 </li>
 <li>iterator()
-: <a class="el" href="classtlx_1_1BTree_1_1iterator.html#a07a8e1622ecf59baab04b1cfeaa869a5">BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::iterator</a>
+: <a class="el" href="classtlx_1_1BTree_1_1iterator.html#a67d652c2433cf9217ed2a1485092fdd1">BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::iterator</a>
 , <a class="el" href="classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#a904271dba36be1c99afaf24777f3fcbe">guarded_iterator&lt; RandomAccessIterator, Comparator &gt;</a>
 , <a class="el" href="classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a904271dba36be1c99afaf24777f3fcbe">unguarded_iterator&lt; RandomAccessIterator, Comparator &gt;</a>
 </li>
@@ -237,7 +248,7 @@ $(document).ready(function(){initNavTree('functions_func_i.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Sep 7 2018 13:16:16 for tlx by
+    <li class="footer">Generated on Wed Sep 19 2018 16:06:02 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
