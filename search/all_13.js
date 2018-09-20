@@ -19,6 +19,7 @@ var searchData=
   ['uptrstdstringset',['UPtrStdStringSet',['../classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet.html',1,'tlx::sort_strings_detail']]],
   ['uptrstdstringset',['UPtrStdStringSet',['../classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet.html#a7f4a68edcdcd13fb083c6ac31d681049',1,'tlx::sort_strings_detail::UPtrStdStringSet::UPtrStdStringSet(const Iterator &amp;begin, const Iterator &amp;end)'],['../classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet.html#a2df2f70623cf4ec233e76922a6c19ec0',1,'tlx::sort_strings_detail::UPtrStdStringSet::UPtrStdStringSet(Container &amp;c)']]],
   ['uptrstdstringsettraits',['UPtrStdStringSetTraits',['../classtlx_1_1sort__strings__detail_1_1UPtrStdStringSetTraits.html',1,'tlx::sort_strings_detail']]],
+  ['use_5fcount',['use_count',['../classtlx_1_1CountingPtr.html#ae46d062b5d67cd435795dbefe3397cd2',1,'tlx::CountingPtr']]],
   ['use_5fidentity_5f',['use_identity_',['../classtlx_1_1radix__heap__detail_1_1IntegerRank.html#a495b26cf245e2d7a02061f8917057ea3',1,'tlx::radix_heap_detail::IntegerRank']]],
   ['used',['used',['../classtlx_1_1StackArena.html#ab7ee045430da1e4ada9c2a7075b7f807',1,'tlx::StackArena']]]
 ];

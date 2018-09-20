@@ -113,7 +113,6 @@ $(document).ready(function(){initNavTree('classtlx_1_1CountingPtr.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -136,6 +135,7 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Construction, Assignment and Destruction</div></td></tr>
 <tr class="memitem:ae413b4031fd8b8dcb64ac8039986ccc1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#ae413b4031fd8b8dcb64ac8039986ccc1">CountingPtr</a> () noexcept</td></tr>
 <tr class="memdesc:ae413b4031fd8b8dcb64ac8039986ccc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor: contains a nullptr pointer.  <a href="#ae413b4031fd8b8dcb64ac8039986ccc1">More...</a><br/></td></tr>
 <tr class="separator:ae413b4031fd8b8dcb64ac8039986ccc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,6 +176,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a53741eb644a751f039cdc0f3687c5253"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a53741eb644a751f039cdc0f3687c5253">~CountingPtr</a> ()</td></tr>
 <tr class="memdesc:a53741eb644a751f039cdc0f3687c5253"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor: decrements reference count in ptr.  <a href="#a53741eb644a751f039cdc0f3687c5253">More...</a><br/></td></tr>
 <tr class="separator:a53741eb644a751f039cdc0f3687c5253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Observers</div></td></tr>
 <tr class="memitem:a619a5ba60155395494912078ce28a54e"><td class="memItemLeft" align="right" valign="top">Type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a619a5ba60155395494912078ce28a54e">operator*</a> () const noexcept</td></tr>
 <tr class="memdesc:a619a5ba60155395494912078ce28a54e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the enclosed object as reference.  <a href="#a619a5ba60155395494912078ce28a54e">More...</a><br/></td></tr>
 <tr class="separator:a619a5ba60155395494912078ce28a54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,18 +186,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8db0d2fc192644bf209e350cfb486091"><td class="memItemLeft" align="right" valign="top">Type *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a8db0d2fc192644bf209e350cfb486091">get</a> () const noexcept</td></tr>
 <tr class="memdesc:a8db0d2fc192644bf209e350cfb486091"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the enclosed pointer.  <a href="#a8db0d2fc192644bf209e350cfb486091">More...</a><br/></td></tr>
 <tr class="separator:a8db0d2fc192644bf209e350cfb486091"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ed50899e4b79aab03faed391707f9fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a6ed50899e4b79aab03faed391707f9fe">operator==</a> (const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:a6ed50899e4b79aab03faed391707f9fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">test equality of only the pointer values.  <a href="#a6ed50899e4b79aab03faed391707f9fe">More...</a><br/></td></tr>
-<tr class="separator:a6ed50899e4b79aab03faed391707f9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab58eb7c245507b739e9b50f8845c4930"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#ab58eb7c245507b739e9b50f8845c4930">operator!=</a> (const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:ab58eb7c245507b739e9b50f8845c4930"><td class="mdescLeft">&#160;</td><td class="mdescRight">test inequality of only the pointer values.  <a href="#ab58eb7c245507b739e9b50f8845c4930">More...</a><br/></td></tr>
-<tr class="separator:ab58eb7c245507b739e9b50f8845c4930"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09b69445ddfd518b46fcaf7365797db4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a09b69445ddfd518b46fcaf7365797db4">operator==</a> (Type *other) const noexcept</td></tr>
-<tr class="memdesc:a09b69445ddfd518b46fcaf7365797db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">test equality of only the address pointed to  <a href="#a09b69445ddfd518b46fcaf7365797db4">More...</a><br/></td></tr>
-<tr class="separator:a09b69445ddfd518b46fcaf7365797db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3241b2fbe48a5d96e82510f34be2c8e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a3241b2fbe48a5d96e82510f34be2c8e8">operator!=</a> (Type *other) const noexcept</td></tr>
-<tr class="memdesc:a3241b2fbe48a5d96e82510f34be2c8e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">test inequality of only the address pointed to  <a href="#a3241b2fbe48a5d96e82510f34be2c8e8">More...</a><br/></td></tr>
-<tr class="separator:a3241b2fbe48a5d96e82510f34be2c8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99f77f09f364b20c3a30ab6bffa4c24b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a99f77f09f364b20c3a30ab6bffa4c24b">valid</a> () const noexcept</td></tr>
 <tr class="memdesc:a99f77f09f364b20c3a30ab6bffa4c24b"><td class="mdescLeft">&#160;</td><td class="mdescRight">test for a non-nullptr pointer  <a href="#a99f77f09f364b20c3a30ab6bffa4c24b">More...</a><br/></td></tr>
 <tr class="separator:a99f77f09f364b20c3a30ab6bffa4c24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,15 +198,56 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a17f79efcc0f2e0d5cb9afcdee013e64c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a17f79efcc0f2e0d5cb9afcdee013e64c">unique</a> () const noexcept</td></tr>
 <tr class="memdesc:a17f79efcc0f2e0d5cb9afcdee013e64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the object is referred by this <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer. ">CountingPtr</a> only  <a href="#a17f79efcc0f2e0d5cb9afcdee013e64c">More...</a><br/></td></tr>
 <tr class="separator:a17f79efcc0f2e0d5cb9afcdee013e64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28653b45bfba9a4135bc0c5903a45c4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a28653b45bfba9a4135bc0c5903a45c4e">unify</a> ()</td></tr>
-<tr class="memdesc:a28653b45bfba9a4135bc0c5903a45c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">make and refer a copy if the original object was shared.  <a href="#a28653b45bfba9a4135bc0c5903a45c4e">More...</a><br/></td></tr>
-<tr class="separator:a28653b45bfba9a4135bc0c5903a45c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae46d062b5d67cd435795dbefe3397cd2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#ae46d062b5d67cd435795dbefe3397cd2">use_count</a> () const noexcept</td></tr>
+<tr class="memdesc:ae46d062b5d67cd435795dbefe3397cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of different shared_ptr instances managing the current object.  <a href="#ae46d062b5d67cd435795dbefe3397cd2">More...</a><br/></td></tr>
+<tr class="separator:ae46d062b5d67cd435795dbefe3397cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Modifiers</div></td></tr>
 <tr class="memitem:ad20897c5c8bd47f5d4005989bead0e55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#ad20897c5c8bd47f5d4005989bead0e55">reset</a> ()</td></tr>
 <tr class="memdesc:ad20897c5c8bd47f5d4005989bead0e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">release contained pointer, frees object if this is the last reference.  <a href="#ad20897c5c8bd47f5d4005989bead0e55">More...</a><br/></td></tr>
 <tr class="separator:ad20897c5c8bd47f5d4005989bead0e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a02ea805804fa9dc1517b55fadf6873"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a5a02ea805804fa9dc1517b55fadf6873">swap</a> (<a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a> &amp;b) noexcept</td></tr>
 <tr class="memdesc:a5a02ea805804fa9dc1517b55fadf6873"><td class="mdescLeft">&#160;</td><td class="mdescRight">swap enclosed object with another counting pointer (no reference counts need change)  <a href="#a5a02ea805804fa9dc1517b55fadf6873">More...</a><br/></td></tr>
 <tr class="separator:a5a02ea805804fa9dc1517b55fadf6873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28653b45bfba9a4135bc0c5903a45c4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a28653b45bfba9a4135bc0c5903a45c4e">unify</a> ()</td></tr>
+<tr class="memdesc:a28653b45bfba9a4135bc0c5903a45c4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">make and refer a copy if the original object was shared.  <a href="#a28653b45bfba9a4135bc0c5903a45c4e">More...</a><br/></td></tr>
+<tr class="separator:a28653b45bfba9a4135bc0c5903a45c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Comparison Operators</div></td></tr>
+<tr class="memitem:a6ed50899e4b79aab03faed391707f9fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a6ed50899e4b79aab03faed391707f9fe">operator==</a> (const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:a6ed50899e4b79aab03faed391707f9fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">test equality of only the pointer values.  <a href="#a6ed50899e4b79aab03faed391707f9fe">More...</a><br/></td></tr>
+<tr class="separator:a6ed50899e4b79aab03faed391707f9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab58eb7c245507b739e9b50f8845c4930"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#ab58eb7c245507b739e9b50f8845c4930">operator!=</a> (const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:ab58eb7c245507b739e9b50f8845c4930"><td class="mdescLeft">&#160;</td><td class="mdescRight">test inequality of only the pointer values.  <a href="#ab58eb7c245507b739e9b50f8845c4930">More...</a><br/></td></tr>
+<tr class="separator:ab58eb7c245507b739e9b50f8845c4930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09b69445ddfd518b46fcaf7365797db4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a09b69445ddfd518b46fcaf7365797db4">operator==</a> (Type *other) const noexcept</td></tr>
+<tr class="memdesc:a09b69445ddfd518b46fcaf7365797db4"><td class="mdescLeft">&#160;</td><td class="mdescRight">test equality of only the address pointed to  <a href="#a09b69445ddfd518b46fcaf7365797db4">More...</a><br/></td></tr>
+<tr class="separator:a09b69445ddfd518b46fcaf7365797db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3241b2fbe48a5d96e82510f34be2c8e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a3241b2fbe48a5d96e82510f34be2c8e8">operator!=</a> (Type *other) const noexcept</td></tr>
+<tr class="memdesc:a3241b2fbe48a5d96e82510f34be2c8e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">test inequality of only the address pointed to  <a href="#a3241b2fbe48a5d96e82510f34be2c8e8">More...</a><br/></td></tr>
+<tr class="separator:a3241b2fbe48a5d96e82510f34be2c8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1fd580cf434412947b72d3b9e926260"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#ae1fd580cf434412947b72d3b9e926260">operator&lt;</a> (const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:ae1fd580cf434412947b72d3b9e926260"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare the pointer values.  <a href="#ae1fd580cf434412947b72d3b9e926260">More...</a><br/></td></tr>
+<tr class="separator:ae1fd580cf434412947b72d3b9e926260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7012648d8c1127a12467a9c851aef094"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a7012648d8c1127a12467a9c851aef094">operator&lt;=</a> (const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:a7012648d8c1127a12467a9c851aef094"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare the pointer values.  <a href="#a7012648d8c1127a12467a9c851aef094">More...</a><br/></td></tr>
+<tr class="separator:a7012648d8c1127a12467a9c851aef094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d05f056aa52de6427eba4f2cdbbd080"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a9d05f056aa52de6427eba4f2cdbbd080">operator&gt;</a> (const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:a9d05f056aa52de6427eba4f2cdbbd080"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare the pointer values.  <a href="#a9d05f056aa52de6427eba4f2cdbbd080">More...</a><br/></td></tr>
+<tr class="separator:a9d05f056aa52de6427eba4f2cdbbd080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af227b4b2a4972478d832e6271e5434e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#af227b4b2a4972478d832e6271e5434e7">operator&gt;=</a> (const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:af227b4b2a4972478d832e6271e5434e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare the pointer values.  <a href="#af227b4b2a4972478d832e6271e5434e7">More...</a><br/></td></tr>
+<tr class="separator:af227b4b2a4972478d832e6271e5434e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7c1be6cde3d71c3b2a2d16afc8d76d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#ae7c1be6cde3d71c3b2a2d16afc8d76d1">operator&lt;</a> (Type *other) const noexcept</td></tr>
+<tr class="memdesc:ae7c1be6cde3d71c3b2a2d16afc8d76d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare the pointer values.  <a href="#ae7c1be6cde3d71c3b2a2d16afc8d76d1">More...</a><br/></td></tr>
+<tr class="separator:ae7c1be6cde3d71c3b2a2d16afc8d76d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea4610e73925d38c2071cca43b949eaf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#aea4610e73925d38c2071cca43b949eaf">operator&lt;=</a> (Type *other) const noexcept</td></tr>
+<tr class="memdesc:aea4610e73925d38c2071cca43b949eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare the pointer values.  <a href="#aea4610e73925d38c2071cca43b949eaf">More...</a><br/></td></tr>
+<tr class="separator:aea4610e73925d38c2071cca43b949eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63ba3be78142d348a8f2956f3daf6684"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#a63ba3be78142d348a8f2956f3daf6684">operator&gt;</a> (Type *other) const noexcept</td></tr>
+<tr class="memdesc:a63ba3be78142d348a8f2956f3daf6684"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare the pointer values.  <a href="#a63ba3be78142d348a8f2956f3daf6684">More...</a><br/></td></tr>
+<tr class="separator:a63ba3be78142d348a8f2956f3daf6684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d869f24270c5c8f9fd68af814987a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CountingPtr.html#aa7d869f24270c5c8f9fd68af814987a3">operator&gt;=</a> (Type *other) const noexcept</td></tr>
+<tr class="memdesc:aa7d869f24270c5c8f9fd68af814987a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare the pointer values.  <a href="#aa7d869f24270c5c8f9fd68af814987a3">More...</a><br/></td></tr>
+<tr class="separator:aa7d869f24270c5c8f9fd68af814987a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -293,7 +323,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>default constructor: contains a nullptr pointer. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00091">91</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00094">94</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -321,7 +351,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>implicit conversion from nullptr_t: contains a nullptr pointer. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00095">95</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00098">98</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -349,7 +379,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>constructor from pointer: initializes new reference to ptr. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00099">99</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00102">102</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -377,7 +407,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>copy-constructor: also initializes new reference to ptr. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00104">104</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00107">107</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -405,7 +435,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>copy-constructor: also initializes new reference to ptr. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00112">112</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00115">115</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -433,7 +463,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>move-constructor: just moves pointer, does not change reference counts. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00117">117</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00120">120</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -461,7 +491,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>move-constructor: just moves pointer, does not change reference counts. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00125">125</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00128">128</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -488,7 +518,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>destructor: decrements reference count in ptr. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00179">179</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00182">182</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -543,7 +573,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test for a nullptr pointer </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00221">221</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00213">213</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -570,7 +600,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>return the enclosed pointer. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00194">194</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00202">202</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -625,7 +655,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>cast to bool checks for a nullptr pointer </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00217">217</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00209">209</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -653,7 +683,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test inequality of only the pointer values. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00201">201</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00257">257</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -681,7 +711,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test inequality of only the address pointed to </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00209">209</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00265">265</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -708,7 +738,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>return the enclosed object as reference. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00182">182</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00190">190</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -735,7 +765,119 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>return the enclosed pointer. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00188">188</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00196">196</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae1fd580cf434412947b72d3b9e926260"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a>&lt; Type, Deleter &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>compare the pointer values. </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00269">269</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7c1be6cde3d71c3b2a2d16afc8d76d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">Type *&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>compare the pointer values. </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00285">285</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7012648d8c1127a12467a9c851aef094"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a>&lt; Type, Deleter &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>compare the pointer values. </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00273">273</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aea4610e73925d38c2071cca43b949eaf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">Type *&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>compare the pointer values. </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00289">289</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -763,7 +905,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>copy-assignment operator: acquire reference on new one and dereference current object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00131">131</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00134">134</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -791,7 +933,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>copy-assignment operator: acquire reference on new one and dereference current object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00146">146</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00149">149</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -819,7 +961,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>move-assignment operator: move reference of other to current object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00156">156</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00159">159</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -847,7 +989,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>move-assignment operator: move reference of other to current object. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00169">169</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00172">172</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -875,7 +1017,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test equality of only the pointer values. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00197">197</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00253">253</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -903,7 +1045,119 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test equality of only the address pointed to </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00205">205</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00261">261</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9d05f056aa52de6427eba4f2cdbbd080"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a>&lt; Type, Deleter &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>compare the pointer values. </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00277">277</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a63ba3be78142d348a8f2956f3daf6684"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype">Type *&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>compare the pointer values. </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00293">293</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af227b4b2a4972478d832e6271e5434e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a>&lt; Type, Deleter &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>compare the pointer values. </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00281">281</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7d869f24270c5c8f9fd68af814987a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">Type *&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>compare the pointer values. </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00297">297</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -930,7 +1184,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>release contained pointer, frees object if this is the last reference. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00235">235</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00231">231</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -958,7 +1212,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>swap enclosed object with another counting pointer (no reference counts need change) </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00242">242</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00238">238</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -985,7 +1239,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>make and refer a copy if the original object was shared. </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00229">229</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00242">242</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -1012,7 +1266,34 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>if the object is referred by this <a class="el" href="classtlx_1_1CountingPtr.html" title="High-performance smart pointer used as a wrapping reference counting pointer. ">CountingPtr</a> only </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00225">225</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00217">217</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae46d062b5d67cd435795dbefe3397cd2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t use_count </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of different shared_ptr instances managing the current object. </p>
+
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00222">222</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -1039,7 +1320,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 
 <p>test for a non-nullptr pointer </p>
 
-<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00213">213</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="counting__ptr_8hpp_source.html#l00205">205</a> of file <a class="el" href="counting__ptr_8hpp_source.html">counting_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -1102,7 +1383,7 @@ class tlx::CountingPtr&lt; Type, Deleter &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1CountingPtr.html">CountingPtr</a></li>
-    <li class="footer">Generated on Wed Sep 19 2018 17:20:52 for tlx by
+    <li class="footer">Generated on Thu Sep 20 2018 07:19:08 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

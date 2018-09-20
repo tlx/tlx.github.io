@@ -1,5 +1,14 @@
 var NAVTREEINDEX11 =
 {
+"ring__buffer_8hpp.html":[4,0,0,1,8],
+"ring__buffer_8hpp_source.html":[4,0,0,1,8],
+"rol_8hpp.html":[4,0,0,6,11],
+"rol_8hpp.html#ga1d4a226ca1fa55b6e4b5921ca3f492b5":[4,0,0,6,11,3],
+"rol_8hpp.html#ga6516bdadfc6166cfb0a117d6091fb727":[4,0,0,6,11,1],
+"rol_8hpp.html#gac7415c322c6257a35cfe0d6929c45407":[4,0,0,6,11,0],
+"rol_8hpp.html#gae43c4e90fb93555810dc0a04364a6796":[4,0,0,6,11,2],
+"rol_8hpp_source.html":[4,0,0,6,11],
+"ror_8hpp.html":[4,0,0,6,12],
 "ror_8hpp.html#ga719bbc1834b484884e10ac303a00ec5f":[4,0,0,6,12,0],
 "ror_8hpp.html#ga771f50ed60fe713a5beab0da4647cfb5":[4,0,0,6,12,1],
 "ror_8hpp.html#gaa1719724a19036752c629c8195f732d3":[4,0,0,6,12,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX11 =
 "structtlx_1_1CmdlineParser_1_1Argument.html#a6a1aebff917107d5da9f739f9ed05ef2":[3,0,0,8,0,7],
 "structtlx_1_1CmdlineParser_1_1Argument.html#a895f2c0cfb8e6fc75f3c14c5f19d8f13":[3,0,0,8,0,12],
 "structtlx_1_1CmdlineParser_1_1Argument.html#ad02b426c755b8770bb46beda5f10c382":[3,0,0,8,0,2],
-"structtlx_1_1CmdlineParser_1_1Argument.html#ad2a14c07a619f29094a7c1adcbb776ba":[3,0,0,8,0,0],
-"structtlx_1_1CmdlineParser_1_1Argument.html#afc710c3fdab138d5baaa4d1856e2f0cc":[3,0,0,8,0,11],
-"structtlx_1_1CmdlineParser_1_1Argument.html#afe4c07cac9893084132f4d41107dfc3e":[3,0,0,8,0,9],
-"structtlx_1_1CmdlineParser_1_1ArgumentBool.html":[3,0,0,8,1],
-"structtlx_1_1CmdlineParser_1_1ArgumentBool.html#a727398f2fe280f4f646259ac6f7515b0":[3,0,0,8,1,4],
-"structtlx_1_1CmdlineParser_1_1ArgumentBool.html#a9db1ea384594ee66e67d6765bcce9116":[3,0,0,8,1,0],
-"structtlx_1_1CmdlineParser_1_1ArgumentBool.html#aa6a78908f9b56fd0b57a551a82c9546f":[3,0,0,8,1,3],
-"structtlx_1_1CmdlineParser_1_1ArgumentBool.html#aeaae06971ebe15525941922449c63813":[3,0,0,8,1,1],
-"structtlx_1_1CmdlineParser_1_1ArgumentBool.html#af1138dedebbc8733457bb3655f10716b":[3,0,0,8,1,2],
-"structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html":[3,0,0,8,2]
+"structtlx_1_1CmdlineParser_1_1Argument.html#ad2a14c07a619f29094a7c1adcbb776ba":[3,0,0,8,0,0]
 };

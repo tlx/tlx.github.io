@@ -1,5 +1,14 @@
 var NAVTREEINDEX5 =
 {
+"classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#a9cf20a1e090a50cb8ed83eba24e76c29":[3,0,0,3,0,0],
+"classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#af7eecfabfad8b2eabcc4240f85bf388e":[3,0,0,3,0,2],
+"classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html":[3,0,0,3,1],
+"classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a0d7662ebb8f632bf989c7bcc4daa4ec8":[3,0,0,3,1,7],
+"classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a0f27084093bd318aee22dcf34861117e":[3,0,0,3,1,1],
+"classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a0fd31f908a777db93a28a89de109c026":[3,0,0,3,1,0],
+"classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a5f99bf4b86b28107056431c0ac7bffca":[3,0,0,3,1,2],
+"classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a68c6d6abdde9fef27d6a4f2904212559":[3,0,0,3,1,5],
+"classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a69f4a206f885e3d4185ea82cb4300498":[3,0,0,3,1,4],
 "classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a740e9aba6d9fafa1a118cf758d2f31d2":[3,0,0,3,1,8],
 "classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a78feaa7e822fdb055a1b769e6a5f9e7e":[3,0,0,3,1,9],
 "classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a8220375eecbcae1ed379cf0ccbe825ef":[3,0,0,3,1,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX5 =
 "contains_8hpp.html#ga8d6aca56ee9463cd116fc8e065c4c3a0":[4,0,0,10,5,2],
 "contains_8hpp_source.html":[4,0,0,10,5],
 "contains__word_8cpp.html":[4,0,0,10,6],
-"contains__word_8cpp.html#a7aebcd1b9a6ce6667c8bbcab36aeaadb":[4,0,0,10,6,2],
-"contains__word_8cpp.html#ga2fd07edea7502e13dbc9d2991be95f02":[4,0,0,10,6,0],
-"contains__word_8cpp.html#ga7f7b2444597941650e05c1bb96b04f45":[4,0,0,10,6,1],
-"contains__word_8cpp_source.html":[4,0,0,10,6],
-"contains__word_8hpp.html":[4,0,0,10,7],
-"contains__word_8hpp.html#ga2fd07edea7502e13dbc9d2991be95f02":[4,0,0,10,7,0],
-"contains__word_8hpp.html#ga7f7b2444597941650e05c1bb96b04f45":[4,0,0,10,7,1],
-"contains__word_8hpp_source.html":[4,0,0,10,7],
-"counting__ptr_8hpp.html":[4,0,0,18],
-"counting__ptr_8hpp.html#a2c4e023d82bca2172da2f965e3b42b40":[4,0,0,18,4]
+"contains__word_8cpp.html#a7aebcd1b9a6ce6667c8bbcab36aeaadb":[4,0,0,10,6,2]
 };

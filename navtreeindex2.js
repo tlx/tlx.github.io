@@ -1,5 +1,14 @@
 var NAVTREEINDEX2 =
 {
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#af34c5034d469212db913c8beccc8cb24":[3,0,0,38,31],
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#af71db2fb87bd61131d974b31bce6cb61":[3,0,0,38,37],
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#af7368e5adbea13835e23cb02ea47f0c5":[3,0,0,38,48],
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#af837498511abff7bd40cf79d99597c30":[3,0,0,38,33],
+"classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#af83e5060d68332c151fca7f1713baa9e":[3,0,0,38,14],
+"classtlx_1_1DieException.html":[3,0,0,39],
+"classtlx_1_1DieException.html#aa5a876a546d70d22b260e1c174f44de7":[3,0,0,39,0],
+"classtlx_1_1FunctionChain.html":[1,0,5,1],
+"classtlx_1_1FunctionChain.html#a2bb4850fb72ed6359cb85aa86baee45c":[1,0,5,1,8],
 "classtlx_1_1FunctionChain.html#a45565e85f6d1605c8cd66b5edd66238c":[1,0,5,1,3],
 "classtlx_1_1FunctionChain.html#a45fc06b0e735bf219e881e31ab939334":[1,0,5,1,5],
 "classtlx_1_1FunctionChain.html#a46bd07dd339af54250e82936fe9bb992":[1,0,5,1,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX2 =
 "classtlx_1_1RingBuffer.html#a8671f30ba2b80ddb4b309dfa13f0600d":[1,0,1,5,36],
 "classtlx_1_1RingBuffer.html#a942671c3bf981a9c6aed99563af3ae3f":[1,0,1,5,2],
 "classtlx_1_1RingBuffer.html#a9870425783540b4ca3fe8052772fcaa8":[1,0,1,5,15],
-"classtlx_1_1RingBuffer.html#a98e4560adae148e80c54e8f07b59685f":[1,0,1,5,44],
-"classtlx_1_1RingBuffer.html#a9e3a80a04841d98f044cf2cb67c04d0f":[1,0,1,5,10],
-"classtlx_1_1RingBuffer.html#aa3099a4c2b0b3ab5ba4188b4a8f59b26":[1,0,1,5,43],
-"classtlx_1_1RingBuffer.html#aa688f5c7b1552245701b0d16d6b95ec6":[1,0,1,5,24],
-"classtlx_1_1RingBuffer.html#aa77c5677e96e956feccbd5a7abbf8fe2":[1,0,1,5,27],
-"classtlx_1_1RingBuffer.html#aab6af54d683011c8da699fd13cf22b56":[1,0,1,5,31],
-"classtlx_1_1RingBuffer.html#ab5b725de047e6b4434ba01741744e457":[1,0,1,5,21],
-"classtlx_1_1RingBuffer.html#aba418f11115fef12dd9f6a7ce017614a":[1,0,1,5,11],
-"classtlx_1_1RingBuffer.html#ac4eb8f7058fc153a56de3da92a8f4817":[1,0,1,5,28],
-"classtlx_1_1RingBuffer.html#ac8bb3912a3ce86b15842e79d0b421204":[1,0,1,5,18]
+"classtlx_1_1RingBuffer.html#a98e4560adae148e80c54e8f07b59685f":[1,0,1,5,44]
 };

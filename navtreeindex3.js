@@ -1,5 +1,14 @@
 var NAVTREEINDEX3 =
 {
+"classtlx_1_1RingBuffer.html#a9e3a80a04841d98f044cf2cb67c04d0f":[1,0,1,5,10],
+"classtlx_1_1RingBuffer.html#aa3099a4c2b0b3ab5ba4188b4a8f59b26":[1,0,1,5,43],
+"classtlx_1_1RingBuffer.html#aa688f5c7b1552245701b0d16d6b95ec6":[1,0,1,5,24],
+"classtlx_1_1RingBuffer.html#aa77c5677e96e956feccbd5a7abbf8fe2":[1,0,1,5,27],
+"classtlx_1_1RingBuffer.html#aab6af54d683011c8da699fd13cf22b56":[1,0,1,5,31],
+"classtlx_1_1RingBuffer.html#ab5b725de047e6b4434ba01741744e457":[1,0,1,5,21],
+"classtlx_1_1RingBuffer.html#aba418f11115fef12dd9f6a7ce017614a":[1,0,1,5,11],
+"classtlx_1_1RingBuffer.html#ac4eb8f7058fc153a56de3da92a8f4817":[1,0,1,5,28],
+"classtlx_1_1RingBuffer.html#ac8bb3912a3ce86b15842e79d0b421204":[1,0,1,5,18],
 "classtlx_1_1RingBuffer.html#ad76f5f87b217dab7b48ea7dff1871900":[1,0,1,5,9],
 "classtlx_1_1RingBuffer.html#adc178afcc34fc9f6a71f60f1c305084d":[1,0,1,5,7],
 "classtlx_1_1RingBuffer.html#af0f70ef64d23e2379bacb63968e68b45":[1,0,1,5,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX3 =
 "classtlx_1_1btree__map.html#afcd3bad1ced519acc3641a8f83596d37":[1,0,1,0,2,3],
 "classtlx_1_1btree__multimap.html":[1,0,1,0,3],
 "classtlx_1_1btree__multimap.html#a004e76f14b7697d3801e3b1d397da5a5":[1,0,1,0,3,68],
-"classtlx_1_1btree__multimap.html#a00bce22abcfcd08fde238bf6dd349670":[1,0,1,0,3,2],
-"classtlx_1_1btree__multimap.html#a04886aa70c34d66738e78bf70c675e66":[1,0,1,0,3,57],
-"classtlx_1_1btree__multimap.html#a05f19b67546de4e7ffa5ec0a5f17e759":[1,0,1,0,3,16],
-"classtlx_1_1btree__multimap.html#a080458f85e4aefc31cc89767613243df":[1,0,1,0,3,9],
-"classtlx_1_1btree__multimap.html#a08569819955bb63f02b07ae866cce21b":[1,0,1,0,3,54],
-"classtlx_1_1btree__multimap.html#a0ab5ce862c0331d9e45a6e1774fca131":[1,0,1,0,3,48],
-"classtlx_1_1btree__multimap.html#a0d3d86d13f26293e1ddcff5569ad1ccb":[1,0,1,0,3,35],
-"classtlx_1_1btree__multimap.html#a135e5c5aebb3804fbd4676a4c8e47ac1":[1,0,1,0,3,53],
-"classtlx_1_1btree__multimap.html#a158db26381d5b0ab7d30a30891a61718":[1,0,1,0,3,61],
-"classtlx_1_1btree__multimap.html#a1be1cfb6ae3135c01d8e8d8fcfbe0ee8":[1,0,1,0,3,11]
+"classtlx_1_1btree__multimap.html#a00bce22abcfcd08fde238bf6dd349670":[1,0,1,0,3,2]
 };
