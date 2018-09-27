@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "Aggregate< Type_ >", "classtlx_1_1Aggregate.html", null ],
     [ "StackArena< Size >::AlignmentHelper", "uniontlx_1_1StackArena_1_1AlignmentHelper.html", null ],
     [ "AllocatorBase< Type >", "classtlx_1_1AllocatorBase.html", [
       [ "StackAllocator< Type, Size >", "classtlx_1_1StackAllocator.html", null ]
@@ -70,8 +71,8 @@ var hierarchy =
     [ "IntegerRank< Int >", "classtlx_1_1radix__heap__detail_1_1IntegerRank.html", null ],
     [ "BTree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::iterator", "classtlx_1_1BTree_1_1iterator.html", null ],
     [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", null ],
-    [ "btree_map< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", null ],
     [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
+    [ "btree_map< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", null ],
     [ "btree_set< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", null ],
     [ "Log2< Input >", "classtlx_1_1Log2.html", null ],
     [ "Log2< 0 >", "classtlx_1_1Log2_3_010_01_4.html", null ],

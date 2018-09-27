@@ -263,9 +263,9 @@ $(document).ready(function(){initNavTree('die_2core_8hpp_source.html','');});
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor">        auto x__ = (X);                                     </span><span class="comment">/* NOLINT */</span><span class="preprocessor"> \</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="preprocessor">        auto y__ = (Y);                                     </span><span class="comment">/* NOLINT */</span><span class="preprocessor"> \</span></div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor">        if (!::tlx::die_equal_eps_compare(x__, y__, eps))                \</span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="preprocessor">            die(&quot;DIE-UNEQUAL-EPS: &quot; #X &quot; != &quot; #Y &quot; : &quot;                   \</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor">                &lt;&lt; std::setprecision(18)                                 \</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor">                &lt;&lt; &quot;\&quot;&quot; &lt;&lt; x__ &lt;&lt; &quot;\&quot; != \&quot;&quot; &lt;&lt; y__ &lt;&lt; &quot;\&quot;&quot;);            \</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="preprocessor">            tlx_die(&quot;DIE-UNEQUAL-EPS: &quot; #X &quot; != &quot; #Y &quot; : &quot;               \</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor">                    &lt;&lt; std::setprecision(18)                             \</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor">                    &lt;&lt; &quot;\&quot;&quot; &lt;&lt; x__ &lt;&lt; &quot;\&quot; != \&quot;&quot; &lt;&lt; y__ &lt;&lt; &quot;\&quot;&quot;);        \</span></div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor">    } while (false)</span></div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="preprocessor"></span><span class="comment"></span></div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment">//! Check that ABS(X - Y) &lt;= 0.000001 or die miserably, but output the values of</span></div>
@@ -308,7 +308,7 @@ $(document).ready(function(){initNavTree('die_2core_8hpp_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_9a6008668f7ecf35878ebc6bd2d3ccfa.html">die</a></li><li class="navelem"><a class="el" href="die_2core_8hpp.html">core.hpp</a></li>
-    <li class="footer">Generated on Thu Sep 27 2018 13:25:45 for tlx by
+    <li class="footer">Generated on Thu Sep 27 2018 14:42:59 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

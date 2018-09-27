@@ -1,6 +1,7 @@
 var searchData=
 [
   ['abs_5fdiff_2ehpp',['abs_diff.hpp',['../abs__diff_8hpp.html',1,'']]],
+  ['aggregate_2ehpp',['aggregate.hpp',['../aggregate_8hpp.html',1,'']]],
   ['algorithm_2ehpp',['algorithm.hpp',['../algorithm_8hpp.html',1,'']]],
   ['all_2ehpp',['all.hpp',['../all_8hpp.html',1,'']]],
   ['allocator_5fbase_2ehpp',['allocator_base.hpp',['../allocator__base_8hpp.html',1,'']]],

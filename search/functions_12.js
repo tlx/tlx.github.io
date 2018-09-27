@@ -6,6 +6,7 @@ var searchData=
   ['to_5flower',['to_lower',['../group__tlx__string.html#ga355a332620f8220ecbb0dc5a0aa67350',1,'tlx::to_lower(char ch)'],['../group__tlx__string.html#ga4ec240b74b77e3ce42f8d67079dea430',1,'tlx::to_lower(std::string *str)'],['../group__tlx__string.html#ga647f5157d00473cf9bf37c92044bd9a8',1,'tlx::to_lower(const std::string &amp;str)']]],
   ['to_5fupper',['to_upper',['../group__tlx__string.html#gaa00b5d705507da8f74f1ba3874174d8d',1,'tlx::to_upper(char ch)'],['../group__tlx__string.html#ga7d9edcc3303203825126d7d422e8ab75',1,'tlx::to_upper(std::string *str)'],['../group__tlx__string.html#ga2be559f6e498862bec070f122feb6e14',1,'tlx::to_upper(const std::string &amp;str)']]],
   ['top',['top',['../classtlx_1_1RadixHeap.html#a719f29e469e7a76b2f5b0105a03e4557',1,'tlx::RadixHeap']]],
+  ['total',['total',['../classtlx_1_1Aggregate.html#ae1e08c7a6fd34eca886af646b3498768',1,'tlx::Aggregate']]],
   ['touch',['touch',['../classtlx_1_1LruCacheSet.html#a107cc96d89ec81d940bf78c154c438e8',1,'tlx::LruCacheSet::touch()'],['../classtlx_1_1LruCacheMap.html#a107cc96d89ec81d940bf78c154c438e8',1,'tlx::LruCacheMap::touch()']]],
   ['touch_5fif_5fexists',['touch_if_exists',['../classtlx_1_1LruCacheSet.html#a1841a27fe085783ec68689c2aaeee4be',1,'tlx::LruCacheSet::touch_if_exists()'],['../classtlx_1_1LruCacheMap.html#a1841a27fe085783ec68689c2aaeee4be',1,'tlx::LruCacheMap::touch_if_exists()']]],
   ['tree_5fstats',['tree_stats',['../structtlx_1_1BTree_1_1tree__stats.html#aee390aabd0d5706d9a55d51259151704',1,'tlx::BTree::tree_stats']]],

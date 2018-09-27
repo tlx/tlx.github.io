@@ -68,6 +68,7 @@ var namespacetlx =
     [ "LoggerFormatter< std::unordered_multimap< K, V, H, E, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__multimap_3_01K_00_01V_00_01H_00_01E_00_01A_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__multimap_3_01K_00_01V_00_01H_00_01E_00_01A_01_4_01_4" ],
     [ "LoggerFormatter< std::unordered_set< T, H, E, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__set_3_01T_00_01H_00_01E_00_01A_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__set_3_01T_00_01H_00_01E_00_01A_01_4_01_4" ],
     [ "LoggerFormatter< std::unordered_multiset< T, H, E, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__multiset_3_01T_00_01H_00_01E_00_01A_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__multiset_3_01T_00_01H_00_01E_00_01A_01_4_01_4" ],
+    [ "Aggregate", "classtlx_1_1Aggregate.html", "classtlx_1_1Aggregate" ],
     [ "FunctionChain", "classtlx_1_1FunctionChain.html", "classtlx_1_1FunctionChain" ],
     [ "FunctionStack", "classtlx_1_1FunctionStack.html", "classtlx_1_1FunctionStack" ],
     [ "index_sequence", "structtlx_1_1index__sequence.html", "structtlx_1_1index__sequence" ],
