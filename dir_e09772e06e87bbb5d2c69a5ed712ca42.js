@@ -12,6 +12,7 @@ var dir_e09772e06e87bbb5d2c69a5ed712ca42 =
     [ "integer_log2.hpp", "integer__log2_8hpp.html", "integer__log2_8hpp" ],
     [ "is_power_of_two.cpp", "is__power__of__two_8cpp.html", "is__power__of__two_8cpp" ],
     [ "is_power_of_two.hpp", "is__power__of__two_8hpp.html", "is__power__of__two_8hpp" ],
+    [ "popcount.hpp", "popcount_8hpp.html", "popcount_8hpp" ],
     [ "rol.hpp", "rol_8hpp.html", "rol_8hpp" ],
     [ "ror.hpp", "ror_8hpp.html", "ror_8hpp" ],
     [ "round_to_power_of_two.cpp", "round__to__power__of__two_8cpp.html", "round__to__power__of__two_8cpp" ],

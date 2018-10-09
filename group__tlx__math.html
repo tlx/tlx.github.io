@@ -259,6 +259,22 @@ Functions</h2></td></tr>
 <tr class="memitem:gae254dcf57628545d17e5b70148c63c47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gae254dcf57628545d17e5b70148c63c47">is_power_of_two</a> (unsigned long long i)</td></tr>
 <tr class="memdesc:gae254dcf57628545d17e5b70148c63c47"><td class="mdescLeft">&#160;</td><td class="mdescRight">does what it says: true if i is a power of two  <a href="#gae254dcf57628545d17e5b70148c63c47">More...</a><br/></td></tr>
 <tr class="separator:gae254dcf57628545d17e5b70148c63c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab1c7963cb46a3730ad9813333a414348"><td class="memItemLeft" align="right" valign="top">static unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gab1c7963cb46a3730ad9813333a414348">popcount_generic8</a> (uint16_t x)</td></tr>
+<tr class="memdesc:gab1c7963cb46a3730ad9813333a414348"><td class="mdescLeft">&#160;</td><td class="mdescRight">popcount (count one bits) - generic SWAR implementation  <a href="#gab1c7963cb46a3730ad9813333a414348">More...</a><br/></td></tr>
+<tr class="separator:gab1c7963cb46a3730ad9813333a414348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1cee3526742e5893696078ba3d1c0b7"><td class="memItemLeft" align="right" valign="top">static unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gaf1cee3526742e5893696078ba3d1c0b7">popcount_generic16</a> (uint16_t x)</td></tr>
+<tr class="memdesc:gaf1cee3526742e5893696078ba3d1c0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">popcount (count one bits) - generic SWAR implementation  <a href="#gaf1cee3526742e5893696078ba3d1c0b7">More...</a><br/></td></tr>
+<tr class="separator:gaf1cee3526742e5893696078ba3d1c0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76093e52ae7ebbc456337cecf6be1f49"><td class="memItemLeft" align="right" valign="top">static unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga76093e52ae7ebbc456337cecf6be1f49">popcount_generic32</a> (uint32_t x)</td></tr>
+<tr class="memdesc:ga76093e52ae7ebbc456337cecf6be1f49"><td class="mdescLeft">&#160;</td><td class="mdescRight">popcount (count one bits) - generic SWAR implementation from <a href="https://stackoverflow.com/questions/109023">https://stackoverflow.com/questions/109023</a>  <a href="#ga76093e52ae7ebbc456337cecf6be1f49">More...</a><br/></td></tr>
+<tr class="separator:ga76093e52ae7ebbc456337cecf6be1f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4c47ec108a261f9665d1d078a82ae620"><td class="memItemLeft" align="right" valign="top">static unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga4c47ec108a261f9665d1d078a82ae620">popcount_generic64</a> (uint64_t x)</td></tr>
+<tr class="memdesc:ga4c47ec108a261f9665d1d078a82ae620"><td class="mdescLeft">&#160;</td><td class="mdescRight">popcount (count one bits) - generic SWAR implementation  <a href="#ga4c47ec108a261f9665d1d078a82ae620">More...</a><br/></td></tr>
+<tr class="separator:ga4c47ec108a261f9665d1d078a82ae620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae864e24c9d78a352064ad8fceb697e55"><td class="memTemplParams" colspan="2">template&lt;typename Integral &gt; </td></tr>
+<tr class="memitem:gae864e24c9d78a352064ad8fceb697e55"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gae864e24c9d78a352064ad8fceb697e55">popcount</a> (Integral i)</td></tr>
+<tr class="memdesc:gae864e24c9d78a352064ad8fceb697e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">popcount (count one bits)  <a href="#gae864e24c9d78a352064ad8fceb697e55">More...</a><br/></td></tr>
+<tr class="separator:gae864e24c9d78a352064ad8fceb697e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6516bdadfc6166cfb0a117d6091fb727"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga6516bdadfc6166cfb0a117d6091fb727">rol32_generic</a> (const uint32_t &amp;x, int i)</td></tr>
 <tr class="memdesc:ga6516bdadfc6166cfb0a117d6091fb727"><td class="mdescLeft">&#160;</td><td class="mdescRight">rol32 - generic implementation  <a href="#ga6516bdadfc6166cfb0a117d6091fb727">More...</a><br/></td></tr>
 <tr class="separator:ga6516bdadfc6166cfb0a117d6091fb727"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1363,6 +1379,146 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="gae864e24c9d78a352064ad8fceb697e55"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned tlx::popcount </td>
+          <td>(</td>
+          <td class="paramtype">Integral&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>popcount (count one bits) </p>
+
+<p>Definition at line <a class="el" href="popcount_8hpp_source.html#l00109">109</a> of file <a class="el" href="popcount_8hpp_source.html">popcount.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaf1cee3526742e5893696078ba3d1c0b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsigned tlx::popcount_generic16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>popcount (count one bits) - generic SWAR implementation </p>
+
+<p>Definition at line <a class="el" href="popcount_8hpp_source.html#l00038">38</a> of file <a class="el" href="popcount_8hpp_source.html">popcount.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga76093e52ae7ebbc456337cecf6be1f49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsigned tlx::popcount_generic32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>popcount (count one bits) - generic SWAR implementation from <a href="https://stackoverflow.com/questions/109023">https://stackoverflow.com/questions/109023</a> </p>
+
+<p>Definition at line <a class="el" href="popcount_8hpp_source.html#l00046">46</a> of file <a class="el" href="popcount_8hpp_source.html">popcount.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga4c47ec108a261f9665d1d078a82ae620"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsigned tlx::popcount_generic64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>popcount (count one bits) - generic SWAR implementation </p>
+
+<p>Definition at line <a class="el" href="popcount_8hpp_source.html#l00053">53</a> of file <a class="el" href="popcount_8hpp_source.html">popcount.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gab1c7963cb46a3730ad9813333a414348"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsigned tlx::popcount_generic8 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>popcount (count one bits) - generic SWAR implementation </p>
+
+<p>Definition at line <a class="el" href="popcount_8hpp_source.html#l00031">31</a> of file <a class="el" href="popcount_8hpp_source.html">popcount.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="gac7415c322c6257a35cfe0d6929c45407"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1912,7 +2068,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Oct 5 2018 12:55:56 for tlx by
+    <li class="footer">Generated on Tue Oct 9 2018 15:02:14 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
