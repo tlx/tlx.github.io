@@ -261,7 +261,7 @@ $(document).ready(function(){initNavTree('parallel__multiway__merge_8hpp_source.
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        multiway_merge_base&lt;Stable, false&gt;(</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            chunks[iam].<a class="code" href="classtlx_1_1SimpleVector.html#a979556eb331ec35eb33472a90a160f99">begin</a>(), chunks[iam].<a class="code" href="classtlx_1_1SimpleVector.html#afc5380afa64b233d0df01a147616974b">end</a>(),</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            target + target_position,</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            std::min(local_size, static_cast&lt;DiffType&gt;(size) - target_position),</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <a class="code" href="namespacetlx_1_1digest__detail.html#ac3302bda529d9a02c073a8fc4fe57030">std::min</a>(local_size, static_cast&lt;DiffType&gt;(size) - target_position),</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            comp, mwma);</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor">#else</span></div>
@@ -281,7 +281,7 @@ $(document).ready(function(){initNavTree('parallel__multiway__merge_8hpp_source.
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                multiway_merge_base&lt;Stable, false&gt;(</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                    chunks[iam].<a class="code" href="classtlx_1_1SimpleVector.html#a979556eb331ec35eb33472a90a160f99">begin</a>(), chunks[iam].<a class="code" href="classtlx_1_1SimpleVector.html#afc5380afa64b233d0df01a147616974b">end</a>(),</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                    target + target_position,</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                    std::min(local_size, static_cast&lt;DiffType&gt;(size) - target_position),</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                    <a class="code" href="namespacetlx_1_1digest__detail.html#ac3302bda529d9a02c073a8fc4fe57030">std::min</a>(local_size, static_cast&lt;DiffType&gt;(size) - target_position),</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                    comp, mwma);</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            });</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
@@ -559,6 +559,7 @@ $(document).ready(function(){initNavTree('parallel__multiway__merge_8hpp_source.
 <div class="ttc" id="classtlx_1_1SimpleVector_html_a0b4fb6c261ed5f5792806334824d8bc8"><div class="ttname"><a href="classtlx_1_1SimpleVector.html#a0b4fb6c261ed5f5792806334824d8bc8">tlx::SimpleVector::data</a></div><div class="ttdeci">iterator data() noexcept</div><div class="ttdoc">return iterator to beginning of vector </div><div class="ttdef"><b>Definition:</b> <a href="container_2simple__vector_8hpp_source.html#l00115">simple_vector.hpp:115</a></div></div>
 <div class="ttc" id="multiway__merge_8hpp_html"><div class="ttname"><a href="multiway__merge_8hpp.html">multiway_merge.hpp</a></div></div>
 <div class="ttc" id="simple__vector_8hpp_html"><div class="ttname"><a href="simple__vector_8hpp.html">simple_vector.hpp</a></div></div>
+<div class="ttc" id="namespacetlx_1_1digest__detail_html_ac3302bda529d9a02c073a8fc4fe57030"><div class="ttname"><a href="namespacetlx_1_1digest__detail.html#ac3302bda529d9a02c073a8fc4fe57030">tlx::digest_detail::min</a></div><div class="ttdeci">static uint32_t min(uint32_t x, uint32_t y)</div><div class="ttdef"><b>Definition:</b> <a href="md5_8cpp_source.html#l00032">md5.cpp:32</a></div></div>
 <div class="ttc" id="classtlx_1_1SimpleVector_html_a979556eb331ec35eb33472a90a160f99"><div class="ttname"><a href="classtlx_1_1SimpleVector.html#a979556eb331ec35eb33472a90a160f99">tlx::SimpleVector::begin</a></div><div class="ttdeci">iterator begin() noexcept</div><div class="ttdoc">return mutable iterator to first element </div><div class="ttdef"><b>Definition:</b> <a href="container_2simple__vector_8hpp_source.html#l00128">simple_vector.hpp:128</a></div></div>
 <div class="ttc" id="group__tlx__algorithm_html_ga8a7342a22bda2a80ef56d779ceae36c0"><div class="ttname"><a href="group__tlx__algorithm.html#ga8a7342a22bda2a80ef56d779ceae36c0">tlx::MultiwayMergeSplittingAlgorithm</a></div><div class="ttdeci">MultiwayMergeSplittingAlgorithm</div><div class="ttdoc">Different splitting strategies for sorting/merging: by sampling, exact. </div><div class="ttdef"><b>Definition:</b> <a href="multiway__merge__splitting_8hpp_source.html#l00035">multiway_merge_splitting.hpp:35</a></div></div>
 <div class="ttc" id="group__tlx__algorithm_html_gaee58bcd5ecf83c8fde2fdfcb4645a91c"><div class="ttname"><a href="group__tlx__algorithm.html#gaee58bcd5ecf83c8fde2fdfcb4645a91c">tlx::parallel_multiway_merge_force_sequential</a></div><div class="ttdeci">bool parallel_multiway_merge_force_sequential</div><div class="ttdoc">setting to force all parallel_multiway_merge() calls to run sequentially </div><div class="ttdef"><b>Definition:</b> <a href="parallel__multiway__merge_8cpp_source.html#l00027">parallel_multiway_merge.cpp:27</a></div></div>
@@ -581,7 +582,7 @@ $(document).ready(function(){initNavTree('parallel__multiway__merge_8hpp_source.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_2da45d5634f3d704f0f0e3154b7e8ec4.html">algorithm</a></li><li class="navelem"><a class="el" href="parallel__multiway__merge_8hpp.html">parallel_multiway_merge.hpp</a></li>
-    <li class="footer">Generated on Thu Oct 11 2018 06:13:50 for tlx by
+    <li class="footer">Generated on Thu Oct 11 2018 21:19:21 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

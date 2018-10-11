@@ -75,7 +75,7 @@ var group__tlx__math =
     [ "popcount_generic16", "group__tlx__math.html#gaf1cee3526742e5893696078ba3d1c0b7", null ],
     [ "popcount_generic32", "group__tlx__math.html#ga76093e52ae7ebbc456337cecf6be1f49", null ],
     [ "popcount_generic64", "group__tlx__math.html#ga4c47ec108a261f9665d1d078a82ae620", null ],
-    [ "popcount_generic8", "group__tlx__math.html#gab1c7963cb46a3730ad9813333a414348", null ],
+    [ "popcount_generic8", "group__tlx__math.html#gafe8cb953b2abbc624cfb1b3736a8e8ae", null ],
     [ "rol32", "group__tlx__math.html#gac7415c322c6257a35cfe0d6929c45407", null ],
     [ "rol32_generic", "group__tlx__math.html#ga6516bdadfc6166cfb0a117d6091fb727", null ],
     [ "rol64", "group__tlx__math.html#gae43c4e90fb93555810dc0a04364a6796", null ],

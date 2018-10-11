@@ -344,7 +344,7 @@ $(document).ready(function(){initNavTree('multisequence__partition_8hpp_source.h
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            diff_type middle = (b[i] + a[i]) / 2;</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keywordflow">if</span> (lmax &amp;&amp; middle &lt; seqlen[i] &amp;&amp;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                comp(begin_seqs[i].first[middle], *lmax))</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                a[i] = std::min(a[i] + n + 1, seqlen[i]);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                a[i] = <a class="code" href="namespacetlx_1_1digest__detail.html#ac3302bda529d9a02c073a8fc4fe57030">std::min</a>(a[i] + n + 1, seqlen[i]);</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                b[i] -= n + 1;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        }</div>
@@ -373,7 +373,7 @@ $(document).ready(function(){initNavTree('multisequence__partition_8hpp_source.h
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                diff_type src = pq.top().second;</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                pq.pop();</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                a[src] = std::min(a[src] + n + 1, seqlen[src]);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                a[src] = <a class="code" href="namespacetlx_1_1digest__detail.html#ac3302bda529d9a02c073a8fc4fe57030">std::min</a>(a[src] + n + 1, seqlen[src]);</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                b[src] += n + 1;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                <span class="keywordflow">if</span> (b[src] &lt; seqlen[src])</div>
@@ -463,6 +463,7 @@ $(document).ready(function(){initNavTree('multisequence__partition_8hpp_source.h
 <div class="ttc" id="classtlx_1_1SimpleVector_html"><div class="ttname"><a href="classtlx_1_1SimpleVector.html">tlx::SimpleVector</a></div><div class="ttdoc">Simpler non-growing vector without initialization. </div><div class="ttdef"><b>Definition:</b> <a href="container_2simple__vector_8hpp_source.html#l00050">simple_vector.hpp:50</a></div></div>
 <div class="ttc" id="group__tlx__algorithm_html_ga54b64d7db3fbcd0e966d8e4105f52626"><div class="ttname"><a href="group__tlx__algorithm.html#ga54b64d7db3fbcd0e966d8e4105f52626">tlx::multisequence_partition</a></div><div class="ttdeci">void multisequence_partition(const RanSeqs &amp;begin_seqs, const RanSeqs &amp;end_seqs, const RankType &amp;rank, RankIterator begin_offsets, Comparator comp=Comparator())</div><div class="ttdoc">Splits several sorted sequences at a certain global rank, resulting in a splitting point for each seq...</div><div class="ttdef"><b>Definition:</b> <a href="multisequence__partition_8hpp_source.html#l00109">multisequence_partition.hpp:109</a></div></div>
 <div class="ttc" id="classtlx_1_1multisequence__partition__detail_1_1lexicographic_html_ab4028a425b0a8492ccf06b1a968570ef"><div class="ttname"><a href="classtlx_1_1multisequence__partition__detail_1_1lexicographic.html#ab4028a425b0a8492ccf06b1a968570ef">tlx::multisequence_partition_detail::lexicographic::operator()</a></div><div class="ttdeci">bool operator()(const std::pair&lt; T1, T2 &gt; &amp;p1, const std::pair&lt; T1, T2 &gt; &amp;p2)</div><div class="ttdef"><b>Definition:</b> <a href="multisequence__partition_8hpp_source.html#l00049">multisequence_partition.hpp:49</a></div></div>
+<div class="ttc" id="namespacetlx_1_1digest__detail_html_ac3302bda529d9a02c073a8fc4fe57030"><div class="ttname"><a href="namespacetlx_1_1digest__detail.html#ac3302bda529d9a02c073a8fc4fe57030">tlx::digest_detail::min</a></div><div class="ttdeci">static uint32_t min(uint32_t x, uint32_t y)</div><div class="ttdef"><b>Definition:</b> <a href="md5_8cpp_source.html#l00032">md5.cpp:32</a></div></div>
 <div class="ttc" id="classtlx_1_1multisequence__partition__detail_1_1lexicographic_html_a740e9aba6d9fafa1a118cf758d2f31d2"><div class="ttname"><a href="classtlx_1_1multisequence__partition__detail_1_1lexicographic.html#a740e9aba6d9fafa1a118cf758d2f31d2">tlx::multisequence_partition_detail::lexicographic::comp_</a></div><div class="ttdeci">Comparator &amp; comp_</div><div class="ttdef"><b>Definition:</b> <a href="multisequence__partition_8hpp_source.html#l00044">multisequence_partition.hpp:44</a></div></div>
 <div class="ttc" id="classtlx_1_1multisequence__partition__detail_1_1lexicographic_html"><div class="ttname"><a href="classtlx_1_1multisequence__partition__detail_1_1lexicographic.html">tlx::multisequence_partition_detail::lexicographic</a></div><div class="ttdoc">Compare a pair of types lexicographically, ascending. </div><div class="ttdef"><b>Definition:</b> <a href="multisequence__partition_8hpp_source.html#l00040">multisequence_partition.hpp:40</a></div></div>
 <div class="ttc" id="classtlx_1_1multisequence__partition__detail_1_1lexicographic__rev_html_a740e9aba6d9fafa1a118cf758d2f31d2"><div class="ttname"><a href="classtlx_1_1multisequence__partition__detail_1_1lexicographic__rev.html#a740e9aba6d9fafa1a118cf758d2f31d2">tlx::multisequence_partition_detail::lexicographic_rev::comp_</a></div><div class="ttdeci">Comparator &amp; comp_</div><div class="ttdef"><b>Definition:</b> <a href="multisequence__partition_8hpp_source.html#l00068">multisequence_partition.hpp:68</a></div></div>
@@ -475,7 +476,7 @@ $(document).ready(function(){initNavTree('multisequence__partition_8hpp_source.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_2da45d5634f3d704f0f0e3154b7e8ec4.html">algorithm</a></li><li class="navelem"><a class="el" href="multisequence__partition_8hpp.html">multisequence_partition.hpp</a></li>
-    <li class="footer">Generated on Thu Oct 11 2018 06:13:50 for tlx by
+    <li class="footer">Generated on Thu Oct 11 2018 21:19:21 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

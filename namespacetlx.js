@@ -1,5 +1,6 @@
 var namespacetlx =
 [
+    [ "digest_detail", "namespacetlx_1_1digest__detail.html", null ],
     [ "meta_detail", "namespacetlx_1_1meta__detail.html", "namespacetlx_1_1meta__detail" ],
     [ "multisequence_partition_detail", "namespacetlx_1_1multisequence__partition__detail.html", "namespacetlx_1_1multisequence__partition__detail" ],
     [ "multisequence_selection_detail", "namespacetlx_1_1multisequence__selection__detail.html", "namespacetlx_1_1multisequence__selection__detail" ],

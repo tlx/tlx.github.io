@@ -1,6 +1,9 @@
 var searchData=
 [
+  ['g',['G',['../namespacetlx_1_1digest__detail.html#a087c1f4a3ee5ba600588a68e08224cfd',1,'tlx::digest_detail']]],
   ['g_5finssort_5fthreshold',['g_inssort_threshold',['../namespacetlx_1_1sort__strings__detail.html#a2099458e3664e6692f5878bee6ee23d4',1,'tlx::sort_strings_detail']]],
+  ['gamma0',['Gamma0',['../namespacetlx_1_1digest__detail.html#a54b3fd0ce411e00e1878dad312ebacd7',1,'tlx::digest_detail']]],
+  ['gamma1',['Gamma1',['../namespacetlx_1_1digest__detail.html#a9e9eb8e1bced5f4b5a180fc64ced8911',1,'tlx::digest_detail']]],
   ['genericcharstringset',['GenericCharStringSet',['../classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html',1,'tlx::sort_strings_detail']]],
   ['genericcharstringset',['GenericCharStringSet',['../classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#a5a1735190fa5404e2047fd53b4f8b484',1,'tlx::sort_strings_detail::GenericCharStringSet::GenericCharStringSet(Iterator begin, Iterator end)'],['../classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#a579c5ed5c63c680441d605b5fefe31aa',1,'tlx::sort_strings_detail::GenericCharStringSet::GenericCharStringSet(const Container &amp;c)']]],
   ['genericcharstringsettraits',['GenericCharStringSetTraits',['../classtlx_1_1sort__strings__detail_1_1GenericCharStringSetTraits.html',1,'tlx::sort_strings_detail']]],
@@ -16,6 +19,7 @@ var searchData=
   ['get_5ftouch',['get_touch',['../classtlx_1_1LruCacheMap.html#a43fb3c51c8d13749ab2218dcf8d8bb55',1,'tlx::LruCacheMap']]],
   ['get_5fuint16',['get_uint16',['../classtlx_1_1sort__strings__detail_1_1StringSetBase.html#a7df1afec6e44ddb3287576e303ea449d',1,'tlx::sort_strings_detail::StringSetBase::get_uint16(const typename Traits::String &amp;s, typename Traits::CharIterator i) const '],['../classtlx_1_1sort__strings__detail_1_1StringSetBase.html#a14142b1699e23d1ab07b079c55c16453',1,'tlx::sort_strings_detail::StringSetBase::get_uint16(const typename Traits::String &amp;s, size_t depth) const ']]],
   ['get_5fuint8',['get_uint8',['../classtlx_1_1sort__strings__detail_1_1StringSetBase.html#a26eaacbd19b54e499145b3e13260a6a7',1,'tlx::sort_strings_detail::StringSetBase::get_uint8(const typename Traits::String &amp;s, typename Traits::CharIterator i) const '],['../classtlx_1_1sort__strings__detail_1_1StringSetBase.html#a8de5546acfcc0b4beb6ff865dabaaa11',1,'tlx::sort_strings_detail::StringSetBase::get_uint8(const typename Traits::String &amp;s, size_t depth) const ']]],
-  ['guarded_5fiterator',['guarded_iterator',['../classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html',1,'tlx::multiway_merge_detail']]],
-  ['guarded_5fiterator',['guarded_iterator',['../classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#af7eecfabfad8b2eabcc4240f85bf388e',1,'tlx::multiway_merge_detail::guarded_iterator']]]
+  ['gg',['GG',['../namespacetlx_1_1digest__detail.html#a07bc4dd4f5db8eb7eb522a253f361a80',1,'tlx::digest_detail']]],
+  ['guarded_5fiterator',['guarded_iterator',['../classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#af7eecfabfad8b2eabcc4240f85bf388e',1,'tlx::multiway_merge_detail::guarded_iterator']]],
+  ['guarded_5fiterator',['guarded_iterator',['../classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html',1,'tlx::multiway_merge_detail']]]
 ];

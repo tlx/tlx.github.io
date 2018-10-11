@@ -119,7 +119,6 @@ $(document).ready(function(){initNavTree('sha1_8cpp.html','');});
 <div class="textblock"><code>#include &lt;<a class="el" href="sha1_8hpp_source.html">tlx/digest/sha1.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="rol_8hpp_source.html">tlx/math/rol.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="hexdump_8hpp_source.html">tlx/string/hexdump.hpp</a>&gt;</code><br/>
-<code>#include &lt;algorithm&gt;</code><br/>
 </div>
 <p><a href="sha1_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -127,9 +126,29 @@ $(document).ready(function(){initNavTree('sha1_8cpp.html','');});
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacetlx"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html">tlx</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacetlx_1_1digest__detail"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1digest__detail.html">tlx::digest_detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ac3302bda529d9a02c073a8fc4fe57030"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1digest__detail.html#ac3302bda529d9a02c073a8fc4fe57030">min</a> (uint32_t x, uint32_t y)</td></tr>
+<tr class="separator:ac3302bda529d9a02c073a8fc4fe57030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a529068ca3fd0d804c8a611db9726b169"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1digest__detail.html#a529068ca3fd0d804c8a611db9726b169">store64h</a> (uint64_t x, unsigned char *y)</td></tr>
+<tr class="separator:a529068ca3fd0d804c8a611db9726b169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e12949fc990cbaa73f46dac75c5a6b9"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1digest__detail.html#a5e12949fc990cbaa73f46dac75c5a6b9">load32h</a> (const uint8_t *y)</td></tr>
+<tr class="separator:a5e12949fc990cbaa73f46dac75c5a6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada2bb8251642a411726bd17aa0e49a1e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1digest__detail.html#ada2bb8251642a411726bd17aa0e49a1e">store32h</a> (uint32_t x, uint8_t *y)</td></tr>
+<tr class="separator:ada2bb8251642a411726bd17aa0e49a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17cf4a95cea96b8f6cb169d398a47708"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1digest__detail.html#a17cf4a95cea96b8f6cb169d398a47708">F0</a> (const uint32_t &amp;x, const uint32_t &amp;y, const uint32_t &amp;z)</td></tr>
+<tr class="separator:a17cf4a95cea96b8f6cb169d398a47708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ace23f09d59142cb05b523ef0fab2f"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1digest__detail.html#a65ace23f09d59142cb05b523ef0fab2f">F1</a> (const uint32_t &amp;x, const uint32_t &amp;y, const uint32_t &amp;z)</td></tr>
+<tr class="separator:a65ace23f09d59142cb05b523ef0fab2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5dc496bab06ddd91c4996a6e9d2d86f"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1digest__detail.html#ad5dc496bab06ddd91c4996a6e9d2d86f">F2</a> (const uint32_t &amp;x, const uint32_t &amp;y, const uint32_t &amp;z)</td></tr>
+<tr class="separator:ad5dc496bab06ddd91c4996a6e9d2d86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48256019a70c92df027d3dbff1372d6b"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1digest__detail.html#a48256019a70c92df027d3dbff1372d6b">F3</a> (const uint32_t &amp;x, const uint32_t &amp;y, const uint32_t &amp;z)</td></tr>
+<tr class="separator:a48256019a70c92df027d3dbff1372d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8aff16cd5f6ae9131506e5711cab968"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1digest__detail.html#ad8aff16cd5f6ae9131506e5711cab968">sha1_compress</a> (uint32_t state[4], const uint8_t *buf)</td></tr>
+<tr class="separator:ad8aff16cd5f6ae9131506e5711cab968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3e9766edc39a64fab5be44d202d7d34c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__digest.html#ga3e9766edc39a64fab5be44d202d7d34c">sha1_hex</a> (const void *data, uint32_t size)</td></tr>
 <tr class="memdesc:ga3e9766edc39a64fab5be44d202d7d34c"><td class="mdescLeft">&#160;</td><td class="mdescRight">process data and return 20 byte (160 bit) digest hex encoded  <a href="group__tlx__digest.html#ga3e9766edc39a64fab5be44d202d7d34c">More...</a><br/></td></tr>
 <tr class="separator:ga3e9766edc39a64fab5be44d202d7d34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,7 +168,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_b06e9b4cd340fffe100ae4cc0f0306a1.html">digest</a></li><li class="navelem"><a class="el" href="sha1_8cpp.html">sha1.cpp</a></li>
-    <li class="footer">Generated on Thu Oct 11 2018 06:13:50 for tlx by
+    <li class="footer">Generated on Thu Oct 11 2018 21:19:22 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
