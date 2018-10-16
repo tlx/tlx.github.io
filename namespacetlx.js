@@ -92,5 +92,7 @@ var namespacetlx =
     [ "Semaphore", "classtlx_1_1Semaphore.html", "classtlx_1_1Semaphore" ],
     [ "StackArena", "classtlx_1_1StackArena.html", "classtlx_1_1StackArena" ],
     [ "StackAllocator", "classtlx_1_1StackAllocator.html", "classtlx_1_1StackAllocator" ],
+    [ "LevenshteinStandardParameters", "structtlx_1_1LevenshteinStandardParameters.html", "structtlx_1_1LevenshteinStandardParameters" ],
+    [ "LevenshteinStandardICaseParameters", "structtlx_1_1LevenshteinStandardICaseParameters.html", "structtlx_1_1LevenshteinStandardICaseParameters" ],
     [ "ThreadPool", "classtlx_1_1ThreadPool.html", "classtlx_1_1ThreadPool" ]
 ];

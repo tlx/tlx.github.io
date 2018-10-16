@@ -1,0 +1,3 @@
+/home/travis/build/tlx/tlx/tlx/string/levenshtein.hpp:52: warning: The following parameters of tlx::levenshtein_algorithm(const char *a, size_t a_size, const char *b, size_t b_size) are not documented:
+  parameter 'a_size'
+  parameter 'b_size'

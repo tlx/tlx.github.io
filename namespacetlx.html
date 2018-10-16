@@ -357,6 +357,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StackAllocator.html">StackAllocator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1LevenshteinStandardParameters.html">LevenshteinStandardParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard parameters to levenshtein distance function.  <a href="structtlx_1_1LevenshteinStandardParameters.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1LevenshteinStandardICaseParameters.html">LevenshteinStandardICaseParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard parameters to Levenshtein distance function.  <a href="structtlx_1_1LevenshteinStandardICaseParameters.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtlx_1_1ThreadPool.html" title="ThreadPool starts a fixed number p of std::threads which process Jobs that are enqueued into a concur...">ThreadPool</a> starts a fixed number p of std::threads which process Jobs that are <a class="el" href="classtlx_1_1ThreadPool.html#ac0197b1301f4bec0f2421cfe41e9435a">enqueued</a> into a concurrent job queue.  <a href="classtlx_1_1ThreadPool.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1081,6 +1087,22 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9fb49f152c6bf0d96ec46bfb90a38bfc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga9fb49f152c6bf0d96ec46bfb90a38bfc">less_icase</a> (const std::string &amp;a, const std::string &amp;b)</td></tr>
 <tr class="memdesc:ga9fb49f152c6bf0d96ec46bfb90a38bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if a &lt; b without regard for letter case  <a href="group__tlx__string.html#ga9fb49f152c6bf0d96ec46bfb90a38bfc">More...</a><br/></td></tr>
 <tr class="separator:ga9fb49f152c6bf0d96ec46bfb90a38bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28296225d021e2ff9a1bedfa711b26fa"><td class="memTemplParams" colspan="2">template&lt;typename Param &gt; </td></tr>
+<tr class="memitem:ga28296225d021e2ff9a1bedfa711b26fa"><td class="memTemplItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga28296225d021e2ff9a1bedfa711b26fa">levenshtein_algorithm</a> (const char *a, size_t a_size, const char *b, size_t b_size)</td></tr>
+<tr class="memdesc:ga28296225d021e2ff9a1bedfa711b26fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Levenshtein string distance also called edit distance between two strings.  <a href="group__tlx__string.html#ga28296225d021e2ff9a1bedfa711b26fa">More...</a><br/></td></tr>
+<tr class="separator:ga28296225d021e2ff9a1bedfa711b26fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5097f3a710847ed15aa3cdc2bbbe857c"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga5097f3a710847ed15aa3cdc2bbbe857c">levenshtein</a> (const char *a, const char *b)</td></tr>
+<tr class="memdesc:ga5097f3a710847ed15aa3cdc2bbbe857c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Levenshtein string distance between two strings.  <a href="group__tlx__string.html#ga5097f3a710847ed15aa3cdc2bbbe857c">More...</a><br/></td></tr>
+<tr class="separator:ga5097f3a710847ed15aa3cdc2bbbe857c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01fc1d66b4a6f822509d793576b2cce2"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga01fc1d66b4a6f822509d793576b2cce2">levenshtein_icase</a> (const char *a, const char *b)</td></tr>
+<tr class="memdesc:ga01fc1d66b4a6f822509d793576b2cce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Levenshtein string distance between two strings.  <a href="group__tlx__string.html#ga01fc1d66b4a6f822509d793576b2cce2">More...</a><br/></td></tr>
+<tr class="separator:ga01fc1d66b4a6f822509d793576b2cce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga643fe1eebc35da109f593cdcf068d3af"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga643fe1eebc35da109f593cdcf068d3af">levenshtein</a> (const std::string &amp;a, const std::string &amp;b)</td></tr>
+<tr class="memdesc:ga643fe1eebc35da109f593cdcf068d3af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Levenshtein string distance between two strings.  <a href="group__tlx__string.html#ga643fe1eebc35da109f593cdcf068d3af">More...</a><br/></td></tr>
+<tr class="separator:ga643fe1eebc35da109f593cdcf068d3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d20af010f11fab72744484ef67e00b6"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga0d20af010f11fab72744484ef67e00b6">levenshtein_icase</a> (const std::string &amp;a, const std::string &amp;b)</td></tr>
+<tr class="memdesc:ga0d20af010f11fab72744484ef67e00b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Levenshtein string distance between two strings.  <a href="group__tlx__string.html#ga0d20af010f11fab72744484ef67e00b6">More...</a><br/></td></tr>
+<tr class="separator:ga0d20af010f11fab72744484ef67e00b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga03240bad0b02669f254c21c28009c21a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga03240bad0b02669f254c21c28009c21a">pad</a> (const std::string &amp;s, size_t len, char pad_char= ' ')</td></tr>
 <tr class="memdesc:ga03240bad0b02669f254c21c28009c21a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Truncate or pad string to exactly len characters.  <a href="group__tlx__string.html#ga03240bad0b02669f254c21c28009c21a">More...</a><br/></td></tr>
 <tr class="separator:ga03240bad0b02669f254c21c28009c21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2715,7 +2737,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Tue Oct 16 2018 08:47:33 for tlx by
+    <li class="footer">Generated on Tue Oct 16 2018 11:59:20 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
