@@ -16,7 +16,7 @@ var searchData=
   ['pop',['pop',['../classtlx_1_1LruCacheSet.html#a874f1a7960b79201a69e5700e9b3f66c',1,'tlx::LruCacheSet::pop()'],['../classtlx_1_1LruCacheMap.html#aa6ff226577e0c641c859c6bdc12804c9',1,'tlx::LruCacheMap::pop()'],['../classtlx_1_1RadixHeap.html#a312e7f6c761a199c1369fbe651e084f0',1,'tlx::RadixHeap::pop()']]],
   ['pop_5fback',['pop_back',['../classtlx_1_1RingBuffer.html#a058bda4957df6a97b1ea6c9fd783f672',1,'tlx::RingBuffer']]],
   ['pop_5ffront',['pop_front',['../classtlx_1_1RingBuffer.html#a56f4ffbc6fd414b3c02a6c368e99594f',1,'tlx::RingBuffer']]],
-  ['popcount',['popcount',['../group__tlx__math.html#gae864e24c9d78a352064ad8fceb697e55',1,'tlx']]],
+  ['popcount',['popcount',['../group__tlx__math.html#gae864e24c9d78a352064ad8fceb697e55',1,'tlx::popcount(Integral i)'],['../group__tlx__math.html#ga1f1dd6478dce161c5fc74587b650f3ac',1,'tlx::popcount(const void *data, size_t size)']]],
   ['popcount_5fgeneric16',['popcount_generic16',['../group__tlx__math.html#gaf1cee3526742e5893696078ba3d1c0b7',1,'tlx']]],
   ['popcount_5fgeneric32',['popcount_generic32',['../group__tlx__math.html#ga76093e52ae7ebbc456337cecf6be1f49',1,'tlx']]],
   ['popcount_5fgeneric64',['popcount_generic64',['../group__tlx__math.html#ga4c47ec108a261f9665d1d078a82ae620',1,'tlx']]],

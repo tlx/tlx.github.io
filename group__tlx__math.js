@@ -72,6 +72,7 @@ var group__tlx__math =
     [ "is_power_of_two", "group__tlx__math.html#ga384054d31c4252ebb7acebc7d5829680", null ],
     [ "is_power_of_two_template", "group__tlx__math.html#ga6bd0c156caa682f81c584b29f1d62104", null ],
     [ "popcount", "group__tlx__math.html#gae864e24c9d78a352064ad8fceb697e55", null ],
+    [ "popcount", "group__tlx__math.html#ga1f1dd6478dce161c5fc74587b650f3ac", null ],
     [ "popcount_generic16", "group__tlx__math.html#gaf1cee3526742e5893696078ba3d1c0b7", null ],
     [ "popcount_generic32", "group__tlx__math.html#ga76093e52ae7ebbc456337cecf6be1f49", null ],
     [ "popcount_generic64", "group__tlx__math.html#ga4c47ec108a261f9665d1d078a82ae620", null ],
