@@ -1,5 +1,17 @@
 var NAVTREEINDEX9 =
 {
+"group__tlx__string.html#ga125efbe989d08402389613766af825b5":[1,0,8,115],
+"group__tlx__string.html#ga1480a3758759216e8206fc9bbb58c0da":[1,0,8,137],
+"group__tlx__string.html#ga14cfa75fa579e1d4943855455d9e605d":[1,0,8,87],
+"group__tlx__string.html#ga15b290439811d07e8fc0a6134c4faa0b":[1,0,8,53],
+"group__tlx__string.html#ga15c83e3e2055412b0440758c98b3f148":[1,0,8,44],
+"group__tlx__string.html#ga16a12f591febaeddffd2ffca031c8bf4":[1,0,8,5],
+"group__tlx__string.html#ga177a8fd78d5cc4e0fd8dc50810967d89":[1,0,8,106],
+"group__tlx__string.html#ga17fd4a3698ca54702b30dddc232bf903":[1,0,8,105],
+"group__tlx__string.html#ga1af0448079469f224ea8905c34dc1868":[1,0,8,60],
+"group__tlx__string.html#ga1bc881fad43aa1c573d47d459ed2a721":[1,0,8,134],
+"group__tlx__string.html#ga206c170915b483387448714300d311c1":[1,0,8,59],
+"group__tlx__string.html#ga232bc2341b09eea7c6229b7b548f4f8f":[1,0,8,140],
 "group__tlx__string.html#ga25e2629353a36fb47c587b4eef89c0d2":[1,0,8,68],
 "group__tlx__string.html#ga276e1110c0ea48a01ef5a84f8ff40f37":[1,0,8,98],
 "group__tlx__string.html#ga28296225d021e2ff9a1bedfa711b26fa":[1,0,8,72],
@@ -237,17 +249,5 @@ var NAVTREEINDEX9 =
 "less__icase_8hpp.html#ga25e2629353a36fb47c587b4eef89c0d2":[4,0,0,10,34,2],
 "less__icase_8hpp.html#ga3a73759be8d7ec5778cb6192bc32c4c2":[4,0,0,10,34,0],
 "less__icase_8hpp.html#ga9fb49f152c6bf0d96ec46bfb90a38bfc":[4,0,0,10,34,3],
-"less__icase_8hpp_source.html":[4,0,0,10,34],
-"levenshtein_8hpp.html":[4,0,0,10,35],
-"levenshtein_8hpp.html#ga01fc1d66b4a6f822509d793576b2cce2":[4,0,0,10,35,3],
-"levenshtein_8hpp.html#ga0d20af010f11fab72744484ef67e00b6":[4,0,0,10,35,4],
-"levenshtein_8hpp.html#ga28296225d021e2ff9a1bedfa711b26fa":[4,0,0,10,35,2],
-"levenshtein_8hpp.html#ga5097f3a710847ed15aa3cdc2bbbe857c":[4,0,0,10,35,0],
-"levenshtein_8hpp.html#ga643fe1eebc35da109f593cdcf068d3af":[4,0,0,10,35,1],
-"levenshtein_8hpp_source.html":[4,0,0,10,35],
-"likely_8hpp.html":[4,0,0,2,7],
-"likely_8hpp.html#ga106afbc6d1f1fe01b3a4614eebf55113":[4,0,0,2,7,1],
-"likely_8hpp.html#ga2c4b5b038e88004e67c779cf9afcecc7":[4,0,0,2,7,0],
-"likely_8hpp_source.html":[4,0,0,2,7],
-"log2_8hpp.html":[4,0,0,7,19]
+"less__icase_8hpp_source.html":[4,0,0,10,34]
 };
