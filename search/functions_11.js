@@ -12,6 +12,7 @@ var searchData=
   ['set_5fslot',['set_slot',['../structtlx_1_1BTree_1_1LeafNode.html#ad21aa3c1e3f3defa507cbc89cdd7bd37',1,'tlx::BTree::LeafNode']]],
   ['set_5fverbose_5fprocess',['set_verbose_process',['../classtlx_1_1CmdlineParser.html#a4ec636355dd759f3742d5d5e5b49e1b2',1,'tlx::CmdlineParser']]],
   ['setenv',['setenv',['../group__tlx__port.html#ga1c8b16a3abcb4dc450a0a62b42c554dd',1,'tlx']]],
+  ['sgn',['sgn',['../group__tlx__math.html#gae9910d02bd636f05e8abe338e1a40e70',1,'tlx']]],
   ['sh',['Sh',['../namespacetlx_1_1digest__detail.html#a331565d3c73407dc9c075c7a5df72e88',1,'tlx::digest_detail']]],
   ['sha1',['SHA1',['../classtlx_1_1SHA1.html#abb90fd47931fb59b3150bbb063489a58',1,'tlx::SHA1::SHA1()'],['../classtlx_1_1SHA1.html#af8c78dfa1cb73c74060a8357d8649e6c',1,'tlx::SHA1::SHA1(const void *data, uint32_t size)'],['../classtlx_1_1SHA1.html#a70a254f3d0029995efc36989b1c419c9',1,'tlx::SHA1::SHA1(const std::string &amp;str)']]],
   ['sha1_5fcompress',['sha1_compress',['../namespacetlx_1_1digest__detail.html#ad8aff16cd5f6ae9131506e5711cab968',1,'tlx::digest_detail']]],

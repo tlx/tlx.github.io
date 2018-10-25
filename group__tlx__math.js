@@ -97,5 +97,6 @@ var group__tlx__math =
     [ "round_up_to_power_of_two", "group__tlx__math.html#ga444256634f36f74fed26ddb2994fb39b", null ],
     [ "round_up_to_power_of_two", "group__tlx__math.html#gab826ccef9deef2a0b9a88f318de84b3c", null ],
     [ "round_up_to_power_of_two", "group__tlx__math.html#gae376e5cd1611f929c26fd0691c47e00e", null ],
-    [ "round_up_to_power_of_two_template", "group__tlx__math.html#ga165140a3f756701491e3958c9858ea2c", null ]
+    [ "round_up_to_power_of_two_template", "group__tlx__math.html#ga165140a3f756701491e3958c9858ea2c", null ],
+    [ "sgn", "group__tlx__math.html#gae9910d02bd636f05e8abe338e1a40e70", null ]
 ];

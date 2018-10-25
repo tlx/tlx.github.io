@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"less__icase_8hpp_source.html":[4,0,0,10,34],
 "levenshtein_8hpp.html":[4,0,0,10,35],
 "levenshtein_8hpp.html#ga01fc1d66b4a6f822509d793576b2cce2":[4,0,0,10,35,3],
 "levenshtein_8hpp.html#ga0d20af010f11fab72744484ef67e00b6":[4,0,0,10,35,4],
@@ -192,22 +193,22 @@ var NAVTREEINDEX10 =
 "namespaces.html":[2,0],
 "namespacetlx.html":[2,0,0],
 "namespacetlx.html":[3,0,0],
-"namespacetlx_1_1digest__detail.html":[2,0,0,0],
 "namespacetlx_1_1digest__detail.html":[3,0,0,0],
-"namespacetlx_1_1meta__detail.html":[2,0,0,1],
+"namespacetlx_1_1digest__detail.html":[2,0,0,0],
 "namespacetlx_1_1meta__detail.html":[3,0,0,1],
+"namespacetlx_1_1meta__detail.html":[2,0,0,1],
 "namespacetlx_1_1multisequence__partition__detail.html":[2,0,0,2],
 "namespacetlx_1_1multisequence__partition__detail.html":[3,0,0,2],
 "namespacetlx_1_1multisequence__selection__detail.html":[2,0,0,3],
 "namespacetlx_1_1multisequence__selection__detail.html":[3,0,0,3],
 "namespacetlx_1_1multiway__merge__detail.html":[3,0,0,4],
 "namespacetlx_1_1multiway__merge__detail.html":[2,0,0,4],
-"namespacetlx_1_1parallel__mergesort__detail.html":[3,0,0,5],
 "namespacetlx_1_1parallel__mergesort__detail.html":[2,0,0,5],
-"namespacetlx_1_1radix__heap__detail.html":[3,0,0,6],
+"namespacetlx_1_1parallel__mergesort__detail.html":[3,0,0,5],
 "namespacetlx_1_1radix__heap__detail.html":[2,0,0,6],
-"namespacetlx_1_1sort__strings__detail.html":[3,0,0,7],
+"namespacetlx_1_1radix__heap__detail.html":[3,0,0,6],
 "namespacetlx_1_1sort__strings__detail.html":[2,0,0,7],
+"namespacetlx_1_1sort__strings__detail.html":[3,0,0,7],
 "pad_8cpp.html":[4,0,0,10,36],
 "pad_8cpp.html#ga03240bad0b02669f254c21c28009c21a":[4,0,0,10,36,0],
 "pad_8cpp_source.html":[4,0,0,10,36],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "popcount_8hpp.html#ga4c47ec108a261f9665d1d078a82ae620":[4,0,0,6,10,4],
 "popcount_8hpp.html#ga76093e52ae7ebbc456337cecf6be1f49":[4,0,0,6,10,3],
 "popcount_8hpp.html#gae864e24c9d78a352064ad8fceb697e55":[4,0,0,6,10,0],
-"popcount_8hpp.html#gaf1cee3526742e5893696078ba3d1c0b7":[4,0,0,6,10,2],
-"popcount_8hpp.html#gaf3f89a64cdf1d3898582f0df35f5e2a8":[4,0,0,6,10,1]
+"popcount_8hpp.html#gaf1cee3526742e5893696078ba3d1c0b7":[4,0,0,6,10,2]
 };

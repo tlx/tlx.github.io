@@ -13,5 +13,6 @@ var dir_e09772e06e87bbb5d2c69a5ed712ca42 =
     [ "popcount.hpp", "popcount_8hpp.html", "popcount_8hpp" ],
     [ "rol.hpp", "rol_8hpp.html", "rol_8hpp" ],
     [ "ror.hpp", "ror_8hpp.html", "ror_8hpp" ],
-    [ "round_to_power_of_two.hpp", "round__to__power__of__two_8hpp.html", "round__to__power__of__two_8hpp" ]
+    [ "round_to_power_of_two.hpp", "round__to__power__of__two_8hpp.html", "round__to__power__of__two_8hpp" ],
+    [ "sgn.hpp", "sgn_8hpp.html", "sgn_8hpp" ]
 ];
