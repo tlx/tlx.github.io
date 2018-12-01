@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"strings1_8cpp.html#ga2f9c811e016ff972020f490ab2b7ad7b":[4,0,0,9,3,0],
+"strings1_8cpp.html#ga5e27e85e342d322e21b48a962d4484af":[4,0,0,9,3,3],
 "strings1_8cpp.html#gad0cad1fd209ebefc856435f723fdd5d6":[4,0,0,9,3,2],
 "strings1_8cpp_source.html":[4,0,0,9,3],
 "strings2_8cpp.html":[4,0,0,9,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "thread__pool_8cpp_source.html":[4,0,0,33],
 "thread__pool_8hpp.html":[4,0,0,34],
 "thread__pool_8hpp_source.html":[4,0,0,34],
-"tlx_counting_ptr.html":[0,0],
-"tlx_die.html":[0,1],
-"to__lower_8cpp.html":[4,0,0,10,50]
+"tlx_counting_ptr.html":[0,0]
 };

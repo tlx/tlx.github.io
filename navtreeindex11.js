@@ -171,8 +171,10 @@ var NAVTREEINDEX11 =
 "simple__vector_8hpp.html":[4,0,0,28],
 "simple__vector_8hpp_source.html":[4,0,0,28],
 "siphash_8hpp.html":[4,0,0,29],
-"siphash_8hpp.html#a1dbb7e10c5e866474d0a516ba06388f8":[4,0,0,29,4],
-"siphash_8hpp.html#a36e52665aa49af074f344396ad6264f8":[4,0,0,29,3],
+"siphash_8hpp.html#a1dbb7e10c5e866474d0a516ba06388f8":[4,0,0,29,6],
+"siphash_8hpp.html#a36e52665aa49af074f344396ad6264f8":[4,0,0,29,5],
+"siphash_8hpp.html#a8194cb6726acefe4fd4f7993c1b1fdfd":[4,0,0,29,4],
+"siphash_8hpp.html#a9a3b1c56cc81840ced52f695ee4bcfdd":[4,0,0,29,3],
 "siphash_8hpp.html#ab5b74a8ec4e849ee19578715c65836ab":[4,0,0,29,2],
 "siphash_8hpp.html#ac377d7abe96391a306d74f49c1f92ab0":[4,0,0,29,1],
 "siphash_8hpp.html#acdaafa9d242d6164e81b60fa64617feb":[4,0,0,29,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "string__set_8hpp.html#aeca5156de1a7513cc3ae5b19d5aa2d5f":[4,0,0,9,0,3,13],
 "string__set_8hpp_source.html":[4,0,0,9,0,3],
 "strings1_8cpp.html":[4,0,0,9,3],
-"strings1_8cpp.html#a86d82e3fff385bc36fb750cd3137b888":[4,0,0,9,3,1],
-"strings1_8cpp.html#ga2f9c811e016ff972020f490ab2b7ad7b":[4,0,0,9,3,0],
-"strings1_8cpp.html#ga5e27e85e342d322e21b48a962d4484af":[4,0,0,9,3,3]
+"strings1_8cpp.html#a86d82e3fff385bc36fb750cd3137b888":[4,0,0,9,3,1]
 };
