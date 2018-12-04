@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"string__set_8hpp.html#aeca5156de1a7513cc3ae5b19d5aa2d5f":[4,0,0,9,0,3,13],
+"string__set_8hpp_source.html":[4,0,0,9,0,3],
+"strings1_8cpp.html":[4,0,0,9,3],
+"strings1_8cpp.html#a86d82e3fff385bc36fb750cd3137b888":[4,0,0,9,3,1],
 "strings1_8cpp.html#ga2f9c811e016ff972020f490ab2b7ad7b":[4,0,0,9,3,0],
 "strings1_8cpp.html#ga5e27e85e342d322e21b48a962d4484af":[4,0,0,9,3,3],
 "strings1_8cpp.html#gad0cad1fd209ebefc856435f723fdd5d6":[4,0,0,9,3,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#a6067cda4e2f5ad851b9172e11925b777":[3,0,0,7,4,1],
 "structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#aedcae4d8e904e2d63ffe8284dad177ac":[3,0,0,7,4,4],
 "structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#aefca3dee3f1145e3dfb2dc2aa1e0c364":[3,0,0,7,4,3],
-"thread__pool_8cpp.html":[4,0,0,33],
-"thread__pool_8cpp_source.html":[4,0,0,33],
-"thread__pool_8hpp.html":[4,0,0,34],
-"thread__pool_8hpp_source.html":[4,0,0,34],
-"tlx_counting_ptr.html":[0,0]
+"thread__pool_8cpp.html":[4,0,0,33]
 };

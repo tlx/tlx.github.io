@@ -162,6 +162,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a58f7344e93396da43cfd07592e373923"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_2core_8hpp.html#a58f7344e93396da43cfd07592e373923">tlx_die_unequal_eps6</a>(X, Y)</td></tr>
 <tr class="memdesc:a58f7344e93396da43cfd07592e373923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that ABS(X - Y) &lt;= 0.000001 or die miserably, but output the values of X and Y for better debugging.  <a href="#a58f7344e93396da43cfd07592e373923">More...</a><br/></td></tr>
 <tr class="separator:a58f7344e93396da43cfd07592e373923"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d3e703383d8ee82ec46e3b72974b5f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_2core_8hpp.html#a0d3e703383d8ee82ec46e3b72974b5f4">tlx_die_equal</a>(X, Y)</td></tr>
+<tr class="memdesc:a0d3e703383d8ee82ec46e3b72974b5f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Die miserably if X == Y, but first output the values of X and Y for better debugging.  <a href="#a0d3e703383d8ee82ec46e3b72974b5f4">More...</a><br/></td></tr>
+<tr class="separator:a0d3e703383d8ee82ec46e3b72974b5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece8f3f5e64bb5e611fe6c21f0106dd1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_2core_8hpp.html#aece8f3f5e64bb5e611fe6c21f0106dd1">tlx_assert_unequal</a>(X, Y)</td></tr>
+<tr class="memdesc:aece8f3f5e64bb5e611fe6c21f0106dd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Die miserably if X == Y, but first output the values of X and Y for better debugging.  <a href="#aece8f3f5e64bb5e611fe6c21f0106dd1">More...</a><br/></td></tr>
+<tr class="separator:aece8f3f5e64bb5e611fe6c21f0106dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5ae25a771b222c30b34dd93e878bc70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_2core_8hpp.html#ae5ae25a771b222c30b34dd93e878bc70">tlx_die_unless_throws</a>(code, exception_type)</td></tr>
 <tr class="memdesc:ae5ae25a771b222c30b34dd93e878bc70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define to check that [code] throws and exception of given type.  <a href="#ae5ae25a771b222c30b34dd93e878bc70">More...</a><br/></td></tr>
 <tr class="separator:ae5ae25a771b222c30b34dd93e878bc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,6 +240,37 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aece8f3f5e64bb5e611fe6c21f0106dd1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define tlx_assert_unequal</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Die miserably if X == Y, but first output the values of X and Y for better debugging. </p>
+<p>Only active if NDEBUG is not defined. </p>
+
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00180">180</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a9fb1fdf960df264cc216459dbec9eea8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -251,6 +288,36 @@ Functions</h2></td></tr>
 <p>Instead of std::terminate(), throw the output the message via an exception. </p>
 
 <p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00043">43</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0d3e703383d8ee82ec46e3b72974b5f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define tlx_die_equal</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Die miserably if X == Y, but first output the values of X and Y for better debugging. </p>
+
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00166">166</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
 
 </div>
 </div>
@@ -418,7 +485,7 @@ Functions</h2></td></tr>
 
 <p>Define to check that [code] throws and exception of given type. </p>
 
-<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00165">165</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00187">187</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
 
 </div>
 </div>
@@ -448,7 +515,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_9a6008668f7ecf35878ebc6bd2d3ccfa.html">die</a></li><li class="navelem"><a class="el" href="die_2core_8hpp.html">core.hpp</a></li>
-    <li class="footer">Generated on Sat Dec 1 2018 17:54:32 for tlx by
+    <li class="footer">Generated on Tue Dec 4 2018 23:49:46 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

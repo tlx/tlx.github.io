@@ -1,8 +1,10 @@
 var searchData=
 [
   ['tlx_5fassert_5fequal',['tlx_assert_equal',['../die_2core_8hpp.html#aa96e510b8ec83cfbd1e73234561be9ff',1,'core.hpp']]],
+  ['tlx_5fassert_5funequal',['tlx_assert_unequal',['../die_2core_8hpp.html#aece8f3f5e64bb5e611fe6c21f0106dd1',1,'core.hpp']]],
   ['tlx_5fdecision',['TLX_DECISION',['../multiway__merge_8hpp.html#a02b4aab00fbdc785c7fdcaa29fa51a94',1,'multiway_merge.hpp']]],
   ['tlx_5fdie',['tlx_die',['../die_2core_8hpp.html#a9fb1fdf960df264cc216459dbec9eea8',1,'core.hpp']]],
+  ['tlx_5fdie_5fequal',['tlx_die_equal',['../die_2core_8hpp.html#a0d3e703383d8ee82ec46e3b72974b5f4',1,'core.hpp']]],
   ['tlx_5fdie_5fif',['tlx_die_if',['../die_2core_8hpp.html#af4884b374a843ce260431fb12591bf9c',1,'core.hpp']]],
   ['tlx_5fdie_5funequal',['tlx_die_unequal',['../die_2core_8hpp.html#a61bc809e512300fb132a80e2c066b361',1,'core.hpp']]],
   ['tlx_5fdie_5funequal_5feps',['tlx_die_unequal_eps',['../die_2core_8hpp.html#a634b1d594ee64649689c4644fb491641',1,'core.hpp']]],

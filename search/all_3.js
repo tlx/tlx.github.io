@@ -25,6 +25,7 @@ var searchData=
   ['determine_5fsamples',['determine_samples',['../namespacetlx_1_1parallel__mergesort__detail.html#a500637883c17b2e5a7d7865fe1d62765',1,'tlx::parallel_mergesort_detail']]],
   ['die',['die',['../die_8hpp.html#ab6acaec854169756098dfd26138a1a0e',1,'die.hpp']]],
   ['die_2ehpp',['die.hpp',['../die_8hpp.html',1,'']]],
+  ['die_5fequal',['die_equal',['../die_8hpp.html#afec2d02d5fa715cd831e7aabb8734a73',1,'die.hpp']]],
   ['die_5fequal_5fcompare',['die_equal_compare',['../namespacetlx.html#a9f8179e15f255f7283de043a22560c25',1,'tlx::die_equal_compare(TypeA a, TypeB b)'],['../namespacetlx.html#ac37c2fc10d396b6a0038eb2d643d1360',1,'tlx::die_equal_compare(const char *a, const char *b)'],['../namespacetlx.html#a6834365ccbbe0995d597d91cb16ac05c',1,'tlx::die_equal_compare(float a, float b)'],['../namespacetlx.html#ac215c9815621e2ebbc07da9be07a622f',1,'tlx::die_equal_compare(double a, double b)']]],
   ['die_5fequal_5feps_5fcompare',['die_equal_eps_compare',['../namespacetlx.html#acc85623f015ff3ce8bf5a365f14770c4',1,'tlx']]],
   ['die_5fif',['die_if',['../die_8hpp.html#a104ef9af1dda7b166a22fea791aad044',1,'die.hpp']]],
