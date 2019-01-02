@@ -70,10 +70,10 @@ var hierarchy =
     [ "index_sequence< Indexes >", "structtlx_1_1index__sequence.html", null ],
     [ "IntegerRank< Int >", "classtlx_1_1radix__heap__detail_1_1IntegerRank.html", null ],
     [ "BTree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::iterator", "classtlx_1_1BTree_1_1iterator.html", null ],
-    [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", null ],
-    [ "btree_map< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", null ],
-    [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
     [ "btree_set< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", null ],
+    [ "btree_map< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", null ],
+    [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", null ],
+    [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
     [ "LevenshteinStandardICaseParameters", "structtlx_1_1LevenshteinStandardICaseParameters.html", null ],
     [ "LevenshteinStandardParameters", "structtlx_1_1LevenshteinStandardParameters.html", null ],
     [ "Log2< Input >", "classtlx_1_1Log2.html", null ],
@@ -139,6 +139,8 @@ var hierarchy =
     [ "PairKeyExtract< KeyType, DataType >", "structtlx_1_1radix__heap__detail_1_1PairKeyExtract.html", null ],
     [ "PMWMSPiece< DiffType >", "structtlx_1_1parallel__mergesort__detail_1_1PMWMSPiece.html", null ],
     [ "PMWMSSortingData< RandomAccessIterator >", "structtlx_1_1parallel__mergesort__detail_1_1PMWMSSortingData.html", null ],
+    [ "PolynomialRegression< Type, WithStore >::Point", "structtlx_1_1PolynomialRegression_1_1Point.html", null ],
+    [ "PolynomialRegression< Type, WithStore >", "classtlx_1_1PolynomialRegression.html", null ],
     [ "RadixHeap< ValueType, KeyExtract, KeyType, Radix >", "classtlx_1_1RadixHeap.html", null ],
     [ "RadixStep_CE0< StringSet >", "structtlx_1_1sort__strings__detail_1_1RadixStep__CE0.html", null ],
     [ "RadixStep_CE2< StringSet >", "structtlx_1_1sort__strings__detail_1_1RadixStep__CE2.html", null ],
@@ -206,6 +208,9 @@ var hierarchy =
       [ "UPtrStdStringSet", "classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet.html", null ]
     ] ],
     [ "BTree< Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ >::value_compare", "classtlx_1_1BTree_1_1value__compare.html", null ],
+    [ "vector< T >", null, [
+      [ "PolynomialRegression< Type, WithStore >::Coefficients", "structtlx_1_1PolynomialRegression_1_1Coefficients.html", null ]
+    ] ],
     [ "VMapForRangeImpl< Index, Size, Functor >", "classtlx_1_1meta__detail_1_1VMapForRangeImpl.html", null ],
     [ "VMapForRangeImpl< Index, 0, Functor >", "classtlx_1_1meta__detail_1_1VMapForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html", null ]
 ];

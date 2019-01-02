@@ -33,6 +33,7 @@ var searchData=
   ['clz_3c_20unsigned_20long_20long_20_3e',['clz&lt; unsigned long long &gt;',['../group__tlx__math.html#ga5238dcacef0a9e044c65271a676f940a',1,'tlx']]],
   ['clz_5ftemplate',['clz_template',['../group__tlx__math.html#gaf1fdecdbd0923a67672014032e079f16',1,'tlx']]],
   ['cmdlineparser',['CmdlineParser',['../classtlx_1_1CmdlineParser.html#a47961669162c778a7f0125dff5a1c18b',1,'tlx::CmdlineParser']]],
+  ['coefficients',['coefficients',['../classtlx_1_1PolynomialRegression.html#a1814960a3bbbc92dd0ba1271db4cebea',1,'tlx::PolynomialRegression']]],
   ['combine_5fmeans',['combine_means',['../classtlx_1_1Aggregate.html#aa0b1d9fe7eac3259c90932fb1bfb4ceb',1,'tlx::Aggregate']]],
   ['combine_5fvariance',['combine_variance',['../classtlx_1_1Aggregate.html#ab6db8c6d149ef6e83745bb58e1002fdf',1,'tlx::Aggregate']]],
   ['compare_5ficase',['compare_icase',['../group__tlx__string.html#ga7a87b7f6120ebcde0c01ad293465f9d7',1,'tlx::compare_icase(const char *a, const char *b)'],['../group__tlx__string.html#ga061e7b66eb332d7621ef99d11b724c16',1,'tlx::compare_icase(const char *a, const std::string &amp;b)'],['../group__tlx__string.html#gad6b99f43a01b6d2ff8ca49f4518297b9',1,'tlx::compare_icase(const std::string &amp;a, const char *b)'],['../group__tlx__string.html#ga988bb20efc727413da0a9d9d11f488b0',1,'tlx::compare_icase(const std::string &amp;a, const std::string &amp;b)']]],

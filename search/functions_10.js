@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['r_5fsquare',['r_square',['../classtlx_1_1PolynomialRegression.html#ac2a661741b6400b8024d0906869b5e43',1,'tlx::PolynomialRegression']]],
   ['radixheap',['RadixHeap',['../classtlx_1_1RadixHeap.html#a3b97ceac3d2af176a257be360eee790f',1,'tlx::RadixHeap::RadixHeap(KeyExtract key_extract=KeyExtract{})'],['../classtlx_1_1RadixHeap.html#a06b2f468caa7d911c53e830c0d48ffcc',1,'tlx::RadixHeap::RadixHeap(const RadixHeap &amp;)=default'],['../classtlx_1_1RadixHeap.html#a0c44d799e00ab0613b39e0a5c8cddf77',1,'tlx::RadixHeap::RadixHeap(RadixHeap &amp;&amp;)=default']]],
   ['radixsort_5fce0',['radixsort_CE0',['../namespacetlx_1_1sort__strings__detail.html#a073826f9b74ef44190becdf8023e9adc',1,'tlx::sort_strings_detail']]],
   ['radixsort_5fce2',['radixsort_CE2',['../namespacetlx_1_1sort__strings__detail.html#a7d800aa38b2011b215f69e047d62951c',1,'tlx::sort_strings_detail::radixsort_CE2(const StringShadowPtr&lt; StringSet &gt; &amp;strptr, uint8_t *charcache, size_t depth, size_t memory)'],['../namespacetlx_1_1sort__strings__detail.html#a0bfa07d9c3dbf5bcf4daaf35a8126de4',1,'tlx::sort_strings_detail::radixsort_CE2(const StringSet &amp;ss, size_t depth, size_t memory)']]],

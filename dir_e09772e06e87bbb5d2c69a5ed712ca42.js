@@ -10,6 +10,10 @@ var dir_e09772e06e87bbb5d2c69a5ed712ca42 =
     [ "ffs.hpp", "ffs_8hpp.html", "ffs_8hpp" ],
     [ "integer_log2.hpp", "integer__log2_8hpp.html", "integer__log2_8hpp" ],
     [ "is_power_of_two.hpp", "is__power__of__two_8hpp.html", "is__power__of__two_8hpp" ],
+    [ "polynomial_regression.hpp", "polynomial__regression_8hpp.html", [
+      [ "Point", "structtlx_1_1PolynomialRegression_1_1Point.html", "structtlx_1_1PolynomialRegression_1_1Point" ],
+      [ "Coefficients", "structtlx_1_1PolynomialRegression_1_1Coefficients.html", "structtlx_1_1PolynomialRegression_1_1Coefficients" ]
+    ] ],
     [ "popcount.hpp", "popcount_8hpp.html", "popcount_8hpp" ],
     [ "rol.hpp", "rol_8hpp.html", "rol_8hpp" ],
     [ "ror.hpp", "ror_8hpp.html", "ror_8hpp" ],
