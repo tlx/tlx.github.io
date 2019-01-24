@@ -307,6 +307,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1PolynomialRegression.html">PolynomialRegression</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the regression polynomial \( a_0+a_1x^1+a_2x^2+\cdots+a_nx^n \) from a list of 2D points.  <a href="classtlx_1_1PolynomialRegression.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1enable__if.html">enable_if</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">SFINAE <a class="el" href="structtlx_1_1enable__if.html" title="SFINAE enable_if – copy of std::enable_if&lt;&gt; with less extra cruft. ">enable_if</a> &ndash; copy of std::enable_if&lt;&gt; with less extra cruft.  <a href="structtlx_1_1enable__if.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1enable__if_3_01true_00_01T_01_4.html">enable_if&lt; true, T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1FunctionChain.html">FunctionChain</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classtlx_1_1FunctionChain.html" title="A FunctionChain is a chain of functors that can be folded to a single functors. ">FunctionChain</a> is a chain of functors that can be folded to a single functors.  <a href="classtlx_1_1FunctionChain.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -959,8 +964,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a36e52665aa49af074f344396ad6264f8"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
 <tr class="memitem:a36e52665aa49af074f344396ad6264f8"><td class="memTemplItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a36e52665aa49af074f344396ad6264f8">siphash</a> (const Type &amp;value)</td></tr>
 <tr class="separator:a36e52665aa49af074f344396ad6264f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86d82e3fff385bc36fb750cd3137b888"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a86d82e3fff385bc36fb750cd3137b888">sort_strings</a> (std::vector&lt; unsigned char * &gt; &amp;strings, size_t memory)</td></tr>
-<tr class="separator:a86d82e3fff385bc36fb750cd3137b888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7a87b7f6120ebcde0c01ad293465f9d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga7a87b7f6120ebcde0c01ad293465f9d7">compare_icase</a> (const char *a, const char *b)</td></tr>
 <tr class="memdesc:ga7a87b7f6120ebcde0c01ad293465f9d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns +1/0/-1 like strcmp(a, b) but without regard for letter case  <a href="group__tlx__string.html#ga7a87b7f6120ebcde0c01ad293465f9d7">More...</a><br/></td></tr>
 <tr class="separator:ga7a87b7f6120ebcde0c01ad293465f9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1226,6 +1229,40 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2af32dfc44b62ddc9a10dac4abe29c66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga2af32dfc44b62ddc9a10dac4abe29c66">sort_strings</a> (std::vector&lt; std::string &gt; &amp;strings, size_t memory=0)</td></tr>
 <tr class="memdesc:ga2af32dfc44b62ddc9a10dac4abe29c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a vector of std::strings in place.  <a href="group__tlx__sort.html#ga2af32dfc44b62ddc9a10dac4abe29c66">More...</a><br/></td></tr>
 <tr class="separator:ga2af32dfc44b62ddc9a10dac4abe29c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga475cc3e8449b0f30ee656148feddf8c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga475cc3e8449b0f30ee656148feddf8c9">sort_strings_lcp</a> (char **strings, size_t size, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga475cc3e8449b0f30ee656148feddf8c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings represented by C-style char* in place.  <a href="group__tlx__sort.html#ga475cc3e8449b0f30ee656148feddf8c9">More...</a><br/></td></tr>
+<tr class="separator:ga475cc3e8449b0f30ee656148feddf8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga99842946adf7e21c1fd51cc938fecbc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga99842946adf7e21c1fd51cc938fecbc3">sort_strings_lcp</a> (unsigned char **strings, size_t size, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga99842946adf7e21c1fd51cc938fecbc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#ga99842946adf7e21c1fd51cc938fecbc3">More...</a><br/></td></tr>
+<tr class="separator:ga99842946adf7e21c1fd51cc938fecbc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaffdcbccb20de7e4e7b69bff034065cc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gaffdcbccb20de7e4e7b69bff034065cc2">sort_strings_lcp</a> (const char **strings, size_t size, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:gaffdcbccb20de7e4e7b69bff034065cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings represented by C-style char* in place.  <a href="group__tlx__sort.html#gaffdcbccb20de7e4e7b69bff034065cc2">More...</a><br/></td></tr>
+<tr class="separator:gaffdcbccb20de7e4e7b69bff034065cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac595890fdc52be9aaf2540321bb50668"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gac595890fdc52be9aaf2540321bb50668">sort_strings_lcp</a> (const unsigned char **strings, size_t size, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:gac595890fdc52be9aaf2540321bb50668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#gac595890fdc52be9aaf2540321bb50668">More...</a><br/></td></tr>
+<tr class="separator:gac595890fdc52be9aaf2540321bb50668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8b3b43b69f05506d1c3d180d8281cb10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga8b3b43b69f05506d1c3d180d8281cb10">sort_strings_lcp</a> (std::vector&lt; char * &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga8b3b43b69f05506d1c3d180d8281cb10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings represented by C-style char* in place.  <a href="group__tlx__sort.html#ga8b3b43b69f05506d1c3d180d8281cb10">More...</a><br/></td></tr>
+<tr class="separator:ga8b3b43b69f05506d1c3d180d8281cb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad559511e497418efb6a704140f091aea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gad559511e497418efb6a704140f091aea">sort_strings_lcp</a> (std::vector&lt; unsigned char &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:gad559511e497418efb6a704140f091aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#gad559511e497418efb6a704140f091aea">More...</a><br/></td></tr>
+<tr class="separator:gad559511e497418efb6a704140f091aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42d7d3161139e657439126956c776c71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga42d7d3161139e657439126956c776c71">sort_strings_lcp</a> (std::vector&lt; const char * &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga42d7d3161139e657439126956c776c71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings represented by C-style char* in place.  <a href="group__tlx__sort.html#ga42d7d3161139e657439126956c776c71">More...</a><br/></td></tr>
+<tr class="separator:ga42d7d3161139e657439126956c776c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafec08ecf2ea8b772dbc1b3c82bd04ba1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gafec08ecf2ea8b772dbc1b3c82bd04ba1">sort_strings_lcp</a> (std::vector&lt; const unsigned char * &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:gafec08ecf2ea8b772dbc1b3c82bd04ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#gafec08ecf2ea8b772dbc1b3c82bd04ba1">More...</a><br/></td></tr>
+<tr class="separator:gafec08ecf2ea8b772dbc1b3c82bd04ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36b42181b3bfe6e29e3cad422f52ad6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga36b42181b3bfe6e29e3cad422f52ad6d">sort_strings_lcp</a> (std::string *strings, size_t size, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga36b42181b3bfe6e29e3cad422f52ad6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of std::strings in place.  <a href="group__tlx__sort.html#ga36b42181b3bfe6e29e3cad422f52ad6d">More...</a><br/></td></tr>
+<tr class="separator:ga36b42181b3bfe6e29e3cad422f52ad6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a6a09b2cd5f98d2fe6392b208841555"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga8a6a09b2cd5f98d2fe6392b208841555">sort_strings_lcp</a> (std::vector&lt; std::string &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga8a6a09b2cd5f98d2fe6392b208841555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a vector of std::strings in place.  <a href="group__tlx__sort.html#ga8a6a09b2cd5f98d2fe6392b208841555">More...</a><br/></td></tr>
+<tr class="separator:ga8a6a09b2cd5f98d2fe6392b208841555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga86d82e3fff385bc36fb750cd3137b888"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga86d82e3fff385bc36fb750cd3137b888">sort_strings</a> (std::vector&lt; unsigned char * &gt; &amp;strings, size_t memory)</td></tr>
+<tr class="separator:ga86d82e3fff385bc36fb750cd3137b888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf31d25759e12cd616bb631a7e2c9c83b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gaf31d25759e12cd616bb631a7e2c9c83b">sort_strings_lcp</a> (std::vector&lt; unsigned char * &gt; &amp;strings, uint32_t *lcp, size_t memory)</td></tr>
+<tr class="separator:gaf31d25759e12cd616bb631a7e2c9c83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Base64 Encoding and Decoding</div></td></tr>
 <tr class="memitem:ga691477f59c8496eec65e994ce3f6e6e5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga691477f59c8496eec65e994ce3f6e6e5">base64_encode</a> (const void *data, size_t size, size_t line_break=0)</td></tr>
 <tr class="memdesc:ga691477f59c8496eec65e994ce3f6e6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode the given binary data into base64 representation as described in RFC 2045 or RFC 3548.  <a href="group__tlx__string.html#ga691477f59c8496eec65e994ce3f6e6e5">More...</a><br/></td></tr>
@@ -2571,34 +2608,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a86d82e3fff385bc36fb750cd3137b888"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void tlx::sort_strings </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; unsigned char * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>strings</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>memory</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="strings1_8cpp_source.html#l00034">34</a> of file <a class="el" href="strings1_8cpp_source.html">strings1.cpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="ae88597e53210df27ef4d5db668a02fa7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2810,7 +2819,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Wed Jan 16 2019 17:57:32 for tlx by
+    <li class="footer">Generated on Thu Jan 24 2019 13:35:46 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

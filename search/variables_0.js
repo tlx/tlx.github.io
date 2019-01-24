@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['active_5f',['active_',['../classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#ab9a515a3917cb14bebdab27b2a5405eb',1,'tlx::sort_strings_detail::StringShadowPtr']]],
+  ['active_5f',['active_',['../classtlx_1_1sort__strings__detail_1_1StringPtr.html#ab9a515a3917cb14bebdab27b2a5405eb',1,'tlx::sort_strings_detail::StringPtr::active_()'],['../classtlx_1_1sort__strings__detail_1_1StringLcpPtr.html#ab9a515a3917cb14bebdab27b2a5405eb',1,'tlx::sort_strings_detail::StringLcpPtr::active_()'],['../classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#ab9a515a3917cb14bebdab27b2a5405eb',1,'tlx::sort_strings_detail::StringShadowPtr::active_()'],['../classtlx_1_1sort__strings__detail_1_1StringShadowLcpPtr.html#ab9a515a3917cb14bebdab27b2a5405eb',1,'tlx::sort_strings_detail::StringShadowLcpPtr::active_()']]],
   ['alignment',['alignment',['../classtlx_1_1StackArena.html#ac15e6b5f88a94c672b70f8a914798517',1,'tlx::StackArena']]],
   ['alloc_5f',['alloc_',['../classtlx_1_1RingBuffer.html#af8ef2a35aadec4f191c273973f1304a6',1,'tlx::RingBuffer']]],
   ['allocator_5f',['allocator_',['../classtlx_1_1BTree.html#a8746da7b8170695c17d760f1a43bd4fe',1,'tlx::BTree']]],

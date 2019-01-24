@@ -85,7 +85,7 @@ var searchData=
   ['contains_5fword',['contains_word',['../group__tlx__string.html#ga2fd07edea7502e13dbc9d2991be95f02',1,'tlx::contains_word(const std::string &amp;str, const char *word)'],['../group__tlx__string.html#ga7f7b2444597941650e05c1bb96b04f45',1,'tlx::contains_word(const std::string &amp;str, const std::string &amp;word)']]],
   ['contains_5fword_2ecpp',['contains_word.cpp',['../contains__word_8cpp.html',1,'']]],
   ['contains_5fword_2ehpp',['contains_word.hpp',['../contains__word_8hpp.html',1,'']]],
-  ['copy_5fback',['copy_back',['../classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#a6937215ecbcb5c8b6fa2a029355bca23',1,'tlx::sort_strings_detail::StringShadowPtr']]],
+  ['copy_5fback',['copy_back',['../classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#a8927d611d032dbfdab028c09c21c2578',1,'tlx::sort_strings_detail::StringShadowPtr::copy_back()'],['../classtlx_1_1sort__strings__detail_1_1StringShadowLcpPtr.html#aedc5ff8fefedec75d7f9e1251b1df8b0',1,'tlx::sort_strings_detail::StringShadowLcpPtr::copy_back()']]],
   ['copy_5frecursive',['copy_recursive',['../classtlx_1_1BTree.html#a37a9d364cc587fa88fc7e498cbbbd8e9',1,'tlx::BTree']]],
   ['copy_5fto',['copy_to',['../classtlx_1_1RingBuffer.html#a6b5dbb6c480b361acfa89961532423ec',1,'tlx::RingBuffer']]],
   ['core_2ecpp',['core.cpp',['../logger_2core_8cpp.html',1,'']]],

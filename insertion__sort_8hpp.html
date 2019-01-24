@@ -117,7 +117,8 @@ $(document).ready(function(){initNavTree('insertion__sort_8hpp.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="likely_8hpp_source.html">tlx/define/likely.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="string__set_8hpp_source.html">tlx/sort/strings/string_set.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="enable__if_8hpp_source.html">tlx/meta/enable_if.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="string__ptr_8hpp_source.html">tlx/sort/strings/string_ptr.hpp</a>&gt;</code><br/>
 </div>
 <p><a href="insertion__sort_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -130,10 +131,18 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a67e6e553c0da73c40d179757906530a2"><td class="memTemplParams" colspan="2">template&lt;typename StringSet &gt; </td></tr>
-<tr class="memitem:a67e6e553c0da73c40d179757906530a2"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1sort__strings__detail.html#a67e6e553c0da73c40d179757906530a2">insertion_sort</a> (const StringSet &amp;ss, size_t depth, size_t)</td></tr>
-<tr class="memdesc:a67e6e553c0da73c40d179757906530a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic insertion sort for abstract string sets.  <a href="#a67e6e553c0da73c40d179757906530a2">More...</a><br/></td></tr>
-<tr class="separator:a67e6e553c0da73c40d179757906530a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686ae068ee17573dd4567372dced6c9d"><td class="memTemplParams" colspan="2">template&lt;typename StringPtr &gt; </td></tr>
+<tr class="memitem:a686ae068ee17573dd4567372dced6c9d"><td class="memTemplItemLeft" align="right" valign="top">static enable_if<br class="typebreak"/>
+&lt;!StringPtr::with_lcp, void &gt;<br class="typebreak"/>
+::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1sort__strings__detail.html#a686ae068ee17573dd4567372dced6c9d">insertion_sort</a> (const StringPtr &amp;strptr, size_t depth, size_t)</td></tr>
+<tr class="memdesc:a686ae068ee17573dd4567372dced6c9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic insertion sort for abstract string sets.  <a href="#a686ae068ee17573dd4567372dced6c9d">More...</a><br/></td></tr>
+<tr class="separator:a686ae068ee17573dd4567372dced6c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2cc68e6fa0eca74c46df77a443ff103"><td class="memTemplParams" colspan="2">template&lt;typename StringPtr &gt; </td></tr>
+<tr class="memitem:af2cc68e6fa0eca74c46df77a443ff103"><td class="memTemplItemLeft" align="right" valign="top">static enable_if<br class="typebreak"/>
+&lt; StringPtr::with_lcp, void &gt;<br class="typebreak"/>
+::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1sort__strings__detail.html#af2cc68e6fa0eca74c46df77a443ff103">insertion_sort</a> (const StringPtr &amp;strptr, size_t depth, size_t)</td></tr>
+<tr class="memdesc:af2cc68e6fa0eca74c46df77a443ff103"><td class="mdescLeft">&#160;</td><td class="mdescRight">LCP insertion sort for abstract string sets.  <a href="#af2cc68e6fa0eca74c46df77a443ff103">More...</a><br/></td></tr>
+<tr class="separator:af2cc68e6fa0eca74c46df77a443ff103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -141,7 +150,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_82d49b977daa72f9a1145b61404a8efe.html">sort</a></li><li class="navelem"><a class="el" href="dir_35ba5b3a7fe16edb920906cb33c6e7ee.html">strings</a></li><li class="navelem"><a class="el" href="insertion__sort_8hpp.html">insertion_sort.hpp</a></li>
-    <li class="footer">Generated on Wed Jan 16 2019 17:57:32 for tlx by
+    <li class="footer">Generated on Thu Jan 24 2019 13:35:46 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

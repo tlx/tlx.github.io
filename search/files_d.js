@@ -26,9 +26,11 @@ var searchData=
   ['starts_5fwith_2ehpp',['starts_with.hpp',['../starts__with_8hpp.html',1,'']]],
   ['static_5findex_2ehpp',['static_index.hpp',['../static__index_8hpp.html',1,'']]],
   ['string_2ehpp',['string.hpp',['../string_8hpp.html',1,'']]],
+  ['string_5fptr_2ehpp',['string_ptr.hpp',['../string__ptr_8hpp.html',1,'']]],
   ['string_5fset_2ehpp',['string_set.hpp',['../string__set_8hpp.html',1,'']]],
   ['strings_2ehpp',['strings.hpp',['../strings_8hpp.html',1,'']]],
-  ['strings1_2ecpp',['strings1.cpp',['../strings1_8cpp.html',1,'']]],
-  ['strings2_2ecpp',['strings2.cpp',['../strings2_8cpp.html',1,'']]],
-  ['strings3_2ecpp',['strings3.cpp',['../strings3_8cpp.html',1,'']]]
+  ['strings_5fimpl_2ecpp',['strings_impl.cpp',['../strings__impl_8cpp.html',1,'']]],
+  ['strings_5fimpl_2ehpp',['strings_impl.hpp',['../strings__impl_8hpp.html',1,'']]],
+  ['strings_5flcp_5fimpl_2ecpp',['strings_lcp_impl.cpp',['../strings__lcp__impl_8cpp.html',1,'']]],
+  ['strings_5flcp_5fimpl_2ehpp',['strings_lcp_impl.hpp',['../strings__lcp__impl_8hpp.html',1,'']]]
 ];

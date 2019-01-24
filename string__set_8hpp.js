@@ -9,7 +9,6 @@ var string__set_8hpp =
     [ "UPtrStdStringSet", "classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet.html", "classtlx_1_1sort__strings__detail_1_1UPtrStdStringSet" ],
     [ "StringSuffixSetTraits", "classtlx_1_1sort__strings__detail_1_1StringSuffixSetTraits.html", "classtlx_1_1sort__strings__detail_1_1StringSuffixSetTraits" ],
     [ "StringSuffixSet", "classtlx_1_1sort__strings__detail_1_1StringSuffixSet.html", "classtlx_1_1sort__strings__detail_1_1StringSuffixSet" ],
-    [ "StringShadowPtr", "classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html", "classtlx_1_1sort__strings__detail_1_1StringShadowPtr" ],
     [ "CCharStringSet", "string__set_8hpp.html#a846d1081bb4d43b383e8a0897207b4e3", null ],
     [ "CharStringSet", "string__set_8hpp.html#a85c7b63d45582425267fd73c508797ad", null ],
     [ "CUCharStringSet", "string__set_8hpp.html#ac7f3c8e688b9c563bdbad2854e565c39", null ],
