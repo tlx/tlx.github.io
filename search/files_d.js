@@ -28,9 +28,5 @@ var searchData=
   ['string_2ehpp',['string.hpp',['../string_8hpp.html',1,'']]],
   ['string_5fptr_2ehpp',['string_ptr.hpp',['../string__ptr_8hpp.html',1,'']]],
   ['string_5fset_2ehpp',['string_set.hpp',['../string__set_8hpp.html',1,'']]],
-  ['strings_2ehpp',['strings.hpp',['../strings_8hpp.html',1,'']]],
-  ['strings_5fimpl_2ecpp',['strings_impl.cpp',['../strings__impl_8cpp.html',1,'']]],
-  ['strings_5fimpl_2ehpp',['strings_impl.hpp',['../strings__impl_8hpp.html',1,'']]],
-  ['strings_5flcp_5fimpl_2ecpp',['strings_lcp_impl.cpp',['../strings__lcp__impl_8cpp.html',1,'']]],
-  ['strings_5flcp_5fimpl_2ehpp',['strings_lcp_impl.hpp',['../strings__lcp__impl_8hpp.html',1,'']]]
+  ['strings_2ehpp',['strings.hpp',['../strings_8hpp.html',1,'']]]
 ];

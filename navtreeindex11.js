@@ -1,7 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"namespacemembers_func_j.html":[2,1,1,9],
-"namespacemembers_func_l.html":[2,1,1,10],
 "namespacemembers_func_m.html":[2,1,1,11],
 "namespacemembers_func_o.html":[2,1,1,12],
 "namespacemembers_func_p.html":[2,1,1,13],
@@ -38,14 +36,14 @@ var NAVTREEINDEX11 =
 "namespacetlx_1_1meta__detail.html":[2,0,0,1],
 "namespacetlx_1_1multisequence__partition__detail.html":[2,0,0,2],
 "namespacetlx_1_1multisequence__partition__detail.html":[3,0,0,2],
-"namespacetlx_1_1multisequence__selection__detail.html":[2,0,0,3],
 "namespacetlx_1_1multisequence__selection__detail.html":[3,0,0,3],
+"namespacetlx_1_1multisequence__selection__detail.html":[2,0,0,3],
 "namespacetlx_1_1multiway__merge__detail.html":[2,0,0,4],
 "namespacetlx_1_1multiway__merge__detail.html":[3,0,0,4],
-"namespacetlx_1_1parallel__mergesort__detail.html":[2,0,0,5],
 "namespacetlx_1_1parallel__mergesort__detail.html":[3,0,0,5],
-"namespacetlx_1_1radix__heap__detail.html":[2,0,0,6],
+"namespacetlx_1_1parallel__mergesort__detail.html":[2,0,0,5],
 "namespacetlx_1_1radix__heap__detail.html":[3,0,0,6],
+"namespacetlx_1_1radix__heap__detail.html":[2,0,0,6],
 "namespacetlx_1_1sort__strings__detail.html":[2,0,0,7],
 "namespacetlx_1_1sort__strings__detail.html":[3,0,0,7],
 "pad_8cpp.html":[4,0,0,10,36],
@@ -249,5 +247,7 @@ var NAVTREEINDEX11 =
 "sha512_8cpp.html#a69563ecfe94276a526bdb3853f797c65":[4,0,0,4,6,0],
 "sha512_8cpp.html#a9e9eb8e1bced5f4b5a180fc64ced8911":[4,0,0,4,6,2],
 "sha512_8cpp.html#ac3302bda529d9a02c073a8fc4fe57030":[4,0,0,4,6,5],
-"sha512_8cpp.html#ac69b6c21c56ac7b34828ba2145b59709":[4,0,0,4,6,15]
+"sha512_8cpp.html#ac69b6c21c56ac7b34828ba2145b59709":[4,0,0,4,6,15],
+"sha512_8cpp.html#ae4910facdb157763559da2c47869ff5e":[4,0,0,4,6,4],
+"sha512_8cpp.html#ga7520cfaab5fa32dce14570c3ab3bd374":[4,0,0,4,6,10]
 };

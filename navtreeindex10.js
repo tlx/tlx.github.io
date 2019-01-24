@@ -1,7 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"index__of_8cpp.html":[4,0,0,10,26],
-"index__of_8cpp.html#ga00bece0086ba6a8598e97e93694b713f":[4,0,0,10,26,2],
 "index__of_8cpp.html#ga15b290439811d07e8fc0a6134c4faa0b":[4,0,0,10,26,0],
 "index__of_8cpp.html#ga2d3b5b0636e261f97ab3292d78f2201b":[4,0,0,10,26,3],
 "index__of_8cpp.html#gac5156b8029cca4a21cb3e1b14ea6526d":[4,0,0,10,26,1],
@@ -231,8 +229,8 @@ var NAVTREEINDEX10 =
 "multiway__merge__splitting_8hpp.html#gga8a7342a22bda2a80ef56d779ceae36c0abccc0e651299ce4048220b307340aff3":[4,0,0,0,7,0,0],
 "multiway__merge__splitting_8hpp.html#gga8a7342a22bda2a80ef56d779ceae36c0acfb06584091121c62050c13c54e0e298":[4,0,0,0,7,0,3],
 "multiway__merge__splitting_8hpp_source.html":[4,0,0,0,7],
-"namespacemembers.html":[2,1,0],
 "namespacemembers.html":[2,1,0,0],
+"namespacemembers.html":[2,1,0],
 "namespacemembers_b.html":[2,1,0,1],
 "namespacemembers_c.html":[2,1,0,2],
 "namespacemembers_d.html":[2,1,0,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX10 =
 "namespacemembers_func_f.html":[2,1,1,5],
 "namespacemembers_func_g.html":[2,1,1,6],
 "namespacemembers_func_h.html":[2,1,1,7],
-"namespacemembers_func_i.html":[2,1,1,8]
+"namespacemembers_func_i.html":[2,1,1,8],
+"namespacemembers_func_j.html":[2,1,1,9],
+"namespacemembers_func_l.html":[2,1,1,10]
 };
