@@ -7,6 +7,7 @@ var searchData=
   ['var',['var',['../classtlx_1_1Aggregate.html#a024e7930dbabad01c6f7a067906a6ec5',1,'tlx::Aggregate']]],
   ['variance',['variance',['../classtlx_1_1Aggregate.html#aa0f5b9d28d5875a60664dd890fe29570',1,'tlx::Aggregate']]],
   ['vec_5fswap',['vec_swap',['../namespacetlx_1_1sort__strings__detail.html#a21be236ba84e1f61521ffe333e1f35cf',1,'tlx::sort_strings_detail']]],
+  ['vector_5ffree',['vector_free',['../namespacetlx.html#a3e74e205a0ec4b2d823fd7baf42dcd82',1,'tlx']]],
   ['verify',['verify',['../classtlx_1_1BTree.html#af26aef03a7dfaca8fabb99969312307a',1,'tlx::BTree::verify()'],['../classtlx_1_1btree__map.html#af26aef03a7dfaca8fabb99969312307a',1,'tlx::btree_map::verify()'],['../classtlx_1_1btree__multimap.html#af26aef03a7dfaca8fabb99969312307a',1,'tlx::btree_multimap::verify()'],['../classtlx_1_1btree__multiset.html#af26aef03a7dfaca8fabb99969312307a',1,'tlx::btree_multiset::verify()'],['../classtlx_1_1btree__set.html#af26aef03a7dfaca8fabb99969312307a',1,'tlx::btree_set::verify()']]],
   ['verify_5fleaflinks',['verify_leaflinks',['../classtlx_1_1BTree.html#a288f383c102e522614ffcb27b1b979a9',1,'tlx::BTree']]],
   ['verify_5fnode',['verify_node',['../classtlx_1_1BTree.html#ad6ed64cad61c5ac8cb5a4dc97ac34baf',1,'tlx::BTree']]],
