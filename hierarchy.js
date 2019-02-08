@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "Aggregate< Type_ >", "classtlx_1_1Aggregate.html", null ],
+    [ "AggregateMinMax< Type_ >", "classtlx_1_1AggregateMinMax.html", null ],
     [ "StackArena< Size >::AlignmentHelper", "uniontlx_1_1StackArena_1_1AlignmentHelper.html", null ],
     [ "AllocatorBase< Type >", "classtlx_1_1AllocatorBase.html", [
       [ "StackAllocator< Type, Size >", "classtlx_1_1StackAllocator.html", null ]

@@ -167,6 +167,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a267616cde1f6ebe717b975f090d0257e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classtlx_1_1Aggregate.html#a19fffb7a6788d346a4ab677ce5d61f4c">Type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Aggregate.html#a267616cde1f6ebe717b975f090d0257e">max</a> () const noexcept</td></tr>
 <tr class="memdesc:a267616cde1f6ebe717b975f090d0257e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return maximum over all values aggregated  <a href="#a267616cde1f6ebe717b975f090d0257e">More...</a><br/></td></tr>
 <tr class="separator:a267616cde1f6ebe717b975f090d0257e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551b2f42da5c0e97d1446d92656e413b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1Aggregate.html#a19fffb7a6788d346a4ab677ce5d61f4c">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Aggregate.html#a551b2f42da5c0e97d1446d92656e413b">span</a> () const noexcept</td></tr>
+<tr class="memdesc:a551b2f42da5c0e97d1446d92656e413b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return maximum - minimum over all values aggregated  <a href="#a551b2f42da5c0e97d1446d92656e413b">More...</a><br/></td></tr>
+<tr class="separator:a551b2f42da5c0e97d1446d92656e413b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0f5b9d28d5875a60664dd890fe29570"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Aggregate.html#aa0f5b9d28d5875a60664dd890fe29570">variance</a> (size_t ddof=1) const </td></tr>
 <tr class="memdesc:aa0f5b9d28d5875a60664dd890fe29570"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the variance of all values aggregated.  <a href="#aa0f5b9d28d5875a60664dd890fe29570">More...</a><br/></td></tr>
 <tr class="separator:aa0f5b9d28d5875a60664dd890fe29570"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -428,7 +431,7 @@ class tlx::Aggregate&lt; Type_ &gt;</h3>
 
 <p>combine means, check if either count is zero. fix problems with NaN </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00146">146</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00149">149</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -458,7 +461,7 @@ class tlx::Aggregate&lt; Type_ &gt;</h3>
 <p>Chan et al 1979, "Updating Formulae and a Pairwise Algorithm for
 Computing Sample Variances" </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00156">156</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00159">159</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -594,7 +597,7 @@ Computing Sample Variances" </p>
 
 <p>operator + to combine two Aggregate&lt;&gt; </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00116">116</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00119">119</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -622,7 +625,7 @@ Computing Sample Variances" </p>
 
 <p>operator += to combine two Aggregate&lt;&gt; </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00129">129</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00132">132</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -650,7 +653,34 @@ Computing Sample Variances" </p>
 
 <p>serialization method for cereal. </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00140">140</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00143">143</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a551b2f42da5c0e97d1446d92656e413b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1Aggregate.html#a19fffb7a6788d346a4ab677ce5d61f4c">Type</a> span </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return maximum - minimum over all values aggregated </p>
+
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00085">85</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -679,7 +709,7 @@ Computing Sample Variances" </p>
 <p>return the standard deviation of all values aggregated. </p>
 <p>ddof = delta degrees of freedom Set to 0 if you have the entire distribution Set to 1 if you have a sample (to correct for bias) </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00105">105</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00108">108</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -708,7 +738,7 @@ Computing Sample Variances" </p>
 <p>return the standard deviation of all values aggregated. </p>
 <p>ddof = delta degrees of freedom Set to 0 if you have the entire distribution Set to 1 if you have a sample (to correct for bias) </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00113">113</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00116">116</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -791,7 +821,7 @@ Computing Sample Variances" </p>
 <p>return the variance of all values aggregated. </p>
 <p>ddof = delta degrees of freedom Set to 0 if you have the entire distribution Set to 1 if you have a sample (to correct for bias) </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00097">97</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00100">100</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -820,7 +850,7 @@ Computing Sample Variances" </p>
 <p>return the variance of all values aggregated. </p>
 <p>ddof = delta degrees of freedom Set to 0 if you have the entire distribution Set to 1 if you have a sample (to correct for bias) </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00088">88</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00091">91</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -845,7 +875,7 @@ Computing Sample Variances" </p>
 
 <p>number of values aggregated </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00163">163</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00166">166</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -869,7 +899,7 @@ Computing Sample Variances" </p>
 
 <p>maximum value </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00175">175</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00178">178</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -893,7 +923,7 @@ Computing Sample Variances" </p>
 
 <p>mean of values </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00166">166</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00169">169</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -917,7 +947,7 @@ Computing Sample Variances" </p>
 
 <p>minimum value </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00172">172</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00175">175</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -941,7 +971,7 @@ Computing Sample Variances" </p>
 
 <p>approximate count * variance; stddev = sqrt(nvar / (count-1)) </p>
 
-<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00169">169</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
+<p>Definition at line <a class="el" href="aggregate_8hpp_source.html#l00172">172</a> of file <a class="el" href="aggregate_8hpp_source.html">aggregate.hpp</a>.</p>
 
 </div>
 </div>
@@ -954,7 +984,7 @@ Computing Sample Variances" </p>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1Aggregate.html">Aggregate</a></li>
-    <li class="footer">Generated on Fri Feb 8 2019 17:17:31 for tlx by
+    <li class="footer">Generated on Fri Feb 8 2019 19:10:54 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

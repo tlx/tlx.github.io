@@ -70,6 +70,7 @@ var namespacetlx =
     [ "LoggerFormatter< std::unordered_set< T, H, E, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__set_3_01T_00_01H_00_01E_00_01A_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__set_3_01T_00_01H_00_01E_00_01A_01_4_01_4" ],
     [ "LoggerFormatter< std::unordered_multiset< T, H, E, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__multiset_3_01T_00_01H_00_01E_00_01A_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__multiset_3_01T_00_01H_00_01E_00_01A_01_4_01_4" ],
     [ "Aggregate", "classtlx_1_1Aggregate.html", "classtlx_1_1Aggregate" ],
+    [ "AggregateMinMax", "classtlx_1_1AggregateMinMax.html", "classtlx_1_1AggregateMinMax" ],
     [ "PolynomialRegression", "classtlx_1_1PolynomialRegression.html", "classtlx_1_1PolynomialRegression" ],
     [ "enable_if", "structtlx_1_1enable__if.html", null ],
     [ "enable_if< true, T >", "structtlx_1_1enable__if_3_01true_00_01T_01_4.html", "structtlx_1_1enable__if_3_01true_00_01T_01_4" ],

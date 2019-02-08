@@ -2,6 +2,7 @@ var dir_e09772e06e87bbb5d2c69a5ed712ca42 =
 [
     [ "abs_diff.hpp", "abs__diff_8hpp.html", "abs__diff_8hpp" ],
     [ "aggregate.hpp", "aggregate_8hpp.html", null ],
+    [ "aggregate_min_max.hpp", "aggregate__min__max_8hpp.html", null ],
     [ "bswap.hpp", "bswap_8hpp.html", "bswap_8hpp" ],
     [ "bswap_be.hpp", "bswap__be_8hpp.html", null ],
     [ "bswap_le.hpp", "bswap__le_8hpp.html", null ],
