@@ -122,6 +122,8 @@ var group__tlx__string =
     [ "split_quoted", "group__tlx__string.html#gafc48ce717ba77df6c6f395fb07bc8a1e", null ],
     [ "split_quoted", "group__tlx__string.html#ga0210d995cdc4df9aafcd09c005571449", null ],
     [ "split_words", "group__tlx__string.html#ga92d58b1e8b06cbb57400b5959281a4a1", null ],
+    [ "ssnprintf", "group__tlx__string.html#gaafc9efa79c49c462b0ee723e4f9b384d", null ],
+    [ "ssprintf", "group__tlx__string.html#gae5a94b0f02730f1df3009eb5ce67eb17", null ],
     [ "starts_with", "group__tlx__string.html#gadc5cce7e8c7fd30078b9129a7ae1d74b", null ],
     [ "starts_with", "group__tlx__string.html#ga125efbe989d08402389613766af825b5", null ],
     [ "starts_with_icase", "group__tlx__string.html#gadbcdc1f2a056e954b197ce9c1d236522", null ],

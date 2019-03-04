@@ -52,6 +52,8 @@ var searchData=
   ['split_5fleaf_5fnode',['split_leaf_node',['../classtlx_1_1BTree.html#a1234e2d209b518ae0396fb36b4be82d4',1,'tlx::BTree']]],
   ['split_5fquoted',['split_quoted',['../group__tlx__string.html#gafc48ce717ba77df6c6f395fb07bc8a1e',1,'tlx::split_quoted(const std::string &amp;str, char sep, char quote, char escape)'],['../group__tlx__string.html#ga0210d995cdc4df9aafcd09c005571449',1,'tlx::split_quoted(const std::string &amp;str)']]],
   ['split_5fwords',['split_words',['../group__tlx__string.html#ga92d58b1e8b06cbb57400b5959281a4a1',1,'tlx']]],
+  ['ssnprintf',['ssnprintf',['../group__tlx__string.html#gaafc9efa79c49c462b0ee723e4f9b384d',1,'tlx']]],
+  ['ssprintf',['ssprintf',['../group__tlx__string.html#gae5a94b0f02730f1df3009eb5ce67eb17',1,'tlx']]],
   ['stable_5fmultiway_5fmerge',['stable_multiway_merge',['../group__tlx__algorithm.html#gab5a6467af7f10ab6f206eb3f9b3e0e4e',1,'tlx']]],
   ['stable_5fmultiway_5fmerge_5fsentinels',['stable_multiway_merge_sentinels',['../group__tlx__algorithm.html#gac2db163874c1c8e389c2736a72decb5f',1,'tlx']]],
   ['stable_5fparallel_5fmergesort',['stable_parallel_mergesort',['../group__tlx__sort.html#ga4aa384ccbe79fdd32a7eec193142781a',1,'tlx']]],

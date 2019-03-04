@@ -48,6 +48,8 @@ var dir_45a7f11e1a4af18f182d54b603484851 =
     [ "split_quoted.hpp", "split__quoted_8hpp.html", "split__quoted_8hpp" ],
     [ "split_words.cpp", "split__words_8cpp.html", "split__words_8cpp" ],
     [ "split_words.hpp", "split__words_8hpp.html", "split__words_8hpp" ],
+    [ "ssprintf.cpp", "ssprintf_8cpp.html", "ssprintf_8cpp" ],
+    [ "ssprintf.hpp", "ssprintf_8hpp.html", "ssprintf_8hpp" ],
     [ "starts_with.cpp", "starts__with_8cpp.html", "starts__with_8cpp" ],
     [ "starts_with.hpp", "starts__with_8hpp.html", "starts__with_8hpp" ],
     [ "to_lower.cpp", "to__lower_8cpp.html", "to__lower_8cpp" ],
