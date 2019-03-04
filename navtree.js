@@ -43,17 +43,18 @@ var NAVTREEINDEX =
 "abs__diff_8hpp.html",
 "classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775",
 "classtlx_1_1CountingPtr.html#ad6277c1f8e890e06484c1a1bdfb7d091",
-"classtlx_1_1RadixHeap.html#a516b266521ea0144add365390660cf41",
-"classtlx_1_1btree__map.html#a0d3d86d13f26293e1ddcff5569ad1ccb",
-"classtlx_1_1btree__set.html#a7460bf225bc8ab03e0aee6a3226dd4da",
-"classtlx_1_1sort__strings__detail_1_1StringShadowLcpPtr.html#a4e8b94abf5bec1056bcc418c78ad3035",
-"erase__all_8hpp.html#ga290c6e7261f453c4774a0cf82586bf47",
-"group__tlx__container__loser__tree.html#ga02fd73d861ef2e4aabb38c0c9ff82947",
-"group__tlx__math.html#ga949a8d8a48175dda1fde458fbf6441b7",
-"hexdump_8hpp.html#ga0b2f444830d8f7b1b0eaf93b5f514bf7",
-"namespacemembers_c.html",
-"sha256_8hpp.html#ga690a14d912e56fae0b09769749152902",
-"structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsMemberPair.html"
+"classtlx_1_1LruCacheSet.html",
+"classtlx_1_1StackAllocator.html#a4691b7ca5b23392656cedac1971d1292",
+"classtlx_1_1btree__multiset.html#ab3c414470d5cea2986cfab7a90146cb6",
+"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#ab2264c7fb14205f860e942ca80b74747",
+"die_8hpp.html#a357da842bf02c9445e820f483b301542",
+"functions_w.html",
+"group__tlx__define.html#ga0d6f9c98de6cf168453c0553a27734cb",
+"group__tlx__string.html#ga9fb49f152c6bf0d96ec46bfb90a38bfc",
+"merge__advance_8hpp.html#gad57c4ceef5354d1657467303fe06bebf",
+"ror_8hpp.html#ga719bbc1834b484884e10ac303a00ec5f",
+"structtlx_1_1CmdlineParser_1_1Argument.html#ad2a14c07a619f29094a7c1adcbb776ba",
+"union__words_8cpp.html#ga39619db78c7e916bff3544fb07cbe462"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

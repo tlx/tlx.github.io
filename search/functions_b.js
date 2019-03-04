@@ -1,6 +1,7 @@
 var searchData=
 [
   ['leaf_5fnode_5fallocator',['leaf_node_allocator',['../classtlx_1_1BTree.html#a353e5a73d56e289c9b48a5bc43e72211',1,'tlx::BTree']]],
+  ['left',['left',['../classtlx_1_1DAryAddressableIntHeap.html#a9462978ee09c7d8f5ccd5b758cf92b1b',1,'tlx::DAryAddressableIntHeap::left()'],['../classtlx_1_1DAryHeap.html#a9462978ee09c7d8f5ccd5b758cf92b1b',1,'tlx::DAryHeap::left()']]],
   ['less_5ficase',['less_icase',['../group__tlx__string.html#ga3a73759be8d7ec5778cb6192bc32c4c2',1,'tlx::less_icase(const char *a, const char *b)'],['../group__tlx__string.html#ga0e53bb43043cc4fdf6fef5a9f017957c',1,'tlx::less_icase(const char *a, const std::string &amp;b)'],['../group__tlx__string.html#ga25e2629353a36fb47c587b4eef89c0d2',1,'tlx::less_icase(const std::string &amp;a, const char *b)'],['../group__tlx__string.html#ga9fb49f152c6bf0d96ec46bfb90a38bfc',1,'tlx::less_icase(const std::string &amp;a, const std::string &amp;b)']]],
   ['levenshtein',['levenshtein',['../group__tlx__string.html#ga5097f3a710847ed15aa3cdc2bbbe857c',1,'tlx::levenshtein(const char *a, const char *b)'],['../group__tlx__string.html#ga643fe1eebc35da109f593cdcf068d3af',1,'tlx::levenshtein(const std::string &amp;a, const std::string &amp;b)']]],
   ['levenshtein_5falgorithm',['levenshtein_algorithm',['../group__tlx__string.html#ga28296225d021e2ff9a1bedfa711b26fa',1,'tlx']]],

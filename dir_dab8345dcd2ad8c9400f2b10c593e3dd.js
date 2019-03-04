@@ -13,6 +13,8 @@ var dir_dab8345dcd2ad8c9400f2b10c593e3dd =
     [ "btree_set.hpp", "btree__set_8hpp.html", [
       [ "key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", "structtlx_1_1btree__set_1_1key__of__value" ]
     ] ],
+    [ "d_ary_addressable_int_heap.hpp", "d__ary__addressable__int__heap_8hpp.html", "d__ary__addressable__int__heap_8hpp" ],
+    [ "d_ary_heap.hpp", "d__ary__heap_8hpp.html", "d__ary__heap_8hpp" ],
     [ "loser_tree.hpp", "loser__tree_8hpp.html", [
       [ "Loser", "structtlx_1_1LoserTreePointerBase_1_1Loser.html", "structtlx_1_1LoserTreePointerBase_1_1Loser" ],
       [ "Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser" ],

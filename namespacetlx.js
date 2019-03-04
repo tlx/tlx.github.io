@@ -16,6 +16,8 @@ var namespacetlx =
     [ "btree_multimap", "classtlx_1_1btree__multimap.html", "classtlx_1_1btree__multimap" ],
     [ "btree_multiset", "classtlx_1_1btree__multiset.html", "classtlx_1_1btree__multiset" ],
     [ "btree_set", "classtlx_1_1btree__set.html", "classtlx_1_1btree__set" ],
+    [ "DAryAddressableIntHeap", "classtlx_1_1DAryAddressableIntHeap.html", "classtlx_1_1DAryAddressableIntHeap" ],
+    [ "DAryHeap", "classtlx_1_1DAryHeap.html", "classtlx_1_1DAryHeap" ],
     [ "LoserTreeCopyBase", "classtlx_1_1LoserTreeCopyBase.html", "classtlx_1_1LoserTreeCopyBase" ],
     [ "LoserTreeCopy", "classtlx_1_1LoserTreeCopy.html", "classtlx_1_1LoserTreeCopy" ],
     [ "LoserTreeCopy< true, ValueType, Comparator >", "classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html", "classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4" ],
