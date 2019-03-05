@@ -23,6 +23,7 @@ var searchData=
   ['split_5fwords_2ehpp',['split_words.hpp',['../split__words_8hpp.html',1,'']]],
   ['ssprintf_2ecpp',['ssprintf.cpp',['../ssprintf_8cpp.html',1,'']]],
   ['ssprintf_2ehpp',['ssprintf.hpp',['../ssprintf_8hpp.html',1,'']]],
+  ['ssprintf_5fgeneric_2ehpp',['ssprintf_generic.hpp',['../ssprintf__generic_8hpp.html',1,'']]],
   ['stack_5fallocator_2ehpp',['stack_allocator.hpp',['../stack__allocator_8hpp.html',1,'']]],
   ['starts_5fwith_2ecpp',['starts_with.cpp',['../starts__with_8cpp.html',1,'']]],
   ['starts_5fwith_2ehpp',['starts_with.hpp',['../starts__with_8hpp.html',1,'']]],
