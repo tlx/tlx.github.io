@@ -36,6 +36,7 @@ var namespacetlx =
     [ "RadixHeap", "classtlx_1_1RadixHeap.html", "classtlx_1_1RadixHeap" ],
     [ "RingBuffer", "classtlx_1_1RingBuffer.html", "classtlx_1_1RingBuffer" ],
     [ "SimpleVector", "classtlx_1_1SimpleVector.html", "classtlx_1_1SimpleVector" ],
+    [ "SplayTree", "classtlx_1_1SplayTree.html", "classtlx_1_1SplayTree" ],
     [ "CountingPtrDefaultDeleter", "classtlx_1_1CountingPtrDefaultDeleter.html", "classtlx_1_1CountingPtrDefaultDeleter" ],
     [ "CountingPtrNoOperationDeleter", "classtlx_1_1CountingPtrNoOperationDeleter.html", "classtlx_1_1CountingPtrNoOperationDeleter" ],
     [ "CountingPtr", "classtlx_1_1CountingPtr.html", "classtlx_1_1CountingPtr" ],

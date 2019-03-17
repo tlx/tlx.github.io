@@ -23,5 +23,6 @@ var dir_dab8345dcd2ad8c9400f2b10c593e3dd =
     [ "lru_cache.hpp", "lru__cache_8hpp.html", null ],
     [ "radix_heap.hpp", "radix__heap_8hpp.html", "radix__heap_8hpp" ],
     [ "ring_buffer.hpp", "ring__buffer_8hpp.html", null ],
-    [ "simple_vector.hpp", "container_2simple__vector_8hpp.html", "container_2simple__vector_8hpp" ]
+    [ "simple_vector.hpp", "container_2simple__vector_8hpp.html", "container_2simple__vector_8hpp" ],
+    [ "splay_tree.hpp", "splay__tree_8hpp.html", "splay__tree_8hpp" ]
 ];

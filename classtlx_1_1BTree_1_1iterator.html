@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>tlx: BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::iterator Class Reference</title>
+<title>tlx: BTree&lt; Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator &gt;::iterator Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('classtlx_1_1BTree_1_1iterator.html',''
 <a href="#friends">Friends</a> &#124;
 <a href="classtlx_1_1BTree_1_1iterator-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::iterator Class Reference</div>  </div>
+<div class="title">BTree&lt; Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator &gt;::iterator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -129,10 +129,10 @@ $(document).ready(function(){initNavTree('classtlx_1_1BTree_1_1iterator.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a0cc59491125a67abc87e8bfe6a4022c1"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">BTree::key_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1BTree_1_1iterator.html#a0cc59491125a67abc87e8bfe6a4022c1">key_type</a></td></tr>
+<tr class="memitem:a0cc59491125a67abc87e8bfe6a4022c1"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classtlx_1_1BTree.html#a38ec6d0825c22c2d0ad31f3209ed2d02">BTree::key_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1BTree_1_1iterator.html#a0cc59491125a67abc87e8bfe6a4022c1">key_type</a></td></tr>
 <tr class="memdesc:a0cc59491125a67abc87e8bfe6a4022c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The key type of the btree. Returned by <a class="el" href="classtlx_1_1BTree_1_1iterator.html#a8ba2b56dfdb5b9beba97bb9ba59ae71b" title="Key of the current slot. ">key()</a>.  <a href="#a0cc59491125a67abc87e8bfe6a4022c1">More...</a><br/></td></tr>
 <tr class="separator:a0cc59491125a67abc87e8bfe6a4022c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6dd5cb1a04fdb444583ffc0b8a29a5b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classtlx_1_1BTree.html#a5512bf4c2a5c53a6205718ccc957d7a6">BTree::value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1BTree_1_1iterator.html#ae6dd5cb1a04fdb444583ffc0b8a29a5b">value_type</a></td></tr>
+<tr class="memitem:ae6dd5cb1a04fdb444583ffc0b8a29a5b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classtlx_1_1BTree.html#a04f69f8f2936ff309627511179c1709b">BTree::value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1BTree_1_1iterator.html#ae6dd5cb1a04fdb444583ffc0b8a29a5b">value_type</a></td></tr>
 <tr class="memdesc:ae6dd5cb1a04fdb444583ffc0b8a29a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The value type of the btree. Returned by <a class="el" href="classtlx_1_1BTree_1_1iterator.html#aa149c2249879e7727f33688b76bf2c99" title="Dereference the iterator. ">operator*()</a>.  <a href="#ae6dd5cb1a04fdb444583ffc0b8a29a5b">More...</a><br/></td></tr>
 <tr class="separator:ae6dd5cb1a04fdb444583ffc0b8a29a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe8933d436779a43cb5c1896ff5f2918"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classtlx_1_1BTree_1_1iterator.html#ae6dd5cb1a04fdb444583ffc0b8a29a5b">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1BTree_1_1iterator.html#abe8933d436779a43cb5c1896ff5f2918">reference</a></td></tr>
@@ -218,8 +218,8 @@ Friends</h2></td></tr>
 <tr class="separator:a76632aa900e0cb04d12e9e93f34a891d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Key_, typename Value_, typename KeyOfValue_, typename Compare_ = std::less&lt;Key_&gt;, typename Traits_ = btree_default_traits&lt;Key_, Value_&gt;, bool Duplicates_ = false, typename Alloc_ = std::allocator&lt;Value_&gt;&gt;<br/>
-class tlx::BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, Alloc_ &gt;::iterator</h3>
+<div class="textblock"><h3>template&lt;typename Key, typename Value, typename KeyOfValue, typename Compare = std::less&lt;Key&gt;, typename Traits = btree_default_traits&lt;Key, Value&gt;, bool Duplicates = false, typename Allocator = std::allocator&lt;Value&gt;&gt;<br/>
+class tlx::BTree&lt; Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator &gt;::iterator</h3>
 
 <p>STL-like iterator object for B+ tree items. </p>
 <p>The iterator points to a specific slot number in a leaf. </p>
@@ -263,7 +263,7 @@ class tlx::BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classtlx_1_1BTree.html#acb65c421faf5d749d03882f64d184775">BTree::key_type</a> <a class="el" href="classtlx_1_1BTree_1_1iterator.html#a0cc59491125a67abc87e8bfe6a4022c1">key_type</a></td>
+          <td class="memname">typedef <a class="el" href="classtlx_1_1BTree.html#a38ec6d0825c22c2d0ad31f3209ed2d02">BTree::key_type</a> <a class="el" href="classtlx_1_1BTree_1_1iterator.html#a0cc59491125a67abc87e8bfe6a4022c1">key_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -327,7 +327,7 @@ class tlx::BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="classtlx_1_1BTree.html#a5512bf4c2a5c53a6205718ccc957d7a6">BTree::value_type</a> <a class="el" href="classtlx_1_1BTree_1_1iterator.html#ae6dd5cb1a04fdb444583ffc0b8a29a5b">value_type</a></td>
+          <td class="memname">typedef <a class="el" href="classtlx_1_1BTree.html#a04f69f8f2936ff309627511179c1709b">BTree::value_type</a> <a class="el" href="classtlx_1_1BTree_1_1iterator.html#ae6dd5cb1a04fdb444583ffc0b8a29a5b">value_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -689,7 +689,7 @@ class tlx::BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="classtlx_1_1BTree.html">BTree</a>&lt; <a class="el" href="classtlx_1_1BTree_1_1iterator.html#a0cc59491125a67abc87e8bfe6a4022c1">key_type</a>, <a class="el" href="classtlx_1_1BTree_1_1iterator.html#ae6dd5cb1a04fdb444583ffc0b8a29a5b">value_type</a>, <a class="el" href="classtlx_1_1BTree.html#a1059238b7811618137ac16f4dc2e1d5e">key_of_value</a>, <a class="el" href="classtlx_1_1BTree.html#a7462b1e2b24182127f494d58dbb95fa9">key_compare</a>,<a class="el" href="classtlx_1_1BTree.html#add985b33b72ef68812f3986e8df807f5">traits</a>, <a class="el" href="classtlx_1_1BTree.html#a4a380c8745ff0a1c814742821e85403e">allow_duplicates</a>, <a class="el" href="classtlx_1_1BTree.html#a552a180d973faf4f7ccc14b7d639a160">allocator_type</a> &gt;</td>
+          <td class="memname">friend class <a class="el" href="classtlx_1_1BTree.html">BTree</a>&lt; <a class="el" href="classtlx_1_1BTree_1_1iterator.html#a0cc59491125a67abc87e8bfe6a4022c1">key_type</a>, <a class="el" href="classtlx_1_1BTree_1_1iterator.html#ae6dd5cb1a04fdb444583ffc0b8a29a5b">value_type</a>, <a class="el" href="classtlx_1_1BTree.html#a21e576e049c90e014ffeb583c24d2f38">key_of_value</a>, <a class="el" href="classtlx_1_1BTree.html#a6ff4e347839868db0770859a3dd55a27">key_compare</a>,<a class="el" href="classtlx_1_1BTree.html#ab0d2e59411be6b53e63c29149a17fbcc">traits</a>, <a class="el" href="classtlx_1_1BTree.html#a4a380c8745ff0a1c814742821e85403e">allow_duplicates</a>, <a class="el" href="classtlx_1_1BTree.html#aff35d256caa55f37343da8200179e608">allocator_type</a> &gt;</td>
         </tr>
       </table>
   </td>
@@ -857,7 +857,7 @@ class tlx::BTree&lt; Key_, Value_, KeyOfValue_, Compare_, Traits_, Duplicates_, 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1BTree.html">BTree</a></li><li class="navelem"><a class="el" href="classtlx_1_1BTree_1_1iterator.html">iterator</a></li>
-    <li class="footer">Generated on Tue Mar 5 2019 04:42:07 for tlx by
+    <li class="footer">Generated on Sun Mar 17 2019 11:24:29 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

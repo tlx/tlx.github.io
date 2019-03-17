@@ -15,6 +15,7 @@ var searchData=
   ['simplevector_3c_20valuetype_20_2a_20_3e',['SimpleVector&lt; ValueType * &gt;',['../classtlx_1_1SimpleVector.html',1,'tlx']]],
   ['simplevector_3c_20valuetype_20_3e',['SimpleVector&lt; ValueType &gt;',['../classtlx_1_1SimpleVector.html',1,'tlx']]],
   ['spacinglogger',['SpacingLogger',['../classtlx_1_1SpacingLogger.html',1,'tlx']]],
+  ['splaytree',['SplayTree',['../classtlx_1_1SplayTree.html',1,'tlx']]],
   ['stackallocator',['StackAllocator',['../classtlx_1_1StackAllocator.html',1,'tlx']]],
   ['stackarena',['StackArena',['../classtlx_1_1StackArena.html',1,'tlx']]],
   ['staticindex',['StaticIndex',['../structtlx_1_1StaticIndex.html',1,'tlx']]],

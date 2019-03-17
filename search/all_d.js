@@ -2,7 +2,11 @@ var searchData=
 [
   ['next_5f',['next_',['../classtlx_1_1LoggerCollectOutput.html#a9dff1530ea1100398de9ab0977600092',1,'tlx::LoggerCollectOutput']]],
   ['next_5fleaf',['next_leaf',['../structtlx_1_1BTree_1_1LeafNode.html#a9110db83a99825d372dfb35fda3ab7e3',1,'tlx::BTree::LeafNode']]],
+  ['node',['Node',['../structtlx_1_1SplayTree_1_1Node.html',1,'tlx::SplayTree']]],
+  ['node',['Node',['../structtlx_1_1SplayTree_1_1Node.html#a367602fd7d549671f88f2672ebc08a8a',1,'tlx::SplayTree::Node']]],
   ['node',['node',['../structtlx_1_1BTree_1_1node.html',1,'tlx::BTree']]],
+  ['node_5falloc_5ftype',['node_alloc_type',['../classtlx_1_1SplayTree.html#af3548b0b3b7d9cf700540ac1e2d9965f',1,'tlx::SplayTree']]],
+  ['node_5fallocator_5f',['node_allocator_',['../classtlx_1_1SplayTree.html#a2f6492f00cd19a53712b895118b49ead',1,'tlx::SplayTree']]],
   ['nodes',['nodes',['../structtlx_1_1BTree_1_1tree__stats.html#a942a7c4c9368b0fa17df9feb4e0dbd74',1,'tlx::BTree::tree_stats']]],
   ['noinitbutdestroy',['NoInitButDestroy',['../group__tlx__container.html#gga07f67904ca9d31961dc022100101c358a96726bf24e630d03d0f4e5715e9fd097',1,'tlx']]],
   ['noinitnodestroy',['NoInitNoDestroy',['../group__tlx__container.html#gga07f67904ca9d31961dc022100101c358a60008b87abd54104caffab5779ea7244',1,'tlx']]],

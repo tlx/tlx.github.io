@@ -16,6 +16,7 @@ var searchData=
   ['_7eringbuffer',['~RingBuffer',['../classtlx_1_1RingBuffer.html#a0fff6182d30d785358c6a3ef7db0931f',1,'tlx::RingBuffer']]],
   ['_7esimplevector',['~SimpleVector',['../classtlx_1_1SimpleVector.html#ad9f416360dff7b1d24063c8fa7b22174',1,'tlx::SimpleVector']]],
   ['_7espacinglogger',['~SpacingLogger',['../classtlx_1_1SpacingLogger.html#aaf88b9bbbc60505197177b6cee8b90cf',1,'tlx::SpacingLogger']]],
+  ['_7esplaytree',['~SplayTree',['../classtlx_1_1SplayTree.html#a9f1ac27da4be7c17045195fda7f6a83d',1,'tlx::SplayTree']]],
   ['_7estackarena',['~StackArena',['../classtlx_1_1StackArena.html#a2448420b8acff6024bf3e2fcf59faac8',1,'tlx::StackArena']]],
   ['_7ethreadpool',['~ThreadPool',['../classtlx_1_1ThreadPool.html#ad41a30b11a0c9d8566ca1a53b4cf43f6',1,'tlx::ThreadPool']]]
 ];

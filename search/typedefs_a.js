@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['other',['other',['../structtlx_1_1StackAllocator_1_1rebind.html#ae87deb46986ab6e10fd8f986c1e40115',1,'tlx::StackAllocator::rebind']]]
+  ['node_5falloc_5ftype',['node_alloc_type',['../classtlx_1_1SplayTree.html#af3548b0b3b7d9cf700540ac1e2d9965f',1,'tlx::SplayTree']]]
 ];
