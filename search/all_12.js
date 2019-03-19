@@ -43,6 +43,8 @@ var searchData=
   ['tlx_5fdie_5funequal_5feps6',['tlx_die_unequal_eps6',['../die_2core_8hpp.html#a58f7344e93396da43cfd07592e373923',1,'core.hpp']]],
   ['tlx_5fdie_5funless',['tlx_die_unless',['../die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0',1,'core.hpp']]],
   ['tlx_5fdie_5funless_5fthrows',['tlx_die_unless_throws',['../die_2core_8hpp.html#ae5ae25a771b222c30b34dd93e878bc70',1,'core.hpp']]],
+  ['tlx_5fdie_5fverbose_5fif',['tlx_die_verbose_if',['../die_2core_8hpp.html#ae0590079d690450b883ee08675054406',1,'core.hpp']]],
+  ['tlx_5fdie_5fverbose_5funless',['tlx_die_verbose_unless',['../die_2core_8hpp.html#acb79865d9c065ce2954a04e2f189d21c',1,'core.hpp']]],
   ['tlx_5fdie_5fwith_5fsstream',['tlx_die_with_sstream',['../die_2core_8hpp.html#a8644f91fb627fd67cd17401c10a8448f',1,'core.hpp']]],
   ['tlx_5flikely',['TLX_LIKELY',['../group__tlx__define.html#ga2c4b5b038e88004e67c779cf9afcecc7',1,'likely.hpp']]],
   ['tlx_5flog',['TLX_LOG',['../logger_2core_8hpp.html#ad565f2ef3ecf71cede793d22e9aa45c2',1,'core.hpp']]],

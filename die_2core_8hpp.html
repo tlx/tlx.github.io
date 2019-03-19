@@ -150,6 +150,12 @@ Macros</h2></td></tr>
 <tr class="memitem:af4884b374a843ce260431fb12591bf9c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_2core_8hpp.html#af4884b374a843ce260431fb12591bf9c">tlx_die_if</a>(X)</td></tr>
 <tr class="memdesc:af4884b374a843ce260431fb12591bf9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check condition X and die miserably if true.  <a href="#af4884b374a843ce260431fb12591bf9c">More...</a><br/></td></tr>
 <tr class="separator:af4884b374a843ce260431fb12591bf9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb79865d9c065ce2954a04e2f189d21c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_2core_8hpp.html#acb79865d9c065ce2954a04e2f189d21c">tlx_die_verbose_unless</a>(X, msg)</td></tr>
+<tr class="memdesc:acb79865d9c065ce2954a04e2f189d21c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check condition X and die miserably if false.  <a href="#acb79865d9c065ce2954a04e2f189d21c">More...</a><br/></td></tr>
+<tr class="separator:acb79865d9c065ce2954a04e2f189d21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0590079d690450b883ee08675054406"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_2core_8hpp.html#ae0590079d690450b883ee08675054406">tlx_die_verbose_if</a>(X, msg)</td></tr>
+<tr class="memdesc:ae0590079d690450b883ee08675054406"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check condition X and die miserably if false.  <a href="#ae0590079d690450b883ee08675054406">More...</a><br/></td></tr>
+<tr class="separator:ae0590079d690450b883ee08675054406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61bc809e512300fb132a80e2c066b361"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="die_2core_8hpp.html#a61bc809e512300fb132a80e2c066b361">tlx_die_unequal</a>(X, Y)</td></tr>
 <tr class="memdesc:a61bc809e512300fb132a80e2c066b361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that X == Y or die miserably, but output the values of X and Y for better debugging.  <a href="#a61bc809e512300fb132a80e2c066b361">More...</a><br/></td></tr>
 <tr class="separator:a61bc809e512300fb132a80e2c066b361"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,7 +242,7 @@ Functions</h2></td></tr>
 <p>Check that X == Y or die miserably, but output the values of X and Y for better debugging. </p>
 <p>Only active if NDEBUG is not defined. </p>
 
-<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00125">125</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00145">145</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
 
 </div>
 </div>
@@ -267,7 +273,7 @@ Functions</h2></td></tr>
 <p>Die miserably if X == Y, but first output the values of X and Y for better debugging. </p>
 <p>Only active if NDEBUG is not defined. </p>
 
-<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00180">180</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00200">200</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
 
 </div>
 </div>
@@ -317,7 +323,7 @@ Functions</h2></td></tr>
 
 <p>Die miserably if X == Y, but first output the values of X and Y for better debugging. </p>
 
-<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00166">166</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00186">186</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
 
 </div>
 </div>
@@ -368,7 +374,7 @@ Functions</h2></td></tr>
 
 <p>Check that X == Y or die miserably, but output the values of X and Y for better debugging. </p>
 
-<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00111">111</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00131">131</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
 
 </div>
 </div>
@@ -404,7 +410,7 @@ Functions</h2></td></tr>
 
 <p>Check that ABS(X - Y) &lt;= eps or die miserably, but output the values of X and Y for better debugging. </p>
 
-<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00146">146</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00166">166</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
 
 </div>
 </div>
@@ -434,7 +440,7 @@ Functions</h2></td></tr>
 
 <p>Check that ABS(X - Y) &lt;= 0.000001 or die miserably, but output the values of X and Y for better debugging. </p>
 
-<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00158">158</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00178">178</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
 
 </div>
 </div>
@@ -485,7 +491,69 @@ Functions</h2></td></tr>
 
 <p>Define to check that [code] throws and exception of given type. </p>
 
-<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00187">187</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00207">207</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0590079d690450b883ee08675054406"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define tlx_die_verbose_if</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">msg&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check condition X and die miserably if false. </p>
+<p>Same as <a class="el" href="die_2core_8hpp.html#af4884b374a843ce260431fb12591bf9c" title="Check condition X and die miserably if true. ">tlx_die_if()</a> except user additionally pass message. </p>
+
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00094">94</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acb79865d9c065ce2954a04e2f189d21c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define tlx_die_verbose_unless</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">msg&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check condition X and die miserably if false. </p>
+<p>Same as <a class="el" href="die_2core_8hpp.html#ae75b813cfb11a89830e7e7e98dec7ac0" title="Check condition X and die miserably if false. ">tlx_die_unless()</a> except user additionally pass message. </p>
+
+<p>Definition at line <a class="el" href="die_2core_8hpp_source.html#l00084">84</a> of file <a class="el" href="die_2core_8hpp_source.html">core.hpp</a>.</p>
 
 </div>
 </div>
@@ -515,7 +583,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_8b4d4685f7eaf29e53aad23645930303.html">tlx</a></li><li class="navelem"><a class="el" href="dir_9a6008668f7ecf35878ebc6bd2d3ccfa.html">die</a></li><li class="navelem"><a class="el" href="die_2core_8hpp.html">core.hpp</a></li>
-    <li class="footer">Generated on Tue Mar 19 2019 11:59:47 for tlx by
+    <li class="footer">Generated on Tue Mar 19 2019 16:45:40 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
