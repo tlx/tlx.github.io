@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"group__tlx__string.html#ga60e8912db4511738cfdbf3e97ff6dbbf":[1,0,8,47],
 "group__tlx__string.html#ga643fe1eebc35da109f593cdcf068d3af":[1,0,8,71],
 "group__tlx__string.html#ga647f5157d00473cf9bf37c92044bd9a8":[1,0,8,124],
 "group__tlx__string.html#ga691477f59c8496eec65e994ce3f6e6e5":[1,0,8,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "logger_8hpp.html#aea27f4824707b7aa21c0bcb69cd53ffb":[4,0,0,23,6],
 "logger_8hpp.html#af14c6f708bfe284dacf04d7866461a32":[4,0,0,23,5],
 "logger_8hpp_source.html":[4,0,0,23],
-"loser__tree_8hpp.html":[4,0,0,1,7],
-"loser__tree_8hpp_source.html":[4,0,0,1,7]
+"loser__tree_8hpp.html":[4,0,0,1,7]
 };

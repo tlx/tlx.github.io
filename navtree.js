@@ -44,17 +44,17 @@ var NAVTREEINDEX =
 "classtlx_1_1BTree.html#acad38d52497a975bfb6f2f6acd76631f",
 "classtlx_1_1CountingPtr.html#ad6277c1f8e890e06484c1a1bdfb7d091",
 "classtlx_1_1LruCacheSet.html",
-"classtlx_1_1SplayTree.html#a6ecddb2c44556b7acbc1723a968ff8bb",
-"classtlx_1_1btree__multiset.html#a52e57d8d7e32f6d5a56227a8d1f899cf",
-"classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#ab1ea0d0b34186344e696af6e8a6d04fa",
-"die_2core_8hpp.html#a6834365ccbbe0995d597d91cb16ac05c",
-"functions_vars_b.html",
-"group__tlx__container__loser__tree.html#gad6f8a9e3078ec4056859079611e2ce2b",
-"group__tlx__string.html#ga643fe1eebc35da109f593cdcf068d3af",
-"lru__cache_8hpp.html",
-"replace_8cpp.html#gadfe9c066393585d1a769cbd55e9f9960",
-"strings_8hpp.html#gaad1b4b054b20f4b88dd0b91248468f58",
-"tlx_counting_ptr.html"
+"classtlx_1_1SplayTree.html#a5fcd1d6596f61b9e49335d4c1d492150",
+"classtlx_1_1btree__multiset.html#a503ab01f6c0142145d3434f6924714e7",
+"classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#ab19466b8f894ad2c15b353cc1d452f10",
+"die_2core_8hpp.html#a634b1d594ee64649689c4644fb491641",
+"functions_vars.html",
+"group__tlx__container__loser__tree.html#gabc941e5da1b62a3a51230e5782e39dd0",
+"group__tlx__string.html#ga60e8912db4511738cfdbf3e97ff6dbbf",
+"loser__tree_8hpp_source.html",
+"replace_8cpp.html#gadd5bd9f9a887fa20b4a8ebaf987fd5de",
+"strings_8hpp.html#ga9def4a694058c1ace9ef256836dbf1a9",
+"thread__pool_8hpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

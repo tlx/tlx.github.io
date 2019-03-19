@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"strings_8hpp.html#ga9def4a694058c1ace9ef256836dbf1a9":[4,0,0,9,2,16],
 "strings_8hpp.html#gaad1b4b054b20f4b88dd0b91248468f58":[4,0,0,9,2,18],
 "strings_8hpp.html#gac9cb052088e328767ce41b2aaac3d68a":[4,0,0,9,2,6],
 "strings_8hpp.html#gae8d988c92bbd0175da1f22ba751cf703":[4,0,0,9,2,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#aedcae4d8e904e2d63ffe8284dad177ac":[3,0,0,7,4,6],
 "thread__pool_8cpp.html":[4,0,0,33],
 "thread__pool_8cpp_source.html":[4,0,0,33],
-"thread__pool_8hpp.html":[4,0,0,34],
-"thread__pool_8hpp_source.html":[4,0,0,34]
+"thread__pool_8hpp.html":[4,0,0,34]
 };
