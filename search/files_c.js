@@ -8,5 +8,6 @@ var searchData=
   ['ring_5fbuffer_2ehpp',['ring_buffer.hpp',['../ring__buffer_8hpp.html',1,'']]],
   ['rol_2ehpp',['rol.hpp',['../rol_8hpp.html',1,'']]],
   ['ror_2ehpp',['ror.hpp',['../ror_8hpp.html',1,'']]],
-  ['round_5fto_5fpower_5fof_5ftwo_2ehpp',['round_to_power_of_two.hpp',['../round__to__power__of__two_8hpp.html',1,'']]]
+  ['round_5fto_5fpower_5fof_5ftwo_2ehpp',['round_to_power_of_two.hpp',['../round__to__power__of__two_8hpp.html',1,'']]],
+  ['round_5fup_2ehpp',['round_up.hpp',['../round__up_8hpp.html',1,'']]]
 ];

@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"string__set_8hpp.html":[4,0,0,9,0,4],
+"string__set_8hpp.html#a846d1081bb4d43b383e8a0897207b4e3":[4,0,0,9,0,4,9],
+"string__set_8hpp.html#a85c7b63d45582425267fd73c508797ad":[4,0,0,9,0,4,10],
+"string__set_8hpp.html#ac7f3c8e688b9c563bdbad2854e565c39":[4,0,0,9,0,4,11],
 "string__set_8hpp.html#aeca5156de1a7513cc3ae5b19d5aa2d5f":[4,0,0,9,0,4,12],
 "string__set_8hpp_source.html":[4,0,0,9,0,4],
 "strings_8hpp.html":[4,0,0,9,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html#a99e1e03e7f30b3abc597ac42644107ef":[3,0,0,7,2,1],
 "structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html#ac835b295530a73b1c787453d02da777c":[3,0,0,7,2,4],
 "structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html#aedcae4d8e904e2d63ffe8284dad177ac":[3,0,0,7,2,5],
-"structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html":[3,0,0,7,3],
-"structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html#a103fe1fcacccda7d9cdacde44721faef":[3,0,0,7,3,5],
-"structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html#a12f855aa9b9d43da788e743bbc8e1009":[3,0,0,7,3,0],
-"structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html#a2d66f99064dba57ca68e2eb11a8148ca":[3,0,0,7,3,2],
-"structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html#a5438a597ee291f523ae04a9fe355924f":[3,0,0,7,3,6]
+"structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html":[3,0,0,7,3]
 };
