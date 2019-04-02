@@ -48,7 +48,7 @@ var group__tlx__string =
     [ "extract_between", "group__tlx__string.html#gae1ac1e43a5ae269bdbe594c4f4f4a325", null ],
     [ "extract_between", "group__tlx__string.html#gaf0c6e73d346e3deda660b2eb24b06c67", null ],
     [ "extract_between", "group__tlx__string.html#gab3a44aaf97230d79b6aac046331240d3", null ],
-    [ "format_iec_units", "group__tlx__string.html#ga937bd46650d317c28df7c7723ae84119", null ],
+    [ "format_iec_units", "group__tlx__string.html#ga4023795b9c95238093b2d612d5a4ee6a", null ],
     [ "format_si_units", "group__tlx__string.html#ga084c15f3eff7d1eb6018d00779486013", null ],
     [ "hexdump", "group__tlx__string.html#gab4c0ada9ff7b0d905361e60050316899", null ],
     [ "hexdump", "group__tlx__string.html#gaa0757bf9871dc4e2526ab48e4cde28e1", null ],

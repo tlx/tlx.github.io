@@ -28,7 +28,7 @@ var searchData=
   ['fold_5fright_5ftuple',['fold_right_tuple',['../group__tlx__meta.html#ga4e169ed1c415649bc1cd112cf59f56f4',1,'tlx']]],
   ['fold_5fright_5ftuple_5fimpl',['fold_right_tuple_impl',['../namespacetlx_1_1meta__detail.html#ab26081b50310489e2f2913e82c9cbddf',1,'tlx::meta_detail']]],
   ['fold_5fstack',['fold_stack',['../classtlx_1_1FunctionStack.html#af0bc060d9a25b5b470cd237b6dde786d',1,'tlx::FunctionStack']]],
-  ['format_5fiec_5funits',['format_iec_units',['../group__tlx__string.html#ga937bd46650d317c28df7c7723ae84119',1,'tlx']]],
+  ['format_5fiec_5funits',['format_iec_units',['../group__tlx__string.html#ga4023795b9c95238093b2d612d5a4ee6a',1,'tlx']]],
   ['format_5fsi_5funits',['format_si_units',['../group__tlx__string.html#ga084c15f3eff7d1eb6018d00779486013',1,'tlx']]],
   ['free_5fnode',['free_node',['../classtlx_1_1BTree.html#a12d054d5f2dfa6c0d777e2ceb7e4f89d',1,'tlx::BTree']]],
   ['front',['front',['../classtlx_1_1RingBuffer.html#aa688f5c7b1552245701b0d16d6b95ec6',1,'tlx::RingBuffer::front() noexcept'],['../classtlx_1_1RingBuffer.html#af6ce9aca34b12f7e9794186afdbd8025',1,'tlx::RingBuffer::front() const noexcept']]],

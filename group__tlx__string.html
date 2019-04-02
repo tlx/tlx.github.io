@@ -227,12 +227,12 @@ Functions</h2></td></tr>
 <tr class="memitem:gab3a44aaf97230d79b6aac046331240d3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#gab3a44aaf97230d79b6aac046331240d3">extract_between</a> (const std::string &amp;str, const std::string &amp;sep1, const std::string &amp;sep2)</td></tr>
 <tr class="memdesc:gab3a44aaf97230d79b6aac046331240d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search the string for given start and end separators and extract all characters between the both, if they are found.  <a href="#gab3a44aaf97230d79b6aac046331240d3">More...</a><br/></td></tr>
 <tr class="separator:gab3a44aaf97230d79b6aac046331240d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4023795b9c95238093b2d612d5a4ee6a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga4023795b9c95238093b2d612d5a4ee6a">format_iec_units</a> (uint64_t number, int precision=3)</td></tr>
+<tr class="memdesc:ga4023795b9c95238093b2d612d5a4ee6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a byte size using IEC (Ki, Mi, Gi, Ti) suffixes (powers of two).  <a href="#ga4023795b9c95238093b2d612d5a4ee6a">More...</a><br/></td></tr>
+<tr class="separator:ga4023795b9c95238093b2d612d5a4ee6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga084c15f3eff7d1eb6018d00779486013"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga084c15f3eff7d1eb6018d00779486013">format_si_units</a> (uint64_t number, int precision)</td></tr>
 <tr class="memdesc:ga084c15f3eff7d1eb6018d00779486013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format number as something like 1 TB.  <a href="#ga084c15f3eff7d1eb6018d00779486013">More...</a><br/></td></tr>
 <tr class="separator:ga084c15f3eff7d1eb6018d00779486013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga937bd46650d317c28df7c7723ae84119"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga937bd46650d317c28df7c7723ae84119">format_iec_units</a> (uint64_t number, int precision)</td></tr>
-<tr class="memdesc:ga937bd46650d317c28df7c7723ae84119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format number as something like 1 TiB.  <a href="#ga937bd46650d317c28df7c7723ae84119">More...</a><br/></td></tr>
-<tr class="separator:ga937bd46650d317c28df7c7723ae84119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga15b290439811d07e8fc0a6134c4faa0b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga15b290439811d07e8fc0a6134c4faa0b">index_of</a> (const std::vector&lt; std::string &gt; &amp;list, const char *str)</td></tr>
 <tr class="memdesc:ga15b290439811d07e8fc0a6134c4faa0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to find str in the list and return the index.  <a href="#ga15b290439811d07e8fc0a6134c4faa0b">More...</a><br/></td></tr>
 <tr class="separator:ga15b290439811d07e8fc0a6134c4faa0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1844,7 +1844,7 @@ Trim</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ga937bd46650d317c28df7c7723ae84119"></a>
+<a class="anchor" id="ga4023795b9c95238093b2d612d5a4ee6a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1868,8 +1868,8 @@ Trim</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Format number as something like 1 TiB. </p>
-<p>Format a byte size using IEC (Ki, Mi, Gi, Ti) suffixes (powers of two).</p>
+<p>Format a byte size using IEC (Ki, Mi, Gi, Ti) suffixes (powers of two). </p>
+<p>Format number as something like 1 TiB.</p>
 <p>Returns "123 Ki" or similar. </p>
 
 <p>Definition at line <a class="el" href="format__si__iec__units_8cpp_source.html#l00038">38</a> of file <a class="el" href="format__si__iec__units_8cpp_source.html">format_si_iec_units.cpp</a>.</p>
@@ -6025,7 +6025,7 @@ Trim</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 19 2019 17:29:55 for tlx by
+    <li class="footer">Generated on Tue Apr 2 2019 16:35:26 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

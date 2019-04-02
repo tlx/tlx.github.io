@@ -48,13 +48,13 @@ var NAVTREEINDEX =
 "classtlx_1_1btree__multiset.html#a503ab01f6c0142145d3434f6924714e7",
 "classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#ab19466b8f894ad2c15b353cc1d452f10",
 "die_2core_8hpp.html#a634b1d594ee64649689c4644fb491641",
-"functions_type_n.html",
-"group__tlx__container__loser__tree.html#gaa21e87c8b88d7759ff4af8841c89afe8",
-"group__tlx__string.html#ga4aa7e0fb9bd81e31214087d3d85367a3",
-"logger_2core_8hpp_source.html",
-"replace_8cpp.html#ga4865798a465a43845804dda0fe21f888",
-"strings_8hpp.html#ga40b8f9a52bf035dad46bf6c51612ed10",
-"structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#a0411cd49bb5b71852cecd93bcbf0ca2da9a4084441c1568887684a4e6acc91948"
+"functions_type_j.html",
+"group__tlx__container__loser__tree.html#ga9217936c23da221160951da2e74ea714",
+"group__tlx__string.html#ga42a656ed3586b515140cb71b312f0f9b",
+"logger_2core_8hpp.html#adedb84eac5406763b057241ca6e441c2",
+"replace_8cpp.html#ga0d7d14badd05473e5a5c847b3f91b9e9",
+"string__set_8hpp.html#aeca5156de1a7513cc3ae5b19d5aa2d5f",
+"structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html#a6067cda4e2f5ad851b9172e11925b777"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
