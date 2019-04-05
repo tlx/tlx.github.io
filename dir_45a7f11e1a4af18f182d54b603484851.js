@@ -26,6 +26,8 @@ var dir_45a7f11e1a4af18f182d54b603484851 =
     [ "format_si_iec_units.cpp", "format__si__iec__units_8cpp.html", "format__si__iec__units_8cpp" ],
     [ "format_si_iec_units.hpp", "format__si__iec__units_8hpp.html", null ],
     [ "format_si_units.hpp", "format__si__units_8hpp.html", "format__si__units_8hpp" ],
+    [ "hash_djb2.hpp", "hash__djb2_8hpp.html", "hash__djb2_8hpp" ],
+    [ "hash_sdbm.hpp", "hash__sdbm_8hpp.html", "hash__sdbm_8hpp" ],
     [ "hexdump.cpp", "hexdump_8cpp.html", "hexdump_8cpp" ],
     [ "hexdump.hpp", "hexdump_8hpp.html", "hexdump_8hpp" ],
     [ "index_of.cpp", "index__of_8cpp.html", "index__of_8cpp" ],
