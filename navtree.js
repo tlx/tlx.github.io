@@ -48,13 +48,13 @@ var NAVTREEINDEX =
 "classtlx_1_1btree__multiset.html#a503ab01f6c0142145d3434f6924714e7",
 "classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#ab19466b8f894ad2c15b353cc1d452f10",
 "die_2core_8hpp.html#a634b1d594ee64649689c4644fb491641",
-"functions_type_j.html",
-"group__tlx__container__loser__tree.html#ga9217936c23da221160951da2e74ea714",
-"group__tlx__string.html#ga4023795b9c95238093b2d612d5a4ee6a",
-"levenshtein_8hpp.html#ga0d20af010f11fab72744484ef67e00b6",
-"popcount_8hpp.html#gafe8cb953b2abbc624cfb1b3736a8e8ae",
-"ssprintf__generic_8hpp.html#ga1cc4f715331a96631370a8a25d6e9526",
-"structtlx_1_1sort__strings__detail_1_1RadixStep__CE0.html#a5438a597ee291f523ae04a9fe355924f"
+"functions_type.html",
+"group__tlx__container__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d",
+"group__tlx__string.html#ga32d2a706e20d6e5b07cbb677c340deba",
+"less__icase_8cpp.html#ga25e2629353a36fb47c587b4eef89c0d2",
+"parse__si__iec__units_8hpp.html",
+"split__words_8hpp.html#ga92d58b1e8b06cbb57400b5959281a4a1",
+"structtlx_1_1meta__detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html#ad3d79c37facd290e8b68b1f9ac5432e8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
