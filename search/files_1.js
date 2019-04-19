@@ -4,6 +4,8 @@ var searchData=
   ['backtrace_2ehpp',['backtrace.hpp',['../backtrace_8hpp.html',1,'']]],
   ['base64_2ecpp',['base64.cpp',['../base64_8cpp.html',1,'']]],
   ['base64_2ehpp',['base64.hpp',['../base64_8hpp.html',1,'']]],
+  ['bitdump_2ecpp',['bitdump.cpp',['../bitdump_8cpp.html',1,'']]],
+  ['bitdump_2ehpp',['bitdump.hpp',['../bitdump_8hpp.html',1,'']]],
   ['bswap_2ehpp',['bswap.hpp',['../bswap_8hpp.html',1,'']]],
   ['bswap_5fbe_2ehpp',['bswap_be.hpp',['../bswap__be_8hpp.html',1,'']]],
   ['bswap_5fle_2ehpp',['bswap_le.hpp',['../bswap__le_8hpp.html',1,'']]],

@@ -2,6 +2,8 @@ var dir_45a7f11e1a4af18f182d54b603484851 =
 [
     [ "base64.cpp", "base64_8cpp.html", "base64_8cpp" ],
     [ "base64.hpp", "base64_8hpp.html", "base64_8hpp" ],
+    [ "bitdump.cpp", "bitdump_8cpp.html", "bitdump_8cpp" ],
+    [ "bitdump.hpp", "bitdump_8hpp.html", "bitdump_8hpp" ],
     [ "compare_icase.cpp", "compare__icase_8cpp.html", "compare__icase_8cpp" ],
     [ "compare_icase.hpp", "compare__icase_8hpp.html", "compare__icase_8hpp" ],
     [ "contains.cpp", "contains_8cpp.html", "contains_8cpp" ],

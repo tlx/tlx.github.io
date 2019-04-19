@@ -41,20 +41,20 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "abs__diff_8hpp.html",
-"classtlx_1_1BTree.html#acad38d52497a975bfb6f2f6acd76631f",
-"classtlx_1_1CountingPtr.html#ad6277c1f8e890e06484c1a1bdfb7d091",
-"classtlx_1_1LruCacheSet.html",
-"classtlx_1_1SplayTree.html#a5fcd1d6596f61b9e49335d4c1d492150",
-"classtlx_1_1btree__multiset.html#a503ab01f6c0142145d3434f6924714e7",
-"classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#ab19466b8f894ad2c15b353cc1d452f10",
-"die_2core_8hpp.html#a634b1d594ee64649689c4644fb491641",
-"functions_type.html",
-"group__tlx__container__loser__tree.html#ga8238e9afe0b492cfa7c1ec8fb69e078d",
-"group__tlx__string.html#ga32d2a706e20d6e5b07cbb677c340deba",
-"less__icase_8cpp.html#ga25e2629353a36fb47c587b4eef89c0d2",
-"parse__si__iec__units_8hpp.html",
-"split__words_8hpp.html#ga92d58b1e8b06cbb57400b5959281a4a1",
-"structtlx_1_1meta__detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html#ad3d79c37facd290e8b68b1f9ac5432e8"
+"classtlx_1_1BTree.html#aa218c2c89397f8d0484ef9438d540456",
+"classtlx_1_1CountingPtr.html#a63ba3be78142d348a8f2956f3daf6684",
+"classtlx_1_1LruCacheMap.html#a23c2b72c6846b7f00ee6fdff05c7163f",
+"classtlx_1_1SimpleVector.html#ae0da1168fd66f3597f0236b5aa28107c",
+"classtlx_1_1btree__multiset.html#a1ecb3f4f7207bce9f1739d947ce6c241",
+"classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html",
+"deque_8hpp.html",
+"functions_g.html",
+"group__tlx__container__loser__tree.html#ga6a24aff5bbc0b80d7c2b02765406586f",
+"group__tlx__string.html#ga1af0448079469f224ea8905c34dc1868",
+"join_8hpp.html",
+"parallel__mergesort_8hpp.html#ga4aa384ccbe79fdd32a7eec193142781a",
+"split_8hpp.html#ga40222e4ae7f552a3d6f8d485ced3d91d",
+"structtlx_1_1btree__multiset_1_1key__of__value.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
