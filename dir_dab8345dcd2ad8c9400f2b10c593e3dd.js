@@ -15,11 +15,7 @@ var dir_dab8345dcd2ad8c9400f2b10c593e3dd =
     ] ],
     [ "d_ary_addressable_int_heap.hpp", "d__ary__addressable__int__heap_8hpp.html", "d__ary__addressable__int__heap_8hpp" ],
     [ "d_ary_heap.hpp", "d__ary__heap_8hpp.html", "d__ary__heap_8hpp" ],
-    [ "loser_tree.hpp", "loser__tree_8hpp.html", [
-      [ "Loser", "structtlx_1_1LoserTreePointerBase_1_1Loser.html", "structtlx_1_1LoserTreePointerBase_1_1Loser" ],
-      [ "Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser" ],
-      [ "Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser" ]
-    ] ],
+    [ "loser_tree.hpp", "loser__tree_8hpp.html", null ],
     [ "lru_cache.hpp", "lru__cache_8hpp.html", null ],
     [ "radix_heap.hpp", "radix__heap_8hpp.html", "radix__heap_8hpp" ],
     [ "ring_buffer.hpp", "ring__buffer_8hpp.html", null ],

@@ -2,6 +2,7 @@ var searchData=
 [
   ['i',['i',['../uniontlx_1_1StackArena_1_1AlignmentHelper.html#acb559820d9ca11295b4500f179ef6392',1,'tlx::StackArena::AlignmentHelper::i()'],['../namespacetlx_1_1digest__detail.html#aa3cfbd9cfd00b092b135b5ca95725886',1,'tlx::digest_detail::I()']]],
   ['idx',['idx',['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE0.html#a103fe1fcacccda7d9cdacde44721faef',1,'tlx::sort_strings_detail::RadixStep_CE0::idx()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE2.html#a103fe1fcacccda7d9cdacde44721faef',1,'tlx::sort_strings_detail::RadixStep_CE2::idx()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html#a103fe1fcacccda7d9cdacde44721faef',1,'tlx::sort_strings_detail::RadixStep_CE3::idx()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html#a103fe1fcacccda7d9cdacde44721faef',1,'tlx::sort_strings_detail::RadixStep_CI2::idx()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#a103fe1fcacccda7d9cdacde44721faef',1,'tlx::sort_strings_detail::RadixStep_CI3::idx()']]],
+  ['if',['if',['../CMakeLists_8txt.html#aaf310dbe0a23f23cc0928f0a248a19d9',1,'CMakeLists.txt']]],
   ['ii',['II',['../namespacetlx_1_1digest__detail.html#a74c6b6fb059939bfa2095de04ba21063',1,'tlx::digest_detail']]],
   ['ik_5f',['ik_',['../group__tlx__container__loser__tree.html#gae685674ee260e306f6c7f3b82dd46834',1,'tlx::LoserTreeCopyBase::ik_()'],['../group__tlx__container__loser__tree.html#gae685674ee260e306f6c7f3b82dd46834',1,'tlx::LoserTreePointerBase::ik_()'],['../group__tlx__container__loser__tree.html#ga06f92e08a8d3b2fe95a11b3100222e98',1,'tlx::LoserTreeCopyUnguardedBase::ik_()'],['../group__tlx__container__loser__tree.html#ga06f92e08a8d3b2fe95a11b3100222e98',1,'tlx::LoserTreePointerUnguardedBase::ik_()']]],
   ['impl_5f',['impl_',['../classtlx_1_1radix__heap__detail_1_1BitArray.html#ab369a1c319d4e82511b5950532c0e259',1,'tlx::radix_heap_detail::BitArray']]],
@@ -64,7 +65,7 @@ var searchData=
   ['is_5fstd_5fpair_3c_20std_3a_3apair_3c_20s_2c_20t_20_3e_20_3e',['is_std_pair&lt; std::pair&lt; S, T &gt; &gt;',['../structtlx_1_1is__std__pair_3_01std_1_1pair_3_01S_00_01T_01_4_01_4.html',1,'tlx']]],
   ['is_5fstd_5ftuple',['is_std_tuple',['../structtlx_1_1is__std__tuple.html',1,'tlx']]],
   ['is_5fstd_5ftuple_2ehpp',['is_std_tuple.hpp',['../is__std__tuple_8hpp.html',1,'']]],
-  ['is_5fstd_5ftuple_3c_20std_3a_3atuple_3c_20ts_2e_2e_2e_3e_20_3e',['is_std_tuple&lt; std::tuple&lt; Ts...&gt; &gt;',['../structtlx_1_1is__std__tuple_3_01std_1_1tuple_3_01Ts_8_8_8_4_01_4.html',1,'tlx']]],
+  ['is_5fstd_5ftuple_3c_20std_3a_3atuple_3c_20ts_2e_2e_2e_20_3e_20_3e',['is_std_tuple&lt; std::tuple&lt; Ts... &gt; &gt;',['../structtlx_1_1is__std__tuple_3_01std_1_1tuple_3_01Ts_8_8_8_01_4_01_4.html',1,'tlx']]],
   ['is_5fstd_5fvector',['is_std_vector',['../structtlx_1_1is__std__vector.html',1,'tlx']]],
   ['is_5fstd_5fvector_2ehpp',['is_std_vector.hpp',['../is__std__vector_8hpp.html',1,'']]],
   ['is_5fstd_5fvector_3c_20std_3a_3avector_3c_20t_20_3e_20_3e',['is_std_vector&lt; std::vector&lt; T &gt; &gt;',['../structtlx_1_1is__std__vector_3_01std_1_1vector_3_01T_01_4_01_4.html',1,'tlx']]],

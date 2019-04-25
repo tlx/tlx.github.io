@@ -19,7 +19,7 @@ var dir_9ec9e9a7bcf6c1b34f6e098c23b43be1 =
     ] ],
     [ "tuple.hpp", "tuple_8hpp.html", [
       [ "LoggerTupleFormatter", "classtlx_1_1LoggerTupleFormatter.html", "classtlx_1_1LoggerTupleFormatter" ],
-      [ "LoggerFormatter< std::tuple< Args...> >", "classtlx_1_1LoggerFormatter_3_01std_1_1tuple_3_01Args_8_8_8_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1tuple_3_01Args_8_8_8_4_01_4" ],
+      [ "LoggerFormatter< std::tuple< Args... > >", "classtlx_1_1LoggerFormatter_3_01std_1_1tuple_3_01Args_8_8_8_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1tuple_3_01Args_8_8_8_01_4_01_4" ],
       [ "LoggerFormatter< std::tuple<> >", "classtlx_1_1LoggerFormatter_3_01std_1_1tuple_3_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1tuple_3_4_01_4" ]
     ] ],
     [ "unordered_map.hpp", "unordered__map_8hpp.html", [

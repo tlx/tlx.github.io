@@ -77,8 +77,8 @@ var hierarchy =
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::iterator", "classtlx_1_1BTree_1_1iterator.html", null ],
     [ "btree_map< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", null ],
     [ "btree_set< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", null ],
-    [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
     [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", null ],
+    [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
     [ "LevenshteinStandardICaseParameters", "structtlx_1_1LevenshteinStandardICaseParameters.html", null ],
     [ "LevenshteinStandardParameters", "structtlx_1_1LevenshteinStandardParameters.html", null ],
     [ "Log2< Input >", "classtlx_1_1Log2.html", null ],
@@ -97,7 +97,7 @@ var hierarchy =
     [ "LoggerFormatter< std::multiset< T, C, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1multiset_3_01T_00_01C_00_01A_01_4_01_4.html", null ],
     [ "LoggerFormatter< std::pair< A, B > >", "classtlx_1_1LoggerFormatter_3_01std_1_1pair_3_01A_00_01B_01_4_01_4.html", null ],
     [ "LoggerFormatter< std::set< T, C, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1set_3_01T_00_01C_00_01A_01_4_01_4.html", null ],
-    [ "LoggerFormatter< std::tuple< Args...> >", "classtlx_1_1LoggerFormatter_3_01std_1_1tuple_3_01Args_8_8_8_4_01_4.html", null ],
+    [ "LoggerFormatter< std::tuple< Args... > >", "classtlx_1_1LoggerFormatter_3_01std_1_1tuple_3_01Args_8_8_8_01_4_01_4.html", null ],
     [ "LoggerFormatter< std::tuple<> >", "classtlx_1_1LoggerFormatter_3_01std_1_1tuple_3_4_01_4.html", null ],
     [ "LoggerFormatter< std::unordered_map< K, V, H, E, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__map_3_01K_00_01V_00_01H_00_01E_00_01A_01_4_01_4.html", null ],
     [ "LoggerFormatter< std::unordered_multimap< K, V, H, E, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__multimap_3_01K_00_01V_00_01H_00_01E_00_01A_01_4_01_4.html", null ],
@@ -105,7 +105,8 @@ var hierarchy =
     [ "LoggerFormatter< std::unordered_set< T, H, E, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__set_3_01T_00_01H_00_01E_00_01A_01_4_01_4.html", null ],
     [ "LoggerFormatter< std::vector< T, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1vector_3_01T_00_01A_01_4_01_4.html", null ],
     [ "LoggerOutputHook", "classtlx_1_1LoggerOutputHook.html", [
-      [ "DefaultLoggerOutput", "classtlx_1_1DefaultLoggerOutput.html", null ],
+      [ "DefaultLoggerOutputCErr", "classtlx_1_1DefaultLoggerOutputCErr.html", null ],
+      [ "DefaultLoggerOutputCOut", "classtlx_1_1DefaultLoggerOutputCOut.html", null ],
       [ "LoggerCollectOutput", "classtlx_1_1LoggerCollectOutput.html", null ]
     ] ],
     [ "LoggerPrefixHook", "classtlx_1_1LoggerPrefixHook.html", null ],
@@ -135,7 +136,7 @@ var hierarchy =
     [ "LruCacheMap< Key, Value, Alloc >", "classtlx_1_1LruCacheMap.html", null ],
     [ "LruCacheSet< Key, Alloc >", "classtlx_1_1LruCacheSet.html", null ],
     [ "make_index_sequence_helper< CurrentIndex, Indexes >", "structtlx_1_1meta__detail_1_1make__index__sequence__helper.html", null ],
-    [ "make_index_sequence_helper< 0, Indexes...>", "structtlx_1_1meta__detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_4.html", null ],
+    [ "make_index_sequence_helper< 0, Indexes... >", "structtlx_1_1meta__detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_01_4.html", null ],
     [ "MD5", "classtlx_1_1MD5.html", null ],
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::node", "structtlx_1_1BTree_1_1node.html", [
       [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::InnerNode", "structtlx_1_1BTree_1_1InnerNode.html", null ],
@@ -206,7 +207,7 @@ var hierarchy =
       [ "Delegate< R(A...), Allocator >::IsMemberPair< MemberPair< C > >", "structtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4_1_1IsMemberPair_3_01MemberPair_3_01C_01_4_01_4.html", null ],
       [ "is_std_array< std::array< T, N > >", "structtlx_1_1is__std__array_3_01std_1_1array_3_01T_00_01N_01_4_01_4.html", null ],
       [ "is_std_pair< std::pair< S, T > >", "structtlx_1_1is__std__pair_3_01std_1_1pair_3_01S_00_01T_01_4_01_4.html", null ],
-      [ "is_std_tuple< std::tuple< Ts...> >", "structtlx_1_1is__std__tuple_3_01std_1_1tuple_3_01Ts_8_8_8_4_01_4.html", null ],
+      [ "is_std_tuple< std::tuple< Ts... > >", "structtlx_1_1is__std__tuple_3_01std_1_1tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
       [ "is_std_vector< std::vector< T > >", "structtlx_1_1is__std__vector_3_01std_1_1vector_3_01T_01_4_01_4.html", null ]
     ] ],
     [ "type", null, [

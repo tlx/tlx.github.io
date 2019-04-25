@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['s_5fdefault_5flogger',['s_default_logger',['../namespacetlx.html#a241ff102af8805b7bbd03a8c80a04861',1,'tlx']]],
+  ['s_5fdefault_5flogger_5fcerr',['s_default_logger_cerr',['../namespacetlx.html#a30118484a60ca2ede4cf0fe139ce8492',1,'tlx']]],
+  ['s_5fdefault_5flogger_5fcout',['s_default_logger_cout',['../namespacetlx.html#a69bbed173aa8becd81930ff5478f80d8',1,'tlx']]],
   ['s_5fdie_5fwith_5fexception',['s_die_with_exception',['../namespacetlx.html#a60940290b9c3ca9e978cd30dca38d8c8',1,'tlx']]],
   ['s_5flogger_5foutput_5fhook',['s_logger_output_hook',['../namespacetlx.html#a043e222f2e520d8002dd4e31b3696edd',1,'tlx']]],
   ['s_5flogger_5fprefix_5fhook',['s_logger_prefix_hook',['../namespacetlx.html#ab8c3ea0e853bc0db7e475dce0c2912de',1,'tlx']]],
