@@ -9,5 +9,6 @@ var searchData=
   ['parse_5fsi_5fiec_5funits_2ehpp',['parse_si_iec_units.hpp',['../parse__si__iec__units_8hpp.html',1,'']]],
   ['polynomial_5fregression_2ehpp',['polynomial_regression.hpp',['../polynomial__regression_8hpp.html',1,'']]],
   ['popcount_2ehpp',['popcount.hpp',['../popcount_8hpp.html',1,'']]],
-  ['port_2ehpp',['port.hpp',['../port_8hpp.html',1,'']]]
+  ['port_2ehpp',['port.hpp',['../port_8hpp.html',1,'']]],
+  ['power_5fto_5fthe_2ehpp',['power_to_the.hpp',['../power__to__the_8hpp.html',1,'']]]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"group__tlx__string.html#ga0d57e8e6ac19e94787bf3cd44a79c1fe":[1,0,8,119],
 "group__tlx__string.html#ga0d7d14badd05473e5a5c847b3f91b9e9":[1,0,8,100],
 "group__tlx__string.html#ga0e53bb43043cc4fdf6fef5a9f017957c":[1,0,8,85],
 "group__tlx__string.html#ga118abe0d4d0cd1d90426121b626aeea9":[1,0,8,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "is__std__pair_8hpp.html":[4,0,0,7,17],
 "is__std__pair_8hpp_source.html":[4,0,0,7,17],
 "is__std__tuple_8hpp.html":[4,0,0,7,18],
-"is__std__tuple_8hpp_source.html":[4,0,0,7,18],
-"is__std__vector_8hpp.html":[4,0,0,7,19]
+"is__std__tuple_8hpp_source.html":[4,0,0,7,18]
 };

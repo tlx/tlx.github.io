@@ -288,6 +288,10 @@ Functions</h2></td></tr>
 <tr class="separator:gae864e24c9d78a352064ad8fceb697e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf3f89a64cdf1d3898582f0df35f5e2a8"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gaf3f89a64cdf1d3898582f0df35f5e2a8">popcount</a> (const void *data, size_t size)</td></tr>
 <tr class="separator:gaf3f89a64cdf1d3898582f0df35f5e2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa229c79302101383f000b3b473009c85"><td class="memTemplParams" colspan="2">template&lt;unsigned D, typename T &gt; </td></tr>
+<tr class="memitem:gaa229c79302101383f000b3b473009c85"><td class="memTemplItemLeft" align="right" valign="top">static constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gaa229c79302101383f000b3b473009c85">power_to_the</a> (T x)</td></tr>
+<tr class="memdesc:gaa229c79302101383f000b3b473009c85"><td class="mdescLeft">&#160;</td><td class="mdescRight">power_to_the&lt;D&gt;(x)  <a href="group__tlx__math.html#gaa229c79302101383f000b3b473009c85">More...</a><br /></td></tr>
+<tr class="separator:gaa229c79302101383f000b3b473009c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6516bdadfc6166cfb0a117d6091fb727"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga6516bdadfc6166cfb0a117d6091fb727">rol32_generic</a> (const uint32_t &amp;x, int i)</td></tr>
 <tr class="memdesc:ga6516bdadfc6166cfb0a117d6091fb727"><td class="mdescLeft">&#160;</td><td class="mdescRight">rol32 - generic implementation  <a href="group__tlx__math.html#ga6516bdadfc6166cfb0a117d6091fb727">More...</a><br /></td></tr>
 <tr class="separator:ga6516bdadfc6166cfb0a117d6091fb727"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1749,6 +1753,35 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="gaa229c79302101383f000b3b473009c85"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr T tlx::power_to_the </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>power_to_the&lt;D&gt;(x) </p>
+<p>returns x raised to the power of D using log(D) explicit multiplications. </p>
+
+<p>Definition at line <a class="el" href="power__to__the_8hpp_source.html#l00030">30</a> of file <a class="el" href="power__to__the_8hpp_source.html">power_to_the.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="gac7415c322c6257a35cfe0d6929c45407"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2479,7 +2512,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Apr 26 2019 17:05:39 for tlx by
+    <li class="footer">Generated on Thu May 2 2019 15:54:03 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

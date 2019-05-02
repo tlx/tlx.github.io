@@ -117,6 +117,7 @@ var group__tlx__math =
     [ "popcount_generic32", "group__tlx__math.html#ga76093e52ae7ebbc456337cecf6be1f49", null ],
     [ "popcount_generic64", "group__tlx__math.html#ga4c47ec108a261f9665d1d078a82ae620", null ],
     [ "popcount_generic8", "group__tlx__math.html#gafe8cb953b2abbc624cfb1b3736a8e8ae", null ],
+    [ "power_to_the", "group__tlx__math.html#gaa229c79302101383f000b3b473009c85", null ],
     [ "rol32", "group__tlx__math.html#gac7415c322c6257a35cfe0d6929c45407", null ],
     [ "rol32_generic", "group__tlx__math.html#ga6516bdadfc6166cfb0a117d6091fb727", null ],
     [ "rol64", "group__tlx__math.html#gae43c4e90fb93555810dc0a04364a6796", null ],
