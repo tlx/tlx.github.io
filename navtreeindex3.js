@@ -1,5 +1,15 @@
 var NAVTREEINDEX3 =
 {
+"classtlx_1_1LruCacheMap.html":[1,0,1,5],
+"classtlx_1_1LruCacheMap.html#a053539fdd3306220459cb942bf95fac5":[1,0,1,5,12],
+"classtlx_1_1LruCacheMap.html#a107cc96d89ec81d940bf78c154c438e8":[1,0,1,5,14],
+"classtlx_1_1LruCacheMap.html#a1841a27fe085783ec68689c2aaeee4be":[1,0,1,5,15],
+"classtlx_1_1LruCacheMap.html#a23c2b72c6846b7f00ee6fdff05c7163f":[1,0,1,5,1],
+"classtlx_1_1LruCacheMap.html#a304db09eec8971de42f666303cc7b62f":[1,0,1,5,16],
+"classtlx_1_1LruCacheMap.html#a31f8f121cf63f76af33efe163c48d0bf":[1,0,1,5,8],
+"classtlx_1_1LruCacheMap.html#a3caedb145a667c26028740417dcf32c3":[1,0,1,5,13],
+"classtlx_1_1LruCacheMap.html#a3f99800022cfebd038a6ce06a1f99942":[1,0,1,5,0],
+"classtlx_1_1LruCacheMap.html#a43fb3c51c8d13749ab2218dcf8d8bb55":[1,0,1,5,10],
 "classtlx_1_1LruCacheMap.html#a4fab7ceecac490f309109aee103889c5":[1,0,1,5,9],
 "classtlx_1_1LruCacheMap.html#a750112449c7928f1bbc169db7a33bfd9":[1,0,1,5,17],
 "classtlx_1_1LruCacheMap.html#a861aef812bb830b05ff98b11bbb184be":[1,0,1,5,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX3 =
 "classtlx_1_1SimpleVector.html#aa27a8ef64101c26846279dddb64e625b":[1,0,1,8,28],
 "classtlx_1_1SimpleVector.html#aab6af54d683011c8da699fd13cf22b56":[1,0,1,8,24],
 "classtlx_1_1SimpleVector.html#ab1137da269e66589b98fce3416d40502":[1,0,1,8,1],
-"classtlx_1_1SimpleVector.html#abc56793ed0b88c80827df33461f38edc":[1,0,1,8,9],
-"classtlx_1_1SimpleVector.html#abeb76f7f3414f270020e6f467586bd93":[1,0,1,8,13],
-"classtlx_1_1SimpleVector.html#ac394c37f6cc648bfe3c348800f839ffd":[1,0,1,8,8],
-"classtlx_1_1SimpleVector.html#ad517750b1a85b1790f354ad2aac7e588":[1,0,1,8,0],
-"classtlx_1_1SimpleVector.html#ad9f416360dff7b1d24063c8fa7b22174":[1,0,1,8,10],
-"classtlx_1_1SimpleVector.html#ae0da1168fd66f3597f0236b5aa28107c":[1,0,1,8,22],
-"classtlx_1_1SimpleVector.html#af5bb6579266664efe61f1369ab0a02e3":[1,0,1,8,18],
-"classtlx_1_1SimpleVector.html#afc5380afa64b233d0df01a147616974b":[1,0,1,8,19],
-"classtlx_1_1SpacingLogger.html":[3,0,0,96],
-"classtlx_1_1SpacingLogger.html#a1986190d5042b6b1e00e65fd7c5562e2":[3,0,0,96,0],
-"classtlx_1_1SpacingLogger.html#aa184fabd856fc0190c1f552fcc3f4143":[3,0,0,96,3]
+"classtlx_1_1SimpleVector.html#abc56793ed0b88c80827df33461f38edc":[1,0,1,8,9]
 };

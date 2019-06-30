@@ -11,6 +11,7 @@ var searchData=
   ['hash_5fsdbm_2ehpp',['hash_sdbm.hpp',['../hash__sdbm_8hpp.html',1,'']]],
   ['head_5fleaf_5f',['head_leaf_',['../classtlx_1_1BTree.html#a8d6ac34d80de837a5e6125c932f1c288',1,'tlx::BTree']]],
   ['heap_5f',['heap_',['../classtlx_1_1DAryAddressableIntHeap.html#aceab918c00caa3fe698240e76b4bf316',1,'tlx::DAryAddressableIntHeap::heap_()'],['../classtlx_1_1DAryHeap.html#aceab918c00caa3fe698240e76b4bf316',1,'tlx::DAryHeap::heap_()']]],
+  ['heapify',['heapify',['../classtlx_1_1DAryAddressableIntHeap.html#a9162c75ff16e9a609e708dc61ff0395e',1,'tlx::DAryAddressableIntHeap::heapify()'],['../classtlx_1_1DAryHeap.html#a9162c75ff16e9a609e708dc61ff0395e',1,'tlx::DAryHeap::heapify()']]],
   ['hexdump',['hexdump',['../group__tlx__string.html#gab4c0ada9ff7b0d905361e60050316899',1,'tlx::hexdump(const void *const data, size_t size)'],['../group__tlx__string.html#gaa0757bf9871dc4e2526ab48e4cde28e1',1,'tlx::hexdump(const std::string &amp;str)'],['../group__tlx__string.html#ga15c83e3e2055412b0440758c98b3f148',1,'tlx::hexdump(const std::vector&lt; char &gt; &amp;data)'],['../group__tlx__string.html#ga6c6446ce9a61a434b3a10345cbf3ebed',1,'tlx::hexdump(const std::vector&lt; uint8_t &gt; &amp;data)']]],
   ['hexdump_2ecpp',['hexdump.cpp',['../hexdump_8cpp.html',1,'']]],
   ['hexdump_2ehpp',['hexdump.hpp',['../hexdump_8hpp.html',1,'']]],

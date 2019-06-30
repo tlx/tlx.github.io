@@ -1,5 +1,15 @@
 var NAVTREEINDEX5 =
 {
+"classtlx_1_1btree__multiset.html#a0ab5ce862c0331d9e45a6e1774fca131":[1,0,1,0,4,45],
+"classtlx_1_1btree__multiset.html#a0d3d86d13f26293e1ddcff5569ad1ccb":[1,0,1,0,4,34],
+"classtlx_1_1btree__multiset.html#a15f605ad9ba8d26f0d0f314e21452a36":[1,0,1,0,4,46],
+"classtlx_1_1btree__multiset.html#a1be1cfb6ae3135c01d8e8d8fcfbe0ee8":[1,0,1,0,4,10],
+"classtlx_1_1btree__multiset.html#a1ecb3f4f7207bce9f1739d947ce6c241":[1,0,1,0,4,40],
+"classtlx_1_1btree__multiset.html#a23345bcc88140b212df6acbe628039b9":[1,0,1,0,4,16],
+"classtlx_1_1btree__multiset.html#a31fbffbdf311ce68ec99f0aebab5c0ea":[1,0,1,0,4,44],
+"classtlx_1_1btree__multiset.html#a33c1ee0eb39360edec2a985301b9d631":[1,0,1,0,4,30],
+"classtlx_1_1btree__multiset.html#a350132543d80a1c1e5be844e6d2878ea":[1,0,1,0,4,28],
+"classtlx_1_1btree__multiset.html#a35dc4a1129cbbce38e6b5cf83876518f":[1,0,1,0,4,14],
 "classtlx_1_1btree__multiset.html#a373c61cca9b31735f4548b5b59b70184":[1,0,1,0,4,43],
 "classtlx_1_1btree__multiset.html#a38ffbf220e298d1ee8c79307009cfa00":[1,0,1,0,4,70],
 "classtlx_1_1btree__multiset.html#a39b2ac0d85de6ff743400a274fd85692":[1,0,1,0,4,9],
@@ -239,15 +249,5 @@ var NAVTREEINDEX5 =
 "classtlx_1_1radix__heap__detail_1_1BucketComputation.html#af6c5d146ae306aba020d05a816609562":[3,0,0,5,4,3],
 "classtlx_1_1radix__heap__detail_1_1IntegerRank.html":[3,0,0,5,5],
 "classtlx_1_1radix__heap__detail_1_1IntegerRank.html#a2e59fd6fae8380ad9c5d8cd60e4ffaad":[3,0,0,5,5,3],
-"classtlx_1_1radix__heap__detail_1_1IntegerRank.html#a495b26cf245e2d7a02061f8917057ea3":[3,0,0,5,5,5],
-"classtlx_1_1radix__heap__detail_1_1IntegerRank.html#a748c2c6b25f9be1c8e24f10720afe6e4":[3,0,0,5,5,2],
-"classtlx_1_1radix__heap__detail_1_1IntegerRank.html#a855b3cba567e346caa97e7e37045df44":[3,0,0,5,5,4],
-"classtlx_1_1radix__heap__detail_1_1IntegerRank.html#aa53fbfc1d6544c32602346f9bfc2b32f":[3,0,0,5,5,1],
-"classtlx_1_1radix__heap__detail_1_1IntegerRank.html#ade4dc1b28ceb69a7dd671a3cecab0497":[3,0,0,5,5,0],
-"classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html":[3,0,0,6,0],
-"classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#a004741e0798903868b782eb190a1c565":[3,0,0,6,0,12],
-"classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#a075454f7622ae9e9de90287e22a6b000":[3,0,0,6,0,5],
-"classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#a0c63c83c9158e35e0f5cd96cb4fe4742":[3,0,0,6,0,2],
-"classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#a44463d858e9041cf09799783467240ea":[3,0,0,6,0,10],
-"classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html#a579c5ed5c63c680441d605b5fefe31aa":[3,0,0,6,0,7]
+"classtlx_1_1radix__heap__detail_1_1IntegerRank.html#a495b26cf245e2d7a02061f8917057ea3":[3,0,0,5,5,5]
 };

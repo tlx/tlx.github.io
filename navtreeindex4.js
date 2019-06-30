@@ -1,5 +1,15 @@
 var NAVTREEINDEX4 =
 {
+"classtlx_1_1SimpleVector.html#abeb76f7f3414f270020e6f467586bd93":[1,0,1,8,13],
+"classtlx_1_1SimpleVector.html#ac394c37f6cc648bfe3c348800f839ffd":[1,0,1,8,8],
+"classtlx_1_1SimpleVector.html#ad517750b1a85b1790f354ad2aac7e588":[1,0,1,8,0],
+"classtlx_1_1SimpleVector.html#ad9f416360dff7b1d24063c8fa7b22174":[1,0,1,8,10],
+"classtlx_1_1SimpleVector.html#ae0da1168fd66f3597f0236b5aa28107c":[1,0,1,8,22],
+"classtlx_1_1SimpleVector.html#af5bb6579266664efe61f1369ab0a02e3":[1,0,1,8,18],
+"classtlx_1_1SimpleVector.html#afc5380afa64b233d0df01a147616974b":[1,0,1,8,19],
+"classtlx_1_1SpacingLogger.html":[3,0,0,96],
+"classtlx_1_1SpacingLogger.html#a1986190d5042b6b1e00e65fd7c5562e2":[3,0,0,96,0],
+"classtlx_1_1SpacingLogger.html#aa184fabd856fc0190c1f552fcc3f4143":[3,0,0,96,3],
 "classtlx_1_1SpacingLogger.html#aaf88b9bbbc60505197177b6cee8b90cf":[3,0,0,96,1],
 "classtlx_1_1SpacingLogger.html#acbe8bc75214c441a925eb2ab98ff869d":[3,0,0,96,4],
 "classtlx_1_1SpacingLogger.html#ae7e5cfa398be6efafb1cf9718fb52fb5":[3,0,0,96,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX4 =
 "classtlx_1_1btree__multiset.html#a009237af9bb96dbedc5a72578122a336":[1,0,1,0,4,17],
 "classtlx_1_1btree__multiset.html#a00bce22abcfcd08fde238bf6dd349670":[1,0,1,0,4,2],
 "classtlx_1_1btree__multiset.html#a04886aa70c34d66738e78bf70c675e66":[1,0,1,0,4,54],
-"classtlx_1_1btree__multiset.html#a080458f85e4aefc31cc89767613243df":[1,0,1,0,4,8],
-"classtlx_1_1btree__multiset.html#a0ab5ce862c0331d9e45a6e1774fca131":[1,0,1,0,4,45],
-"classtlx_1_1btree__multiset.html#a0d3d86d13f26293e1ddcff5569ad1ccb":[1,0,1,0,4,34],
-"classtlx_1_1btree__multiset.html#a15f605ad9ba8d26f0d0f314e21452a36":[1,0,1,0,4,46],
-"classtlx_1_1btree__multiset.html#a1be1cfb6ae3135c01d8e8d8fcfbe0ee8":[1,0,1,0,4,10],
-"classtlx_1_1btree__multiset.html#a1ecb3f4f7207bce9f1739d947ce6c241":[1,0,1,0,4,40],
-"classtlx_1_1btree__multiset.html#a23345bcc88140b212df6acbe628039b9":[1,0,1,0,4,16],
-"classtlx_1_1btree__multiset.html#a31fbffbdf311ce68ec99f0aebab5c0ea":[1,0,1,0,4,44],
-"classtlx_1_1btree__multiset.html#a33c1ee0eb39360edec2a985301b9d631":[1,0,1,0,4,30],
-"classtlx_1_1btree__multiset.html#a350132543d80a1c1e5be844e6d2878ea":[1,0,1,0,4,28],
-"classtlx_1_1btree__multiset.html#a35dc4a1129cbbce38e6b5cf83876518f":[1,0,1,0,4,14]
+"classtlx_1_1btree__multiset.html#a080458f85e4aefc31cc89767613243df":[1,0,1,0,4,8]
 };
