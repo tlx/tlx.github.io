@@ -8,6 +8,8 @@ var searchData=
   ['merge_5fadvance_2ehpp',['merge_advance.hpp',['../merge__advance_8hpp.html',1,'']]],
   ['merge_5fcombine_2ehpp',['merge_combine.hpp',['../merge__combine_8hpp.html',1,'']]],
   ['meta_2ehpp',['meta.hpp',['../meta_8hpp.html',1,'']]],
+  ['multi_5ftimer_2ecpp',['multi_timer.cpp',['../multi__timer_8cpp.html',1,'']]],
+  ['multi_5ftimer_2ehpp',['multi_timer.hpp',['../multi__timer_8hpp.html',1,'']]],
   ['multikey_5fquicksort_2ehpp',['multikey_quicksort.hpp',['../multikey__quicksort_8hpp.html',1,'']]],
   ['multisequence_5fpartition_2ehpp',['multisequence_partition.hpp',['../multisequence__partition_8hpp.html',1,'']]],
   ['multisequence_5fselection_2ehpp',['multisequence_selection.hpp',['../multisequence__selection_8hpp.html',1,'']]],

@@ -166,9 +166,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aac782da1f912bceb5d8ad00c8dc892ac"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#aac782da1f912bceb5d8ad00c8dc892ac">size</a> () const </td></tr>
 <tr class="memdesc:aac782da1f912bceb5d8ad00c8dc892ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return number of threads in pool.  <a href="#aac782da1f912bceb5d8ad00c8dc892ac">More...</a><br /></td></tr>
 <tr class="separator:aac782da1f912bceb5d8ad00c8dc892ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f985327d805ba29b03e347335d611d2"><td class="memItemLeft" align="right" valign="top">std::thread &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a4f985327d805ba29b03e347335d611d2">thread</a> (size_t i)</td></tr>
-<tr class="memdesc:a4f985327d805ba29b03e347335d611d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return thread handle to thread i.  <a href="#a4f985327d805ba29b03e347335d611d2">More...</a><br /></td></tr>
-<tr class="separator:a4f985327d805ba29b03e347335d611d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6cbb0b7c86232363d191b804fc553f8"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#ad6cbb0b7c86232363d191b804fc553f8">idle</a> () const </td></tr>
+<tr class="memdesc:ad6cbb0b7c86232363d191b804fc553f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">return number of idle threads in pool  <a href="#ad6cbb0b7c86232363d191b804fc553f8">More...</a><br /></td></tr>
+<tr class="separator:ad6cbb0b7c86232363d191b804fc553f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6604881aa1b3d144c0281d93c0754fb0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a6604881aa1b3d144c0281d93c0754fb0">has_idle</a> () const </td></tr>
+<tr class="memdesc:a6604881aa1b3d144c0281d93c0754fb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if any thread is idle (= waiting for jobs)  <a href="#a6604881aa1b3d144c0281d93c0754fb0">More...</a><br /></td></tr>
+<tr class="separator:a6604881aa1b3d144c0281d93c0754fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1968610812ee4f5905e2abfaa86263ca"><td class="memItemLeft" align="right" valign="top">std::thread &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a1968610812ee4f5905e2abfaa86263ca">thread</a> (size_t i)</td></tr>
+<tr class="memdesc:a1968610812ee4f5905e2abfaa86263ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return thread handle to thread i.  <a href="#a1968610812ee4f5905e2abfaa86263ca">More...</a><br /></td></tr>
+<tr class="separator:a1968610812ee4f5905e2abfaa86263ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -196,6 +202,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a0fae67bd9af7e2f50a8175611aff1b96"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a0fae67bd9af7e2f50a8175611aff1b96">busy_</a></td></tr>
 <tr class="memdesc:a0fae67bd9af7e2f50a8175611aff1b96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for number of threads busy.  <a href="#a0fae67bd9af7e2f50a8175611aff1b96">More...</a><br /></td></tr>
 <tr class="separator:a0fae67bd9af7e2f50a8175611aff1b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a0bb272ed7d2e92f4539827e98e7352"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a0a0bb272ed7d2e92f4539827e98e7352">idle_</a></td></tr>
+<tr class="memdesc:a0a0bb272ed7d2e92f4539827e98e7352"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for number of idle threads waiting for a job.  <a href="#a0a0bb272ed7d2e92f4539827e98e7352">More...</a><br /></td></tr>
+<tr class="separator:a0a0bb272ed7d2e92f4539827e98e7352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18e1ce640131051703d238c31d041f30"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadPool.html#a18e1ce640131051703d238c31d041f30">done_</a></td></tr>
 <tr class="memdesc:a18e1ce640131051703d238c31d041f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counter for total number of jobs executed.  <a href="#a18e1ce640131051703d238c31d041f30">More...</a><br /></td></tr>
 <tr class="separator:a18e1ce640131051703d238c31d041f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -309,9 +318,6 @@ Private Attributes</h2></td></tr>
 <a class="anchor" id="a6ab55ecd45f61789b99e299e1cf679ea"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">size_t done </td>
@@ -320,25 +326,17 @@ Private Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Return number of jobs currently completed. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00126">126</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00064">64</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="ac0197b1301f4bec0f2421cfe41e9435a"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void enqueue </td>
@@ -348,16 +346,49 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>enqueue a Job, the caller must pass in all context using captures. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00107">107</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00036">36</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6604881aa1b3d144c0281d93c0754fb0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool has_idle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>true if any thread is idle (= waiting for jobs) </p>
+
+<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00076">76</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad6cbb0b7c86232363d191b804fc553f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t idle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>return number of idle threads in pool </p>
+
+<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00072">72</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -377,7 +408,7 @@ Private Attributes</h2></td></tr>
 <p>Loop until no more jobs are in the queue AND all threads are idle. </p>
 <p>When this occurs, this method exits, however, the threads remain active. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00036">36</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00042">42</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -396,7 +427,7 @@ Private Attributes</h2></td></tr>
 
 <p>Loop until terminate flag was set. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00042">42</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00048">48</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -429,9 +460,6 @@ Private Attributes</h2></td></tr>
 <a class="anchor" id="aac782da1f912bceb5d8ad00c8dc892ac"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">size_t size </td>
@@ -440,16 +468,11 @@ Private Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Return number of threads in pool. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00129">129</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00068">68</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -469,35 +492,27 @@ Private Attributes</h2></td></tr>
 <p>Terminate thread pool gracefully, wait until currently running jobs finish and then exit. </p>
 <p>This should be called from within one of the enqueue jobs or from an outside thread. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00048">48</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00054">54</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4f985327d805ba29b03e347335d611d2"></a>
+<a class="anchor" id="a1968610812ee4f5905e2abfaa86263ca"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::thread&amp; thread </td>
+          <td class="memname">std::thread &amp; thread </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Return thread handle to thread i. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00132">132</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00080">80</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -524,7 +539,7 @@ Private Attributes</h2></td></tr>
 
 <p>Worker function, one per thread is started. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00058">58</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8cpp_source.html#l00085">85</a> of file <a class="el" href="thread__pool_8cpp_source.html">thread_pool.cpp</a>.</p>
 
 </div>
 </div>
@@ -621,6 +636,30 @@ Private Attributes</h2></td></tr>
 
 <p>Counter for total number of jobs executed. </p>
 
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00090">90</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0a0bb272ed7d2e92f4539827e98e7352"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;size_t&gt; idle_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Counter for number of idle threads waiting for a job. </p>
+
 <p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00088">88</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
@@ -693,7 +732,7 @@ Private Attributes</h2></td></tr>
 
 <p>Flag whether to terminate. </p>
 
-<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00091">91</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__pool_8hpp_source.html#l00093">93</a> of file <a class="el" href="thread__pool_8hpp_source.html">thread_pool.hpp</a>.</p>
 
 </div>
 </div>
@@ -731,7 +770,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1ThreadPool.html">ThreadPool</a></li>
-    <li class="footer">Generated on Sun Jun 30 2019 18:24:04 for tlx by
+    <li class="footer">Generated on Mon Jul 8 2019 21:36:04 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

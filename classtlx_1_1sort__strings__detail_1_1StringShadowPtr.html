@@ -161,13 +161,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a12d0f37cc685663fa9cf85ffb725abe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html">StringShadowPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#a12d0f37cc685663fa9cf85ffb725abe7">flip</a> (size_t offset, size_t sub_size) const </td></tr>
 <tr class="memdesc:a12d0f37cc685663fa9cf85ffb725abe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct a <a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html" title="Objectified string array pointer and shadow pointer array for out-of-place swapping of pointers...">StringShadowPtr</a> object specifying a sub-array with flipping to other array.  <a href="#a12d0f37cc685663fa9cf85ffb725abe7">More...</a><br /></td></tr>
 <tr class="separator:a12d0f37cc685663fa9cf85ffb725abe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8927d611d032dbfdab028c09c21c2578"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html">StringShadowPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#a8927d611d032dbfdab028c09c21c2578">copy_back</a> ()</td></tr>
-<tr class="memdesc:a8927d611d032dbfdab028c09c21c2578"><td class="mdescLeft">&#160;</td><td class="mdescRight">return subarray pointer to n strings in original array, might copy from shadow before returning.  <a href="#a8927d611d032dbfdab028c09c21c2578">More...</a><br /></td></tr>
-<tr class="separator:a8927d611d032dbfdab028c09c21c2578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e9f9d53567962056dd85f922a1ee8e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html">StringShadowPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#a0e9f9d53567962056dd85f922a1ee8e1">copy_back</a> () const </td></tr>
+<tr class="memdesc:a0e9f9d53567962056dd85f922a1ee8e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">return subarray pointer to n strings in original array, might copy from shadow before returning.  <a href="#a0e9f9d53567962056dd85f922a1ee8e1">More...</a><br /></td></tr>
+<tr class="separator:a0e9f9d53567962056dd85f922a1ee8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa96b5a44b81d83f2b43936eec2e6fc0b"><td class="memTemplParams" colspan="2">template&lt;typename LcpType &gt; </td></tr>
 <tr class="memitem:aa96b5a44b81d83f2b43936eec2e6fc0b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#aa96b5a44b81d83f2b43936eec2e6fc0b">set_lcp</a> (size_t, const LcpType &amp;) const </td></tr>
 <tr class="memdesc:aa96b5a44b81d83f2b43936eec2e6fc0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the i-th lcp to v and check its value  <a href="#aa96b5a44b81d83f2b43936eec2e6fc0b">More...</a><br /></td></tr>
 <tr class="separator:aa96b5a44b81d83f2b43936eec2e6fc0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f33be5b42eaa302be1eaca6c33b1899"><td class="memTemplParams" colspan="2">template&lt;typename LcpType &gt; </td></tr>
+<tr class="memitem:a5f33be5b42eaa302be1eaca6c33b1899"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html#a5f33be5b42eaa302be1eaca6c33b1899">fill_lcp</a> (const LcpType &amp;) const </td></tr>
+<tr class="memdesc:a5f33be5b42eaa302be1eaca6c33b1899"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill entire LCP array with v, excluding the first lcp[0] position!  <a href="#a5f33be5b42eaa302be1eaca6c33b1899">More...</a><br /></td></tr>
+<tr class="separator:a5f33be5b42eaa302be1eaca6c33b1899"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -204,7 +208,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00158">158</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00173">173</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -218,7 +222,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00157">157</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00172">172</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -232,7 +236,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00156">156</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00171">171</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -277,7 +281,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>constructor specifying all attributes </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00169">169</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00184">184</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -305,11 +309,11 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>return currently active array </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00174">174</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00189">189</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8927d611d032dbfdab028c09c21c2578"></a>
+<a class="anchor" id="a0e9f9d53567962056dd85f922a1ee8e1"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -320,7 +324,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
           <td class="memname"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html">StringShadowPtr</a> copy_back </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -332,7 +336,35 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>return subarray pointer to n strings in original array, might copy from shadow before returning. </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00204">204</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00219">219</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5f33be5b42eaa302be1eaca6c33b1899"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fill_lcp </td>
+          <td>(</td>
+          <td class="paramtype">const LcpType &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>fill entire LCP array with v, excluding the first lcp[0] position! </p>
+
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00238">238</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -370,7 +402,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>construct a <a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html" title="Objectified string array pointer and shadow pointer array for out-of-place swapping of pointers...">StringShadowPtr</a> object specifying a sub-array with flipping to other array. </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00195">195</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00210">210</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -397,7 +429,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>true if flipped to back array </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00180">180</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00195">195</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -435,7 +467,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>set the i-th lcp to v and check its value </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00219">219</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00234">234</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -462,7 +494,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>return current shadow array </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00177">177</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00192">192</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -489,7 +521,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>return valid length </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00183">183</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00198">198</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -527,7 +559,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>Advance (both) pointers by given offset, return sub-array without flip. </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00186">186</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00201">201</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -552,7 +584,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>strings (front) and temporary shadow (back) array </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00162">162</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00177">177</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -576,7 +608,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>false if active_ is original, true if shadow_ is original </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00165">165</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00180">180</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -598,7 +630,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00162">162</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00177">177</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -622,7 +654,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 
 <p>if we want to save the LCPs </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00215">215</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00230">230</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -635,7 +667,7 @@ class tlx::sort_strings_detail::StringShadowPtr&lt; StringSet_ &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="namespacetlx_1_1sort__strings__detail.html">sort_strings_detail</a></li><li class="navelem"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringShadowPtr.html">StringShadowPtr</a></li>
-    <li class="footer">Generated on Sun Jun 30 2019 18:24:04 for tlx by
+    <li class="footer">Generated on Mon Jul 8 2019 21:36:04 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

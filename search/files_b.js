@@ -5,6 +5,7 @@ var searchData=
   ['parallel_5fmergesort_2ehpp',['parallel_mergesort.hpp',['../parallel__mergesort_8hpp.html',1,'']]],
   ['parallel_5fmultiway_5fmerge_2ecpp',['parallel_multiway_merge.cpp',['../parallel__multiway__merge_8cpp.html',1,'']]],
   ['parallel_5fmultiway_5fmerge_2ehpp',['parallel_multiway_merge.hpp',['../parallel__multiway__merge_8hpp.html',1,'']]],
+  ['parallel_5fsample_5fsort_2ehpp',['parallel_sample_sort.hpp',['../parallel__sample__sort_8hpp.html',1,'']]],
   ['parse_5fsi_5fiec_5funits_2ecpp',['parse_si_iec_units.cpp',['../parse__si__iec__units_8cpp.html',1,'']]],
   ['parse_5fsi_5fiec_5funits_2ehpp',['parse_si_iec_units.hpp',['../parse__si__iec__units_8hpp.html',1,'']]],
   ['polynomial_5fregression_2ehpp',['polynomial_regression.hpp',['../polynomial__regression_8hpp.html',1,'']]],

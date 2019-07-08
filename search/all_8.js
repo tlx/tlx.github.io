@@ -1,7 +1,10 @@
 var searchData=
 [
   ['i',['i',['../uniontlx_1_1StackArena_1_1AlignmentHelper.html#acb559820d9ca11295b4500f179ef6392',1,'tlx::StackArena::AlignmentHelper::i()'],['../namespacetlx_1_1digest__detail.html#aa3cfbd9cfd00b092b135b5ca95725886',1,'tlx::digest_detail::I()']]],
+  ['idle',['idle',['../classtlx_1_1ThreadPool.html#ad6cbb0b7c86232363d191b804fc553f8',1,'tlx::ThreadPool']]],
+  ['idle_5f',['idle_',['../classtlx_1_1ThreadPool.html#a0a0bb272ed7d2e92f4539827e98e7352',1,'tlx::ThreadPool']]],
   ['idx',['idx',['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE0.html#a103fe1fcacccda7d9cdacde44721faef',1,'tlx::sort_strings_detail::RadixStep_CE0::idx()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE2.html#a103fe1fcacccda7d9cdacde44721faef',1,'tlx::sort_strings_detail::RadixStep_CE2::idx()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html#a103fe1fcacccda7d9cdacde44721faef',1,'tlx::sort_strings_detail::RadixStep_CE3::idx()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html#a103fe1fcacccda7d9cdacde44721faef',1,'tlx::sort_strings_detail::RadixStep_CI2::idx()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#a103fe1fcacccda7d9cdacde44721faef',1,'tlx::sort_strings_detail::RadixStep_CI3::idx()']]],
+  ['idx_5f',['idx_',['../classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob_1_1SeqSampleSortStep.html#af2940af5cca1728fffc5eb232188eda2',1,'tlx::sort_strings_detail::PS5SmallsortJob::SeqSampleSortStep::idx_()'],['../classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob_1_1MKQSStep.html#af2940af5cca1728fffc5eb232188eda2',1,'tlx::sort_strings_detail::PS5SmallsortJob::MKQSStep::idx_()']]],
   ['if',['if',['../CMakeLists_8txt.html#aaf310dbe0a23f23cc0928f0a248a19d9',1,'CMakeLists.txt']]],
   ['ii',['II',['../namespacetlx_1_1digest__detail.html#a74c6b6fb059939bfa2095de04ba21063',1,'tlx::digest_detail']]],
   ['ik_5f',['ik_',['../group__tlx__container__loser__tree.html#gae685674ee260e306f6c7f3b82dd46834',1,'tlx::LoserTreeCopyBase::ik_()'],['../group__tlx__container__loser__tree.html#gae685674ee260e306f6c7f3b82dd46834',1,'tlx::LoserTreePointerBase::ik_()'],['../group__tlx__container__loser__tree.html#ga06f92e08a8d3b2fe95a11b3100222e98',1,'tlx::LoserTreeCopyUnguardedBase::ik_()'],['../group__tlx__container__loser__tree.html#ga06f92e08a8d3b2fe95a11b3100222e98',1,'tlx::LoserTreePointerUnguardedBase::ik_()']]],
@@ -33,6 +36,9 @@ var searchData=
   ['insertion_5flimit_5f',['insertion_limit_',['../classtlx_1_1RadixHeap.html#a5fba62a2291bc7c671ec5938a4d530be',1,'tlx::RadixHeap']]],
   ['insertion_5fsort',['insertion_sort',['../namespacetlx_1_1sort__strings__detail.html#a686ae068ee17573dd4567372dced6c9d',1,'tlx::sort_strings_detail::insertion_sort(const StringPtr &amp;strptr, size_t depth, size_t)'],['../namespacetlx_1_1sort__strings__detail.html#af2cc68e6fa0eca74c46df77a443ff103',1,'tlx::sort_strings_detail::insertion_sort(const StringPtr &amp;strptr, size_t depth, size_t)']]],
   ['insertion_5fsort_2ehpp',['insertion_sort.hpp',['../insertion__sort_8hpp.html',1,'']]],
+  ['insertion_5fsort_5fcache',['insertion_sort_cache',['../classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html#a0def63a75f34400b4f72921d311eaa1c',1,'tlx::sort_strings_detail::PS5SmallsortJob']]],
+  ['insertion_5fsort_5fcache_5fblock',['insertion_sort_cache_block',['../classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html#a31afecf344aaae5d58377fbff711fbd0',1,'tlx::sort_strings_detail::PS5SmallsortJob']]],
+  ['inssort_5fthreshold',['inssort_threshold',['../classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html#aacf090630d1cf84f29fb4f5ae9f1e4a4',1,'tlx::sort_strings_detail::PS5ParametersDefault']]],
   ['int_5fat_5frank',['int_at_rank',['../classtlx_1_1radix__heap__detail_1_1IntegerRank.html#a748c2c6b25f9be1c8e24f10720afe6e4',1,'tlx::radix_heap_detail::IntegerRank']]],
   ['int_5ftype',['int_type',['../classtlx_1_1radix__heap__detail_1_1IntegerRank.html#ade4dc1b28ceb69a7dd671a3cecab0497',1,'tlx::radix_heap_detail::IntegerRank']]],
   ['integer_5flog2_2ehpp',['integer_log2.hpp',['../integer__log2_8hpp.html',1,'']]],

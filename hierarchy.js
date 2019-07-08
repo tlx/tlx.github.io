@@ -53,6 +53,7 @@ var hierarchy =
     [ "Delegate< R(A...), Allocator >", "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html", null ],
     [ "enable_if< bool, T >", "structtlx_1_1enable__if.html", null ],
     [ "enable_if< true, T >", "structtlx_1_1enable__if_3_01true_00_01T_01_4.html", null ],
+    [ "MultiTimer::Entry", "structtlx_1_1MultiTimer_1_1Entry.html", null ],
     [ "exception", null, [
       [ "runtime_error", null, [
         [ "DieException", "classtlx_1_1DieException.html", null ]
@@ -76,9 +77,9 @@ var hierarchy =
     [ "IntegerRank< Int >", "classtlx_1_1radix__heap__detail_1_1IntegerRank.html", null ],
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::iterator", "classtlx_1_1BTree_1_1iterator.html", null ],
     [ "btree_map< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__map_1_1key__of__value.html", null ],
-    [ "btree_set< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", null ],
     [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", null ],
     [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
+    [ "btree_set< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", null ],
     [ "LevenshteinStandardICaseParameters", "structtlx_1_1LevenshteinStandardICaseParameters.html", null ],
     [ "LevenshteinStandardParameters", "structtlx_1_1LevenshteinStandardParameters.html", null ],
     [ "Log2< Input >", "classtlx_1_1Log2.html", null ],
@@ -112,10 +113,10 @@ var hierarchy =
     [ "LoggerPrefixHook", "classtlx_1_1LoggerPrefixHook.html", null ],
     [ "LoggerTupleFormatter", "classtlx_1_1LoggerTupleFormatter.html", null ],
     [ "LoggerVoidify", "classtlx_1_1LoggerVoidify.html", null ],
+    [ "LoserTreePointerUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyBase_1_1Loser.html", null ],
     [ "LoserTreePointerBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerBase_1_1Loser.html", null ],
     [ "LoserTreeCopyUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", null ],
-    [ "LoserTreePointerUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyBase< ValueType, Comparator >", "classtlx_1_1LoserTreeCopyBase.html", [
       [ "LoserTreeCopy< Stable, ValueType, Comparator >", "classtlx_1_1LoserTreeCopy.html", null ],
       [ "LoserTreeCopy< true, ValueType, Comparator >", "classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html", null ]
@@ -138,16 +139,27 @@ var hierarchy =
     [ "make_index_sequence_helper< CurrentIndex, Indexes >", "structtlx_1_1meta__detail_1_1make__index__sequence__helper.html", null ],
     [ "make_index_sequence_helper< 0, Indexes... >", "structtlx_1_1meta__detail_1_1make__index__sequence__helper_3_010_00_01Indexes_8_8_8_01_4.html", null ],
     [ "MD5", "classtlx_1_1MD5.html", null ],
+    [ "PS5SmallsortJob< Context, StringPtr, BktSizeType >::MKQSStep", "classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob_1_1MKQSStep.html", null ],
+    [ "MultiTimer", "classtlx_1_1MultiTimer.html", null ],
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::node", "structtlx_1_1BTree_1_1node.html", [
       [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::InnerNode", "structtlx_1_1BTree_1_1InnerNode.html", null ],
       [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::LeafNode", "structtlx_1_1BTree_1_1LeafNode.html", null ]
     ] ],
     [ "SplayTree< Key, Compare, Duplicates, Allocator >::Node", "structtlx_1_1SplayTree_1_1Node.html", null ],
     [ "PairKeyExtract< KeyType, DataType >", "structtlx_1_1radix__heap__detail_1_1PairKeyExtract.html", null ],
+    [ "Parameters", null, [
+      [ "PS5Context< Parameters >", "classtlx_1_1sort__strings__detail_1_1PS5Context.html", null ]
+    ] ],
+    [ "PerfectTreeCalculations< TreeBits >", "structtlx_1_1sort__strings__detail_1_1PerfectTreeCalculations.html", null ],
     [ "PMWMSPiece< DiffType >", "structtlx_1_1parallel__mergesort__detail_1_1PMWMSPiece.html", null ],
     [ "PMWMSSortingData< RandomAccessIterator >", "structtlx_1_1parallel__mergesort__detail_1_1PMWMSSortingData.html", null ],
     [ "PolynomialRegression< Type, WithStore >::Point", "structtlx_1_1PolynomialRegression_1_1Point.html", null ],
     [ "PolynomialRegression< Type, WithStore >", "classtlx_1_1PolynomialRegression.html", null ],
+    [ "PS5ParametersDefault", "classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html", null ],
+    [ "PS5SortStep", "classtlx_1_1sort__strings__detail_1_1PS5SortStep.html", [
+      [ "PS5BigSortStep< Context, StringPtr >", "classtlx_1_1sort__strings__detail_1_1PS5BigSortStep.html", null ],
+      [ "PS5SmallsortJob< Context, StringPtr, BktSizeType >", "classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html", null ]
+    ] ],
     [ "RadixHeap< ValueType, KeyExtract, KeyType, Radix >", "classtlx_1_1RadixHeap.html", null ],
     [ "RadixStep_CE0< StringShadowPtr >", "structtlx_1_1sort__strings__detail_1_1RadixStep__CE0.html", null ],
     [ "RadixStep_CE2< StringShadowPtr >", "structtlx_1_1sort__strings__detail_1_1RadixStep__CE2.html", null ],
@@ -159,7 +171,10 @@ var hierarchy =
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::result_t", "structtlx_1_1BTree_1_1result__t.html", null ],
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::reverse_iterator", "classtlx_1_1BTree_1_1reverse__iterator.html", null ],
     [ "RingBuffer< Type, Allocator >", "classtlx_1_1RingBuffer.html", null ],
+    [ "ScopedMultiTimer", "classtlx_1_1ScopedMultiTimer.html", null ],
+    [ "ScopedMultiTimerSwitch", "classtlx_1_1ScopedMultiTimerSwitch.html", null ],
     [ "Semaphore", "classtlx_1_1Semaphore.html", null ],
+    [ "PS5SmallsortJob< Context, StringPtr, BktSizeType >::SeqSampleSortStep", "classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob_1_1SeqSampleSortStep.html", null ],
     [ "SHA1", "classtlx_1_1SHA1.html", null ],
     [ "SHA256", "classtlx_1_1SHA256.html", null ],
     [ "SHA512", "classtlx_1_1SHA512.html", null ],
@@ -171,10 +186,18 @@ var hierarchy =
     [ "SimpleVector< tlx::LoserTreeCopyUnguardedBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
     [ "SimpleVector< tlx::LoserTreePointerBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
     [ "SimpleVector< tlx::LoserTreePointerUnguardedBase::Loser >", "classtlx_1_1SimpleVector.html", null ],
+    [ "SimpleVector< tlx::SimpleVector< size_t > >", "classtlx_1_1SimpleVector.html", null ],
+    [ "SimpleVector< tlx::SimpleVector< uint16_t > >", "classtlx_1_1SimpleVector.html", null ],
+    [ "SimpleVector< uint8_t >", "classtlx_1_1SimpleVector.html", null ],
     [ "SimpleVector< ValueType * >", "classtlx_1_1SimpleVector.html", null ],
     [ "SimpleVector< ValueType >", "classtlx_1_1SimpleVector.html", null ],
     [ "SpacingLogger", "classtlx_1_1SpacingLogger.html", null ],
     [ "SplayTree< Key, Compare, Duplicates, Allocator >", "classtlx_1_1SplayTree.html", null ],
+    [ "SSClassifyEqualUnroll< key_type, TreeBits >", "classtlx_1_1sort__strings__detail_1_1SSClassifyEqualUnroll.html", null ],
+    [ "SSClassifyTreeCalcUnrollInterleave< key_type, TreeBits, Rollout >", "classtlx_1_1sort__strings__detail_1_1SSClassifyTreeCalcUnrollInterleave.html", null ],
+    [ "SSClassifyTreeUnrollInterleave< key_type, TreeBits, Rollout >", "classtlx_1_1sort__strings__detail_1_1SSClassifyTreeUnrollInterleave.html", null ],
+    [ "SSTreeBuilderLevelOrder< key_type, num_splitters >", "classtlx_1_1sort__strings__detail_1_1SSTreeBuilderLevelOrder.html", null ],
+    [ "SSTreeBuilderPreAndLevelOrder< key_type, num_splitters >", "classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html", null ],
     [ "StackArena< Size >", "classtlx_1_1StackArena.html", null ],
     [ "StaticIndex< Index >", "structtlx_1_1StaticIndex.html", null ],
     [ "StdStringSetTraits", "classtlx_1_1sort__strings__detail_1_1StdStringSetTraits.html", [

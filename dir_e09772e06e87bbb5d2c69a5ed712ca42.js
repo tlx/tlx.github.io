@@ -7,6 +7,7 @@ var dir_e09772e06e87bbb5d2c69a5ed712ca42 =
     [ "bswap_be.hpp", "bswap__be_8hpp.html", null ],
     [ "bswap_le.hpp", "bswap__le_8hpp.html", null ],
     [ "clz.hpp", "clz_8hpp.html", "clz_8hpp" ],
+    [ "ctz.hpp", "ctz_8hpp.html", "ctz_8hpp" ],
     [ "div_ceil.hpp", "div__ceil_8hpp.html", "div__ceil_8hpp" ],
     [ "ffs.hpp", "ffs_8hpp.html", "ffs_8hpp" ],
     [ "integer_log2.hpp", "integer__log2_8hpp.html", "integer__log2_8hpp" ],

@@ -4,8 +4,8 @@ var searchData=
   ['u64',['u64',['../namespacetlx.html#a3f7e2bcbb0b4c338f3c4f6c937cd4234',1,'tlx']]],
   ['ucharstringset',['UCharStringSet',['../namespacetlx_1_1sort__strings__detail.html#aeca5156de1a7513cc3ae5b19d5aa2d5f',1,'tlx::sort_strings_detail']]],
   ['uint_5ftype',['uint_type',['../classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#a1091a5862e5bcd59bd18cf62c75cc088',1,'tlx::radix_heap_detail::BitArrayRecursive&lt; Size, true &gt;']]],
-  ['unguarded_5fiterator',['unguarded_iterator',['../classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html',1,'tlx::multiway_merge_detail']]],
   ['unguarded_5fiterator',['unguarded_iterator',['../classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html#a5f99bf4b86b28107056431c0ac7bffca',1,'tlx::multiway_merge_detail::unguarded_iterator']]],
+  ['unguarded_5fiterator',['unguarded_iterator',['../classtlx_1_1multiway__merge__detail_1_1unguarded__iterator.html',1,'tlx::multiway_merge_detail']]],
   ['unify',['unify',['../classtlx_1_1CountingPtr.html#a28653b45bfba9a4135bc0c5903a45c4e',1,'tlx::CountingPtr']]],
   ['union_5fwords',['union_words',['../group__tlx__string.html#ga39619db78c7e916bff3544fb07cbe462',1,'tlx']]],
   ['union_5fwords_2ecpp',['union_words.cpp',['../union__words_8cpp.html',1,'']]],
@@ -23,5 +23,6 @@ var searchData=
   ['uptrstdstringsettraits',['UPtrStdStringSetTraits',['../classtlx_1_1sort__strings__detail_1_1UPtrStdStringSetTraits.html',1,'tlx::sort_strings_detail']]],
   ['use_5fcount',['use_count',['../classtlx_1_1CountingPtr.html#ae46d062b5d67cd435795dbefe3397cd2',1,'tlx::CountingPtr']]],
   ['use_5fidentity_5f',['use_identity_',['../classtlx_1_1radix__heap__detail_1_1IntegerRank.html#a495b26cf245e2d7a02061f8917057ea3',1,'tlx::radix_heap_detail::IntegerRank']]],
+  ['use_5fonly_5ffirst_5fsortstep',['use_only_first_sortstep',['../classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html#af8f1ba2255bb6d665a1b7d0367d51b58',1,'tlx::sort_strings_detail::PS5ParametersDefault']]],
   ['used',['used',['../classtlx_1_1StackArena.html#ab7ee045430da1e4ada9c2a7075b7f807',1,'tlx::StackArena']]]
 ];

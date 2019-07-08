@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['sample_5fsort_5ftools_2ehpp',['sample_sort_tools.hpp',['../sample__sort__tools_8hpp.html',1,'']]],
   ['semaphore_2ehpp',['semaphore.hpp',['../semaphore_8hpp.html',1,'']]],
   ['set_2ehpp',['set.hpp',['../set_8hpp.html',1,'']]],
   ['setenv_2ecpp',['setenv.cpp',['../setenv_8cpp.html',1,'']]],
@@ -32,5 +33,6 @@ var searchData=
   ['string_2ehpp',['string.hpp',['../string_8hpp.html',1,'']]],
   ['string_5fptr_2ehpp',['string_ptr.hpp',['../string__ptr_8hpp.html',1,'']]],
   ['string_5fset_2ehpp',['string_set.hpp',['../string__set_8hpp.html',1,'']]],
-  ['strings_2ehpp',['strings.hpp',['../strings_8hpp.html',1,'']]]
+  ['strings_2ehpp',['strings.hpp',['../strings_8hpp.html',1,'']]],
+  ['strings_5fparallel_2ehpp',['strings_parallel.hpp',['../strings__parallel_8hpp.html',1,'']]]
 ];

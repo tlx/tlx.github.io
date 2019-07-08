@@ -347,6 +347,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1MD5.html">MD5</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">MD-5 processor without external dependencies.  <a href="classtlx_1_1MD5.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1MultiTimer.html">MultiTimer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtlx_1_1MultiTimer.html" title="MultiTimer can be used to measure time usage of different phases in a program or algorithm. ">MultiTimer</a> can be used to measure time usage of different phases in a program or algorithm.  <a href="classtlx_1_1MultiTimer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1PolynomialRegression.html">PolynomialRegression</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the regression polynomial \( a_0+a_1x^1+a_2x^2+\cdots+a_nx^n \) from a list of 2D points.  <a href="classtlx_1_1PolynomialRegression.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -358,6 +361,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html">RingBuffer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A ring (circular) buffer of static (non-growing) size.  <a href="classtlx_1_1RingBuffer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ScopedMultiTimer.html">ScopedMultiTimer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Independent RAII Scoped <a class="el" href="classtlx_1_1MultiTimer.html" title="MultiTimer can be used to measure time usage of different phases in a program or algorithm. ">MultiTimer</a>: contains a <a class="el" href="classtlx_1_1MultiTimer.html" title="MultiTimer can be used to measure time usage of different phases in a program or algorithm. ">MultiTimer</a> which is started with the given timer, and added to the base <a class="el" href="classtlx_1_1MultiTimer.html" title="MultiTimer can be used to measure time usage of different phases in a program or algorithm. ">MultiTimer</a> on destruction.  <a href="classtlx_1_1ScopedMultiTimer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ScopedMultiTimerSwitch.html">ScopedMultiTimerSwitch</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">RAII Scoped <a class="el" href="classtlx_1_1MultiTimer.html" title="MultiTimer can be used to measure time usage of different phases in a program or algorithm. ">MultiTimer</a> switcher: switches the timer of a <a class="el" href="classtlx_1_1MultiTimer.html" title="MultiTimer can be used to measure time usage of different phases in a program or algorithm. ">MultiTimer</a> on construction and back to old one on destruction.  <a href="classtlx_1_1ScopedMultiTimerSwitch.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1Semaphore.html">Semaphore</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple semaphore implementation using C++11 synchronization methods.  <a href="classtlx_1_1Semaphore.html#details">More...</a><br /></td></tr>
@@ -755,6 +764,37 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5238dcacef0a9e044c65271a676f940a"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga5238dcacef0a9e044c65271a676f940a">clz&lt; unsigned long long &gt;</a> (unsigned long long i)</td></tr>
 <tr class="memdesc:ga5238dcacef0a9e044c65271a676f940a"><td class="mdescLeft">&#160;</td><td class="mdescRight">clz (count leading zeros)  <a href="group__tlx__math.html#ga5238dcacef0a9e044c65271a676f940a">More...</a><br /></td></tr>
 <tr class="separator:ga5238dcacef0a9e044c65271a676f940a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3e83c90bffe996d41225466f80f1543c"><td class="memTemplParams" colspan="2">template&lt;typename Integral &gt; </td></tr>
+<tr class="memitem:ga3e83c90bffe996d41225466f80f1543c"><td class="memTemplItemLeft" align="right" valign="top">static unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga3e83c90bffe996d41225466f80f1543c">ctz_template</a> (Integral x)</td></tr>
+<tr class="memdesc:ga3e83c90bffe996d41225466f80f1543c"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctz (count trailing zeros) - generic implementation  <a href="group__tlx__math.html#ga3e83c90bffe996d41225466f80f1543c">More...</a><br /></td></tr>
+<tr class="separator:ga3e83c90bffe996d41225466f80f1543c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac81c84f20d22b569a0aacb4aef70ca2"><td class="memTemplParams" colspan="2">template&lt;typename Integral &gt; </td></tr>
+<tr class="memitem:gaac81c84f20d22b569a0aacb4aef70ca2"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gaac81c84f20d22b569a0aacb4aef70ca2">ctz</a> (Integral x)</td></tr>
+<tr class="separator:gaac81c84f20d22b569a0aacb4aef70ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga809c21b7642d2ed9d04532973e5fc980"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:ga809c21b7642d2ed9d04532973e5fc980"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga809c21b7642d2ed9d04532973e5fc980">ctz&lt; int &gt;</a> (int i)</td></tr>
+<tr class="memdesc:ga809c21b7642d2ed9d04532973e5fc980"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctz (count trailing zeros)  <a href="group__tlx__math.html#ga809c21b7642d2ed9d04532973e5fc980">More...</a><br /></td></tr>
+<tr class="separator:ga809c21b7642d2ed9d04532973e5fc980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafef870f8575e12fabf159b89ca336cfc"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:gafef870f8575e12fabf159b89ca336cfc"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gafef870f8575e12fabf159b89ca336cfc">ctz&lt; unsigned &gt;</a> (unsigned i)</td></tr>
+<tr class="memdesc:gafef870f8575e12fabf159b89ca336cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctz (count trailing zeros)  <a href="group__tlx__math.html#gafef870f8575e12fabf159b89ca336cfc">More...</a><br /></td></tr>
+<tr class="separator:gafef870f8575e12fabf159b89ca336cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0ef6a0eca2c4ce5f66af407bed3f4864"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:ga0ef6a0eca2c4ce5f66af407bed3f4864"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga0ef6a0eca2c4ce5f66af407bed3f4864">ctz&lt; long &gt;</a> (long i)</td></tr>
+<tr class="memdesc:ga0ef6a0eca2c4ce5f66af407bed3f4864"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctz (count trailing zeros)  <a href="group__tlx__math.html#ga0ef6a0eca2c4ce5f66af407bed3f4864">More...</a><br /></td></tr>
+<tr class="separator:ga0ef6a0eca2c4ce5f66af407bed3f4864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38724a98ba0a9096bbf889efedfbe9f6"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:ga38724a98ba0a9096bbf889efedfbe9f6"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga38724a98ba0a9096bbf889efedfbe9f6">ctz&lt; unsigned long &gt;</a> (unsigned long i)</td></tr>
+<tr class="memdesc:ga38724a98ba0a9096bbf889efedfbe9f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctz (count trailing zeros)  <a href="group__tlx__math.html#ga38724a98ba0a9096bbf889efedfbe9f6">More...</a><br /></td></tr>
+<tr class="separator:ga38724a98ba0a9096bbf889efedfbe9f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab9c01c3e6c3755059300dab2b8365e95"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:gab9c01c3e6c3755059300dab2b8365e95"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gab9c01c3e6c3755059300dab2b8365e95">ctz&lt; long long &gt;</a> (long long i)</td></tr>
+<tr class="memdesc:gab9c01c3e6c3755059300dab2b8365e95"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctz (count trailing zeros)  <a href="group__tlx__math.html#gab9c01c3e6c3755059300dab2b8365e95">More...</a><br /></td></tr>
+<tr class="separator:gab9c01c3e6c3755059300dab2b8365e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35f5c8746b9dcecd2184c99266fa1fa9"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:ga35f5c8746b9dcecd2184c99266fa1fa9"><td class="memTemplItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga35f5c8746b9dcecd2184c99266fa1fa9">ctz&lt; unsigned long long &gt;</a> (unsigned long long i)</td></tr>
+<tr class="memdesc:ga35f5c8746b9dcecd2184c99266fa1fa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctz (count trailing zeros)  <a href="group__tlx__math.html#ga35f5c8746b9dcecd2184c99266fa1fa9">More...</a><br /></td></tr>
+<tr class="separator:ga35f5c8746b9dcecd2184c99266fa1fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa901da3e5d75f6e1891f470b1382562e"><td class="memTemplParams" colspan="2">template&lt;typename IntegralN , typename IntegralK &gt; </td></tr>
 <tr class="memitem:gaa901da3e5d75f6e1891f470b1382562e"><td class="memTemplItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#gaa901da3e5d75f6e1891f470b1382562e">div_ceil</a> (const IntegralN &amp;n, const IntegralK &amp;k) -&gt; decltype(n+k)</td></tr>
 <tr class="memdesc:gaa901da3e5d75f6e1891f470b1382562e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate n div k with rounding up, for n and k positive!  <a href="group__tlx__math.html#gaa901da3e5d75f6e1891f470b1382562e">More...</a><br /></td></tr>
@@ -1310,6 +1350,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2d0ada76ddce7fc09d770fa512780839"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga2d0ada76ddce7fc09d770fa512780839">word_wrap</a> (const std::string &amp;str, unsigned int wrap=80)</td></tr>
 <tr class="memdesc:ga2d0ada76ddce7fc09d770fa512780839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to wrap a string to 80 columns without split words.  <a href="group__tlx__string.html#ga2d0ada76ddce7fc09d770fa512780839">More...</a><br /></td></tr>
 <tr class="separator:ga2d0ada76ddce7fc09d770fa512780839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae9556f2da6820a4e4b5f85c4ab229e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a5ae9556f2da6820a4e4b5f85c4ab229e">timestamp</a> ()</td></tr>
+<tr class="memdesc:a5ae9556f2da6820a4e4b5f85c4ab229e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of seconds since the epoch, currently microsecond resolution.  <a href="#a5ae9556f2da6820a4e4b5f85c4ab229e">More...</a><br /></td></tr>
+<tr class="separator:a5ae9556f2da6820a4e4b5f85c4ab229e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a63b398e6678264958fb8590e9332bf"><td class="memTemplParams" colspan="2">template&lt;typename... Types&gt; </td></tr>
 <tr class="memitem:a5a63b398e6678264958fb8590e9332bf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a5a63b398e6678264958fb8590e9332bf">unused</a> (Types &amp;&amp;...)</td></tr>
 <tr class="separator:a5a63b398e6678264958fb8590e9332bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1404,6 +1447,66 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3d4425aaa806ea6ce44e09b6b15b4d12"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga3d4425aaa806ea6ce44e09b6b15b4d12">sort_strings_lcp</a> (std::vector&lt; std::string &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
 <tr class="memdesc:ga3d4425aaa806ea6ce44e09b6b15b4d12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a vector of std::strings in place.  <a href="group__tlx__sort.html#ga3d4425aaa806ea6ce44e09b6b15b4d12">More...</a><br /></td></tr>
 <tr class="separator:ga3d4425aaa806ea6ce44e09b6b15b4d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01d8c1d0d8ebd1260b4b74d81d3e4f4e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga01d8c1d0d8ebd1260b4b74d81d3e4f4e">sort_strings_parallel</a> (unsigned char **strings, size_t size, size_t memory=0)</td></tr>
+<tr class="memdesc:ga01d8c1d0d8ebd1260b4b74d81d3e4f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#ga01d8c1d0d8ebd1260b4b74d81d3e4f4e">More...</a><br /></td></tr>
+<tr class="separator:ga01d8c1d0d8ebd1260b4b74d81d3e4f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9dc6116f75a9ceaf36af593ba9bac288"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga9dc6116f75a9ceaf36af593ba9bac288">sort_strings_parallel</a> (char **strings, size_t size, size_t memory=0)</td></tr>
+<tr class="memdesc:ga9dc6116f75a9ceaf36af593ba9bac288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style char* in place.  <a href="group__tlx__sort.html#ga9dc6116f75a9ceaf36af593ba9bac288">More...</a><br /></td></tr>
+<tr class="separator:ga9dc6116f75a9ceaf36af593ba9bac288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga257ebf3fa7b3fc7a301c6ee88d8cd914"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga257ebf3fa7b3fc7a301c6ee88d8cd914">sort_strings_parallel</a> (const unsigned char **strings, size_t size, size_t memory=0)</td></tr>
+<tr class="memdesc:ga257ebf3fa7b3fc7a301c6ee88d8cd914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#ga257ebf3fa7b3fc7a301c6ee88d8cd914">More...</a><br /></td></tr>
+<tr class="separator:ga257ebf3fa7b3fc7a301c6ee88d8cd914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa842d824076845984fbb47196f6eb3a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gaaa842d824076845984fbb47196f6eb3a">sort_strings_parallel</a> (const char **strings, size_t size, size_t memory=0)</td></tr>
+<tr class="memdesc:gaaa842d824076845984fbb47196f6eb3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style char* in place.  <a href="group__tlx__sort.html#gaaa842d824076845984fbb47196f6eb3a">More...</a><br /></td></tr>
+<tr class="separator:gaaa842d824076845984fbb47196f6eb3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa8e9d501914aca721c13406c34999f03"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gaa8e9d501914aca721c13406c34999f03">sort_strings_parallel</a> (std::vector&lt; char * &gt; &amp;strings, size_t memory=0)</td></tr>
+<tr class="memdesc:gaa8e9d501914aca721c13406c34999f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style char* in place.  <a href="group__tlx__sort.html#gaa8e9d501914aca721c13406c34999f03">More...</a><br /></td></tr>
+<tr class="separator:gaa8e9d501914aca721c13406c34999f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga86b0a544e30ccb7fe137a12e6b64454a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga86b0a544e30ccb7fe137a12e6b64454a">sort_strings_parallel</a> (std::vector&lt; unsigned char * &gt; &amp;strings, size_t memory=0)</td></tr>
+<tr class="memdesc:ga86b0a544e30ccb7fe137a12e6b64454a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#ga86b0a544e30ccb7fe137a12e6b64454a">More...</a><br /></td></tr>
+<tr class="separator:ga86b0a544e30ccb7fe137a12e6b64454a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3af099e9a2411b11fd8f1eefbadabef1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga3af099e9a2411b11fd8f1eefbadabef1">sort_strings_parallel</a> (std::vector&lt; const char * &gt; &amp;strings, size_t memory=0)</td></tr>
+<tr class="memdesc:ga3af099e9a2411b11fd8f1eefbadabef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style char* in place.  <a href="group__tlx__sort.html#ga3af099e9a2411b11fd8f1eefbadabef1">More...</a><br /></td></tr>
+<tr class="separator:ga3af099e9a2411b11fd8f1eefbadabef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga976187fa564f53171efd121611b10100"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga976187fa564f53171efd121611b10100">sort_strings_parallel</a> (std::vector&lt; const unsigned char * &gt; &amp;strings, size_t memory=0)</td></tr>
+<tr class="memdesc:ga976187fa564f53171efd121611b10100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#ga976187fa564f53171efd121611b10100">More...</a><br /></td></tr>
+<tr class="separator:ga976187fa564f53171efd121611b10100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2e1d512a5f7fa852f4bfd8f3cf0a16dc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga2e1d512a5f7fa852f4bfd8f3cf0a16dc">sort_strings_parallel</a> (std::string *strings, size_t size, size_t memory=0)</td></tr>
+<tr class="memdesc:ga2e1d512a5f7fa852f4bfd8f3cf0a16dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of std::strings in place in parallel.  <a href="group__tlx__sort.html#ga2e1d512a5f7fa852f4bfd8f3cf0a16dc">More...</a><br /></td></tr>
+<tr class="separator:ga2e1d512a5f7fa852f4bfd8f3cf0a16dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf103cae75f148a84cec9321975db69cc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gaf103cae75f148a84cec9321975db69cc">sort_strings_parallel</a> (std::vector&lt; std::string &gt; &amp;strings, size_t memory=0)</td></tr>
+<tr class="memdesc:gaf103cae75f148a84cec9321975db69cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a vector of std::strings in place in parallel.  <a href="group__tlx__sort.html#gaf103cae75f148a84cec9321975db69cc">More...</a><br /></td></tr>
+<tr class="separator:gaf103cae75f148a84cec9321975db69cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa2a4a118fe5614e217845fb9203c1faa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gaa2a4a118fe5614e217845fb9203c1faa">sort_strings_parallel_lcp</a> (unsigned char **strings, size_t size, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:gaa2a4a118fe5614e217845fb9203c1faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#gaa2a4a118fe5614e217845fb9203c1faa">More...</a><br /></td></tr>
+<tr class="separator:gaa2a4a118fe5614e217845fb9203c1faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf10a31cd2dc0012c30aee6d9d36d9b67"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gaf10a31cd2dc0012c30aee6d9d36d9b67">sort_strings_parallel_lcp</a> (char **strings, size_t size, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:gaf10a31cd2dc0012c30aee6d9d36d9b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style char* in place.  <a href="group__tlx__sort.html#gaf10a31cd2dc0012c30aee6d9d36d9b67">More...</a><br /></td></tr>
+<tr class="separator:gaf10a31cd2dc0012c30aee6d9d36d9b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f6fdf8dca03ad872def0f4b83c5df22"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga8f6fdf8dca03ad872def0f4b83c5df22">sort_strings_parallel_lcp</a> (const unsigned char **strings, size_t size, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga8f6fdf8dca03ad872def0f4b83c5df22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#ga8f6fdf8dca03ad872def0f4b83c5df22">More...</a><br /></td></tr>
+<tr class="separator:ga8f6fdf8dca03ad872def0f4b83c5df22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01316949c178bf30efc6e0f299a1042d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga01316949c178bf30efc6e0f299a1042d">sort_strings_parallel_lcp</a> (const char **strings, size_t size, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga01316949c178bf30efc6e0f299a1042d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style char* in place.  <a href="group__tlx__sort.html#ga01316949c178bf30efc6e0f299a1042d">More...</a><br /></td></tr>
+<tr class="separator:ga01316949c178bf30efc6e0f299a1042d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11a3494abe397873ccbb17519869d996"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga11a3494abe397873ccbb17519869d996">sort_strings_parallel_lcp</a> (std::vector&lt; char * &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga11a3494abe397873ccbb17519869d996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style char* in place.  <a href="group__tlx__sort.html#ga11a3494abe397873ccbb17519869d996">More...</a><br /></td></tr>
+<tr class="separator:ga11a3494abe397873ccbb17519869d996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4bec949d2b430635c108557b2641d598"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga4bec949d2b430635c108557b2641d598">sort_strings_parallel_lcp</a> (std::vector&lt; unsigned char * &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga4bec949d2b430635c108557b2641d598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#ga4bec949d2b430635c108557b2641d598">More...</a><br /></td></tr>
+<tr class="separator:ga4bec949d2b430635c108557b2641d598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga71636f19f875a1ed1c8ec93616fc2786"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga71636f19f875a1ed1c8ec93616fc2786">sort_strings_parallel_lcp</a> (std::vector&lt; const char * &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga71636f19f875a1ed1c8ec93616fc2786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style char* in place.  <a href="group__tlx__sort.html#ga71636f19f875a1ed1c8ec93616fc2786">More...</a><br /></td></tr>
+<tr class="separator:ga71636f19f875a1ed1c8ec93616fc2786"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac0d3b304937c8bb497c4bb239fa52d94"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gac0d3b304937c8bb497c4bb239fa52d94">sort_strings_parallel_lcp</a> (std::vector&lt; const unsigned char * &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:gac0d3b304937c8bb497c4bb239fa52d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of strings in parallel represented by C-style uint8_t* in place.  <a href="group__tlx__sort.html#gac0d3b304937c8bb497c4bb239fa52d94">More...</a><br /></td></tr>
+<tr class="separator:gac0d3b304937c8bb497c4bb239fa52d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab49ea4abd1127021cdeba45947b193a2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#gab49ea4abd1127021cdeba45947b193a2">sort_strings_parallel_lcp</a> (std::string *strings, size_t size, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:gab49ea4abd1127021cdeba45947b193a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a set of std::strings in place in parallel.  <a href="group__tlx__sort.html#gab49ea4abd1127021cdeba45947b193a2">More...</a><br /></td></tr>
+<tr class="separator:gab49ea4abd1127021cdeba45947b193a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e5a45bfc49abbacd812407d604c65c7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__sort.html#ga0e5a45bfc49abbacd812407d604c65c7">sort_strings_parallel_lcp</a> (std::vector&lt; std::string &gt; &amp;strings, uint32_t *lcp, size_t memory=0)</td></tr>
+<tr class="memdesc:ga0e5a45bfc49abbacd812407d604c65c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort a vector of std::strings in place in parallel.  <a href="group__tlx__sort.html#ga0e5a45bfc49abbacd812407d604c65c7">More...</a><br /></td></tr>
+<tr class="separator:ga0e5a45bfc49abbacd812407d604c65c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Base64 Encoding and Decoding</div></td></tr>
 <tr class="memitem:ga691477f59c8496eec65e994ce3f6e6e5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga691477f59c8496eec65e994ce3f6e6e5">base64_encode</a> (const void *data, size_t size, size_t line_break=0)</td></tr>
 <tr class="memdesc:ga691477f59c8496eec65e994ce3f6e6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encode the given binary data into base64 representation as described in RFC 2045 or RFC 3548.  <a href="group__tlx__string.html#ga691477f59c8496eec65e994ce3f6e6e5">More...</a><br /></td></tr>
@@ -1699,6 +1802,8 @@ Variables</h2></td></tr>
 <tr class="memitem:ab8c3ea0e853bc0db7e475dce0c2912de"><td class="memItemLeft" align="right" valign="top">static std::atomic&lt; <a class="el" href="classtlx_1_1LoggerPrefixHook.html">LoggerPrefixHook</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab8c3ea0e853bc0db7e475dce0c2912de">s_logger_prefix_hook</a></td></tr>
 <tr class="memdesc:ab8c3ea0e853bc0db7e475dce0c2912de"><td class="mdescLeft">&#160;</td><td class="mdescRight">global logger prefix hook  <a href="#ab8c3ea0e853bc0db7e475dce0c2912de">More...</a><br /></td></tr>
 <tr class="separator:ab8c3ea0e853bc0db7e475dce0c2912de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f7675456bd96ef5d5a01b10a9bb444f"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a9f7675456bd96ef5d5a01b10a9bb444f">s_timer_add_mutex</a></td></tr>
+<tr class="separator:a9f7675456bd96ef5d5a01b10a9bb444f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a class="anchor" id="a2c4e023d82bca2172da2f965e3b42b40"></a>
@@ -3001,6 +3106,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5ae9556f2da6820a4e4b5f85c4ab229e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double timestamp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns number of seconds since the epoch, currently microsecond resolution. </p>
+
+<p>Definition at line <a class="el" href="timestamp_8cpp_source.html#l00017">17</a> of file <a class="el" href="timestamp_8cpp_source.html">timestamp.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a5a63b398e6678264958fb8590e9332bf"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3158,13 +3282,35 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9f7675456bd96ef5d5a01b10a9bb444f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex s_timer_add_mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="multi__timer_8cpp_source.html#l00022">22</a> of file <a class="el" href="multi__timer_8cpp_source.html">multi_timer.cpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Sun Jun 30 2019 18:24:04 for tlx by
+    <li class="footer">Generated on Mon Jul 8 2019 21:36:04 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

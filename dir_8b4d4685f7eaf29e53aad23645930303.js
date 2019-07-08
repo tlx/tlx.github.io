@@ -42,6 +42,13 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "logger.hpp", "logger_8hpp.html", "logger_8hpp" ],
     [ "math.hpp", "math_8hpp.html", null ],
     [ "meta.hpp", "meta_8hpp.html", null ],
+    [ "multi_timer.cpp", "multi__timer_8cpp.html", "multi__timer_8cpp" ],
+    [ "multi_timer.hpp", "multi__timer_8hpp.html", [
+      [ "MultiTimer", "classtlx_1_1MultiTimer.html", "classtlx_1_1MultiTimer" ],
+      [ "Entry", "structtlx_1_1MultiTimer_1_1Entry.html", "structtlx_1_1MultiTimer_1_1Entry" ],
+      [ "ScopedMultiTimerSwitch", "classtlx_1_1ScopedMultiTimerSwitch.html", "classtlx_1_1ScopedMultiTimerSwitch" ],
+      [ "ScopedMultiTimer", "classtlx_1_1ScopedMultiTimer.html", "classtlx_1_1ScopedMultiTimer" ]
+    ] ],
     [ "port.hpp", "port_8hpp.html", null ],
     [ "semaphore.hpp", "semaphore_8hpp.html", "semaphore_8hpp" ],
     [ "simple_vector.hpp", "simple__vector_8hpp.html", null ],
@@ -58,6 +65,8 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "thread_pool.hpp", "thread__pool_8hpp.html", [
       [ "ThreadPool", "classtlx_1_1ThreadPool.html", "classtlx_1_1ThreadPool" ]
     ] ],
+    [ "timestamp.cpp", "timestamp_8cpp.html", "timestamp_8cpp" ],
+    [ "timestamp.hpp", "timestamp_8hpp.html", "timestamp_8hpp" ],
     [ "unused.hpp", "unused_8hpp.html", "unused_8hpp" ],
     [ "vector_free.hpp", "vector__free_8hpp.html", "vector__free_8hpp" ],
     [ "version.hpp", "version_8hpp.html", "version_8hpp" ]

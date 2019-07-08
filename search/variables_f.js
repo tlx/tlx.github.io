@@ -1,6 +1,7 @@
 var searchData=
 [
   ['p',['p',['../uniontlx_1_1StackArena_1_1AlignmentHelper.html#a117104b82864d3b23ec174af6d392709',1,'tlx::StackArena::AlignmentHelper']]],
+  ['para_5fss_5fsteps',['para_ss_steps',['../classtlx_1_1sort__strings__detail_1_1PS5Context.html#ae87e771d528a5b6365dc4f28f6b0b309',1,'tlx::sort_strings_detail::PS5Context']]],
   ['parallel_5fmultiway_5fmerge_5fforce_5fparallel',['parallel_multiway_merge_force_parallel',['../group__tlx__algorithm.html#ga8345e9f64e776708ff06090e0480f9ae',1,'tlx']]],
   ['parallel_5fmultiway_5fmerge_5fforce_5fsequential',['parallel_multiway_merge_force_sequential',['../group__tlx__algorithm.html#gaee58bcd5ecf83c8fde2fdfcb4645a91c',1,'tlx']]],
   ['parallel_5fmultiway_5fmerge_5fminimal_5fk',['parallel_multiway_merge_minimal_k',['../group__tlx__algorithm.html#ga3fec55f066eef8bab8e18da604f978f0',1,'tlx']]],
@@ -8,12 +9,17 @@ var searchData=
   ['parallel_5fmultiway_5fmerge_5foversampling',['parallel_multiway_merge_oversampling',['../group__tlx__algorithm.html#ga0a0a9b421b4afc71557597aa03874b4d',1,'tlx']]],
   ['param_5flist_5f',['param_list_',['../classtlx_1_1CmdlineParser.html#a82f067cc288f8abd50470ff6794da04f',1,'tlx::CmdlineParser']]],
   ['param_5fmax_5fwidth_5f',['param_max_width_',['../classtlx_1_1CmdlineParser.html#af3bc88b7e683319e684d3e715ee060eb',1,'tlx::CmdlineParser']]],
+  ['parts_5f',['parts_',['../classtlx_1_1sort__strings__detail_1_1PS5BigSortStep.html#ada87b5bfa9d6a840edce03fa9a5c3b75',1,'tlx::sort_strings_detail::PS5BigSortStep']]],
   ['pf',['pf',['../uniontlx_1_1StackArena_1_1AlignmentHelper.html#a995c03878cdb906a9d85629c02944a7e',1,'tlx::StackArena::AlignmentHelper']]],
   ['pieces',['pieces',['../structtlx_1_1parallel__mergesort__detail_1_1PMWMSSortingData.html#a4cb6ed4aa7f89a146f73153e8a539ab7',1,'tlx::parallel_mergesort_detail::PMWMSSortingData']]],
   ['points_5f',['points_',['../classtlx_1_1PolynomialRegression.html#acd7af4b587ee4a4d6772f6c892e2cb61',1,'tlx::PolynomialRegression']]],
   ['pos',['pos',['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE0.html#a5438a597ee291f523ae04a9fe355924f',1,'tlx::sort_strings_detail::RadixStep_CE0::pos()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE2.html#a5438a597ee291f523ae04a9fe355924f',1,'tlx::sort_strings_detail::RadixStep_CE2::pos()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html#a5438a597ee291f523ae04a9fe355924f',1,'tlx::sort_strings_detail::RadixStep_CE3::pos()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CI2.html#a5438a597ee291f523ae04a9fe355924f',1,'tlx::sort_strings_detail::RadixStep_CI2::pos()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#a5438a597ee291f523ae04a9fe355924f',1,'tlx::sort_strings_detail::RadixStep_CI3::pos()']]],
   ['prev_5fleaf',['prev_leaf',['../structtlx_1_1BTree_1_1LeafNode.html#a90691e279995451280f4542497aa1b60',1,'tlx::BTree::LeafNode']]],
+  ['previous_5f',['previous_',['../classtlx_1_1ScopedMultiTimerSwitch.html#acc19e359670895b374636ea03a1c9931',1,'tlx::ScopedMultiTimerSwitch']]],
   ['program_5fname_5f',['program_name_',['../classtlx_1_1CmdlineParser.html#a46ae7a27b899e9a86ad04807eb1ad34e',1,'tlx::CmdlineParser']]],
   ['ps',['ps',['../uniontlx_1_1StackArena_1_1AlignmentHelper.html#af08f04d47c314c45938909a89c6507d1',1,'tlx::StackArena::AlignmentHelper']]],
-  ['ptr_5f',['ptr_',['../classtlx_1_1CountingPtr.html#aa0957c00054156f1af9fce986cbfcb4f',1,'tlx::CountingPtr::ptr_()'],['../classtlx_1_1StackArena.html#aa5ec38c854291ed98296bd00efbf90ae',1,'tlx::StackArena::ptr_()']]]
+  ['psize_5f',['psize_',['../classtlx_1_1sort__strings__detail_1_1PS5BigSortStep.html#a34e9bd12dede18488623dc2a926d2cfe',1,'tlx::sort_strings_detail::PS5BigSortStep']]],
+  ['pstep_5f',['pstep_',['../classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html#a222adcbcd1c6f70339a553ab19c9f913',1,'tlx::sort_strings_detail::PS5SmallsortJob::pstep_()'],['../classtlx_1_1sort__strings__detail_1_1PS5BigSortStep.html#a222adcbcd1c6f70339a553ab19c9f913',1,'tlx::sort_strings_detail::PS5BigSortStep::pstep_()']]],
+  ['ptr_5f',['ptr_',['../classtlx_1_1CountingPtr.html#aa0957c00054156f1af9fce986cbfcb4f',1,'tlx::CountingPtr::ptr_()'],['../classtlx_1_1StackArena.html#aa5ec38c854291ed98296bd00efbf90ae',1,'tlx::StackArena::ptr_()']]],
+  ['pwork_5f',['pwork_',['../classtlx_1_1sort__strings__detail_1_1PS5BigSortStep.html#a2d398269ef846593c6ef60b778dfb297',1,'tlx::sort_strings_detail::PS5BigSortStep']]]
 ];

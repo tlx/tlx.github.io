@@ -157,6 +157,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa96b5a44b81d83f2b43936eec2e6fc0b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringPtr.html#aa96b5a44b81d83f2b43936eec2e6fc0b">set_lcp</a> (size_t, const LcpType &amp;) const </td></tr>
 <tr class="memdesc:aa96b5a44b81d83f2b43936eec2e6fc0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the i-th lcp to v and check its value  <a href="#aa96b5a44b81d83f2b43936eec2e6fc0b">More...</a><br /></td></tr>
 <tr class="separator:aa96b5a44b81d83f2b43936eec2e6fc0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f33be5b42eaa302be1eaca6c33b1899"><td class="memTemplParams" colspan="2">template&lt;typename LcpType &gt; </td></tr>
+<tr class="memitem:a5f33be5b42eaa302be1eaca6c33b1899"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringPtr.html#a5f33be5b42eaa302be1eaca6c33b1899">fill_lcp</a> (const LcpType &amp;) const </td></tr>
+<tr class="memdesc:a5f33be5b42eaa302be1eaca6c33b1899"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill entire LCP array with v, excluding the first lcp[0] position!  <a href="#a5f33be5b42eaa302be1eaca6c33b1899">More...</a><br /></td></tr>
+<tr class="separator:a5f33be5b42eaa302be1eaca6c33b1899"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aaf221d507bb4bcf5c8f73a69d98f92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringPtr.html#a07642b61274e495654fd7eaad5c1777d">WithShadow</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringPtr.html#a0aaf221d507bb4bcf5c8f73a69d98f92">add_shadow</a> (const <a class="el" href="classtlx_1_1sort__strings__detail_1_1StringPtr.html#a2144738c8745385c77c3c630807a734a">StringSet</a> &amp;shadow) const </td></tr>
 <tr class="memdesc:a0aaf221d507bb4bcf5c8f73a69d98f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct objectified string and shadow pointer class  <a href="#a0aaf221d507bb4bcf5c8f73a69d98f92">More...</a><br /></td></tr>
 <tr class="separator:a0aaf221d507bb4bcf5c8f73a69d98f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,7 +225,7 @@ class tlx::sort_strings_detail::StringPtr&lt; StringSet_ &gt;</h3>
 
 <p>objectified string and shadow pointer class </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00082">82</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00086">86</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -298,7 +302,35 @@ class tlx::sort_strings_detail::StringPtr&lt; StringSet_ &gt;</h3>
 
 <p>construct objectified string and shadow pointer class </p>
 
-<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00313">313</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00343">343</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5f33be5b42eaa302be1eaca6c33b1899"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fill_lcp </td>
+          <td>(</td>
+          <td class="paramtype">const LcpType &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>fill entire LCP array with v, excluding the first lcp[0] position! </p>
+
+<p>Definition at line <a class="el" href="string__ptr_8hpp_source.html#l00083">83</a> of file <a class="el" href="string__ptr_8hpp_source.html">string_ptr.hpp</a>.</p>
 
 </div>
 </div>
@@ -463,7 +495,7 @@ class tlx::sort_strings_detail::StringPtr&lt; StringSet_ &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="namespacetlx_1_1sort__strings__detail.html">sort_strings_detail</a></li><li class="navelem"><a class="el" href="classtlx_1_1sort__strings__detail_1_1StringPtr.html">StringPtr</a></li>
-    <li class="footer">Generated on Sun Jun 30 2019 18:24:04 for tlx by
+    <li class="footer">Generated on Mon Jul 8 2019 21:36:04 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
