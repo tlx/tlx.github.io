@@ -1,0 +1,2 @@
+/home/travis/build/tlx/tlx/tlx/sort/parallel_mergesort.hpp:121: warning: The following parameters of tlx::parallel_mergesort_detail::parallel_sort_mwms_pu(PMWMSSortingData< RandomAccessIterator > *sd, size_t iam, size_t num_threads, ThreadBarrierMutex &barrier, Comparator &comp, MultiwayMergeSplittingAlgorithm mwmsa) are not documented:
+  parameter 'barrier'

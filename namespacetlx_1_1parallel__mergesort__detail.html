@@ -134,10 +134,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a500637883c17b2e5a7d7865fe1d62765"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1parallel__mergesort__detail.html#a500637883c17b2e5a7d7865fe1d62765">determine_samples</a> (<a class="el" href="structtlx_1_1parallel__mergesort__detail_1_1PMWMSSortingData.html">PMWMSSortingData</a>&lt; RandomAccessIterator &gt; *sd, DiffType &amp;num_samples, size_t iam, size_t num_threads)</td></tr>
 <tr class="memdesc:a500637883c17b2e5a7d7865fe1d62765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select samples from a sequence.  <a href="#a500637883c17b2e5a7d7865fe1d62765">More...</a><br /></td></tr>
 <tr class="separator:a500637883c17b2e5a7d7865fe1d62765"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a991c870cb0098ee2f62bf18993d676c8"><td class="memTemplParams" colspan="2">template&lt;bool Stable, typename RandomAccessIterator , typename Comparator &gt; </td></tr>
-<tr class="memitem:a991c870cb0098ee2f62bf18993d676c8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1parallel__mergesort__detail.html#a991c870cb0098ee2f62bf18993d676c8">parallel_sort_mwms_pu</a> (<a class="el" href="structtlx_1_1parallel__mergesort__detail_1_1PMWMSSortingData.html">PMWMSSortingData</a>&lt; RandomAccessIterator &gt; *sd, size_t iam, size_t num_threads, Comparator &amp;comp, <a class="el" href="group__tlx__algorithm.html#ga8a7342a22bda2a80ef56d779ceae36c0">MultiwayMergeSplittingAlgorithm</a> mwmsa)</td></tr>
-<tr class="memdesc:a991c870cb0098ee2f62bf18993d676c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">PMWMS code executed by each thread.  <a href="#a991c870cb0098ee2f62bf18993d676c8">More...</a><br /></td></tr>
-<tr class="separator:a991c870cb0098ee2f62bf18993d676c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21ab59882cca5203ebf94cf562b5f346"><td class="memTemplParams" colspan="2">template&lt;bool Stable, typename RandomAccessIterator , typename Comparator &gt; </td></tr>
+<tr class="memitem:a21ab59882cca5203ebf94cf562b5f346"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx_1_1parallel__mergesort__detail.html#a21ab59882cca5203ebf94cf562b5f346">parallel_sort_mwms_pu</a> (<a class="el" href="structtlx_1_1parallel__mergesort__detail_1_1PMWMSSortingData.html">PMWMSSortingData</a>&lt; RandomAccessIterator &gt; *sd, size_t iam, size_t num_threads, <a class="el" href="classtlx_1_1ThreadBarrierMutex.html">ThreadBarrierMutex</a> &amp;barrier, Comparator &amp;comp, <a class="el" href="group__tlx__algorithm.html#ga8a7342a22bda2a80ef56d779ceae36c0">MultiwayMergeSplittingAlgorithm</a> mwmsa)</td></tr>
+<tr class="memdesc:a21ab59882cca5203ebf94cf562b5f346"><td class="mdescLeft">&#160;</td><td class="mdescRight">PMWMS code executed by each thread.  <a href="#a21ab59882cca5203ebf94cf562b5f346">More...</a><br /></td></tr>
+<tr class="separator:a21ab59882cca5203ebf94cf562b5f346"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a500637883c17b2e5a7d7865fe1d62765"></a>
@@ -187,11 +187,11 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="parallel__mergesort_8hpp_source.html#l00092">92</a> of file <a class="el" href="parallel__mergesort_8hpp_source.html">parallel_mergesort.hpp</a>.</p>
+<p>Definition at line <a class="el" href="parallel__mergesort_8hpp_source.html#l00095">95</a> of file <a class="el" href="parallel__mergesort_8hpp_source.html">parallel_mergesort.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a991c870cb0098ee2f62bf18993d676c8"></a>
+<a class="anchor" id="a21ab59882cca5203ebf94cf562b5f346"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -212,6 +212,12 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>num_threads</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1ThreadBarrierMutex.html">ThreadBarrierMutex</a> &amp;&#160;</td>
+          <td class="paramname"><em>barrier</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -245,7 +251,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="parallel__mergesort_8hpp_source.html#l00117">117</a> of file <a class="el" href="parallel__mergesort_8hpp_source.html">parallel_mergesort.hpp</a>.</p>
+<p>Definition at line <a class="el" href="parallel__mergesort_8hpp_source.html#l00121">121</a> of file <a class="el" href="parallel__mergesort_8hpp_source.html">parallel_mergesort.hpp</a>.</p>
 
 </div>
 </div>
@@ -255,7 +261,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="namespacetlx_1_1parallel__mergesort__detail.html">parallel_mergesort_detail</a></li>
-    <li class="footer">Generated on Wed Jul 17 2019 15:14:04 for tlx by
+    <li class="footer">Generated on Wed Jul 17 2019 20:37:48 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
