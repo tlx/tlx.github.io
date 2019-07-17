@@ -88,6 +88,8 @@ var namespacetlx =
     [ "make_index_sequence", "structtlx_1_1make__index__sequence.html", null ],
     [ "MD5", "classtlx_1_1MD5.html", "classtlx_1_1MD5" ],
     [ "MultiTimer", "classtlx_1_1MultiTimer.html", "classtlx_1_1MultiTimer" ],
+    [ "NoOperation", "classtlx_1_1NoOperation.html", "classtlx_1_1NoOperation" ],
+    [ "NoOperation< void >", "classtlx_1_1NoOperation_3_01void_01_4.html", "classtlx_1_1NoOperation_3_01void_01_4" ],
     [ "PolynomialRegression", "classtlx_1_1PolynomialRegression.html", "classtlx_1_1PolynomialRegression" ],
     [ "RadixHeap", "classtlx_1_1RadixHeap.html", "classtlx_1_1RadixHeap" ],
     [ "ReferenceCounter", "classtlx_1_1ReferenceCounter.html", "classtlx_1_1ReferenceCounter" ],
@@ -104,5 +106,6 @@ var namespacetlx =
     [ "StackAllocator", "classtlx_1_1StackAllocator.html", "classtlx_1_1StackAllocator" ],
     [ "StackArena", "classtlx_1_1StackArena.html", "classtlx_1_1StackArena" ],
     [ "StaticIndex", "structtlx_1_1StaticIndex.html", "structtlx_1_1StaticIndex" ],
+    [ "ThreadBarrierMutex", "classtlx_1_1ThreadBarrierMutex.html", "classtlx_1_1ThreadBarrierMutex" ],
     [ "ThreadPool", "classtlx_1_1ThreadPool.html", "classtlx_1_1ThreadPool" ]
 ];

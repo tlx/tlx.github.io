@@ -113,10 +113,10 @@ var hierarchy =
     [ "LoggerPrefixHook", "classtlx_1_1LoggerPrefixHook.html", null ],
     [ "LoggerTupleFormatter", "classtlx_1_1LoggerTupleFormatter.html", null ],
     [ "LoggerVoidify", "classtlx_1_1LoggerVoidify.html", null ],
-    [ "LoserTreePointerUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyBase_1_1Loser.html", null ],
     [ "LoserTreePointerBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerBase_1_1Loser.html", null ],
     [ "LoserTreeCopyUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", null ],
+    [ "LoserTreePointerUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyBase< ValueType, Comparator >", "classtlx_1_1LoserTreeCopyBase.html", [
       [ "LoserTreeCopy< Stable, ValueType, Comparator >", "classtlx_1_1LoserTreeCopy.html", null ],
       [ "LoserTreeCopy< true, ValueType, Comparator >", "classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html", null ]
@@ -146,6 +146,8 @@ var hierarchy =
       [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::LeafNode", "structtlx_1_1BTree_1_1LeafNode.html", null ]
     ] ],
     [ "SplayTree< Key, Compare, Duplicates, Allocator >::Node", "structtlx_1_1SplayTree_1_1Node.html", null ],
+    [ "NoOperation< ReturnType >", "classtlx_1_1NoOperation.html", null ],
+    [ "NoOperation< void >", "classtlx_1_1NoOperation_3_01void_01_4.html", null ],
     [ "PairKeyExtract< KeyType, DataType >", "structtlx_1_1radix__heap__detail_1_1PairKeyExtract.html", null ],
     [ "Parameters", null, [
       [ "PS5Context< Parameters >", "classtlx_1_1sort__strings__detail_1_1PS5Context.html", null ]
@@ -223,6 +225,7 @@ var hierarchy =
     [ "StringSuffixSetTraits", "classtlx_1_1sort__strings__detail_1_1StringSuffixSetTraits.html", [
       [ "StringSuffixSet", "classtlx_1_1sort__strings__detail_1_1StringSuffixSet.html", null ]
     ] ],
+    [ "ThreadBarrierMutex", "classtlx_1_1ThreadBarrierMutex.html", null ],
     [ "ThreadPool", "classtlx_1_1ThreadPool.html", null ],
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::tree_stats", "structtlx_1_1BTree_1_1tree__stats.html", null ],
     [ "true_type", null, [

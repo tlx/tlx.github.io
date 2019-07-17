@@ -1,13 +1,15 @@
 var searchData=
 [
-  ['radix_5fheap_2ehpp',['radix_heap.hpp',['../radix__heap_8hpp.html',1,'']]],
-  ['radix_5fsort_2ehpp',['radix_sort.hpp',['../radix__sort_8hpp.html',1,'']]],
-  ['random_5fbipartition_5fshuffle_2ehpp',['random_bipartition_shuffle.hpp',['../random__bipartition__shuffle_8hpp.html',1,'']]],
-  ['replace_2ecpp',['replace.cpp',['../replace_8cpp.html',1,'']]],
-  ['replace_2ehpp',['replace.hpp',['../replace_8hpp.html',1,'']]],
-  ['ring_5fbuffer_2ehpp',['ring_buffer.hpp',['../ring__buffer_8hpp.html',1,'']]],
-  ['rol_2ehpp',['rol.hpp',['../rol_8hpp.html',1,'']]],
-  ['ror_2ehpp',['ror.hpp',['../ror_8hpp.html',1,'']]],
-  ['round_5fto_5fpower_5fof_5ftwo_2ehpp',['round_to_power_of_two.hpp',['../round__to__power__of__two_8hpp.html',1,'']]],
-  ['round_5fup_2ehpp',['round_up.hpp',['../round__up_8hpp.html',1,'']]]
+  ['pad_2ecpp',['pad.cpp',['../pad_8cpp.html',1,'']]],
+  ['pad_2ehpp',['pad.hpp',['../pad_8hpp.html',1,'']]],
+  ['parallel_5fmergesort_2ehpp',['parallel_mergesort.hpp',['../parallel__mergesort_8hpp.html',1,'']]],
+  ['parallel_5fmultiway_5fmerge_2ecpp',['parallel_multiway_merge.cpp',['../parallel__multiway__merge_8cpp.html',1,'']]],
+  ['parallel_5fmultiway_5fmerge_2ehpp',['parallel_multiway_merge.hpp',['../parallel__multiway__merge_8hpp.html',1,'']]],
+  ['parallel_5fsample_5fsort_2ehpp',['parallel_sample_sort.hpp',['../parallel__sample__sort_8hpp.html',1,'']]],
+  ['parse_5fsi_5fiec_5funits_2ecpp',['parse_si_iec_units.cpp',['../parse__si__iec__units_8cpp.html',1,'']]],
+  ['parse_5fsi_5fiec_5funits_2ehpp',['parse_si_iec_units.hpp',['../parse__si__iec__units_8hpp.html',1,'']]],
+  ['polynomial_5fregression_2ehpp',['polynomial_regression.hpp',['../polynomial__regression_8hpp.html',1,'']]],
+  ['popcount_2ehpp',['popcount.hpp',['../popcount_8hpp.html',1,'']]],
+  ['port_2ehpp',['port.hpp',['../port_8hpp.html',1,'']]],
+  ['power_5fto_5fthe_2ehpp',['power_to_the.hpp',['../power__to__the_8hpp.html',1,'']]]
 ];

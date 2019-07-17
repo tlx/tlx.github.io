@@ -62,6 +62,14 @@ var group__tlx__meta =
       [ "floor", "classtlx_1_1Log2_3_010_01_4.html#a61dadd085c1777f559549e05962b2c9eaa2cd0f2689920d3196cebb39ef6f9afb", null ],
       [ "ceil", "classtlx_1_1Log2_3_010_01_4.html#a61dadd085c1777f559549e05962b2c9ea767a00e87322d8125073a77598ee1f97", null ]
     ] ],
+    [ "NoOperation", "classtlx_1_1NoOperation.html", [
+      [ "NoOperation", "classtlx_1_1NoOperation.html#afdcb88e0f2e0c3faf3323e6bba1feef3", null ],
+      [ "operator()", "classtlx_1_1NoOperation.html#a63d1b2ce08e2d6b4a6e9536f7c613cab", null ],
+      [ "return_value_", "classtlx_1_1NoOperation.html#ac14548136977a0c5374b7aeab03c324e", null ]
+    ] ],
+    [ "NoOperation< void >", "classtlx_1_1NoOperation_3_01void_01_4.html", [
+      [ "operator()", "classtlx_1_1NoOperation_3_01void_01_4.html#a000676efc35e7d556136c19bd0ce4643", null ]
+    ] ],
     [ "StaticIndex", "structtlx_1_1StaticIndex.html", [
       [ "operator size_t", "structtlx_1_1StaticIndex.html#a71d124e0deb33bacc550df99ab1e5b25", null ],
       [ "index", "structtlx_1_1StaticIndex.html#a5db12ccaeb69abb440e410e47b86d6cf", null ]
