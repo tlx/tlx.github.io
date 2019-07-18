@@ -4,6 +4,7 @@ var searchData=
   ['terminate',['terminate',['../classtlx_1_1ThreadPool.html#a74a45d2648335936561898c390281a6a',1,'tlx::ThreadPool']]],
   ['thread',['thread',['../classtlx_1_1ThreadPool.html#a1968610812ee4f5905e2abfaa86263ca',1,'tlx::ThreadPool']]],
   ['threadbarriermutex',['ThreadBarrierMutex',['../classtlx_1_1ThreadBarrierMutex.html#a88e2d939cb066376dd0bad4fe2eb133a',1,'tlx::ThreadBarrierMutex']]],
+  ['threadbarrierspin',['ThreadBarrierSpin',['../classtlx_1_1ThreadBarrierSpin.html#af7228eb31dcb6e3f0ab09106923e4ef7',1,'tlx::ThreadBarrierSpin']]],
   ['threadpool',['ThreadPool',['../classtlx_1_1ThreadPool.html#a652357386d4c67fe3ae6f36459c501be',1,'tlx::ThreadPool::ThreadPool(size_t num_threads=std::thread::hardware_concurrency())'],['../classtlx_1_1ThreadPool.html#ad6610d680083314d3125628cd00c0348',1,'tlx::ThreadPool::ThreadPool(const ThreadPool &amp;)=delete']]],
   ['timestamp',['timestamp',['../namespacetlx.html#a5ae9556f2da6820a4e4b5f85c4ab229e',1,'tlx']]],
   ['to_5fbinary',['to_binary',['../namespacetlx_1_1sort__strings__detail.html#a7c0d8a218515a77ad2f9e1db9c261a14',1,'tlx::sort_strings_detail']]],

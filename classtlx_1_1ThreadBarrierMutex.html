@@ -136,12 +136,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa7147cff241694bcea94e9b281853624"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadBarrierMutex.html#aa7147cff241694bcea94e9b281853624">wait</a> (Lambda lambda=Lambda())</td></tr>
 <tr class="memdesc:aa7147cff241694bcea94e9b281853624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for n threads to arrive.  <a href="#aa7147cff241694bcea94e9b281853624">More...</a><br /></td></tr>
 <tr class="separator:aa7147cff241694bcea94e9b281853624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a270d3adbb1760835844863485b881700"><td class="memTemplParams" colspan="2">template&lt;typename Lambda  = NoOperation&lt;void&gt;&gt; </td></tr>
+<tr class="memitem:a270d3adbb1760835844863485b881700"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadBarrierMutex.html#a270d3adbb1760835844863485b881700">wait_yield</a> (Lambda lambda=Lambda())</td></tr>
+<tr class="memdesc:a270d3adbb1760835844863485b881700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for n threads to arrive.  <a href="#a270d3adbb1760835844863485b881700">More...</a><br /></td></tr>
+<tr class="separator:a270d3adbb1760835844863485b881700"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef44efce49e2e1c99c00fb249db7db06"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadBarrierMutex.html#aef44efce49e2e1c99c00fb249db7db06">step</a> () const </td></tr>
 <tr class="memdesc:aef44efce49e2e1c99c00fb249db7db06"><td class="mdescLeft">&#160;</td><td class="mdescRight">return generation step bit: 0 or 1  <a href="#aef44efce49e2e1c99c00fb249db7db06">More...</a><br /></td></tr>
 <tr class="separator:aef44efce49e2e1c99c00fb249db7db06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2bb4c2068eec8e98983fa33c5c422fa"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1ThreadBarrierMutex.html#ab2bb4c2068eec8e98983fa33c5c422fa">next_step</a> () const </td></tr>
-<tr class="memdesc:ab2bb4c2068eec8e98983fa33c5c422fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">return next generation step bit: 0 or 1  <a href="#ab2bb4c2068eec8e98983fa33c5c422fa">More...</a><br /></td></tr>
-<tr class="separator:ab2bb4c2068eec8e98983fa33c5c422fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -195,33 +196,6 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab2bb4c2068eec8e98983fa33c5c422fa"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t next_step </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return next generation step bit: 0 or 1 </p>
-
-<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00068">68</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="aef44efce49e2e1c99c00fb249db7db06"></a>
 <div class="memitem">
 <div class="memproto">
@@ -245,7 +219,7 @@ Protected Attributes</h2></td></tr>
 
 <p>return generation step bit: 0 or 1 </p>
 
-<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00063">63</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00076">76</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
 
 </div>
 </div>
@@ -278,6 +252,36 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a270d3adbb1760835844863485b881700"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wait_yield </td>
+          <td>(</td>
+          <td class="paramtype">Lambda&#160;</td>
+          <td class="paramname"><em>lambda</em> = <code>Lambda()</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Waits for n threads to arrive. </p>
+<p>Identical with <a class="el" href="classtlx_1_1ThreadBarrierMutex.html#aa7147cff241694bcea94e9b281853624" title="Waits for n threads to arrive. ">wait()</a> for <a class="el" href="classtlx_1_1ThreadBarrierMutex.html" title="Implements a thread barrier using mutex locking and condition variables that can be used to synchroni...">ThreadBarrierMutex</a>.</p>
+<p>This method blocks and returns as soon as n threads are waiting inside the method. Prior to continuing work, the lambda functor is called by the last thread entering the barrier. </p>
+
+<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00071">71</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="ace7c708f60ad948993b89d44642a4473"></a>
 <div class="memitem">
@@ -299,7 +303,7 @@ Protected Attributes</h2></td></tr>
 
 <p>two counters: switch between them every run. </p>
 
-<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00083">83</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00091">91</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
 
 </div>
 </div>
@@ -323,7 +327,7 @@ Protected Attributes</h2></td></tr>
 
 <p>condition variable everyone waits on for the last thread to signal </p>
 
-<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00080">80</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00088">88</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
 
 </div>
 </div>
@@ -347,7 +351,7 @@ Protected Attributes</h2></td></tr>
 
 <p>mutex to synchronize access to the counters </p>
 
-<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00077">77</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00085">85</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
 
 </div>
 </div>
@@ -371,7 +375,7 @@ Protected Attributes</h2></td></tr>
 
 <p>current counter used. </p>
 
-<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00086">86</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00094">94</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
 
 </div>
 </div>
@@ -395,7 +399,7 @@ Protected Attributes</h2></td></tr>
 
 <p>number of threads </p>
 
-<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00074">74</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
+<p>Definition at line <a class="el" href="thread__barrier__mutex_8hpp_source.html#l00082">82</a> of file <a class="el" href="thread__barrier__mutex_8hpp_source.html">thread_barrier_mutex.hpp</a>.</p>
 
 </div>
 </div>
@@ -408,7 +412,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1ThreadBarrierMutex.html">ThreadBarrierMutex</a></li>
-    <li class="footer">Generated on Wed Jul 17 2019 20:37:48 for tlx by
+    <li class="footer">Generated on Thu Jul 18 2019 03:46:42 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

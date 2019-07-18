@@ -1,5 +1,13 @@
 var NAVTREEINDEX6 =
 {
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#abd15e6eefdc19ba67edbce06dbf4d423":[3,0,0,5,0,7],
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#ac6e61de369e994009e36f344f99c15ad":[3,0,0,5,0,6],
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#ae618a3ecbb0d62500bfff666b12b8afc":[3,0,0,5,0,4],
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#ae8542fe44413919dee9f41ede5a5032d":[3,0,0,5,0,13],
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#af6de922dfe990290da60fa53fc998539":[3,0,0,5,0,1],
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#af83fb508dd2929a7c1a7a9d727049b82":[3,0,0,5,0,3],
+"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive.html":[3,0,0,5,1],
+"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01false_01_4.html":[3,0,0,5,2],
 "classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01false_01_4.html#a06249da24e60482978a23254c0a39180":[3,0,0,5,2,3],
 "classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01false_01_4.html#a0ed749f49711ee5b30e01e7746aaf1b8":[3,0,0,5,2,17],
 "classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01false_01_4.html#a3e0d8920c1a14e078c4b34e4d7f310cc":[3,0,0,5,2,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX6 =
 "classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#ac89205a99719fd29448fd27b95652254":[3,0,0,6,17,7],
 "classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#ad561240a16e3a2ec4db7b79a3ed67f6e":[3,0,0,6,17,6],
 "classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#ae49cf850764e81ee272c5f14d12adbef":[3,0,0,6,17,3],
-"classtlx_1_1sort__strings__detail_1_1StdStringSet.html":[3,0,0,6,18],
-"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a004741e0798903868b782eb190a1c565":[3,0,0,6,18,6],
-"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a13c01787394005e4b531cd1f30a2dc8c":[3,0,0,6,18,11],
-"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a44463d858e9041cf09799783467240ea":[3,0,0,6,18,4],
-"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a60ee5a9193259d72541200ddc0b18fb6":[3,0,0,6,18,1],
-"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a784ac7b1eab2cb9336cd51713e547cbf":[3,0,0,6,18,2],
-"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a7c19587af55f61dbff765ec7e291e583":[3,0,0,6,18,5],
-"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a83c9fd7252c97810a9aaf392e10a00d7":[3,0,0,6,18,3],
-"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#aac25c100e49ff6d34b083ce8916c1d69":[3,0,0,6,18,13]
+"classtlx_1_1sort__strings__detail_1_1StdStringSet.html":[3,0,0,6,18]
 };

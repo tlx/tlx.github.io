@@ -1,5 +1,13 @@
 var NAVTREEINDEX7 =
 {
+"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a004741e0798903868b782eb190a1c565":[3,0,0,6,18,6],
+"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a13c01787394005e4b531cd1f30a2dc8c":[3,0,0,6,18,11],
+"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a44463d858e9041cf09799783467240ea":[3,0,0,6,18,4],
+"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a60ee5a9193259d72541200ddc0b18fb6":[3,0,0,6,18,1],
+"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a784ac7b1eab2cb9336cd51713e547cbf":[3,0,0,6,18,2],
+"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a7c19587af55f61dbff765ec7e291e583":[3,0,0,6,18,5],
+"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#a83c9fd7252c97810a9aaf392e10a00d7":[3,0,0,6,18,3],
+"classtlx_1_1sort__strings__detail_1_1StdStringSet.html#aac25c100e49ff6d34b083ce8916c1d69":[3,0,0,6,18,13],
 "classtlx_1_1sort__strings__detail_1_1StdStringSet.html#aac782da1f912bceb5d8ad00c8dc892ac":[3,0,0,6,18,10],
 "classtlx_1_1sort__strings__detail_1_1StdStringSet.html#ab2264c7fb14205f860e942ca80b74747":[3,0,0,6,18,8],
 "classtlx_1_1sort__strings__detail_1_1StdStringSet.html#ab454cf2f7c33da2cce6b276699a101ec":[3,0,0,6,18,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX7 =
 "die_2core_8cpp.html#a1a4f198a88970a7cb1f5d8d3a0555b79":[4,0,0,3,0,0],
 "die_2core_8cpp.html#a60940290b9c3ca9e978cd30dca38d8c8":[4,0,0,3,0,4],
 "die_2core_8cpp.html#aa17989dc1fbbf1047c8f238aaafe7092":[4,0,0,3,0,3],
-"die_2core_8cpp.html#acf7bff2d67e5ed89bd9dc6bea904e1c1":[4,0,0,3,0,2],
-"die_2core_8cpp_source.html":[4,0,0,3,0],
-"die_2core_8hpp.html":[4,0,0,3,1],
-"die_2core_8hpp.html#a0d3e703383d8ee82ec46e3b72974b5f4":[4,0,0,3,1,4],
-"die_2core_8hpp.html#a1972bdbc5b9ff146cf88d18ec9a12d64":[4,0,0,3,1,25],
-"die_2core_8hpp.html#a1a4f198a88970a7cb1f5d8d3a0555b79":[4,0,0,3,1,24],
-"die_2core_8hpp.html#a58f7344e93396da43cfd07592e373923":[4,0,0,3,1,8],
-"die_2core_8hpp.html#a61bc809e512300fb132a80e2c066b361":[4,0,0,3,1,6],
-"die_2core_8hpp.html#a634b1d594ee64649689c4644fb491641":[4,0,0,3,1,7]
+"die_2core_8cpp.html#acf7bff2d67e5ed89bd9dc6bea904e1c1":[4,0,0,3,0,2]
 };

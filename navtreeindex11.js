@@ -1,5 +1,13 @@
 var NAVTREEINDEX11 =
 {
+"group__tlx__sort.html#gab49ea4abd1127021cdeba45947b193a2":[1,0,7,42],
+"group__tlx__sort.html#gac0d3b304937c8bb497c4bb239fa52d94":[1,0,7,41],
+"group__tlx__sort.html#gac9cb052088e328767ce41b2aaac3d68a":[1,0,7,10],
+"group__tlx__sort.html#gae8d988c92bbd0175da1f22ba751cf703":[1,0,7,15],
+"group__tlx__sort.html#gaedc7e71321483d3a8489ab3696759caa":[1,0,7,18],
+"group__tlx__sort.html#gaf103cae75f148a84cec9321975db69cc":[1,0,7,33],
+"group__tlx__sort.html#gaf10a31cd2dc0012c30aee6d9d36d9b67":[1,0,7,35],
+"group__tlx__sort.html#gafa10262819e42e5a6dce402d3a82f44f":[1,0,7,11],
 "group__tlx__sort.html#gafb0658037005ae5101c904fe0f0e0665":[1,0,7,21],
 "group__tlx__string.html":[1,0,8],
 "group__tlx__string.html#ga00bece0086ba6a8598e97e93694b713f":[1,0,8,73],
@@ -215,8 +223,8 @@ var NAVTREEINDEX11 =
 "hexdump_8hpp.html#gae749cedcfc25af4f829d70e8febba7a1":[4,0,0,10,31,6],
 "hexdump_8hpp_source.html":[4,0,0,10,31],
 "hierarchy.html":[3,2],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "index__of_8cpp.html":[4,0,0,10,32],
 "index__of_8cpp.html#ga00bece0086ba6a8598e97e93694b713f":[4,0,0,10,32,2],
 "index__of_8cpp.html#ga15b290439811d07e8fc0a6134c4faa0b":[4,0,0,10,32,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX11 =
 "integer__log2_8hpp.html#ga530755aca7c62b2f7d43f2e82e086c64":[4,0,0,6,10,3],
 "integer__log2_8hpp.html#ga5e9cd2820fc4f0dcd39002a644b83e2a":[4,0,0,6,10,11],
 "integer__log2_8hpp.html#ga68fdc2904ba0c42014092e1f2aeb1f0d":[4,0,0,6,10,0],
-"integer__log2_8hpp.html#ga74a8ec330f47970ce1f3e5265f913a86":[4,0,0,6,10,9],
-"integer__log2_8hpp.html#ga819e2d0d244166deaf699dbd962dfc4c":[4,0,0,6,10,12],
-"integer__log2_8hpp.html#ga87dd01e935a4d31259cb4044b1abb48d":[4,0,0,6,10,2],
-"integer__log2_8hpp.html#ga8b609dabb83130f9dbc545bf4fe11e5a":[4,0,0,6,10,8],
-"integer__log2_8hpp.html#gaa6c3b6962d85104a79fea216f565bff8":[4,0,0,6,10,1],
-"integer__log2_8hpp.html#gaadc4f0400d371977edd0636a52aacc56":[4,0,0,6,10,5],
-"integer__log2_8hpp.html#gac082121f5062c6c599d4cc35a7a00a2c":[4,0,0,6,10,4],
-"integer__log2_8hpp.html#gacf5864cb677af9b9547a6c4c1e08089f":[4,0,0,6,10,7],
-"integer__log2_8hpp_source.html":[4,0,0,6,10]
+"integer__log2_8hpp.html#ga74a8ec330f47970ce1f3e5265f913a86":[4,0,0,6,10,9]
 };

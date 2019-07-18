@@ -1,6 +1,7 @@
 var searchData=
 [
   ['thread_5fbarrier_5fmutex_2ehpp',['thread_barrier_mutex.hpp',['../thread__barrier__mutex_8hpp.html',1,'']]],
+  ['thread_5fbarrier_5fspin_2ehpp',['thread_barrier_spin.hpp',['../thread__barrier__spin_8hpp.html',1,'']]],
   ['thread_5fpool_2ecpp',['thread_pool.cpp',['../thread__pool_8cpp.html',1,'']]],
   ['thread_5fpool_2ehpp',['thread_pool.hpp',['../thread__pool_8hpp.html',1,'']]],
   ['timestamp_2ecpp',['timestamp.cpp',['../timestamp_8cpp.html',1,'']]],

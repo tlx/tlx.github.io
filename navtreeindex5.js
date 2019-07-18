@@ -1,5 +1,13 @@
 var NAVTREEINDEX5 =
 {
+"classtlx_1_1btree__multimap.html#a4a380c8745ff0a1c814742821e85403e":[1,0,1,0,3,66],
+"classtlx_1_1btree__multimap.html#a4e16fc20a38234d65573c5e4eac083e4":[1,0,1,0,3,4],
+"classtlx_1_1btree__multimap.html#a503ab01f6c0142145d3434f6924714e7":[1,0,1,0,3,60],
+"classtlx_1_1btree__multimap.html#a52e57d8d7e32f6d5a56227a8d1f899cf":[1,0,1,0,3,70],
+"classtlx_1_1btree__multimap.html#a552a180d973faf4f7ccc14b7d639a160":[1,0,1,0,3,1],
+"classtlx_1_1btree__multimap.html#a59a38ae57e83c2f2b5f645f716d0fd3f":[1,0,1,0,3,15],
+"classtlx_1_1btree__multimap.html#a5fcae48e8af1ae44ed0dea218337b8ca":[1,0,1,0,3,55],
+"classtlx_1_1btree__multimap.html#a6295d47efda04de55c38cb8ea1cdb807":[1,0,1,0,3,67],
 "classtlx_1_1btree__multimap.html#a62c2add0ee33d7acce9f02077cd1da99":[1,0,1,0,3,45],
 "classtlx_1_1btree__multimap.html#a63fd0e61d25808851c78559d09297686":[1,0,1,0,3,14],
 "classtlx_1_1btree__multimap.html#a68c599ddcbfddc65170de524ac165e44":[1,0,1,0,3,58],
@@ -241,13 +249,5 @@ var NAVTREEINDEX5 =
 "classtlx_1_1radix__heap__detail_1_1BitArray.html#a71263b2ec5d2574f914c79da3231f437":[3,0,0,5,0,5],
 "classtlx_1_1radix__heap__detail_1_1BitArray.html#a90ed4001ddc87157dab0b5cd8708c19c":[3,0,0,5,0,8],
 "classtlx_1_1radix__heap__detail_1_1BitArray.html#a9eb2d7b562fdfc3a949795c4ebc4f11d":[3,0,0,5,0,11],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#ab369a1c319d4e82511b5950532c0e259":[3,0,0,5,0,12],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#abd15e6eefdc19ba67edbce06dbf4d423":[3,0,0,5,0,7],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#ac6e61de369e994009e36f344f99c15ad":[3,0,0,5,0,6],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#ae618a3ecbb0d62500bfff666b12b8afc":[3,0,0,5,0,4],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#ae8542fe44413919dee9f41ede5a5032d":[3,0,0,5,0,13],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#af6de922dfe990290da60fa53fc998539":[3,0,0,5,0,1],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#af83fb508dd2929a7c1a7a9d727049b82":[3,0,0,5,0,3],
-"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive.html":[3,0,0,5,1],
-"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01false_01_4.html":[3,0,0,5,2]
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#ab369a1c319d4e82511b5950532c0e259":[3,0,0,5,0,12]
 };

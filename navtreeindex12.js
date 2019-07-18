@@ -1,5 +1,13 @@
 var NAVTREEINDEX12 =
 {
+"integer__log2_8hpp.html#ga819e2d0d244166deaf699dbd962dfc4c":[4,0,0,6,10,12],
+"integer__log2_8hpp.html#ga87dd01e935a4d31259cb4044b1abb48d":[4,0,0,6,10,2],
+"integer__log2_8hpp.html#ga8b609dabb83130f9dbc545bf4fe11e5a":[4,0,0,6,10,8],
+"integer__log2_8hpp.html#gaa6c3b6962d85104a79fea216f565bff8":[4,0,0,6,10,1],
+"integer__log2_8hpp.html#gaadc4f0400d371977edd0636a52aacc56":[4,0,0,6,10,5],
+"integer__log2_8hpp.html#gac082121f5062c6c599d4cc35a7a00a2c":[4,0,0,6,10,4],
+"integer__log2_8hpp.html#gacf5864cb677af9b9547a6c4c1e08089f":[4,0,0,6,10,7],
+"integer__log2_8hpp_source.html":[4,0,0,6,10],
 "is__power__of__two_8hpp.html":[4,0,0,6,11],
 "is__power__of__two_8hpp.html#ga06084e6aa5055e2c602add77f1df1967":[4,0,0,6,11,0],
 "is__power__of__two_8hpp.html#ga2ca48dfc557ef6581ab17a1c3e53d0a1":[4,0,0,6,11,3],
@@ -213,8 +221,8 @@ var NAVTREEINDEX12 =
 "namespacemembers_enum.html":[2,1,4],
 "namespacemembers_eval.html":[2,1,5],
 "namespacemembers_f.html":[2,1,0,5],
-"namespacemembers_func.html":[2,1,1],
 "namespacemembers_func.html":[2,1,1,0],
+"namespacemembers_func.html":[2,1,1],
 "namespacemembers_func_b.html":[2,1,1,1],
 "namespacemembers_func_c.html":[2,1,1,2],
 "namespacemembers_func_d.html":[2,1,1,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX12 =
 "namespacemembers_k.html":[2,1,0,10],
 "namespacemembers_l.html":[2,1,0,11],
 "namespacemembers_m.html":[2,1,0,12],
-"namespacemembers_o.html":[2,1,0,13],
-"namespacemembers_p.html":[2,1,0,14],
-"namespacemembers_r.html":[2,1,0,15],
-"namespacemembers_s.html":[2,1,0,16],
-"namespacemembers_t.html":[2,1,0,17],
-"namespacemembers_type.html":[2,1,3],
-"namespacemembers_u.html":[2,1,0,18],
-"namespacemembers_v.html":[2,1,0,19],
-"namespacemembers_vars.html":[2,1,2]
+"namespacemembers_o.html":[2,1,0,13]
 };

@@ -64,6 +64,9 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "thread_barrier_mutex.hpp", "thread__barrier__mutex_8hpp.html", [
       [ "ThreadBarrierMutex", "classtlx_1_1ThreadBarrierMutex.html", "classtlx_1_1ThreadBarrierMutex" ]
     ] ],
+    [ "thread_barrier_spin.hpp", "thread__barrier__spin_8hpp.html", [
+      [ "ThreadBarrierSpin", "classtlx_1_1ThreadBarrierSpin.html", "classtlx_1_1ThreadBarrierSpin" ]
+    ] ],
     [ "thread_pool.cpp", "thread__pool_8cpp.html", null ],
     [ "thread_pool.hpp", "thread__pool_8hpp.html", [
       [ "ThreadPool", "classtlx_1_1ThreadPool.html", "classtlx_1_1ThreadPool" ]

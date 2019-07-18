@@ -113,8 +113,8 @@ var hierarchy =
     [ "LoggerPrefixHook", "classtlx_1_1LoggerPrefixHook.html", null ],
     [ "LoggerTupleFormatter", "classtlx_1_1LoggerTupleFormatter.html", null ],
     [ "LoggerVoidify", "classtlx_1_1LoggerVoidify.html", null ],
-    [ "LoserTreeCopyBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyBase_1_1Loser.html", null ],
     [ "LoserTreePointerBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerBase_1_1Loser.html", null ],
+    [ "LoserTreeCopyBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyBase_1_1Loser.html", null ],
     [ "LoserTreeCopyUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreePointerUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyBase< ValueType, Comparator >", "classtlx_1_1LoserTreeCopyBase.html", [
@@ -226,6 +226,7 @@ var hierarchy =
       [ "StringSuffixSet", "classtlx_1_1sort__strings__detail_1_1StringSuffixSet.html", null ]
     ] ],
     [ "ThreadBarrierMutex", "classtlx_1_1ThreadBarrierMutex.html", null ],
+    [ "ThreadBarrierSpin", "classtlx_1_1ThreadBarrierSpin.html", null ],
     [ "ThreadPool", "classtlx_1_1ThreadPool.html", null ],
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::tree_stats", "structtlx_1_1BTree_1_1tree__stats.html", null ],
     [ "true_type", null, [
