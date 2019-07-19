@@ -45,7 +45,6 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "multi_timer.cpp", "multi__timer_8cpp.html", "multi__timer_8cpp" ],
     [ "multi_timer.hpp", "multi__timer_8hpp.html", [
       [ "MultiTimer", "classtlx_1_1MultiTimer.html", "classtlx_1_1MultiTimer" ],
-      [ "Entry", "structtlx_1_1MultiTimer_1_1Entry.html", "structtlx_1_1MultiTimer_1_1Entry" ],
       [ "ScopedMultiTimerSwitch", "classtlx_1_1ScopedMultiTimerSwitch.html", "classtlx_1_1ScopedMultiTimerSwitch" ],
       [ "ScopedMultiTimer", "classtlx_1_1ScopedMultiTimer.html", "classtlx_1_1ScopedMultiTimer" ]
     ] ],

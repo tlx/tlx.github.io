@@ -31,7 +31,7 @@ var searchData=
   ['multikey_5fquicksort',['multikey_quicksort',['../namespacetlx_1_1sort__strings__detail.html#ae061db1a42da89239c7a2acf4ea45686',1,'tlx::sort_strings_detail']]],
   ['multisequence_5fpartition',['multisequence_partition',['../group__tlx__algorithm.html#ga54b64d7db3fbcd0e966d8e4105f52626',1,'tlx']]],
   ['multisequence_5fselection',['multisequence_selection',['../group__tlx__algorithm.html#ga73373d32a6a9d4e92c432d38bef8d908',1,'tlx']]],
-  ['multitimer',['MultiTimer',['../classtlx_1_1MultiTimer.html#a2214875e7b5ca1d1299c70776a3f4ebb',1,'tlx::MultiTimer']]],
+  ['multitimer',['MultiTimer',['../classtlx_1_1MultiTimer.html#a2214875e7b5ca1d1299c70776a3f4ebb',1,'tlx::MultiTimer::MultiTimer()'],['../classtlx_1_1MultiTimer.html#a86cf3e7bc09ad82ad27e34df42d8cb75',1,'tlx::MultiTimer::MultiTimer(const MultiTimer &amp;)'],['../classtlx_1_1MultiTimer.html#a554c7a62cf51d8f4cbcd16a1e949e67f',1,'tlx::MultiTimer::MultiTimer(MultiTimer &amp;&amp;)']]],
   ['multiway_5fmerge',['multiway_merge',['../group__tlx__algorithm.html#gabfbaa27bf2f95ce5806e19e6fc4980e9',1,'tlx']]],
   ['multiway_5fmerge_5f3_5fcombined',['multiway_merge_3_combined',['../namespacetlx_1_1multiway__merge__detail.html#aaff827b17c6f6e245bf4846365218281',1,'tlx::multiway_merge_detail']]],
   ['multiway_5fmerge_5f3_5fvariant',['multiway_merge_3_variant',['../namespacetlx_1_1multiway__merge__detail.html#a4451d5f80b29379841cd9f71a6555bef',1,'tlx::multiway_merge_detail']]],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX6 =
 {
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#a5a68f81d1546a82bb548ebbe7f66f3bd":[3,0,0,5,0,10],
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#a71263b2ec5d2574f914c79da3231f437":[3,0,0,5,0,5],
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#a90ed4001ddc87157dab0b5cd8708c19c":[3,0,0,5,0,8],
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#a9eb2d7b562fdfc3a949795c4ebc4f11d":[3,0,0,5,0,11],
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#ab369a1c319d4e82511b5950532c0e259":[3,0,0,5,0,12],
 "classtlx_1_1radix__heap__detail_1_1BitArray.html#abd15e6eefdc19ba67edbce06dbf4d423":[3,0,0,5,0,7],
 "classtlx_1_1radix__heap__detail_1_1BitArray.html#ac6e61de369e994009e36f344f99c15ad":[3,0,0,5,0,6],
 "classtlx_1_1radix__heap__detail_1_1BitArray.html#ae618a3ecbb0d62500bfff666b12b8afc":[3,0,0,5,0,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX6 =
 "classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#a3bc9faedc9d67536c54f502d280d487c":[3,0,0,6,17,2],
 "classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#a6909efa8d96ad3ecbcec0d11c198b33d":[3,0,0,6,17,1],
 "classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#a87cf64f916e0c9fd11d405525cc0dbe5":[3,0,0,6,17,4],
-"classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#aba46e5dd97a218c7d1e90f4d5e0b22a7":[3,0,0,6,17,0],
-"classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#ac5962572a6fcdcd01d32fd109d57dea3":[3,0,0,6,17,5],
-"classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#ac89205a99719fd29448fd27b95652254":[3,0,0,6,17,7],
-"classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#ad561240a16e3a2ec4db7b79a3ed67f6e":[3,0,0,6,17,6],
-"classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#ae49cf850764e81ee272c5f14d12adbef":[3,0,0,6,17,3],
-"classtlx_1_1sort__strings__detail_1_1StdStringSet.html":[3,0,0,6,18]
+"classtlx_1_1sort__strings__detail_1_1SSTreeBuilderPreAndLevelOrder.html#aba46e5dd97a218c7d1e90f4d5e0b22a7":[3,0,0,6,17,0]
 };

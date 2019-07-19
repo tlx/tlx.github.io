@@ -1,5 +1,10 @@
 var NAVTREEINDEX12 =
 {
+"integer__log2_8hpp.html#ga421e5b20fe5e88e367cab92800be8b40":[4,0,0,6,10,6],
+"integer__log2_8hpp.html#ga530755aca7c62b2f7d43f2e82e086c64":[4,0,0,6,10,3],
+"integer__log2_8hpp.html#ga5e9cd2820fc4f0dcd39002a644b83e2a":[4,0,0,6,10,11],
+"integer__log2_8hpp.html#ga68fdc2904ba0c42014092e1f2aeb1f0d":[4,0,0,6,10,0],
+"integer__log2_8hpp.html#ga74a8ec330f47970ce1f3e5265f913a86":[4,0,0,6,10,9],
 "integer__log2_8hpp.html#ga819e2d0d244166deaf699dbd962dfc4c":[4,0,0,6,10,12],
 "integer__log2_8hpp.html#ga87dd01e935a4d31259cb4044b1abb48d":[4,0,0,6,10,2],
 "integer__log2_8hpp.html#ga8b609dabb83130f9dbc545bf4fe11e5a":[4,0,0,6,10,8],
@@ -156,7 +161,7 @@ var NAVTREEINDEX12 =
 "meta_8hpp_source.html":[4,0,0,25],
 "modules.html":[1],
 "multi__timer_8cpp.html":[4,0,0,26],
-"multi__timer_8cpp.html#a9f7675456bd96ef5d5a01b10a9bb444f":[4,0,0,26,0],
+"multi__timer_8cpp.html#a9f7675456bd96ef5d5a01b10a9bb444f":[4,0,0,26,1],
 "multi__timer_8cpp_source.html":[4,0,0,26],
 "multi__timer_8hpp.html":[4,0,0,27],
 "multi__timer_8hpp_source.html":[4,0,0,27],
@@ -212,8 +217,8 @@ var NAVTREEINDEX12 =
 "multiway__merge__splitting_8hpp.html#gga8a7342a22bda2a80ef56d779ceae36c0abccc0e651299ce4048220b307340aff3":[4,0,0,0,7,0,0],
 "multiway__merge__splitting_8hpp.html#gga8a7342a22bda2a80ef56d779ceae36c0acfb06584091121c62050c13c54e0e298":[4,0,0,0,7,0,3],
 "multiway__merge__splitting_8hpp_source.html":[4,0,0,0,7],
-"namespacemembers.html":[2,1,0],
 "namespacemembers.html":[2,1,0,0],
+"namespacemembers.html":[2,1,0],
 "namespacemembers_b.html":[2,1,0,1],
 "namespacemembers_c.html":[2,1,0,2],
 "namespacemembers_d.html":[2,1,0,3],
@@ -221,8 +226,8 @@ var NAVTREEINDEX12 =
 "namespacemembers_enum.html":[2,1,4],
 "namespacemembers_eval.html":[2,1,5],
 "namespacemembers_f.html":[2,1,0,5],
-"namespacemembers_func.html":[2,1,1,0],
 "namespacemembers_func.html":[2,1,1],
+"namespacemembers_func.html":[2,1,1,0],
 "namespacemembers_func_b.html":[2,1,1,1],
 "namespacemembers_func_c.html":[2,1,1,2],
 "namespacemembers_func_d.html":[2,1,1,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX12 =
 "namespacemembers_func_w.html":[2,1,1,19],
 "namespacemembers_g.html":[2,1,0,6],
 "namespacemembers_h.html":[2,1,0,7],
-"namespacemembers_i.html":[2,1,0,8],
-"namespacemembers_j.html":[2,1,0,9],
-"namespacemembers_k.html":[2,1,0,10],
-"namespacemembers_l.html":[2,1,0,11],
-"namespacemembers_m.html":[2,1,0,12],
-"namespacemembers_o.html":[2,1,0,13]
+"namespacemembers_i.html":[2,1,0,8]
 };

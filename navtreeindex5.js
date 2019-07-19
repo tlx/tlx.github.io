@@ -1,5 +1,10 @@
 var NAVTREEINDEX5 =
 {
+"classtlx_1_1btree__multimap.html#a3a79f5c030eea924dbd8fcc9417b9263":[1,0,1,0,3,34],
+"classtlx_1_1btree__multimap.html#a3afc24ff7c71756a11a54bea3e8162d4":[1,0,1,0,3,41],
+"classtlx_1_1btree__multimap.html#a3badb6f872b637c5c141f17fee965e50":[1,0,1,0,3,49],
+"classtlx_1_1btree__multimap.html#a416b2e639a4ec04429632c3ee85e747c":[1,0,1,0,3,69],
+"classtlx_1_1btree__multimap.html#a482b50e623a123f653e2a91f113a507b":[1,0,1,0,3,62],
 "classtlx_1_1btree__multimap.html#a4a380c8745ff0a1c814742821e85403e":[1,0,1,0,3,66],
 "classtlx_1_1btree__multimap.html#a4e16fc20a38234d65573c5e4eac083e4":[1,0,1,0,3,4],
 "classtlx_1_1btree__multimap.html#a503ab01f6c0142145d3434f6924714e7":[1,0,1,0,3,60],
@@ -244,10 +249,5 @@ var NAVTREEINDEX5 =
 "classtlx_1_1radix__heap__detail_1_1BitArray.html":[3,0,0,5,0],
 "classtlx_1_1radix__heap__detail_1_1BitArray.html#a07f9194f274f3338b850c9bd06a2edd4":[3,0,0,5,0,9],
 "classtlx_1_1radix__heap__detail_1_1BitArray.html#a2227731c5d656ae79ce34bf2560d7648":[3,0,0,5,0,2],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#a47334e1d30130d77fd88eadb6a59ce08":[3,0,0,5,0,0],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#a5a68f81d1546a82bb548ebbe7f66f3bd":[3,0,0,5,0,10],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#a71263b2ec5d2574f914c79da3231f437":[3,0,0,5,0,5],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#a90ed4001ddc87157dab0b5cd8708c19c":[3,0,0,5,0,8],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#a9eb2d7b562fdfc3a949795c4ebc4f11d":[3,0,0,5,0,11],
-"classtlx_1_1radix__heap__detail_1_1BitArray.html#ab369a1c319d4e82511b5950532c0e259":[3,0,0,5,0,12]
+"classtlx_1_1radix__heap__detail_1_1BitArray.html#a47334e1d30130d77fd88eadb6a59ce08":[3,0,0,5,0,0]
 };

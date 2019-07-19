@@ -12,6 +12,7 @@ var searchData=
   ['_7eloggercollectoutput',['~LoggerCollectOutput',['../classtlx_1_1LoggerCollectOutput.html#a36bf24e3c8093653b9c4cb0b9446e0f7',1,'tlx::LoggerCollectOutput']]],
   ['_7eloggeroutputhook',['~LoggerOutputHook',['../classtlx_1_1LoggerOutputHook.html#ae7dcaf0f3d70752dec1a04b8082dc2df',1,'tlx::LoggerOutputHook']]],
   ['_7eloggerprefixhook',['~LoggerPrefixHook',['../classtlx_1_1LoggerPrefixHook.html#ab64e960e2dbd952f9c7fed4885726fd6',1,'tlx::LoggerPrefixHook']]],
+  ['_7emultitimer',['~MultiTimer',['../classtlx_1_1MultiTimer.html#a6affb50aea2d5e75e9ae7a0ef1a7e9a1',1,'tlx::MultiTimer']]],
   ['_7eps5bigsortstep',['~PS5BigSortStep',['../classtlx_1_1sort__strings__detail_1_1PS5BigSortStep.html#af8ab60135223c70c429071d097e66058',1,'tlx::sort_strings_detail::PS5BigSortStep']]],
   ['_7eps5smallsortjob',['~PS5SmallsortJob',['../classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html#a9955607f06375f5a0ba30433f416cae5',1,'tlx::sort_strings_detail::PS5SmallsortJob']]],
   ['_7eps5sortstep',['~PS5SortStep',['../classtlx_1_1sort__strings__detail_1_1PS5SortStep.html#af1076e645fe75e6b2d3a3c89bc885eb3',1,'tlx::sort_strings_detail::PS5SortStep']]],

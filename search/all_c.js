@@ -63,7 +63,7 @@ var searchData=
   ['multisequence_5fpartition_2ehpp',['multisequence_partition.hpp',['../multisequence__partition_8hpp.html',1,'']]],
   ['multisequence_5fselection',['multisequence_selection',['../group__tlx__algorithm.html#ga73373d32a6a9d4e92c432d38bef8d908',1,'tlx']]],
   ['multisequence_5fselection_2ehpp',['multisequence_selection.hpp',['../multisequence__selection_8hpp.html',1,'']]],
-  ['multitimer',['MultiTimer',['../classtlx_1_1MultiTimer.html#a2214875e7b5ca1d1299c70776a3f4ebb',1,'tlx::MultiTimer']]],
+  ['multitimer',['MultiTimer',['../classtlx_1_1MultiTimer.html#a2214875e7b5ca1d1299c70776a3f4ebb',1,'tlx::MultiTimer::MultiTimer()'],['../classtlx_1_1MultiTimer.html#a86cf3e7bc09ad82ad27e34df42d8cb75',1,'tlx::MultiTimer::MultiTimer(const MultiTimer &amp;)'],['../classtlx_1_1MultiTimer.html#a554c7a62cf51d8f4cbcd16a1e949e67f',1,'tlx::MultiTimer::MultiTimer(MultiTimer &amp;&amp;)']]],
   ['multitimer',['MultiTimer',['../classtlx_1_1MultiTimer.html',1,'tlx']]],
   ['multiway_5fmerge',['multiway_merge',['../group__tlx__algorithm.html#gabfbaa27bf2f95ce5806e19e6fc4980e9',1,'tlx']]],
   ['multiway_5fmerge_2ehpp',['multiway_merge.hpp',['../multiway__merge_8hpp.html',1,'']]],

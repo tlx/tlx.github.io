@@ -1,5 +1,10 @@
 var NAVTREEINDEX8 =
 {
+"die_2core_8cpp.html#a1972bdbc5b9ff146cf88d18ec9a12d64":[4,0,0,3,0,1],
+"die_2core_8cpp.html#a1a4f198a88970a7cb1f5d8d3a0555b79":[4,0,0,3,0,0],
+"die_2core_8cpp.html#a60940290b9c3ca9e978cd30dca38d8c8":[4,0,0,3,0,4],
+"die_2core_8cpp.html#aa17989dc1fbbf1047c8f238aaafe7092":[4,0,0,3,0,3],
+"die_2core_8cpp.html#acf7bff2d67e5ed89bd9dc6bea904e1c1":[4,0,0,3,0,2],
 "die_2core_8cpp_source.html":[4,0,0,3,0],
 "die_2core_8hpp.html":[4,0,0,3,1],
 "die_2core_8hpp.html#a0d3e703383d8ee82ec46e3b72974b5f4":[4,0,0,3,1,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX8 =
 "functions_func_v.html":[3,3,1,19],
 "functions_func_w.html":[3,3,1,20],
 "functions_g.html":[3,3,0,6],
-"functions_h.html":[3,3,0,7],
-"functions_i.html":[3,3,0,8],
-"functions_j.html":[3,3,0,9],
-"functions_k.html":[3,3,0,10],
-"functions_l.html":[3,3,0,11],
-"functions_m.html":[3,3,0,12]
+"functions_h.html":[3,3,0,7]
 };
