@@ -40,6 +40,8 @@ var namespacetlx =
     [ "is_std_tuple< std::tuple< Ts... > >", "structtlx_1_1is__std__tuple_3_01std_1_1tuple_3_01Ts_8_8_8_01_4_01_4.html", null ],
     [ "is_std_vector", "structtlx_1_1is__std__vector.html", null ],
     [ "is_std_vector< std::vector< T > >", "structtlx_1_1is__std__vector_3_01std_1_1vector_3_01T_01_4_01_4.html", null ],
+    [ "less_icase_asc", "structtlx_1_1less__icase__asc.html", "structtlx_1_1less__icase__asc" ],
+    [ "less_icase_desc", "structtlx_1_1less__icase__desc.html", "structtlx_1_1less__icase__desc" ],
     [ "LevenshteinStandardICaseParameters", "structtlx_1_1LevenshteinStandardICaseParameters.html", "structtlx_1_1LevenshteinStandardICaseParameters" ],
     [ "LevenshteinStandardParameters", "structtlx_1_1LevenshteinStandardParameters.html", "structtlx_1_1LevenshteinStandardParameters" ],
     [ "Log2", "classtlx_1_1Log2.html", "classtlx_1_1Log2" ],

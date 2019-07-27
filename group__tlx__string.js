@@ -1,5 +1,11 @@
 var group__tlx__string =
 [
+    [ "less_icase_asc", "structtlx_1_1less__icase__asc.html", [
+      [ "operator()", "structtlx_1_1less__icase__asc.html#a0f3599515dbf37239c2d0e3797d597bf", null ]
+    ] ],
+    [ "less_icase_desc", "structtlx_1_1less__icase__desc.html", [
+      [ "operator()", "structtlx_1_1less__icase__desc.html#a0f3599515dbf37239c2d0e3797d597bf", null ]
+    ] ],
     [ "LevenshteinStandardParameters", "structtlx_1_1LevenshteinStandardParameters.html", [
       [ "char_equal", "structtlx_1_1LevenshteinStandardParameters.html#a1aa27babd25f76b9fb821e7797748874", null ],
       [ "cost_insert_delete", "structtlx_1_1LevenshteinStandardParameters.html#aa2b1f0aaff1193840a5606b1c41a330d", null ],

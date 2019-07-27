@@ -80,6 +80,8 @@ var hierarchy =
     [ "btree_multimap< Key_, Data_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multimap_1_1key__of__value.html", null ],
     [ "btree_multiset< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__multiset_1_1key__of__value.html", null ],
     [ "btree_set< Key_, Compare_, Traits_, Alloc_ >::key_of_value", "structtlx_1_1btree__set_1_1key__of__value.html", null ],
+    [ "less_icase_asc", "structtlx_1_1less__icase__asc.html", null ],
+    [ "less_icase_desc", "structtlx_1_1less__icase__desc.html", null ],
     [ "LevenshteinStandardICaseParameters", "structtlx_1_1LevenshteinStandardICaseParameters.html", null ],
     [ "LevenshteinStandardParameters", "structtlx_1_1LevenshteinStandardParameters.html", null ],
     [ "Log2< Input >", "classtlx_1_1Log2.html", null ],
@@ -113,10 +115,10 @@ var hierarchy =
     [ "LoggerPrefixHook", "classtlx_1_1LoggerPrefixHook.html", null ],
     [ "LoggerTupleFormatter", "classtlx_1_1LoggerTupleFormatter.html", null ],
     [ "LoggerVoidify", "classtlx_1_1LoggerVoidify.html", null ],
-    [ "LoserTreePointerBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerBase_1_1Loser.html", null ],
-    [ "LoserTreeCopyBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyBase_1_1Loser.html", null ],
-    [ "LoserTreeCopyUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreePointerUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", null ],
+    [ "LoserTreeCopyBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyBase_1_1Loser.html", null ],
+    [ "LoserTreePointerBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerBase_1_1Loser.html", null ],
+    [ "LoserTreeCopyUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyBase< ValueType, Comparator >", "classtlx_1_1LoserTreeCopyBase.html", [
       [ "LoserTreeCopy< Stable, ValueType, Comparator >", "classtlx_1_1LoserTreeCopy.html", null ],
       [ "LoserTreeCopy< true, ValueType, Comparator >", "classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html", null ]

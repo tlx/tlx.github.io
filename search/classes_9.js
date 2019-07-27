@@ -1,6 +1,8 @@
 var searchData=
 [
   ['leafnode',['LeafNode',['../structtlx_1_1BTree_1_1LeafNode.html',1,'tlx::BTree']]],
+  ['less_5ficase_5fasc',['less_icase_asc',['../structtlx_1_1less__icase__asc.html',1,'tlx']]],
+  ['less_5ficase_5fdesc',['less_icase_desc',['../structtlx_1_1less__icase__desc.html',1,'tlx']]],
   ['levenshteinstandardicaseparameters',['LevenshteinStandardICaseParameters',['../structtlx_1_1LevenshteinStandardICaseParameters.html',1,'tlx']]],
   ['levenshteinstandardparameters',['LevenshteinStandardParameters',['../structtlx_1_1LevenshteinStandardParameters.html',1,'tlx']]],
   ['lexicographic',['lexicographic',['../classtlx_1_1multisequence__partition__detail_1_1lexicographic.html',1,'tlx::multisequence_partition_detail']]],
@@ -36,9 +38,9 @@ var searchData=
   ['loggertupleformatter',['LoggerTupleFormatter',['../classtlx_1_1LoggerTupleFormatter.html',1,'tlx']]],
   ['loggervoidify',['LoggerVoidify',['../classtlx_1_1LoggerVoidify.html',1,'tlx']]],
   ['loser',['Loser',['../structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html',1,'tlx::LoserTreePointerUnguardedBase']]],
+  ['loser',['Loser',['../structtlx_1_1LoserTreeCopyBase_1_1Loser.html',1,'tlx::LoserTreeCopyBase']]],
   ['loser',['Loser',['../structtlx_1_1LoserTreePointerBase_1_1Loser.html',1,'tlx::LoserTreePointerBase']]],
   ['loser',['Loser',['../structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html',1,'tlx::LoserTreeCopyUnguardedBase']]],
-  ['loser',['Loser',['../structtlx_1_1LoserTreeCopyBase_1_1Loser.html',1,'tlx::LoserTreeCopyBase']]],
   ['losertreecopy',['LoserTreeCopy',['../classtlx_1_1LoserTreeCopy.html',1,'tlx']]],
   ['losertreecopy_3c_20true_2c_20valuetype_2c_20comparator_20_3e',['LoserTreeCopy&lt; true, ValueType, Comparator &gt;',['../classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html',1,'tlx']]],
   ['losertreecopybase',['LoserTreeCopyBase',['../classtlx_1_1LoserTreeCopyBase.html',1,'tlx']]],
