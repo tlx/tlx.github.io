@@ -108,6 +108,7 @@ var namespacetlx =
     [ "StackAllocator", "classtlx_1_1StackAllocator.html", "classtlx_1_1StackAllocator" ],
     [ "StackArena", "classtlx_1_1StackArena.html", "classtlx_1_1StackArena" ],
     [ "StaticIndex", "structtlx_1_1StaticIndex.html", "structtlx_1_1StaticIndex" ],
+    [ "StringView", "classtlx_1_1StringView.html", "classtlx_1_1StringView" ],
     [ "ThreadBarrierMutex", "classtlx_1_1ThreadBarrierMutex.html", "classtlx_1_1ThreadBarrierMutex" ],
     [ "ThreadBarrierSpin", "classtlx_1_1ThreadBarrierSpin.html", "classtlx_1_1ThreadBarrierSpin" ],
     [ "ThreadPool", "classtlx_1_1ThreadPool.html", "classtlx_1_1ThreadPool" ]

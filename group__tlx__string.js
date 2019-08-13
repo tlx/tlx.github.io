@@ -145,6 +145,7 @@ var group__tlx__string =
     [ "split", "group__tlx__string.html#ga4aa7e0fb9bd81e31214087d3d85367a3", null ],
     [ "split_quoted", "group__tlx__string.html#gafc48ce717ba77df6c6f395fb07bc8a1e", null ],
     [ "split_quoted", "group__tlx__string.html#ga0210d995cdc4df9aafcd09c005571449", null ],
+    [ "split_view", "group__tlx__string.html#ga6c9fac87ddaeb902c500f4854af69bec", null ],
     [ "split_words", "group__tlx__string.html#ga92d58b1e8b06cbb57400b5959281a4a1", null ],
     [ "ssnprintf", "group__tlx__string.html#gaafc9efa79c49c462b0ee723e4f9b384d", null ],
     [ "ssnprintf_generic", "group__tlx__string.html#ga1cc4f715331a96631370a8a25d6e9526", null ],

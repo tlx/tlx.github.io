@@ -51,6 +51,7 @@ var hierarchy =
     [ "DAryHeap< KeyType, Arity, Compare >", "classtlx_1_1DAryHeap.html", null ],
     [ "Delegate< T, Allocator >", "classtlx_1_1Delegate.html", null ],
     [ "Delegate< R(A...), Allocator >", "classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html", null ],
+    [ "Delegate< void(size_t)>", "classtlx_1_1Delegate.html", null ],
     [ "enable_if< bool, T >", "structtlx_1_1enable__if.html", null ],
     [ "enable_if< true, T >", "structtlx_1_1enable__if_3_01true_00_01T_01_4.html", null ],
     [ "MultiTimer::Entry", "structtlx_1_1MultiTimer_1_1Entry.html", null ],
@@ -73,6 +74,7 @@ var hierarchy =
       [ "GenericCharStringSet< CharType >", "classtlx_1_1sort__strings__detail_1_1GenericCharStringSet.html", null ]
     ] ],
     [ "guarded_iterator< RandomAccessIterator, Comparator >", "classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html", null ],
+    [ "hash< tlx::StringView >", "structstd_1_1hash_3_01tlx_1_1StringView_01_4.html", null ],
     [ "index_sequence< Indexes >", "structtlx_1_1index__sequence.html", null ],
     [ "IntegerRank< Int >", "classtlx_1_1radix__heap__detail_1_1IntegerRank.html", null ],
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::iterator", "classtlx_1_1BTree_1_1iterator.html", null ],
@@ -115,10 +117,10 @@ var hierarchy =
     [ "LoggerPrefixHook", "classtlx_1_1LoggerPrefixHook.html", null ],
     [ "LoggerTupleFormatter", "classtlx_1_1LoggerTupleFormatter.html", null ],
     [ "LoggerVoidify", "classtlx_1_1LoggerVoidify.html", null ],
-    [ "LoserTreePointerUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyBase_1_1Loser.html", null ],
     [ "LoserTreePointerBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerBase_1_1Loser.html", null ],
     [ "LoserTreeCopyUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", null ],
+    [ "LoserTreePointerUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyBase< ValueType, Comparator >", "classtlx_1_1LoserTreeCopyBase.html", [
       [ "LoserTreeCopy< Stable, ValueType, Comparator >", "classtlx_1_1LoserTreeCopy.html", null ],
       [ "LoserTreeCopy< true, ValueType, Comparator >", "classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html", null ]
@@ -227,6 +229,7 @@ var hierarchy =
     [ "StringSuffixSetTraits", "classtlx_1_1sort__strings__detail_1_1StringSuffixSetTraits.html", [
       [ "StringSuffixSet", "classtlx_1_1sort__strings__detail_1_1StringSuffixSet.html", null ]
     ] ],
+    [ "StringView", "classtlx_1_1StringView.html", null ],
     [ "ThreadBarrierMutex", "classtlx_1_1ThreadBarrierMutex.html", null ],
     [ "ThreadBarrierSpin", "classtlx_1_1ThreadBarrierSpin.html", null ],
     [ "ThreadPool", "classtlx_1_1ThreadPool.html", null ],
