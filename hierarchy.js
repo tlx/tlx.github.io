@@ -18,12 +18,6 @@ var hierarchy =
       [ "CmdlineParser::ArgumentStringlist", "structtlx_1_1CmdlineParser_1_1ArgumentStringlist.html", null ],
       [ "CmdlineParser::ArgumentUnsigned", "structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html", null ]
     ] ],
-    [ "binary_function", null, [
-      [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__detail_1_1lexicographic.html", null ],
-      [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__detail_1_1lexicographic__rev.html", null ],
-      [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__detail_1_1lexicographic.html", null ],
-      [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html", null ]
-    ] ],
     [ "BitArray< Size >", "classtlx_1_1radix__heap__detail_1_1BitArray.html", null ],
     [ "BitArray< num_buckets >", "classtlx_1_1radix__heap__detail_1_1BitArray.html", null ],
     [ "BitArrayRecursive< Size, SizeIsAtmost64 >", "classtlx_1_1radix__heap__detail_1_1BitArrayRecursive.html", null ],
@@ -86,6 +80,10 @@ var hierarchy =
     [ "less_icase_desc", "structtlx_1_1less__icase__desc.html", null ],
     [ "LevenshteinStandardICaseParameters", "structtlx_1_1LevenshteinStandardICaseParameters.html", null ],
     [ "LevenshteinStandardParameters", "structtlx_1_1LevenshteinStandardParameters.html", null ],
+    [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__detail_1_1lexicographic.html", null ],
+    [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__detail_1_1lexicographic.html", null ],
+    [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__detail_1_1lexicographic__rev.html", null ],
+    [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html", null ],
     [ "Log2< Input >", "classtlx_1_1Log2.html", null ],
     [ "Log2< 0 >", "classtlx_1_1Log2_3_010_01_4.html", null ],
     [ "Log2< 1 >", "classtlx_1_1Log2_3_011_01_4.html", null ],
