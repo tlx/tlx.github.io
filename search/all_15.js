@@ -10,5 +10,8 @@ var searchData=
   ['word_5fwrap_2ecpp',['word_wrap.cpp',['../word__wrap_8cpp.html',1,'']]],
   ['word_5fwrap_2ehpp',['word_wrap.hpp',['../word__wrap_8hpp.html',1,'']]],
   ['worder',['Worder',['../namespacetlx_1_1digest__detail.html#a1481c9ff9f62ae82bc4054bc9144d1d2',1,'tlx::digest_detail']]],
-  ['worker',['worker',['../classtlx_1_1ThreadPool.html#a28b50f375b10234accaf0e4b4d22970d',1,'tlx::ThreadPool']]]
+  ['worker',['worker',['../classtlx_1_1ThreadPool.html#a28b50f375b10234accaf0e4b4d22970d',1,'tlx::ThreadPool']]],
+  ['wrap_5funp',['wrap_unp',['../namespacetlx.html#a2667d7bf97ece107dd08b61ef3a64c82',1,'tlx::wrap_unp(Type, const char *instead=&quot;&lt;unprintable&gt;&quot;)'],['../namespacetlx.html#ad0ffad4740d8fa55e8ad74591b592083',1,'tlx::wrap_unp(Type value, const char *=nullptr)']]],
+  ['wrap_5funprintable',['wrap_unprintable',['../namespacetlx.html#a4685dbcbe251d930c560b5071ece8049',1,'tlx::wrap_unprintable(Type, const char *instead=&quot;&lt;unprintable&gt;&quot;)'],['../namespacetlx.html#ace3a0f19b5c1679cfe2f825709428dbf',1,'tlx::wrap_unprintable(Type value, const char *=nullptr)']]],
+  ['wrap_5funprintable_2ehpp',['wrap_unprintable.hpp',['../wrap__unprintable_8hpp.html',1,'']]]
 ];

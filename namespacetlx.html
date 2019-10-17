@@ -213,6 +213,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1FunctionStack.html">FunctionStack</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classtlx_1_1FunctionStack.html" title="A FunctionStack is a chain of functor that can be folded to a single functor (which is usually optimi...">FunctionStack</a> is a chain of functor that can be folded to a single functor (which is usually optimize by the compiler).  <a href="classtlx_1_1FunctionStack.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1has__ostream__operator.html">has_ostream_operator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">SFINAE magic helper for <a class="el" href="namespacetlx.html#a4685dbcbe251d930c560b5071ece8049" title="SFINAE magic to return &quot;&lt;unprintable&gt;&quot; instead if the value HAS NO ostream operator &lt;&lt; available...">wrap_unprintable()</a>  <a href="structtlx_1_1has__ostream__operator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1index__sequence.html">index_sequence</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1is__std__array.html">is_std_array</a></td></tr>
@@ -744,6 +747,25 @@ Functions</h2></td></tr>
 <tr class="memitem:a6f6fd6485b3c32e7706d585634e012d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1LoggerPrefixHook.html">LoggerPrefixHook</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a6f6fd6485b3c32e7706d585634e012d0">set_logger_prefix_hook</a> (<a class="el" href="classtlx_1_1LoggerPrefixHook.html">LoggerPrefixHook</a> *hook)</td></tr>
 <tr class="memdesc:a6f6fd6485b3c32e7706d585634e012d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new <a class="el" href="classtlx_1_1LoggerPrefixHook.html" title="Abstract class to implement prefix output hooks for logging. ">LoggerPrefixHook</a> instance to prefix global log lines.  <a href="#a6f6fd6485b3c32e7706d585634e012d0">More...</a><br /></td></tr>
 <tr class="separator:a6f6fd6485b3c32e7706d585634e012d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab54e1c92cc3ed16c46cba382311c33ee"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:ab54e1c92cc3ed16c46cba382311c33ee"><td class="memTemplItemLeft" align="right" valign="top">struct&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ab54e1c92cc3ed16c46cba382311c33ee">has_ostream_operator&lt;Type, decltype(std::declval&lt; std::ostream &amp; &gt;</a> ()&lt;&lt; std</td></tr>
+<tr class="separator:ab54e1c92cc3ed16c46cba382311c33ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4685dbcbe251d930c560b5071ece8049"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:a4685dbcbe251d930c560b5071ece8049"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structtlx_1_1enable__if.html">enable_if</a>&lt;!<a class="el" href="structtlx_1_1has__ostream__operator.html">has_ostream_operator</a>&lt;Type &gt;::value, const char * &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a4685dbcbe251d930c560b5071ece8049">wrap_unprintable</a> (Type, const char *instead=&quot;&lt;unprintable&gt;&quot;)</td></tr>
+<tr class="memdesc:a4685dbcbe251d930c560b5071ece8049"><td class="mdescLeft">&#160;</td><td class="mdescRight">SFINAE magic to return "&lt;unprintable&gt;" instead if the value HAS NO ostream operator &lt;&lt; available.  <a href="#a4685dbcbe251d930c560b5071ece8049">More...</a><br /></td></tr>
+<tr class="separator:a4685dbcbe251d930c560b5071ece8049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace3a0f19b5c1679cfe2f825709428dbf"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:ace3a0f19b5c1679cfe2f825709428dbf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structtlx_1_1enable__if.html">enable_if</a>&lt; <a class="el" href="structtlx_1_1has__ostream__operator.html">has_ostream_operator</a>&lt;Type &gt;::value, Type &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ace3a0f19b5c1679cfe2f825709428dbf">wrap_unprintable</a> (Type value, const char *=nullptr)</td></tr>
+<tr class="memdesc:ace3a0f19b5c1679cfe2f825709428dbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">SFINAE magic to return the value if the value HAS a ostream operator &lt;&lt; available.  <a href="#ace3a0f19b5c1679cfe2f825709428dbf">More...</a><br /></td></tr>
+<tr class="separator:ace3a0f19b5c1679cfe2f825709428dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2667d7bf97ece107dd08b61ef3a64c82"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:a2667d7bf97ece107dd08b61ef3a64c82"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structtlx_1_1enable__if.html">enable_if</a>&lt;!<a class="el" href="structtlx_1_1has__ostream__operator.html">has_ostream_operator</a>&lt;Type &gt;::value, const char * &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#a2667d7bf97ece107dd08b61ef3a64c82">wrap_unp</a> (Type, const char *instead=&quot;&lt;unprintable&gt;&quot;)</td></tr>
+<tr class="memdesc:a2667d7bf97ece107dd08b61ef3a64c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">SFINAE magic to return "&lt;unprintable&gt;" instead if the value HAS NO ostream operator &lt;&lt; available.  <a href="#a2667d7bf97ece107dd08b61ef3a64c82">More...</a><br /></td></tr>
+<tr class="separator:a2667d7bf97ece107dd08b61ef3a64c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ffad4740d8fa55e8ad74591b592083"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:ad0ffad4740d8fa55e8ad74591b592083"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structtlx_1_1enable__if.html">enable_if</a>&lt; <a class="el" href="structtlx_1_1has__ostream__operator.html">has_ostream_operator</a>&lt;Type &gt;::value, Type &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetlx.html#ad0ffad4740d8fa55e8ad74591b592083">wrap_unp</a> (Type value, const char *=nullptr)</td></tr>
+<tr class="memdesc:ad0ffad4740d8fa55e8ad74591b592083"><td class="mdescLeft">&#160;</td><td class="mdescRight">SFINAE magic to return the value if the value HAS a ostream operator &lt;&lt; available.  <a href="#ad0ffad4740d8fa55e8ad74591b592083">More...</a><br /></td></tr>
+<tr class="separator:ad0ffad4740d8fa55e8ad74591b592083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga72ac8fb39736ae5d2b8d920b17d815a8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ga72ac8fb39736ae5d2b8d920b17d815a8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__tlx__math.html#ga72ac8fb39736ae5d2b8d920b17d815a8">abs_diff</a> (const T &amp;a, const T &amp;b)</td></tr>
 <tr class="memdesc:ga72ac8fb39736ae5d2b8d920b17d815a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">absolute difference, which also works for unsigned types  <a href="group__tlx__math.html#ga72ac8fb39736ae5d2b8d920b17d815a8">More...</a><br /></td></tr>
@@ -2386,6 +2408,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab54e1c92cc3ed16c46cba382311c33ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structtlx_1_1has__ostream__operator.html">tlx::has_ostream_operator</a>&lt;Type, decltype(std::declval&lt; std::ostream &amp; &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="wrap__unprintable_8hpp_source.html#l00029">29</a> of file <a class="el" href="wrap__unprintable_8hpp_source.html">wrap_unprintable.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aced5355a13aebabfa68ca4100e507e83"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3200,6 +3239,130 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a2667d7bf97ece107dd08b61ef3a64c82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structtlx_1_1enable__if.html">enable_if</a>&lt;!<a class="el" href="structtlx_1_1has__ostream__operator.html">has_ostream_operator</a>&lt;Type&gt;::value, const char*&gt;::type tlx::wrap_unp </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>instead</em> = <code>&quot;&lt;unprintable&gt;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SFINAE magic to return "&lt;unprintable&gt;" instead if the value HAS NO ostream operator &lt;&lt; available. </p>
+<p>Shortened name of <a class="el" href="namespacetlx.html#a4685dbcbe251d930c560b5071ece8049" title="SFINAE magic to return &quot;&lt;unprintable&gt;&quot; instead if the value HAS NO ostream operator &lt;&lt; available...">wrap_unprintable()</a> </p>
+
+<p>Definition at line <a class="el" href="wrap__unprintable_8hpp_source.html#l00052">52</a> of file <a class="el" href="wrap__unprintable_8hpp_source.html">wrap_unprintable.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0ffad4740d8fa55e8ad74591b592083"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structtlx_1_1enable__if.html">enable_if</a>&lt;<a class="el" href="structtlx_1_1has__ostream__operator.html">has_ostream_operator</a>&lt;Type&gt;::value, Type&gt;::type tlx::wrap_unp </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SFINAE magic to return the value if the value HAS a ostream operator &lt;&lt; available. </p>
+<p>Shortened name of <a class="el" href="namespacetlx.html#a4685dbcbe251d930c560b5071ece8049" title="SFINAE magic to return &quot;&lt;unprintable&gt;&quot; instead if the value HAS NO ostream operator &lt;&lt; available...">wrap_unprintable()</a> </p>
+
+<p>Definition at line <a class="el" href="wrap__unprintable_8hpp_source.html#l00060">60</a> of file <a class="el" href="wrap__unprintable_8hpp_source.html">wrap_unprintable.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4685dbcbe251d930c560b5071ece8049"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structtlx_1_1enable__if.html">enable_if</a>&lt;!<a class="el" href="structtlx_1_1has__ostream__operator.html">has_ostream_operator</a>&lt;Type&gt;::value, const char*&gt;::type tlx::wrap_unprintable </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>instead</em> = <code>&quot;&lt;unprintable&gt;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SFINAE magic to return "&lt;unprintable&gt;" instead if the value HAS NO ostream operator &lt;&lt; available. </p>
+<p>Identical to shorter <a class="el" href="namespacetlx.html#a2667d7bf97ece107dd08b61ef3a64c82" title="SFINAE magic to return &quot;&lt;unprintable&gt;&quot; instead if the value HAS NO ostream operator &lt;&lt; available...">wrap_unp()</a>. </p>
+
+<p>Definition at line <a class="el" href="wrap__unprintable_8hpp_source.html#l00036">36</a> of file <a class="el" href="wrap__unprintable_8hpp_source.html">wrap_unprintable.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ace3a0f19b5c1679cfe2f825709428dbf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structtlx_1_1enable__if.html">enable_if</a>&lt;<a class="el" href="structtlx_1_1has__ostream__operator.html">has_ostream_operator</a>&lt;Type&gt;::value, Type&gt;::type tlx::wrap_unprintable </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SFINAE magic to return the value if the value HAS a ostream operator &lt;&lt; available. </p>
+<p>Identical to shorter <a class="el" href="namespacetlx.html#a2667d7bf97ece107dd08b61ef3a64c82" title="SFINAE magic to return &quot;&lt;unprintable&gt;&quot; instead if the value HAS NO ostream operator &lt;&lt; available...">wrap_unp()</a>. </p>
+
+<p>Definition at line <a class="el" href="wrap__unprintable_8hpp_source.html#l00044">44</a> of file <a class="el" href="wrap__unprintable_8hpp_source.html">wrap_unprintable.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a30118484a60ca2ede4cf0fe139ce8492"></a>
 <div class="memitem">
@@ -3347,7 +3510,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li>
-    <li class="footer">Generated on Thu Aug 29 2019 06:21:05 for tlx by
+    <li class="footer">Generated on Thu Oct 17 2019 15:00:42 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

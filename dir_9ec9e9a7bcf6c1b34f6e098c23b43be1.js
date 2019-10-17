@@ -29,5 +29,6 @@ var dir_9ec9e9a7bcf6c1b34f6e098c23b43be1 =
     [ "unordered_set.hpp", "unordered__set_8hpp.html", [
       [ "LoggerFormatter< std::unordered_set< T, H, E, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__set_3_01T_00_01H_00_01E_00_01A_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__set_3_01T_00_01H_00_01E_00_01A_01_4_01_4" ],
       [ "LoggerFormatter< std::unordered_multiset< T, H, E, A > >", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__multiset_3_01T_00_01H_00_01E_00_01A_01_4_01_4.html", "classtlx_1_1LoggerFormatter_3_01std_1_1unordered__multiset_3_01T_00_01H_00_01E_00_01A_01_4_01_4" ]
-    ] ]
+    ] ],
+    [ "wrap_unprintable.hpp", "wrap__unprintable_8hpp.html", "wrap__unprintable_8hpp" ]
 ];

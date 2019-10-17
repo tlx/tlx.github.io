@@ -31,6 +31,7 @@ var namespacetlx =
     [ "enable_if< true, T >", "structtlx_1_1enable__if_3_01true_00_01T_01_4.html", "structtlx_1_1enable__if_3_01true_00_01T_01_4" ],
     [ "FunctionChain", "classtlx_1_1FunctionChain.html", "classtlx_1_1FunctionChain" ],
     [ "FunctionStack", "classtlx_1_1FunctionStack.html", "classtlx_1_1FunctionStack" ],
+    [ "has_ostream_operator", "structtlx_1_1has__ostream__operator.html", "structtlx_1_1has__ostream__operator" ],
     [ "index_sequence", "structtlx_1_1index__sequence.html", "structtlx_1_1index__sequence" ],
     [ "is_std_array", "structtlx_1_1is__std__array.html", null ],
     [ "is_std_array< std::array< T, N > >", "structtlx_1_1is__std__array_3_01std_1_1array_3_01T_00_01N_01_4_01_4.html", null ],
