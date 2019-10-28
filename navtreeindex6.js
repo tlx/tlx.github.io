@@ -1,5 +1,11 @@
 var NAVTREEINDEX6 =
 {
+"classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html#a740e9aba6d9fafa1a118cf758d2f31d2":[3,0,1,2,1,2],
+"classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html#ab4028a425b0a8492ccf06b1a968570ef":[3,0,1,2,1,1],
+"classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html#ade10c7ac3e97735170d0e96c2018961a":[3,0,1,2,1,0],
+"classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html":[3,0,1,3,0],
+"classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#a0d7662ebb8f632bf989c7bcc4daa4ec8":[3,0,1,3,0,7],
+"classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#a0f27084093bd318aee22dcf34861117e":[3,0,1,3,0,1],
 "classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#a5e57fc05a0e74011ddb318203e15be2d":[3,0,1,3,0,10],
 "classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#a68c6d6abdde9fef27d6a4f2904212559":[3,0,1,3,0,5],
 "classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#a69f4a206f885e3d4185ea82cb4300498":[3,0,1,3,0,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX6 =
 "classtlx_1_1sort__strings__detail_1_1SSClassifyEqualUnroll.html#aa47e10f9af4152473039db8545ffb323":[3,0,1,6,13,2],
 "classtlx_1_1sort__strings__detail_1_1SSClassifyEqualUnroll.html#acfd408d1ee83d02f11846023aa1d3f6c":[3,0,1,6,13,4],
 "classtlx_1_1sort__strings__detail_1_1SSClassifyTreeCalcUnrollInterleave.html":[3,0,1,6,14],
-"classtlx_1_1sort__strings__detail_1_1SSClassifyTreeCalcUnrollInterleave.html#a19b864e2e6010586aaa3d79133b48a1b":[3,0,1,6,14,1],
-"classtlx_1_1sort__strings__detail_1_1SSClassifyTreeCalcUnrollInterleave.html#a1bc24d2646ac357945ebf89aa593ad2f":[3,0,1,6,14,4],
-"classtlx_1_1sort__strings__detail_1_1SSClassifyTreeCalcUnrollInterleave.html#a207ddb2ef860be405b87d30a98836e3d":[3,0,1,6,14,6],
-"classtlx_1_1sort__strings__detail_1_1SSClassifyTreeCalcUnrollInterleave.html#a841b03ee6686f983f5897e24c1e70ef2":[3,0,1,6,14,0],
-"classtlx_1_1sort__strings__detail_1_1SSClassifyTreeCalcUnrollInterleave.html#a919a8ea79e1910b3155ac59dcde9559f":[3,0,1,6,14,7],
-"classtlx_1_1sort__strings__detail_1_1SSClassifyTreeCalcUnrollInterleave.html#aa47e10f9af4152473039db8545ffb323":[3,0,1,6,14,2],
-"classtlx_1_1sort__strings__detail_1_1SSClassifyTreeCalcUnrollInterleave.html#acfd408d1ee83d02f11846023aa1d3f6c":[3,0,1,6,14,5]
+"classtlx_1_1sort__strings__detail_1_1SSClassifyTreeCalcUnrollInterleave.html#a19b864e2e6010586aaa3d79133b48a1b":[3,0,1,6,14,1]
 };

@@ -16,6 +16,7 @@ var group__tlx__string =
       [ "cost_insert_delete", "structtlx_1_1LevenshteinStandardICaseParameters.html#aa2b1f0aaff1193840a5606b1c41a330d", null ],
       [ "cost_replace", "structtlx_1_1LevenshteinStandardICaseParameters.html#acde19a6e13b252fec7473184680b2cd7", null ]
     ] ],
+    [ "appendline", "group__tlx__string.html#ga2883e674ccdbb4a5a4f8b22b5a482f5d", null ],
     [ "base64_decode", "group__tlx__string.html#gac2775fbea220f27325aba0f8af1cc9a8", null ],
     [ "base64_decode", "group__tlx__string.html#gabe1e973cd3a2d5b7e55544d4c616da49", null ],
     [ "base64_encode", "group__tlx__string.html#ga691477f59c8496eec65e994ce3f6e6e5", null ],

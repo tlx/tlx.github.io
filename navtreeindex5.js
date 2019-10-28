@@ -1,5 +1,11 @@
 var NAVTREEINDEX5 =
 {
+"classtlx_1_1btree__map.html#adc204502ef1606c9daa4a613da6aacfb":[1,0,1,0,2,37],
+"classtlx_1_1btree__map.html#add985b33b72ef68812f3986e8df807f5":[1,0,1,0,2,12],
+"classtlx_1_1btree__map.html#addd4e2b6ff9c7bef508bc908caabb2d4":[1,0,1,0,2,26],
+"classtlx_1_1btree__map.html#ae57ff6dd1cb4dc347b892dfa87ea6613":[1,0,1,0,2,32],
+"classtlx_1_1btree__map.html#aec89d699a604c38a596825ae86bc7081":[1,0,1,0,2,20],
+"classtlx_1_1btree__map.html#af26aef03a7dfaca8fabb99969312307a":[1,0,1,0,2,66],
 "classtlx_1_1btree__map.html#af8b2d25c3e313e0b24656afe5cd4f6f2":[1,0,1,0,2,33],
 "classtlx_1_1btree__map.html#afa604e854df383bc24cc01d08428d5ac":[1,0,1,0,2,24],
 "classtlx_1_1btree__map.html#afac99371679d954e37aefa29118a6459":[1,0,1,0,2,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX5 =
 "classtlx_1_1multisequence__selection__detail_1_1lexicographic.html#a12a4d669cbca5373a7570e330c64a41a":[3,0,1,2,0,0],
 "classtlx_1_1multisequence__selection__detail_1_1lexicographic.html#a740e9aba6d9fafa1a118cf758d2f31d2":[3,0,1,2,0,2],
 "classtlx_1_1multisequence__selection__detail_1_1lexicographic.html#ab4028a425b0a8492ccf06b1a968570ef":[3,0,1,2,0,1],
-"classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html":[3,0,1,2,1],
-"classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html#a740e9aba6d9fafa1a118cf758d2f31d2":[3,0,1,2,1,2],
-"classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html#ab4028a425b0a8492ccf06b1a968570ef":[3,0,1,2,1,1],
-"classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html#ade10c7ac3e97735170d0e96c2018961a":[3,0,1,2,1,0],
-"classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html":[3,0,1,3,0],
-"classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#a0d7662ebb8f632bf989c7bcc4daa4ec8":[3,0,1,3,0,7],
-"classtlx_1_1multiway__merge__detail_1_1guarded__iterator.html#a0f27084093bd318aee22dcf34861117e":[3,0,1,3,0,1]
+"classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html":[3,0,1,2,1]
 };

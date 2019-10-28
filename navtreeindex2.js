@@ -1,5 +1,11 @@
 var NAVTREEINDEX2 =
 {
+"classtlx_1_1CountingPtr.html#a7012648d8c1127a12467a9c851aef094":[3,0,1,17,20],
+"classtlx_1_1CountingPtr.html#a76adf9605e775ed78d7a25286b399adf":[3,0,1,17,2],
+"classtlx_1_1CountingPtr.html#a84d20072cc10f39001a8d691f25f7987":[3,0,1,17,9],
+"classtlx_1_1CountingPtr.html#a8db0d2fc192644bf209e350cfb486091":[3,0,1,17,11],
+"classtlx_1_1CountingPtr.html#a99f77f09f364b20c3a30ab6bffa4c24b":[3,0,1,17,37],
+"classtlx_1_1CountingPtr.html#a9d05f056aa52de6427eba4f2cdbbd080":[3,0,1,17,28],
 "classtlx_1_1CountingPtr.html#aa0957c00054156f1af9fce986cbfcb4f":[3,0,1,17,39],
 "classtlx_1_1CountingPtr.html#aa6c398e0330d2e6ddd23650cbfbcdf67":[3,0,1,17,0],
 "classtlx_1_1CountingPtr.html#aa7d869f24270c5c8f9fd68af814987a3":[3,0,1,17,31],
@@ -243,11 +249,5 @@ var NAVTREEINDEX2 =
 "classtlx_1_1LoserTreeCopyUnguarded.html":[1,0,1,1,10],
 "classtlx_1_1LoserTreeCopyUnguardedBase.html":[1,0,1,1,9],
 "classtlx_1_1LoserTreeCopyUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html":[1,0,1,1,11],
-"classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html":[1,0,1,1,3],
-"classtlx_1_1LoserTreePointer.html":[1,0,1,1,6],
-"classtlx_1_1LoserTreePointerBase.html":[1,0,1,1,5],
-"classtlx_1_1LoserTreePointerUnguarded.html":[1,0,1,1,14],
-"classtlx_1_1LoserTreePointerUnguardedBase.html":[1,0,1,1,13],
-"classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html":[1,0,1,1,15],
-"classtlx_1_1LoserTreePointer_3_01true_00_01ValueType_00_01Comparator_01_4.html":[1,0,1,1,7]
+"classtlx_1_1LoserTreeCopy_3_01true_00_01ValueType_00_01Comparator_01_4.html":[1,0,1,1,3]
 };

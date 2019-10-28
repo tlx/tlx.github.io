@@ -1,5 +1,11 @@
 var NAVTREEINDEX3 =
 {
+"classtlx_1_1LoserTreePointer.html":[1,0,1,1,6],
+"classtlx_1_1LoserTreePointerBase.html":[1,0,1,1,5],
+"classtlx_1_1LoserTreePointerUnguarded.html":[1,0,1,1,14],
+"classtlx_1_1LoserTreePointerUnguardedBase.html":[1,0,1,1,13],
+"classtlx_1_1LoserTreePointerUnguarded_3_01true_00_01ValueType_00_01Comparator_01_4.html":[1,0,1,1,15],
+"classtlx_1_1LoserTreePointer_3_01true_00_01ValueType_00_01Comparator_01_4.html":[1,0,1,1,7],
 "classtlx_1_1LoserTreeSwitch.html":[1,0,1,1,16],
 "classtlx_1_1LruCacheMap.html":[1,0,1,5],
 "classtlx_1_1LruCacheMap.html#a053539fdd3306220459cb942bf95fac5":[1,0,1,5,12],
@@ -243,11 +249,5 @@ var NAVTREEINDEX3 =
 "classtlx_1_1SHA512.html#af2dd7cf5569b39af83072be4116d84ee":[1,0,3,3,13],
 "classtlx_1_1ScopedMultiTimer.html":[3,0,1,97],
 "classtlx_1_1ScopedMultiTimer.html#a3c85476df15286583524cc989d73dde0":[3,0,1,97,2],
-"classtlx_1_1ScopedMultiTimer.html#a4740be797e19a0b6d985709e7000931a":[3,0,1,97,1],
-"classtlx_1_1ScopedMultiTimer.html#ad322d5bc33fa7d0d40a120ecab19840c":[3,0,1,97,0],
-"classtlx_1_1ScopedMultiTimer.html#afc14954f4b0cf3930dbab50fa23d9a16":[3,0,1,97,3],
-"classtlx_1_1ScopedMultiTimerSwitch.html":[3,0,1,98],
-"classtlx_1_1ScopedMultiTimerSwitch.html#a924ab67458237873a854acdc7a2bb049":[3,0,1,98,1],
-"classtlx_1_1ScopedMultiTimerSwitch.html#aa19be0061388614c7a3cea0bc1735b16":[3,0,1,98,3],
-"classtlx_1_1ScopedMultiTimerSwitch.html#acc19e359670895b374636ea03a1c9931":[3,0,1,98,2]
+"classtlx_1_1ScopedMultiTimer.html#a4740be797e19a0b6d985709e7000931a":[3,0,1,97,1]
 };
