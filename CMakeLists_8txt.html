@@ -124,10 +124,20 @@ Functions</h2></td></tr>
 <tr class="separator:a12d5bd3fdaa18c893f5fe9f6c9639488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf310dbe0a23f23cc0928f0a248a19d9"><td class="memItemLeft" align="right" valign="top">TLX_LIBNAME&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CMakeLists_8txt.html#aaf310dbe0a23f23cc0928f0a248a19d9">if</a> (TLX_LIBNAME STREQUAL&quot;tlx_release&quot;OR TLX_LIBNAME STREQUAL&quot;tlx_&quot;) set(TLX_LIBNAME&quot;tlx&quot;) endif() if(TLX_BUILD_SHARED_LIBS) add_library(tlx SHARED $</td></tr>
 <tr class="separator:aaf310dbe0a23f23cc0928f0a248a19d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a324d8bef11985f1d4ed7f9393a757296"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CMakeLists_8txt.html#a324d8bef11985f1d4ed7f9393a757296">set_target_properties</a> (tlx PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;) set_target_properties(tlx PROPERTIES VERSION&quot;$</td></tr>
-<tr class="separator:a324d8bef11985f1d4ed7f9393a757296"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae53a64ceb90ee3ae8025e74cfd255d05"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CMakeLists_8txt.html#ae53a64ceb90ee3ae8025e74cfd255d05">target_compile_definitions</a> (tlx PUBLIC ${TLX_DEFINITIONS}) target_include_directories(tlx PUBLIC $&lt; BUILD_INTERFACE</td></tr>
-<tr class="separator:ae53a64ceb90ee3ae8025e74cfd255d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81e5ca149358308b009c9a34e66038ed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CMakeLists_8txt.html#a81e5ca149358308b009c9a34e66038ed">set_target_properties</a> (tlx PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;VERSION&quot;${TLX_VERSION}&quot;SOVERSION&quot;${TLX_SOVERSION}&quot;) target_compile_definitions(tlx PUBLIC $</td></tr>
+<tr class="separator:a81e5ca149358308b009c9a34e66038ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac047f9c23ae15a789af40cc2d89116"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CMakeLists_8txt.html#afac047f9c23ae15a789af40cc2d89116">target_include_directories</a> (tlx PUBLIC $&lt; BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/&gt; $&lt; INSTALL_INTERFACE:${TLX_INSTALL_INCLUDE_DIR}&gt; ${TLX_DEPEND_INCLUDE_DIRS}) target_link_libraries(tlx $</td></tr>
+<tr class="separator:afac047f9c23ae15a789af40cc2d89116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd6094c377395636363ea5d9d04dfb2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CMakeLists_8txt.html#afd6094c377395636363ea5d9d04dfb2d">install</a> (TARGETS tlx EXPORT tlx-targets COMPONENT Libraries ARCHIVE DESTINATION ${TLX_INSTALL_LIB_DIR}LIBRARY DESTINATION ${TLX_INSTALL_LIB_DIR}) <a class="el" href="CMakeLists_8txt.html#aaf310dbe0a23f23cc0928f0a248a19d9">if</a>(TLX_BUILD_STATIC_LIBS) add_library(tlx_static STATIC $</td></tr>
+<tr class="separator:afd6094c377395636363ea5d9d04dfb2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c29f1cca79a3e8024347c18a3c0082e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CMakeLists_8txt.html#a3c29f1cca79a3e8024347c18a3c0082e">set_target_properties</a> (tlx_static PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;VERSION&quot;${TLX_VERSION}&quot;) target_compile_definitions(tlx_static PUBLIC $</td></tr>
+<tr class="separator:a3c29f1cca79a3e8024347c18a3c0082e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e4014228441560034b440eb27822e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CMakeLists_8txt.html#a50e4014228441560034b440eb27822e2">target_include_directories</a> (tlx_static PUBLIC $&lt; BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/&gt; $&lt; INSTALL_INTERFACE:${TLX_INSTALL_INCLUDE_DIR}&gt; ${TLX_DEPEND_INCLUDE_DIRS}) target_link_libraries(tlx_static $</td></tr>
+<tr class="separator:a50e4014228441560034b440eb27822e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2ea5f0cbcb3cb86fd4f60c93322e42f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CMakeLists_8txt.html#ad2ea5f0cbcb3cb86fd4f60c93322e42f">install</a> (TARGETS tlx_static EXPORT tlx-targets COMPONENT Development ARCHIVE DESTINATION ${TLX_INSTALL_LIB_DIR}LIBRARY DESTINATION ${TLX_INSTALL_LIB_DIR}) <a class="el" href="CMakeLists_8txt.html#a12d5bd3fdaa18c893f5fe9f6c9639488">set</a>(TLX_EXPORTED_LIBS tlx tlx_static) endif() else() add_library(tlx STATIC $</td></tr>
+<tr class="separator:ad2ea5f0cbcb3cb86fd4f60c93322e42f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebf43398aab678466eb2ab2d95ef4989"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="CMakeLists_8txt.html#aebf43398aab678466eb2ab2d95ef4989">set_target_properties</a> (tlx PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;VERSION&quot;${TLX_VERSION}&quot;) target_compile_definitions(tlx PUBLIC $</td></tr>
+<tr class="separator:aebf43398aab678466eb2ab2d95ef4989"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="aaf310dbe0a23f23cc0928f0a248a19d9"></a>
@@ -145,6 +155,42 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="CMakeLists_8txt_source.html#l00066">66</a> of file <a class="el" href="CMakeLists_8txt_source.html">CMakeLists.txt</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd6094c377395636363ea5d9d04dfb2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">install </td>
+          <td>(</td>
+          <td class="paramtype">TARGETS tlx EXPORT tlx-targets COMPONENT Libraries ARCHIVE DESTINATION ${TLX_INSTALL_LIB_DIR}LIBRARY DESTINATION ${TLX_INSTALL_LIB_DIR}&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="CMakeLists_8txt_source.html#l00086">86</a> of file <a class="el" href="CMakeLists_8txt_source.html">CMakeLists.txt</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad2ea5f0cbcb3cb86fd4f60c93322e42f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">install </td>
+          <td>(</td>
+          <td class="paramtype">TARGETS tlx_static EXPORT tlx-targets COMPONENT Development ARCHIVE DESTINATION ${TLX_INSTALL_LIB_DIR}LIBRARY DESTINATION ${TLX_INSTALL_LIB_DIR}&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="CMakeLists_8txt_source.html#l00106">106</a> of file <a class="el" href="CMakeLists_8txt_source.html">CMakeLists.txt</a>.</p>
 
 </div>
 </div>
@@ -166,14 +212,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a324d8bef11985f1d4ed7f9393a757296"></a>
+<a class="anchor" id="a81e5ca149358308b009c9a34e66038ed"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">set_target_properties </td>
           <td>(</td>
-          <td class="paramtype">tlx PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;&#160;</td>
+          <td class="paramtype">tlx PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;VERSION&quot;${TLX_VERSION}&quot;SOVERSION&quot;${TLX_SOVERSION}&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -184,21 +230,75 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae53a64ceb90ee3ae8025e74cfd255d05"></a>
+<a class="anchor" id="a3c29f1cca79a3e8024347c18a3c0082e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">target_compile_definitions </td>
+          <td class="memname">set_target_properties </td>
           <td>(</td>
-          <td class="paramtype">tlx PUBLIC ${TLX_DEFINITIONS}&#160;</td>
+          <td class="paramtype">tlx_static PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;VERSION&quot;${TLX_VERSION}&quot;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="CMakeLists_8txt_source.html#l00077">77</a> of file <a class="el" href="CMakeLists_8txt_source.html">CMakeLists.txt</a>.</p>
+<p>Definition at line <a class="el" href="CMakeLists_8txt_source.html#l00095">95</a> of file <a class="el" href="CMakeLists_8txt_source.html">CMakeLists.txt</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aebf43398aab678466eb2ab2d95ef4989"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">set_target_properties </td>
+          <td>(</td>
+          <td class="paramtype">tlx PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;VERSION&quot;${TLX_VERSION}&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="CMakeLists_8txt_source.html#l00120">120</a> of file <a class="el" href="CMakeLists_8txt_source.html">CMakeLists.txt</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afac047f9c23ae15a789af40cc2d89116"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">target_include_directories </td>
+          <td>(</td>
+          <td class="paramtype">tlx PUBLIC $&lt; BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/&gt; $&lt; INSTALL_INTERFACE:${TLX_INSTALL_INCLUDE_DIR}&gt; ${TLX_DEPEND_INCLUDE_DIRS}&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="CMakeLists_8txt_source.html#l00080">80</a> of file <a class="el" href="CMakeLists_8txt_source.html">CMakeLists.txt</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a50e4014228441560034b440eb27822e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">target_include_directories </td>
+          <td>(</td>
+          <td class="paramtype">tlx_static PUBLIC $&lt; BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/&gt; $&lt; INSTALL_INTERFACE:${TLX_INSTALL_INCLUDE_DIR}&gt; ${TLX_DEPEND_INCLUDE_DIRS}&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="CMakeLists_8txt_source.html#l00100">100</a> of file <a class="el" href="CMakeLists_8txt_source.html">CMakeLists.txt</a>.</p>
 
 </div>
 </div>
@@ -208,7 +308,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="CMakeLists_8txt.html">CMakeLists.txt</a></li>
-    <li class="footer">Generated on Mon Oct 28 2019 14:53:13 for tlx by
+    <li class="footer">Generated on Fri Nov 15 2019 13:38:44 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

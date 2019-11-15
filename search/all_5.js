@@ -50,7 +50,7 @@ var searchData=
   ['format_5fsi_5fiec_5funits_2ehpp',['format_si_iec_units.hpp',['../format__si__iec__units_8hpp.html',1,'']]],
   ['format_5fsi_5funits',['format_si_units',['../group__tlx__string.html#ga084c15f3eff7d1eb6018d00779486013',1,'tlx']]],
   ['format_5fsi_5funits_2ehpp',['format_si_units.hpp',['../format__si__units_8hpp.html',1,'']]],
-  ['found_5f',['found_',['../structtlx_1_1CmdlineParser_1_1Argument.html#a17bca20ca035c81fc7c4875bf4195982',1,'tlx::CmdlineParser::Argument']]],
+  ['found_5f',['found_',['../classtlx_1_1CmdlineParser.html#a17bca20ca035c81fc7c4875bf4195982',1,'tlx::CmdlineParser']]],
   ['free_5fnode',['free_node',['../classtlx_1_1BTree.html#a12d054d5f2dfa6c0d777e2ceb7e4f89d',1,'tlx::BTree']]],
   ['front',['front',['../classtlx_1_1RingBuffer.html#aa688f5c7b1552245701b0d16d6b95ec6',1,'tlx::RingBuffer::front() noexcept'],['../classtlx_1_1RingBuffer.html#af6ce9aca34b12f7e9794186afdbd8025',1,'tlx::RingBuffer::front() const noexcept']]],
   ['function_5fcaller',['function_caller',['../classtlx_1_1Delegate_3_01R_07A_8_8_8_08_00_01Allocator_01_4.html#a9fd00de53c7a454f0b52b11015c66edd',1,'tlx::Delegate&lt; R(A...), Allocator &gt;']]],

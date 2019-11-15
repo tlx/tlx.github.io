@@ -114,62 +114,156 @@ $(document).ready(function(){initNavTree('classtlx_1_1CmdlineParser.html','');})
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classtlx_1_1CmdlineParser-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">CmdlineParser Class Reference</div>  </div>
+<div class="title">CmdlineParser Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Command line parser which automatically fills variables and prints nice usage messages.  
+<p>base class of all options and parameters  
  <a href="classtlx_1_1CmdlineParser.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="cmdline__parser_8hpp_source.html">cmdline_parser.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for CmdlineParser:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classtlx_1_1CmdlineParser.png" usemap="#CmdlineParser_map" alt=""/>
+  <map id="CmdlineParser_map" name="CmdlineParser_map">
+</map>
+ </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class of all options and parameters  <a href="structtlx_1_1CmdlineParser_1_1Argument.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentBool.html">ArgumentBool</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">specialization of argument for boolean flags (can only be set to true).  <a href="structtlx_1_1CmdlineParser_1_1ArgumentBool.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html">ArgumentBytes32</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">specialization of argument for SI/IEC suffixes byte size options or parameters  <a href="structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentBytes64.html">ArgumentBytes64</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">specialization of argument for SI/IEC suffixes byte size options or parameters  <a href="structtlx_1_1CmdlineParser_1_1ArgumentBytes64.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentDouble.html">ArgumentDouble</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">specialization of argument for double options or parameters  <a href="structtlx_1_1CmdlineParser_1_1ArgumentDouble.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentFloat.html">ArgumentFloat</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">specialization of argument for float options or parameters  <a href="structtlx_1_1CmdlineParser_1_1ArgumentFloat.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentInt.html">ArgumentInt</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">specialization of argument for integer options or parameters  <a href="structtlx_1_1CmdlineParser_1_1ArgumentInt.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentSizeT.html">ArgumentSizeT</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">specialization of argument for size_t options or parameters  <a href="structtlx_1_1CmdlineParser_1_1ArgumentSizeT.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentString.html">ArgumentString</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">specialization of argument for string options or parameters  <a href="structtlx_1_1CmdlineParser_1_1ArgumentString.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentStringlist.html">ArgumentStringlist</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">specialization of argument for multiple string options or parameters  <a href="structtlx_1_1CmdlineParser_1_1ArgumentStringlist.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html">ArgumentUnsigned</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">specialization of argument for unsigned integer options or parameters  <a href="structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ad2a14c07a619f29094a7c1adcbb776ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required)</td></tr>
+<tr class="memdesc:ad2a14c07a619f29094a7c1adcbb776ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#ad2a14c07a619f29094a7c1adcbb776ba">More...</a><br /></td></tr>
+<tr class="separator:ad2a14c07a619f29094a7c1adcbb776ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638bde225f0c55386b6f70741d6a4576"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a638bde225f0c55386b6f70741d6a4576">~Argument</a> ()=default</td></tr>
+<tr class="memdesc:a638bde225f0c55386b6f70741d6a4576"><td class="mdescLeft">&#160;</td><td class="mdescRight">empty virtual destructor  <a href="#a638bde225f0c55386b6f70741d6a4576">More...</a><br /></td></tr>
+<tr class="separator:a638bde225f0c55386b6f70741d6a4576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64ac855d9e56eb13e21f4ab72bc268c8"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a64ac855d9e56eb13e21f4ab72bc268c8">type_name</a> () const =0</td></tr>
+<tr class="memdesc:a64ac855d9e56eb13e21f4ab72bc268c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">return formatted type name to user  <a href="#a64ac855d9e56eb13e21f4ab72bc268c8">More...</a><br /></td></tr>
+<tr class="separator:a64ac855d9e56eb13e21f4ab72bc268c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56cdb4a19d0ecfe687299f1bb08eeedb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a56cdb4a19d0ecfe687299f1bb08eeedb">process</a> (int &amp;argc, const char *const *&amp;argv)=0</td></tr>
+<tr class="memdesc:a56cdb4a19d0ecfe687299f1bb08eeedb"><td class="mdescLeft">&#160;</td><td class="mdescRight">process one item from command line for this argument  <a href="#a56cdb4a19d0ecfe687299f1bb08eeedb">More...</a><br /></td></tr>
+<tr class="separator:a56cdb4a19d0ecfe687299f1bb08eeedb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ba5d45a191eac9f70e5e178009d838b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a0ba5d45a191eac9f70e5e178009d838b">print_value</a> (std::ostream &amp;os) const =0</td></tr>
+<tr class="memdesc:a0ba5d45a191eac9f70e5e178009d838b"><td class="mdescLeft">&#160;</td><td class="mdescRight">format value to ostream  <a href="#a0ba5d45a191eac9f70e5e178009d838b">More...</a><br /></td></tr>
+<tr class="separator:a0ba5d45a191eac9f70e5e178009d838b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ad78a3220008442890cf3ac12e9f77"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a37ad78a3220008442890cf3ac12e9f77">param_text</a> () const </td></tr>
+<tr class="memdesc:a37ad78a3220008442890cf3ac12e9f77"><td class="mdescLeft">&#160;</td><td class="mdescRight">return 'longkey [keytype]'  <a href="#a37ad78a3220008442890cf3ac12e9f77">More...</a><br /></td></tr>
+<tr class="separator:a37ad78a3220008442890cf3ac12e9f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02b426c755b8770bb46beda5f10c382"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ad02b426c755b8770bb46beda5f10c382">option_text</a> () const </td></tr>
+<tr class="memdesc:ad02b426c755b8770bb46beda5f10c382"><td class="mdescLeft">&#160;</td><td class="mdescRight">return '-s, &ndash;longkey [keytype]'  <a href="#ad02b426c755b8770bb46beda5f10c382">More...</a><br /></td></tr>
+<tr class="separator:ad02b426c755b8770bb46beda5f10c382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9db1ea384594ee66e67d6765bcce9116"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a9db1ea384594ee66e67d6765bcce9116">ArgumentBool</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required, bool &amp;dest)</td></tr>
+<tr class="memdesc:a9db1ea384594ee66e67d6765bcce9116"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#a9db1ea384594ee66e67d6765bcce9116">More...</a><br /></td></tr>
+<tr class="separator:a9db1ea384594ee66e67d6765bcce9116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa6a78908f9b56fd0b57a551a82c9546f">type_name</a> () const final</td></tr>
+<tr class="separator:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1138dedebbc8733457bb3655f10716b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af1138dedebbc8733457bb3655f10716b">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:af1138dedebbc8733457bb3655f10716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">"process" argument: just set to true, no argument is used.  <a href="#af1138dedebbc8733457bb3655f10716b">More...</a><br /></td></tr>
+<tr class="separator:af1138dedebbc8733457bb3655f10716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae06971ebe15525941922449c63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aeaae06971ebe15525941922449c63813">print_value</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="separator:aeaae06971ebe15525941922449c63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42721a2cec2e13d9716d69e2367918d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a42721a2cec2e13d9716d69e2367918d8">ArgumentInt</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required, int &amp;dest)</td></tr>
+<tr class="memdesc:a42721a2cec2e13d9716d69e2367918d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#a42721a2cec2e13d9716d69e2367918d8">More...</a><br /></td></tr>
+<tr class="separator:a42721a2cec2e13d9716d69e2367918d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa6a78908f9b56fd0b57a551a82c9546f">type_name</a> () const final</td></tr>
+<tr class="separator:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1138dedebbc8733457bb3655f10716b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af1138dedebbc8733457bb3655f10716b">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:af1138dedebbc8733457bb3655f10716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse signed integer using sscanf.  <a href="#af1138dedebbc8733457bb3655f10716b">More...</a><br /></td></tr>
+<tr class="separator:af1138dedebbc8733457bb3655f10716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae06971ebe15525941922449c63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aeaae06971ebe15525941922449c63813">print_value</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="separator:aeaae06971ebe15525941922449c63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa456fe4dc20e72ff3d863bce45a5a1b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa456fe4dc20e72ff3d863bce45a5a1b7">ArgumentUnsigned</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required, unsigned int &amp;dest)</td></tr>
+<tr class="memdesc:aa456fe4dc20e72ff3d863bce45a5a1b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#aa456fe4dc20e72ff3d863bce45a5a1b7">More...</a><br /></td></tr>
+<tr class="separator:aa456fe4dc20e72ff3d863bce45a5a1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa6a78908f9b56fd0b57a551a82c9546f">type_name</a> () const final</td></tr>
+<tr class="separator:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1138dedebbc8733457bb3655f10716b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af1138dedebbc8733457bb3655f10716b">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:af1138dedebbc8733457bb3655f10716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse unsigned integer using sscanf.  <a href="#af1138dedebbc8733457bb3655f10716b">More...</a><br /></td></tr>
+<tr class="separator:af1138dedebbc8733457bb3655f10716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae06971ebe15525941922449c63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aeaae06971ebe15525941922449c63813">print_value</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="separator:aeaae06971ebe15525941922449c63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05281bc84c562650b0f2ec2ed3cc1361"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a05281bc84c562650b0f2ec2ed3cc1361">ArgumentSizeT</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required, size_t &amp;dest)</td></tr>
+<tr class="memdesc:a05281bc84c562650b0f2ec2ed3cc1361"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#a05281bc84c562650b0f2ec2ed3cc1361">More...</a><br /></td></tr>
+<tr class="separator:a05281bc84c562650b0f2ec2ed3cc1361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa6a78908f9b56fd0b57a551a82c9546f">type_name</a> () const final</td></tr>
+<tr class="separator:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1138dedebbc8733457bb3655f10716b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af1138dedebbc8733457bb3655f10716b">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:af1138dedebbc8733457bb3655f10716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse size_t using sscanf.  <a href="#af1138dedebbc8733457bb3655f10716b">More...</a><br /></td></tr>
+<tr class="separator:af1138dedebbc8733457bb3655f10716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae06971ebe15525941922449c63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aeaae06971ebe15525941922449c63813">print_value</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="separator:aeaae06971ebe15525941922449c63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad55ade07fb605e88dd6f98b3d3f16ed5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ad55ade07fb605e88dd6f98b3d3f16ed5">ArgumentFloat</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required, float &amp;dest)</td></tr>
+<tr class="memdesc:ad55ade07fb605e88dd6f98b3d3f16ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#ad55ade07fb605e88dd6f98b3d3f16ed5">More...</a><br /></td></tr>
+<tr class="separator:ad55ade07fb605e88dd6f98b3d3f16ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa6a78908f9b56fd0b57a551a82c9546f">type_name</a> () const final</td></tr>
+<tr class="separator:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1138dedebbc8733457bb3655f10716b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af1138dedebbc8733457bb3655f10716b">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:af1138dedebbc8733457bb3655f10716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse unsigned integer using sscanf.  <a href="#af1138dedebbc8733457bb3655f10716b">More...</a><br /></td></tr>
+<tr class="separator:af1138dedebbc8733457bb3655f10716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae06971ebe15525941922449c63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aeaae06971ebe15525941922449c63813">print_value</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="separator:aeaae06971ebe15525941922449c63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a98f5a07e2d94822fc50aca04fda1ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a7a98f5a07e2d94822fc50aca04fda1ff">ArgumentDouble</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required, double &amp;dest)</td></tr>
+<tr class="memdesc:a7a98f5a07e2d94822fc50aca04fda1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#a7a98f5a07e2d94822fc50aca04fda1ff">More...</a><br /></td></tr>
+<tr class="separator:a7a98f5a07e2d94822fc50aca04fda1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa6a78908f9b56fd0b57a551a82c9546f">type_name</a> () const final</td></tr>
+<tr class="separator:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1138dedebbc8733457bb3655f10716b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af1138dedebbc8733457bb3655f10716b">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:af1138dedebbc8733457bb3655f10716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse unsigned integer using sscanf.  <a href="#af1138dedebbc8733457bb3655f10716b">More...</a><br /></td></tr>
+<tr class="separator:af1138dedebbc8733457bb3655f10716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae06971ebe15525941922449c63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aeaae06971ebe15525941922449c63813">print_value</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="separator:aeaae06971ebe15525941922449c63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a011726dd2e68540a38b0b5788fca14e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a011726dd2e68540a38b0b5788fca14e2">ArgumentBytes32</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required, uint32_t &amp;dest)</td></tr>
+<tr class="memdesc:a011726dd2e68540a38b0b5788fca14e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#a011726dd2e68540a38b0b5788fca14e2">More...</a><br /></td></tr>
+<tr class="separator:a011726dd2e68540a38b0b5788fca14e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa6a78908f9b56fd0b57a551a82c9546f">type_name</a> () const final</td></tr>
+<tr class="separator:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1138dedebbc8733457bb3655f10716b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af1138dedebbc8733457bb3655f10716b">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:af1138dedebbc8733457bb3655f10716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse byte size using SI/IEC parser.  <a href="#af1138dedebbc8733457bb3655f10716b">More...</a><br /></td></tr>
+<tr class="separator:af1138dedebbc8733457bb3655f10716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae06971ebe15525941922449c63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aeaae06971ebe15525941922449c63813">print_value</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="separator:aeaae06971ebe15525941922449c63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79b84467c81fab48c7d23e67b8edbdb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a79b84467c81fab48c7d23e67b8edbdb6">ArgumentBytes64</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required, uint64_t &amp;dest)</td></tr>
+<tr class="memdesc:a79b84467c81fab48c7d23e67b8edbdb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#a79b84467c81fab48c7d23e67b8edbdb6">More...</a><br /></td></tr>
+<tr class="separator:a79b84467c81fab48c7d23e67b8edbdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa6a78908f9b56fd0b57a551a82c9546f">type_name</a> () const final</td></tr>
+<tr class="separator:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1138dedebbc8733457bb3655f10716b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af1138dedebbc8733457bb3655f10716b">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:af1138dedebbc8733457bb3655f10716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse byte size using SI/IEC parser.  <a href="#af1138dedebbc8733457bb3655f10716b">More...</a><br /></td></tr>
+<tr class="separator:af1138dedebbc8733457bb3655f10716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae06971ebe15525941922449c63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aeaae06971ebe15525941922449c63813">print_value</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="separator:aeaae06971ebe15525941922449c63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4a7ce6923aff8de2ed6cc83cbd33bf6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af4a7ce6923aff8de2ed6cc83cbd33bf6">ArgumentString</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required, std::string &amp;dest)</td></tr>
+<tr class="memdesc:af4a7ce6923aff8de2ed6cc83cbd33bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#af4a7ce6923aff8de2ed6cc83cbd33bf6">More...</a><br /></td></tr>
+<tr class="separator:af4a7ce6923aff8de2ed6cc83cbd33bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa6a78908f9b56fd0b57a551a82c9546f">type_name</a> () const final</td></tr>
+<tr class="separator:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1138dedebbc8733457bb3655f10716b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af1138dedebbc8733457bb3655f10716b">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:af1138dedebbc8733457bb3655f10716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">"process" string argument just by storing it.  <a href="#af1138dedebbc8733457bb3655f10716b">More...</a><br /></td></tr>
+<tr class="separator:af1138dedebbc8733457bb3655f10716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae06971ebe15525941922449c63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aeaae06971ebe15525941922449c63813">print_value</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="separator:aeaae06971ebe15525941922449c63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbc506e61defaaa5040c2a74d69e8f52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#acbc506e61defaaa5040c2a74d69e8f52">ArgumentStringlist</a> (char key, const std::string &amp;longkey, const std::string &amp;keytype, const std::string &amp;desc, bool required, std::vector&lt; std::string &gt; &amp;dest)</td></tr>
+<tr class="memdesc:acbc506e61defaaa5040c2a74d69e8f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">contructor filling most attributes  <a href="#acbc506e61defaaa5040c2a74d69e8f52">More...</a><br /></td></tr>
+<tr class="separator:acbc506e61defaaa5040c2a74d69e8f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aa6a78908f9b56fd0b57a551a82c9546f">type_name</a> () const final</td></tr>
+<tr class="separator:aa6a78908f9b56fd0b57a551a82c9546f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1138dedebbc8733457bb3655f10716b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#af1138dedebbc8733457bb3655f10716b">process</a> (int &amp;argc, const char *const *&amp;argv) final</td></tr>
+<tr class="memdesc:af1138dedebbc8733457bb3655f10716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">"process" string argument just by storing it in vector.  <a href="#af1138dedebbc8733457bb3655f10716b">More...</a><br /></td></tr>
+<tr class="separator:af1138dedebbc8733457bb3655f10716b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaae06971ebe15525941922449c63813"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#aeaae06971ebe15525941922449c63813">print_value</a> (std::ostream &amp;os) const final</td></tr>
+<tr class="separator:aeaae06971ebe15525941922449c63813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47961669162c778a7f0125dff5a1c18b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a47961669162c778a7f0125dff5a1c18b">CmdlineParser</a> ()</td></tr>
 <tr class="memdesc:a47961669162c778a7f0125dff5a1c18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a47961669162c778a7f0125dff5a1c18b">More...</a><br /></td></tr>
 <tr class="separator:a47961669162c778a7f0125dff5a1c18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -386,24 +480,72 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a64cb538abed4a27b7eaff6c96a60e25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap a long string at spaces into lines.  <a href="#a64cb538abed4a27b7eaff6c96a60e25e">More...</a><br /></td></tr>
 <tr class="separator:a64cb538abed4a27b7eaff6c96a60e25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:afe4c07cac9893084132f4d41107dfc3e"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#afe4c07cac9893084132f4d41107dfc3e">key_</a></td></tr>
+<tr class="memdesc:afe4c07cac9893084132f4d41107dfc3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">single letter short option, or 0 is none  <a href="#afe4c07cac9893084132f4d41107dfc3e">More...</a><br /></td></tr>
+<tr class="separator:afe4c07cac9893084132f4d41107dfc3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc710c3fdab138d5baaa4d1856e2f0cc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#afc710c3fdab138d5baaa4d1856e2f0cc">longkey_</a></td></tr>
+<tr class="memdesc:afc710c3fdab138d5baaa4d1856e2f0cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">long option key or name for parameters  <a href="#afc710c3fdab138d5baaa4d1856e2f0cc">More...</a><br /></td></tr>
+<tr class="separator:afc710c3fdab138d5baaa4d1856e2f0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02f964c2735d6fe2393f9934050b5a80"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a02f964c2735d6fe2393f9934050b5a80">keytype_</a></td></tr>
+<tr class="memdesc:a02f964c2735d6fe2393f9934050b5a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">option type description, e.g. "&lt;#&gt;" to indicate numbers  <a href="#a02f964c2735d6fe2393f9934050b5a80">More...</a><br /></td></tr>
+<tr class="separator:a02f964c2735d6fe2393f9934050b5a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1aebff917107d5da9f739f9ed05ef2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a6a1aebff917107d5da9f739f9ed05ef2">desc_</a></td></tr>
+<tr class="memdesc:a6a1aebff917107d5da9f739f9ed05ef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">longer description, which will be wrapped  <a href="#a6a1aebff917107d5da9f739f9ed05ef2">More...</a><br /></td></tr>
+<tr class="separator:a6a1aebff917107d5da9f739f9ed05ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d6b51cee22d95cad88e5d2f6d77f47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a04d6b51cee22d95cad88e5d2f6d77f47">required_</a></td></tr>
+<tr class="memdesc:a04d6b51cee22d95cad88e5d2f6d77f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">required, <a class="el" href="classtlx_1_1CmdlineParser.html#a56cdb4a19d0ecfe687299f1bb08eeedb" title="process one item from command line for this argument ">process()</a> fails if the option/parameter is not found.  <a href="#a04d6b51cee22d95cad88e5d2f6d77f47">More...</a><br /></td></tr>
+<tr class="separator:a04d6b51cee22d95cad88e5d2f6d77f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17bca20ca035c81fc7c4875bf4195982"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a17bca20ca035c81fc7c4875bf4195982">found_</a></td></tr>
+<tr class="memdesc:a17bca20ca035c81fc7c4875bf4195982"><td class="mdescLeft">&#160;</td><td class="mdescRight">found during processing of command line  <a href="#a17bca20ca035c81fc7c4875bf4195982">More...</a><br /></td></tr>
+<tr class="separator:a17bca20ca035c81fc7c4875bf4195982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a895f2c0cfb8e6fc75f3c14c5f19d8f13"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a895f2c0cfb8e6fc75f3c14c5f19d8f13">repeated_</a></td></tr>
+<tr class="memdesc:a895f2c0cfb8e6fc75f3c14c5f19d8f13"><td class="mdescLeft">&#160;</td><td class="mdescRight">repeated argument, i.e. std::vector&lt;std::string&gt;  <a href="#a895f2c0cfb8e6fc75f3c14c5f19d8f13">More...</a><br /></td></tr>
+<tr class="separator:a895f2c0cfb8e6fc75f3c14c5f19d8f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a727398f2fe280f4f646259ac6f7515b0"><td class="memItemLeft" align="right" valign="top">bool &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a727398f2fe280f4f646259ac6f7515b0">dest_</a></td></tr>
+<tr class="memdesc:a727398f2fe280f4f646259ac6f7515b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference to boolean to set to true  <a href="#a727398f2fe280f4f646259ac6f7515b0">More...</a><br /></td></tr>
+<tr class="separator:a727398f2fe280f4f646259ac6f7515b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57dc808980ec51539ef0f8c93fd885c2"><td class="memItemLeft" align="right" valign="top">int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a57dc808980ec51539ef0f8c93fd885c2">dest_</a></td></tr>
+<tr class="separator:a57dc808980ec51539ef0f8c93fd885c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add1e1976c8c4add80e5dc2aa88ba54f2"><td class="memItemLeft" align="right" valign="top">unsigned int &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#add1e1976c8c4add80e5dc2aa88ba54f2">dest_</a></td></tr>
+<tr class="separator:add1e1976c8c4add80e5dc2aa88ba54f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abddf29b73e3f9a50e4f46e886a56604e"><td class="memItemLeft" align="right" valign="top">size_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#abddf29b73e3f9a50e4f46e886a56604e">dest_</a></td></tr>
+<tr class="separator:abddf29b73e3f9a50e4f46e886a56604e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6a78879457139d73cf9464c27d2c769"><td class="memItemLeft" align="right" valign="top">float &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ac6a78879457139d73cf9464c27d2c769">dest_</a></td></tr>
+<tr class="separator:ac6a78879457139d73cf9464c27d2c769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae51b2e7b1c912d57001ad4141eae6e03"><td class="memItemLeft" align="right" valign="top">double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ae51b2e7b1c912d57001ad4141eae6e03">dest_</a></td></tr>
+<tr class="separator:ae51b2e7b1c912d57001ad4141eae6e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a837dd2e369475c20e2591c7612d5c9c6"><td class="memItemLeft" align="right" valign="top">uint32_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a837dd2e369475c20e2591c7612d5c9c6">dest_</a></td></tr>
+<tr class="separator:a837dd2e369475c20e2591c7612d5c9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6fb16dcbf814b03b0346f5fa2e39fe4"><td class="memItemLeft" align="right" valign="top">uint64_t &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ae6fb16dcbf814b03b0346f5fa2e39fe4">dest_</a></td></tr>
+<tr class="separator:ae6fb16dcbf814b03b0346f5fa2e39fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ac2c91be07d9dc0eb4b7f2cdef8c6c6"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a0ac2c91be07d9dc0eb4b7f2cdef8c6c6">dest_</a></td></tr>
+<tr class="separator:a0ac2c91be07d9dc0eb4b7f2cdef8c6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2bed7e1c13fa2ac0c16ffdd26f80a72"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ad2bed7e1c13fa2ac0c16ffdd26f80a72">dest_</a></td></tr>
+<tr class="separator:ad2bed7e1c13fa2ac0c16ffdd26f80a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a477f5bd551a5681871bc240523b7bc2d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a477f5bd551a5681871bc240523b7bc2d">ArgumentList</a> = std::vector&lt; <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a> * &gt;</td></tr>
+<tr class="memitem:a477f5bd551a5681871bc240523b7bc2d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a477f5bd551a5681871bc240523b7bc2d">ArgumentList</a> = std::vector&lt; <a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> * &gt;</td></tr>
 <tr class="memdesc:a477f5bd551a5681871bc240523b7bc2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">option and parameter list type  <a href="#a477f5bd551a5681871bc240523b7bc2d">More...</a><br /></td></tr>
 <tr class="separator:a477f5bd551a5681871bc240523b7bc2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:afb7b09ebd95902c6491bfb85ad92eedc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#afb7b09ebd95902c6491bfb85ad92eedc">calc_option_max</a> (const <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a> *arg)</td></tr>
+<tr class="memitem:afb7b09ebd95902c6491bfb85ad92eedc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#afb7b09ebd95902c6491bfb85ad92eedc">calc_option_max</a> (const <a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> *arg)</td></tr>
 <tr class="memdesc:afb7b09ebd95902c6491bfb85ad92eedc"><td class="mdescLeft">&#160;</td><td class="mdescRight">update maximum formatting width for new option  <a href="#afb7b09ebd95902c6491bfb85ad92eedc">More...</a><br /></td></tr>
 <tr class="separator:afb7b09ebd95902c6491bfb85ad92eedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8322f578f83bf1db9066dd60228951c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a8322f578f83bf1db9066dd60228951c1">calc_param_max</a> (const <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a> *arg)</td></tr>
+<tr class="memitem:a8322f578f83bf1db9066dd60228951c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a8322f578f83bf1db9066dd60228951c1">calc_param_max</a> (const <a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> *arg)</td></tr>
 <tr class="memdesc:a8322f578f83bf1db9066dd60228951c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">update maximum formatting width for new parameter  <a href="#a8322f578f83bf1db9066dd60228951c1">More...</a><br /></td></tr>
 <tr class="separator:a8322f578f83bf1db9066dd60228951c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad004cbfd38d6569c65282cfbaf33cedc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ad004cbfd38d6569c65282cfbaf33cedc">print_option_error</a> (int argc, const char *const *argv, const <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a> *arg, std::ostream &amp;os)</td></tr>
+<tr class="memitem:ad004cbfd38d6569c65282cfbaf33cedc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ad004cbfd38d6569c65282cfbaf33cedc">print_option_error</a> (int argc, const char *const *argv, const <a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> *arg, std::ostream &amp;os)</td></tr>
 <tr class="memdesc:ad004cbfd38d6569c65282cfbaf33cedc"><td class="mdescLeft">&#160;</td><td class="mdescRight">print error about option.  <a href="#ad004cbfd38d6569c65282cfbaf33cedc">More...</a><br /></td></tr>
 <tr class="separator:ad004cbfd38d6569c65282cfbaf33cedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07cf28446944dfc06c8da348eb292a77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a07cf28446944dfc06c8da348eb292a77">print_param_error</a> (int argc, const char *const *argv, const <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a> *arg, std::ostream &amp;os)</td></tr>
+<tr class="memitem:a07cf28446944dfc06c8da348eb292a77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#a07cf28446944dfc06c8da348eb292a77">print_param_error</a> (int argc, const char *const *argv, const <a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> *arg, std::ostream &amp;os)</td></tr>
 <tr class="memdesc:a07cf28446944dfc06c8da348eb292a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">print error about parameter.  <a href="#a07cf28446944dfc06c8da348eb292a77">More...</a><br /></td></tr>
 <tr class="separator:a07cf28446944dfc06c8da348eb292a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -440,13 +582,23 @@ Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:ae28c4d5fed3b50689543c004623ddfea"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1CmdlineParser.html#ae28c4d5fed3b50689543c004623ddfea">max_type_name_</a></td></tr>
-<tr class="memdesc:ae28c4d5fed3b50689543c004623ddfea"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum length of a type_name() result  <a href="#ae28c4d5fed3b50689543c004623ddfea">More...</a><br /></td></tr>
+<tr class="memdesc:ae28c4d5fed3b50689543c004623ddfea"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum length of a <a class="el" href="classtlx_1_1CmdlineParser.html#a64ac855d9e56eb13e21f4ab72bc268c8" title="return formatted type name to user ">type_name()</a> result  <a href="#ae28c4d5fed3b50689543c004623ddfea">More...</a><br /></td></tr>
 <tr class="separator:ae28c4d5fed3b50689543c004623ddfea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Command line parser which automatically fills variables and prints nice usage messages. </p>
+<div class="textblock"><p>base class of all options and parameters </p>
+<p>Command line parser which automatically fills variables and prints nice usage messages.</p>
+<p>specialization of argument for multiple string options or parameters</p>
+<p>specialization of argument for string options or parameters</p>
+<p>specialization of argument for SI/IEC suffixes byte size options or parameters</p>
+<p>specialization of argument for double options or parameters</p>
+<p>specialization of argument for float options or parameters</p>
+<p>specialization of argument for size_t options or parameters</p>
+<p>specialization of argument for unsigned integer options or parameters</p>
+<p>specialization of argument for integer options or parameters</p>
+<p>specialization of argument for boolean flags (can only be set to true).</p>
 <p>This is a straightforward command line parser in C++, which will recognize short options -s, long options &ndash;long and parameters, both required and optional. It will automatically parse integers and <b>byte sizes</b> with SI/IEC suffixes (e.g. 1 GiB). It also works with lists of strings, e.g. multiple filenames.</p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="cmdline__parser_8hpp.html">tlx/cmdline_parser.hpp</a>&gt;</span></div><div class="line"></div><div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"></div><div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]) {</div><div class="line">    <a class="code" href="classtlx_1_1CmdlineParser.html">tlx::CmdlineParser</a> cp;</div><div class="line"></div><div class="line">    <span class="comment">// add description and author</span></div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#a9b582ca26190005482986c1ac7f8609f">set_description</a>(<span class="stringliteral">&quot;This may some day be a useful program, which solves &quot;</span></div><div class="line">                       <span class="stringliteral">&quot;many serious problems of the real world and achives &quot;</span></div><div class="line">                       <span class="stringliteral">&quot;global peace.&quot;</span>);</div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#a1f0e0ccea403fbb478df8e170e276133">set_author</a>(<span class="stringliteral">&quot;Timo Bingmann &lt;tb@panthema.net&gt;&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// add an unsigned integer option --rounds &lt;N&gt;</span></div><div class="line">    <span class="keywordtype">unsigned</span> rounds = 0;</div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#acb9884eaef05f76f0609a3e849abf6da">add_unsigned</a>(<span class="charliteral">&#39;r&#39;</span>, <span class="stringliteral">&quot;rounds&quot;</span>, <span class="stringliteral">&quot;N&quot;</span>, rounds,</div><div class="line">                    <span class="stringliteral">&quot;Run N rounds of the experiment.&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// add a byte size argument which the user can enter like &#39;1gi&#39;</span></div><div class="line">    uint64_t a_size = 0;</div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#aa18f4b9d44ff5d27735d64404800275a">add_bytes</a>(<span class="charliteral">&#39;s&#39;</span>, <span class="stringliteral">&quot;size&quot;</span>, a_size,</div><div class="line">                 <span class="stringliteral">&quot;Number of bytes to process.&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// add a required parameter</span></div><div class="line">    std::string a_filename;</div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#ab4d8e677514c2722e5d814ec9c199229">add_param_string</a>(<span class="stringliteral">&quot;filename&quot;</span>, a_filename,</div><div class="line">                        <span class="stringliteral">&quot;A filename to process&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// process command line</span></div><div class="line">    <span class="keywordflow">if</span> (!cp.<a class="code" href="classtlx_1_1CmdlineParser.html#afedddf45a2632737e231a1252c60812f">process</a>(argc, argv))</div><div class="line">        <span class="keywordflow">return</span> -1; <span class="comment">// some error occurred and help was always written to user.</span></div><div class="line"></div><div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Command line parsed okay.&quot;</span> &lt;&lt; std::endl;</div><div class="line"></div><div class="line">    <span class="comment">// output for debugging</span></div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#a94bd05e82551d28e54f294c3392a294f">print_result</a>();</div><div class="line"></div><div class="line">    <span class="comment">// do something useful</span></div><div class="line"></div><div class="line">    <span class="keywordflow">return</span> 0;</div><div class="line">}</div></div><!-- fragment --><p> When running the program above without arguments, it will print: </p><pre class="fragment">$ ./tlx_cmdline_parser_example
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="cmdline__parser_8hpp.html">tlx/cmdline_parser.hpp</a>&gt;</span></div><div class="line"></div><div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"></div><div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[]) {</div><div class="line">    <a class="code" href="classtlx_1_1CmdlineParser.html">tlx::CmdlineParser</a> cp;</div><div class="line"></div><div class="line">    <span class="comment">// add description and author</span></div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#a9b582ca26190005482986c1ac7f8609f">set_description</a>(<span class="stringliteral">&quot;This may some day be a useful program, which solves &quot;</span></div><div class="line">                       <span class="stringliteral">&quot;many serious problems of the real world and achives &quot;</span></div><div class="line">                       <span class="stringliteral">&quot;global peace.&quot;</span>);</div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#a1f0e0ccea403fbb478df8e170e276133">set_author</a>(<span class="stringliteral">&quot;Timo Bingmann &lt;tb@panthema.net&gt;&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// add an unsigned integer option --rounds &lt;N&gt;</span></div><div class="line">    <span class="keywordtype">unsigned</span> rounds = 0;</div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#acb9884eaef05f76f0609a3e849abf6da">add_unsigned</a>(<span class="charliteral">&#39;r&#39;</span>, <span class="stringliteral">&quot;rounds&quot;</span>, <span class="stringliteral">&quot;N&quot;</span>, rounds,</div><div class="line">                    <span class="stringliteral">&quot;Run N rounds of the experiment.&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// add a byte size argument which the user can enter like &#39;1gi&#39;</span></div><div class="line">    uint64_t a_size = 0;</div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#aa18f4b9d44ff5d27735d64404800275a">add_bytes</a>(<span class="charliteral">&#39;s&#39;</span>, <span class="stringliteral">&quot;size&quot;</span>, a_size,</div><div class="line">                 <span class="stringliteral">&quot;Number of bytes to process.&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// add a required parameter</span></div><div class="line">    std::string a_filename;</div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#ab4d8e677514c2722e5d814ec9c199229">add_param_string</a>(<span class="stringliteral">&quot;filename&quot;</span>, a_filename,</div><div class="line">                        <span class="stringliteral">&quot;A filename to process&quot;</span>);</div><div class="line"></div><div class="line">    <span class="comment">// process command line</span></div><div class="line">    <span class="keywordflow">if</span> (!cp.<a class="code" href="classtlx_1_1CmdlineParser.html#a56cdb4a19d0ecfe687299f1bb08eeedb">process</a>(argc, argv))</div><div class="line">        <span class="keywordflow">return</span> -1; <span class="comment">// some error occurred and help was always written to user.</span></div><div class="line"></div><div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;Command line parsed okay.&quot;</span> &lt;&lt; std::endl;</div><div class="line"></div><div class="line">    <span class="comment">// output for debugging</span></div><div class="line">    cp.<a class="code" href="classtlx_1_1CmdlineParser.html#a94bd05e82551d28e54f294c3392a294f">print_result</a>();</div><div class="line"></div><div class="line">    <span class="comment">// do something useful</span></div><div class="line"></div><div class="line">    <span class="keywordflow">return</span> 0;</div><div class="line">}</div></div><!-- fragment --><p> When running the program above without arguments, it will print: </p><pre class="fragment">$ ./tlx_cmdline_parser_example
 Missing required argument for parameter 'filename'
 
 Usage: ./tlx_cmdline_parser_example [options] &lt;filename&gt;
@@ -475,7 +627,7 @@ Options:
 </pre><p>The output shows pretty much what happens. The command line parser is by default in a verbose mode outputting all arguments and values parsed. The debug summary shows to have values the corresponding variables were set.</p>
 <p>One feature worth naming is that the parser also supports lists of strings, i.e. <code>std::vector&lt;std::string&gt;</code> via <a class="el" href="classtlx_1_1CmdlineParser.html#a1ff64cfe0fa2f734b08a72098fdb0c94">CmdlineParser::add_param_stringlist()</a> and similar. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8hpp_source.html#l00077">77</a> of file <a class="el" href="cmdline__parser_8hpp_source.html">cmdline_parser.hpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00032">32</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a477f5bd551a5681871bc240523b7bc2d"></a>
 <div class="memitem">
@@ -485,7 +637,7 @@ Options:
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1CmdlineParser.html#a477f5bd551a5681871bc240523b7bc2d">ArgumentList</a> =  std::vector&lt;<a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a>*&gt;</td>
+          <td class="memname">using <a class="el" href="classtlx_1_1CmdlineParser.html#a477f5bd551a5681871bc240523b7bc2d">ArgumentList</a> =  std::vector&lt;<a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a>*&gt;</td>
         </tr>
       </table>
   </td>
@@ -502,6 +654,31 @@ Options:
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a638bde225f0c55386b6f70741d6a4576"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ~<a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>empty virtual destructor </p>
+
+</div>
+</div>
 <a class="anchor" id="a47961669162c778a7f0125dff5a1c18b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -517,7 +694,7 @@ Options:
 
 <p>Constructor. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00449">449</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00490">490</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -536,7 +713,7 @@ Options:
 
 <p>Delete all added arguments. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00451">451</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00492">492</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -579,7 +756,7 @@ Options:
 
 <p>add boolean option flag -key, &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00571">571</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00612">612</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -615,7 +792,7 @@ Options:
 
 <p>add boolean option flag &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00634">634</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00675">675</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -663,7 +840,7 @@ Options:
 
 <p>add boolean option flag -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00475">475</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00516">516</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -705,7 +882,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size option -key, &ndash;longkey and store to 32-bit dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00611">611</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00652">652</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -747,7 +924,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size option -key, &ndash;longkey and store to 64-bit dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00616">616</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00657">657</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -783,7 +960,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size option &ndash;longkey and store to 32-bit dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00674">674</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00715">715</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -819,7 +996,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size option &ndash;longkey and store to 64-bit dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00679">679</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00720">720</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -867,7 +1044,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size option -key, &ndash;longkey [keytype] and store to 64-bit dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00535">535</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00576">576</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -915,7 +1092,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size option -key, &ndash;longkey [keytype] and store to 64-bit dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00543">543</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00584">584</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -957,7 +1134,7 @@ Options:
 
 <p>add double option -key, &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00606">606</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00647">647</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -993,7 +1170,7 @@ Options:
 
 <p>add double option &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00669">669</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00710">710</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1041,7 +1218,7 @@ Options:
 
 <p>add double option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00527">527</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00568">568</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1084,7 +1261,7 @@ Options:
 <p>add boolean option flag -key, &ndash;longkey with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#a2aaf7c5aa298ae18d10e1a8f24a0bf88" title="add boolean option flag -key, –longkey with description and store to dest ">add_bool()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00576">576</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00617">617</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1121,7 +1298,7 @@ Options:
 <p>add boolean option flag &ndash;longkey with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#a2aaf7c5aa298ae18d10e1a8f24a0bf88" title="add boolean option flag -key, –longkey with description and store to dest ">add_bool()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00639">639</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00680">680</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1170,7 +1347,7 @@ Options:
 <p>add boolean option flag -key, &ndash;longkey [keytype] with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#a2aaf7c5aa298ae18d10e1a8f24a0bf88" title="add boolean option flag -key, –longkey with description and store to dest ">add_bool()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00483">483</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00524">524</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1212,7 +1389,7 @@ Options:
 
 <p>add float option -key, &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00601">601</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00642">642</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1248,7 +1425,7 @@ Options:
 
 <p>add float option &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00664">664</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00705">705</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1296,7 +1473,7 @@ Options:
 
 <p>add float option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00519">519</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00560">560</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1338,7 +1515,7 @@ Options:
 
 <p>add signed integer option -key, &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00581">581</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00622">622</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1374,7 +1551,7 @@ Options:
 
 <p>add signed integer option &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00644">644</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00685">685</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1422,7 +1599,7 @@ Options:
 
 <p>add signed integer option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00489">489</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00530">530</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1458,7 +1635,7 @@ Options:
 
 <p>add optional SI/IEC suffixes byte size parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00800">800</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00841">841</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1494,7 +1671,7 @@ Options:
 
 <p>add optional SI/IEC suffixes byte size parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00807">807</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00848">848</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1530,7 +1707,7 @@ Options:
 
 <p>add optional double parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00793">793</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00834">834</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1566,7 +1743,7 @@ Options:
 
 <p>add optional float parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00787">787</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00828">828</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1602,7 +1779,7 @@ Options:
 
 <p>add optional signed integer parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00763">763</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00804">804</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1638,7 +1815,7 @@ Options:
 
 <p>add optional size_t parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00781">781</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00822">822</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1674,7 +1851,7 @@ Options:
 
 <p>add optional string parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00814">814</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00855">855</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1711,7 +1888,7 @@ Options:
 <p>add optional string parameter [name] with description and store to dest </p>
 <dl class="section warning"><dt>Warning</dt><dd>this parameter must be last, as it will gobble all non-option arguments! </dd></dl>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00821">821</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00862">862</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1748,7 +1925,7 @@ Options:
 <p>add optional unsigned integer parameter [name] with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#acb9884eaef05f76f0609a3e849abf6da" title="add unsigned integer option -key, –longkey with description and store to dest ">add_unsigned()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00776">776</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00817">817</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1784,7 +1961,7 @@ Options:
 
 <p>add optional unsigned integer parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00769">769</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00810">810</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1820,7 +1997,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00733">733</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00774">774</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1856,7 +2033,7 @@ Options:
 
 <p>add SI/IEC suffixes byte size parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00740">740</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00781">781</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1892,7 +2069,7 @@ Options:
 
 <p>add double parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00727">727</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00768">768</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1928,7 +2105,7 @@ Options:
 
 <p>add float parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00721">721</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00762">762</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -1964,7 +2141,7 @@ Options:
 
 <p>add signed integer parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00697">697</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00738">738</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2000,7 +2177,7 @@ Options:
 
 <p>add size_t parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00715">715</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00756">756</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2036,7 +2213,7 @@ Options:
 
 <p>add string parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00747">747</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00788">788</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2073,7 +2250,7 @@ Options:
 <p>add string list parameter [name] with description and store to dest. </p>
 <dl class="section warning"><dt>Warning</dt><dd>this parameter must be last, as it will gobble all non-option arguments! </dd></dl>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00753">753</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00794">794</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2110,7 +2287,7 @@ Options:
 <p>add unsigned integer parameter [name] with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#acb9884eaef05f76f0609a3e849abf6da" title="add unsigned integer option -key, –longkey with description and store to dest ">add_unsigned()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00710">710</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00751">751</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2146,7 +2323,7 @@ Options:
 
 <p>add unsigned integer parameter [name] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00703">703</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00744">744</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2188,7 +2365,7 @@ Options:
 
 <p>add size_t option -key, &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00596">596</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00637">637</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2224,7 +2401,7 @@ Options:
 
 <p>add size_t option &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00659">659</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00700">700</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2272,7 +2449,7 @@ Options:
 
 <p>add size_t option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00511">511</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00552">552</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2314,7 +2491,7 @@ Options:
 
 <p>add string option -key, &ndash;longkey and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00621">621</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00662">662</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2350,7 +2527,7 @@ Options:
 
 <p>add string option &ndash;longkey and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00684">684</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00725">725</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2398,7 +2575,7 @@ Options:
 
 <p>add string option -key, &ndash;longkey [keytype] and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00551">551</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00592">592</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2440,7 +2617,7 @@ Options:
 
 <p>add string list option -key, &ndash;longkey and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00626">626</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00667">667</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2476,7 +2653,7 @@ Options:
 
 <p>add string list option &ndash;longkey and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00689">689</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00730">730</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2524,7 +2701,7 @@ Options:
 
 <p>add string list option -key, &ndash;longkey [keytype] and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00559">559</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00600">600</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2567,7 +2744,7 @@ Options:
 <p>add unsigned integer option -key, &ndash;longkey with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#acb9884eaef05f76f0609a3e849abf6da" title="add unsigned integer option -key, –longkey with description and store to dest ">add_unsigned()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00591">591</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00632">632</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2604,7 +2781,7 @@ Options:
 <p>add unsigned integer option &ndash;longkey with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#acb9884eaef05f76f0609a3e849abf6da" title="add unsigned integer option -key, –longkey with description and store to dest ">add_unsigned()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00654">654</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00695">695</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2653,7 +2830,7 @@ Options:
 <p>add unsigned integer option -key, &ndash;longkey [keytype] with description and store to dest. </p>
 <p>identical to <a class="el" href="classtlx_1_1CmdlineParser.html#acb9884eaef05f76f0609a3e849abf6da" title="add unsigned integer option -key, –longkey with description and store to dest ">add_unsigned()</a> </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00505">505</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00546">546</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2695,7 +2872,7 @@ Options:
 
 <p>add unsigned integer option -key, &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00586">586</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00627">627</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2731,7 +2908,7 @@ Options:
 
 <p>add unsigned integer option &ndash;longkey with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00649">649</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00690">690</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2779,7 +2956,683 @@ Options:
 
 <p>add unsigned integer option -key, &ndash;longkey [keytype] with description and store to dest </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00497">497</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00538">538</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad2a14c07a619f29094a7c1adcbb776ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Argument </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00052">52</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9db1ea384594ee66e67d6765bcce9116"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArgumentBool </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00105">105</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a011726dd2e68540a38b0b5788fca14e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArgumentBytes32 </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00309">309</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79b84467c81fab48c7d23e67b8edbdb6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArgumentBytes64 </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00344">344</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7a98f5a07e2d94822fc50aca04fda1ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArgumentDouble </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00274">274</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad55ade07fb605e88dd6f98b3d3f16ed5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArgumentFloat </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00241">241</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a42721a2cec2e13d9716d69e2367918d8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArgumentInt </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00133">133</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a05281bc84c562650b0f2ec2ed3cc1361"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArgumentSizeT </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00205">205</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af4a7ce6923aff8de2ed6cc83cbd33bf6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArgumentString </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00376">376</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acbc506e61defaaa5040c2a74d69e8f52"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArgumentStringlist </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00406">406</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa456fe4dc20e72ff3d863bce45a5a1b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArgumentUnsigned </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>longkey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>keytype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>desc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>required</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int &amp;&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>contructor filling most attributes </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00169">169</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2793,7 +3646,7 @@ Options:
         <tr>
           <td class="memname">void calc_option_max </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> *&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2807,7 +3660,7 @@ Options:
 
 <p>update maximum formatting width for new option </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00396">396</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00437">437</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2821,7 +3674,7 @@ Options:
         <tr>
           <td class="memname">void calc_param_max </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> *&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2835,7 +3688,34 @@ Options:
 
 <p>update maximum formatting width for new parameter </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00401">401</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00442">442</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad02b426c755b8770bb46beda5f10c382"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string option_text </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return '-s, &ndash;longkey [keytype]' </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00079">79</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2904,7 +3784,34 @@ Options:
 <p>Wrap a long string at spaces into lines. </p>
 <p>Prefix is added unconditionally to each line. Lines are wrapped after wraplen characters if possible. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00408">408</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00449">449</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a37ad78a3220008442890cf3ac12e9f77"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string param_text </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return 'longkey [keytype]' </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00070">70</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2930,7 +3837,7 @@ Options:
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> *&#160;</td>
           <td class="paramname"><em>arg</em>, </td>
         </tr>
         <tr>
@@ -2954,7 +3861,7 @@ Options:
 
 <p>print error about option. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00901">901</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00942">942</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -2980,7 +3887,7 @@ Options:
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structtlx_1_1CmdlineParser_1_1Argument.html">Argument</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1CmdlineParser.html#ad2a14c07a619f29094a7c1adcbb776ba">Argument</a> *&#160;</td>
           <td class="paramname"><em>arg</em>, </td>
         </tr>
         <tr>
@@ -3004,7 +3911,7 @@ Options:
 
 <p>print error about parameter. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00914">914</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00955">955</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3024,7 +3931,7 @@ Options:
 
 <p>print nicely formatted result of processing </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l01073">1073</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l01114">1114</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3043,7 +3950,7 @@ Options:
 
 <p>print nicely formatted result of processing to std::cout </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l01119">1119</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l01160">1160</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3063,7 +3970,7 @@ Options:
 
 <p>output nicely formatted usage information including description of all parameters and options. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00839">839</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00880">880</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3082,7 +3989,709 @@ Options:
 
 <p>output to std::cout nicely formatted usage information including description of all parameters and options. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00897">897</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00938">938</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ba5d45a191eac9f70e5e178009d838b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>format value to ostream </p>
+
+</div>
+</div>
+<a class="anchor" id="aeaae06971ebe15525941922449c63813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00119">119</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaae06971ebe15525941922449c63813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00157">157</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaae06971ebe15525941922449c63813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00193">193</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaae06971ebe15525941922449c63813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00229">229</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaae06971ebe15525941922449c63813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00263">263</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaae06971ebe15525941922449c63813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00296">296</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaae06971ebe15525941922449c63813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00332">332</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaae06971ebe15525941922449c63813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00364">364</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaae06971ebe15525941922449c63813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00392">392</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeaae06971ebe15525941922449c63813"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void print_value </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00424">424</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a56cdb4a19d0ecfe687299f1bb08eeedb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>process one item from command line for this argument </p>
+
+</div>
+</div>
+<a class="anchor" id="af1138dedebbc8733457bb3655f10716b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>"process" argument: just set to true, no argument is used. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00113">113</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1138dedebbc8733457bb3655f10716b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parse signed integer using sscanf. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00141">141</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1138dedebbc8733457bb3655f10716b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parse unsigned integer using sscanf. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00177">177</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1138dedebbc8733457bb3655f10716b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parse size_t using sscanf. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00213">213</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1138dedebbc8733457bb3655f10716b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parse unsigned integer using sscanf. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00249">249</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1138dedebbc8733457bb3655f10716b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parse unsigned integer using sscanf. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00282">282</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1138dedebbc8733457bb3655f10716b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parse byte size using SI/IEC parser. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00317">317</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1138dedebbc8733457bb3655f10716b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parse byte size using SI/IEC parser. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00352">352</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1138dedebbc8733457bb3655f10716b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>"process" string argument just by storing it. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00384">384</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1138dedebbc8733457bb3655f10716b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool process </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const *&amp;&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>"process" string argument just by storing it in vector. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00416">416</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3119,7 +4728,7 @@ Options:
 <p>parse command line options as specified by the options and parameters added. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if command line is okay and all required parameters are present. </dd></dl>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00927">927</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00968">968</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3150,7 +4759,7 @@ Options:
 <p>parse command line options as specified by the options and parameters added. </p>
 <dl class="section return"><dt>Returns</dt><dd>true if command line is okay and all required parameters are present. </dd></dl>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l01069">1069</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l01110">1110</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3170,7 +4779,7 @@ Options:
 
 <p>Set author of program, will be wrapped. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00465">465</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00506">506</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3190,7 +4799,7 @@ Options:
 
 <p>Set description of program, text will be wrapped. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00461">461</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00502">502</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3210,7 +4819,7 @@ Options:
 
 <p>Set verbose processing of command line arguments. </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00469">469</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00510">510</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3229,7 +4838,282 @@ Options:
 
 <p>sort options by key (but not the positional parameters) </p>
 
-<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00831">831</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00872">872</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64ac855d9e56eb13e21f4ab72bc268c8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return formatted type name to user </p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a78908f9b56fd0b57a551a82c9546f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00110">110</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a78908f9b56fd0b57a551a82c9546f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00138">138</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a78908f9b56fd0b57a551a82c9546f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00174">174</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a78908f9b56fd0b57a551a82c9546f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00210">210</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a78908f9b56fd0b57a551a82c9546f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00246">246</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a78908f9b56fd0b57a551a82c9546f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00279">279</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a78908f9b56fd0b57a551a82c9546f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00314">314</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a78908f9b56fd0b57a551a82c9546f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00349">349</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a78908f9b56fd0b57a551a82c9546f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00381">381</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6a78908f9b56fd0b57a551a82c9546f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* type_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00413">413</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3258,6 +5142,22 @@ Options:
 
 </div>
 </div>
+<a class="anchor" id="a6a1aebff917107d5da9f739f9ed05ef2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string desc_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>longer description, which will be wrapped </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00042">42</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae841a0f62292d2d5f1a1747b0ef8f9fc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3279,6 +5179,276 @@ Options:
 <p>user set description of program, will be wrapped </p>
 
 <p>Definition at line <a class="el" href="cmdline__parser_8hpp_source.html#l00114">114</a> of file <a class="el" href="cmdline__parser_8hpp_source.html">cmdline_parser.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a727398f2fe280f4f646259ac6f7515b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool&amp; dest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>reference to boolean to set to true </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00101">101</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a57dc808980ec51539ef0f8c93fd885c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int&amp; dest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00129">129</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="add1e1976c8c4add80e5dc2aa88ba54f2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int&amp; dest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00165">165</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abddf29b73e3f9a50e4f46e886a56604e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t&amp; dest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00201">201</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6a78879457139d73cf9464c27d2c769"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float&amp; dest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00237">237</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae51b2e7b1c912d57001ad4141eae6e03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double&amp; dest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00270">270</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a837dd2e369475c20e2591c7612d5c9c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t&amp; dest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00305">305</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae6fb16dcbf814b03b0346f5fa2e39fe4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t&amp; dest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00340">340</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ac2c91be07d9dc0eb4b7f2cdef8c6c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string&amp; dest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00372">372</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad2bed7e1c13fa2ac0c16ffdd26f80a72"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt;&amp; dest_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00402">402</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a17bca20ca035c81fc7c4875bf4195982"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool found_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>found during processing of command line </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00046">46</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afe4c07cac9893084132f4d41107dfc3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char key_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>single letter short option, or 0 is none </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00036">36</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a02f964c2735d6fe2393f9934050b5a80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string keytype_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>option type description, e.g. "&lt;#&gt;" to indicate numbers </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00040">40</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
 
 </div>
 </div>
@@ -3306,6 +5476,22 @@ Options:
 
 </div>
 </div>
+<a class="anchor" id="afc710c3fdab138d5baaa4d1856e2f0cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string longkey_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>long option key or name for parameters </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00038">38</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ae28c4d5fed3b50689543c004623ddfea"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3324,7 +5510,7 @@ Options:
 </table>
 </div><div class="memdoc">
 
-<p>maximum length of a type_name() result </p>
+<p>maximum length of a <a class="el" href="classtlx_1_1CmdlineParser.html#a64ac855d9e56eb13e21f4ab72bc268c8" title="return formatted type name to user ">type_name()</a> result </p>
 
 <p>Definition at line <a class="el" href="cmdline__parser_8hpp_source.html#l00122">122</a> of file <a class="el" href="cmdline__parser_8hpp_source.html">cmdline_parser.hpp</a>.</p>
 
@@ -3450,6 +5636,38 @@ Options:
 
 </div>
 </div>
+<a class="anchor" id="a895f2c0cfb8e6fc75f3c14c5f19d8f13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool repeated_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>repeated argument, i.e. std::vector&lt;std::string&gt; </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00048">48</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a04d6b51cee22d95cad88e5d2f6d77f47"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool required_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>required, <a class="el" href="classtlx_1_1CmdlineParser.html#a56cdb4a19d0ecfe687299f1bb08eeedb" title="process one item from command line for this argument ">process()</a> fails if the option/parameter is not found. </p>
+
+<p>Definition at line <a class="el" href="cmdline__parser_8cpp_source.html#l00044">44</a> of file <a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a76c0d004bfb50442737216ec14314909"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3475,8 +5693,8 @@ Options:
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>tlx/<a class="el" href="cmdline__parser_8hpp_source.html">cmdline_parser.hpp</a></li>
 <li>tlx/<a class="el" href="cmdline__parser_8cpp_source.html">cmdline_parser.cpp</a></li>
+<li>tlx/<a class="el" href="cmdline__parser_8hpp_source.html">cmdline_parser.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -3484,7 +5702,7 @@ Options:
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1CmdlineParser.html">CmdlineParser</a></li>
-    <li class="footer">Generated on Mon Oct 28 2019 14:53:14 for tlx by
+    <li class="footer">Generated on Fri Nov 15 2019 13:38:44 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

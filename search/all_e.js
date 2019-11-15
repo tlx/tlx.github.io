@@ -24,7 +24,7 @@ var searchData=
   ['operator_7c_3d',['operator|=',['../structtlx_1_1BTree_1_1result__t.html#a5303413c5fc55a269163161efc2398a4',1,'tlx::BTree::result_t']]],
   ['option_5flist_5f',['option_list_',['../classtlx_1_1CmdlineParser.html#a1dfdda1dfa78d1addc33aaf91f6867a1',1,'tlx::CmdlineParser']]],
   ['option_5fmax_5fwidth_5f',['option_max_width_',['../classtlx_1_1CmdlineParser.html#a2780792d90885744803a109cdbd3608a',1,'tlx::CmdlineParser']]],
-  ['option_5ftext',['option_text',['../structtlx_1_1CmdlineParser_1_1Argument.html#ad02b426c755b8770bb46beda5f10c382',1,'tlx::CmdlineParser::Argument']]],
+  ['option_5ftext',['option_text',['../classtlx_1_1CmdlineParser.html#ad02b426c755b8770bb46beda5f10c382',1,'tlx::CmdlineParser']]],
   ['order_5f',['order_',['../classtlx_1_1PolynomialRegression.html#a4a9443feba0295716bb0c5dada330699',1,'tlx::PolynomialRegression']]],
   ['os_5f',['os_',['../classtlx_1_1LoggerTupleFormatter.html#af20ae96d3a771bd807d36aae8cfd0d4b',1,'tlx::LoggerTupleFormatter']]],
   ['oss_5f',['oss_',['../classtlx_1_1Logger.html#acbe8bc75214c441a925eb2ab98ff869d',1,'tlx::Logger::oss_()'],['../classtlx_1_1SpacingLogger.html#acbe8bc75214c441a925eb2ab98ff869d',1,'tlx::SpacingLogger::oss_()'],['../classtlx_1_1LoggerCollectOutput.html#acbe8bc75214c441a925eb2ab98ff869d',1,'tlx::LoggerCollectOutput::oss_()']]],

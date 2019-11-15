@@ -6,17 +6,38 @@ var hierarchy =
     [ "AllocatorBase< Type >", "classtlx_1_1AllocatorBase.html", [
       [ "StackAllocator< Type, Size >", "classtlx_1_1StackAllocator.html", null ]
     ] ],
-    [ "CmdlineParser::Argument", "structtlx_1_1CmdlineParser_1_1Argument.html", [
-      [ "CmdlineParser::ArgumentBool", "structtlx_1_1CmdlineParser_1_1ArgumentBool.html", null ],
-      [ "CmdlineParser::ArgumentBytes32", "structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html", null ],
-      [ "CmdlineParser::ArgumentBytes64", "structtlx_1_1CmdlineParser_1_1ArgumentBytes64.html", null ],
-      [ "CmdlineParser::ArgumentDouble", "structtlx_1_1CmdlineParser_1_1ArgumentDouble.html", null ],
-      [ "CmdlineParser::ArgumentFloat", "structtlx_1_1CmdlineParser_1_1ArgumentFloat.html", null ],
-      [ "CmdlineParser::ArgumentInt", "structtlx_1_1CmdlineParser_1_1ArgumentInt.html", null ],
-      [ "CmdlineParser::ArgumentSizeT", "structtlx_1_1CmdlineParser_1_1ArgumentSizeT.html", null ],
-      [ "CmdlineParser::ArgumentString", "structtlx_1_1CmdlineParser_1_1ArgumentString.html", null ],
-      [ "CmdlineParser::ArgumentStringlist", "structtlx_1_1CmdlineParser_1_1ArgumentStringlist.html", null ],
-      [ "CmdlineParser::ArgumentUnsigned", "structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html", null ]
+    [ "Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
+    ] ],
+    [ "ArgumentBool final public Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
+    ] ],
+    [ "ArgumentBytes32 final public Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
+    ] ],
+    [ "ArgumentBytes64 final public Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
+    ] ],
+    [ "ArgumentDouble final public Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
+    ] ],
+    [ "ArgumentFloat final public Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
+    ] ],
+    [ "ArgumentInt final public Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
+    ] ],
+    [ "ArgumentSizeT final public Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
+    ] ],
+    [ "ArgumentString final public Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
+    ] ],
+    [ "ArgumentStringlist final public Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
+    ] ],
+    [ "ArgumentUnsigned final public Argument", null, [
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ]
     ] ],
     [ "BitArray< Size >", "classtlx_1_1radix__heap__detail_1_1BitArray.html", null ],
     [ "BitArray< num_buckets >", "classtlx_1_1radix__heap__detail_1_1BitArray.html", null ],
@@ -35,7 +56,6 @@ var hierarchy =
     [ "BucketComputation< Radix, ranked_key_type >", "classtlx_1_1radix__heap__detail_1_1BucketComputation.html", null ],
     [ "CallForRangeImpl< Index, Size, Functor >", "classtlx_1_1meta__detail_1_1CallForRangeImpl.html", null ],
     [ "CallForRangeImpl< Index, 0, Functor >", "classtlx_1_1meta__detail_1_1CallForRangeImpl_3_01Index_00_010_00_01Functor_01_4.html", null ],
-    [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", null ],
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::const_iterator", "classtlx_1_1BTree_1_1const__iterator.html", null ],
     [ "BTree< Key, Value, KeyOfValue, Compare, Traits, Duplicates, Allocator >::const_reverse_iterator", "classtlx_1_1BTree_1_1const__reverse__iterator.html", null ],
     [ "CountingPtr< Type, Deleter >", "classtlx_1_1CountingPtr.html", null ],
@@ -81,8 +101,8 @@ var hierarchy =
     [ "less_icase_desc", "structtlx_1_1less__icase__desc.html", null ],
     [ "LevenshteinStandardICaseParameters", "structtlx_1_1LevenshteinStandardICaseParameters.html", null ],
     [ "LevenshteinStandardParameters", "structtlx_1_1LevenshteinStandardParameters.html", null ],
-    [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__detail_1_1lexicographic.html", null ],
     [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__detail_1_1lexicographic.html", null ],
+    [ "lexicographic< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__detail_1_1lexicographic.html", null ],
     [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__partition__detail_1_1lexicographic__rev.html", null ],
     [ "lexicographic_rev< T1, T2, Comparator >", "classtlx_1_1multisequence__selection__detail_1_1lexicographic__rev.html", null ],
     [ "Log2< Input >", "classtlx_1_1Log2.html", null ],
@@ -116,9 +136,9 @@ var hierarchy =
     [ "LoggerPrefixHook", "classtlx_1_1LoggerPrefixHook.html", null ],
     [ "LoggerTupleFormatter", "classtlx_1_1LoggerTupleFormatter.html", null ],
     [ "LoggerVoidify", "classtlx_1_1LoggerVoidify.html", null ],
+    [ "LoserTreePointerUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyBase_1_1Loser.html", null ],
     [ "LoserTreePointerBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerBase_1_1Loser.html", null ],
-    [ "LoserTreePointerUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreePointerUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyUnguardedBase< ValueType, Comparator >::Loser", "structtlx_1_1LoserTreeCopyUnguardedBase_1_1Loser.html", null ],
     [ "LoserTreeCopyBase< ValueType, Comparator >", "classtlx_1_1LoserTreeCopyBase.html", [
       [ "LoserTreeCopy< Stable, ValueType, Comparator >", "classtlx_1_1LoserTreeCopy.html", null ],

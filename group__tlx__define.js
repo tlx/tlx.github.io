@@ -7,5 +7,6 @@ var group__tlx__define =
     [ "TLX_ATTRIBUTE_WARN_UNUSED_RESULT", "group__tlx__define.html#ga63cf693d8f8087ab1d8b5057b3fa0015", null ],
     [ "TLX_DEPRECATED_FUNC_DEF", "group__tlx__define.html#ga0d6f9c98de6cf168453c0553a27734cb", null ],
     [ "TLX_LIKELY", "group__tlx__define.html#ga2c4b5b038e88004e67c779cf9afcecc7", null ],
-    [ "TLX_UNLIKELY", "group__tlx__define.html#ga106afbc6d1f1fe01b3a4614eebf55113", null ]
+    [ "TLX_UNLIKELY", "group__tlx__define.html#ga106afbc6d1f1fe01b3a4614eebf55113", null ],
+    [ "TLX_VISIBILITY_HIDDEN", "group__tlx__define.html#ga2af00862257ed032511179b900c03559", null ]
 ];

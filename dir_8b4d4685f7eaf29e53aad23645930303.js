@@ -18,17 +18,17 @@ var dir_8b4d4685f7eaf29e53aad23645930303 =
     [ "backtrace.cpp", "backtrace_8cpp.html", "backtrace_8cpp" ],
     [ "backtrace.hpp", "backtrace_8hpp.html", "backtrace_8hpp" ],
     [ "cmdline_parser.cpp", "cmdline__parser_8cpp.html", [
-      [ "Argument", "structtlx_1_1CmdlineParser_1_1Argument.html", "structtlx_1_1CmdlineParser_1_1Argument" ],
-      [ "ArgumentBool", "structtlx_1_1CmdlineParser_1_1ArgumentBool.html", "structtlx_1_1CmdlineParser_1_1ArgumentBool" ],
-      [ "ArgumentInt", "structtlx_1_1CmdlineParser_1_1ArgumentInt.html", "structtlx_1_1CmdlineParser_1_1ArgumentInt" ],
-      [ "ArgumentUnsigned", "structtlx_1_1CmdlineParser_1_1ArgumentUnsigned.html", "structtlx_1_1CmdlineParser_1_1ArgumentUnsigned" ],
-      [ "ArgumentSizeT", "structtlx_1_1CmdlineParser_1_1ArgumentSizeT.html", "structtlx_1_1CmdlineParser_1_1ArgumentSizeT" ],
-      [ "ArgumentFloat", "structtlx_1_1CmdlineParser_1_1ArgumentFloat.html", "structtlx_1_1CmdlineParser_1_1ArgumentFloat" ],
-      [ "ArgumentDouble", "structtlx_1_1CmdlineParser_1_1ArgumentDouble.html", "structtlx_1_1CmdlineParser_1_1ArgumentDouble" ],
-      [ "ArgumentBytes32", "structtlx_1_1CmdlineParser_1_1ArgumentBytes32.html", "structtlx_1_1CmdlineParser_1_1ArgumentBytes32" ],
-      [ "ArgumentBytes64", "structtlx_1_1CmdlineParser_1_1ArgumentBytes64.html", "structtlx_1_1CmdlineParser_1_1ArgumentBytes64" ],
-      [ "ArgumentString", "structtlx_1_1CmdlineParser_1_1ArgumentString.html", "structtlx_1_1CmdlineParser_1_1ArgumentString" ],
-      [ "ArgumentStringlist", "structtlx_1_1CmdlineParser_1_1ArgumentStringlist.html", "structtlx_1_1CmdlineParser_1_1ArgumentStringlist" ]
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ],
+      [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ]
     ] ],
     [ "cmdline_parser.hpp", "cmdline__parser_8hpp.html", [
       [ "CmdlineParser", "classtlx_1_1CmdlineParser.html", "classtlx_1_1CmdlineParser" ]

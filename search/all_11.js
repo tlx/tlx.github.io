@@ -41,7 +41,7 @@ var searchData=
   ['set_5fmax',['set_max',['../classtlx_1_1AggregateMinMax.html#ad63ebbb660737d700aa2f62ccda31197',1,'tlx::AggregateMinMax']]],
   ['set_5fmin',['set_min',['../classtlx_1_1AggregateMinMax.html#ad91e636fdcc5623133670a1ab66641e7',1,'tlx::AggregateMinMax']]],
   ['set_5fslot',['set_slot',['../structtlx_1_1BTree_1_1LeafNode.html#ad21aa3c1e3f3defa507cbc89cdd7bd37',1,'tlx::BTree::LeafNode']]],
-  ['set_5ftarget_5fproperties',['set_target_properties',['../CMakeLists_8txt.html#a324d8bef11985f1d4ed7f9393a757296',1,'CMakeLists.txt']]],
+  ['set_5ftarget_5fproperties',['set_target_properties',['../CMakeLists_8txt.html#a81e5ca149358308b009c9a34e66038ed',1,'set_target_properties(tlx PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;VERSION&quot;${TLX_VERSION}&quot;SOVERSION&quot;${TLX_SOVERSION}&quot;) target_compile_definitions(tlx PUBLIC $:&#160;CMakeLists.txt'],['../CMakeLists_8txt.html#a3c29f1cca79a3e8024347c18a3c0082e',1,'set_target_properties(tlx_static PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;VERSION&quot;${TLX_VERSION}&quot;) target_compile_definitions(tlx_static PUBLIC $:&#160;CMakeLists.txt'],['../CMakeLists_8txt.html#aebf43398aab678466eb2ab2d95ef4989',1,'set_target_properties(tlx PROPERTIES OUTPUT_NAME&quot;${TLX_LIBNAME}&quot;VERSION&quot;${TLX_VERSION}&quot;) target_compile_definitions(tlx PUBLIC $:&#160;CMakeLists.txt']]],
   ['set_5fverbose_5fprocess',['set_verbose_process',['../classtlx_1_1CmdlineParser.html#a4ec636355dd759f3742d5d5e5b49e1b2',1,'tlx::CmdlineParser']]],
   ['setenv',['setenv',['../group__tlx__port.html#ga1c8b16a3abcb4dc450a0a62b42c554dd',1,'tlx']]],
   ['setenv_2ecpp',['setenv.cpp',['../setenv_8cpp.html',1,'']]],

@@ -7,5 +7,6 @@ var dir_a24f6cc0d1b9a31e7adf9b47ab4358cd =
     [ "attribute_warn_unused_result.hpp", "attribute__warn__unused__result_8hpp.html", "attribute__warn__unused__result_8hpp" ],
     [ "deprecated.hpp", "deprecated_8hpp.html", "deprecated_8hpp" ],
     [ "endian.hpp", "endian_8hpp.html", null ],
-    [ "likely.hpp", "likely_8hpp.html", "likely_8hpp" ]
+    [ "likely.hpp", "likely_8hpp.html", "likely_8hpp" ],
+    [ "visibility_hidden.hpp", "visibility__hidden_8hpp.html", "visibility__hidden_8hpp" ]
 ];
