@@ -1,5 +1,15 @@
 var NAVTREEINDEX6 =
 {
+"classtlx_1_1btree__set.html#a4282b966fc98a1acd04c57c29b116fb3":[1,0,1,0,5,58],
+"classtlx_1_1btree__set.html#a482b50e623a123f653e2a91f113a507b":[1,0,1,0,5,59],
+"classtlx_1_1btree__set.html#a4a380c8745ff0a1c814742821e85403e":[1,0,1,0,5,63],
+"classtlx_1_1btree__set.html#a4e16fc20a38234d65573c5e4eac083e4":[1,0,1,0,5,4],
+"classtlx_1_1btree__set.html#a503ab01f6c0142145d3434f6924714e7":[1,0,1,0,5,57],
+"classtlx_1_1btree__set.html#a52e57d8d7e32f6d5a56227a8d1f899cf":[1,0,1,0,5,67],
+"classtlx_1_1btree__set.html#a552a180d973faf4f7ccc14b7d639a160":[1,0,1,0,5,1],
+"classtlx_1_1btree__set.html#a5b1089e6f88291cf687913935255ee3b":[1,0,1,0,5,52],
+"classtlx_1_1btree__set.html#a6295d47efda04de55c38cb8ea1cdb807":[1,0,1,0,5,64],
+"classtlx_1_1btree__set.html#a62c2add0ee33d7acce9f02077cd1da99":[1,0,1,0,5,42],
 "classtlx_1_1btree__set.html#a63fd0e61d25808851c78559d09297686":[1,0,1,0,5,13],
 "classtlx_1_1btree__set.html#a68c599ddcbfddc65170de524ac165e44":[1,0,1,0,5,55],
 "classtlx_1_1btree__set.html#a6b2d580d51eb7fab37fd7a952a4a5cee":[1,0,1,0,5,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX6 =
 "classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html#aacf090630d1cf84f29fb4f5ae9f1e4a4":[3,0,1,6,5,13],
 "classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html#ac79b65f86aee512c0554853fe892f490":[3,0,1,6,5,2],
 "classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html#accc47fb1681200d03dfafff88b9176c9":[3,0,1,6,5,3],
-"classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html#acd6101799b7abd2854eea0322245e373":[3,0,1,6,5,9],
-"classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html#ae7bcd845d2b458bdc7f4006b1057252b":[3,0,1,6,5,11],
-"classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html#aeedaa9980222324e5c90a36e5c28fdab":[3,0,1,6,5,12],
-"classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html#af8f1ba2255bb6d665a1b7d0367d51b58":[3,0,1,6,5,16],
-"classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html":[3,0,1,6,6],
-"classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html#a0625cab968348a90782b821d6ee87b48":[3,0,1,6,6,25],
-"classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html#a0b15b1219e44d60f94b25582697724bb":[3,0,1,6,6,14],
-"classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html#a0def63a75f34400b4f72921d311eaa1c":[3,0,1,6,6,8],
-"classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html#a13a43e6d814de94978c515cb084873b1":[3,0,1,6,6,12],
-"classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html#a198a843d1ef15c5be6864b4629b6d2ff":[3,0,1,6,6,22],
-"classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob.html#a1ecc2eb93439ddf9d262fd8450608f9c":[3,0,1,6,6,10]
+"classtlx_1_1sort__strings__detail_1_1PS5ParametersDefault.html#acd6101799b7abd2854eea0322245e373":[3,0,1,6,5,9]
 };
