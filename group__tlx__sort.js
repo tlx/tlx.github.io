@@ -1,7 +1,16 @@
 var group__tlx__sort =
 [
+    [ "best", "namespacetlx_1_1sort__networks_1_1best.html", null ],
+    [ "bose_nelson", "namespacetlx_1_1sort__networks_1_1bose__nelson.html", null ],
+    [ "bose_nelson_parameter", "namespacetlx_1_1sort__networks_1_1bose__nelson__parameter.html", null ],
+    [ "sort_networks", "namespacetlx_1_1sort__networks.html", null ],
     [ "parallel_mergesort_detail", "namespacetlx_1_1parallel__mergesort__detail.html", null ],
     [ "sort_strings_detail", "namespacetlx_1_1sort__strings__detail.html", null ],
+    [ "CS_IfSwap", "classtlx_1_1sort__networks_1_1CS__IfSwap.html", [
+      [ "CS_IfSwap", "classtlx_1_1sort__networks_1_1CS__IfSwap.html#a87cd205e7e5be419d9a894c4c670b53d", null ],
+      [ "operator()", "classtlx_1_1sort__networks_1_1CS__IfSwap.html#a486268dbe16cbd13081960c27cd6b649", null ],
+      [ "cmp_", "classtlx_1_1sort__networks_1_1CS__IfSwap.html#a6a24aff5bbc0b80d7c2b02765406586f", null ]
+    ] ],
     [ "parallel_mergesort", "group__tlx__sort.html#ga400ae7e170366e84a4bdb9b6ed1592e7", null ],
     [ "parallel_mergesort_base", "group__tlx__sort.html#ga81fdf70add19aa5134ecee16dba0925d", null ],
     [ "sort_strings", "group__tlx__sort.html#ga8e7fda09de57c231e74a748fe3dfa61c", null ],

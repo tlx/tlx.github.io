@@ -8,5 +8,6 @@ var searchData=
   ['const_5freverse_5fiterator',['const_reverse_iterator',['../classtlx_1_1BTree_1_1const__reverse__iterator.html',1,'tlx::BTree']]],
   ['countingptr',['CountingPtr',['../classtlx_1_1CountingPtr.html',1,'tlx']]],
   ['countingptrdefaultdeleter',['CountingPtrDefaultDeleter',['../classtlx_1_1CountingPtrDefaultDeleter.html',1,'tlx']]],
-  ['countingptrnooperationdeleter',['CountingPtrNoOperationDeleter',['../classtlx_1_1CountingPtrNoOperationDeleter.html',1,'tlx']]]
+  ['countingptrnooperationdeleter',['CountingPtrNoOperationDeleter',['../classtlx_1_1CountingPtrNoOperationDeleter.html',1,'tlx']]],
+  ['cs_5fifswap',['CS_IfSwap',['../classtlx_1_1sort__networks_1_1CS__IfSwap.html',1,'tlx::sort_networks']]]
 ];

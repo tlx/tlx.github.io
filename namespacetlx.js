@@ -6,6 +6,7 @@ var namespacetlx =
     [ "multiway_merge_detail", "namespacetlx_1_1multiway__merge__detail.html", "namespacetlx_1_1multiway__merge__detail" ],
     [ "parallel_mergesort_detail", "namespacetlx_1_1parallel__mergesort__detail.html", "namespacetlx_1_1parallel__mergesort__detail" ],
     [ "radix_heap_detail", "namespacetlx_1_1radix__heap__detail.html", "namespacetlx_1_1radix__heap__detail" ],
+    [ "sort_networks", "namespacetlx_1_1sort__networks.html", "namespacetlx_1_1sort__networks" ],
     [ "sort_strings_detail", "namespacetlx_1_1sort__strings__detail.html", "namespacetlx_1_1sort__strings__detail" ],
     [ "Aggregate", "classtlx_1_1Aggregate.html", "classtlx_1_1Aggregate" ],
     [ "AggregateMinMax", "classtlx_1_1AggregateMinMax.html", "classtlx_1_1AggregateMinMax" ],

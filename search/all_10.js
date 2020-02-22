@@ -1,7 +1,7 @@
 var searchData=
 [
   ['r_5fsquare',['r_square',['../classtlx_1_1PolynomialRegression.html#ac2a661741b6400b8024d0906869b5e43',1,'tlx::PolynomialRegression']]],
-  ['radix',['radix',['../classtlx_1_1RadixHeap.html#a919e67dd44009c454df7ce714509fb95',1,'tlx::RadixHeap::radix()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html#a726ca809ffd3d67ab4b8476646f26635a9a4084441c1568887684a4e6acc91948',1,'tlx::sort_strings_detail::RadixStep_CE3::RADIX()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#a0411cd49bb5b71852cecd93bcbf0ca2da9a4084441c1568887684a4e6acc91948',1,'tlx::sort_strings_detail::RadixStep_CI3::RADIX()']]],
+  ['radix',['RADIX',['../structtlx_1_1sort__strings__detail_1_1RadixStep__CE3.html#a726ca809ffd3d67ab4b8476646f26635a9a4084441c1568887684a4e6acc91948',1,'tlx::sort_strings_detail::RadixStep_CE3::RADIX()'],['../structtlx_1_1sort__strings__detail_1_1RadixStep__CI3.html#a0411cd49bb5b71852cecd93bcbf0ca2da9a4084441c1568887684a4e6acc91948',1,'tlx::sort_strings_detail::RadixStep_CI3::RADIX()'],['../classtlx_1_1RadixHeap.html#a919e67dd44009c454df7ce714509fb95',1,'tlx::RadixHeap::radix()']]],
   ['radix_5fbits',['radix_bits',['../classtlx_1_1radix__heap__detail_1_1BucketComputation.html#a4bb17621e160e7409a993e0dea03dfca',1,'tlx::radix_heap_detail::BucketComputation::radix_bits()'],['../classtlx_1_1RadixHeap.html#a4bb17621e160e7409a993e0dea03dfca',1,'tlx::RadixHeap::radix_bits()']]],
   ['radix_5fheap_2ehpp',['radix_heap.hpp',['../radix__heap_8hpp.html',1,'']]],
   ['radix_5fsort_2ehpp',['radix_sort.hpp',['../radix__sort_8hpp.html',1,'']]],

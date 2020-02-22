@@ -1,0 +1,7 @@
+warning: ignoring unsupported tag `OUTPUT_TEXT_DIRECTION  =' at line 102, file Doxyfile
+warning: ignoring unsupported tag `JAVADOC_BANNER         =' at line 198, file Doxyfile
+warning: ignoring unsupported tag `OPTIMIZE_OUTPUT_SLICE  =' at line 296, file Doxyfile
+warning: ignoring unsupported tag `TOC_INCLUDE_HEADINGS   =' at line 335, file Doxyfile
+warning: ignoring unsupported tag `EXTRACT_PRIV_VIRTUAL   =' at line 472, file Doxyfile
+warning: ignoring unsupported tag `HTML_DYNAMIC_MENUS     =' at line 1222, file Doxyfile
+warning: ignoring unsupported tag `PLANTUML_CFG_FILE      =' at line 2081, file Doxyfile

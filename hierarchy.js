@@ -61,6 +61,7 @@ var hierarchy =
     [ "CountingPtr< Type, Deleter >", "classtlx_1_1CountingPtr.html", null ],
     [ "CountingPtrDefaultDeleter", "classtlx_1_1CountingPtrDefaultDeleter.html", null ],
     [ "CountingPtrNoOperationDeleter", "classtlx_1_1CountingPtrNoOperationDeleter.html", null ],
+    [ "CS_IfSwap< Comparator >", "classtlx_1_1sort__networks_1_1CS__IfSwap.html", null ],
     [ "DAryAddressableIntHeap< KeyType, Arity, Compare >", "classtlx_1_1DAryAddressableIntHeap.html", null ],
     [ "DAryHeap< KeyType, Arity, Compare >", "classtlx_1_1DAryHeap.html", null ],
     [ "Delegate< T, Allocator >", "classtlx_1_1Delegate.html", null ],
