@@ -48,6 +48,8 @@ var dir_45a7f11e1a4af18f182d54b603484851 =
     [ "pad.hpp", "pad_8hpp.html", "pad_8hpp" ],
     [ "parse_si_iec_units.cpp", "parse__si__iec__units_8cpp.html", "parse__si__iec__units_8cpp" ],
     [ "parse_si_iec_units.hpp", "parse__si__iec__units_8hpp.html", "parse__si__iec__units_8hpp" ],
+    [ "parse_uri.hpp", "parse__uri_8hpp.html", "parse__uri_8hpp" ],
+    [ "parse_uri_form_data.hpp", "parse__uri__form__data_8hpp.html", "parse__uri__form__data_8hpp" ],
     [ "replace.cpp", "replace_8cpp.html", "replace_8cpp" ],
     [ "replace.hpp", "replace_8hpp.html", "replace_8hpp" ],
     [ "split.cpp", "split_8cpp.html", "split_8cpp" ],

@@ -139,9 +139,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ea644c8d57a62dfbc10ac44d02854b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a5ea644c8d57a62dfbc10ac44d02854b2">StringView</a> ()=default</td></tr>
 <tr class="memdesc:a5ea644c8d57a62dfbc10ac44d02854b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor for a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>. Doesn't initialize anything.  <a href="#a5ea644c8d57a62dfbc10ac44d02854b2">More...</a><br /></td></tr>
 <tr class="separator:a5ea644c8d57a62dfbc10ac44d02854b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a168d857242f21515f899a581445550e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a168d857242f21515f899a581445550e5">StringView</a> (const std::nullptr_t ptr) noexcept</td></tr>
+<tr class="memdesc:a168d857242f21515f899a581445550e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> to a nullptr.  <a href="#a168d857242f21515f899a581445550e5">More...</a><br /></td></tr>
+<tr class="separator:a168d857242f21515f899a581445550e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f065f2a979694bfb100a322f4fe2491"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a9f065f2a979694bfb100a322f4fe2491">StringView</a> (const char *<a class="el" href="classtlx_1_1StringView.html#a6751505350edd6333a3fb282c470778c">data</a>, size_t <a class="el" href="classtlx_1_1StringView.html#a3caedb145a667c26028740417dcf32c3">size</a>) noexcept</td></tr>
 <tr class="memdesc:a9f065f2a979694bfb100a322f4fe2491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given a const char* and the size.  <a href="#a9f065f2a979694bfb100a322f4fe2491">More...</a><br /></td></tr>
 <tr class="separator:a9f065f2a979694bfb100a322f4fe2491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdc51f7260cdbd87af4951c0ed94a718"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#afdc51f7260cdbd87af4951c0ed94a718">StringView</a> (const char *<a class="el" href="classtlx_1_1StringView.html#af2229c0adf8aa5bf952a50217c59ed66">begin</a>, const char *<a class="el" href="classtlx_1_1StringView.html#abae6cd3d55419f6d04ab0a16ebf5caa1">end</a>) noexcept</td></tr>
+<tr class="memdesc:afdc51f7260cdbd87af4951c0ed94a718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given two const char*: the beginning and end of a range of characters.  <a href="#afdc51f7260cdbd87af4951c0ed94a718">More...</a><br /></td></tr>
+<tr class="separator:afdc51f7260cdbd87af4951c0ed94a718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a580f357cfbc72258984d0de5e256d50d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a580f357cfbc72258984d0de5e256d50d">StringView</a> (const std::string::const_iterator &amp;<a class="el" href="classtlx_1_1StringView.html#a6751505350edd6333a3fb282c470778c">data</a>, size_t <a class="el" href="classtlx_1_1StringView.html#a3caedb145a667c26028740417dcf32c3">size</a>) noexcept</td></tr>
 <tr class="memdesc:a580f357cfbc72258984d0de5e256d50d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given a const iterator to a std::string and the size.  <a href="#a580f357cfbc72258984d0de5e256d50d">More...</a><br /></td></tr>
 <tr class="separator:a580f357cfbc72258984d0de5e256d50d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +252,41 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a168d857242f21515f899a581445550e5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> </td>
+          <td>(</td>
+          <td class="paramtype">const std::nullptr_t&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates an empty <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> to a nullptr. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr</td><td>null pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> object. </dd></dl>
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00046">46</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a9f065f2a979694bfb100a322f4fe2491"></a>
 <div class="memitem">
 <div class="memproto">
@@ -288,7 +329,53 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> object. </dd></dl>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00047">47</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00056">56</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afdc51f7260cdbd87af4951c0ed94a718"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given two const char*: the beginning and end of a range of characters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin</td><td>iterator to start of data </td></tr>
+    <tr><td class="paramname">end</td><td>iterator to the end of data. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> object. </dd></dl>
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00067">67</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -334,7 +421,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> object. </dd></dl>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00058">58</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00078">78</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -380,7 +467,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> object. </dd></dl>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00069">69</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00089">89</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -408,7 +495,7 @@ Friends</h2></td></tr>
 
 <p>Construct a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> to the whole std::string. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00074">74</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00094">94</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -436,7 +523,7 @@ Friends</h2></td></tr>
 
 <p>Returns a pointer to the beginning of the data. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00083">83</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00103">103</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -463,7 +550,7 @@ Friends</h2></td></tr>
 
 <p>Returns a pointer to the start of the data. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00078">78</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00098">98</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -490,7 +577,7 @@ Friends</h2></td></tr>
 
 <p>Returns a pointer beyond the end of the data. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00088">88</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00108">108</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -518,7 +605,7 @@ Friends</h2></td></tr>
 
 <p>Inequality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00104">104</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00124">124</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -546,7 +633,7 @@ Friends</h2></td></tr>
 
 <p>Inequality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with a std::string. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00122">122</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00142">142</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -574,7 +661,7 @@ Friends</h2></td></tr>
 
 <p>Less operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> lexicographically. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00110">110</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00130">130</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -602,7 +689,7 @@ Friends</h2></td></tr>
 
 <p>Less operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with a std::string lexicographically. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00128">128</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00148">148</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -630,7 +717,7 @@ Friends</h2></td></tr>
 
 <p>Equality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00098">98</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00118">118</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -658,7 +745,7 @@ Friends</h2></td></tr>
 
 <p>Equality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with a std::string. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00116">116</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00136">136</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -685,7 +772,7 @@ Friends</h2></td></tr>
 
 <p>Returns the size of this <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00093">93</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00113">113</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -712,7 +799,7 @@ Friends</h2></td></tr>
 
 <p>Returns the data of this <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> as a std::string. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00139">139</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00159">159</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -751,7 +838,7 @@ Friends</h2></td></tr>
 
 <p>make <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> ostreamable </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00134">134</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00154">154</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -776,7 +863,7 @@ Friends</h2></td></tr>
 
 <p>pointer to character data </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00147">147</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00167">167</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -800,7 +887,7 @@ Friends</h2></td></tr>
 
 <p>size of data </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00149">149</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00169">169</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -813,7 +900,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1StringView.html">StringView</a></li>
-    <li class="footer">Generated on Thu Mar 5 2020 13:32:15 for tlx by
+    <li class="footer">Generated on Fri Aug 14 2020 15:58:02 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

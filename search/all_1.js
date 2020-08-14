@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['back',['back',['../classtlx_1_1RingBuffer.html#a9870425783540b4ca3fe8052772fcaa8',1,'tlx::RingBuffer::back() noexcept'],['../classtlx_1_1RingBuffer.html#afc77f0e3f44c6712f6bf4aa5f452a99f',1,'tlx::RingBuffer::back() const noexcept']]],
+  ['back',['back',['../classtlx_1_1RingBuffer.html#a9870425783540b4ca3fe8052772fcaa8',1,'tlx::RingBuffer::back() noexcept'],['../classtlx_1_1RingBuffer.html#afc77f0e3f44c6712f6bf4aa5f452a99f',1,'tlx::RingBuffer::back() const noexcept'],['../classtlx_1_1SimpleVector.html#a9870425783540b4ca3fe8052772fcaa8',1,'tlx::SimpleVector::back() noexcept'],['../classtlx_1_1SimpleVector.html#afc77f0e3f44c6712f6bf4aa5f452a99f',1,'tlx::SimpleVector::back() const noexcept']]],
   ['backtrace_2ecpp',['backtrace.cpp',['../backtrace_8cpp.html',1,'']]],
   ['backtrace_2ehpp',['backtrace.hpp',['../backtrace_8hpp.html',1,'']]],
   ['base64_2ecpp',['base64.cpp',['../base64_8cpp.html',1,'']]],

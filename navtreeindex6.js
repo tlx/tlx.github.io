@@ -1,5 +1,13 @@
 var NAVTREEINDEX6 =
 {
+"classtlx_1_1btree__multimap.html#addd4e2b6ff9c7bef508bc908caabb2d4":[1,0,1,0,3,26],
+"classtlx_1_1btree__multimap.html#ae1ecb355089bf3cc9ea89532e2f2dcb5":[1,0,1,0,3,17],
+"classtlx_1_1btree__multimap.html#ae56451ef98afd8306cf4bf7c8cf6d1ed":[1,0,1,0,3,51],
+"classtlx_1_1btree__multimap.html#ae57ff6dd1cb4dc347b892dfa87ea6613":[1,0,1,0,3,32],
+"classtlx_1_1btree__multimap.html#af26aef03a7dfaca8fabb99969312307a":[1,0,1,0,3,65],
+"classtlx_1_1btree__multimap.html#af4f8623a0869326f99d188418e255943":[1,0,1,0,3,18],
+"classtlx_1_1btree__multimap.html#af8b2d25c3e313e0b24656afe5cd4f6f2":[1,0,1,0,3,33],
+"classtlx_1_1btree__multimap.html#afa604e854df383bc24cc01d08428d5ac":[1,0,1,0,3,24],
 "classtlx_1_1btree__multimap.html#afac99371679d954e37aefa29118a6459":[1,0,1,0,3,6],
 "classtlx_1_1btree__multimap.html#afcd3bad1ced519acc3641a8f83596d37":[1,0,1,0,3,3],
 "classtlx_1_1btree__multiset.html":[1,0,1,0,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX6 =
 "classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#a71263b2ec5d2574f914c79da3231f437":[3,0,1,5,3,5],
 "classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#a73b4a440d82f864c2a64b18867335554":[3,0,1,5,3,12],
 "classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#a90ed4001ddc87157dab0b5cd8708c19c":[3,0,1,5,3,8],
-"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#a9eb2d7b562fdfc3a949795c4ebc4f11d":[3,0,1,5,3,11],
-"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#abd15e6eefdc19ba67edbce06dbf4d423":[3,0,1,5,3,7],
-"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#ac6e61de369e994009e36f344f99c15ad":[3,0,1,5,3,6],
-"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#ad41709eaace6307df7682022d9628df5":[3,0,1,5,3,9],
-"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#ae618a3ecbb0d62500bfff666b12b8afc":[3,0,1,5,3,4],
-"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#ae8542fe44413919dee9f41ede5a5032d":[3,0,1,5,3,13],
-"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#af42623e607ab96adaa320865cd7c24a4":[3,0,1,5,3,1],
-"classtlx_1_1radix__heap__detail_1_1BucketComputation.html":[3,0,1,5,4],
-"classtlx_1_1radix__heap__detail_1_1BucketComputation.html#a34be477e84fd613b3135b599b782bbe0":[3,0,1,5,4,1]
+"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#a9eb2d7b562fdfc3a949795c4ebc4f11d":[3,0,1,5,3,11]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX7 =
 {
+"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#abd15e6eefdc19ba67edbce06dbf4d423":[3,0,1,5,3,7],
+"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#ac6e61de369e994009e36f344f99c15ad":[3,0,1,5,3,6],
+"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#ad41709eaace6307df7682022d9628df5":[3,0,1,5,3,9],
+"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#ae618a3ecbb0d62500bfff666b12b8afc":[3,0,1,5,3,4],
+"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#ae8542fe44413919dee9f41ede5a5032d":[3,0,1,5,3,13],
+"classtlx_1_1radix__heap__detail_1_1BitArrayRecursive_3_01Size_00_01true_01_4.html#af42623e607ab96adaa320865cd7c24a4":[3,0,1,5,3,1],
+"classtlx_1_1radix__heap__detail_1_1BucketComputation.html":[3,0,1,5,4],
+"classtlx_1_1radix__heap__detail_1_1BucketComputation.html#a34be477e84fd613b3135b599b782bbe0":[3,0,1,5,4,1],
 "classtlx_1_1radix__heap__detail_1_1BucketComputation.html#a4bb17621e160e7409a993e0dea03dfca":[3,0,1,5,4,5],
 "classtlx_1_1radix__heap__detail_1_1BucketComputation.html#a5b6be4560d929bbb541ee9aada8adcb4":[3,0,1,5,4,4],
 "classtlx_1_1radix__heap__detail_1_1BucketComputation.html#ac3da68d4c52391c0caff786f99357b66":[3,0,1,5,4,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX7 =
 "classtlx_1_1sort__strings__detail_1_1StringLcpPtr.html#ac2b99752b3ff0c00ac139fbbc75340c2":[3,0,1,7,20,14],
 "classtlx_1_1sort__strings__detail_1_1StringLcpPtr.html#ac8dfda93bbcca3c3f113ef42349e2c91":[3,0,1,7,20,15],
 "classtlx_1_1sort__strings__detail_1_1StringLcpPtr.html#addd2f6bb497d81d65158fccb303a23e9":[3,0,1,7,20,5],
-"classtlx_1_1sort__strings__detail_1_1StringLcpPtr.html#aea64dd6fdd2fae88cb01a6158956efdd":[3,0,1,7,20,9],
-"classtlx_1_1sort__strings__detail_1_1StringLcpPtr.html#afb22dec4eb304b1b00e4ca8c557a38db":[3,0,1,7,20,4],
-"classtlx_1_1sort__strings__detail_1_1StringPtr.html":[3,0,1,7,21],
-"classtlx_1_1sort__strings__detail_1_1StringPtr.html#a07642b61274e495654fd7eaad5c1777d":[3,0,1,7,21,2],
-"classtlx_1_1sort__strings__detail_1_1StringPtr.html#a0aaf221d507bb4bcf5c8f73a69d98f92":[3,0,1,7,21,5],
-"classtlx_1_1sort__strings__detail_1_1StringPtr.html#a2144738c8745385c77c3c630807a734a":[3,0,1,7,21,1],
-"classtlx_1_1sort__strings__detail_1_1StringPtr.html#a494141c0b985feaf3a4de1085ac9c1f3":[3,0,1,7,21,3],
-"classtlx_1_1sort__strings__detail_1_1StringPtr.html#a5f33be5b42eaa302be1eaca6c33b1899":[3,0,1,7,21,6],
-"classtlx_1_1sort__strings__detail_1_1StringPtr.html#a6067cda4e2f5ad851b9172e11925b777":[3,0,1,7,21,0]
+"classtlx_1_1sort__strings__detail_1_1StringLcpPtr.html#aea64dd6fdd2fae88cb01a6158956efdd":[3,0,1,7,20,9]
 };

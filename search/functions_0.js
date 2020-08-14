@@ -55,7 +55,7 @@ var searchData=
   ['argumentstring',['ArgumentString',['../classtlx_1_1CmdlineParser.html#af4a7ce6923aff8de2ed6cc83cbd33bf6',1,'tlx::CmdlineParser']]],
   ['argumentstringlist',['ArgumentStringlist',['../classtlx_1_1CmdlineParser.html#acbc506e61defaaa5040c2a74d69e8f52',1,'tlx::CmdlineParser']]],
   ['argumentunsigned',['ArgumentUnsigned',['../classtlx_1_1CmdlineParser.html#aa456fe4dc20e72ff3d863bce45a5a1b7',1,'tlx::CmdlineParser']]],
-  ['at',['at',['../classtlx_1_1sort__strings__detail_1_1StringSetBase.html#ace352ee915b2d9f015afb067d4525207',1,'tlx::sort_strings_detail::StringSetBase']]],
+  ['at',['at',['../classtlx_1_1SimpleVector.html#abff3ef303659223fee7280e3b41628d7',1,'tlx::SimpleVector::at(size_type i) noexcept'],['../classtlx_1_1SimpleVector.html#aaace6bc1b2b76fd793ac515c1062d1c6',1,'tlx::SimpleVector::at(size_type i) const noexcept'],['../classtlx_1_1sort__strings__detail_1_1StringSetBase.html#ace352ee915b2d9f015afb067d4525207',1,'tlx::sort_strings_detail::StringSetBase::at()']]],
   ['average',['average',['../classtlx_1_1Aggregate.html#ab9571cb318ed4b0103846b12317d68a0',1,'tlx::Aggregate']]],
   ['avg',['avg',['../classtlx_1_1Aggregate.html#a7762f7f2effcb6c4853c8237ac26ea22',1,'tlx::Aggregate']]],
   ['avgfill_5fleaves',['avgfill_leaves',['../structtlx_1_1BTree_1_1tree__stats.html#a15e93268f0db30aba3e965bd0be33b02',1,'tlx::BTree::tree_stats']]]

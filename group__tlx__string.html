@@ -329,6 +329,21 @@ Functions</h2></td></tr>
 <tr class="memitem:ga42a656ed3586b515140cb71b312f0f9b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga42a656ed3586b515140cb71b312f0f9b">parse_si_iec_units</a> (const std::string &amp;str, uint64_t *out_size, char default_unit=0)</td></tr>
 <tr class="memdesc:ga42a656ed3586b515140cb71b312f0f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a string like "343KB" or "44 GiB" into the corresponding size in bytes.  <a href="group__tlx__string.html#ga42a656ed3586b515140cb71b312f0f9b">More...</a><br /></td></tr>
 <tr class="separator:ga42a656ed3586b515140cb71b312f0f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0b3f324a8ffb717cf34713145a8361d3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga0b3f324a8ffb717cf34713145a8361d3">parse_uri</a> (const char *uri, <a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *path, <a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *query_string, <a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *fragment)</td></tr>
+<tr class="memdesc:ga0b3f324a8ffb717cf34713145a8361d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a URI like "/path1/path2?query=string&amp;submit=submit#fragment" into the parts path, query_string, and fragment.  <a href="group__tlx__string.html#ga0b3f324a8ffb717cf34713145a8361d3">More...</a><br /></td></tr>
+<tr class="separator:ga0b3f324a8ffb717cf34713145a8361d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a7c1485fa6c7d2998bc07e8f264ddf9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga4a7c1485fa6c7d2998bc07e8f264ddf9">parse_uri</a> (const std::string &amp;uri, <a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *path, <a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *query_string, <a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *fragment)</td></tr>
+<tr class="memdesc:ga4a7c1485fa6c7d2998bc07e8f264ddf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a URI like "/path1/path2?query=string&amp;submit=submit#fragment" into the parts path, query_string, and fragment.  <a href="group__tlx__string.html#ga4a7c1485fa6c7d2998bc07e8f264ddf9">More...</a><br /></td></tr>
+<tr class="separator:ga4a7c1485fa6c7d2998bc07e8f264ddf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa25e5e81d0030c9453fc312256e51480"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#gaa25e5e81d0030c9453fc312256e51480">parse_uri_form_data_decode</a> (const char *str, const char *end=nullptr)</td></tr>
+<tr class="memdesc:gaa25e5e81d0030c9453fc312256e51480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function to decode %20 and + in urlencoded form data like "query=string+with+spaces&amp;submit=yes%21&amp;".  <a href="group__tlx__string.html#gaa25e5e81d0030c9453fc312256e51480">More...</a><br /></td></tr>
+<tr class="separator:gaa25e5e81d0030c9453fc312256e51480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5aaf2b16b02c891159c3ac0c78828f40"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga5aaf2b16b02c891159c3ac0c78828f40">parse_uri_form_data</a> (const char *query_string, std::vector&lt; std::string &gt; *key, std::vector&lt; std::string &gt; *value)</td></tr>
+<tr class="memdesc:ga5aaf2b16b02c891159c3ac0c78828f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a urlencoded form data like "query=string+with+spaces&amp;submit=yes%21&amp;" into a list of keys and values.  <a href="group__tlx__string.html#ga5aaf2b16b02c891159c3ac0c78828f40">More...</a><br /></td></tr>
+<tr class="separator:ga5aaf2b16b02c891159c3ac0c78828f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0dc2e891a81f5ac88aa1fdd58befc81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#gab0dc2e891a81f5ac88aa1fdd58befc81">parse_uri_form_data</a> (const std::string &amp;query_string, std::vector&lt; std::string &gt; *key, std::vector&lt; std::string &gt; *value)</td></tr>
+<tr class="memdesc:gab0dc2e891a81f5ac88aa1fdd58befc81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse a urlencoded form data like "query=string+with+spaces&amp;submit=yes%21&amp;" into a list of keys and values.  <a href="group__tlx__string.html#gab0dc2e891a81f5ac88aa1fdd58befc81">More...</a><br /></td></tr>
+<tr class="separator:gab0dc2e891a81f5ac88aa1fdd58befc81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga92d58b1e8b06cbb57400b5959281a4a1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__tlx__string.html#ga92d58b1e8b06cbb57400b5959281a4a1">split_words</a> (const std::string &amp;str, std::string::size_type limit=std::string::npos)</td></tr>
 <tr class="memdesc:ga92d58b1e8b06cbb57400b5959281a4a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split the given string by whitespaces into distinct words.  <a href="group__tlx__string.html#ga92d58b1e8b06cbb57400b5959281a4a1">More...</a><br /></td></tr>
 <tr class="separator:ga92d58b1e8b06cbb57400b5959281a4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4094,6 +4109,228 @@ Trim</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ga0b3f324a8ffb717cf34713145a8361d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void tlx::parse_uri </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *&#160;</td>
+          <td class="paramname"><em>query_string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *&#160;</td>
+          <td class="paramname"><em>fragment</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse a URI like "/path1/path2?query=string&amp;submit=submit#fragment" into the parts path, query_string, and fragment. </p>
+<p>The parts are returned as tlx::string_views to avoid copying data. </p>
+
+<p>Definition at line <a class="el" href="parse__uri_8hpp_source.html#l00027">27</a> of file <a class="el" href="parse__uri_8hpp_source.html">parse_uri.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga4a7c1485fa6c7d2998bc07e8f264ddf9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void tlx::parse_uri </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>uri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *&#160;</td>
+          <td class="paramname"><em>query_string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__tlx__container.html#ga325e3200f2c48d6cc3c8e198a2426f4e">tlx::string_view</a> *&#160;</td>
+          <td class="paramname"><em>fragment</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse a URI like "/path1/path2?query=string&amp;submit=submit#fragment" into the parts path, query_string, and fragment. </p>
+<p>The parts are returned as tlx::string_views to avoid copying data. </p>
+
+<p>Definition at line <a class="el" href="parse__uri_8hpp_source.html#l00065">65</a> of file <a class="el" href="parse__uri_8hpp_source.html">parse_uri.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ga5aaf2b16b02c891159c3ac0c78828f40"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void tlx::parse_uri_form_data </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>query_string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parse a urlencoded form data like "query=string+with+spaces&amp;submit=yes%21&amp;" into a list of keys and values. </p>
+<p>The keys and values are returned as pairs in the two vectors, to avoid using std::pair or another struct. </p>
+
+<p>Definition at line <a class="el" href="parse__uri__form__data_8hpp_source.html#l00083">83</a> of file <a class="el" href="parse__uri__form__data_8hpp_source.html">parse_uri_form_data.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gab0dc2e891a81f5ac88aa1fdd58befc81"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tlx::parse_uri_form_data </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>query_string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parse a urlencoded form data like "query=string+with+spaces&amp;submit=yes%21&amp;" into a list of keys and values. </p>
+<p>The keys and values are returned as pairs in the two vectors, to avoid using std::pair or another struct. </p>
+
+<p>Definition at line <a class="el" href="parse__uri__form__data_8hpp_source.html#l00128">128</a> of file <a class="el" href="parse__uri__form__data_8hpp_source.html">parse_uri_form_data.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gaa25e5e81d0030c9453fc312256e51480"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string tlx::parse_uri_form_data_decode </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>end</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function to decode %20 and + in urlencoded form data like "query=string+with+spaces&amp;submit=yes%21&amp;". </p>
+
+<p>Definition at line <a class="el" href="parse__uri__form__data_8hpp_source.html#l00028">28</a> of file <a class="el" href="parse__uri__form__data_8hpp_source.html">parse_uri_form_data.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ga7021d36930f4bd434b2082dce8bd43cf"></a>
 <div class="memitem">
 <div class="memproto">
@@ -7061,7 +7298,7 @@ Trim</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Mar 5 2020 13:32:15 for tlx by
+    <li class="footer">Generated on Fri Aug 14 2020 15:58:02 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

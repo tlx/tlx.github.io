@@ -2,7 +2,9 @@ var classtlx_1_1StringView =
 [
     [ "iterator", "classtlx_1_1StringView.html#aae79f6bd020584af61d94d3c3233df25", null ],
     [ "StringView", "classtlx_1_1StringView.html#a5ea644c8d57a62dfbc10ac44d02854b2", null ],
+    [ "StringView", "classtlx_1_1StringView.html#a168d857242f21515f899a581445550e5", null ],
     [ "StringView", "classtlx_1_1StringView.html#a9f065f2a979694bfb100a322f4fe2491", null ],
+    [ "StringView", "classtlx_1_1StringView.html#afdc51f7260cdbd87af4951c0ed94a718", null ],
     [ "StringView", "classtlx_1_1StringView.html#a580f357cfbc72258984d0de5e256d50d", null ],
     [ "StringView", "classtlx_1_1StringView.html#aca857841f6be8f6fe3b29c4ad6120def", null ],
     [ "StringView", "classtlx_1_1StringView.html#abe52e3388a6f077a49718397d5f7db3e", null ],
