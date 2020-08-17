@@ -17,6 +17,7 @@ var searchData=
   ['nooperation_3c_20void_20_3e',['NoOperation&lt; void &gt;',['../classtlx_1_1NoOperation_3_01void_01_4.html',1,'tlx']]],
   ['normal',['Normal',['../group__tlx__container.html#gga07f67904ca9d31961dc022100101c358a960b44c579bc2f6818d2daaf9e4c16f0',1,'tlx']]],
   ['not_5fpresent',['not_present',['../classtlx_1_1DAryAddressableIntHeap.html#a16f3b806cf179aeb68d9e6e4c4de66a1',1,'tlx::DAryAddressableIntHeap']]],
+  ['npos',['npos',['../classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b',1,'tlx::StringView']]],
   ['num_5fbuckets',['num_buckets',['../classtlx_1_1radix__heap__detail_1_1BucketComputation.html#a5b6be4560d929bbb541ee9aada8adcb4',1,'tlx::radix_heap_detail::BucketComputation::num_buckets()'],['../classtlx_1_1RadixHeap.html#a63b1c319485ea110d2a9b99f35b823b4',1,'tlx::RadixHeap::num_buckets()']]],
   ['num_5fbuckets_5f',['num_buckets_',['../classtlx_1_1radix__heap__detail_1_1BucketComputation.html#a34be477e84fd613b3135b599b782bbe0',1,'tlx::radix_heap_detail::BucketComputation']]],
   ['num_5feq_5f',['num_eq_',['../classtlx_1_1sort__strings__detail_1_1PS5SmallsortJob_1_1MKQSStep.html#a2f49b17e4ccc2617d7bf14965787b698',1,'tlx::sort_strings_detail::PS5SmallsortJob::MKQSStep']]],

@@ -116,6 +116,8 @@ $(document).ready(function(){initNavTree('classtlx_1_1StringView.html','');});
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classtlx_1_1StringView-members.html">List of all members</a>  </div>
@@ -124,110 +126,399 @@ $(document).ready(function(){initNavTree('classtlx_1_1StringView.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> is a reference to a part of a string, consisting of only a char pointer and a length.  
- <a href="classtlx_1_1StringView.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aae79f6bd020584af61d94d3c3233df25"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aae79f6bd020584af61d94d3c3233df25">iterator</a> = const char *</td></tr>
-<tr class="separator:aae79f6bd020584af61d94d3c3233df25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd77781b83256555c54fe8b83be4d624"><td class="memItemLeft" align="right" valign="top">typedef char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#acd77781b83256555c54fe8b83be4d624">value_type</a></td></tr>
+<tr class="separator:acd77781b83256555c54fe8b83be4d624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa54b351401513c3633b87554bb7bc58"><td class="memItemLeft" align="right" valign="top">typedef char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#afa54b351401513c3633b87554bb7bc58">pointer</a></td></tr>
+<tr class="separator:afa54b351401513c3633b87554bb7bc58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1a2d226f681cdbbc6762fc2fef1b0e1"><td class="memItemLeft" align="right" valign="top">typedef const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ae1a2d226f681cdbbc6762fc2fef1b0e1">const_pointer</a></td></tr>
+<tr class="separator:ae1a2d226f681cdbbc6762fc2fef1b0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a214162ba1a25a237fbda0ed12656b0fa"><td class="memItemLeft" align="right" valign="top">typedef char &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a214162ba1a25a237fbda0ed12656b0fa">reference</a></td></tr>
+<tr class="separator:a214162ba1a25a237fbda0ed12656b0fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c6795e897d0578f7de6188861de388"><td class="memItemLeft" align="right" valign="top">typedef const char &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aa7c6795e897d0578f7de6188861de388">const_reference</a></td></tr>
+<tr class="separator:aa7c6795e897d0578f7de6188861de388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa98ae3d23867bc93f9ed4bbfe0aeb9ba"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classtlx_1_1StringView.html#ae1a2d226f681cdbbc6762fc2fef1b0e1">const_pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a></td></tr>
+<tr class="separator:aa98ae3d23867bc93f9ed4bbfe0aeb9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaefede693fea7f92b26de5a6eba58de"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#acaefede693fea7f92b26de5a6eba58de">iterator</a></td></tr>
+<tr class="separator:acaefede693fea7f92b26de5a6eba58de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421ef78ccdc84f0f6b2b14e2732527ba"><td class="memItemLeft" align="right" valign="top">typedef std::reverse_iterator&lt; <a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a></td></tr>
+<tr class="separator:a421ef78ccdc84f0f6b2b14e2732527ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f268497355c49d138b0a2737c5be48"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a73f268497355c49d138b0a2737c5be48">reverse_iterator</a></td></tr>
+<tr class="separator:a73f268497355c49d138b0a2737c5be48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89a6dcafb6130e3e1bcd6d1285e0dd6f"><td class="memItemLeft" align="right" valign="top">typedef std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a></td></tr>
+<tr class="separator:a89a6dcafb6130e3e1bcd6d1285e0dd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad319fc54a93a2c7058c70e40428ed2e2"><td class="memItemLeft" align="right" valign="top">typedef std::ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ad319fc54a93a2c7058c70e40428ed2e2">difference_type</a></td></tr>
+<tr class="separator:ad319fc54a93a2c7058c70e40428ed2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5ea644c8d57a62dfbc10ac44d02854b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a5ea644c8d57a62dfbc10ac44d02854b2">StringView</a> ()=default</td></tr>
-<tr class="memdesc:a5ea644c8d57a62dfbc10ac44d02854b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor for a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>. Doesn't initialize anything.  <a href="#a5ea644c8d57a62dfbc10ac44d02854b2">More...</a><br /></td></tr>
-<tr class="separator:a5ea644c8d57a62dfbc10ac44d02854b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a168d857242f21515f899a581445550e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a168d857242f21515f899a581445550e5">StringView</a> (const std::nullptr_t ptr) noexcept</td></tr>
-<tr class="memdesc:a168d857242f21515f899a581445550e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> to a nullptr.  <a href="#a168d857242f21515f899a581445550e5">More...</a><br /></td></tr>
-<tr class="separator:a168d857242f21515f899a581445550e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f065f2a979694bfb100a322f4fe2491"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a9f065f2a979694bfb100a322f4fe2491">StringView</a> (const char *<a class="el" href="classtlx_1_1StringView.html#a6751505350edd6333a3fb282c470778c">data</a>, size_t <a class="el" href="classtlx_1_1StringView.html#a3caedb145a667c26028740417dcf32c3">size</a>) noexcept</td></tr>
-<tr class="memdesc:a9f065f2a979694bfb100a322f4fe2491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given a const char* and the size.  <a href="#a9f065f2a979694bfb100a322f4fe2491">More...</a><br /></td></tr>
-<tr class="separator:a9f065f2a979694bfb100a322f4fe2491"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdc51f7260cdbd87af4951c0ed94a718"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#afdc51f7260cdbd87af4951c0ed94a718">StringView</a> (const char *<a class="el" href="classtlx_1_1StringView.html#af2229c0adf8aa5bf952a50217c59ed66">begin</a>, const char *<a class="el" href="classtlx_1_1StringView.html#abae6cd3d55419f6d04ab0a16ebf5caa1">end</a>) noexcept</td></tr>
-<tr class="memdesc:afdc51f7260cdbd87af4951c0ed94a718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given two const char*: the beginning and end of a range of characters.  <a href="#afdc51f7260cdbd87af4951c0ed94a718">More...</a><br /></td></tr>
-<tr class="separator:afdc51f7260cdbd87af4951c0ed94a718"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a580f357cfbc72258984d0de5e256d50d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a580f357cfbc72258984d0de5e256d50d">StringView</a> (const std::string::const_iterator &amp;<a class="el" href="classtlx_1_1StringView.html#a6751505350edd6333a3fb282c470778c">data</a>, size_t <a class="el" href="classtlx_1_1StringView.html#a3caedb145a667c26028740417dcf32c3">size</a>) noexcept</td></tr>
-<tr class="memdesc:a580f357cfbc72258984d0de5e256d50d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given a const iterator to a std::string and the size.  <a href="#a580f357cfbc72258984d0de5e256d50d">More...</a><br /></td></tr>
-<tr class="separator:a580f357cfbc72258984d0de5e256d50d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca857841f6be8f6fe3b29c4ad6120def"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aca857841f6be8f6fe3b29c4ad6120def">StringView</a> (const std::string::const_iterator &amp;<a class="el" href="classtlx_1_1StringView.html#af2229c0adf8aa5bf952a50217c59ed66">begin</a>, const std::string::const_iterator &amp;<a class="el" href="classtlx_1_1StringView.html#abae6cd3d55419f6d04ab0a16ebf5caa1">end</a>) noexcept</td></tr>
-<tr class="memdesc:aca857841f6be8f6fe3b29c4ad6120def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new reference <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given two const iterators to a std::string.  <a href="#aca857841f6be8f6fe3b29c4ad6120def">More...</a><br /></td></tr>
-<tr class="separator:aca857841f6be8f6fe3b29c4ad6120def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae870f62a330cf9140b0c019f09c9a4ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ae870f62a330cf9140b0c019f09c9a4ca">StringView</a> () noexcept</td></tr>
+<tr class="memdesc:ae870f62a330cf9140b0c019f09c9a4ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">default construction  <a href="#ae870f62a330cf9140b0c019f09c9a4ca">More...</a><br /></td></tr>
+<tr class="separator:ae870f62a330cf9140b0c019f09c9a4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f59f757ff3a86704879a09dfe587644"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a4f59f757ff3a86704879a09dfe587644">StringView</a> (const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;rhs) noexcept=default</td></tr>
+<tr class="memdesc:a4f59f757ff3a86704879a09dfe587644"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy construction  <a href="#a4f59f757ff3a86704879a09dfe587644">More...</a><br /></td></tr>
+<tr class="separator:a4f59f757ff3a86704879a09dfe587644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79567d1846de60691af5b10baf652ef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a79567d1846de60691af5b10baf652ef3">operator=</a> (const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;rhs) noexcept=default</td></tr>
+<tr class="memdesc:a79567d1846de60691af5b10baf652ef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">assignment  <a href="#a79567d1846de60691af5b10baf652ef3">More...</a><br /></td></tr>
+<tr class="separator:a79567d1846de60691af5b10baf652ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe52e3388a6f077a49718397d5f7db3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#abe52e3388a6f077a49718397d5f7db3e">StringView</a> (const std::string &amp;str) noexcept</td></tr>
-<tr class="memdesc:abe52e3388a6f077a49718397d5f7db3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> to the whole std::string.  <a href="#abe52e3388a6f077a49718397d5f7db3e">More...</a><br /></td></tr>
+<tr class="memdesc:abe52e3388a6f077a49718397d5f7db3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">assign a whole string  <a href="#abe52e3388a6f077a49718397d5f7db3e">More...</a><br /></td></tr>
 <tr class="separator:abe52e3388a6f077a49718397d5f7db3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6751505350edd6333a3fb282c470778c"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a6751505350edd6333a3fb282c470778c">data</a> () const noexcept</td></tr>
-<tr class="memdesc:a6751505350edd6333a3fb282c470778c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the start of the data.  <a href="#a6751505350edd6333a3fb282c470778c">More...</a><br /></td></tr>
-<tr class="separator:a6751505350edd6333a3fb282c470778c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2229c0adf8aa5bf952a50217c59ed66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#aae79f6bd020584af61d94d3c3233df25">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#af2229c0adf8aa5bf952a50217c59ed66">begin</a> () const noexcept</td></tr>
-<tr class="memdesc:af2229c0adf8aa5bf952a50217c59ed66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the beginning of the data.  <a href="#af2229c0adf8aa5bf952a50217c59ed66">More...</a><br /></td></tr>
-<tr class="separator:af2229c0adf8aa5bf952a50217c59ed66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abae6cd3d55419f6d04ab0a16ebf5caa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#aae79f6bd020584af61d94d3c3233df25">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#abae6cd3d55419f6d04ab0a16ebf5caa1">end</a> () const noexcept</td></tr>
-<tr class="memdesc:abae6cd3d55419f6d04ab0a16ebf5caa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer beyond the end of the data.  <a href="#abae6cd3d55419f6d04ab0a16ebf5caa1">More...</a><br /></td></tr>
-<tr class="separator:abae6cd3d55419f6d04ab0a16ebf5caa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3caedb145a667c26028740417dcf32c3"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a3caedb145a667c26028740417dcf32c3">size</a> () const noexcept</td></tr>
-<tr class="memdesc:a3caedb145a667c26028740417dcf32c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of this <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>.  <a href="#a3caedb145a667c26028740417dcf32c3">More...</a><br /></td></tr>
-<tr class="separator:a3caedb145a667c26028740417dcf32c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80af7f38fedfe924f8eba7d75b409190"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a80af7f38fedfe924f8eba7d75b409190">StringView</a> (std::string &amp;&amp;)=delete</td></tr>
+<tr class="memdesc:a80af7f38fedfe924f8eba7d75b409190"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructing a <a class="el" href="classtlx_1_1StringView.html">StringView</a> from a temporary string is a bad idea  <a href="#a80af7f38fedfe924f8eba7d75b409190">More...</a><br /></td></tr>
+<tr class="separator:a80af7f38fedfe924f8eba7d75b409190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2aa116fcc46b77a161fa520b4a7e97b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ad2aa116fcc46b77a161fa520b4a7e97b">StringView</a> (const char *str) noexcept</td></tr>
+<tr class="memdesc:ad2aa116fcc46b77a161fa520b4a7e97b"><td class="mdescLeft">&#160;</td><td class="mdescRight">assign a whole C-style string  <a href="#ad2aa116fcc46b77a161fa520b4a7e97b">More...</a><br /></td></tr>
+<tr class="separator:ad2aa116fcc46b77a161fa520b4a7e97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae08debc787811d3458bd02302ef6e94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aae08debc787811d3458bd02302ef6e94">StringView</a> (const char *str, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> <a class="el" href="classtlx_1_1StringView.html#a0801762a3fe36fe32dca5f16e515478d">size</a>) noexcept</td></tr>
+<tr class="memdesc:aae08debc787811d3458bd02302ef6e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">assign a C-style string with given length  <a href="#aae08debc787811d3458bd02302ef6e94">More...</a><br /></td></tr>
+<tr class="separator:aae08debc787811d3458bd02302ef6e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ea9939a0ea63978b144d33bb73db63c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a7ea9939a0ea63978b144d33bb73db63c">StringView</a> (const std::string::const_iterator &amp;<a class="el" href="classtlx_1_1StringView.html#a1ca1fc2c9fc3e169d5d0decfd1e54221">begin</a>, size_t <a class="el" href="classtlx_1_1StringView.html#a0801762a3fe36fe32dca5f16e515478d">size</a>) noexcept</td></tr>
+<tr class="memdesc:a7ea9939a0ea63978b144d33bb73db63c"><td class="mdescLeft">&#160;</td><td class="mdescRight">assign a string iterator with given length  <a href="#a7ea9939a0ea63978b144d33bb73db63c">More...</a><br /></td></tr>
+<tr class="separator:a7ea9939a0ea63978b144d33bb73db63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca857841f6be8f6fe3b29c4ad6120def"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aca857841f6be8f6fe3b29c4ad6120def">StringView</a> (const std::string::const_iterator &amp;<a class="el" href="classtlx_1_1StringView.html#a1ca1fc2c9fc3e169d5d0decfd1e54221">begin</a>, const std::string::const_iterator &amp;<a class="el" href="classtlx_1_1StringView.html#a5b9b57293fae9b18b26349ac0b3fdcd3">end</a>) noexcept</td></tr>
+<tr class="memdesc:aca857841f6be8f6fe3b29c4ad6120def"><td class="mdescLeft">&#160;</td><td class="mdescRight">assign a string between two iterators  <a href="#aca857841f6be8f6fe3b29c4ad6120def">More...</a><br /></td></tr>
+<tr class="separator:aca857841f6be8f6fe3b29c4ad6120def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d27cc515e59f676f08d399124be099d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a7d27cc515e59f676f08d399124be099d">operator std::string</a> () const </td></tr>
+<tr class="separator:a7d27cc515e59f676f08d399124be099d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa48c39f92bc04eded742f5310c74aafe"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aa48c39f92bc04eded742f5310c74aafe">to_string</a> () const </td></tr>
+<tr class="memdesc:aa48c39f92bc04eded742f5310c74aafe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the data of this <a class="el" href="classtlx_1_1StringView.html">StringView</a> as a std::string.  <a href="#aa48c39f92bc04eded742f5310c74aafe">More...</a><br /></td></tr>
+<tr class="separator:aa48c39f92bc04eded742f5310c74aafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4310c99bfa88da60866c86d7321412e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a4310c99bfa88da60866c86d7321412e0">copy</a> (char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=0) const </td></tr>
+<tr class="separator:a4310c99bfa88da60866c86d7321412e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca857f75fe421fe22af6a359357f48b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aca857f75fe421fe22af6a359357f48b4">substr</a> (<a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n=<a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a>) const </td></tr>
+<tr class="separator:aca857f75fe421fe22af6a359357f48b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">iterators</div></td></tr>
+<tr class="memitem:a1ca1fc2c9fc3e169d5d0decfd1e54221"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a1ca1fc2c9fc3e169d5d0decfd1e54221">begin</a> () const noexcept</td></tr>
+<tr class="separator:a1ca1fc2c9fc3e169d5d0decfd1e54221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeb76f7f3414f270020e6f467586bd93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#abeb76f7f3414f270020e6f467586bd93">cbegin</a> () const noexcept</td></tr>
+<tr class="separator:abeb76f7f3414f270020e6f467586bd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b9b57293fae9b18b26349ac0b3fdcd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a5b9b57293fae9b18b26349ac0b3fdcd3">end</a> () const noexcept</td></tr>
+<tr class="separator:a5b9b57293fae9b18b26349ac0b3fdcd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9859a454bb6f50c654e280274d6a9d13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a9859a454bb6f50c654e280274d6a9d13">cend</a> () const noexcept</td></tr>
+<tr class="separator:a9859a454bb6f50c654e280274d6a9d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff2c14a4e54378db02316aa5dacce912"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aff2c14a4e54378db02316aa5dacce912">rbegin</a> () const noexcept</td></tr>
+<tr class="separator:aff2c14a4e54378db02316aa5dacce912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd227f43fec65b1bfeb96751b5eea9c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#abd227f43fec65b1bfeb96751b5eea9c4">crbegin</a> () const noexcept</td></tr>
+<tr class="separator:abd227f43fec65b1bfeb96751b5eea9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5bfd48090cb59d7dd635954831415df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ac5bfd48090cb59d7dd635954831415df">rend</a> () const noexcept</td></tr>
+<tr class="separator:ac5bfd48090cb59d7dd635954831415df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe115c4709d004c9899ef5855f96288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#acbe115c4709d004c9899ef5855f96288">crend</a> () const noexcept</td></tr>
+<tr class="separator:acbe115c4709d004c9899ef5855f96288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">capacity</div></td></tr>
+<tr class="memitem:a0801762a3fe36fe32dca5f16e515478d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a0801762a3fe36fe32dca5f16e515478d">size</a> () const noexcept</td></tr>
+<tr class="separator:a0801762a3fe36fe32dca5f16e515478d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64e887d985f4e8716afb3fa1fa1d88e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a64e887d985f4e8716afb3fa1fa1d88e2">length</a> () const noexcept</td></tr>
+<tr class="separator:a64e887d985f4e8716afb3fa1fa1d88e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2a85e463df4e95c1bf051cfb8237805"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ac2a85e463df4e95c1bf051cfb8237805">max_size</a> () const noexcept</td></tr>
+<tr class="separator:ac2a85e463df4e95c1bf051cfb8237805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f6fc5de06a318920d84f3c3742db07f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a3f6fc5de06a318920d84f3c3742db07f">empty</a> () const noexcept</td></tr>
+<tr class="separator:a3f6fc5de06a318920d84f3c3742db07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">element access</div></td></tr>
+<tr class="memitem:ab44c188bbdaa6e12e1db40700f41d215"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#ae1a2d226f681cdbbc6762fc2fef1b0e1">const_pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ab44c188bbdaa6e12e1db40700f41d215">data</a> () const noexcept</td></tr>
+<tr class="separator:ab44c188bbdaa6e12e1db40700f41d215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4fb3359aa1c38d064e9ca47599e0cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#aa7c6795e897d0578f7de6188861de388">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#adc4fb3359aa1c38d064e9ca47599e0cf">operator[]</a> (<a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos) const noexcept</td></tr>
+<tr class="separator:adc4fb3359aa1c38d064e9ca47599e0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2640e469c64687b93eb4944fad52c92d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#aa7c6795e897d0578f7de6188861de388">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a2640e469c64687b93eb4944fad52c92d">at</a> (size_t pos) const </td></tr>
+<tr class="separator:a2640e469c64687b93eb4944fad52c92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5b57596df7e42e35dcd646906cb438"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#aa7c6795e897d0578f7de6188861de388">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a1b5b57596df7e42e35dcd646906cb438">front</a> () const </td></tr>
+<tr class="separator:a1b5b57596df7e42e35dcd646906cb438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af181aa8839ff8d5867941fd0f0d214b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#aa7c6795e897d0578f7de6188861de388">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#af181aa8839ff8d5867941fd0f0d214b6">back</a> () const </td></tr>
+<tr class="separator:af181aa8839ff8d5867941fd0f0d214b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">modifiers</div></td></tr>
+<tr class="memitem:a03bfacfaaba9195e4498375659f43531"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a03bfacfaaba9195e4498375659f43531">clear</a> () noexcept</td></tr>
+<tr class="separator:a03bfacfaaba9195e4498375659f43531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5146b579f3454bf8513c878d035ed6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#af5146b579f3454bf8513c878d035ed6f">remove_prefix</a> (<a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n)</td></tr>
+<tr class="separator:af5146b579f3454bf8513c878d035ed6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d5675ed3fc8da5fa14ef463cd13e7ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a1d5675ed3fc8da5fa14ef463cd13e7ae">remove_suffix</a> (<a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n)</td></tr>
+<tr class="separator:a1d5675ed3fc8da5fa14ef463cd13e7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f57a995016db70e5cf6b035b22491e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a0f57a995016db70e5cf6b035b22491e0">swap</a> (<a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;s) noexcept</td></tr>
+<tr class="separator:a0f57a995016db70e5cf6b035b22491e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">comparisons</div></td></tr>
+<tr class="memitem:af5dfa08b0ab462db2e3e23e8c2ca296c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#af5dfa08b0ab462db2e3e23e8c2ca296c">compare</a> (<a class="el" href="classtlx_1_1StringView.html">StringView</a> x) const noexcept</td></tr>
+<tr class="separator:af5dfa08b0ab462db2e3e23e8c2ca296c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ba21aacc60225a30cce3af1a123879a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a0ba21aacc60225a30cce3af1a123879a">compare</a> (<a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos1, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n1, <a class="el" href="classtlx_1_1StringView.html">StringView</a> x) const noexcept</td></tr>
+<tr class="separator:a0ba21aacc60225a30cce3af1a123879a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fdca0d7191c83c7c46ec34ff78a6515"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a0fdca0d7191c83c7c46ec34ff78a6515">compare</a> (<a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos1, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n1, <a class="el" href="classtlx_1_1StringView.html">StringView</a> x, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos2, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n2) const </td></tr>
+<tr class="separator:a0fdca0d7191c83c7c46ec34ff78a6515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a960d28219aa41f0e909d4ad59721dc0f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a960d28219aa41f0e909d4ad59721dc0f">compare</a> (const char *x) const </td></tr>
+<tr class="separator:a960d28219aa41f0e909d4ad59721dc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6700b8aa463645a743afc99177fc3f3e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a6700b8aa463645a743afc99177fc3f3e">compare</a> (<a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos1, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n1, const char *x) const </td></tr>
+<tr class="separator:a6700b8aa463645a743afc99177fc3f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71f82fe649ccd36a9bc04585cb7125e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a71f82fe649ccd36a9bc04585cb7125e1">compare</a> (<a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos1, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n1, const char *x, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n2) const </td></tr>
+<tr class="separator:a71f82fe649ccd36a9bc04585cb7125e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">comparison operators</div></td></tr>
 <tr class="memitem:a07dc430f6202c369627bee2bcbb3f662"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a07dc430f6202c369627bee2bcbb3f662">operator==</a> (const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:a07dc430f6202c369627bee2bcbb3f662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>.  <a href="#a07dc430f6202c369627bee2bcbb3f662">More...</a><br /></td></tr>
+<tr class="memdesc:a07dc430f6202c369627bee2bcbb3f662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator to compare a <a class="el" href="classtlx_1_1StringView.html">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html">StringView</a>.  <a href="#a07dc430f6202c369627bee2bcbb3f662">More...</a><br /></td></tr>
 <tr class="separator:a07dc430f6202c369627bee2bcbb3f662"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb008d9c10d5db952a47554dea39132"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aedb008d9c10d5db952a47554dea39132">operator!=</a> (const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:aedb008d9c10d5db952a47554dea39132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>.  <a href="#aedb008d9c10d5db952a47554dea39132">More...</a><br /></td></tr>
+<tr class="memdesc:aedb008d9c10d5db952a47554dea39132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator to compare a <a class="el" href="classtlx_1_1StringView.html">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html">StringView</a>.  <a href="#aedb008d9c10d5db952a47554dea39132">More...</a><br /></td></tr>
 <tr class="separator:aedb008d9c10d5db952a47554dea39132"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad60a67b890edba4703210118f68dafa6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ad60a67b890edba4703210118f68dafa6">operator&lt;</a> (const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;other) const noexcept</td></tr>
-<tr class="memdesc:ad60a67b890edba4703210118f68dafa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> lexicographically.  <a href="#ad60a67b890edba4703210118f68dafa6">More...</a><br /></td></tr>
+<tr class="memdesc:ad60a67b890edba4703210118f68dafa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less operator to compare a <a class="el" href="classtlx_1_1StringView.html">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html">StringView</a> lexicographically.  <a href="#ad60a67b890edba4703210118f68dafa6">More...</a><br /></td></tr>
 <tr class="separator:ad60a67b890edba4703210118f68dafa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8b55ed3f573eb8a13947e07faad8265"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aa8b55ed3f573eb8a13947e07faad8265">operator==</a> (const std::string &amp;other) const noexcept</td></tr>
-<tr class="memdesc:aa8b55ed3f573eb8a13947e07faad8265"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with a std::string.  <a href="#aa8b55ed3f573eb8a13947e07faad8265">More...</a><br /></td></tr>
-<tr class="separator:aa8b55ed3f573eb8a13947e07faad8265"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f366ded267d3fae051ad2ef74ad5042"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a5f366ded267d3fae051ad2ef74ad5042">operator!=</a> (const std::string &amp;other) const noexcept</td></tr>
-<tr class="memdesc:a5f366ded267d3fae051ad2ef74ad5042"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with a std::string.  <a href="#a5f366ded267d3fae051ad2ef74ad5042">More...</a><br /></td></tr>
-<tr class="separator:a5f366ded267d3fae051ad2ef74ad5042"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afec5ac3362a0b81081907b161160b8a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#afec5ac3362a0b81081907b161160b8a2">operator&lt;</a> (const std::string &amp;other) const noexcept</td></tr>
-<tr class="memdesc:afec5ac3362a0b81081907b161160b8a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with a std::string lexicographically.  <a href="#afec5ac3362a0b81081907b161160b8a2">More...</a><br /></td></tr>
-<tr class="separator:afec5ac3362a0b81081907b161160b8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa48c39f92bc04eded742f5310c74aafe"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#aa48c39f92bc04eded742f5310c74aafe">to_string</a> () const </td></tr>
-<tr class="memdesc:aa48c39f92bc04eded742f5310c74aafe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the data of this <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> as a std::string.  <a href="#aa48c39f92bc04eded742f5310c74aafe">More...</a><br /></td></tr>
-<tr class="separator:aa48c39f92bc04eded742f5310c74aafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa8613bb2dcd52ff601107d63e91f583"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#afa8613bb2dcd52ff601107d63e91f583">operator&gt;</a> (const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:afa8613bb2dcd52ff601107d63e91f583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Greater than.  <a href="#afa8613bb2dcd52ff601107d63e91f583">More...</a><br /></td></tr>
+<tr class="separator:afa8613bb2dcd52ff601107d63e91f583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a580ccdecdc6407828c5b17e063abf00e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a580ccdecdc6407828c5b17e063abf00e">operator&lt;=</a> (const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:a580ccdecdc6407828c5b17e063abf00e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less than or equal to.  <a href="#a580ccdecdc6407828c5b17e063abf00e">More...</a><br /></td></tr>
+<tr class="separator:a580ccdecdc6407828c5b17e063abf00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f3eb8e5aca7a5fdc0d81e4da3db3ca2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a3f3eb8e5aca7a5fdc0d81e4da3db3ca2">operator&gt;=</a> (const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;other) const noexcept</td></tr>
+<tr class="memdesc:a3f3eb8e5aca7a5fdc0d81e4da3db3ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Less than or equal to.  <a href="#a3f3eb8e5aca7a5fdc0d81e4da3db3ca2">More...</a><br /></td></tr>
+<tr class="separator:a3f3eb8e5aca7a5fdc0d81e4da3db3ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">searches</div></td></tr>
+<tr class="memitem:a408809e099428f9be9fcb0f4737d1c1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a408809e099428f9be9fcb0f4737d1c1d">starts_with</a> (char c) const noexcept</td></tr>
+<tr class="separator:a408809e099428f9be9fcb0f4737d1c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd3d97af663036bab60201e44fa70277"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#acd3d97af663036bab60201e44fa70277">starts_with</a> (<a class="el" href="classtlx_1_1StringView.html">StringView</a> x) const noexcept</td></tr>
+<tr class="separator:acd3d97af663036bab60201e44fa70277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dbc13b9cb8f9046f237ee471afe9ed7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a9dbc13b9cb8f9046f237ee471afe9ed7">ends_with</a> (char c) const noexcept</td></tr>
+<tr class="separator:a9dbc13b9cb8f9046f237ee471afe9ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6013776958926265a5007d36199965c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a6013776958926265a5007d36199965c3">ends_with</a> (<a class="el" href="classtlx_1_1StringView.html">StringView</a> x) const noexcept</td></tr>
+<tr class="separator:a6013776958926265a5007d36199965c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">find</div></td></tr>
+<tr class="memitem:a15bee9836cceb9d4af5513e348eaa0a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a15bee9836cceb9d4af5513e348eaa0a9">find</a> (<a class="el" href="classtlx_1_1StringView.html">StringView</a> s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=0) const noexcept</td></tr>
+<tr class="separator:a15bee9836cceb9d4af5513e348eaa0a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd1008e16ad8e4e341550ca282bf17fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#afd1008e16ad8e4e341550ca282bf17fa">find</a> (char c, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=0) const noexcept</td></tr>
+<tr class="separator:afd1008e16ad8e4e341550ca282bf17fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6994678bbfd7f0d176f04486a7ca5508"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a6994678bbfd7f0d176f04486a7ca5508">find</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n) const noexcept</td></tr>
+<tr class="separator:a6994678bbfd7f0d176f04486a7ca5508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85c2d459019944473c16528030fd3e09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a85c2d459019944473c16528030fd3e09">find</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=0) const noexcept</td></tr>
+<tr class="separator:a85c2d459019944473c16528030fd3e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">rfind</div></td></tr>
+<tr class="memitem:a27d2c062cb1543a12feeffa7ea5eca68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a27d2c062cb1543a12feeffa7ea5eca68">rfind</a> (<a class="el" href="classtlx_1_1StringView.html">StringView</a> s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=<a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a>) const noexcept</td></tr>
+<tr class="separator:a27d2c062cb1543a12feeffa7ea5eca68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69e6d33b3d2557912bbfb7af560600e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a69e6d33b3d2557912bbfb7af560600e6">rfind</a> (char c, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=<a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a>) const noexcept</td></tr>
+<tr class="separator:a69e6d33b3d2557912bbfb7af560600e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cc4897b2f2fa394db1bb809ced9a696"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a6cc4897b2f2fa394db1bb809ced9a696">rfind</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n) const noexcept</td></tr>
+<tr class="separator:a6cc4897b2f2fa394db1bb809ced9a696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14fb8a0201478a8c02c58d7135cb0a2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a14fb8a0201478a8c02c58d7135cb0a2b">rfind</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=<a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a>) const noexcept</td></tr>
+<tr class="separator:a14fb8a0201478a8c02c58d7135cb0a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">find_first_of</div></td></tr>
+<tr class="memitem:ac00ac91dc74bb2934cbc234aae5f0647"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ac00ac91dc74bb2934cbc234aae5f0647">find_first_of</a> (<a class="el" href="classtlx_1_1StringView.html">StringView</a> s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=0) const noexcept</td></tr>
+<tr class="separator:ac00ac91dc74bb2934cbc234aae5f0647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793d84aacd6c4fed8b783ad103e5d9fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a793d84aacd6c4fed8b783ad103e5d9fd">find_first_of</a> (char c, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=0) const noexcept</td></tr>
+<tr class="separator:a793d84aacd6c4fed8b783ad103e5d9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56416cc58d1828d7632866bd257fabfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a56416cc58d1828d7632866bd257fabfc">find_first_of</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n) const noexcept</td></tr>
+<tr class="separator:a56416cc58d1828d7632866bd257fabfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010c9c58be780377d7a641d90f55133b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a010c9c58be780377d7a641d90f55133b">find_first_of</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=0) const noexcept</td></tr>
+<tr class="separator:a010c9c58be780377d7a641d90f55133b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">find_last_of</div></td></tr>
+<tr class="memitem:ab6b7d0a2e09ed838d80c8e4d36e2f258"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ab6b7d0a2e09ed838d80c8e4d36e2f258">find_last_of</a> (<a class="el" href="classtlx_1_1StringView.html">StringView</a> s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=<a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a>) const noexcept</td></tr>
+<tr class="separator:ab6b7d0a2e09ed838d80c8e4d36e2f258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad84afe3b38e81766019710ea0e14e657"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ad84afe3b38e81766019710ea0e14e657">find_last_of</a> (char c, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=<a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a>) const noexcept</td></tr>
+<tr class="separator:ad84afe3b38e81766019710ea0e14e657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c4a182bbfc33f297b61095e1b96c5a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a8c4a182bbfc33f297b61095e1b96c5a9">find_last_of</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n) const noexcept</td></tr>
+<tr class="separator:a8c4a182bbfc33f297b61095e1b96c5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b3face51e28dca54309880a622421a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a4b3face51e28dca54309880a622421a9">find_last_of</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=<a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a>) const noexcept</td></tr>
+<tr class="separator:a4b3face51e28dca54309880a622421a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">find_first_not_of</div></td></tr>
+<tr class="memitem:a1703013a46a04885457a4979b81ebb41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a1703013a46a04885457a4979b81ebb41">find_first_not_of</a> (<a class="el" href="classtlx_1_1StringView.html">StringView</a> s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=0) const noexcept</td></tr>
+<tr class="separator:a1703013a46a04885457a4979b81ebb41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f9f6e70958ce4d8b36bec4d82b6bbb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a6f9f6e70958ce4d8b36bec4d82b6bbb8">find_first_not_of</a> (char c, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=0) const noexcept</td></tr>
+<tr class="separator:a6f9f6e70958ce4d8b36bec4d82b6bbb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544f37839a8d7462b8252ab2625ade4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a544f37839a8d7462b8252ab2625ade4d">find_first_not_of</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n) const noexcept</td></tr>
+<tr class="separator:a544f37839a8d7462b8252ab2625ade4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01d26a09182e075a3b72569801bcbaaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a01d26a09182e075a3b72569801bcbaaf">find_first_not_of</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=0) const noexcept</td></tr>
+<tr class="separator:a01d26a09182e075a3b72569801bcbaaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">find_last_not_of</div></td></tr>
+<tr class="memitem:a3af13db34fe2feccf5f9cc2be6f3f65a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a3af13db34fe2feccf5f9cc2be6f3f65a">find_last_not_of</a> (<a class="el" href="classtlx_1_1StringView.html">StringView</a> s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=<a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a>) const noexcept</td></tr>
+<tr class="separator:a3af13db34fe2feccf5f9cc2be6f3f65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a629aa256da5db292a60c1feb568278c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a629aa256da5db292a60c1feb568278c2">find_last_not_of</a> (char c, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=<a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a>) const noexcept</td></tr>
+<tr class="separator:a629aa256da5db292a60c1feb568278c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c1dbce65cb3ba0005759e654dfe00d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a7c1dbce65cb3ba0005759e654dfe00d1">find_last_not_of</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> n) const noexcept</td></tr>
+<tr class="separator:a7c1dbce65cb3ba0005759e654dfe00d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a4d0da184e5f1d9bcb219cf508a40ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a8a4d0da184e5f1d9bcb219cf508a40ff">find_last_not_of</a> (const char *s, <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> pos=<a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a>) const noexcept</td></tr>
+<tr class="separator:a8a4d0da184e5f1d9bcb219cf508a40ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a29abf0eaf62dbe10174db67475599a1b"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></td></tr>
+<tr class="separator:a29abf0eaf62dbe10174db67475599a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a96e2e588cf57a9233c649f874be70b03"><td class="memTemplParams" colspan="2">template&lt;typename r_iter &gt; </td></tr>
+<tr class="memitem:a96e2e588cf57a9233c649f874be70b03"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a96e2e588cf57a9233c649f874be70b03">reverse_distance</a> (r_iter first, r_iter last) const noexcept</td></tr>
+<tr class="separator:a96e2e588cf57a9233c649f874be70b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f1dced97219904b72e062adac157797"><td class="memTemplParams" colspan="2">template&lt;typename Iterator &gt; </td></tr>
+<tr class="memitem:a1f1dced97219904b72e062adac157797"><td class="memTemplItemLeft" align="right" valign="top">Iterator&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a1f1dced97219904b72e062adac157797">find_not_of</a> (Iterator first, Iterator last, <a class="el" href="classtlx_1_1StringView.html">StringView</a> s) const noexcept</td></tr>
+<tr class="separator:a1f1dced97219904b72e062adac157797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a87cb119678e603084928af555fe13e36"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a87cb119678e603084928af555fe13e36">data_</a></td></tr>
-<tr class="memdesc:a87cb119678e603084928af555fe13e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to character data  <a href="#a87cb119678e603084928af555fe13e36">More...</a><br /></td></tr>
-<tr class="separator:a87cb119678e603084928af555fe13e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f31775800bbb46b35b5791def1f3acc"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a5f31775800bbb46b35b5791def1f3acc">size_</a></td></tr>
-<tr class="memdesc:a5f31775800bbb46b35b5791def1f3acc"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of data  <a href="#a5f31775800bbb46b35b5791def1f3acc">More...</a><br /></td></tr>
-<tr class="separator:a5f31775800bbb46b35b5791def1f3acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3562ccc1fbaeaf1cb0f2892aa2f299b9"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a3562ccc1fbaeaf1cb0f2892aa2f299b9">ptr_</a></td></tr>
+<tr class="separator:a3562ccc1fbaeaf1cb0f2892aa2f299b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f3592f75c4916a9a92255c165bd65d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a4f3592f75c4916a9a92255c165bd65d2">size_</a></td></tr>
+<tr class="separator:a4f3592f75c4916a9a92255c165bd65d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a3597d3c56874e0b06b234d5f69453d78"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#a3597d3c56874e0b06b234d5f69453d78">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;sv)</td></tr>
-<tr class="memdesc:a3597d3c56874e0b06b234d5f69453d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">make <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> ostreamable  <a href="#a3597d3c56874e0b06b234d5f69453d78">More...</a><br /></td></tr>
-<tr class="separator:a3597d3c56874e0b06b234d5f69453d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34c7c1f578db22a21811a38c7e43916"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1StringView.html#ac34c7c1f578db22a21811a38c7e43916">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;v)</td></tr>
+<tr class="separator:ac34c7c1f578db22a21811a38c7e43916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> is a reference to a part of a string, consisting of only a char pointer and a length. </p>
-<p>It does not have ownership of the substring and is used mainly for temporary objects. </p>
-
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00032">32</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<div class="textblock">
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00039">39</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a class="anchor" id="aae79f6bd020584af61d94d3c3233df25"></a>
+<a class="anchor" id="aa98ae3d23867bc93f9ed4bbfe0aeb9ba"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1StringView.html#aae79f6bd020584af61d94d3c3233df25">iterator</a> =  const char*</td>
+          <td class="memname">typedef <a class="el" href="classtlx_1_1StringView.html#ae1a2d226f681cdbbc6762fc2fef1b0e1">const_pointer</a> <a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00035">35</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00048">48</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae1a2d226f681cdbbc6762fc2fef1b0e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef const char* <a class="el" href="classtlx_1_1StringView.html#ae1a2d226f681cdbbc6762fc2fef1b0e1">const_pointer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00045">45</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7c6795e897d0578f7de6188861de388"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef const char&amp; <a class="el" href="classtlx_1_1StringView.html#aa7c6795e897d0578f7de6188861de388">const_reference</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00047">47</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a421ef78ccdc84f0f6b2b14e2732527ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::reverse_iterator&lt;<a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a>&gt; <a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00050">50</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad319fc54a93a2c7058c70e40428ed2e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::ptrdiff_t <a class="el" href="classtlx_1_1StringView.html#ad319fc54a93a2c7058c70e40428ed2e2">difference_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00053">53</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acaefede693fea7f92b26de5a6eba58de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a> <a class="el" href="classtlx_1_1StringView.html#acaefede693fea7f92b26de5a6eba58de">iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00049">49</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afa54b351401513c3633b87554bb7bc58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef char* <a class="el" href="classtlx_1_1StringView.html#afa54b351401513c3633b87554bb7bc58">pointer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00044">44</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a214162ba1a25a237fbda0ed12656b0fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef char&amp; <a class="el" href="classtlx_1_1StringView.html#a214162ba1a25a237fbda0ed12656b0fa">reference</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00046">46</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a73f268497355c49d138b0a2737c5be48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a> <a class="el" href="classtlx_1_1StringView.html#a73f268497355c49d138b0a2737c5be48">reverse_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00051">51</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a89a6dcafb6130e3e1bcd6d1285e0dd6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::size_t <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00052">52</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acd77781b83256555c54fe8b83be4d624"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef char <a class="el" href="classtlx_1_1StringView.html#acd77781b83256555c54fe8b83be4d624">value_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00043">43</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a5ea644c8d57a62dfbc10ac44d02854b2"></a>
+<a class="anchor" id="ae870f62a330cf9140b0c019f09c9a4ca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -243,16 +534,18 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Default constructor for a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>. Doesn't initialize anything. </p>
+<p>default construction </p>
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00058">58</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a168d857242f21515f899a581445550e5"></a>
+<a class="anchor" id="a4f59f757ff3a86704879a09dfe587644"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -262,8 +555,34 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> </td>
           <td>(</td>
-          <td class="paramtype">const std::nullptr_t&#160;</td>
-          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>copy construction </p>
+
+</div>
+</div>
+<a class="anchor" id="abe52e3388a6f077a49718397d5f7db3e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -274,20 +593,39 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Creates an empty <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> to a nullptr. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">ptr</td><td>null pointer </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> object. </dd></dl>
+<p>assign a whole string </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00046">46</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00066">66</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9f065f2a979694bfb100a322f4fe2491"></a>
+<a class="anchor" id="a80af7f38fedfe924f8eba7d75b409190"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>constructing a <a class="el" href="classtlx_1_1StringView.html">StringView</a> from a temporary string is a bad idea </p>
+
+</div>
+</div>
+<a class="anchor" id="ad2aa116fcc46b77a161fa520b4a7e97b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -298,12 +636,40 @@ Friends</h2></td></tr>
           <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>assign a whole C-style string </p>
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00073">73</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aae08debc787811d3458bd02302ef6e94"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
           <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
@@ -319,67 +685,13 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Creates a new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given a const char* and the size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">data</td><td>pointer to start of data </td></tr>
-    <tr><td class="paramname">size</td><td>size of data in bytes. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> object. </dd></dl>
+<p>assign a C-style string with given length </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00056">56</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00077">77</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afdc51f7260cdbd87af4951c0ed94a718"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>begin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>end</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given two const char*: the beginning and end of a range of characters. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">begin</td><td>iterator to start of data </td></tr>
-    <tr><td class="paramname">end</td><td>iterator to the end of data. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> object. </dd></dl>
-
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00067">67</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a580f357cfbc72258984d0de5e256d50d"></a>
+<a class="anchor" id="a7ea9939a0ea63978b144d33bb73db63c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -390,7 +702,7 @@ Friends</h2></td></tr>
           <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> </td>
           <td>(</td>
           <td class="paramtype">const std::string::const_iterator &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
+          <td class="paramname"><em>begin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -411,17 +723,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Creates a new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given a const iterator to a std::string and the size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">data</td><td>iterator to start of data </td></tr>
-    <tr><td class="paramname">size</td><td>size of data in character. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> object. </dd></dl>
+<p>assign a string iterator with given length </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00078">78</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00081">81</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -457,21 +761,14 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Creates a new reference <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>, given two const iterators to a std::string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">begin</td><td>iterator to start of data </td></tr>
-    <tr><td class="paramname">end</td><td>iterator to the end of data. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>new <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> object. </dd></dl>
+<p>assign a string between two iterators </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00089">89</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00085">85</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abe52e3388a6f077a49718397d5f7db3e"></a>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a2640e469c64687b93eb4944fad52c92d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -479,28 +776,555 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> </td>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#aa7c6795e897d0578f7de6188861de388">const_reference</a> at </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00131">131</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af181aa8839ff8d5867941fd0f0d214b6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#aa7c6795e897d0578f7de6188861de388">const_reference</a> back </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00138">138</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1ca1fc2c9fc3e169d5d0decfd1e54221"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a> begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00092">92</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abeb76f7f3414f270020e6f467586bd93"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a> cbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00093">93</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9859a454bb6f50c654e280274d6a9d13"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a> cend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00095">95</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a03bfacfaaba9195e4498375659f43531"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Construct a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> to the whole std::string. </p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00145">145</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af5dfa08b0ab462db2e3e23e8c2ca296c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00192">192</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ba21aacc60225a30cce3af1a123879a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00198">198</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0fdca0d7191c83c7c46ec34ff78a6515"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00202">202</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a960d28219aa41f0e909d4ad59721dc0f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int compare </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00207">207</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6700b8aa463645a743afc99177fc3f3e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00211">211</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a71f82fe649ccd36a9bc04585cb7125e1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00215">215</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4310c99bfa88da60866c86d7321412e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> copy </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00175">175</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abd227f43fec65b1bfeb96751b5eea9c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a> crbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00100">100</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acbe115c4709d004c9899ef5855f96288"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a> crend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00106">106</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab44c188bbdaa6e12e1db40700f41d215"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#ae1a2d226f681cdbbc6762fc2fef1b0e1">const_pointer</a> data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3f6fc5de06a318920d84f3c3742db07f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool empty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00118">118</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b9b57293fae9b18b26349ac0b3fdcd3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#aa98ae3d23867bc93f9ed4bbfe0aeb9ba">const_iterator</a> end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00094">94</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="af2229c0adf8aa5bf952a50217c59ed66"></a>
+<a class="anchor" id="a9dbc13b9cb8f9046f237ee471afe9ed7"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -508,7 +1332,876 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#aae79f6bd020584af61d94d3c3233df25">iterator</a> begin </td>
+          <td class="memname">bool ends_with </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00271">271</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6013776958926265a5007d36199965c3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ends_with </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00275">275</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a15bee9836cceb9d4af5513e348eaa0a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00285">285</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afd1008e16ad8e4e341550ca282bf17fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00294">294</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6994678bbfd7f0d176f04486a7ca5508"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00297">297</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85c2d459019944473c16528030fd3e09"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00300">300</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1703013a46a04885457a4979b81ebb41"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_first_not_of </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00388">388</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6f9f6e70958ce4d8b36bec4d82b6bbb8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_first_not_of </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00397">397</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a544f37839a8d7462b8252ab2625ade4d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_first_not_of </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00400">400</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a01d26a09182e075a3b72569801bcbaaf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_first_not_of </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00404">404</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac00ac91dc74bb2934cbc234aae5f0647"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_first_of </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00338">338</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a793d84aacd6c4fed8b783ad103e5d9fd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_first_of </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00345">345</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a56416cc58d1828d7632866bd257fabfc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_first_of </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00348">348</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a010c9c58be780377d7a641d90f55133b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_first_of </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00352">352</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3af13db34fe2feccf5f9cc2be6f3f65a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_last_not_of </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00414">414</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a629aa256da5db292a60c1feb568278c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_last_not_of </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00424">424</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7c1dbce65cb3ba0005759e654dfe00d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_last_not_of </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00427">427</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8a4d0da184e5f1d9bcb219cf508a40ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_last_not_of </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00431">431</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab6b7d0a2e09ed838d80c8e4d36e2f258"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_last_of </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00361">361</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad84afe3b38e81766019710ea0e14e657"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_last_of </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00372">372</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8c4a182bbfc33f297b61095e1b96c5a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_last_of </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00375">375</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4b3face51e28dca54309880a622421a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> find_last_of </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00379">379</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1f1dced97219904b72e062adac157797"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Iterator find_not_of </td>
+          <td>(</td>
+          <td class="paramtype">Iterator&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Iterator&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00453">453</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b5b57596df7e42e35dcd646906cb438"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#aa7c6795e897d0578f7de6188861de388">const_reference</a> front </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00137">137</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a64e887d985f4e8716afb3fa1fa1d88e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> length </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -521,13 +2214,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the beginning of the data. </p>
-
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00103">103</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00116">116</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a6751505350edd6333a3fb282c470778c"></a>
+<a class="anchor" id="ac2a85e463df4e95c1bf051cfb8237805"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -535,7 +2226,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const char* data </td>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> max_size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -548,13 +2239,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the start of the data. </p>
-
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00098">98</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00117">117</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="abae6cd3d55419f6d04ab0a16ebf5caa1"></a>
+<a class="anchor" id="a7d27cc515e59f676f08d399124be099d"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -562,7 +2251,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#aae79f6bd020584af61d94d3c3233df25">iterator</a> end </td>
+          <td class="memname">operator std::string </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -570,14 +2259,12 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer beyond the end of the data. </p>
-
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00108">108</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00168">168</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -603,37 +2290,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Inequality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>. </p>
+<p>Inequality operator to compare a <a class="el" href="classtlx_1_1StringView.html">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html">StringView</a>. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00124">124</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5f366ded267d3fae051ad2ef74ad5042"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Inequality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with a std::string. </p>
-
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00142">142</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00232">232</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -659,13 +2318,13 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Less operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> lexicographically. </p>
+<p>Less operator to compare a <a class="el" href="classtlx_1_1StringView.html">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html">StringView</a> lexicographically. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00130">130</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00238">238</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="afec5ac3362a0b81081907b161160b8a2"></a>
+<a class="anchor" id="a580ccdecdc6407828c5b17e063abf00e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -673,9 +2332,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool operator&lt; </td>
+          <td class="memname">bool operator&lt;= </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -687,9 +2346,35 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Less operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with a std::string lexicographically. </p>
+<p>Less than or equal to. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00148">148</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00249">249</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79567d1846de60691af5b10baf652ef3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&amp; operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>assignment </p>
 
 </div>
 </div>
@@ -715,13 +2400,13 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Equality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>. </p>
+<p>Equality operator to compare a <a class="el" href="classtlx_1_1StringView.html">StringView</a> with another <a class="el" href="classtlx_1_1StringView.html">StringView</a>. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00118">118</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00226">226</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa8b55ed3f573eb8a13947e07faad8265"></a>
+<a class="anchor" id="afa8613bb2dcd52ff601107d63e91f583"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -729,9 +2414,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool operator== </td>
+          <td class="memname">bool operator&gt; </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -743,13 +2428,13 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Equality operator to compare a <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> with a std::string. </p>
+<p>Greater than. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00136">136</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00244">244</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a3caedb145a667c26028740417dcf32c3"></a>
+<a class="anchor" id="a3f3eb8e5aca7a5fdc0d81e4da3db3ca2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -757,7 +2442,61 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t size </td>
+          <td class="memname">bool operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Less than or equal to. </p>
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00254">254</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc4fb3359aa1c38d064e9ca47599e0cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#aa7c6795e897d0578f7de6188861de388">const_reference</a> operator[] </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aff2c14a4e54378db02316aa5dacce912"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a> rbegin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -770,9 +2509,409 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the size of this <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a>. </p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00097">97</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00113">113</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+</div>
+</div>
+<a class="anchor" id="af5146b579f3454bf8513c878d035ed6f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void remove_prefix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00147">147</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d5675ed3fc8da5fa14ef463cd13e7ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void remove_suffix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00154">154</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac5bfd48090cb59d7dd635954831415df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a421ef78ccdc84f0f6b2b14e2732527ba">const_reverse_iterator</a> rend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00103">103</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a96e2e588cf57a9233c649f874be70b03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> reverse_distance </td>
+          <td>(</td>
+          <td class="paramtype">r_iter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">r_iter&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00446">446</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a27d2c062cb1543a12feeffa7ea5eca68"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> rfind </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00309">309</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a69e6d33b3d2557912bbfb7af560600e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> rfind </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00323">323</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6cc4897b2f2fa394db1bb809ced9a696"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> rfind </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00326">326</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a14fb8a0201478a8c02c58d7135cb0a2b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> rfind </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00329">329</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0801762a3fe36fe32dca5f16e515478d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00115">115</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a408809e099428f9be9fcb0f4737d1c1d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool starts_with </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00263">263</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acd3d97af663036bab60201e44fa70277"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool starts_with </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a>&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00267">267</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aca857f75fe421fe22af6a359357f48b4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html">StringView</a> substr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em> = <code><a class="el" href="classtlx_1_1StringView.html#a29abf0eaf62dbe10174db67475599a1b">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00183">183</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f57a995016db70e5cf6b035b22491e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00160">160</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -797,14 +2936,14 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the data of this <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> as a std::string. </p>
+<p>Returns the data of this <a class="el" href="classtlx_1_1StringView.html">StringView</a> as a std::string. </p>
 
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00159">159</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00173">173</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a class="anchor" id="a3597d3c56874e0b06b234d5f69453d78"></a>
+<a class="anchor" id="ac34c7c1f578db22a21811a38c7e43916"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -821,7 +2960,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classtlx_1_1StringView.html">StringView</a> &amp;&#160;</td>
-          <td class="paramname"><em>sv</em>&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -836,14 +2975,12 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>make <a class="el" href="classtlx_1_1StringView.html" title="StringView is a reference to a part of a string, consisting of only a char pointer and a length...">StringView</a> ostreamable </p>
-
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00154">154</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00439">439</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a87cb119678e603084928af555fe13e36"></a>
+<a class="anchor" id="a29abf0eaf62dbe10174db67475599a1b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -851,7 +2988,29 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const char* data_</td>
+          <td class="memname">constexpr <a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> npos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00055">55</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3562ccc1fbaeaf1cb0f2892aa2f299b9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* ptr_</td>
         </tr>
       </table>
   </td>
@@ -861,13 +3020,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>pointer to character data </p>
-
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00167">167</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00461">461</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a5f31775800bbb46b35b5791def1f3acc"></a>
+<a class="anchor" id="a4f3592f75c4916a9a92255c165bd65d2"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -875,7 +3032,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t size_</td>
+          <td class="memname"><a class="el" href="classtlx_1_1StringView.html#a89a6dcafb6130e3e1bcd6d1285e0dd6f">size_type</a> size_</td>
         </tr>
       </table>
   </td>
@@ -885,9 +3042,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>size of data </p>
-
-<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00169">169</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
+<p>Definition at line <a class="el" href="string__view_8hpp_source.html#l00462">462</a> of file <a class="el" href="string__view_8hpp_source.html">string_view.hpp</a>.</p>
 
 </div>
 </div>
@@ -900,7 +3055,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1StringView.html">StringView</a></li>
-    <li class="footer">Generated on Fri Aug 14 2020 15:58:02 for tlx by
+    <li class="footer">Generated on Mon Aug 17 2020 13:45:34 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
