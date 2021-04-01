@@ -136,14 +136,14 @@ Public Types</h2></td></tr>
 <tr class="separator:a1b9340a5b56dce81fa182aee8c64e363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa4e55910e087a8c2393c8e09eb78b4f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#afa4e55910e087a8c2393c8e09eb78b4f">alloc_traits</a> = std::allocator_traits&lt; <a class="el" href="classtlx_1_1RingBuffer.html#a1b9340a5b56dce81fa182aee8c64e363">allocator_type</a> &gt;</td></tr>
 <tr class="separator:afa4e55910e087a8c2393c8e09eb78b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3386b4404c6a6b493b35ff08e1b57217"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a3386b4404c6a6b493b35ff08e1b57217">reference</a> = typename allocator_type::reference</td></tr>
-<tr class="separator:a3386b4404c6a6b493b35ff08e1b57217"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19b0fa325e3dfdd4d732bb52c8f20e93"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a19b0fa325e3dfdd4d732bb52c8f20e93">const_reference</a> = typename allocator_type::const_reference</td></tr>
-<tr class="separator:a19b0fa325e3dfdd4d732bb52c8f20e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eb349cbe5db02193774b9026a90df1c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a1eb349cbe5db02193774b9026a90df1c">pointer</a> = typename allocator_type::pointer</td></tr>
-<tr class="separator:a1eb349cbe5db02193774b9026a90df1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a942671c3bf981a9c6aed99563af3ae3f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a942671c3bf981a9c6aed99563af3ae3f">const_pointer</a> = typename allocator_type::const_pointer</td></tr>
-<tr class="separator:a942671c3bf981a9c6aed99563af3ae3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16f6589695f3c453680a8c28172fafe0"><td class="memItemLeft" align="right" valign="top">typedef Type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a16f6589695f3c453680a8c28172fafe0">reference</a></td></tr>
+<tr class="separator:a16f6589695f3c453680a8c28172fafe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfe0524dd921a639edfac7f40866ebd5"><td class="memItemLeft" align="right" valign="top">typedef const Type &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#adfe0524dd921a639edfac7f40866ebd5">const_reference</a></td></tr>
+<tr class="separator:adfe0524dd921a639edfac7f40866ebd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b19c6288237baf5eb7b139ee3913721"><td class="memItemLeft" align="right" valign="top">typedef Type *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a0b19c6288237baf5eb7b139ee3913721">pointer</a></td></tr>
+<tr class="separator:a0b19c6288237baf5eb7b139ee3913721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ff027142c1ba00a9b85d64f69e20d30"><td class="memItemLeft" align="right" valign="top">typedef const Type *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a3ff027142c1ba00a9b85d64f69e20d30">const_pointer</a></td></tr>
+<tr class="separator:a3ff027142c1ba00a9b85d64f69e20d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc178afcc34fc9f6a71f60f1c305084d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#adc178afcc34fc9f6a71f60f1c305084d">size_type</a> = typename allocator_type::size_type</td></tr>
 <tr class="separator:adc178afcc34fc9f6a71f60f1c305084d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4db1526a7432629938f1aba3203accaa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a4db1526a7432629938f1aba3203accaa">difference_type</a> = typename allocator_type::difference_type</td></tr>
@@ -212,22 +212,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac4eb8f7058fc153a56de3da92a8f4817"><td class="mdescLeft">&#160;</td><td class="mdescRight">move all element from the <a class="el" href="classtlx_1_1RingBuffer.html" title="A ring (circular) buffer of static (non-growing) size. ">RingBuffer</a> into the vector  <a href="#ac4eb8f7058fc153a56de3da92a8f4817">More...</a><br /></td></tr>
 <tr class="separator:ac4eb8f7058fc153a56de3da92a8f4817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Element access</div></td></tr>
-<tr class="memitem:aab6af54d683011c8da699fd13cf22b56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#a3386b4404c6a6b493b35ff08e1b57217">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#aab6af54d683011c8da699fd13cf22b56">operator[]</a> (<a class="el" href="classtlx_1_1RingBuffer.html#adc178afcc34fc9f6a71f60f1c305084d">size_type</a> i) noexcept</td></tr>
+<tr class="memitem:aab6af54d683011c8da699fd13cf22b56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#a16f6589695f3c453680a8c28172fafe0">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#aab6af54d683011c8da699fd13cf22b56">operator[]</a> (<a class="el" href="classtlx_1_1RingBuffer.html#adc178afcc34fc9f6a71f60f1c305084d">size_type</a> i) noexcept</td></tr>
 <tr class="memdesc:aab6af54d683011c8da699fd13cf22b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the i-th element.  <a href="#aab6af54d683011c8da699fd13cf22b56">More...</a><br /></td></tr>
 <tr class="separator:aab6af54d683011c8da699fd13cf22b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d4e17439baa2cdfd0be4cca86577251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#a19b0fa325e3dfdd4d732bb52c8f20e93">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a7d4e17439baa2cdfd0be4cca86577251">operator[]</a> (<a class="el" href="classtlx_1_1RingBuffer.html#adc178afcc34fc9f6a71f60f1c305084d">size_type</a> i) const noexcept</td></tr>
+<tr class="memitem:a7d4e17439baa2cdfd0be4cca86577251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#adfe0524dd921a639edfac7f40866ebd5">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a7d4e17439baa2cdfd0be4cca86577251">operator[]</a> (<a class="el" href="classtlx_1_1RingBuffer.html#adc178afcc34fc9f6a71f60f1c305084d">size_type</a> i) const noexcept</td></tr>
 <tr class="memdesc:a7d4e17439baa2cdfd0be4cca86577251"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the i-th element.  <a href="#a7d4e17439baa2cdfd0be4cca86577251">More...</a><br /></td></tr>
 <tr class="separator:a7d4e17439baa2cdfd0be4cca86577251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa688f5c7b1552245701b0d16d6b95ec6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#a3386b4404c6a6b493b35ff08e1b57217">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#aa688f5c7b1552245701b0d16d6b95ec6">front</a> () noexcept</td></tr>
+<tr class="memitem:aa688f5c7b1552245701b0d16d6b95ec6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#a16f6589695f3c453680a8c28172fafe0">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#aa688f5c7b1552245701b0d16d6b95ec6">front</a> () noexcept</td></tr>
 <tr class="memdesc:aa688f5c7b1552245701b0d16d6b95ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the first element.  <a href="#aa688f5c7b1552245701b0d16d6b95ec6">More...</a><br /></td></tr>
 <tr class="separator:aa688f5c7b1552245701b0d16d6b95ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6ce9aca34b12f7e9794186afdbd8025"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#a19b0fa325e3dfdd4d732bb52c8f20e93">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#af6ce9aca34b12f7e9794186afdbd8025">front</a> () const noexcept</td></tr>
+<tr class="memitem:af6ce9aca34b12f7e9794186afdbd8025"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#adfe0524dd921a639edfac7f40866ebd5">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#af6ce9aca34b12f7e9794186afdbd8025">front</a> () const noexcept</td></tr>
 <tr class="memdesc:af6ce9aca34b12f7e9794186afdbd8025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the first element.  <a href="#af6ce9aca34b12f7e9794186afdbd8025">More...</a><br /></td></tr>
 <tr class="separator:af6ce9aca34b12f7e9794186afdbd8025"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9870425783540b4ca3fe8052772fcaa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#a3386b4404c6a6b493b35ff08e1b57217">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a9870425783540b4ca3fe8052772fcaa8">back</a> () noexcept</td></tr>
+<tr class="memitem:a9870425783540b4ca3fe8052772fcaa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#a16f6589695f3c453680a8c28172fafe0">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#a9870425783540b4ca3fe8052772fcaa8">back</a> () noexcept</td></tr>
 <tr class="memdesc:a9870425783540b4ca3fe8052772fcaa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the last element.  <a href="#a9870425783540b4ca3fe8052772fcaa8">More...</a><br /></td></tr>
 <tr class="separator:a9870425783540b4ca3fe8052772fcaa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc77f0e3f44c6712f6bf4aa5f452a99f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#a19b0fa325e3dfdd4d732bb52c8f20e93">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#afc77f0e3f44c6712f6bf4aa5f452a99f">back</a> () const noexcept</td></tr>
+<tr class="memitem:afc77f0e3f44c6712f6bf4aa5f452a99f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtlx_1_1RingBuffer.html#adfe0524dd921a639edfac7f40866ebd5">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtlx_1_1RingBuffer.html#afc77f0e3f44c6712f6bf4aa5f452a99f">back</a> () const noexcept</td></tr>
 <tr class="memdesc:afc77f0e3f44c6712f6bf4aa5f452a99f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the last element.  <a href="#afc77f0e3f44c6712f6bf4aa5f452a99f">More...</a><br /></td></tr>
 <tr class="separator:afc77f0e3f44c6712f6bf4aa5f452a99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Capacity</div></td></tr>
@@ -312,12 +312,12 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
 
 </div>
 </div>
-<a class="anchor" id="a942671c3bf981a9c6aed99563af3ae3f"></a>
+<a class="anchor" id="a3ff027142c1ba00a9b85d64f69e20d30"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1RingBuffer.html#a942671c3bf981a9c6aed99563af3ae3f">const_pointer</a> =  typename allocator_type::const_pointer</td>
+          <td class="memname">typedef const Type* <a class="el" href="classtlx_1_1RingBuffer.html#a3ff027142c1ba00a9b85d64f69e20d30">const_pointer</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -326,12 +326,12 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
 
 </div>
 </div>
-<a class="anchor" id="a19b0fa325e3dfdd4d732bb52c8f20e93"></a>
+<a class="anchor" id="adfe0524dd921a639edfac7f40866ebd5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1RingBuffer.html#a19b0fa325e3dfdd4d732bb52c8f20e93">const_reference</a> =  typename allocator_type::const_reference</td>
+          <td class="memname">typedef const Type&amp; <a class="el" href="classtlx_1_1RingBuffer.html#adfe0524dd921a639edfac7f40866ebd5">const_reference</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -354,12 +354,12 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
 
 </div>
 </div>
-<a class="anchor" id="a1eb349cbe5db02193774b9026a90df1c"></a>
+<a class="anchor" id="a0b19c6288237baf5eb7b139ee3913721"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1RingBuffer.html#a1eb349cbe5db02193774b9026a90df1c">pointer</a> =  typename allocator_type::pointer</td>
+          <td class="memname">typedef Type* <a class="el" href="classtlx_1_1RingBuffer.html#a0b19c6288237baf5eb7b139ee3913721">pointer</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -368,12 +368,12 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
 
 </div>
 </div>
-<a class="anchor" id="a3386b4404c6a6b493b35ff08e1b57217"></a>
+<a class="anchor" id="a16f6589695f3c453680a8c28172fafe0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classtlx_1_1RingBuffer.html#a3386b4404c6a6b493b35ff08e1b57217">reference</a> =  typename allocator_type::reference</td>
+          <td class="memname">typedef Type&amp; <a class="el" href="classtlx_1_1RingBuffer.html#a16f6589695f3c453680a8c28172fafe0">reference</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -591,7 +591,7 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#a3386b4404c6a6b493b35ff08e1b57217">reference</a> back </td>
+          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#a16f6589695f3c453680a8c28172fafe0">reference</a> back </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -618,7 +618,7 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#a19b0fa325e3dfdd4d732bb52c8f20e93">const_reference</a> back </td>
+          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#adfe0524dd921a639edfac7f40866ebd5">const_reference</a> back </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -837,7 +837,7 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#a3386b4404c6a6b493b35ff08e1b57217">reference</a> front </td>
+          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#a16f6589695f3c453680a8c28172fafe0">reference</a> front </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -864,7 +864,7 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#a19b0fa325e3dfdd4d732bb52c8f20e93">const_reference</a> front </td>
+          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#adfe0524dd921a639edfac7f40866ebd5">const_reference</a> front </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1028,7 +1028,7 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#a3386b4404c6a6b493b35ff08e1b57217">reference</a> operator[] </td>
+          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#a16f6589695f3c453680a8c28172fafe0">reference</a> operator[] </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classtlx_1_1RingBuffer.html#adc178afcc34fc9f6a71f60f1c305084d">size_type</a>&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -1056,7 +1056,7 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#a19b0fa325e3dfdd4d732bb52c8f20e93">const_reference</a> operator[] </td>
+          <td class="memname"><a class="el" href="classtlx_1_1RingBuffer.html#adfe0524dd921a639edfac7f40866ebd5">const_reference</a> operator[] </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classtlx_1_1RingBuffer.html#adc178afcc34fc9f6a71f60f1c305084d">size_type</a>&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -1475,7 +1475,7 @@ class tlx::RingBuffer&lt; Type, Allocator &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetlx.html">tlx</a></li><li class="navelem"><a class="el" href="classtlx_1_1RingBuffer.html">RingBuffer</a></li>
-    <li class="footer">Generated on Thu Apr 1 2021 14:14:38 for tlx by
+    <li class="footer">Generated on Thu Apr 1 2021 14:59:22 for tlx by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
