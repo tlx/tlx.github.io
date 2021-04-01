@@ -1,5 +1,6 @@
 var group__tlx__define =
 [
+    [ "TLX_ADVANCED_CONSTEXPR", "group__tlx__define.html#ga3398224acc4c71b2b1c96b2e6f638bb8", null ],
     [ "TLX_ATTRIBUTE_ALWAYS_INLINE", "group__tlx__define.html#ga5d779c30fa5cef6c3f324e317baeac98", null ],
     [ "TLX_ATTRIBUTE_FALLTHROUGH", "group__tlx__define.html#gaef4c8c47666df608a52ca26e05002008", null ],
     [ "TLX_ATTRIBUTE_FORMAT_PRINTF", "group__tlx__define.html#ga246a72d6938b4e4a40f11571a676b472", null ],

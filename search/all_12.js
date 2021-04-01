@@ -39,6 +39,7 @@ var searchData=
   ['timestamp_2ecpp',['timestamp.cpp',['../timestamp_8cpp.html',1,'']]],
   ['timestamp_2ehpp',['timestamp.hpp',['../timestamp_8hpp.html',1,'']]],
   ['tlx',['tlx',['../namespacetlx.html',1,'tlx'],['../group__tlx.html',1,'(Global Namespace)']]],
+  ['tlx_5fadvanced_5fconstexpr',['TLX_ADVANCED_CONSTEXPR',['../group__tlx__define.html#ga3398224acc4c71b2b1c96b2e6f638bb8',1,'constexpr.hpp']]],
   ['tlx_5fassert_5fequal',['tlx_assert_equal',['../die_2core_8hpp.html#aa96e510b8ec83cfbd1e73234561be9ff',1,'core.hpp']]],
   ['tlx_5fassert_5funequal',['tlx_assert_unequal',['../die_2core_8hpp.html#aece8f3f5e64bb5e611fe6c21f0106dd1',1,'core.hpp']]],
   ['tlx_5fattribute_5falways_5finline',['TLX_ATTRIBUTE_ALWAYS_INLINE',['../group__tlx__define.html#ga5d779c30fa5cef6c3f324e317baeac98',1,'attribute_always_inline.hpp']]],
