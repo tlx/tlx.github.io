@@ -1,6 +1,6 @@
 var structtlx_1_1BTree_1_1LeafNode =
 [
-    [ "alloc_type", "structtlx_1_1BTree_1_1LeafNode.html#a022e856be0486dadd1a67f21a65562f4", null ],
+    [ "alloc_type", "structtlx_1_1BTree_1_1LeafNode.html#a4128fcf2ecb19e1ebecf4552cdde8c89", null ],
     [ "initialize", "structtlx_1_1BTree_1_1LeafNode.html#a25a40b6614565f755233080a384c35f1", null ],
     [ "is_few", "structtlx_1_1BTree_1_1LeafNode.html#a6b3d146cb22feb18ab880a19892aa01a", null ],
     [ "is_full", "structtlx_1_1BTree_1_1LeafNode.html#ae028d16479603404a2f2b71bfc0abe82", null ],
